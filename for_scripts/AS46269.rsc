@@ -1,0 +1,28 @@
+:global COMMENT
+/ip firewall address-list
+:do {add list=AS46269 comment=$COMMENT address=158.228.0.0/23} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.100.0/22} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.104.0/21} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.112.0/21} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.123.0/24} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.124.0/22} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.128.0/19} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.161.0/24} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.164.0/23} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.192.0/19} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.2.0/24} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.20.0/22} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.229.0/24} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.24.0/22} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.253.0/24} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.254.0/23} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.28.0/23} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.30.0/24} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.32.0/21} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.4.0/22} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.44.0/23} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.48.0/20} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.73.0/24} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.74.0/23} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.76.0/22} on-error {}
+:do {add list=AS46269 comment=$COMMENT address=158.228.8.0/22} on-error {}

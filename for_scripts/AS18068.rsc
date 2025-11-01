@@ -1,0 +1,31 @@
+:global COMMENT
+/ip firewall address-list
+:do {add list=AS18068 comment=$COMMENT address=103.225.144.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=103.240.116.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=103.243.152.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=103.40.96.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=103.48.136.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=119.82.8.0/21} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=133.88.0.0/20} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=137.59.232.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=180.222.32.0/20} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=180.222.48.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=180.222.56.0/21} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=202.43.96.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=202.94.176.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=202.94.180.0/23} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=202.94.184.0/21} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=202.94.192.0/19} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=218.223.64.0/20} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=218.223.80.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=218.223.84.0/23} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=218.223.88.0/21} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=27.100.10.0/23} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=27.100.28.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=27.100.8.0/24} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=43.229.244.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=45.113.4.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=49.143.240.0/24} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=49.143.242.0/23} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=49.143.244.0/22} on-error {}
+:do {add list=AS18068 comment=$COMMENT address=59.153.204.0/22} on-error {}

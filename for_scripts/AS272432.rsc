@@ -1,0 +1,28 @@
+:global COMMENT
+/ip firewall address-list
+:do {add list=AS272432 comment=$COMMENT address=148.59.72.0/24} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=159.112.236.0/23} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=169.150.0.0/23} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=177.154.60.0/22} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=177.93.128.0/21} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=177.93.136.0/23} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.0.0/21} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.10.0/24} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.12.0/22} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.16.0/22} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.20.0/23} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.24.0/22} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.29.0/24} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.30.0/23} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.64.0/20} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.8.0/23} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.23.95.0/24} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.54.0.0/22} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.54.16.0/21} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.54.31.0/24} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=201.54.8.0/21} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=209.127.140.0/23} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=209.172.6.0/23} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=213.163.246.0/23} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=58.84.12.0/23} on-error {}
+:do {add list=AS272432 comment=$COMMENT address=86.111.54.0/23} on-error {}

@@ -1,0 +1,36 @@
+:global COMMENT
+/ip firewall address-list
+:do {add list=AS133776 comment=$COMMENT address=106.126.0.0/20} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=110.81.152.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=110.85.4.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=117.24.0.0/20} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=120.33.34.0/24} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=120.33.50.0/24} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=120.37.140.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=121.204.244.0/22} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=121.204.248.0/22} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=121.204.252.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=121.205.6.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=121.205.88.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=121.205.90.0/24} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=125.77.128.0/19} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=125.77.160.0/20} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=125.77.176.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=125.78.88.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=218.5.112.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=218.66.170.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=220.160.32.0/20} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=222.77.96.0/24} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=27.150.128.0/21} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=27.150.136.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=27.152.180.0/22} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=27.152.184.0/21} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=27.152.28.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=27.152.60.0/24} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=59.57.12.0/23} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=59.57.15.0/24} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=59.60.21.0/24} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=59.60.28.0/24} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=59.60.30.0/24} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=59.60.40.0/24} on-error {}
+:do {add list=AS133776 comment=$COMMENT address=61.154.116.0/24} on-error {}

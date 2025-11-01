@@ -1,0 +1,18 @@
+:global COMMENT
+/ip firewall address-list
+:do {add list=AS56201 comment=$COMMENT address=103.103.196.0/22} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=103.117.158.0/23} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=103.122.78.0/24} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=103.84.216.0/22} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=103.89.74.0/23} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=169.148.132.0/22} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=169.148.136.0/21} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=169.148.144.0/22} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=169.148.148.0/23} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=169.148.150.0/24} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=169.148.172.0/22} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=169.148.176.0/22} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=169.148.180.0/24} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=199.67.76.0/22} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=199.67.94.0/23} on-error {}
+:do {add list=AS56201 comment=$COMMENT address=43.239.212.0/22} on-error {}

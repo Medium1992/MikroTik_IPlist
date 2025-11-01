@@ -1,9 +1,0 @@
-:global COMMENT
-/ip firewall address-list
-:do {add list=AS11432 comment=$COMMENT address=200.155.128.0/18} on-error {}
-:do {add list=AS11432 comment=$COMMENT address=200.170.192.0/18} on-error {}
-:do {add list=AS11432 comment=$COMMENT address=200.194.248.0/21} on-error {}
-:do {add list=AS11432 comment=$COMMENT address=200.201.128.0/19} on-error {}
-:do {add list=AS11432 comment=$COMMENT address=204.157.77.0/24} on-error {}
-:do {add list=AS11432 comment=$COMMENT address=38.211.38.0/24} on-error {}
-:do {add list=AS11432 comment=$COMMENT address=38.52.204.0/24} on-error {}

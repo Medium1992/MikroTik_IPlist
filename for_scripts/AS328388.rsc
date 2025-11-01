@@ -1,4 +1,0 @@
-:global COMMENT
-/ip firewall address-list
-:do {add list=AS328388 comment=$COMMENT address=102.130.16.0/20} on-error {}
-:do {add list=AS328388 comment=$COMMENT address=102.204.224.0/22} on-error {}

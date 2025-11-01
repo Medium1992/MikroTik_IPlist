@@ -87,7 +87,7 @@ jobs:
       # ========================================
       # 2. MetaCubeX/meta-rules-dat (branch: meta)
       # ========================================
-      - name: Clone MetaCubeX/meta-rules-dat (branch: meta)
+      - name: Clone MetaCubeX/meta-rules-dat (branch-meta)
         run: |
           git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
           echo "Cloned MetaCubeX/meta-rules-dat (meta)"

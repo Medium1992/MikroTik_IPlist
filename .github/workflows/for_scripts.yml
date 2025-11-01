@@ -1,4 +1,4 @@
-name: Generate MikroTik CIDR RSC Files
+name: Generate MikroTik CIDR RSC Files (Flexible List)
 on:
   schedule:
     - cron: "30 0 * * *" # 00:30 UTC
@@ -7,7 +7,6 @@ permissions:
   contents: write
 env:
   MAX_ENTRIES_PER_FILE: 350
-  # Сайты для iplist.opencck.org
   SITE_LIST: "amedia.site,anidub.pro,anilibria.tv,animego.org,animevost.org,bato.to,crunchyroll.com,jut.su,kara.su,kodik.info,mangahub.ru,mangapark.net,nyaa.land,nyaa.si,yummyanime.tv,danbooru.donmai.us,deviantart.com,ficbook.net,gelbooru.com,hentaichan.live,infinitenovel.eu,pixiv.net,rulate.ru,vndb.org,younettranslate.com,7k.casino,combotech,vavada.com,discord.com,discord.gg,discord.media,duolingo.com,grammarly.com,mrakopedia.net,refactoring.guru,wikiart.org,znanija.com,chess.com,itch.io,jetbrains.com,jetbrains%40cdn,jetbrains%40grazie.ai,messenger.com,signal.org,telegram.org,viber.com,whatsapp.com,zello.com,soundcloud.com,spotify.com,tidal.com,agents.media,agentura.ru,bbc.com,bellingcat.com,cherta.media,colta.ru,currenttime.tv,dept.one,doxa.team,dw.com,echofm.online,ehorussia.com,ej.ru,euronews.com,exler.ru,golosameriki.com,gordonua.com,gulagu.net,holod.media,hrw.org,istories.media,kasparov.ru,kavkaz-uzel.eu,korrespondent.net,krymr.com,meduza.io,memohrc.org,moscowtimes.ru,navalny.com,newtimes.ru,novayagazeta.ru,ovd.info,paperpaper.ru,polit.ru,proekt.media,prostovpn.org,radiosvoboda.org,semnasem.org,svoboda.org,tayga.info,the-village.ru,theins.ru,thetruestory.news,tvrain.ru,unian.net,verstka.media,vot-tak.tv,zona.media,beeg.com,hqporner.com,pornhub.com,pornolab.net,reddxxx.com,redgifs.com,redtube.com,rule34.xxx,xhamster.com,xhamsterlive.com,xnxx-ru.com,xvideos.com,babook.org,ralphlauren.eu,facebook.com,instagram.com,linkedin.com,patreon.com,quora.com,tiktok.com,x.com,10minutemail.com,aistudio.google.com,basecamp.com,bestchange.ru,canva.com,chatgpt.com,claude.ai,connect.garmin.com,copilot,deepl.com,elevenlabs.io,fmhy.net,grok.com,linktr.ee,make.com,medium.com,miro.com,naukri.com,notepad-plus-plus.org,notion.so,proton.me,proxyline.net,sentry.io,strava.com,trainingpeaks.com,tuta.com,whoop.com,zapier.com,1337x.to,booktracker.org,filmitorrent.net,freetp.org,kinozal.me,newstudio.tv,nnmclub.to,rustorka.com,rutor.info,rutracker.org,thepiratebay.org,torrent.by,daramalive.life,doramy.club,filmix.fm,hdrezka.ag,kino.pub,kinobase.org,kinovod.pro,kinozal.tv,lostfilm.tv,netflix.com,themoviedb.org,zeflix.online,youtube.com"
   CIDR4_URL_TEMPLATE: https://iplist.opencck.org/?format=text&data=cidr4&site={site}
   IP4_URL_TEMPLATE: https://iplist.opencck.org/?format=text&data=ip4&site={site}
@@ -32,20 +31,16 @@ jobs:
 
           for site in "${site_array[@]}"; do
             site=$(echo "$site" | xargs)
-            echo "Processing CIDR4 for site: $site"
+            echo "Processing CIDR4 for site: $site → $OUTPUT_DIR/${site}.rsc"
             cidr_url="${CIDR4_URL_TEMPLATE//\{site\}/$site}"
 
             if ! curl -s -f "$cidr_url" > "input_cidr4_$site.txt"; then
-              echo "Failed to fetch CIDR4 for $site, skipping..."
+              echo "Failed to fetch CIDR4 for $site"
               continue
             fi
 
             cidrs=$(grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}$' "input_cidr4_$site.txt" | sort -u)
-
-            if [ -z "$cidrs" ]; then
-              echo "No valid IPv4 CIDR for $site, skipping..."
-              continue
-            fi
+            [ -z "$cidrs" ] && continue
 
             all_entries=()
             while IFS= read -r cidr; do
@@ -57,11 +52,11 @@ jobs:
             if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
               output="$OUTPUT_DIR/${site}.rsc"
               {
-                echo ":global COMMENT"
+                echo ":global AddressList"
                 echo "/ip firewall address-list"
                 for e in "${all_entries[@]}"; do
                   cidr=${e#*:}
-                  echo ":do {add list=$site comment=\$COMMENT address=$cidr} on-error {}"
+                  echo ":do {add list=\$AddressList comment=$site address=$cidr} on-error {}"
                 done
               } > "$output"
             else
@@ -70,22 +65,22 @@ jobs:
               while [ $idx -lt $entry_count ]; do
                 output="$OUTPUT_DIR/${site}_part${part}.rsc"
                 {
-                  echo ":global COMMENT"
+                  echo ":global AddressList"
                   echo "/ip firewall address-list"
                   for ((i=0; i<MAX_ENTRIES_PER_FILE && idx<entry_count; i++, idx++)); do
                     e=${all_entries[$idx]}
                     cidr=${e#*:}
-                    echo ":do {add list=$site comment=\$COMMENT address=$cidr} on-error {}"
+                    echo ":do {add list=\$AddressList comment=$site address=$cidr} on-error {}"
                   done
                 } > "$output"
                 part=$((part + 1))
               done
             fi
-            echo "Generated $entry_count CIDR4 entries → $OUTPUT_DIR/${site}.rsc"
+            echo "Generated $entry_count CIDR4 entries → $output"
           done
 
       # ========================================
-      # 2. iplist.opencck.org — IP4 (точечные) → iplistv4/
+      # 2. iplist.opencck.org — IP4 → iplistv4/
       # ========================================
       - name: Process IP4 from iplist.opencck.org
         run: |
@@ -98,20 +93,16 @@ jobs:
 
           for site in "${site_array[@]}"; do
             site=$(echo "$site" | xargs)
-            echo "Processing IP4 for site: $site"
+            echo "Processing IP4 for site: $site → $OUTPUT_DIR/${site}.rsc"
             ip_url="${IP4_URL_TEMPLATE//\{site\}/$site}"
 
             if ! curl -s -f "$ip_url" > "input_ip4_$site.txt"; then
-              echo "Failed to fetch IP4 for $site, skipping..."
+              echo "Failed to fetch IP4 for $site"
               continue
             fi
 
             ips=$(grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}$' "input_ip4_$site.txt" | sort -u)
-
-            if [ -z "$ips" ]; then
-              echo "No valid IPv4 addresses for $site, skipping..."
-              continue
-            fi
+            [ -z "$ips" ] && continue
 
             all_entries=()
             while IFS= read -r ip; do
@@ -123,11 +114,11 @@ jobs:
             if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
               output="$OUTPUT_DIR/${site}.rsc"
               {
-                echo ":global COMMENT"
+                echo ":global AddressList"
                 echo "/ip firewall address-list"
                 for e in "${all_entries[@]}"; do
                   ip=${e#*:}
-                  echo ":do {add list=$site comment=\$COMMENT address=$ip} on-error {}"
+                  echo ":do {add list=\$AddressList comment=$site address=$ip} on-error {}"
                 done
               } > "$output"
             else
@@ -136,40 +127,26 @@ jobs:
               while [ $idx -lt $entry_count ]; do
                 output="$OUTPUT_DIR/${site}_part${part}.rsc"
                 {
-                  echo ":global COMMENT"
+                  echo ":global AddressList"
                   echo "/ip firewall address-list"
                   for ((i=0; i<MAX_ENTRIES_PER_FILE && idx<entry_count; i++, idx++)); do
                     e=${all_entries[$idx]}
                     ip=${e#*:}
-                    echo ":do {add list=$site comment=\$COMMENT address=$ip} on-error {}"
+                    echo ":do {add list=\$AddressList comment=$site address=$ip} on-error {}"
                   done
                 } > "$output"
                 part=$((part + 1))
               done
             fi
-            echo "Generated $entry_count IP4 entries → $OUTPUT_DIR/${site}.rsc"
+            echo "Generated $entry_count IP4 entries → $output"
           done
 
       # ========================================
-      # 3. MetaCubeX/meta-rules-dat (branch: meta)
+      # 3. MetaCubeX — ASN → asnv4/
       # ========================================
-      - name: Clone MetaCubeX/meta-rules-dat (branch - meta)
+      - name: Clone MetaCubeX/meta-rules-dat
         run: |
           git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
-          echo "Cloned MetaCubeX/meta-rules-dat (meta)"
-
-      - name: Find all .list files in asn/ and geo/geoip/
-        id: find_cidr_files
-        run: |
-          cd meta-rules-dat
-          if [ ! -d "asn" ] && [ ! -d "geo/geoip" ]; then
-            echo "Error: Neither asn/ nor geo/geoip/ found!"
-            exit 1
-          fi
-          find asn geo/geoip -name "*.list" -type f 2>/dev/null | sed 's|.*/||' | sed 's/\.list$//' | sort -u > ../cidr_files.txt
-          FILE_COUNT=$(wc -l < ../cidr_files.txt)
-          echo "Found $FILE_COUNT .list files"
-          head -20 ../cidr_files.txt
 
       - name: Process ASN .list files → asnv4/
         run: |
@@ -179,10 +156,9 @@ jobs:
           OUTPUT_DIR="for_scripts/asnv4"
           mkdir -p "$OUTPUT_DIR"
 
-          while IFS= read -r resource; do
-            [ -n "$resource" ] || continue
-            input_file="$REPO_DIR/asn/${resource}.list"
-            [ ! -f "$input_file" ] && continue
+          find "$REPO_DIR/asn" -name "*.list" -type f | while read -r input_file; do
+            resource=$(basename "$input_file" .list)
+            echo "Processing ASN: $resource"
 
             cidrs=$(grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}$' "$input_file" | sort -u)
             [ -z "$cidrs" ] && continue
@@ -197,11 +173,11 @@ jobs:
             if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
               output="$OUTPUT_DIR/${resource}.rsc"
               {
-                echo ":global COMMENT"
+                echo ":global AddressList"
                 echo "/ip firewall address-list"
                 for e in "${all_entries[@]}"; do
                   cidr=${e#*:}
-                  echo ":do {add list=$resource comment=\$COMMENT address=$cidr} on-error {}"
+                  echo ":do {add list=\$AddressList comment=$resource address=$cidr} on-error {}"
                 done
               } > "$output"
             else
@@ -210,20 +186,23 @@ jobs:
               while [ $idx -lt $entry_count ]; do
                 output="$OUTPUT_DIR/${resource}_part${part}.rsc"
                 {
-                  echo ":global COMMENT"
+                  echo ":global AddressList"
                   echo "/ip firewall address-list"
                   for ((i=0; i<MAX_ENTRIES_PER_FILE && idx<entry_count; i++, idx++)); do
                     e=${all_entries[$idx]}
                     cidr=${e#*:}
-                    echo ":do {add list=$resource comment=\$COMMENT address=$cidr} on-error {}"
+                    echo ":do {add list=\$AddressList comment=$resource address=$cidr} on-error {}"
                   done
                 } > "$output"
                 part=$((part + 1))
               done
             fi
-            echo "Generated $entry_count ASN CIDR4 entries → $OUTPUT_DIR/${resource}.rsc"
-          done < <(grep -E '^AS[0-9]+$' ../cidr_files.txt || true)
+            echo "Generated $entry_count ASN entries → $output"
+          done
 
+      # ========================================
+      # 4. MetaCubeX — GeoIP → geoipv4/
+      # ========================================
       - name: Process GeoIP .list files → geoipv4/
         run: |
           set -e
@@ -232,10 +211,9 @@ jobs:
           OUTPUT_DIR="for_scripts/geoipv4"
           mkdir -p "$OUTPUT_DIR"
 
-          while IFS= read -r resource; do
-            [ -n "$resource" ] || continue
-            input_file="$REPO_DIR/geo/geoip/${resource}.list"
-            [ ! -f "$input_file" ] && continue
+          find "$REPO_DIR/geo/geoip" -name "*.list" -type f | while read -r input_file; do
+            resource=$(basename "$input_file" .list)
+            echo "Processing GeoIP: $resource"
 
             cidrs=$(grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}$' "$input_file" | sort -u)
             [ -z "$cidrs" ] && continue
@@ -250,11 +228,11 @@ jobs:
             if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
               output="$OUTPUT_DIR/${resource}.rsc"
               {
-                echo ":global COMMENT"
+                echo ":global AddressList"
                 echo "/ip firewall address-list"
                 for e in "${all_entries[@]}"; do
                   cidr=${e#*:}
-                  echo ":do {add list=$resource comment=\$COMMENT address=$cidr} on-error {}"
+                  echo ":do {add list=\$AddressList comment=$resource address=$cidr} on-error {}"
                 done
               } > "$output"
             else
@@ -263,22 +241,22 @@ jobs:
               while [ $idx -lt $entry_count ]; do
                 output="$OUTPUT_DIR/${resource}_part${part}.rsc"
                 {
-                  echo ":global COMMENT"
+                  echo ":global AddressList"
                   echo "/ip firewall address-list"
                   for ((i=0; i<MAX_ENTRIES_PER_FILE && idx<entry_count; i++, idx++)); do
                     e=${all_entries[$idx]}
                     cidr=${e#*:}
-                    echo ":do {add list=$resource comment=\$COMMENT address=$cidr} on-error {}"
+                    echo ":do {add list=\$AddressList comment=$resource address=$cidr} on-error {}"
                   done
                 } > "$output"
                 part=$((part + 1))
               done
             fi
-            echo "Generated $entry_count GeoIP CIDR4 entries → $OUTPUT_DIR/${resource}.rsc"
-          done < <(grep -Ev '^AS[0-9]+$' ../cidr_files.txt || true)
+            echo "Generated $entry_count GeoIP entries → $output"
+          done
 
       # ========================================
-      # 4. Commit and push
+      # 5. Commit and push
       # ========================================
       - name: Commit and push
         run: |
@@ -286,8 +264,8 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add for_scripts/
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
             exit 0
           fi
-          git commit -m "Auto-update: IPv4 CIDR from iplist + MetaCubeX (meta) → asnv4/geoipv4/iplistCIDRv4/iplistv4" || exit 0
+          git commit -m "Auto-update: IPv4 (flexible AddressList) → asnv4/geoipv4/iplistCIDRv4/iplistv4" || exit 0
           git push

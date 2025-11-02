@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=88.221.92.179} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=88.221.92.18} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=88.221.92.180} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=88.221.92.181} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=92.122.166.123} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=92.122.166.14} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=92.122.166.164} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=92.122.166.165} on-error {}

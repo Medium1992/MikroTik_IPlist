@@ -60,6 +60,10 @@
 :do {add list=$AddressList comment=claude.ai address=99.84.91.44} on-error {}
 :do {add list=$AddressList comment=claude.ai address=99.84.91.60} on-error {}
 :do {add list=$AddressList comment=claude.ai address=99.84.91.63} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.116} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.2} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.22} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.33} on-error {}
 :do {add list=$AddressList comment=claude.ai address=99.86.4.108} on-error {}
 :do {add list=$AddressList comment=claude.ai address=99.86.4.109} on-error {}
 :do {add list=$AddressList comment=claude.ai address=99.86.4.13} on-error {}

@@ -1,0 +1,32 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=elevenlabs.io address=for_scripts/iplistv4/elevenlabs.io.rsc} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=104.18.30.133} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=104.18.31.133} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=188.114.98.224} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=188.114.98.228} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=188.114.98.229} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=188.114.99.224} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=188.114.99.228} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=188.114.99.229} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=216.198.51.3} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=216.198.52.3} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=216.198.53.1} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=216.198.53.6} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=216.198.54.1} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=216.198.54.6} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=216.239.36.54} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=34.160.99.201} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=34.54.252.193} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=34.8.184.191} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=34.98.93.216} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=8.47.69.0} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=8.47.69.4} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=8.47.69.7} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=8.47.69.8} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=8.47.69.9} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=8.6.112.0} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=8.6.112.4} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=8.6.112.7} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=8.6.112.8} on-error {}
+:do {add list=$AddressList comment=elevenlabs.io address=8.6.112.9} on-error {}

@@ -1,0 +1,31 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=paperpaper.ru address=for_scripts/iplistv4/paperpaper.ru.rsc} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=104.26.2.110} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=104.26.3.110} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=172.67.75.189} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=185.215.4.19} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.107} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.108} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.152} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.173} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.179} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.188} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.29} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.35} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.40} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.42} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.45} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.48} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.51} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.7} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.84} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.89} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.97} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=35.190.45.78} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=8.47.69.0} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=8.47.69.8} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=8.47.69.9} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=8.6.112.0} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=8.6.112.8} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=8.6.112.9} on-error {}

@@ -1,0 +1,27 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=AS17903 address=for_scripts/asnv4/AS17903.rsc} on-error {}
+:do {add list=$AddressList comment=AS17903 address=116.66.130.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=116.66.136.0/22} on-error {}
+:do {add list=$AddressList comment=AS17903 address=116.66.140.0/23} on-error {}
+:do {add list=$AddressList comment=AS17903 address=116.66.144.0/20} on-error {}
+:do {add list=$AddressList comment=AS17903 address=174.70.203.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=203.132.208.0/23} on-error {}
+:do {add list=$AddressList comment=AS17903 address=203.132.214.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=203.99.192.0/21} on-error {}
+:do {add list=$AddressList comment=AS17903 address=203.99.200.0/23} on-error {}
+:do {add list=$AddressList comment=AS17903 address=203.99.202.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=203.99.204.0/22} on-error {}
+:do {add list=$AddressList comment=AS17903 address=203.99.208.0/21} on-error {}
+:do {add list=$AddressList comment=AS17903 address=203.99.216.0/22} on-error {}
+:do {add list=$AddressList comment=AS17903 address=203.99.221.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=207.243.5.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=208.177.44.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=27.118.32.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=27.118.34.0/23} on-error {}
+:do {add list=$AddressList comment=AS17903 address=27.118.36.0/22} on-error {}
+:do {add list=$AddressList comment=AS17903 address=27.118.40.0/22} on-error {}
+:do {add list=$AddressList comment=AS17903 address=27.118.56.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=8.33.202.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=8.47.80.0/24} on-error {}
+:do {add list=$AddressList comment=AS17903 address=8.5.252.0/23} on-error {}

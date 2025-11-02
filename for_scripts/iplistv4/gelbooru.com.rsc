@@ -1,0 +1,29 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=gelbooru.com address=for_scripts/iplistv4/gelbooru.com.rsc} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=104.21.234.102} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=104.21.234.103} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=104.21.40.249} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=104.26.6.195} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=104.26.7.195} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=108.181.143.72} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=172.67.158.144} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=172.67.73.83} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=188.114.96.10} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=188.114.96.7} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=188.114.96.8} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=188.114.97.10} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=188.114.97.7} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=188.114.97.8} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=188.114.98.224} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=188.114.98.228} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=188.114.99.224} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=188.114.99.228} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=8.47.69.0} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=8.47.69.4} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=8.47.69.8} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=8.47.69.9} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=8.6.112.0} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=8.6.112.4} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=8.6.112.8} on-error {}
+:do {add list=$AddressList comment=gelbooru.com address=8.6.112.9} on-error {}

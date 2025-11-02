@@ -1,0 +1,52 @@
+:global Distance
+:global RouteTab
+:global GateWay
+/ip route
+:if ([:len [/ip/route/find dst-address=52.85.49.105 and gateway=$GateWay]] = 0) do={ add dst-address=52.85.49.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.21 and gateway=$GateWay]] = 0) do={ add dst-address=52.85.49.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.44 and gateway=$GateWay]] = 0) do={ add dst-address=52.85.49.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.92 and gateway=$GateWay]] = 0) do={ add dst-address=52.85.49.92 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.2 and gateway=$GateWay]] = 0) do={ add dst-address=52.85.5.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.55 and gateway=$GateWay]] = 0) do={ add dst-address=52.85.5.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.69 and gateway=$GateWay]] = 0) do={ add dst-address=52.85.5.69 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.88 and gateway=$GateWay]] = 0) do={ add dst-address=52.85.5.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.230.10.115 and gateway=$GateWay]] = 0) do={ add dst-address=54.230.10.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.230.10.20 and gateway=$GateWay]] = 0) do={ add dst-address=54.230.10.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.230.10.79 and gateway=$GateWay]] = 0) do={ add dst-address=54.230.10.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.230.10.93 and gateway=$GateWay]] = 0) do={ add dst-address=54.230.10.93 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.230.228.105 and gateway=$GateWay]] = 0) do={ add dst-address=54.230.228.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.230.228.125 and gateway=$GateWay]] = 0) do={ add dst-address=54.230.228.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.230.228.76 and gateway=$GateWay]] = 0) do={ add dst-address=54.230.228.76 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.230.228.84 and gateway=$GateWay]] = 0) do={ add dst-address=54.230.228.84 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.240.174.13 and gateway=$GateWay]] = 0) do={ add dst-address=54.240.174.13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.240.174.44 and gateway=$GateWay]] = 0) do={ add dst-address=54.240.174.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.240.174.74 and gateway=$GateWay]] = 0) do={ add dst-address=54.240.174.74 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=54.240.174.90 and gateway=$GateWay]] = 0) do={ add dst-address=54.240.174.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=65.9.189.40 and gateway=$GateWay]] = 0) do={ add dst-address=65.9.189.40 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=65.9.189.49 and gateway=$GateWay]] = 0) do={ add dst-address=65.9.189.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=65.9.189.59 and gateway=$GateWay]] = 0) do={ add dst-address=65.9.189.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=65.9.189.98 and gateway=$GateWay]] = 0) do={ add dst-address=65.9.189.98 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=65.9.95.27 and gateway=$GateWay]] = 0) do={ add dst-address=65.9.95.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=65.9.95.66 and gateway=$GateWay]] = 0) do={ add dst-address=65.9.95.66 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=65.9.95.78 and gateway=$GateWay]] = 0) do={ add dst-address=65.9.95.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=65.9.95.87 and gateway=$GateWay]] = 0) do={ add dst-address=65.9.95.87 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=8.47.69.0 and gateway=$GateWay]] = 0) do={ add dst-address=8.47.69.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=8.47.69.6 and gateway=$GateWay]] = 0) do={ add dst-address=8.47.69.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=8.47.69.7 and gateway=$GateWay]] = 0) do={ add dst-address=8.47.69.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=8.47.69.8 and gateway=$GateWay]] = 0) do={ add dst-address=8.47.69.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=8.6.112.0 and gateway=$GateWay]] = 0) do={ add dst-address=8.6.112.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=8.6.112.6 and gateway=$GateWay]] = 0) do={ add dst-address=8.6.112.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=8.6.112.7 and gateway=$GateWay]] = 0) do={ add dst-address=8.6.112.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=8.6.112.8 and gateway=$GateWay]] = 0) do={ add dst-address=8.6.112.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.84.152.12 and gateway=$GateWay]] = 0) do={ add dst-address=99.84.152.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.84.152.49 and gateway=$GateWay]] = 0) do={ add dst-address=99.84.152.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.84.152.59 and gateway=$GateWay]] = 0) do={ add dst-address=99.84.152.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.84.152.89 and gateway=$GateWay]] = 0) do={ add dst-address=99.84.152.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.84.91.12 and gateway=$GateWay]] = 0) do={ add dst-address=99.84.91.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.84.91.129 and gateway=$GateWay]] = 0) do={ add dst-address=99.84.91.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.84.91.42 and gateway=$GateWay]] = 0) do={ add dst-address=99.84.91.42 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.84.91.78 and gateway=$GateWay]] = 0) do={ add dst-address=99.84.91.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.86.38.127 and gateway=$GateWay]] = 0) do={ add dst-address=99.86.38.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.86.38.29 and gateway=$GateWay]] = 0) do={ add dst-address=99.86.38.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.86.38.87 and gateway=$GateWay]] = 0) do={ add dst-address=99.86.38.87 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }
+:if ([:len [/ip/route/find dst-address=99.86.38.90 and gateway=$GateWay]] = 0) do={ add dst-address=99.86.38.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bellingcat.com }

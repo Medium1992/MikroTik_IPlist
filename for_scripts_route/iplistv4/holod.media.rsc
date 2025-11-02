@@ -1,0 +1,50 @@
+:global Distance
+:global RouteTab
+:global GateWay
+/ip route
+:if ([:len [/ip/route/find dst-address=104.21.112.1 and gateway=$GateWay]] = 0) do={ add dst-address=104.21.112.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=104.21.16.1 and gateway=$GateWay]] = 0) do={ add dst-address=104.21.16.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=104.21.32.1 and gateway=$GateWay]] = 0) do={ add dst-address=104.21.32.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=104.21.48.1 and gateway=$GateWay]] = 0) do={ add dst-address=104.21.48.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=104.21.5.248 and gateway=$GateWay]] = 0) do={ add dst-address=104.21.5.248 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=104.21.64.1 and gateway=$GateWay]] = 0) do={ add dst-address=104.21.64.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=104.21.80.1 and gateway=$GateWay]] = 0) do={ add dst-address=104.21.80.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=104.21.96.1 and gateway=$GateWay]] = 0) do={ add dst-address=104.21.96.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=146.75.117.194 and gateway=$GateWay]] = 0) do={ add dst-address=146.75.117.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=146.75.121.194 and gateway=$GateWay]] = 0) do={ add dst-address=146.75.121.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=146.75.29.194 and gateway=$GateWay]] = 0) do={ add dst-address=146.75.29.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=146.75.53.194 and gateway=$GateWay]] = 0) do={ add dst-address=146.75.53.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=146.75.61.194 and gateway=$GateWay]] = 0) do={ add dst-address=146.75.61.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.1.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.1.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.129.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.129.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.193.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.193.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.205.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.205.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.209.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.209.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.245.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.245.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.37.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.37.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.45.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.45.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.61.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.61.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.65.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.65.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.85.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.85.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=151.101.9.194 and gateway=$GateWay]] = 0) do={ add dst-address=151.101.9.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=165.22.91.194 and gateway=$GateWay]] = 0) do={ add dst-address=165.22.91.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=172.67.134.19 and gateway=$GateWay]] = 0) do={ add dst-address=172.67.134.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=188.114.96.0 and gateway=$GateWay]] = 0) do={ add dst-address=188.114.96.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=188.114.96.10 and gateway=$GateWay]] = 0) do={ add dst-address=188.114.96.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=188.114.96.3 and gateway=$GateWay]] = 0) do={ add dst-address=188.114.96.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=188.114.96.7 and gateway=$GateWay]] = 0) do={ add dst-address=188.114.96.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=188.114.96.9 and gateway=$GateWay]] = 0) do={ add dst-address=188.114.96.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=188.114.97.0 and gateway=$GateWay]] = 0) do={ add dst-address=188.114.97.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=188.114.97.10 and gateway=$GateWay]] = 0) do={ add dst-address=188.114.97.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=188.114.97.3 and gateway=$GateWay]] = 0) do={ add dst-address=188.114.97.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=188.114.97.7 and gateway=$GateWay]] = 0) do={ add dst-address=188.114.97.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=188.114.97.9 and gateway=$GateWay]] = 0) do={ add dst-address=188.114.97.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=199.232.169.194 and gateway=$GateWay]] = 0) do={ add dst-address=199.232.169.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=199.232.173.194 and gateway=$GateWay]] = 0) do={ add dst-address=199.232.173.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=199.232.189.194 and gateway=$GateWay]] = 0) do={ add dst-address=199.232.189.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=199.232.37.194 and gateway=$GateWay]] = 0) do={ add dst-address=199.232.37.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=199.232.41.194 and gateway=$GateWay]] = 0) do={ add dst-address=199.232.41.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=199.232.81.194 and gateway=$GateWay]] = 0) do={ add dst-address=199.232.81.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=51.15.27.51 and gateway=$GateWay]] = 0) do={ add dst-address=51.15.27.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=51.15.27.55 and gateway=$GateWay]] = 0) do={ add dst-address=51.15.27.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=65.109.52.31 and gateway=$GateWay]] = 0) do={ add dst-address=65.109.52.31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }

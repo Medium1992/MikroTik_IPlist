@@ -1,0 +1,32 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=sentry.io address=for_scripts/iplistCIDRv4/sentry.io.rsc} on-error {}
+:do {add list=$AddressList comment=sentry.io address=104.16.0.0/12} on-error {}
+:do {add list=$AddressList comment=sentry.io address=108.177.0.0/17} on-error {}
+:do {add list=$AddressList comment=sentry.io address=142.250.0.0/15} on-error {}
+:do {add list=$AddressList comment=sentry.io address=149.28.32.0/19} on-error {}
+:do {add list=$AddressList comment=sentry.io address=151.101.0.0/16} on-error {}
+:do {add list=$AddressList comment=sentry.io address=172.217.0.0/16} on-error {}
+:do {add list=$AddressList comment=sentry.io address=172.64.0.0/13} on-error {}
+:do {add list=$AddressList comment=sentry.io address=173.194.0.0/16} on-error {}
+:do {add list=$AddressList comment=sentry.io address=185.199.108.0/22} on-error {}
+:do {add list=$AddressList comment=sentry.io address=188.114.96.0/22} on-error {}
+:do {add list=$AddressList comment=sentry.io address=192.28.144.0/20} on-error {}
+:do {add list=$AddressList comment=sentry.io address=209.85.128.0/17} on-error {}
+:do {add list=$AddressList comment=sentry.io address=216.239.32.0/19} on-error {}
+:do {add list=$AddressList comment=sentry.io address=216.58.192.0/19} on-error {}
+:do {add list=$AddressList comment=sentry.io address=34.128.0.0/10} on-error {}
+:do {add list=$AddressList comment=sentry.io address=34.32.0.0/11} on-error {}
+:do {add list=$AddressList comment=sentry.io address=34.64.0.0/10} on-error {}
+:do {add list=$AddressList comment=sentry.io address=34.8.0.0/13} on-error {}
+:do {add list=$AddressList comment=sentry.io address=35.184.0.0/13} on-error {}
+:do {add list=$AddressList comment=sentry.io address=35.192.0.0/12} on-error {}
+:do {add list=$AddressList comment=sentry.io address=35.208.0.0/12} on-error {}
+:do {add list=$AddressList comment=sentry.io address=35.224.0.0/12} on-error {}
+:do {add list=$AddressList comment=sentry.io address=35.240.0.0/13} on-error {}
+:do {add list=$AddressList comment=sentry.io address=64.233.160.0/19} on-error {}
+:do {add list=$AddressList comment=sentry.io address=64.239.109.0/24} on-error {}
+:do {add list=$AddressList comment=sentry.io address=64.239.123.0/24} on-error {}
+:do {add list=$AddressList comment=sentry.io address=66.33.60.0/24} on-error {}
+:do {add list=$AddressList comment=sentry.io address=74.125.0.0/16} on-error {}
+:do {add list=$AddressList comment=sentry.io address=76.76.21.0/24} on-error {}

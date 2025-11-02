@@ -1,0 +1,14 @@
+:global Distance
+:global RouteTab
+:global GateWay
+/ip route
+:if ([:len [/ip/route/find dst-address=156.30.24.0/24 and gateway=$GateWay]] = 0) do={ add dst-address=156.30.24.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27021 }
+:if ([:len [/ip/route/find dst-address=156.30.5.0/24 and gateway=$GateWay]] = 0) do={ add dst-address=156.30.5.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27021 }
+:if ([:len [/ip/route/find dst-address=204.235.142.0/23 and gateway=$GateWay]] = 0) do={ add dst-address=204.235.142.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27021 }
+:if ([:len [/ip/route/find dst-address=209.242.240.0/23 and gateway=$GateWay]] = 0) do={ add dst-address=209.242.240.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27021 }
+:if ([:len [/ip/route/find dst-address=209.242.247.0/24 and gateway=$GateWay]] = 0) do={ add dst-address=209.242.247.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27021 }
+:if ([:len [/ip/route/find dst-address=209.242.248.0/24 and gateway=$GateWay]] = 0) do={ add dst-address=209.242.248.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27021 }
+:if ([:len [/ip/route/find dst-address=209.242.250.0/23 and gateway=$GateWay]] = 0) do={ add dst-address=209.242.250.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27021 }
+:if ([:len [/ip/route/find dst-address=216.195.72.0/24 and gateway=$GateWay]] = 0) do={ add dst-address=216.195.72.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27021 }
+:if ([:len [/ip/route/find dst-address=216.203.80.0/20 and gateway=$GateWay]] = 0) do={ add dst-address=216.203.80.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27021 }
+:if ([:len [/ip/route/find dst-address=65.199.254.0/24 and gateway=$GateWay]] = 0) do={ add dst-address=65.199.254.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27021 }

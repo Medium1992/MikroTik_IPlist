@@ -2,4 +2,4 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find comment=AS212325 and dst-address=89.22.64.0/19]] = 0) do={ add dst-address=89.22.64.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS212325 }
+:if ([:len [/ip/route/find dst-address=89.22.64.0/19 and gateway=$GateWay]] = 0) do={ add dst-address=89.22.64.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS212325 }

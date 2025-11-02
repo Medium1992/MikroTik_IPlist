@@ -2,8 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find comment=AS137184 and dst-address=103.104.100.0/22]] = 0) do={ add dst-address=103.104.100.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS137184 }
-:if ([:len [/ip/route/find comment=AS137184 and dst-address=154.198.4.0/23]] = 0) do={ add dst-address=154.198.4.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS137184 }
-:if ([:len [/ip/route/find comment=AS137184 and dst-address=202.43.224.0/24]] = 0) do={ add dst-address=202.43.224.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS137184 }
-:if ([:len [/ip/route/find comment=AS137184 and dst-address=45.194.55.0/24]] = 0) do={ add dst-address=45.194.55.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS137184 }
-:if ([:len [/ip/route/find comment=AS137184 and dst-address=45.207.169.0/24]] = 0) do={ add dst-address=45.207.169.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS137184 }
+:if ([:len [/ip/route/find dst-address=103.104.100.0/22 and gateway=$GateWay]] = 0) do={ add dst-address=103.104.100.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS137184 }
+:if ([:len [/ip/route/find dst-address=154.198.4.0/23 and gateway=$GateWay]] = 0) do={ add dst-address=154.198.4.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS137184 }
+:if ([:len [/ip/route/find dst-address=202.43.224.0/24 and gateway=$GateWay]] = 0) do={ add dst-address=202.43.224.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS137184 }
+:if ([:len [/ip/route/find dst-address=45.194.55.0/24 and gateway=$GateWay]] = 0) do={ add dst-address=45.194.55.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS137184 }
+:if ([:len [/ip/route/find dst-address=45.207.169.0/24 and gateway=$GateWay]] = 0) do={ add dst-address=45.207.169.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS137184 }

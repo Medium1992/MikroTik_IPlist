@@ -1,0 +1,30 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=unian.net address=104.20.18.129} on-error {}
+:do {add list=$AddressList comment=unian.net address=104.22.60.153} on-error {}
+:do {add list=$AddressList comment=unian.net address=104.22.61.153} on-error {}
+:do {add list=$AddressList comment=unian.net address=172.66.167.35} on-error {}
+:do {add list=$AddressList comment=unian.net address=172.67.38.10} on-error {}
+:do {add list=$AddressList comment=unian.net address=188.114.98.224} on-error {}
+:do {add list=$AddressList comment=unian.net address=188.114.98.228} on-error {}
+:do {add list=$AddressList comment=unian.net address=188.114.98.229} on-error {}
+:do {add list=$AddressList comment=unian.net address=188.114.98.233} on-error {}
+:do {add list=$AddressList comment=unian.net address=188.114.98.236} on-error {}
+:do {add list=$AddressList comment=unian.net address=188.114.99.224} on-error {}
+:do {add list=$AddressList comment=unian.net address=188.114.99.228} on-error {}
+:do {add list=$AddressList comment=unian.net address=188.114.99.229} on-error {}
+:do {add list=$AddressList comment=unian.net address=188.114.99.233} on-error {}
+:do {add list=$AddressList comment=unian.net address=188.114.99.236} on-error {}
+:do {add list=$AddressList comment=unian.net address=195.137.240.103} on-error {}
+:do {add list=$AddressList comment=unian.net address=195.137.240.24} on-error {}
+:do {add list=$AddressList comment=unian.net address=195.137.240.83} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.47.69.0} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.47.69.4} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.47.69.6} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.47.69.8} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.47.69.9} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.6.112.0} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.6.112.4} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.6.112.6} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.6.112.8} on-error {}
+:do {add list=$AddressList comment=unian.net address=8.6.112.9} on-error {}

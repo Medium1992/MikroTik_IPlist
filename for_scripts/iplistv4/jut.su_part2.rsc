@@ -1,2 +1,35 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jut.su address=for_scripts/iplistv4/jut.su_part2.rsc} on-error {}
+:do {add list=$AddressList comment=jut.su address=8.6.112.4} on-error {}
+:do {add list=$AddressList comment=jut.su address=8.6.112.8} on-error {}
+:do {add list=$AddressList comment=jut.su address=8.6.112.9} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.119.206} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.121.117} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.122.39} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.138.18} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.158.31} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.19.183} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.201.153} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.201.154} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.215.106} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.217.95} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.23.246} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.23.49} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.230.132} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.230.133} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.230.220} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.48.208} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.51.229} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.55.78} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.57.102} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.57.40} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.59.130} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.63.182} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.93.0} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.198.93.3} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.99.122.12} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.99.122.8} on-error {}
+:do {add list=$AddressList comment=jut.su address=88.99.84.168} on-error {}
+:do {add list=$AddressList comment=jut.su address=91.107.203.21} on-error {}
+:do {add list=$AddressList comment=jut.su address=94.130.222.115} on-error {}

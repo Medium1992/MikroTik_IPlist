@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=soundcloud.com address=for_scripts/iplistv4/soundcloud.com_part1.rsc} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=108.138.128.104} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=108.138.128.16} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=108.138.128.85} on-error {}

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=notion.so address=for_scripts/iplistCIDRv4/notion.so.rsc} on-error {}
 :do {add list=$AddressList comment=notion.so address=100.20.0.0/14} on-error {}
 :do {add list=$AddressList comment=notion.so address=104.16.0.0/12} on-error {}
 :do {add list=$AddressList comment=notion.so address=104.192.136.0/21} on-error {}

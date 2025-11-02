@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=redtube.com address=for_scripts/iplistv4/redtube.com.rsc} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.135.112} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.135.113} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.135.114} on-error {}

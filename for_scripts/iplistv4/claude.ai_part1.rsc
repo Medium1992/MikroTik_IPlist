@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=claude.ai address=for_scripts/iplistv4/claude.ai_part1.rsc} on-error {}
 :do {add list=$AddressList comment=claude.ai address=100.24.169.12} on-error {}
 :do {add list=$AddressList comment=claude.ai address=100.24.171.207} on-error {}
 :do {add list=$AddressList comment=claude.ai address=100.24.176.90} on-error {}

@@ -1,0 +1,6 @@
+:global Distance
+:global RouteTab
+:global GateWay
+/ip route
+:if ([:len [/ip/route/find comment=medium.com and dst-address=for_scripts_route/iplistCIDRv4/medium.com.rsc]] = 0) do={ add dst-address=for_scripts_route/iplistCIDRv4/medium.com.rsc gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=medium.com }
+:if ([:len [/ip/route/find comment=medium.com and dst-address=162.158.0.0/15]] = 0) do={ add dst-address=162.158.0.0/15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=medium.com }

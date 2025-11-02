@@ -1,0 +1,14 @@
+:global Distance
+:global RouteTab
+:global GateWay
+/ip route
+:if ([:len [/ip/route/find comment=AS393278 and dst-address=for_scripts_route/asnv4/AS393278.rsc]] = 0) do={ add dst-address=for_scripts_route/asnv4/AS393278.rsc gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS393278 }
+:if ([:len [/ip/route/find comment=AS393278 and dst-address=141.193.192.0/23]] = 0) do={ add dst-address=141.193.192.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS393278 }
+:if ([:len [/ip/route/find comment=AS393278 and dst-address=208.79.112.0/22]] = 0) do={ add dst-address=208.79.112.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS393278 }
+:if ([:len [/ip/route/find comment=AS393278 and dst-address=38.79.164.0/22]] = 0) do={ add dst-address=38.79.164.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS393278 }
+:if ([:len [/ip/route/find comment=AS393278 and dst-address=38.79.172.0/22]] = 0) do={ add dst-address=38.79.172.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS393278 }
+:if ([:len [/ip/route/find comment=AS393278 and dst-address=38.79.180.0/23]] = 0) do={ add dst-address=38.79.180.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS393278 }
+:if ([:len [/ip/route/find comment=AS393278 and dst-address=38.79.184.0/21]] = 0) do={ add dst-address=38.79.184.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS393278 }
+:if ([:len [/ip/route/find comment=AS393278 and dst-address=38.95.208.0/23]] = 0) do={ add dst-address=38.95.208.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS393278 }
+:if ([:len [/ip/route/find comment=AS393278 and dst-address=64.45.168.0/23]] = 0) do={ add dst-address=64.45.168.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS393278 }
+:if ([:len [/ip/route/find comment=AS393278 and dst-address=72.46.92.0/22]] = 0) do={ add dst-address=72.46.92.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS393278 }

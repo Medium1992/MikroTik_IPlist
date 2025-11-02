@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=zapier.com address=for_scripts/iplistv4/zapier.com_part1.rsc} on-error {}
 :do {add list=$AddressList comment=zapier.com address=108.138.192.106} on-error {}
 :do {add list=$AddressList comment=zapier.com address=108.138.192.117} on-error {}
 :do {add list=$AddressList comment=zapier.com address=108.138.192.124} on-error {}

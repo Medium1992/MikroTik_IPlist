@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=currenttime.tv address=for_scripts/iplistv4/currenttime.tv_part1.rsc} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=104.104.52.112} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=104.104.52.148} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=104.104.52.16} on-error {}

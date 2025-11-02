@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=paperpaper.ru address=for_scripts/iplistv4/paperpaper.ru.rsc} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=104.26.2.110} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=104.26.3.110} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=172.67.75.189} on-error {}

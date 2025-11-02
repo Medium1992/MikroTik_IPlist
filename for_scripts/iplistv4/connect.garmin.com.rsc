@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=connect.garmin.com address=for_scripts/iplistv4/connect.garmin.com.rsc} on-error {}
 :do {add list=$AddressList comment=connect.garmin.com address=104.16.8.45} on-error {}
 :do {add list=$AddressList comment=connect.garmin.com address=104.16.9.45} on-error {}
 :do {add list=$AddressList comment=connect.garmin.com address=104.17.150.222} on-error {}

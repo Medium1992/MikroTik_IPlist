@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=cloudfront address=for_scripts/geoipv4/cloudfront.rsc} on-error {}
 :do {add list=$AddressList comment=cloudfront address=108.138.0.0/15} on-error {}
 :do {add list=$AddressList comment=cloudfront address=108.156.0.0/14} on-error {}
 :do {add list=$AddressList comment=cloudfront address=111.13.171.128/25} on-error {}

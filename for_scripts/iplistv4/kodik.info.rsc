@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=kodik.info address=for_scripts/iplistv4/kodik.info.rsc} on-error {}
 :do {add list=$AddressList comment=kodik.info address=135.181.118.173} on-error {}
 :do {add list=$AddressList comment=kodik.info address=176.58.38.155} on-error {}
 :do {add list=$AddressList comment=kodik.info address=176.58.38.51} on-error {}

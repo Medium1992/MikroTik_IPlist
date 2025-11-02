@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=mq address=for_scripts/geoipv4/mq.rsc} on-error {}
 :do {add list=$AddressList comment=mq address=104.245.112.0/24} on-error {}
 :do {add list=$AddressList comment=mq address=104.245.115.0/24} on-error {}
 :do {add list=$AddressList comment=mq address=104.245.117.0/24} on-error {}

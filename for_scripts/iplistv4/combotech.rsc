@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=combotech address=for_scripts/iplistv4/combotech.rsc} on-error {}
 :do {add list=$AddressList comment=combotech address=104.18.42.52} on-error {}
 :do {add list=$AddressList comment=combotech address=104.18.43.186} on-error {}
 :do {add list=$AddressList comment=combotech address=104.22.26.197} on-error {}

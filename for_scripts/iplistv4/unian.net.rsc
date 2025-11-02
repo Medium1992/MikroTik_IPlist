@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=unian.net address=for_scripts/iplistv4/unian.net.rsc} on-error {}
 :do {add list=$AddressList comment=unian.net address=104.20.18.129} on-error {}
 :do {add list=$AddressList comment=unian.net address=104.22.60.153} on-error {}
 :do {add list=$AddressList comment=unian.net address=104.22.61.153} on-error {}

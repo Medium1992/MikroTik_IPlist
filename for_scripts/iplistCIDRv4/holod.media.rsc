@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=holod.media address=for_scripts/iplistCIDRv4/holod.media.rsc} on-error {}
 :do {add list=$AddressList comment=holod.media address=104.16.0.0/12} on-error {}
 :do {add list=$AddressList comment=holod.media address=146.75.0.0/16} on-error {}
 :do {add list=$AddressList comment=holod.media address=151.101.0.0/16} on-error {}

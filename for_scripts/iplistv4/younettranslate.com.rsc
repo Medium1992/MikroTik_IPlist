@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=younettranslate.com address=for_scripts/iplistv4/younettranslate.com.rsc} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=100.29.24.1} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.233.219.123} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.233.219.49} on-error {}

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=messenger.com address=for_scripts/iplistv4/messenger.com.rsc} on-error {}
 :do {add list=$AddressList comment=messenger.com address=157.240.0.13} on-error {}
 :do {add list=$AddressList comment=messenger.com address=157.240.0.60} on-error {}
 :do {add list=$AddressList comment=messenger.com address=157.240.17.17} on-error {}

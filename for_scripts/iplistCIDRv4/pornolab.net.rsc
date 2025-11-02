@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=pornolab.net address=for_scripts/iplistCIDRv4/pornolab.net.rsc} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=103.224.0.0/16} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=13.224.0.0/12} on-error {}
 :do {add list=$AddressList comment=pornolab.net address=172.224.0.0/12} on-error {}

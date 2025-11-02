@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=grok.com address=for_scripts/iplistCIDRv4/grok.com.rsc} on-error {}
 :do {add list=$AddressList comment=grok.com address=104.16.0.0/12} on-error {}
 :do {add list=$AddressList comment=grok.com address=13.248.0.0/14} on-error {}
 :do {add list=$AddressList comment=grok.com address=13.56.0.0/14} on-error {}

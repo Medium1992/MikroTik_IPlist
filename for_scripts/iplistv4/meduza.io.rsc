@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=meduza.io address=for_scripts/iplistv4/meduza.io.rsc} on-error {}
 :do {add list=$AddressList comment=meduza.io address=104.18.0.79} on-error {}
 :do {add list=$AddressList comment=meduza.io address=104.18.1.79} on-error {}
 :do {add list=$AddressList comment=meduza.io address=104.21.6.211} on-error {}

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=for_scripts/iplistCIDRv4/tiktok.com_part1.rsc} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=1.0.0.0/9} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=1.192.0.0/10} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=101.0.0.0/11} on-error {}

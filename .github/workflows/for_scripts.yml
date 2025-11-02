@@ -1,4 +1,4 @@
-name: Generate MikroTik CIDR RSC Files (Flexible List)
+name: Generate MikroTik RSC Files (Address-List + Routes)
 on:
   schedule:
     - cron: "30 0 * * *" # 00:30 UTC
@@ -11,16 +11,16 @@ env:
   CIDR4_URL_TEMPLATE: https://iplist.opencck.org/?format=text&data=cidr4&site={site}
   IP4_URL_TEMPLATE: https://iplist.opencck.org/?format=text&data=ip4&site={site}
 jobs:
-  generate-cidr:
+  generate-rsc:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       # ========================================
-      # 1. iplist.opencck.org — CIDR4 → iplistCIDRv4/
+      # 1. iplist.opencck.org — CIDR4 → iplistCIDRv4/ (address-list)
       # ========================================
-      - name: Process CIDR4 from iplist.opencck.org
+      - name: Process CIDR4 → Address-List (iplistCIDRv4)
         run: |
           set -e
           IFS=',' read -ra site_array <<< "${{ env.SITE_LIST }}"
@@ -31,58 +31,47 @@ jobs:
 
           for site in "${site_array[@]}"; do
             site=$(echo "$site" | xargs)
-            echo "Processing CIDR4 for site: $site → $OUTPUT_DIR/${site}.rsc"
             cidr_url="${CIDR4_URL_TEMPLATE//\{site\}/$site}"
-
-            if ! curl -s -f "$cidr_url" > "input_cidr4_$site.txt"; then
-              echo "Failed to fetch CIDR4 for $site"
-              continue
-            fi
+            [ ! -f "input_cidr4_$site.txt" ] && curl -s -f "$cidr_url" > "input_cidr4_$site.txt" || continue
 
             cidrs=$(grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}$' "input_cidr4_$site.txt" | sort -u)
             [ -z "$cidrs" ] && continue
 
             all_entries=()
-            while IFS= read -r cidr; do
-              all_entries+=("cidr:$cidr")
-            done <<< "$cidrs"
-
+            while IFS= read -r cidr; do all_entries+=("cidr:$cidr"); done <<< "$cidrs"
             entry_count=${#all_entries[@]}
 
-            if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
-              output="$OUTPUT_DIR/${site}.rsc"
+            generate_file() {
+              local output="$1"
               {
                 echo ":global AddressList"
                 echo "/ip firewall address-list"
                 for e in "${all_entries[@]}"; do
-                  cidr=${e#*:}
-                  echo ":do {add list=\$AddressList comment=$site address=$cidr} on-error {}"
+                  addr=${e#*:}
+                  echo ":do {add list=\$AddressList comment=$site address=$addr} on-error {}"
                 done
               } > "$output"
+            }
+
+            if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
+              generate_file "$OUTPUT_DIR/${site}.rsc"
             else
-              part=1
-              idx=0
+              part=1; idx=0
               while [ $idx -lt $entry_count ]; do
                 output="$OUTPUT_DIR/${site}_part${part}.rsc"
-                {
-                  echo ":global AddressList"
-                  echo "/ip firewall address-list"
-                  for ((i=0; i<MAX_ENTRIES_PER_FILE && idx<entry_count; i++, idx++)); do
-                    e=${all_entries[$idx]}
-                    cidr=${e#*:}
-                    echo ":do {add list=\$AddressList comment=$site address=$cidr} on-error {}"
-                  done
-                } > "$output"
+                all_entries_part=("${all_entries[@]:idx:MAX_ENTRIES_PER_FILE}")
+                all_entries=("${all_entries_part[@]}")
+                generate_file "$output"
+                idx=$((idx + MAX_ENTRIES_PER_FILE))
                 part=$((part + 1))
               done
             fi
-            echo "Generated $entry_count CIDR4 entries → $output"
           done
 
       # ========================================
-      # 2. iplist.opencck.org — IP4 → iplistv4/
+      # 2. iplist.opencck.org — IP4 → iplistv4/ (address-list)
       # ========================================
-      - name: Process IP4 from iplist.opencck.org
+      - name: Process IP4 → Address-List (iplistv4)
         run: |
           set -e
           IFS=',' read -ra site_array <<< "${{ env.SITE_LIST }}"
@@ -93,167 +82,135 @@ jobs:
 
           for site in "${site_array[@]}"; do
             site=$(echo "$site" | xargs)
-            echo "Processing IP4 for site: $site → $OUTPUT_DIR/${site}.rsc"
             ip_url="${IP4_URL_TEMPLATE//\{site\}/$site}"
-
-            if ! curl -s -f "$ip_url" > "input_ip4_$site.txt"; then
-              echo "Failed to fetch IP4 for $site"
-              continue
-            fi
+            [ ! -f "input_ip4_$site.txt" ] && curl -s -f "$ip_url" > "input_ip4_$site.txt" || continue
 
             ips=$(grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}$' "input_ip4_$site.txt" | sort -u)
             [ -z "$ips" ] && continue
 
             all_entries=()
-            while IFS= read -r ip; do
-              all_entries+=("ip:$ip")
-            done <<< "$ips"
-
+            while IFS= read -r ip; do all_entries+=("ip:$ip"); done <<< "$ips"
             entry_count=${#all_entries[@]}
 
-            if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
-              output="$OUTPUT_DIR/${site}.rsc"
+            generate_file() {
+              local output="$1"
               {
                 echo ":global AddressList"
                 echo "/ip firewall address-list"
                 for e in "${all_entries[@]}"; do
-                  ip=${e#*:}
-                  echo ":do {add list=\$AddressList comment=$site address=$ip} on-error {}"
+                  addr=${e#*:}
+                  echo ":do {add list=\$AddressList comment=$site address=$addr} on-error {}"
                 done
               } > "$output"
+            }
+
+            if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
+              generate_file "$OUTPUT_DIR/${site}.rsc"
             else
-              part=1
-              idx=0
+              part=1; idx=0
               while [ $idx -lt $entry_count ]; do
                 output="$OUTPUT_DIR/${site}_part${part}.rsc"
-                {
-                  echo ":global AddressList"
-                  echo "/ip firewall address-list"
-                  for ((i=0; i<MAX_ENTRIES_PER_FILE && idx<entry_count; i++, idx++)); do
-                    e=${all_entries[$idx]}
-                    ip=${e#*:}
-                    echo ":do {add list=\$AddressList comment=$site address=$ip} on-error {}"
-                  done
-                } > "$output"
+                all_entries_part=("${all_entries[@]:idx:MAX_ENTRIES_PER_FILE}")
+                all_entries=("${all_entries_part[@]}")
+                generate_file "$output"
+                idx=$((idx + MAX_ENTRIES_PER_FILE))
                 part=$((part + 1))
               done
             fi
-            echo "Generated $entry_count IP4 entries → $output"
           done
 
       # ========================================
-      # 3. MetaCubeX — ASN → asnv4/
+      # 3. MetaCubeX → asnv4 + geoipv4 (address-list)
       # ========================================
-      - name: Clone MetaCubeX/meta-rules-dat
-        run: |
-          git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
+      - name: Clone MetaCubeX
+        run: git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
 
-      - name: Process ASN .list files → asnv4/
+      - name: Process ASN + GeoIP → Address-List
         run: |
           set -e
-          MAX_ENTRIES_PER_FILE="${{ env.MAX_ENTRIES_PER_FILE }}"
-          REPO_DIR="meta-rules-dat"
-          OUTPUT_DIR="for_scripts/asnv4"
-          mkdir -p "$OUTPUT_DIR"
+          MAX="${{ env.MAX_ENTRIES_PER_FILE }}"
+          REPO="meta-rules-dat"
 
-          find "$REPO_DIR/asn" -name "*.list" -type f | while read -r input_file; do
-            resource=$(basename "$input_file" .list)
-            echo "Processing ASN: $resource"
+          process_dir() {
+            local dir="$1" subdir="$2"
+            OUTPUT_DIR="for_scripts/$subdir"
+            mkdir -p "$OUTPUT_DIR"
 
-            cidrs=$(grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}$' "$input_file" | sort -u)
-            [ -z "$cidrs" ] && continue
+            find "$REPO/$dir" -name "*.list" -type f | while read -r f; do
+              resource=$(basename "$f" .list)
+              cidrs=$(grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}$' "$f" | sort -u)
+              [ -z "$cidrs" ] && continue
 
-            all_entries=()
-            while IFS= read -r cidr; do
-              all_entries+=("cidr:$cidr")
-            done <<< "$cidrs"
+              all_entries=()
+              while IFS= read -r c; do all_entries+=("cidr:$c"); done <<< "$cidrs"
+              count=${#all_entries[@]}
 
-            entry_count=${#all_entries[@]}
-
-            if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
-              output="$OUTPUT_DIR/${resource}.rsc"
-              {
-                echo ":global AddressList"
-                echo "/ip firewall address-list"
-                for e in "${all_entries[@]}"; do
-                  cidr=${e#*:}
-                  echo ":do {add list=\$AddressList comment=$resource address=$cidr} on-error {}"
-                done
-              } > "$output"
-            else
-              part=1
-              idx=0
-              while [ $idx -lt $entry_count ]; do
-                output="$OUTPUT_DIR/${resource}_part${part}.rsc"
+              gen() {
+                local out="$1"
                 {
                   echo ":global AddressList"
                   echo "/ip firewall address-list"
-                  for ((i=0; i<MAX_ENTRIES_PER_FILE && idx<entry_count; i++, idx++)); do
-                    e=${all_entries[$idx]}
-                    cidr=${e#*:}
-                    echo ":do {add list=\$AddressList comment=$resource address=$cidr} on-error {}"
+                  for e in "${all_entries[@]}"; do
+                    a=${e#*:}
+                    echo ":do {add list=\$AddressList comment=$resource address=$a} on-error {}"
                   done
-                } > "$output"
-                part=$((part + 1))
-              done
-            fi
-            echo "Generated $entry_count ASN entries → $output"
-          done
+                } > "$out"
+              }
+
+              if [ $count -le $MAX ]; then
+                gen "$OUTPUT_DIR/${resource}.rsc"
+              else
+                p=1; i=0
+                while [ $i -lt $count ]; do
+                  out="$OUTPUT_DIR/${resource}_part${p}.rsc"
+                  part=("${all_entries[@]:i:MAX}")
+                  all_entries=("${part[@]}")
+                  gen "$out"
+                  i=$((i + MAX))
+                  p=$((p + 1))
+                done
+              fi
+            done
+          }
+
+          process_dir "asn" "asnv4"
+          process_dir "geo/geoip" "geoipv4"
 
       # ========================================
-      # 4. MetaCubeX — GeoIP → geoipv4/
+      # 4. НОВАЯ ФУНКЦИЯ: Генерация маршрутов (for_scripts_route/)
       # ========================================
-      - name: Process GeoIP .list files → geoipv4/
+      - name: Generate Route Scripts (for_scripts_route/)
         run: |
           set -e
-          MAX_ENTRIES_PER_FILE="${{ env.MAX_ENTRIES_PER_FILE }}"
-          REPO_DIR="meta-rules-dat"
-          OUTPUT_DIR="for_scripts/geoipv4"
-          mkdir -p "$OUTPUT_DIR"
+          MAX="${{ env.MAX_ENTRIES_PER_FILE }}"
 
-          find "$REPO_DIR/geo/geoip" -name "*.list" -type f | while read -r input_file; do
-            resource=$(basename "$input_file" .list)
-            echo "Processing GeoIP: $resource"
+          # Функция генерации маршрутов
+          generate_routes() {
+            local input_dir="$1" output_subdir="$2" type="$3"
+            local base_dir="for_scripts_route/$output_subdir"
+            mkdir -p "$base_dir"
 
-            cidrs=$(grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}$' "$input_file" | sort -u)
-            [ -z "$cidrs" ] && continue
+            find "$input_dir" -name "*.rsc" -o -name "*_part*.rsc" | while read -r rsc_file; do
+              resource=$(basename "$rsc_file" .rsc | sed 's/_part[0-9]*$//')
+              route_file="$base_dir/${resource}.rsc"
 
-            all_entries=()
-            while IFS= read -r cidr; do
-              all_entries+=("cidr:$cidr")
-            done <<< "$cidrs"
-
-            entry_count=${#all_entries[@]}
-
-            if [ $entry_count -le $MAX_ENTRIES_PER_FILE ]; then
-              output="$OUTPUT_DIR/${resource}.rsc"
               {
-                echo ":global AddressList"
-                echo "/ip firewall address-list"
-                for e in "${all_entries[@]}"; do
-                  cidr=${e#*:}
-                  echo ":do {add list=\$AddressList comment=$resource address=$cidr} on-error {}"
+                echo ":global Distance"
+                echo ":global RouteTab"
+                echo ":global GateWay"
+                echo "/ip route"
+                grep '^:do' "$rsc_file" | sed -E 's/.*address=([^ ]*).*/\1/' | while read -r dst; do
+                  echo ":if ([:len [/ip/route/find comment=$resource and dst-address=$dst]] = 0) do={ add dst-address=$dst gateway=\$GateWay routing-table=\$RouteTab distance=\$Distance comment=$resource }"
                 done
-              } > "$output"
-            else
-              part=1
-              idx=0
-              while [ $idx -lt $entry_count ]; do
-                output="$OUTPUT_DIR/${resource}_part${part}.rsc"
-                {
-                  echo ":global AddressList"
-                  echo "/ip firewall address-list"
-                  for ((i=0; i<MAX_ENTRIES_PER_FILE && idx<entry_count; i++, idx++)); do
-                    e=${all_entries[$idx]}
-                    cidr=${e#*:}
-                    echo ":do {add list=\$AddressList comment=$resource address=$cidr} on-error {}"
-                  done
-                } > "$output"
-                part=$((part + 1))
-              done
-            fi
-            echo "Generated $entry_count GeoIP entries → $output"
-          done
+              } > "$route_file"
+            done
+          }
+
+          # Конвертируем address-list → route
+          generate_routes "for_scripts/iplistCIDRv4" "iplistCIDRv4" "cidr"
+          generate_routes "for_scripts/iplistv4" "iplistv4" "ip"
+          generate_routes "for_scripts/asnv4" "asnv4" "cidr"
+          generate_routes "for_scripts/geoipv4" "geoipv4" "cidr"
 
       # ========================================
       # 5. Commit and push
@@ -262,10 +219,10 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add for_scripts/
+          git add for_scripts/ for_scripts_route/
           if git diff --staged --quiet; then
             echo "No changes"
             exit 0
           fi
-          git commit -m "Auto-update: IPv4 (flexible AddressList) → asnv4/geoipv4/iplistCIDRv4/iplistv4" || exit 0
+          git commit -m "Auto-update: Address-List + Routes (asnv4/geoipv4/iplistCIDRv4/iplistv4)" || exit 0
           git push

@@ -1,0 +1,3 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=AS201115 address=45.157.175.0/24} on-error {}

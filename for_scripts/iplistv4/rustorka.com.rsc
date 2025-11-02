@@ -1,0 +1,37 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=rustorka.com address=103.224.182.238} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=103.224.182.253} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=103.224.212.131} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=104.21.112.1} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=104.21.16.1} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=104.21.32.1} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=104.21.48.1} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=104.21.52.252} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=104.21.64.1} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=104.21.80.1} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=104.21.96.1} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=13.229.114.252} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=151.80.20.63} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=172.233.219.123} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=172.233.219.49} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=172.233.219.55} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=172.233.219.78} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=172.234.212.122} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=172.236.123.101} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=172.237.146.25} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=172.237.146.38} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=172.237.146.8} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=172.67.206.19} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=18.141.199.30} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=18.141.222.153} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=185.209.20.242} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=185.243.218.213} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=185.81.128.161} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=188.116.27.160} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=199.59.243.228} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=54.169.253.230} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=89.234.156.205} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=91.216.110.52} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=91.216.110.53} on-error {}
+:do {add list=$AddressList comment=rustorka.com address=94.23.220.147} on-error {}

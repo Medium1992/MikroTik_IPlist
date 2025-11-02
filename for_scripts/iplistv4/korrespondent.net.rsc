@@ -1,0 +1,32 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=korrespondent.net address=104.18.30.182} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=104.18.31.182} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=104.21.112.1} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=104.21.16.1} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=104.21.32.1} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=104.21.48.1} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=104.21.64.1} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=104.21.78.156} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=104.21.80.1} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=104.21.96.1} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=172.67.223.126} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.96.0} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.96.10} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.96.3} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.96.7} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.97.0} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.97.10} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.97.3} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.97.7} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.98.224} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.98.228} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.98.229} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.99.224} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.99.228} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=188.114.99.229} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=193.29.200.151} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=8.47.69.0} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=8.47.69.4} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=8.6.112.0} on-error {}
+:do {add list=$AddressList comment=korrespondent.net address=8.6.112.4} on-error {}

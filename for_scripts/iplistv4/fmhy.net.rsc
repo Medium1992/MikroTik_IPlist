@@ -1,0 +1,28 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=fmhy.net address=104.21.112.1} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=104.21.16.1} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=104.21.32.1} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=104.21.48.1} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=104.21.64.1} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=104.21.80.1} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=104.21.93.123} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=104.21.96.1} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=172.67.209.224} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.96.0} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.96.10} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.96.12} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.96.3} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.96.4} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.96.7} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.97.0} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.97.10} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.97.12} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.97.3} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.97.4} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=188.114.97.7} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=216.24.57.251} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=216.24.57.252} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=216.24.57.7} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=44.233.250.75} on-error {}
+:do {add list=$AddressList comment=fmhy.net address=52.38.196.63} on-error {}

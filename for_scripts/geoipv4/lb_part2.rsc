@@ -1,0 +1,29 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=lb address=91.197.46.0/23} on-error {}
+:do {add list=$AddressList comment=lb address=91.199.39.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=91.208.96.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=91.212.1.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=91.217.177.31/32} on-error {}
+:do {add list=$AddressList comment=lb address=91.223.215.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=91.232.100.0/23} on-error {}
+:do {add list=$AddressList comment=lb address=91.236.236.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=91.240.80.0/22} on-error {}
+:do {add list=$AddressList comment=lb address=91.245.248.0/22} on-error {}
+:do {add list=$AddressList comment=lb address=91.92.115.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=92.118.20.0/23} on-error {}
+:do {add list=$AddressList comment=lb address=92.242.168.0/22} on-error {}
+:do {add list=$AddressList comment=lb address=92.62.160.0/20} on-error {}
+:do {add list=$AddressList comment=lb address=93.126.128.0/17} on-error {}
+:do {add list=$AddressList comment=lb address=93.127.177.128/25} on-error {}
+:do {add list=$AddressList comment=lb address=93.185.224.0/20} on-error {}
+:do {add list=$AddressList comment=lb address=93.185.80.0/20} on-error {}
+:do {add list=$AddressList comment=lb address=93.187.65.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=94.156.75.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=94.187.0.0/17} on-error {}
+:do {add list=$AddressList comment=lb address=94.231.193.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=94.72.152.0/22} on-error {}
+:do {add list=$AddressList comment=lb address=95.141.48.0/20} on-error {}
+:do {add list=$AddressList comment=lb address=95.210.182.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=95.210.239.0/24} on-error {}
+:do {add list=$AddressList comment=lb address=95.214.212.0/22} on-error {}

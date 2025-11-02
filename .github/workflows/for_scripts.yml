@@ -192,7 +192,7 @@ jobs:
               echo ":global GateWay"
               echo "/ip route"
               for dst in "$@"; do
-                echo ":if ([:len [/ip/route/find dst-address=$dst and gateway=\$GateWay]] = 0) do={ add dst-address=$dst gateway=\$GateWay routing-table=\$RouteTab distance=\$Distance comment=$comment }"
+                echo ":if ([:len [/ip/route/find dst-address=$dst and gateway=\$GateWay and routing-table=\$RouteTab]] = 0) do={ add dst-address=$dst gateway=\$GateWay routing-table=\$RouteTab distance=\$Distance comment=$comment }"
               done
             } > "$out"
           }

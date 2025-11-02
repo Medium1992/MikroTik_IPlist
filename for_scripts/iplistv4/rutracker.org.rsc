@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=rutracker.org address=for_scripts/iplistv4/rutracker.org.rsc} on-error {}
 :do {add list=$AddressList comment=rutracker.org address=104.21.0.111} on-error {}
 :do {add list=$AddressList comment=rutracker.org address=104.21.1.151} on-error {}
 :do {add list=$AddressList comment=rutracker.org address=104.21.112.1} on-error {}

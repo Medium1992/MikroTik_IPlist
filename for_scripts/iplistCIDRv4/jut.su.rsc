@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jut.su address=for_scripts/iplistCIDRv4/jut.su.rsc} on-error {}
 :do {add list=$AddressList comment=jut.su address=104.16.0.0/12} on-error {}
 :do {add list=$AddressList comment=jut.su address=116.202.8.0/21} on-error {}
 :do {add list=$AddressList comment=jut.su address=116.202.96.0/20} on-error {}

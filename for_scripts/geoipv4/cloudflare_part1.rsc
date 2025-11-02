@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=cloudflare address=for_scripts/geoipv4/cloudflare_part1.rsc} on-error {}
 :do {add list=$AddressList comment=cloudflare address=1.0.0.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=1.1.1.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=102.132.188.0/24} on-error {}

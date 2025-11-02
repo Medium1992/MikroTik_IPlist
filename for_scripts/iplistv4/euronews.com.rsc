@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=euronews.com address=for_scripts/iplistv4/euronews.com.rsc} on-error {}
 :do {add list=$AddressList comment=euronews.com address=108.128.135.170} on-error {}
 :do {add list=$AddressList comment=euronews.com address=146.75.117.91} on-error {}
 :do {add list=$AddressList comment=euronews.com address=146.75.121.91} on-error {}

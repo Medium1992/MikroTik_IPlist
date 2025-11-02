@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=zona.media address=for_scripts/iplistv4/zona.media.rsc} on-error {}
 :do {add list=$AddressList comment=zona.media address=104.20.46.22} on-error {}
 :do {add list=$AddressList comment=zona.media address=104.21.64.6} on-error {}
 :do {add list=$AddressList comment=zona.media address=104.22.10.208} on-error {}

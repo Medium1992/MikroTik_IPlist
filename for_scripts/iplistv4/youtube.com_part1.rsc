@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=for_scripts/iplistv4/youtube.com_part1.rsc} on-error {}
 :do {add list=$AddressList comment=youtube.com address=1.225.35.109} on-error {}
 :do {add list=$AddressList comment=youtube.com address=1.225.35.110} on-error {}
 :do {add list=$AddressList comment=youtube.com address=1.225.35.111} on-error {}

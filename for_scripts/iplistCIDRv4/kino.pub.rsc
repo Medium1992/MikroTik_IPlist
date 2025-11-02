@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=kino.pub address=for_scripts/iplistCIDRv4/kino.pub.rsc} on-error {}
 :do {add list=$AddressList comment=kino.pub address=104.16.0.0/12} on-error {}
 :do {add list=$AddressList comment=kino.pub address=13.32.0.0/12} on-error {}
 :do {add list=$AddressList comment=kino.pub address=15.188.0.0/16} on-error {}

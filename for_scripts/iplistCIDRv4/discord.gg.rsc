@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=discord.gg address=for_scripts/iplistCIDRv4/discord.gg.rsc} on-error {}
 :do {add list=$AddressList comment=discord.gg address=138.128.136.0/21} on-error {}
 :do {add list=$AddressList comment=discord.gg address=162.158.0.0/15} on-error {}
 :do {add list=$AddressList comment=discord.gg address=172.64.0.0/13} on-error {}

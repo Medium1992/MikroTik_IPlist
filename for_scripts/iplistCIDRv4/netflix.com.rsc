@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=netflix.com address=for_scripts/iplistCIDRv4/netflix.com.rsc} on-error {}
 :do {add list=$AddressList comment=netflix.com address=100.20.0.0/14} on-error {}
 :do {add list=$AddressList comment=netflix.com address=100.24.0.0/13} on-error {}
 :do {add list=$AddressList comment=netflix.com address=100.64.0.0/10} on-error {}

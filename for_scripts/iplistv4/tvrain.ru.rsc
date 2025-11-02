@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tvrain.ru address=for_scripts/iplistv4/tvrain.ru.rsc} on-error {}
 :do {add list=$AddressList comment=tvrain.ru address=104.18.12.225} on-error {}
 :do {add list=$AddressList comment=tvrain.ru address=104.18.13.225} on-error {}
 :do {add list=$AddressList comment=tvrain.ru address=104.18.18.130} on-error {}

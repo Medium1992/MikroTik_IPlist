@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=wikiart.org address=for_scripts/iplistv4/wikiart.org.rsc} on-error {}
 :do {add list=$AddressList comment=wikiart.org address=104.21.31.237} on-error {}
 :do {add list=$AddressList comment=wikiart.org address=172.67.180.202} on-error {}
 :do {add list=$AddressList comment=wikiart.org address=188.114.96.0} on-error {}

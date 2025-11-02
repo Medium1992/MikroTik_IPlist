@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=hentaichan.live address=for_scripts/iplistv4/hentaichan.live.rsc} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=103.200.30.143} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=103.230.123.190} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=103.240.180.117} on-error {}

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=notepad-plus-plus.org address=for_scripts/iplistCIDRv4/notepad-plus-plus.org.rsc} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=145.223.120.0/21} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.79.0.0/17} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.0.0/16} on-error {}

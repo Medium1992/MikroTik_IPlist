@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=doxa.team address=for_scripts/iplistv4/doxa.team.rsc} on-error {}
 :do {add list=$AddressList comment=doxa.team address=104.20.44.10} on-error {}
 :do {add list=$AddressList comment=doxa.team address=104.22.50.93} on-error {}
 :do {add list=$AddressList comment=doxa.team address=104.22.51.93} on-error {}

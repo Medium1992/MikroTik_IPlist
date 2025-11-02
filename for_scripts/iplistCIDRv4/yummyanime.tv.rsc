@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=yummyanime.tv address=for_scripts/iplistCIDRv4/yummyanime.tv.rsc} on-error {}
 :do {add list=$AddressList comment=yummyanime.tv address=104.16.0.0/12} on-error {}
 :do {add list=$AddressList comment=yummyanime.tv address=172.224.0.0/12} on-error {}
 :do {add list=$AddressList comment=yummyanime.tv address=172.64.0.0/13} on-error {}

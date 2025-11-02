@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=aistudio.google.com address=for_scripts/iplistv4/aistudio.google.com.rsc} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=108.177.14.95} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.150.95} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.178.202} on-error {}

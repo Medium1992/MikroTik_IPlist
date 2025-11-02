@@ -1,0 +1,14 @@
+:global Distance
+:global RouteTab
+:global GateWay
+/ip route
+:if ([:len [/ip/route/find comment=AS136336 and dst-address=for_scripts_route/asnv4/AS136336.rsc]] = 0) do={ add dst-address=for_scripts_route/asnv4/AS136336.rsc gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS136336 }
+:if ([:len [/ip/route/find comment=AS136336 and dst-address=103.136.136.0/23]] = 0) do={ add dst-address=103.136.136.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS136336 }
+:if ([:len [/ip/route/find comment=AS136336 and dst-address=103.163.248.0/23]] = 0) do={ add dst-address=103.163.248.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS136336 }
+:if ([:len [/ip/route/find comment=AS136336 and dst-address=103.88.76.0/23]] = 0) do={ add dst-address=103.88.76.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS136336 }
+:if ([:len [/ip/route/find comment=AS136336 and dst-address=103.98.208.0/23]] = 0) do={ add dst-address=103.98.208.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS136336 }
+:if ([:len [/ip/route/find comment=AS136336 and dst-address=103.98.62.0/23]] = 0) do={ add dst-address=103.98.62.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS136336 }
+:if ([:len [/ip/route/find comment=AS136336 and dst-address=38.134.138.0/23]] = 0) do={ add dst-address=38.134.138.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS136336 }
+:if ([:len [/ip/route/find comment=AS136336 and dst-address=38.188.180.0/22]] = 0) do={ add dst-address=38.188.180.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS136336 }
+:if ([:len [/ip/route/find comment=AS136336 and dst-address=38.21.68.0/23]] = 0) do={ add dst-address=38.21.68.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS136336 }
+:if ([:len [/ip/route/find comment=AS136336 and dst-address=38.224.232.0/23]] = 0) do={ add dst-address=38.224.232.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS136336 }

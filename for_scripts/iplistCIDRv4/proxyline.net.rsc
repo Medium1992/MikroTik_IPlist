@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=proxyline.net address=for_scripts/iplistCIDRv4/proxyline.net.rsc} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=134.209.0.0/16} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=164.90.128.0/17} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=165.22.0.0/16} on-error {}

@@ -1,0 +1,11 @@
+:global Distance
+:global RouteTab
+:global GateWay
+/ip route
+:if ([:len [/ip/route/find comment=sl and dst-address=for_scripts_route/geoipv4/sl_part2.rsc]] = 0) do={ add dst-address=for_scripts_route/geoipv4/sl_part2.rsc gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sl }
+:if ([:len [/ip/route/find comment=sl and dst-address=45.138.10.252/30]] = 0) do={ add dst-address=45.138.10.252/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sl }
+:if ([:len [/ip/route/find comment=sl and dst-address=5.62.63.117/32]] = 0) do={ add dst-address=5.62.63.117/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sl }
+:if ([:len [/ip/route/find comment=sl and dst-address=5.62.63.118/31]] = 0) do={ add dst-address=5.62.63.118/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sl }
+:if ([:len [/ip/route/find comment=sl and dst-address=57.82.158.0/23]] = 0) do={ add dst-address=57.82.158.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sl }
+:if ([:len [/ip/route/find comment=sl and dst-address=66.9.160.0/24]] = 0) do={ add dst-address=66.9.160.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sl }
+:if ([:len [/ip/route/find comment=sl and dst-address=74.118.126.196/30]] = 0) do={ add dst-address=74.118.126.196/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sl }

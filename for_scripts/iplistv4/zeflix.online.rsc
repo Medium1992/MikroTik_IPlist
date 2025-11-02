@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=zeflix.online address=for_scripts/iplistv4/zeflix.online.rsc} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=104.21.23.33} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=104.21.96.36} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=172.67.172.66} on-error {}

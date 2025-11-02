@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=xhamster.com address=for_scripts/iplistv4/xhamster.com.rsc} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=104.17.34.109} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=104.17.35.109} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=104.18.146.40} on-error {}

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=mangahub.ru address=for_scripts/iplistv4/mangahub.ru.rsc} on-error {}
 :do {add list=$AddressList comment=mangahub.ru address=104.21.9.209} on-error {}
 :do {add list=$AddressList comment=mangahub.ru address=172.67.131.9} on-error {}
 :do {add list=$AddressList comment=mangahub.ru address=185.206.215.164} on-error {}

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fo address=for_scripts/geoipv4/fo.rsc} on-error {}
 :do {add list=$AddressList comment=fo address=104.28.105.6/31} on-error {}
 :do {add list=$AddressList comment=fo address=104.28.174.68/30} on-error {}
 :do {add list=$AddressList comment=fo address=104.28.174.72/30} on-error {}

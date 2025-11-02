@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=rutor.info address=for_scripts/iplistv4/rutor.info.rsc} on-error {}
 :do {add list=$AddressList comment=rutor.info address=104.21.112.1} on-error {}
 :do {add list=$AddressList comment=rutor.info address=104.21.12.243} on-error {}
 :do {add list=$AddressList comment=rutor.info address=104.21.16.1} on-error {}

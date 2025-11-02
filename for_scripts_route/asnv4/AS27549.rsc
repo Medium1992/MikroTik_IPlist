@@ -1,0 +1,10 @@
+:global Distance
+:global RouteTab
+:global GateWay
+/ip route
+:if ([:len [/ip/route/find comment=AS27549 and dst-address=for_scripts_route/asnv4/AS27549.rsc]] = 0) do={ add dst-address=for_scripts_route/asnv4/AS27549.rsc gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27549 }
+:if ([:len [/ip/route/find comment=AS27549 and dst-address=38.123.132.0/24]] = 0) do={ add dst-address=38.123.132.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27549 }
+:if ([:len [/ip/route/find comment=AS27549 and dst-address=38.123.148.0/24]] = 0) do={ add dst-address=38.123.148.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27549 }
+:if ([:len [/ip/route/find comment=AS27549 and dst-address=38.135.64.0/24]] = 0) do={ add dst-address=38.135.64.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27549 }
+:if ([:len [/ip/route/find comment=AS27549 and dst-address=38.147.85.0/24]] = 0) do={ add dst-address=38.147.85.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27549 }
+:if ([:len [/ip/route/find comment=AS27549 and dst-address=38.98.254.0/23]] = 0) do={ add dst-address=38.98.254.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27549 }

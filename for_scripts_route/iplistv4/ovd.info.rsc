@@ -1,0 +1,54 @@
+:global Distance
+:global RouteTab
+:global GateWay
+/ip route
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=for_scripts_route/iplistv4/ovd.info.rsc]] = 0) do={ add dst-address=for_scripts_route/iplistv4/ovd.info.rsc gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=104.20.36.226]] = 0) do={ add dst-address=104.20.36.226 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=104.20.40.123]] = 0) do={ add dst-address=104.20.40.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=104.21.48.189]] = 0) do={ add dst-address=104.21.48.189 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=104.21.79.236]] = 0) do={ add dst-address=104.21.79.236 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=104.22.20.207]] = 0) do={ add dst-address=104.22.20.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=104.22.21.207]] = 0) do={ add dst-address=104.22.21.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=172.66.154.11]] = 0) do={ add dst-address=172.66.154.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=172.66.155.103]] = 0) do={ add dst-address=172.66.155.103 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=172.67.150.9]] = 0) do={ add dst-address=172.67.150.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=172.67.156.12]] = 0) do={ add dst-address=172.67.156.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=172.67.4.208]] = 0) do={ add dst-address=172.67.4.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.96.10]] = 0) do={ add dst-address=188.114.96.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.96.12]] = 0) do={ add dst-address=188.114.96.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.96.3]] = 0) do={ add dst-address=188.114.96.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.96.7]] = 0) do={ add dst-address=188.114.96.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.96.8]] = 0) do={ add dst-address=188.114.96.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.96.9]] = 0) do={ add dst-address=188.114.96.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.97.10]] = 0) do={ add dst-address=188.114.97.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.97.12]] = 0) do={ add dst-address=188.114.97.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.97.3]] = 0) do={ add dst-address=188.114.97.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.97.7]] = 0) do={ add dst-address=188.114.97.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.97.8]] = 0) do={ add dst-address=188.114.97.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.97.9]] = 0) do={ add dst-address=188.114.97.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.98.224]] = 0) do={ add dst-address=188.114.98.224 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.98.228]] = 0) do={ add dst-address=188.114.98.228 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.98.229]] = 0) do={ add dst-address=188.114.98.229 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.98.230]] = 0) do={ add dst-address=188.114.98.230 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.98.231]] = 0) do={ add dst-address=188.114.98.231 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.98.232]] = 0) do={ add dst-address=188.114.98.232 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.98.233]] = 0) do={ add dst-address=188.114.98.233 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.99.224]] = 0) do={ add dst-address=188.114.99.224 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.99.228]] = 0) do={ add dst-address=188.114.99.228 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.99.229]] = 0) do={ add dst-address=188.114.99.229 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.99.230]] = 0) do={ add dst-address=188.114.99.230 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.99.231]] = 0) do={ add dst-address=188.114.99.231 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.99.232]] = 0) do={ add dst-address=188.114.99.232 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=188.114.99.233]] = 0) do={ add dst-address=188.114.99.233 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=199.232.211.52]] = 0) do={ add dst-address=199.232.211.52 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=199.232.215.52]] = 0) do={ add dst-address=199.232.215.52 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=8.47.69.0]] = 0) do={ add dst-address=8.47.69.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=8.47.69.4]] = 0) do={ add dst-address=8.47.69.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=8.47.69.6]] = 0) do={ add dst-address=8.47.69.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=8.47.69.8]] = 0) do={ add dst-address=8.47.69.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=8.47.69.9]] = 0) do={ add dst-address=8.47.69.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=8.6.112.0]] = 0) do={ add dst-address=8.6.112.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=8.6.112.4]] = 0) do={ add dst-address=8.6.112.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=8.6.112.6]] = 0) do={ add dst-address=8.6.112.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=8.6.112.8]] = 0) do={ add dst-address=8.6.112.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }
+:if ([:len [/ip/route/find comment=ovd.info and dst-address=8.6.112.9]] = 0) do={ add dst-address=8.6.112.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ovd.info }

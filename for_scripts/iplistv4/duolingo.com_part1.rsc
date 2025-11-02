@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=duolingo.com address=for_scripts/iplistv4/duolingo.com_part1.rsc} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=100.24.101.66} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=100.24.139.180} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=100.24.146.48} on-error {}

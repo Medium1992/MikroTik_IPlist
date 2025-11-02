@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=basecamp.com address=for_scripts/iplistv4/basecamp.com.rsc} on-error {}
 :do {add list=$AddressList comment=basecamp.com address=104.18.0.135} on-error {}
 :do {add list=$AddressList comment=basecamp.com address=104.18.1.135} on-error {}
 :do {add list=$AddressList comment=basecamp.com address=104.18.14.58} on-error {}

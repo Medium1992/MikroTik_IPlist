@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=telegram address=for_scripts/geoipv4/telegram.rsc} on-error {}
 :do {add list=$AddressList comment=telegram address=149.154.160.0/20} on-error {}
 :do {add list=$AddressList comment=telegram address=185.76.151.0/24} on-error {}
 :do {add list=$AddressList comment=telegram address=91.105.192.0/23} on-error {}

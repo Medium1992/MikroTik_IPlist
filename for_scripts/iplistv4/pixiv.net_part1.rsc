@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=pixiv.net address=for_scripts/iplistv4/pixiv.net_part1.rsc} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=104.18.37.180} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=104.18.39.83} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=104.18.41.140} on-error {}

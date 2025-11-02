@@ -1,0 +1,36 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=jetbrains%40cdn address=for_scripts/iplistv4/jetbrains%40cdn.rsc} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=104.16.2.35} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=104.16.25.34} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=104.16.3.35} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=104.16.30.34} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=104.21.12.181} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=108.128.226.255} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=108.156.22.18} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=108.156.22.30} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=108.156.22.60} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=108.156.22.76} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=13.48.240.20} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=13.53.167.35} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=140.82.121.3} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=140.82.121.4} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=142.250.74.142} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=146.59.12.218} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=185.166.143.4} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=185.166.143.48} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=185.166.143.5} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=185.166.143.50} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=185.199.109.133} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=185.199.111.133} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=20.42.128.105} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=216.58.207.195} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=35.223.238.178} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=5.196.224.108} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=52.85.49.108} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=52.85.49.113} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=52.85.49.118} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=52.85.49.126} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=52.85.49.30} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=52.85.49.42} on-error {}
+:do {add list=$AddressList comment=jetbrains%40cdn address=52.85.49.85} on-error {}

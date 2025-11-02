@@ -1,0 +1,35 @@
+:global AddressList
+/ip firewall address-list
+:do {add list=$AddressList comment=novayagazeta.ru address=for_scripts/iplistv4/novayagazeta.ru.rsc} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=104.20.18.89} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=104.20.36.103} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=104.22.14.2} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=104.22.15.2} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=104.22.28.188} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=104.22.29.188} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=172.66.151.241} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=172.66.154.69} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=172.67.15.167} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=172.67.43.67} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=188.114.98.224} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=188.114.98.228} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=188.114.98.229} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=188.114.98.233} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=188.114.98.236} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=188.114.99.224} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=188.114.99.228} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=188.114.99.229} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=188.114.99.233} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=188.114.99.236} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.47.69.0} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.47.69.4} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.47.69.6} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.47.69.7} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.47.69.8} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.47.69.9} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.6.112.0} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.6.112.4} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.6.112.6} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.6.112.7} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.6.112.8} on-error {}
+:do {add list=$AddressList comment=novayagazeta.ru address=8.6.112.9} on-error {}

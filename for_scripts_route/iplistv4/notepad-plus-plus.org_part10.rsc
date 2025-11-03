@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=77.37.55.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.37.55.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notepad-plus-plus.org }
+:if ([:len [/ip/route/find dst-address=77.37.55.64 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.37.55.64 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notepad-plus-plus.org }
 :if ([:len [/ip/route/find dst-address=77.37.55.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.37.55.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notepad-plus-plus.org }
 :if ([:len [/ip/route/find dst-address=77.37.55.66 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.37.55.66 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notepad-plus-plus.org }
 :if ([:len [/ip/route/find dst-address=77.37.55.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.37.55.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notepad-plus-plus.org }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=77.37.83.50 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.37.83.50 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notepad-plus-plus.org }
 :if ([:len [/ip/route/find dst-address=77.37.83.52 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.37.83.52 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notepad-plus-plus.org }
 :if ([:len [/ip/route/find dst-address=77.37.83.54 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.37.83.54 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notepad-plus-plus.org }
-:if ([:len [/ip/route/find dst-address=77.37.83.55 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.37.83.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notepad-plus-plus.org }
-:if ([:len [/ip/route/find dst-address=77.37.83.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.37.83.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notepad-plus-plus.org }

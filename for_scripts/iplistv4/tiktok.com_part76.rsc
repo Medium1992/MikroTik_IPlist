@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=23.211.142.204} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.211.142.206} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.211.142.207} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.211.142.208} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.211.142.214} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.211.15.132} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.211.15.133} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.211.15.134} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.211.15.135} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.211.15.136} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.211.15.137} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.211.15.138} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=23.212.249.19} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.212.249.196} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.212.249.197} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.212.249.198} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.212.249.199} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.212.249.20} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.212.249.200} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.212.249.201} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.212.249.202} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.212.249.203} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.212.249.204} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.212.249.205} on-error {}

@@ -2,6 +2,7 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=172.20.6.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.20.6.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=172.20.6.30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.20.6.30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=172.20.6.61 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.20.6.61 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=172.20.7.188 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.20.7.188 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
@@ -101,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=18.154.22.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.154.22.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=18.154.22.111 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.154.22.111 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
 :if ([:len [/ip/route/find dst-address=18.154.22.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.154.22.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }
-:if ([:len [/ip/route/find dst-address=18.154.22.31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.154.22.31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=viber.com }

@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=23.206.170.89} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.206.170.9} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.206.170.91} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.206.170.96} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.206.170.97} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.206.170.98} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.206.170.99} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.206.172.173} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.206.172.179} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.206.172.182} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.206.172.183} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.206.172.185} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=23.207.202.69} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.207.202.73} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.207.202.74} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.207.202.76} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.207.202.78} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.207.202.83} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.207.210.68} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.207.210.69} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.207.210.70} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.207.210.71} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.207.210.72} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.207.210.73} on-error {}

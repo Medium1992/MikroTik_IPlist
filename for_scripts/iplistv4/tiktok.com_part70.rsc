@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=23.199.75.131} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.199.75.136} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.199.75.137} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.199.75.138} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.199.75.139} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.199.75.144} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.199.75.145} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.199.75.146} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.199.75.147} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.199.75.152} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.199.75.153} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.199.75.154} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=23.200.66.143} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.200.66.144} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.200.66.145} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.200.66.146} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.200.66.147} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.200.66.148} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.200.66.149} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.200.66.150} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.200.66.151} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.200.66.152} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.200.66.153} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.200.66.154} on-error {}

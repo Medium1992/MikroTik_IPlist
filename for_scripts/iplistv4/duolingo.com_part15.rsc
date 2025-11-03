@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=duolingo.com address=52.85.223.31} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=52.85.223.37} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=52.85.223.40} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=52.85.223.63} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=52.85.223.7} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=52.85.223.73} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=52.85.223.96} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=52.85.223.98} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=52.85.49.10} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=52.85.49.100} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=52.85.49.101} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=52.85.49.109} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=duolingo.com address=54.175.20.236} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=54.175.222.114} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=54.175.3.227} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=54.175.44.180} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=54.175.46.97} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=54.175.61.54} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=54.175.64.103} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=54.175.71.98} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=54.175.75.175} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=54.175.91.241} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=54.192.35.110} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=54.192.35.113} on-error {}

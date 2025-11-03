@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=23.212.249.198} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.212.249.199} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.212.249.20} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.212.249.200} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.212.249.201} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.212.249.202} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.212.249.203} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.212.249.204} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=23.212.249.205} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.212.249.206} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.212.249.207} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.212.249.208} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=23.213.206.42} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.213.206.45} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=23.213.206.47} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.213.206.71} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.213.206.72} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.213.206.78} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.213.206.8} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.213.206.9} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.213.230.12} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.213.230.13} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.213.230.130} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=23.213.230.132} on-error {}

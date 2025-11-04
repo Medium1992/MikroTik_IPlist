@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=themoviedb.org address=52.98.229.120} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=52.98.229.136} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=52.98.229.152} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=52.98.229.168} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=52.98.229.184} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=52.98.229.216} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=52.98.229.8} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=52.98.229.88} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=52.98.23.248} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=52.98.230.24} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=52.98.231.248} on-error {}
@@ -139,6 +147,10 @@
 :do {add list=$AddressList comment=themoviedb.org address=54.240.174.71} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=54.240.174.85} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=54.240.174.89} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=65.9.175.66} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=65.9.175.72} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=65.9.175.84} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=65.9.175.91} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=65.9.189.10} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=65.9.189.101} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=65.9.189.109} on-error {}

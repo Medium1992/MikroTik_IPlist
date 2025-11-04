@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=currenttime.tv address=92.123.103.91} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=92.123.106.122} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=92.123.106.130} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=92.123.106.152} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=92.123.106.160} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=92.123.106.176} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=92.123.106.178} on-error {}
@@ -275,7 +279,9 @@
 :do {add list=$AddressList comment=currenttime.tv address=95.101.235.160} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=95.101.235.205} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=95.101.235.206} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=95.101.235.210} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=95.101.235.221} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=95.101.235.227} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=95.101.235.241} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=95.101.27.109} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=95.101.27.73} on-error {}
@@ -344,7 +350,3 @@
 :do {add list=$AddressList comment=currenttime.tv address=96.16.88.182} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=96.16.88.183} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=96.16.88.194} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=99.84.66.120} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=99.84.66.19} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=99.84.66.44} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=99.84.66.66} on-error {}

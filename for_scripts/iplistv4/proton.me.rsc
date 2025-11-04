@@ -317,6 +317,10 @@
 :do {add list=$AddressList comment=proton.me address=54.240.174.120} on-error {}
 :do {add list=$AddressList comment=proton.me address=54.240.174.45} on-error {}
 :do {add list=$AddressList comment=proton.me address=54.240.174.80} on-error {}
+:do {add list=$AddressList comment=proton.me address=65.8.131.34} on-error {}
+:do {add list=$AddressList comment=proton.me address=65.8.131.51} on-error {}
+:do {add list=$AddressList comment=proton.me address=65.8.131.63} on-error {}
+:do {add list=$AddressList comment=proton.me address=65.8.131.66} on-error {}
 :do {add list=$AddressList comment=proton.me address=65.8.19.100} on-error {}
 :do {add list=$AddressList comment=proton.me address=65.8.19.52} on-error {}
 :do {add list=$AddressList comment=proton.me address=65.8.19.70} on-error {}

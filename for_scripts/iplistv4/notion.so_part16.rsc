@@ -188,10 +188,14 @@
 :do {add list=$AddressList comment=notion.so address=54.192.18.125} on-error {}
 :do {add list=$AddressList comment=notion.so address=54.192.18.77} on-error {}
 :do {add list=$AddressList comment=notion.so address=54.192.18.91} on-error {}
+:do {add list=$AddressList comment=notion.so address=54.192.35.21} on-error {}
 :do {add list=$AddressList comment=notion.so address=54.192.35.40} on-error {}
 :do {add list=$AddressList comment=notion.so address=54.192.35.41} on-error {}
+:do {add list=$AddressList comment=notion.so address=54.192.35.45} on-error {}
+:do {add list=$AddressList comment=notion.so address=54.192.35.74} on-error {}
 :do {add list=$AddressList comment=notion.so address=54.192.35.86} on-error {}
 :do {add list=$AddressList comment=notion.so address=54.192.35.90} on-error {}
+:do {add list=$AddressList comment=notion.so address=54.192.35.99} on-error {}
 :do {add list=$AddressList comment=notion.so address=54.192.51.118} on-error {}
 :do {add list=$AddressList comment=notion.so address=54.192.51.13} on-error {}
 :do {add list=$AddressList comment=notion.so address=54.192.51.34} on-error {}

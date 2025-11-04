@@ -29,8 +29,12 @@
 :do {add list=$AddressList comment=strava.com address=54.187.61.60} on-error {}
 :do {add list=$AddressList comment=strava.com address=54.189.238.83} on-error {}
 :do {add list=$AddressList comment=strava.com address=54.191.185.157} on-error {}
+:do {add list=$AddressList comment=strava.com address=54.192.35.17} on-error {}
 :do {add list=$AddressList comment=strava.com address=54.192.35.18} on-error {}
+:do {add list=$AddressList comment=strava.com address=54.192.35.24} on-error {}
 :do {add list=$AddressList comment=strava.com address=54.192.35.27} on-error {}
+:do {add list=$AddressList comment=strava.com address=54.192.35.33} on-error {}
+:do {add list=$AddressList comment=strava.com address=54.192.35.39} on-error {}
 :do {add list=$AddressList comment=strava.com address=54.192.35.49} on-error {}
 :do {add list=$AddressList comment=strava.com address=54.192.35.99} on-error {}
 :do {add list=$AddressList comment=strava.com address=54.192.95.123} on-error {}
@@ -137,9 +141,13 @@
 :do {add list=$AddressList comment=strava.com address=54.92.160.31} on-error {}
 :do {add list=$AddressList comment=strava.com address=54.92.164.97} on-error {}
 :do {add list=$AddressList comment=strava.com address=65.8.131.106} on-error {}
+:do {add list=$AddressList comment=strava.com address=65.8.131.12} on-error {}
 :do {add list=$AddressList comment=strava.com address=65.8.131.122} on-error {}
+:do {add list=$AddressList comment=strava.com address=65.8.131.33} on-error {}
 :do {add list=$AddressList comment=strava.com address=65.8.131.4} on-error {}
+:do {add list=$AddressList comment=strava.com address=65.8.131.57} on-error {}
 :do {add list=$AddressList comment=strava.com address=65.8.131.70} on-error {}
+:do {add list=$AddressList comment=strava.com address=65.8.131.82} on-error {}
 :do {add list=$AddressList comment=strava.com address=65.9.189.102} on-error {}
 :do {add list=$AddressList comment=strava.com address=65.9.189.110} on-error {}
 :do {add list=$AddressList comment=strava.com address=65.9.189.113} on-error {}

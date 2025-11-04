@@ -1,7 +1,7 @@
 name: Generate MikroTik RSC Files (Address-List + Routes)
 on:
   schedule:
-    - cron: "30 0 * * *" # 00:30 UTC
+    - cron: "30 0 * * 1" # 00:30 UTC Monday
   workflow_dispatch:
 permissions:
   contents: write

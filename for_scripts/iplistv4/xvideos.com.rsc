@@ -42,6 +42,7 @@
 :do {add list=$AddressList comment=xvideos.com address=169.150.214.135} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=169.150.237.34} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=169.150.237.35} on-error {}
+:do {add list=$AddressList comment=xvideos.com address=169.150.252.37} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=169.150.252.38} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=172.64.155.213} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=185.102.217.104} on-error {}
@@ -134,6 +135,8 @@
 :do {add list=$AddressList comment=xvideos.com address=84.17.59.17} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=87.249.131.106} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=87.249.131.2} on-error {}
+:do {add list=$AddressList comment=xvideos.com address=89.187.165.7} on-error {}
+:do {add list=$AddressList comment=xvideos.com address=89.187.165.8} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=89.187.171.28} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=89.222.125.209} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=89.222.125.210} on-error {}

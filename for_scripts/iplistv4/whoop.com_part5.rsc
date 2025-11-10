@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=whoop.com address=188.114.97.0} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.97.1} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.97.10} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.97.12} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.97.3} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.97.4} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.97.7} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.97.8} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.97.9} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.98.224} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.98.228} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.98.229} on-error {}
+:do {add list=$AddressList comment=whoop.com address=188.114.99.224} on-error {}
 :do {add list=$AddressList comment=whoop.com address=188.114.99.228} on-error {}
 :do {add list=$AddressList comment=whoop.com address=188.114.99.229} on-error {}
 :do {add list=$AddressList comment=whoop.com address=190.98.160.130} on-error {}
@@ -161,6 +174,7 @@
 :do {add list=$AddressList comment=whoop.com address=2.19.248.82} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.19.248.85} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.19.250.136} on-error {}
+:do {add list=$AddressList comment=whoop.com address=2.19.250.139} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.19.250.146} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.19.51.106} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.19.51.62} on-error {}
@@ -227,6 +241,8 @@
 :do {add list=$AddressList comment=whoop.com address=2.20.178.219} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.20.242.27} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.20.242.66} on-error {}
+:do {add list=$AddressList comment=whoop.com address=2.20.245.206} on-error {}
+:do {add list=$AddressList comment=whoop.com address=2.20.245.219} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.20.45.11} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.20.45.113} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.20.45.17} on-error {}
@@ -334,19 +350,3 @@
 :do {add list=$AddressList comment=whoop.com address=2.22.151.35} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.22.151.49} on-error {}
 :do {add list=$AddressList comment=whoop.com address=2.22.151.51} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.20.82} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.20.86} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.228.107} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.228.114} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.228.154} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.228.169} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.228.170} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.228.192} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.228.193} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.231.132} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.231.135} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.231.196} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.240.104} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.240.170} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.240.218} on-error {}
-:do {add list=$AddressList comment=whoop.com address=2.22.240.96} on-error {}

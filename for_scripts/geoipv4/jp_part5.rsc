@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jp address=104.28.217.27/32} on-error {}
+:do {add list=$AddressList comment=jp address=104.28.217.28/30} on-error {}
+:do {add list=$AddressList comment=jp address=104.28.217.32/31} on-error {}
+:do {add list=$AddressList comment=jp address=104.28.217.34/32} on-error {}
+:do {add list=$AddressList comment=jp address=104.28.218.47/32} on-error {}
+:do {add list=$AddressList comment=jp address=104.28.218.48/30} on-error {}
+:do {add list=$AddressList comment=jp address=104.28.218.52/31} on-error {}
+:do {add list=$AddressList comment=jp address=104.28.218.54/32} on-error {}
+:do {add list=$AddressList comment=jp address=104.28.219.60/30} on-error {}
+:do {add list=$AddressList comment=jp address=104.28.219.64/30} on-error {}
 :do {add list=$AddressList comment=jp address=104.28.22.115/32} on-error {}
 :do {add list=$AddressList comment=jp address=104.28.22.116/30} on-error {}
 :do {add list=$AddressList comment=jp address=104.28.22.120/31} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=jp address=104.30.162.130/31} on-error {}
 :do {add list=$AddressList comment=jp address=104.30.162.143/32} on-error {}
 :do {add list=$AddressList comment=jp address=104.30.162.168/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.30.162.17/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.30.162.171/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.30.162.220/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.30.162.222/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.30.162.228/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.30.162.233/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.30.162.236/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.30.162.239/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.30.162.246/32} on-error {}
-:do {add list=$AddressList comment=jp address=104.30.162.34/32} on-error {}

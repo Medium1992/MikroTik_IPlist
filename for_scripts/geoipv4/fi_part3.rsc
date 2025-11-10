@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fi address=162.158.236.0/22} on-error {}
+:do {add list=$AddressList comment=fi address=162.159.96.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=162.216.248.16/28} on-error {}
+:do {add list=$AddressList comment=fi address=162.216.248.208/28} on-error {}
+:do {add list=$AddressList comment=fi address=162.218.92.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=163.114.196.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=163.116.166.107/32} on-error {}
 :do {add list=$AddressList comment=fi address=163.116.166.80/32} on-error {}
 :do {add list=$AddressList comment=fi address=163.116.168.89/32} on-error {}
 :do {add list=$AddressList comment=fi address=163.116.168.95/32} on-error {}
@@ -86,7 +93,6 @@
 :do {add list=$AddressList comment=fi address=167.17.177.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=167.17.40.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=167.82.236.0/24} on-error {}
-:do {add list=$AddressList comment=fi address=168.149.129.0/26} on-error {}
 :do {add list=$AddressList comment=fi address=168.149.149.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=168.222.253.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=17.66.84.0/22} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=fi address=185.31.17.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=185.31.68.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=185.33.72.0/22} on-error {}
-:do {add list=$AddressList comment=fi address=185.36.96.0/22} on-error {}
-:do {add list=$AddressList comment=fi address=185.37.132.0/22} on-error {}
-:do {add list=$AddressList comment=fi address=185.38.0.0/22} on-error {}
-:do {add list=$AddressList comment=fi address=185.39.128.0/22} on-error {}
-:do {add list=$AddressList comment=fi address=185.39.184.0/22} on-error {}
-:do {add list=$AddressList comment=fi address=185.4.228.0/22} on-error {}

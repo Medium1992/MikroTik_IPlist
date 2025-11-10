@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS399337 address=130.12.36.0/22} on-error {}
 :do {add list=$AddressList comment=AS399337 address=154.45.252.0/22} on-error {}
 :do {add list=$AddressList comment=AS399337 address=172.110.176.0/22} on-error {}
 :do {add list=$AddressList comment=AS399337 address=208.81.16.0/22} on-error {}

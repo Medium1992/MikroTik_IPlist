@@ -206,7 +206,7 @@
 :do {add list=$AddressList comment=AS16625 address=23.198.192.0/20} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.198.208.0/22} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.198.212.0/23} on-error {}
-:do {add list=$AddressList comment=AS16625 address=23.198.216.0/22} on-error {}
+:do {add list=$AddressList comment=AS16625 address=23.198.216.0/21} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.198.224.0/21} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.198.236.0/22} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.198.240.0/22} on-error {}
@@ -260,7 +260,6 @@
 :do {add list=$AddressList comment=AS16625 address=23.201.32.0/23} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.201.36.0/22} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.201.64.0/21} on-error {}
-:do {add list=$AddressList comment=AS16625 address=23.201.72.0/22} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.201.88.0/21} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.202.0.0/19} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.202.100.0/22} on-error {}
@@ -346,7 +345,8 @@
 :do {add list=$AddressList comment=AS16625 address=23.206.252.0/22} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.206.32.0/20} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.206.48.0/21} on-error {}
-:do {add list=$AddressList comment=AS16625 address=23.206.64.0/20} on-error {}
+:do {add list=$AddressList comment=AS16625 address=23.206.64.0/19} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.206.8.0/21} on-error {}
-:do {add list=$AddressList comment=AS16625 address=23.206.80.0/21} on-error {}
 :do {add list=$AddressList comment=AS16625 address=23.206.96.0/20} on-error {}
+:do {add list=$AddressList comment=AS16625 address=23.207.0.0/19} on-error {}
+:do {add list=$AddressList comment=AS16625 address=23.207.128.0/19} on-error {}

@@ -79,7 +79,6 @@
 :do {add list=$AddressList comment=AS62904 address=104.206.79.0/24} on-error {}
 :do {add list=$AddressList comment=AS62904 address=104.206.80.0/20} on-error {}
 :do {add list=$AddressList comment=AS62904 address=104.206.96.0/21} on-error {}
-:do {add list=$AddressList comment=AS62904 address=104.218.239.0/24} on-error {}
 :do {add list=$AddressList comment=AS62904 address=107.158.0.0/20} on-error {}
 :do {add list=$AddressList comment=AS62904 address=107.158.100.0/22} on-error {}
 :do {add list=$AddressList comment=AS62904 address=107.158.104.0/21} on-error {}
@@ -333,10 +332,7 @@
 :do {add list=$AddressList comment=AS62904 address=23.90.36.0/22} on-error {}
 :do {add list=$AddressList comment=AS62904 address=23.90.4.0/23} on-error {}
 :do {add list=$AddressList comment=AS62904 address=23.90.44.0/22} on-error {}
-:do {add list=$AddressList comment=AS62904 address=23.90.48.0/23} on-error {}
-:do {add list=$AddressList comment=AS62904 address=23.90.50.0/24} on-error {}
-:do {add list=$AddressList comment=AS62904 address=23.90.52.0/22} on-error {}
-:do {add list=$AddressList comment=AS62904 address=23.90.56.0/21} on-error {}
+:do {add list=$AddressList comment=AS62904 address=23.90.48.0/20} on-error {}
 :do {add list=$AddressList comment=AS62904 address=23.90.8.0/21} on-error {}
 :do {add list=$AddressList comment=AS62904 address=31.172.69.0/24} on-error {}
 :do {add list=$AddressList comment=AS62904 address=31.172.79.0/24} on-error {}
@@ -350,3 +346,7 @@
 :do {add list=$AddressList comment=AS62904 address=50.2.128.0/21} on-error {}
 :do {add list=$AddressList comment=AS62904 address=50.2.136.0/22} on-error {}
 :do {add list=$AddressList comment=AS62904 address=50.2.140.0/23} on-error {}
+:do {add list=$AddressList comment=AS62904 address=50.2.143.0/24} on-error {}
+:do {add list=$AddressList comment=AS62904 address=50.2.144.0/21} on-error {}
+:do {add list=$AddressList comment=AS62904 address=50.2.152.0/22} on-error {}
+:do {add list=$AddressList comment=AS62904 address=50.2.156.0/24} on-error {}

@@ -1,6 +1,7 @@
 :global AddressList
 /ip firewall address-list
 :do {add list=$AddressList comment=aistudio.google.com address=108.177.14.95} on-error {}
+:do {add list=$AddressList comment=aistudio.google.com address=142.250.102.95} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.150.95} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.178.202} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.178.234} on-error {}
@@ -15,6 +16,7 @@
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.201.202} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.201.42} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.203.234} on-error {}
+:do {add list=$AddressList comment=aistudio.google.com address=142.250.27.95} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.74.10} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.74.106} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.250.74.138} on-error {}

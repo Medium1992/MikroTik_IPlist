@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=discord.com address=18.165.183.57} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.165.183.59} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.165.183.61} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.165.61.111} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.165.61.30} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.165.61.57} on-error {}
@@ -64,6 +67,10 @@
 :do {add list=$AddressList comment=discord.com address=18.66.233.18} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.66.233.33} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.66.233.53} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.66.26.122} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.66.26.32} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.66.26.65} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.66.26.7} on-error {}
 :do {add list=$AddressList comment=discord.com address=185.107.56.192} on-error {}
 :do {add list=$AddressList comment=discord.com address=185.107.56.193} on-error {}
 :do {add list=$AddressList comment=discord.com address=185.107.56.194} on-error {}
@@ -118,6 +125,9 @@
 :do {add list=$AddressList comment=discord.com address=207.244.65.58} on-error {}
 :do {add list=$AddressList comment=discord.com address=207.244.67.138} on-error {}
 :do {add list=$AddressList comment=discord.com address=207.244.67.139} on-error {}
+:do {add list=$AddressList comment=discord.com address=207.244.67.214} on-error {}
+:do {add list=$AddressList comment=discord.com address=207.244.67.215} on-error {}
+:do {add list=$AddressList comment=discord.com address=207.244.67.216} on-error {}
 :do {add list=$AddressList comment=discord.com address=207.244.76.129} on-error {}
 :do {add list=$AddressList comment=discord.com address=207.244.76.130} on-error {}
 :do {add list=$AddressList comment=discord.com address=207.244.76.131} on-error {}
@@ -225,6 +235,10 @@
 :do {add list=$AddressList comment=discord.com address=37.48.65.143} on-error {}
 :do {add list=$AddressList comment=discord.com address=37.48.65.144} on-error {}
 :do {add list=$AddressList comment=discord.com address=37.48.65.145} on-error {}
+:do {add list=$AddressList comment=discord.com address=37.48.65.148} on-error {}
+:do {add list=$AddressList comment=discord.com address=37.48.65.149} on-error {}
+:do {add list=$AddressList comment=discord.com address=37.48.65.150} on-error {}
+:do {add list=$AddressList comment=discord.com address=37.48.65.151} on-error {}
 :do {add list=$AddressList comment=discord.com address=37.48.65.152} on-error {}
 :do {add list=$AddressList comment=discord.com address=37.48.65.153} on-error {}
 :do {add list=$AddressList comment=discord.com address=37.48.65.154} on-error {}
@@ -271,6 +285,10 @@
 :do {add list=$AddressList comment=discord.com address=54.230.114.72} on-error {}
 :do {add list=$AddressList comment=discord.com address=54.230.114.82} on-error {}
 :do {add list=$AddressList comment=discord.com address=54.230.114.95} on-error {}
+:do {add list=$AddressList comment=discord.com address=54.240.174.106} on-error {}
+:do {add list=$AddressList comment=discord.com address=54.240.174.6} on-error {}
+:do {add list=$AddressList comment=discord.com address=54.240.174.69} on-error {}
+:do {add list=$AddressList comment=discord.com address=54.240.174.77} on-error {}
 :do {add list=$AddressList comment=discord.com address=64.233.161.207} on-error {}
 :do {add list=$AddressList comment=discord.com address=64.233.162.207} on-error {}
 :do {add list=$AddressList comment=discord.com address=64.233.163.207} on-error {}
@@ -332,21 +350,3 @@
 :do {add list=$AddressList comment=discord.com address=81.171.22.5} on-error {}
 :do {add list=$AddressList comment=discord.com address=81.171.22.6} on-error {}
 :do {add list=$AddressList comment=discord.com address=81.171.22.7} on-error {}
-:do {add list=$AddressList comment=discord.com address=82.192.82.225} on-error {}
-:do {add list=$AddressList comment=discord.com address=82.192.82.226} on-error {}
-:do {add list=$AddressList comment=discord.com address=82.192.82.227} on-error {}
-:do {add list=$AddressList comment=discord.com address=82.192.82.228} on-error {}
-:do {add list=$AddressList comment=discord.com address=94.229.72.117} on-error {}
-:do {add list=$AddressList comment=discord.com address=94.229.72.118} on-error {}
-:do {add list=$AddressList comment=discord.com address=94.229.72.122} on-error {}
-:do {add list=$AddressList comment=discord.com address=94.229.72.123} on-error {}
-:do {add list=$AddressList comment=discord.com address=94.229.72.124} on-error {}
-:do {add list=$AddressList comment=discord.com address=94.229.72.125} on-error {}
-:do {add list=$AddressList comment=discord.com address=99.83.161.153} on-error {}
-:do {add list=$AddressList comment=discord.com address=99.84.9.102} on-error {}
-:do {add list=$AddressList comment=discord.com address=99.84.9.127} on-error {}
-:do {add list=$AddressList comment=discord.com address=99.84.9.13} on-error {}
-:do {add list=$AddressList comment=discord.com address=99.84.9.70} on-error {}
-:do {add list=$AddressList comment=discord.com address=99.84.91.53} on-error {}
-:do {add list=$AddressList comment=discord.com address=99.84.91.60} on-error {}
-:do {add list=$AddressList comment=discord.com address=99.84.91.7} on-error {}

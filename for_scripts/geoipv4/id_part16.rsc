@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=id address=202.59.175.96/27} on-error {}
-:do {add list=$AddressList comment=id address=202.59.192.0/20} on-error {}
-:do {add list=$AddressList comment=id address=202.59.255.0/24} on-error {}
 :do {add list=$AddressList comment=id address=202.6.192.0/23} on-error {}
 :do {add list=$AddressList comment=id address=202.6.200.0/23} on-error {}
 :do {add list=$AddressList comment=id address=202.6.208.0/20} on-error {}
@@ -253,6 +250,7 @@
 :do {add list=$AddressList comment=id address=209.199.19.112/28} on-error {}
 :do {add list=$AddressList comment=id address=209.199.21.0/25} on-error {}
 :do {add list=$AddressList comment=id address=209.199.4.0/23} on-error {}
+:do {add list=$AddressList comment=id address=209.209.115.0/24} on-error {}
 :do {add list=$AddressList comment=id address=210.176.128.0/24} on-error {}
 :do {add list=$AddressList comment=id address=210.176.142.0/24} on-error {}
 :do {add list=$AddressList comment=id address=210.210.128.0/18} on-error {}
@@ -282,7 +280,6 @@
 :do {add list=$AddressList comment=id address=210.87.96.0/23} on-error {}
 :do {add list=$AddressList comment=id address=212.117.48.0/20} on-error {}
 :do {add list=$AddressList comment=id address=212.34.192.0/19} on-error {}
-:do {add list=$AddressList comment=id address=212.52.30.0/23} on-error {}
 :do {add list=$AddressList comment=id address=212.69.6.0/24} on-error {}
 :do {add list=$AddressList comment=id address=212.85.24.0/22} on-error {}
 :do {add list=$AddressList comment=id address=216.133.144.0/24} on-error {}
@@ -350,3 +347,6 @@
 :do {add list=$AddressList comment=id address=23.206.233.0/24} on-error {}
 :do {add list=$AddressList comment=id address=23.212.102.0/23} on-error {}
 :do {add list=$AddressList comment=id address=23.212.104.0/22} on-error {}
+:do {add list=$AddressList comment=id address=23.212.112.0/20} on-error {}
+:do {add list=$AddressList comment=id address=23.212.128.0/20} on-error {}
+:do {add list=$AddressList comment=id address=23.214.169.0/24} on-error {}

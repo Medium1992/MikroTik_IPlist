@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=krymr.com address=18.161.69.110} on-error {}
+:do {add list=$AddressList comment=krymr.com address=18.161.69.17} on-error {}
 :do {add list=$AddressList comment=krymr.com address=18.161.69.2} on-error {}
 :do {add list=$AddressList comment=krymr.com address=18.161.69.86} on-error {}
 :do {add list=$AddressList comment=krymr.com address=18.164.237.108} on-error {}
@@ -192,11 +194,14 @@
 :do {add list=$AddressList comment=krymr.com address=2.16.16.165} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.16.16.167} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.16.16.171} on-error {}
+:do {add list=$AddressList comment=krymr.com address=2.16.16.215} on-error {}
+:do {add list=$AddressList comment=krymr.com address=2.16.16.236} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.16.165.114} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.16.165.123} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.16.172.131} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.16.183.107} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.16.183.80} on-error {}
+:do {add list=$AddressList comment=krymr.com address=2.16.183.97} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.16.19.10} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.16.19.113} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.16.19.122} on-error {}
@@ -306,15 +311,19 @@
 :do {add list=$AddressList comment=krymr.com address=2.22.228.219} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.245.35} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.245.49} on-error {}
+:do {add list=$AddressList comment=krymr.com address=2.22.245.56} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.246.247} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.248.117} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.248.78} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.251.21} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.251.47} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.3.85} on-error {}
+:do {add list=$AddressList comment=krymr.com address=2.22.31.104} on-error {}
+:do {add list=$AddressList comment=krymr.com address=2.22.31.154} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.31.49} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.31.9} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.89.154} on-error {}
+:do {add list=$AddressList comment=krymr.com address=2.22.89.156} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.22.89.177} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.23.112.11} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.23.121.10} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=krymr.com address=23.1.69.228} on-error {}
 :do {add list=$AddressList comment=krymr.com address=23.1.73.235} on-error {}
 :do {add list=$AddressList comment=krymr.com address=23.10.64.241} on-error {}
-:do {add list=$AddressList comment=krymr.com address=23.10.76.234} on-error {}
-:do {add list=$AddressList comment=krymr.com address=23.11.206.112} on-error {}
-:do {add list=$AddressList comment=krymr.com address=23.12.136.10} on-error {}
-:do {add list=$AddressList comment=krymr.com address=23.12.136.30} on-error {}
-:do {add list=$AddressList comment=krymr.com address=23.12.139.216} on-error {}
-:do {add list=$AddressList comment=krymr.com address=23.13.218.204} on-error {}
-:do {add list=$AddressList comment=krymr.com address=23.13.218.216} on-error {}
-:do {add list=$AddressList comment=krymr.com address=23.13.52.227} on-error {}
-:do {add list=$AddressList comment=krymr.com address=23.13.55.15} on-error {}

@@ -22,3 +22,5 @@
 :if ([:len [/ip/route/find dst-address=188.114.97.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.97.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zeflix.online }
 :if ([:len [/ip/route/find dst-address=188.114.97.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.97.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zeflix.online }
 :if ([:len [/ip/route/find dst-address=188.114.97.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.97.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zeflix.online }
+:if ([:len [/ip/route/find dst-address=75.2.37.224 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=75.2.37.224 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zeflix.online }
+:if ([:len [/ip/route/find dst-address=99.83.151.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.83.151.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zeflix.online }

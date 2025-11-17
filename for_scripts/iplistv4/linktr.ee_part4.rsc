@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=linktr.ee address=52.84.45.61} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=52.84.45.72} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=52.85.154.104} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=52.85.154.120} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=52.85.154.32} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=52.85.154.74} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=52.85.193.3} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=52.85.193.69} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=52.85.193.85} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=52.85.193.95} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=52.85.223.106} on-error {}
@@ -60,11 +68,19 @@
 :do {add list=$AddressList comment=linktr.ee address=54.230.112.59} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=54.230.112.95} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=54.230.114.104} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=54.230.114.108} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=54.230.114.114} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=54.230.114.117} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=54.230.114.122} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=54.230.114.22} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=54.230.114.27} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=54.230.114.38} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=54.230.114.5} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=54.230.114.50} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=54.230.114.58} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=54.230.114.64} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=54.230.114.7} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=54.230.114.73} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=54.230.114.85} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=54.230.114.90} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=54.230.206.119} on-error {}

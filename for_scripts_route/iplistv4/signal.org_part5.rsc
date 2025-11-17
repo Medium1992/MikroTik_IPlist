@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=18.239.50.82 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.239.50.82 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
+:if ([:len [/ip/route/find dst-address=18.239.50.86 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.239.50.86 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
+:if ([:len [/ip/route/find dst-address=18.239.83.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.239.83.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
+:if ([:len [/ip/route/find dst-address=18.239.83.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.239.83.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
+:if ([:len [/ip/route/find dst-address=18.239.83.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.239.83.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
+:if ([:len [/ip/route/find dst-address=18.239.83.86 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.239.83.86 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
 :if ([:len [/ip/route/find dst-address=18.244.102.110 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.244.102.110 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
 :if ([:len [/ip/route/find dst-address=18.244.102.78 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.244.102.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
 :if ([:len [/ip/route/find dst-address=18.244.102.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.244.102.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=216.58.206.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.206.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
 :if ([:len [/ip/route/find dst-address=216.58.207.211 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.207.211 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
 :if ([:len [/ip/route/find dst-address=216.58.207.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.207.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=216.58.211.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.211.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=216.58.212.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.212.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=216.58.212.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.212.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=216.58.213.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.213.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=216.58.214.147 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.214.147 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=23.20.52.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.20.52.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }

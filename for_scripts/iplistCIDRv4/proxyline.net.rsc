@@ -1,9 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=proxyline.net address=104.16.0.0/12} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=134.209.0.0/16} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=164.90.128.0/17} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=165.22.0.0/16} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=167.172.0.0/16} on-error {}
+:do {add list=$AddressList comment=proxyline.net address=172.64.0.0/13} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=192.124.249.0/24} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=38.0.0.0/8} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=5.101.152.0/24} on-error {}

@@ -42,6 +42,10 @@
 :do {add list=$AddressList comment=signal.org address=107.22.193.197} on-error {}
 :do {add list=$AddressList comment=signal.org address=107.22.229.78} on-error {}
 :do {add list=$AddressList comment=signal.org address=107.23.187.209} on-error {}
+:do {add list=$AddressList comment=signal.org address=108.138.192.45} on-error {}
+:do {add list=$AddressList comment=signal.org address=108.138.192.70} on-error {}
+:do {add list=$AddressList comment=signal.org address=108.138.192.80} on-error {}
+:do {add list=$AddressList comment=signal.org address=108.138.192.99} on-error {}
 :do {add list=$AddressList comment=signal.org address=108.138.26.113} on-error {}
 :do {add list=$AddressList comment=signal.org address=108.138.26.21} on-error {}
 :do {add list=$AddressList comment=signal.org address=108.138.26.3} on-error {}
@@ -239,6 +243,7 @@
 :do {add list=$AddressList comment=signal.org address=172.217.20.83} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.217.21.179} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.217.23.115} on-error {}
+:do {add list=$AddressList comment=signal.org address=172.253.130.121} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.64.144.159} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.64.146.117} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.64.146.6} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=signal.org address=18.173.154.82} on-error {}
 :do {add list=$AddressList comment=signal.org address=18.173.233.111} on-error {}
 :do {add list=$AddressList comment=signal.org address=18.173.233.18} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.173.233.23} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.173.233.37} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.173.233.4} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.173.233.77} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.173.233.79} on-error {}

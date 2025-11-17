@@ -137,7 +137,6 @@
 :do {add list=$AddressList comment=sv address=178.19.43.0/24} on-error {}
 :do {add list=$AddressList comment=sv address=179.5.0.0/16} on-error {}
 :do {add list=$AddressList comment=sv address=179.51.0.0/18} on-error {}
-:do {add list=$AddressList comment=sv address=179.60.173.0/24} on-error {}
 :do {add list=$AddressList comment=sv address=181.119.98.0/23} on-error {}
 :do {add list=$AddressList comment=sv address=181.189.176.0/20} on-error {}
 :do {add list=$AddressList comment=sv address=181.225.128.0/21} on-error {}

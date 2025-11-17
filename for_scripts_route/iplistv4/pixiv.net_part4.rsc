@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=216.198.51.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.51.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=216.198.52.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.52.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=216.198.53.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.53.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=216.198.53.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.53.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=216.198.53.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.53.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=216.198.54.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.54.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=216.198.54.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.54.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=216.198.54.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.54.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=216.58.204.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.204.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=52.84.45.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.45.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=52.85.223.102 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.223.102 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=52.85.223.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.223.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=52.85.223.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.223.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=52.85.223.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.223.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=52.85.49.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=52.85.49.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=52.85.49.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=52.85.49.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }

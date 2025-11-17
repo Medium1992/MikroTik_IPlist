@@ -77,6 +77,8 @@
 :if ([:len [/ip/route/find dst-address=23.43.242.136 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.43.242.136 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=23.43.242.144 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.43.242.144 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=23.43.242.145 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.43.242.145 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
+:if ([:len [/ip/route/find dst-address=23.47.124.70 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.47.124.70 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
+:if ([:len [/ip/route/find dst-address=23.47.124.96 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.47.124.96 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=23.52.67.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.52.67.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=23.52.67.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.52.67.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=23.55.104.147 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.104.147 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=23.55.161.42 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.161.42 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=23.55.161.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.161.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=23.55.176.228 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.176.228 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=23.55.176.237 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.176.237 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=23.55.236.132 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.236.132 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }

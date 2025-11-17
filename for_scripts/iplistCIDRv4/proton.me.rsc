@@ -18,3 +18,4 @@
 :do {add list=$AddressList comment=proton.me address=54.192.0.0/12} on-error {}
 :do {add list=$AddressList comment=proton.me address=54.224.0.0/11} on-error {}
 :do {add list=$AddressList comment=proton.me address=65.8.0.0/14} on-error {}
+:do {add list=$AddressList comment=proton.me address=99.86.0.0/16} on-error {}

@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.5} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.67} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.69} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.95} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.96} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.98} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=8.47.69.0} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=8.47.69.4} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=8.47.69.8} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=8.6.112.0} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=8.6.112.4} on-error {}

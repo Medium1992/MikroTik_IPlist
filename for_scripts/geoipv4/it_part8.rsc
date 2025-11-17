@@ -1,15 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=it address=185.109.184.0/21} on-error {}
-:do {add list=$AddressList comment=it address=185.109.24.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.109.50.0/24} on-error {}
-:do {add list=$AddressList comment=it address=185.109.56.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.109.68.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.11.152.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.11.192.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.11.20.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.11.224.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.11.232.0/22} on-error {}
 :do {add list=$AddressList comment=it address=185.11.52.0/22} on-error {}
 :do {add list=$AddressList comment=it address=185.110.116.0/22} on-error {}
 :do {add list=$AddressList comment=it address=185.110.20.0/22} on-error {}
@@ -350,3 +340,13 @@
 :do {add list=$AddressList comment=it address=185.186.104.128/26} on-error {}
 :do {add list=$AddressList comment=it address=185.186.104.192/27} on-error {}
 :do {add list=$AddressList comment=it address=185.186.104.224/28} on-error {}
+:do {add list=$AddressList comment=it address=185.186.104.240/29} on-error {}
+:do {add list=$AddressList comment=it address=185.186.105.0/24} on-error {}
+:do {add list=$AddressList comment=it address=185.186.106.0/25} on-error {}
+:do {add list=$AddressList comment=it address=185.186.106.128/26} on-error {}
+:do {add list=$AddressList comment=it address=185.186.106.192/27} on-error {}
+:do {add list=$AddressList comment=it address=185.186.106.224/28} on-error {}
+:do {add list=$AddressList comment=it address=185.186.106.240/29} on-error {}
+:do {add list=$AddressList comment=it address=185.186.107.0/24} on-error {}
+:do {add list=$AddressList comment=it address=185.186.12.0/22} on-error {}
+:do {add list=$AddressList comment=it address=185.186.68.0/22} on-error {}

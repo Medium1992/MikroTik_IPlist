@@ -4,7 +4,7 @@
 :do {add list=$AddressList comment=facebook address=102.132.114.0/23} on-error {}
 :do {add list=$AddressList comment=facebook address=102.132.116.0/23} on-error {}
 :do {add list=$AddressList comment=facebook address=102.132.119.0/24} on-error {}
-:do {add list=$AddressList comment=facebook address=102.132.121.0/24} on-error {}
+:do {add list=$AddressList comment=facebook address=102.132.120.0/23} on-error {}
 :do {add list=$AddressList comment=facebook address=102.132.123.0/24} on-error {}
 :do {add list=$AddressList comment=facebook address=102.132.125.0/24} on-error {}
 :do {add list=$AddressList comment=facebook address=102.132.126.0/23} on-error {}

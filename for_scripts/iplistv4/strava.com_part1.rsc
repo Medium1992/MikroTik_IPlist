@@ -318,6 +318,14 @@
 :do {add list=$AddressList comment=strava.com address=13.226.244.90} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.226.244.92} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.226.244.96} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.226.251.109} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.226.251.127} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.226.251.21} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.226.251.30} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.226.251.51} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.226.251.6} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.226.251.82} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.226.251.84} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.10} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.101} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.112} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=13.227.219.11} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.219.115} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.219.12} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.3} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.44} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.45} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.50} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.68} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.8} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.85} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.9} on-error {}

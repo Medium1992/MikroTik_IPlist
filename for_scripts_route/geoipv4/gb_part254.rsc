@@ -2,12 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=54.36.162.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.36.162.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
-:if ([:len [/ip/route/find dst-address=54.36.163.151/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.36.163.151/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
-:if ([:len [/ip/route/find dst-address=54.36.164.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.36.164.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
-:if ([:len [/ip/route/find dst-address=54.36.165.31/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.36.165.31/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
-:if ([:len [/ip/route/find dst-address=54.36.166.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.36.166.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
-:if ([:len [/ip/route/find dst-address=54.36.224.128/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.36.224.128/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
 :if ([:len [/ip/route/find dst-address=54.36.224.192/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.36.224.192/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
 :if ([:len [/ip/route/find dst-address=54.36.225.128/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.36.225.128/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
 :if ([:len [/ip/route/find dst-address=54.36.226.208/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.36.226.208/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
@@ -102,3 +96,9 @@
 :if ([:len [/ip/route/find dst-address=57.128.141.145/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.128.141.145/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
 :if ([:len [/ip/route/find dst-address=57.128.141.163/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.128.141.163/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
 :if ([:len [/ip/route/find dst-address=57.128.141.165/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.128.141.165/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
+:if ([:len [/ip/route/find dst-address=57.128.141.60/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.128.141.60/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
+:if ([:len [/ip/route/find dst-address=57.128.141.83/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.128.141.83/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
+:if ([:len [/ip/route/find dst-address=57.128.141.84/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.128.141.84/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
+:if ([:len [/ip/route/find dst-address=57.128.142.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.128.142.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
+:if ([:len [/ip/route/find dst-address=57.128.146.132/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.128.146.132/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }
+:if ([:len [/ip/route/find dst-address=57.128.147.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.128.147.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=gb }

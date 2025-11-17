@@ -142,6 +142,7 @@
 :do {add list=$AddressList comment=xnxx-ru.com address=87.249.131.107} on-error {}
 :do {add list=$AddressList comment=xnxx-ru.com address=87.249.131.2} on-error {}
 :do {add list=$AddressList comment=xnxx-ru.com address=87.249.131.3} on-error {}
+:do {add list=$AddressList comment=xnxx-ru.com address=89.187.165.7} on-error {}
 :do {add list=$AddressList comment=xnxx-ru.com address=89.187.165.8} on-error {}
 :do {add list=$AddressList comment=xnxx-ru.com address=89.187.167.24} on-error {}
 :do {add list=$AddressList comment=xnxx-ru.com address=89.187.183.31} on-error {}

@@ -45,7 +45,6 @@
 :do {add list=$AddressList comment=gp address=109.62.112.0/21} on-error {}
 :do {add list=$AddressList comment=gp address=109.62.16.0/21} on-error {}
 :do {add list=$AddressList comment=gp address=109.62.32.0/20} on-error {}
-:do {add list=$AddressList comment=gp address=109.62.69.32/27} on-error {}
 :do {add list=$AddressList comment=gp address=109.62.71.0/24} on-error {}
 :do {add list=$AddressList comment=gp address=109.62.72.0/21} on-error {}
 :do {add list=$AddressList comment=gp address=109.62.96.0/22} on-error {}
@@ -217,6 +216,7 @@
 :do {add list=$AddressList comment=gp address=5.62.56.105/32} on-error {}
 :do {add list=$AddressList comment=gp address=5.62.56.106/31} on-error {}
 :do {add list=$AddressList comment=gp address=74.112.232.0/21} on-error {}
+:do {add list=$AddressList comment=gp address=74.244.150.0/23} on-error {}
 :do {add list=$AddressList comment=gp address=80.243.248.0/21} on-error {}
 :do {add list=$AddressList comment=gp address=81.248.128.0/18} on-error {}
 :do {add list=$AddressList comment=gp address=81.248.16.0/20} on-error {}

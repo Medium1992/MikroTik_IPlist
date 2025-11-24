@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=131.229.214.26/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=131.229.214.26/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
+:if ([:len [/ip/route/find dst-address=131.229.215.154/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=131.229.215.154/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
 :if ([:len [/ip/route/find dst-address=131.229.215.26/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=131.229.215.26/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
 :if ([:len [/ip/route/find dst-address=131.229.216.38/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=131.229.216.38/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
 :if ([:len [/ip/route/find dst-address=131.229.217.38/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=131.229.217.38/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
@@ -33,6 +35,7 @@
 :if ([:len [/ip/route/find dst-address=138.252.132.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.252.132.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
 :if ([:len [/ip/route/find dst-address=138.252.142.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.252.142.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
 :if ([:len [/ip/route/find dst-address=138.252.152.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.252.152.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
+:if ([:len [/ip/route/find dst-address=138.252.206.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.252.206.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
 :if ([:len [/ip/route/find dst-address=14.0.16.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=14.0.16.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
 :if ([:len [/ip/route/find dst-address=14.0.51.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=14.0.51.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
 :if ([:len [/ip/route/find dst-address=14.160.0.0/11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=14.160.0.0/11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=151.240.116.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=151.240.116.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
 :if ([:len [/ip/route/find dst-address=151.240.83.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=151.240.83.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
 :if ([:len [/ip/route/find dst-address=151.242.171.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=151.242.171.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
-:if ([:len [/ip/route/find dst-address=151.242.23.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=151.242.23.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
-:if ([:len [/ip/route/find dst-address=151.244.169.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=151.244.169.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }
-:if ([:len [/ip/route/find dst-address=152.32.160.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=152.32.160.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vn }

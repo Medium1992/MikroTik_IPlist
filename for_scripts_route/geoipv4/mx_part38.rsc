@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=63.239.189.132/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.239.189.132/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
+:if ([:len [/ip/route/find dst-address=63.239.189.134/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.239.189.134/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
+:if ([:len [/ip/route/find dst-address=63.239.189.136/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.239.189.136/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
+:if ([:len [/ip/route/find dst-address=63.239.189.138/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.239.189.138/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
+:if ([:len [/ip/route/find dst-address=63.239.189.14/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.239.189.14/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
+:if ([:len [/ip/route/find dst-address=63.239.189.140/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.239.189.140/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
 :if ([:len [/ip/route/find dst-address=63.239.189.144/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.239.189.144/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
 :if ([:len [/ip/route/find dst-address=63.239.189.16/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.239.189.16/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
 :if ([:len [/ip/route/find dst-address=63.239.189.160/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.239.189.160/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=65.175.31.128/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.175.31.128/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
 :if ([:len [/ip/route/find dst-address=65.175.35.168/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.175.35.168/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
 :if ([:len [/ip/route/find dst-address=65.175.37.112/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.175.37.112/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
-:if ([:len [/ip/route/find dst-address=65.175.39.72/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.175.39.72/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
-:if ([:len [/ip/route/find dst-address=65.175.40.44/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.175.40.44/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
-:if ([:len [/ip/route/find dst-address=66.102.39.128/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.102.39.128/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
-:if ([:len [/ip/route/find dst-address=66.103.20.136/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.103.20.136/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
-:if ([:len [/ip/route/find dst-address=66.110.17.0/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.110.17.0/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }
-:if ([:len [/ip/route/find dst-address=66.134.84.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.134.84.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mx }

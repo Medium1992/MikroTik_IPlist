@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=154.26.104.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
+:if ([:len [/ip/route/find dst-address=154.26.104.128/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.128/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
+:if ([:len [/ip/route/find dst-address=154.26.104.16/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.16/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
+:if ([:len [/ip/route/find dst-address=154.26.104.24/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.24/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
+:if ([:len [/ip/route/find dst-address=154.26.104.35/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.35/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
+:if ([:len [/ip/route/find dst-address=154.26.104.36/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.36/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
 :if ([:len [/ip/route/find dst-address=154.26.104.40/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.40/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
 :if ([:len [/ip/route/find dst-address=154.26.104.48/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.48/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
 :if ([:len [/ip/route/find dst-address=154.26.104.64/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.64/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=154.26.17.235/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.17.235/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
 :if ([:len [/ip/route/find dst-address=154.26.17.236/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.17.236/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
 :if ([:len [/ip/route/find dst-address=154.26.17.240/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.17.240/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.17.248/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.17.248/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.17.251/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.17.251/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.17.252/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.17.252/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.18.0/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.18.0/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.18.128/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.18.128/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.18.144/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.18.144/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }

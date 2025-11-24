@@ -1,17 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=google address=185.25.28.0/23} on-error {}
-:do {add list=$AddressList comment=google address=185.25.30.0/24} on-error {}
-:do {add list=$AddressList comment=google address=185.251.52.0/22} on-error {}
-:do {add list=$AddressList comment=google address=185.30.28.0/22} on-error {}
-:do {add list=$AddressList comment=google address=185.46.233.0/24} on-error {}
-:do {add list=$AddressList comment=google address=185.48.80.0/23} on-error {}
-:do {add list=$AddressList comment=google address=185.51.228.0/24} on-error {}
-:do {add list=$AddressList comment=google address=185.56.84.0/22} on-error {}
-:do {add list=$AddressList comment=google address=185.73.224.0/24} on-error {}
-:do {add list=$AddressList comment=google address=185.8.143.0/24} on-error {}
-:do {add list=$AddressList comment=google address=185.9.1.0/24} on-error {}
-:do {add list=$AddressList comment=google address=185.92.208.0/24} on-error {}
 :do {add list=$AddressList comment=google address=185.93.14.0/23} on-error {}
 :do {add list=$AddressList comment=google address=185.94.240.0/22} on-error {}
 :do {add list=$AddressList comment=google address=188.92.121.0/24} on-error {}
@@ -43,7 +31,6 @@
 :do {add list=$AddressList comment=google address=193.73.208.0/24} on-error {}
 :do {add list=$AddressList comment=google address=194.163.81.0/24} on-error {}
 :do {add list=$AddressList comment=google address=194.187.56.0/22} on-error {}
-:do {add list=$AddressList comment=google address=194.26.227.0/24} on-error {}
 :do {add list=$AddressList comment=google address=194.38.4.0/22} on-error {}
 :do {add list=$AddressList comment=google address=194.88.156.0/23} on-error {}
 :do {add list=$AddressList comment=google address=195.10.199.0/24} on-error {}
@@ -62,7 +49,6 @@
 :do {add list=$AddressList comment=google address=199.187.116.0/22} on-error {}
 :do {add list=$AddressList comment=google address=199.19.248.0/21} on-error {}
 :do {add list=$AddressList comment=google address=199.192.112.0/22} on-error {}
-:do {add list=$AddressList comment=google address=199.201.243.0/24} on-error {}
 :do {add list=$AddressList comment=google address=199.223.232.0/21} on-error {}
 :do {add list=$AddressList comment=google address=199.244.98.0/23} on-error {}
 :do {add list=$AddressList comment=google address=199.247.32.0/20} on-error {}
@@ -121,6 +107,7 @@
 :do {add list=$AddressList comment=google address=208.68.108.0/22} on-error {}
 :do {add list=$AddressList comment=google address=208.76.215.0/24} on-error {}
 :do {add list=$AddressList comment=google address=208.76.24.0/22} on-error {}
+:do {add list=$AddressList comment=google address=208.76.69.0/24} on-error {}
 :do {add list=$AddressList comment=google address=208.76.70.0/24} on-error {}
 :do {add list=$AddressList comment=google address=208.81.188.0/22} on-error {}
 :do {add list=$AddressList comment=google address=208.86.170.0/23} on-error {}
@@ -268,6 +255,7 @@
 :do {add list=$AddressList comment=google address=69.48.216.0/24} on-error {}
 :do {add list=$AddressList comment=google address=69.48.232.0/23} on-error {}
 :do {add list=$AddressList comment=google address=69.48.234.0/24} on-error {}
+:do {add list=$AddressList comment=google address=69.5.191.0/24} on-error {}
 :do {add list=$AddressList comment=google address=69.84.192.0/20} on-error {}
 :do {add list=$AddressList comment=google address=69.87.102.0/24} on-error {}
 :do {add list=$AddressList comment=google address=69.87.107.0/24} on-error {}
@@ -275,6 +263,7 @@
 :do {add list=$AddressList comment=google address=70.32.128.0/19} on-error {}
 :do {add list=$AddressList comment=google address=72.14.192.0/18} on-error {}
 :do {add list=$AddressList comment=google address=72.22.92.0/23} on-error {}
+:do {add list=$AddressList comment=google address=74.112.185.0/24} on-error {}
 :do {add list=$AddressList comment=google address=74.112.186.0/23} on-error {}
 :do {add list=$AddressList comment=google address=74.112.188.0/23} on-error {}
 :do {add list=$AddressList comment=google address=74.112.190.0/24} on-error {}

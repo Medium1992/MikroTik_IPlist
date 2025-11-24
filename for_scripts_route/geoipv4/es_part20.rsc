@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=154.14.81.160/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.81.160/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
+:if ([:len [/ip/route/find dst-address=154.14.81.184/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.81.184/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
+:if ([:len [/ip/route/find dst-address=154.14.81.200/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.81.200/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
+:if ([:len [/ip/route/find dst-address=154.14.81.208/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.81.208/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
+:if ([:len [/ip/route/find dst-address=154.14.81.232/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.81.232/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
+:if ([:len [/ip/route/find dst-address=154.14.81.32/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.81.32/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
 :if ([:len [/ip/route/find dst-address=154.14.81.48/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.81.48/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
 :if ([:len [/ip/route/find dst-address=154.14.81.80/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.81.80/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
 :if ([:len [/ip/route/find dst-address=154.14.81.96/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.81.96/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=154.26.1.251/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.1.251/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
 :if ([:len [/ip/route/find dst-address=154.26.1.252/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.1.252/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
 :if ([:len [/ip/route/find dst-address=154.26.100.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.100.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.104.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.104.128/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.128/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.104.16/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.16/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.104.24/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.24/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.104.35/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.35/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }
-:if ([:len [/ip/route/find dst-address=154.26.104.36/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.26.104.36/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=es }

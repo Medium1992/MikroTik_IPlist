@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=cloudflare address=45.142.120.0/24} on-error {}
+:do {add list=$AddressList comment=cloudflare address=45.146.201.0/24} on-error {}
+:do {add list=$AddressList comment=cloudflare address=45.149.12.0/24} on-error {}
+:do {add list=$AddressList comment=cloudflare address=45.153.7.0/24} on-error {}
+:do {add list=$AddressList comment=cloudflare address=45.159.216.0/22} on-error {}
 :do {add list=$AddressList comment=cloudflare address=45.192.222.0/23} on-error {}
 :do {add list=$AddressList comment=cloudflare address=45.192.224.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=45.194.11.0/24} on-error {}
@@ -57,6 +62,7 @@
 :do {add list=$AddressList comment=cloudflare address=77.37.33.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=77.74.228.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=77.75.199.0/24} on-error {}
+:do {add list=$AddressList comment=cloudflare address=78.128.122.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=8.10.148.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=8.14.199.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=8.14.201.0/24} on-error {}
@@ -144,7 +150,7 @@
 :do {add list=$AddressList comment=cloudflare address=8.43.122.0/23} on-error {}
 :do {add list=$AddressList comment=cloudflare address=8.43.224.0/23} on-error {}
 :do {add list=$AddressList comment=cloudflare address=8.43.226.0/24} on-error {}
-:do {add list=$AddressList comment=cloudflare address=8.44.2.0/24} on-error {}
+:do {add list=$AddressList comment=cloudflare address=8.44.0.0/22} on-error {}
 :do {add list=$AddressList comment=cloudflare address=8.44.6.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=8.44.60.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=8.44.62.0/23} on-error {}
@@ -183,6 +189,7 @@
 :do {add list=$AddressList comment=cloudflare address=86.38.251.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=88.216.66.0/23} on-error {}
 :do {add list=$AddressList comment=cloudflare address=88.216.69.0/24} on-error {}
+:do {add list=$AddressList comment=cloudflare address=89.106.90.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=89.116.161.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=89.116.180.0/24} on-error {}
 :do {add list=$AddressList comment=cloudflare address=89.116.250.0/24} on-error {}

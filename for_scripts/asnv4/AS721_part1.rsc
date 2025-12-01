@@ -146,9 +146,7 @@
 :do {add list=$AddressList comment=AS721 address=131.62.240.0/20} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.62.26.0/23} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.62.29.0/24} on-error {}
-:do {add list=$AddressList comment=AS721 address=131.62.30.0/23} on-error {}
-:do {add list=$AddressList comment=AS721 address=131.62.32.0/21} on-error {}
-:do {add list=$AddressList comment=AS721 address=131.62.40.0/22} on-error {}
+:do {add list=$AddressList comment=AS721 address=131.62.43.0/24} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.62.44.0/23} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.62.60.0/23} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.62.76.0/23} on-error {}
@@ -168,7 +166,6 @@
 :do {add list=$AddressList comment=AS721 address=131.69.24.0/23} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.69.39.0/24} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.69.40.0/21} on-error {}
-:do {add list=$AddressList comment=AS721 address=131.69.73.0/24} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.69.74.0/23} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.69.76.0/22} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.69.80.0/20} on-error {}
@@ -347,6 +344,9 @@
 :do {add list=$AddressList comment=AS721 address=131.75.60.0/23} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.75.63.0/24} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.75.64.0/23} on-error {}
+:do {add list=$AddressList comment=AS721 address=131.75.67.0/24} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.75.68.0/22} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.75.72.0/24} on-error {}
+:do {add list=$AddressList comment=AS721 address=131.75.74.0/23} on-error {}
 :do {add list=$AddressList comment=AS721 address=131.75.76.0/22} on-error {}
+:do {add list=$AddressList comment=AS721 address=131.75.8.0/23} on-error {}

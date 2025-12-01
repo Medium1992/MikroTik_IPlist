@@ -191,6 +191,10 @@
 :do {add list=$AddressList comment=claude.ai address=108.157.52.128} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.157.52.37} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.157.52.50} on-error {}
+:do {add list=$AddressList comment=claude.ai address=108.157.60.103} on-error {}
+:do {add list=$AddressList comment=claude.ai address=108.157.60.124} on-error {}
+:do {add list=$AddressList comment=claude.ai address=108.157.60.4} on-error {}
+:do {add list=$AddressList comment=claude.ai address=108.157.60.40} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.158.137.105} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.158.137.128} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.158.137.19} on-error {}
@@ -200,6 +204,7 @@
 :do {add list=$AddressList comment=claude.ai address=108.158.137.53} on-error {}
 :do {add list=$AddressList comment=claude.ai address=108.158.137.74} on-error {}
 :do {add list=$AddressList comment=claude.ai address=13.216.15.176} on-error {}
+:do {add list=$AddressList comment=claude.ai address=13.217.159.26} on-error {}
 :do {add list=$AddressList comment=claude.ai address=13.219.0.36} on-error {}
 :do {add list=$AddressList comment=claude.ai address=13.219.197.141} on-error {}
 :do {add list=$AddressList comment=claude.ai address=13.219.199.119} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=claude.ai address=13.227.146.51} on-error {}
 :do {add list=$AddressList comment=claude.ai address=13.227.146.52} on-error {}
 :do {add list=$AddressList comment=claude.ai address=13.227.146.55} on-error {}
-:do {add list=$AddressList comment=claude.ai address=13.227.146.70} on-error {}
-:do {add list=$AddressList comment=claude.ai address=13.227.146.85} on-error {}
-:do {add list=$AddressList comment=claude.ai address=13.227.146.86} on-error {}
-:do {add list=$AddressList comment=claude.ai address=13.227.173.119} on-error {}
-:do {add list=$AddressList comment=claude.ai address=13.227.173.124} on-error {}

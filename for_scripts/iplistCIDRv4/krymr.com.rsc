@@ -61,6 +61,7 @@
 :do {add list=$AddressList comment=krymr.com address=2.21.192.0/20} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.21.208.0/20} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.21.236.0/22} on-error {}
+:do {add list=$AddressList comment=krymr.com address=2.21.240.0/24} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.21.243.0/24} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.21.244.0/23} on-error {}
 :do {add list=$AddressList comment=krymr.com address=2.21.64.0/20} on-error {}

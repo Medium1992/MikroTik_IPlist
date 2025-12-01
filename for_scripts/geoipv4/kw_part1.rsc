@@ -222,7 +222,7 @@
 :do {add list=$AddressList comment=kw address=185.62.230.0/24} on-error {}
 :do {add list=$AddressList comment=kw address=185.64.200.0/22} on-error {}
 :do {add list=$AddressList comment=kw address=185.75.57.0/24} on-error {}
-:do {add list=$AddressList comment=kw address=185.75.58.0/24} on-error {}
+:do {add list=$AddressList comment=kw address=185.75.58.0/23} on-error {}
 :do {add list=$AddressList comment=kw address=185.9.196.0/22} on-error {}
 :do {add list=$AddressList comment=kw address=185.95.4.0/22} on-error {}
 :do {add list=$AddressList comment=kw address=185.96.228.0/22} on-error {}

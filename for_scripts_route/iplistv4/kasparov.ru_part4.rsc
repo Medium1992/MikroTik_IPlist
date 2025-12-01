@@ -2,6 +2,14 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.85.5.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=52.85.5.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=52.85.5.127 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=52.85.5.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=52.85.65.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=52.85.65.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=52.85.65.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=52.85.65.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
 :if ([:len [/ip/route/find dst-address=54.192.95.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.192.95.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
 :if ([:len [/ip/route/find dst-address=54.192.95.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.192.95.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
 :if ([:len [/ip/route/find dst-address=54.192.95.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.192.95.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
@@ -18,6 +26,10 @@
 :if ([:len [/ip/route/find dst-address=65.9.95.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.95.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
 :if ([:len [/ip/route/find dst-address=65.9.95.75 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.95.75 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
 :if ([:len [/ip/route/find dst-address=65.9.95.82 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.95.82 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=99.86.171.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.171.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=99.86.171.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.171.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=99.86.171.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.171.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
+:if ([:len [/ip/route/find dst-address=99.86.171.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.171.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
 :if ([:len [/ip/route/find dst-address=99.86.4.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.4.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
 :if ([:len [/ip/route/find dst-address=99.86.4.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.4.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }
 :if ([:len [/ip/route/find dst-address=99.86.4.55 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.4.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=kasparov.ru }

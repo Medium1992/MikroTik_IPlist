@@ -12,6 +12,7 @@
 :if ([:len [/ip/route/find dst-address=185.76.48.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.76.48.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }
 :if ([:len [/ip/route/find dst-address=193.169.251.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=193.169.251.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }
 :if ([:len [/ip/route/find dst-address=202.78.162.61 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=202.78.162.61 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }
+:if ([:len [/ip/route/find dst-address=202.78.162.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=202.78.162.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }
 :if ([:len [/ip/route/find dst-address=31.184.207.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=31.184.207.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }
 :if ([:len [/ip/route/find dst-address=37.239.145.14 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=37.239.145.14 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }
 :if ([:len [/ip/route/find dst-address=41.226.6.202 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=41.226.6.202 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }

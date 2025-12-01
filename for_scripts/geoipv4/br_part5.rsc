@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=br address=131.229.229.28/30} on-error {}
+:do {add list=$AddressList comment=br address=131.229.229.32/27} on-error {}
+:do {add list=$AddressList comment=br address=131.229.229.64/26} on-error {}
+:do {add list=$AddressList comment=br address=131.229.229.8/31} on-error {}
+:do {add list=$AddressList comment=br address=131.229.231.12/32} on-error {}
+:do {add list=$AddressList comment=br address=131.229.231.140/32} on-error {}
+:do {add list=$AddressList comment=br address=131.229.233.12/32} on-error {}
+:do {add list=$AddressList comment=br address=131.229.233.140/32} on-error {}
+:do {add list=$AddressList comment=br address=131.229.235.12/32} on-error {}
+:do {add list=$AddressList comment=br address=131.229.235.140/32} on-error {}
 :do {add list=$AddressList comment=br address=131.229.253.12/32} on-error {}
 :do {add list=$AddressList comment=br address=131.229.253.140/32} on-error {}
 :do {add list=$AddressList comment=br address=131.255.0.0/22} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=br address=138.186.124.0/22} on-error {}
 :do {add list=$AddressList comment=br address=138.186.128.0/21} on-error {}
 :do {add list=$AddressList comment=br address=138.186.144.0/22} on-error {}
-:do {add list=$AddressList comment=br address=138.186.156.0/22} on-error {}
-:do {add list=$AddressList comment=br address=138.186.16.0/22} on-error {}
-:do {add list=$AddressList comment=br address=138.186.164.0/22} on-error {}
-:do {add list=$AddressList comment=br address=138.186.168.0/21} on-error {}
-:do {add list=$AddressList comment=br address=138.186.180.0/22} on-error {}
-:do {add list=$AddressList comment=br address=138.186.184.0/22} on-error {}
-:do {add list=$AddressList comment=br address=138.186.192.0/21} on-error {}
-:do {add list=$AddressList comment=br address=138.186.204.0/22} on-error {}
-:do {add list=$AddressList comment=br address=138.186.220.0/22} on-error {}
-:do {add list=$AddressList comment=br address=138.186.224.0/20} on-error {}

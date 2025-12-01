@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=copilot address=2.21.245.6} on-error {}
+:do {add list=$AddressList comment=copilot address=2.21.245.60} on-error {}
+:do {add list=$AddressList comment=copilot address=2.21.245.61} on-error {}
+:do {add list=$AddressList comment=copilot address=2.21.245.62} on-error {}
+:do {add list=$AddressList comment=copilot address=2.21.245.63} on-error {}
+:do {add list=$AddressList comment=copilot address=2.21.245.64} on-error {}
+:do {add list=$AddressList comment=copilot address=2.21.245.65} on-error {}
+:do {add list=$AddressList comment=copilot address=2.21.245.66} on-error {}
+:do {add list=$AddressList comment=copilot address=2.21.245.67} on-error {}
+:do {add list=$AddressList comment=copilot address=2.21.245.7} on-error {}
 :do {add list=$AddressList comment=copilot address=2.21.245.8} on-error {}
 :do {add list=$AddressList comment=copilot address=2.21.245.9} on-error {}
 :do {add list=$AddressList comment=copilot address=2.21.33.106} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=copilot address=2.22.31.232} on-error {}
 :do {add list=$AddressList comment=copilot address=2.22.31.233} on-error {}
 :do {add list=$AddressList comment=copilot address=2.22.31.25} on-error {}
-:do {add list=$AddressList comment=copilot address=2.22.31.26} on-error {}
-:do {add list=$AddressList comment=copilot address=2.22.31.27} on-error {}
-:do {add list=$AddressList comment=copilot address=2.22.31.32} on-error {}
-:do {add list=$AddressList comment=copilot address=2.22.31.33} on-error {}
-:do {add list=$AddressList comment=copilot address=2.22.31.40} on-error {}
-:do {add list=$AddressList comment=copilot address=2.22.31.43} on-error {}
-:do {add list=$AddressList comment=copilot address=2.22.31.48} on-error {}
-:do {add list=$AddressList comment=copilot address=2.22.31.49} on-error {}
-:do {add list=$AddressList comment=copilot address=2.22.31.50} on-error {}
-:do {add list=$AddressList comment=copilot address=2.22.31.51} on-error {}

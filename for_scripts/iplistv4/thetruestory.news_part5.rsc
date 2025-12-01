@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=thetruestory.news address=3.165.232.22} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.165.232.23} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.165.232.33} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.165.232.5} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.165.232.56} on-error {}
@@ -84,6 +86,10 @@
 :do {add list=$AddressList comment=thetruestory.news address=3.169.173.49} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.169.173.64} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.169.173.84} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.169.85.105} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.169.85.70} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.169.85.89} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.169.85.91} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.174.113.2} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.174.113.3} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.174.113.36} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=thetruestory.news address=99.84.9.25} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=99.84.9.33} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=99.84.9.39} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=99.84.9.6} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=99.84.9.68} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=99.84.9.69} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=99.86.159.102} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=99.86.159.111} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=99.86.159.54} on-error {}

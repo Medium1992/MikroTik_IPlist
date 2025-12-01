@@ -10,6 +10,7 @@
 :do {add list=$AddressList comment=vavada.com address=185.76.48.122} on-error {}
 :do {add list=$AddressList comment=vavada.com address=193.169.251.62} on-error {}
 :do {add list=$AddressList comment=vavada.com address=202.78.162.61} on-error {}
+:do {add list=$AddressList comment=vavada.com address=202.78.162.62} on-error {}
 :do {add list=$AddressList comment=vavada.com address=31.184.207.62} on-error {}
 :do {add list=$AddressList comment=vavada.com address=37.239.145.14} on-error {}
 :do {add list=$AddressList comment=vavada.com address=41.226.6.202} on-error {}

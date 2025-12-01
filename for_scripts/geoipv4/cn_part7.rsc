@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=cn address=104.28.120.100/30} on-error {}
+:do {add list=$AddressList comment=cn address=104.28.120.104/30} on-error {}
+:do {add list=$AddressList comment=cn address=104.28.120.32/27} on-error {}
+:do {add list=$AddressList comment=cn address=104.28.120.64/29} on-error {}
+:do {add list=$AddressList comment=cn address=104.28.120.72/31} on-error {}
+:do {add list=$AddressList comment=cn address=104.28.120.76/30} on-error {}
+:do {add list=$AddressList comment=cn address=104.28.120.80/28} on-error {}
+:do {add list=$AddressList comment=cn address=104.28.120.98/31} on-error {}
+:do {add list=$AddressList comment=cn address=104.28.143.54/31} on-error {}
+:do {add list=$AddressList comment=cn address=104.28.148.204/32} on-error {}
 :do {add list=$AddressList comment=cn address=104.28.156.204/32} on-error {}
 :do {add list=$AddressList comment=cn address=104.28.162.190/31} on-error {}
 :do {add list=$AddressList comment=cn address=104.28.192.13/32} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=cn address=110.41.208.0/23} on-error {}
 :do {add list=$AddressList comment=cn address=110.41.211.0/24} on-error {}
 :do {add list=$AddressList comment=cn address=110.41.212.0/22} on-error {}
-:do {add list=$AddressList comment=cn address=110.41.216.0/21} on-error {}
-:do {add list=$AddressList comment=cn address=110.41.224.0/19} on-error {}
-:do {add list=$AddressList comment=cn address=110.42.0.0/15} on-error {}
-:do {add list=$AddressList comment=cn address=110.44.12.0/22} on-error {}
-:do {add list=$AddressList comment=cn address=110.48.0.0/17} on-error {}
-:do {add list=$AddressList comment=cn address=110.48.128.0/19} on-error {}
-:do {add list=$AddressList comment=cn address=110.51.0.0/16} on-error {}
-:do {add list=$AddressList comment=cn address=110.52.0.0/15} on-error {}
-:do {add list=$AddressList comment=cn address=110.56.0.0/13} on-error {}
-:do {add list=$AddressList comment=cn address=110.6.0.0/15} on-error {}

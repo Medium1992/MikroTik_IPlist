@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=pk address=138.252.174.0/23} on-error {}
+:do {add list=$AddressList comment=pk address=138.252.236.0/24} on-error {}
+:do {add list=$AddressList comment=pk address=138.252.74.0/23} on-error {}
+:do {add list=$AddressList comment=pk address=139.135.32.0/19} on-error {}
+:do {add list=$AddressList comment=pk address=139.190.0.0/18} on-error {}
 :do {add list=$AddressList comment=pk address=139.190.112.0/20} on-error {}
 :do {add list=$AddressList comment=pk address=139.190.234.0/23} on-error {}
 :do {add list=$AddressList comment=pk address=139.190.236.0/22} on-error {}
@@ -84,8 +89,8 @@
 :do {add list=$AddressList comment=pk address=154.210.238.0/24} on-error {}
 :do {add list=$AddressList comment=pk address=154.50.205.63/32} on-error {}
 :do {add list=$AddressList comment=pk address=154.50.208.63/32} on-error {}
-:do {add list=$AddressList comment=pk address=154.57.192.0/23} on-error {}
-:do {add list=$AddressList comment=pk address=154.57.194.0/24} on-error {}
+:do {add list=$AddressList comment=pk address=154.57.192.0/22} on-error {}
+:do {add list=$AddressList comment=pk address=154.57.196.0/24} on-error {}
 :do {add list=$AddressList comment=pk address=154.57.208.0/20} on-error {}
 :do {add list=$AddressList comment=pk address=154.80.0.0/17} on-error {}
 :do {add list=$AddressList comment=pk address=154.81.224.0/19} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=pk address=202.14.70.0/23} on-error {}
 :do {add list=$AddressList comment=pk address=202.141.224.0/19} on-error {}
 :do {add list=$AddressList comment=pk address=202.142.144.0/20} on-error {}
-:do {add list=$AddressList comment=pk address=202.142.160.0/19} on-error {}
-:do {add list=$AddressList comment=pk address=202.143.112.0/20} on-error {}
-:do {add list=$AddressList comment=pk address=202.147.160.0/19} on-error {}
-:do {add list=$AddressList comment=pk address=202.154.224.0/19} on-error {}
-:do {add list=$AddressList comment=pk address=202.163.64.0/18} on-error {}

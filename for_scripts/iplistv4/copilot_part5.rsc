@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=copilot address=2.19.120.29} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.120.32} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.11} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.12} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.13} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.14} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.15} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.16} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.17} on-error {}
+:do {add list=$AddressList comment=copilot address=2.19.122.19} on-error {}
 :do {add list=$AddressList comment=copilot address=2.19.122.20} on-error {}
 :do {add list=$AddressList comment=copilot address=2.19.122.21} on-error {}
 :do {add list=$AddressList comment=copilot address=2.19.122.22} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=copilot address=2.20.110.163} on-error {}
 :do {add list=$AddressList comment=copilot address=2.20.110.170} on-error {}
 :do {add list=$AddressList comment=copilot address=2.20.110.177} on-error {}
-:do {add list=$AddressList comment=copilot address=2.20.111.71} on-error {}
-:do {add list=$AddressList comment=copilot address=2.20.111.73} on-error {}
-:do {add list=$AddressList comment=copilot address=2.20.111.75} on-error {}
-:do {add list=$AddressList comment=copilot address=2.20.111.80} on-error {}
-:do {add list=$AddressList comment=copilot address=2.20.111.88} on-error {}
-:do {add list=$AddressList comment=copilot address=2.20.111.94} on-error {}
-:do {add list=$AddressList comment=copilot address=2.20.111.95} on-error {}
-:do {add list=$AddressList comment=copilot address=2.20.111.97} on-error {}
-:do {add list=$AddressList comment=copilot address=2.20.134.104} on-error {}
-:do {add list=$AddressList comment=copilot address=2.20.134.105} on-error {}

@@ -2,7 +2,7 @@
 This repository contains IPs for autocompletion and regular updating in MikroTik RouterOS ip/firewall/address-list or ip/route.
 IPs are collected full from tree sources
 - https://iplist.opencck.org (iplistCIDRv4 and iplistv4)
-- https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite (geoipv4)
+- https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geoip (geoipv4)
 - https://github.com/MetaCubeX/meta-rules-dat/tree/meta/asn (asnv4)
 
 You can check which AS an IP belongs to on the website https://bgp.tools

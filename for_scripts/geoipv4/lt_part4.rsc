@@ -1,7 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=lt address=79.132.189.0/24} on-error {}
-:do {add list=$AddressList comment=lt address=79.132.191.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=79.133.224.0/19} on-error {}
 :do {add list=$AddressList comment=lt address=79.142.112.0/20} on-error {}
 :do {add list=$AddressList comment=lt address=79.98.24.0/21} on-error {}
@@ -288,7 +286,7 @@
 :do {add list=$AddressList comment=lt address=88.119.192.0/18} on-error {}
 :do {add list=$AddressList comment=lt address=88.135.16.0/20} on-error {}
 :do {add list=$AddressList comment=lt address=88.214.52.0/24} on-error {}
-:do {add list=$AddressList comment=lt address=88.214.54.0/23} on-error {}
+:do {add list=$AddressList comment=lt address=88.214.54.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=88.216.104.0/22} on-error {}
 :do {add list=$AddressList comment=lt address=88.216.108.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=88.216.112.0/20} on-error {}
@@ -334,7 +332,6 @@
 :do {add list=$AddressList comment=lt address=88.223.160.0/22} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.164.0/23} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.166.0/24} on-error {}
-:do {add list=$AddressList comment=lt address=88.223.175.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.176.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.178.0/23} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.181.0/24} on-error {}
@@ -350,3 +347,6 @@
 :do {add list=$AddressList comment=lt address=88.223.46.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.48.0/20} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.64.0/20} on-error {}
+:do {add list=$AddressList comment=lt address=88.223.96.0/19} on-error {}
+:do {add list=$AddressList comment=lt address=89.106.4.0/24} on-error {}
+:do {add list=$AddressList comment=lt address=89.107.9.0/24} on-error {}

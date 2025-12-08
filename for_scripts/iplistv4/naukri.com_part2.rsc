@@ -117,6 +117,14 @@
 :do {add list=$AddressList comment=naukri.com address=13.224.103.96} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.224.103.98} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.224.103.99} on-error {}
+:do {add list=$AddressList comment=naukri.com address=13.224.106.113} on-error {}
+:do {add list=$AddressList comment=naukri.com address=13.224.106.119} on-error {}
+:do {add list=$AddressList comment=naukri.com address=13.224.106.125} on-error {}
+:do {add list=$AddressList comment=naukri.com address=13.224.106.15} on-error {}
+:do {add list=$AddressList comment=naukri.com address=13.224.106.22} on-error {}
+:do {add list=$AddressList comment=naukri.com address=13.224.106.42} on-error {}
+:do {add list=$AddressList comment=naukri.com address=13.224.106.80} on-error {}
+:do {add list=$AddressList comment=naukri.com address=13.224.106.92} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.224.115.113} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.224.115.52} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.224.115.77} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=naukri.com address=13.228.17.197} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.228.171.252} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.228.173.254} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.228.175.52} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.228.178.139} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.228.185.10} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.228.196.253} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.228.196.95} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.228.197.3} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.228.2.238} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.228.205.97} on-error {}

@@ -57,7 +57,6 @@
 :do {add list=$AddressList comment=bi address=172.225.136.32/28} on-error {}
 :do {add list=$AddressList comment=bi address=172.225.226.64/28} on-error {}
 :do {add list=$AddressList comment=bi address=172.225.98.32/27} on-error {}
-:do {add list=$AddressList comment=bi address=185.112.132.62/32} on-error {}
 :do {add list=$AddressList comment=bi address=194.50.99.24/32} on-error {}
 :do {add list=$AddressList comment=bi address=196.13.223.0/24} on-error {}
 :do {add list=$AddressList comment=bi address=196.197.59.0/24} on-error {}

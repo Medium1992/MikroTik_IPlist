@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=discord.com address=18.165.140.56} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.165.140.98} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.165.171.10} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.165.171.109} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.165.171.19} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.165.171.65} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.165.183.51} on-error {}
@@ -118,6 +122,8 @@
 :do {add list=$AddressList comment=discord.com address=192.157.56.140} on-error {}
 :do {add list=$AddressList comment=discord.com address=192.157.56.141} on-error {}
 :do {add list=$AddressList comment=discord.com address=192.157.56.142} on-error {}
+:do {add list=$AddressList comment=discord.com address=192.178.203.207} on-error {}
+:do {add list=$AddressList comment=discord.com address=192.178.204.207} on-error {}
 :do {add list=$AddressList comment=discord.com address=199.115.115.102} on-error {}
 :do {add list=$AddressList comment=discord.com address=199.115.115.116} on-error {}
 :do {add list=$AddressList comment=discord.com address=199.115.115.118} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=discord.com address=74.63.241.20} on-error {}
 :do {add list=$AddressList comment=discord.com address=74.63.241.21} on-error {}
 :do {add list=$AddressList comment=discord.com address=74.63.241.22} on-error {}
-:do {add list=$AddressList comment=discord.com address=74.63.241.23} on-error {}
-:do {add list=$AddressList comment=discord.com address=74.63.241.24} on-error {}
-:do {add list=$AddressList comment=discord.com address=74.63.241.25} on-error {}
-:do {add list=$AddressList comment=discord.com address=74.63.241.26} on-error {}
-:do {add list=$AddressList comment=discord.com address=74.63.241.27} on-error {}
-:do {add list=$AddressList comment=discord.com address=74.63.241.28} on-error {}

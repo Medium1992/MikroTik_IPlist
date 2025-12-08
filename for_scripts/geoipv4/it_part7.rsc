@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=it address=166.49.142.0/24} on-error {}
+:do {add list=$AddressList comment=it address=166.49.180.0/24} on-error {}
+:do {add list=$AddressList comment=it address=166.49.233.0/25} on-error {}
+:do {add list=$AddressList comment=it address=166.49.242.0/23} on-error {}
+:do {add list=$AddressList comment=it address=167.100.99.0/24} on-error {}
+:do {add list=$AddressList comment=it address=167.103.178.0/24} on-error {}
 :do {add list=$AddressList comment=it address=167.148.36.0/22} on-error {}
 :do {add list=$AddressList comment=it address=167.150.160.0/22} on-error {}
 :do {add list=$AddressList comment=it address=167.160.0.0/24} on-error {}
@@ -218,6 +224,7 @@
 :do {add list=$AddressList comment=it address=178.21.200.0/21} on-error {}
 :do {add list=$AddressList comment=it address=178.21.96.0/21} on-error {}
 :do {add list=$AddressList comment=it address=178.210.232.0/21} on-error {}
+:do {add list=$AddressList comment=it address=178.210.250.0/24} on-error {}
 :do {add list=$AddressList comment=it address=178.211.64.0/19} on-error {}
 :do {add list=$AddressList comment=it address=178.212.230.0/24} on-error {}
 :do {add list=$AddressList comment=it address=178.212.60.0/22} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=it address=185.100.252.0/22} on-error {}
 :do {add list=$AddressList comment=it address=185.100.32.0/22} on-error {}
 :do {add list=$AddressList comment=it address=185.100.80.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.101.212.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.102.140.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.102.169.0/24} on-error {}
-:do {add list=$AddressList comment=it address=185.102.40.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.102.86.0/24} on-error {}
-:do {add list=$AddressList comment=it address=185.103.112.0/22} on-error {}
-:do {add list=$AddressList comment=it address=185.103.52.0/22} on-error {}

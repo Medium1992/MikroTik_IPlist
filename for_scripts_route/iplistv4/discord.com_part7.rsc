@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.174.98.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.98.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=3.174.98.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.98.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=3.174.98.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.98.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=3.175.86.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.175.86.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=3.175.86.110 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.175.86.110 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=3.175.86.37 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.175.86.37 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=3.175.86.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.175.86.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=34.126.226.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.126.226.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=37.1.216.193 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=37.1.216.193 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=74.63.241.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=74.63.241.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=74.63.241.22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=74.63.241.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=74.63.241.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=74.63.241.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=74.63.241.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=74.63.241.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=74.63.241.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }

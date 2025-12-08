@@ -49,6 +49,7 @@
 :do {add list=$AddressList comment=cu address=104.28.94.56/30} on-error {}
 :do {add list=$AddressList comment=cu address=104.28.94.60/31} on-error {}
 :do {add list=$AddressList comment=cu address=104.28.94.62/32} on-error {}
+:do {add list=$AddressList comment=cu address=149.18.41.0/24} on-error {}
 :do {add list=$AddressList comment=cu address=152.206.0.0/15} on-error {}
 :do {add list=$AddressList comment=cu address=163.116.134.184/31} on-error {}
 :do {add list=$AddressList comment=cu address=163.116.250.141/32} on-error {}

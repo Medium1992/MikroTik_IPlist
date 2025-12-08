@@ -163,3 +163,4 @@
 :do {add list=$AddressList comment=currenttime.tv address=95.101.8.0/22} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=96.16.0.0/15} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=99.84.0.0/16} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=99.86.0.0/16} on-error {}

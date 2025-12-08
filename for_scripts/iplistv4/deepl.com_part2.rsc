@@ -1,8 +1,26 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=deepl.com address=54.147.3.223} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.152.15.214} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.152.189.127} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.156.115.8} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.156.22.149} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.158.218.51} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.165.15.155} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.166.104.189} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.174.14.250} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.197.180.163} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.197.238.53} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.205.118.57} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.208.218.149} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.208.221.22} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.209.150.101} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.221.234.55} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.225.239.80} on-error {}
 :do {add list=$AddressList comment=deepl.com address=54.234.186.90} on-error {}
 :do {add list=$AddressList comment=deepl.com address=54.236.146.126} on-error {}
 :do {add list=$AddressList comment=deepl.com address=54.65.82.68} on-error {}
+:do {add list=$AddressList comment=deepl.com address=54.80.11.180} on-error {}
 :do {add list=$AddressList comment=deepl.com address=54.81.38.26} on-error {}
 :do {add list=$AddressList comment=deepl.com address=54.88.245.7} on-error {}
 :do {add list=$AddressList comment=deepl.com address=54.89.62.112} on-error {}
@@ -37,8 +55,10 @@
 :do {add list=$AddressList comment=deepl.com address=8.6.112.9} on-error {}
 :do {add list=$AddressList comment=deepl.com address=98.83.100.121} on-error {}
 :do {add list=$AddressList comment=deepl.com address=98.83.169.168} on-error {}
+:do {add list=$AddressList comment=deepl.com address=98.83.238.130} on-error {}
 :do {add list=$AddressList comment=deepl.com address=98.86.212.238} on-error {}
 :do {add list=$AddressList comment=deepl.com address=98.87.144.66} on-error {}
 :do {add list=$AddressList comment=deepl.com address=98.88.97.57} on-error {}
 :do {add list=$AddressList comment=deepl.com address=98.89.145.214} on-error {}
+:do {add list=$AddressList comment=deepl.com address=98.91.37.63} on-error {}
 :do {add list=$AddressList comment=deepl.com address=98.95.193.163} on-error {}

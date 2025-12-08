@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=74.63.241.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=74.63.241.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=74.63.241.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=74.63.241.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=74.63.241.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=74.63.241.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=74.63.241.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=74.63.241.30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.63.241.30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=75.2.18.233 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=75.2.18.233 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }

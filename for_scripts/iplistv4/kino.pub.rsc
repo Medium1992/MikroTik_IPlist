@@ -44,12 +44,14 @@
 :do {add list=$AddressList comment=kino.pub address=188.114.96.0} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.96.1} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.96.10} on-error {}
+:do {add list=$AddressList comment=kino.pub address=188.114.96.12} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.96.3} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.96.4} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.96.7} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.97.0} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.97.1} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.97.10} on-error {}
+:do {add list=$AddressList comment=kino.pub address=188.114.97.12} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.97.3} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.97.4} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.97.7} on-error {}

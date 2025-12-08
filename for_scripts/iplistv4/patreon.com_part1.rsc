@@ -232,6 +232,10 @@
 :do {add list=$AddressList comment=patreon.com address=13.32.99.63} on-error {}
 :do {add list=$AddressList comment=patreon.com address=13.32.99.70} on-error {}
 :do {add list=$AddressList comment=patreon.com address=13.32.99.97} on-error {}
+:do {add list=$AddressList comment=patreon.com address=13.33.153.20} on-error {}
+:do {add list=$AddressList comment=patreon.com address=13.33.153.32} on-error {}
+:do {add list=$AddressList comment=patreon.com address=13.33.153.57} on-error {}
+:do {add list=$AddressList comment=patreon.com address=13.33.153.59} on-error {}
 :do {add list=$AddressList comment=patreon.com address=13.33.235.106} on-error {}
 :do {add list=$AddressList comment=patreon.com address=13.33.235.122} on-error {}
 :do {add list=$AddressList comment=patreon.com address=13.33.235.5} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=patreon.com address=174.36.228.136} on-error {}
 :do {add list=$AddressList comment=patreon.com address=174.37.154.236} on-error {}
 :do {add list=$AddressList comment=patreon.com address=174.37.175.229} on-error {}
-:do {add list=$AddressList comment=patreon.com address=174.37.243.85} on-error {}
-:do {add list=$AddressList comment=patreon.com address=174.37.54.20} on-error {}
-:do {add list=$AddressList comment=patreon.com address=179.60.193.16} on-error {}
-:do {add list=$AddressList comment=patreon.com address=179.60.193.9} on-error {}

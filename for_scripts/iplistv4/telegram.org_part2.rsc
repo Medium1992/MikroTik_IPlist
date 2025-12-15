@@ -1,5 +1,19 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=telegram.org address=52.97.146.200} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.146.216} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.146.232} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.148.216} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.152.120} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.152.216} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.154.168} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.155.120} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.159.216} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.160.184} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.160.8} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.161.8} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.163.8} on-error {}
+:do {add list=$AddressList comment=telegram.org address=52.97.165.152} on-error {}
 :do {add list=$AddressList comment=telegram.org address=52.97.168.184} on-error {}
 :do {add list=$AddressList comment=telegram.org address=52.97.168.200} on-error {}
 :do {add list=$AddressList comment=telegram.org address=52.97.168.216} on-error {}
@@ -208,6 +222,7 @@
 :do {add list=$AddressList comment=telegram.org address=66.151.183.225} on-error {}
 :do {add list=$AddressList comment=telegram.org address=74.125.131.121} on-error {}
 :do {add list=$AddressList comment=telegram.org address=74.125.205.121} on-error {}
+:do {add list=$AddressList comment=telegram.org address=74.125.29.121} on-error {}
 :do {add list=$AddressList comment=telegram.org address=8.47.69.0} on-error {}
 :do {add list=$AddressList comment=telegram.org address=8.47.69.4} on-error {}
 :do {add list=$AddressList comment=telegram.org address=8.47.69.8} on-error {}

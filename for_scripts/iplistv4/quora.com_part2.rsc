@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=quora.com address=3.232.60.203} on-error {}
 :do {add list=$AddressList comment=quora.com address=3.233.128.146} on-error {}
 :do {add list=$AddressList comment=quora.com address=3.233.22.10} on-error {}
 :do {add list=$AddressList comment=quora.com address=3.233.251.251} on-error {}
@@ -87,6 +88,7 @@
 :do {add list=$AddressList comment=quora.com address=34.199.95.128} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.200.130.173} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.201.180.202} on-error {}
+:do {add list=$AddressList comment=quora.com address=34.201.188.211} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.201.202.130} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.201.230.178} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.201.234.88} on-error {}
@@ -108,6 +110,7 @@
 :do {add list=$AddressList comment=quora.com address=34.205.151.213} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.205.151.61} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.205.176.118} on-error {}
+:do {add list=$AddressList comment=quora.com address=34.205.194.213} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.206.159.213} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.206.30.130} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.207.26.66} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=quora.com address=52.20.55.45} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.20.71.14} on-error {}
 :do {add list=$AddressList comment=quora.com address=52.200.153.55} on-error {}
-:do {add list=$AddressList comment=quora.com address=52.200.158.30} on-error {}
-:do {add list=$AddressList comment=quora.com address=52.200.167.31} on-error {}
-:do {add list=$AddressList comment=quora.com address=52.200.18.190} on-error {}

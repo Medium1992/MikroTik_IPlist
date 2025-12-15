@@ -15,7 +15,7 @@
 :do {add list=$AddressList comment=ci address=102.210.16.0/22} on-error {}
 :do {add list=$AddressList comment=ci address=102.210.208.0/24} on-error {}
 :do {add list=$AddressList comment=ci address=102.210.80.0/22} on-error {}
-:do {add list=$AddressList comment=ci address=102.211.233.0/24} on-error {}
+:do {add list=$AddressList comment=ci address=102.211.232.0/23} on-error {}
 :do {add list=$AddressList comment=ci address=102.212.188.0/22} on-error {}
 :do {add list=$AddressList comment=ci address=102.212.5.0/24} on-error {}
 :do {add list=$AddressList comment=ci address=102.212.7.0/24} on-error {}

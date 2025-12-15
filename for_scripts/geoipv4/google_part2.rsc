@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=google address=136.36.97.40/29} on-error {}
 :do {add list=$AddressList comment=google address=136.36.97.48/28} on-error {}
 :do {add list=$AddressList comment=google address=136.36.97.64/26} on-error {}
 :do {add list=$AddressList comment=google address=136.36.98.0/23} on-error {}
@@ -342,11 +341,12 @@
 :do {add list=$AddressList comment=google address=136.49.158.0/23} on-error {}
 :do {add list=$AddressList comment=google address=136.49.16.0/21} on-error {}
 :do {add list=$AddressList comment=google address=136.49.160.0/21} on-error {}
-:do {add list=$AddressList comment=google address=136.49.168.0/25} on-error {}
-:do {add list=$AddressList comment=google address=136.49.168.128/26} on-error {}
-:do {add list=$AddressList comment=google address=136.49.168.192/28} on-error {}
-:do {add list=$AddressList comment=google address=136.49.168.208/29} on-error {}
-:do {add list=$AddressList comment=google address=136.49.168.217/32} on-error {}
-:do {add list=$AddressList comment=google address=136.49.168.218/31} on-error {}
-:do {add list=$AddressList comment=google address=136.49.168.220/30} on-error {}
-:do {add list=$AddressList comment=google address=136.49.168.224/27} on-error {}
+:do {add list=$AddressList comment=google address=136.49.168.0/24} on-error {}
+:do {add list=$AddressList comment=google address=136.49.169.0/26} on-error {}
+:do {add list=$AddressList comment=google address=136.49.169.128/25} on-error {}
+:do {add list=$AddressList comment=google address=136.49.169.64/30} on-error {}
+:do {add list=$AddressList comment=google address=136.49.169.68/31} on-error {}
+:do {add list=$AddressList comment=google address=136.49.169.71/32} on-error {}
+:do {add list=$AddressList comment=google address=136.49.169.72/29} on-error {}
+:do {add list=$AddressList comment=google address=136.49.169.80/28} on-error {}
+:do {add list=$AddressList comment=google address=136.49.169.96/27} on-error {}

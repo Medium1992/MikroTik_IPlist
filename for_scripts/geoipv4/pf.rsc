@@ -120,6 +120,7 @@
 :do {add list=$AddressList comment=pf address=38.51.136.0/22} on-error {}
 :do {add list=$AddressList comment=pf address=43.249.176.0/22} on-error {}
 :do {add list=$AddressList comment=pf address=45.138.10.8/30} on-error {}
+:do {add list=$AddressList comment=pf address=5.175.190.154/31} on-error {}
 :do {add list=$AddressList comment=pf address=5.230.46.212/32} on-error {}
 :do {add list=$AddressList comment=pf address=50.21.80.0/20} on-error {}
 :do {add list=$AddressList comment=pf address=64.140.144.0/21} on-error {}

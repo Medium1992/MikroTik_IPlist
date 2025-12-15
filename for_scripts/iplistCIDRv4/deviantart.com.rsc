@@ -15,3 +15,4 @@
 :do {add list=$AddressList comment=deviantart.com address=54.224.0.0/11} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=65.8.0.0/14} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=99.84.0.0/16} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=99.86.0.0/16} on-error {}

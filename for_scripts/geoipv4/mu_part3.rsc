@@ -1,30 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=mu address=45.206.64.0/24} on-error {}
-:do {add list=$AddressList comment=mu address=45.206.67.0/24} on-error {}
-:do {add list=$AddressList comment=mu address=45.206.68.0/22} on-error {}
-:do {add list=$AddressList comment=mu address=45.206.74.0/23} on-error {}
-:do {add list=$AddressList comment=mu address=45.206.76.0/22} on-error {}
-:do {add list=$AddressList comment=mu address=45.206.8.0/23} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.163.0/24} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.167.0/24} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.170.0/23} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.172.0/23} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.192.0/20} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.208.0/21} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.21.0/24} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.22.0/23} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.24.0/24} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.26.0/24} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.40.0/22} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.57.0/24} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.58.0/23} on-error {}
-:do {add list=$AddressList comment=mu address=45.207.60.0/24} on-error {}
-:do {add list=$AddressList comment=mu address=45.221.16.0/22} on-error {}
-:do {add list=$AddressList comment=mu address=46.163.56.215/32} on-error {}
-:do {add list=$AddressList comment=mu address=46.163.57.80/29} on-error {}
-:do {add list=$AddressList comment=mu address=5.62.63.10/31} on-error {}
-:do {add list=$AddressList comment=mu address=5.62.63.9/32} on-error {}
 :do {add list=$AddressList comment=mu address=57.82.96.0/23} on-error {}
 :do {add list=$AddressList comment=mu address=57.84.16.0/20} on-error {}
 :do {add list=$AddressList comment=mu address=66.102.35.64/26} on-error {}

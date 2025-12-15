@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS4847 address=211.154.1.0/24} on-error {}
 :do {add list=$AddressList comment=AS4847 address=211.154.11.0/24} on-error {}
 :do {add list=$AddressList comment=AS4847 address=211.154.12.0/22} on-error {}
 :do {add list=$AddressList comment=AS4847 address=211.154.161.0/24} on-error {}
@@ -67,14 +66,9 @@
 :do {add list=$AddressList comment=AS4847 address=219.238.148.0/22} on-error {}
 :do {add list=$AddressList comment=AS4847 address=219.238.232.0/21} on-error {}
 :do {add list=$AddressList comment=AS4847 address=219.239.88.0/21} on-error {}
-:do {add list=$AddressList comment=AS4847 address=219.72.104.0/21} on-error {}
-:do {add list=$AddressList comment=AS4847 address=219.72.144.0/20} on-error {}
-:do {add list=$AddressList comment=AS4847 address=219.72.224.0/20} on-error {}
-:do {add list=$AddressList comment=AS4847 address=219.72.254.0/24} on-error {}
 :do {add list=$AddressList comment=AS4847 address=220.113.96.0/21} on-error {}
 :do {add list=$AddressList comment=AS4847 address=220.181.176.0/24} on-error {}
 :do {add list=$AddressList comment=AS4847 address=220.181.190.0/24} on-error {}
-:do {add list=$AddressList comment=AS4847 address=220.181.62.0/23} on-error {}
 :do {add list=$AddressList comment=AS4847 address=222.249.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS4847 address=223.210.0.0/19} on-error {}
 :do {add list=$AddressList comment=AS4847 address=223.210.48.0/22} on-error {}
@@ -113,7 +107,6 @@
 :do {add list=$AddressList comment=AS4847 address=45.124.20.0/22} on-error {}
 :do {add list=$AddressList comment=AS4847 address=45.126.112.0/22} on-error {}
 :do {add list=$AddressList comment=AS4847 address=45.251.20.0/22} on-error {}
-:do {add list=$AddressList comment=AS4847 address=45.252.0.0/22} on-error {}
 :do {add list=$AddressList comment=AS4847 address=49.221.128.0/19} on-error {}
 :do {add list=$AddressList comment=AS4847 address=49.221.26.0/23} on-error {}
 :do {add list=$AddressList comment=AS4847 address=49.221.64.0/19} on-error {}

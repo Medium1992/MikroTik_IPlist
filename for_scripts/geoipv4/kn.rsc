@@ -56,7 +56,7 @@
 :do {add list=$AddressList comment=kn address=172.226.67.240/28} on-error {}
 :do {add list=$AddressList comment=kn address=173.249.168.0/22} on-error {}
 :do {add list=$AddressList comment=kn address=194.50.99.121/32} on-error {}
-:do {add list=$AddressList comment=kn address=196.1.168.0/25} on-error {}
+:do {add list=$AddressList comment=kn address=196.1.168.0/22} on-error {}
 :do {add list=$AddressList comment=kn address=196.197.165.0/24} on-error {}
 :do {add list=$AddressList comment=kn address=196.198.165.0/24} on-error {}
 :do {add list=$AddressList comment=kn address=196.199.165.0/24} on-error {}
@@ -92,7 +92,7 @@
 :do {add list=$AddressList comment=kn address=209.59.100.0/22} on-error {}
 :do {add list=$AddressList comment=kn address=209.59.104.0/21} on-error {}
 :do {add list=$AddressList comment=kn address=209.59.112.0/21} on-error {}
-:do {add list=$AddressList comment=kn address=209.59.64.0/22} on-error {}
+:do {add list=$AddressList comment=kn address=209.59.64.0/21} on-error {}
 :do {add list=$AddressList comment=kn address=209.59.72.0/23} on-error {}
 :do {add list=$AddressList comment=kn address=209.59.74.0/25} on-error {}
 :do {add list=$AddressList comment=kn address=209.59.74.128/29} on-error {}
@@ -113,9 +113,11 @@
 :do {add list=$AddressList comment=kn address=38.87.231.192/26} on-error {}
 :do {add list=$AddressList comment=kn address=45.138.10.88/30} on-error {}
 :do {add list=$AddressList comment=kn address=45.42.252.0/22} on-error {}
+:do {add list=$AddressList comment=kn address=5.175.190.199/32} on-error {}
 :do {add list=$AddressList comment=kn address=5.62.56.197/32} on-error {}
 :do {add list=$AddressList comment=kn address=5.62.56.198/31} on-error {}
 :do {add list=$AddressList comment=kn address=57.74.108.0/23} on-error {}
+:do {add list=$AddressList comment=kn address=65.48.154.0/23} on-error {}
 :do {add list=$AddressList comment=kn address=65.48.156.0/23} on-error {}
 :do {add list=$AddressList comment=kn address=66.96.118.64/26} on-error {}
 :do {add list=$AddressList comment=kn address=67.213.158.0/24} on-error {}

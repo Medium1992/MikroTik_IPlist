@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=cn address=103.65.16.0/22} on-error {}
+:do {add list=$AddressList comment=cn address=103.65.160.0/20} on-error {}
+:do {add list=$AddressList comment=cn address=103.65.204.0/22} on-error {}
+:do {add list=$AddressList comment=cn address=103.65.224.0/23} on-error {}
+:do {add list=$AddressList comment=cn address=103.65.48.0/20} on-error {}
 :do {add list=$AddressList comment=cn address=103.65.64.0/19} on-error {}
 :do {add list=$AddressList comment=cn address=103.66.108.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.66.200.0/22} on-error {}
@@ -137,6 +142,8 @@
 :do {add list=$AddressList comment=cn address=103.81.148.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.81.16.0/21} on-error {}
 :do {add list=$AddressList comment=cn address=103.81.164.0/22} on-error {}
+:do {add list=$AddressList comment=cn address=103.81.184.0/24} on-error {}
+:do {add list=$AddressList comment=cn address=103.81.186.0/24} on-error {}
 :do {add list=$AddressList comment=cn address=103.81.200.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.81.232.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=103.81.4.0/22} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=cn address=104.28.101.56/30} on-error {}
 :do {add list=$AddressList comment=cn address=104.28.101.62/31} on-error {}
 :do {add list=$AddressList comment=cn address=104.28.101.64/29} on-error {}
-:do {add list=$AddressList comment=cn address=104.28.117.100/30} on-error {}
-:do {add list=$AddressList comment=cn address=104.28.117.104/30} on-error {}
-:do {add list=$AddressList comment=cn address=104.28.117.32/27} on-error {}
-:do {add list=$AddressList comment=cn address=104.28.117.64/29} on-error {}
-:do {add list=$AddressList comment=cn address=104.28.117.72/31} on-error {}
-:do {add list=$AddressList comment=cn address=104.28.117.76/30} on-error {}
-:do {add list=$AddressList comment=cn address=104.28.117.80/28} on-error {}

@@ -240,6 +240,14 @@
 :do {add list=$AddressList comment=tidal.com address=13.224.132.114} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.224.132.41} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.224.132.82} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.224.185.101} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.224.185.104} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.224.185.111} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.224.185.119} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.224.185.15} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.224.185.57} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.224.185.7} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.224.185.91} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.224.186.103} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.224.186.107} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.224.186.113} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=tidal.com address=13.227.219.48} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.227.219.66} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.227.219.67} on-error {}
-:do {add list=$AddressList comment=tidal.com address=13.227.219.86} on-error {}
-:do {add list=$AddressList comment=tidal.com address=13.227.219.9} on-error {}
-:do {add list=$AddressList comment=tidal.com address=13.227.219.92} on-error {}
-:do {add list=$AddressList comment=tidal.com address=13.249.14.244} on-error {}
-:do {add list=$AddressList comment=tidal.com address=13.32.110.12} on-error {}
-:do {add list=$AddressList comment=tidal.com address=13.32.110.16} on-error {}
-:do {add list=$AddressList comment=tidal.com address=13.32.110.2} on-error {}
-:do {add list=$AddressList comment=tidal.com address=13.32.110.21} on-error {}

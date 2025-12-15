@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=18.165.171.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.171.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=18.165.183.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.183.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=18.165.183.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.183.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=18.165.183.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.183.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=18.165.183.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.183.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=18.165.53.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.53.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=18.165.53.109 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.53.109 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=18.165.53.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.53.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=18.165.53.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.53.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=18.65.229.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.229.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=18.65.229.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.229.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=18.65.229.31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.229.31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=18.65.229.84 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.229.84 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=18.65.25.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.25.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=18.65.25.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.25.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=18.65.25.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.25.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=18.65.25.70 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.25.70 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=18.67.110.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.67.110.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }

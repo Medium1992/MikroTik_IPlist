@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=memohrc.org address=104.20.16.227} on-error {}
+:do {add list=$AddressList comment=memohrc.org address=104.20.20.93} on-error {}
+:do {add list=$AddressList comment=memohrc.org address=104.20.35.74} on-error {}
 :do {add list=$AddressList comment=memohrc.org address=104.21.112.1} on-error {}
 :do {add list=$AddressList comment=memohrc.org address=104.21.16.1} on-error {}
 :do {add list=$AddressList comment=memohrc.org address=104.21.16.199} on-error {}
@@ -16,6 +19,9 @@
 :do {add list=$AddressList comment=memohrc.org address=104.26.11.34} on-error {}
 :do {add list=$AddressList comment=memohrc.org address=104.26.4.123} on-error {}
 :do {add list=$AddressList comment=memohrc.org address=104.26.5.123} on-error {}
+:do {add list=$AddressList comment=memohrc.org address=172.66.146.196} on-error {}
+:do {add list=$AddressList comment=memohrc.org address=172.66.157.200} on-error {}
+:do {add list=$AddressList comment=memohrc.org address=172.66.160.113} on-error {}
 :do {add list=$AddressList comment=memohrc.org address=172.67.211.97} on-error {}
 :do {add list=$AddressList comment=memohrc.org address=172.67.215.151} on-error {}
 :do {add list=$AddressList comment=memohrc.org address=172.67.215.173} on-error {}

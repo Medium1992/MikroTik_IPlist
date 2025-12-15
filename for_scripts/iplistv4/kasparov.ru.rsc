@@ -328,6 +328,10 @@
 :do {add list=$AddressList comment=kasparov.ru address=99.86.171.126} on-error {}
 :do {add list=$AddressList comment=kasparov.ru address=99.86.171.3} on-error {}
 :do {add list=$AddressList comment=kasparov.ru address=99.86.171.88} on-error {}
+:do {add list=$AddressList comment=kasparov.ru address=99.86.240.30} on-error {}
+:do {add list=$AddressList comment=kasparov.ru address=99.86.240.47} on-error {}
+:do {add list=$AddressList comment=kasparov.ru address=99.86.240.68} on-error {}
+:do {add list=$AddressList comment=kasparov.ru address=99.86.240.85} on-error {}
 :do {add list=$AddressList comment=kasparov.ru address=99.86.4.123} on-error {}
 :do {add list=$AddressList comment=kasparov.ru address=99.86.4.53} on-error {}
 :do {add list=$AddressList comment=kasparov.ru address=99.86.4.55} on-error {}

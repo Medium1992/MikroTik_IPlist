@@ -21,6 +21,7 @@
 :do {add list=$AddressList comment=ne address=104.28.87.38/31} on-error {}
 :do {add list=$AddressList comment=ne address=104.28.88.54/31} on-error {}
 :do {add list=$AddressList comment=ne address=104.28.96.86/31} on-error {}
+:do {add list=$AddressList comment=ne address=129.222.104.0/23} on-error {}
 :do {add list=$AddressList comment=ne address=140.248.56.161/32} on-error {}
 :do {add list=$AddressList comment=ne address=140.248.57.161/32} on-error {}
 :do {add list=$AddressList comment=ne address=140.248.58.161/32} on-error {}

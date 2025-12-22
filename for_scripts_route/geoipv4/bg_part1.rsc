@@ -3,6 +3,7 @@
 :global GateWay
 /ip route
 :if ([:len [/ip/route/find dst-address=103.158.33.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.158.33.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
+:if ([:len [/ip/route/find dst-address=103.65.230.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.65.230.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
 :if ([:len [/ip/route/find dst-address=104.152.48.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.152.48.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
 :if ([:len [/ip/route/find dst-address=104.28.106.21/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.28.106.21/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
 :if ([:len [/ip/route/find dst-address=104.28.106.22/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.28.106.22/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
@@ -101,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=109.199.128.0/19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=109.199.128.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
 :if ([:len [/ip/route/find dst-address=109.199.224.0/19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=109.199.224.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
 :if ([:len [/ip/route/find dst-address=109.206.237.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=109.206.237.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
-:if ([:len [/ip/route/find dst-address=109.206.239.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=109.206.239.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }

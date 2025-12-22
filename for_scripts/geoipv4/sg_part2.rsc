@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=sg address=103.175.26.0/23} on-error {}
 :do {add list=$AddressList comment=sg address=103.176.58.0/23} on-error {}
 :do {add list=$AddressList comment=sg address=103.177.46.0/23} on-error {}
 :do {add list=$AddressList comment=sg address=103.177.76.0/23} on-error {}
@@ -58,6 +59,8 @@
 :do {add list=$AddressList comment=sg address=103.203.221.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=103.204.13.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=103.204.173.0/24} on-error {}
+:do {add list=$AddressList comment=sg address=103.204.20.0/24} on-error {}
+:do {add list=$AddressList comment=sg address=103.204.23.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=103.205.186.0/23} on-error {}
 :do {add list=$AddressList comment=sg address=103.205.72.0/21} on-error {}
 :do {add list=$AddressList comment=sg address=103.205.81.0/24} on-error {}
@@ -74,6 +77,7 @@
 :do {add list=$AddressList comment=sg address=103.209.120.0/22} on-error {}
 :do {add list=$AddressList comment=sg address=103.209.168.0/22} on-error {}
 :do {add list=$AddressList comment=sg address=103.209.190.0/24} on-error {}
+:do {add list=$AddressList comment=sg address=103.21.139.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=103.21.221.0/24} on-error {}
 :do {add list=$AddressList comment=sg address=103.21.30.0/23} on-error {}
 :do {add list=$AddressList comment=sg address=103.21.80.0/24} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=sg address=103.50.0.128/25} on-error {}
 :do {add list=$AddressList comment=sg address=103.50.0.64/27} on-error {}
 :do {add list=$AddressList comment=sg address=103.50.0.96/30} on-error {}
-:do {add list=$AddressList comment=sg address=103.50.1.0/24} on-error {}
-:do {add list=$AddressList comment=sg address=103.50.2.0/23} on-error {}
-:do {add list=$AddressList comment=sg address=103.51.160.0/22} on-error {}
-:do {add list=$AddressList comment=sg address=103.52.62.0/24} on-error {}

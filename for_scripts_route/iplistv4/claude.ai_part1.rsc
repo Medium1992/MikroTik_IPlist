@@ -20,6 +20,8 @@
 :if ([:len [/ip/route/find dst-address=100.29.116.111 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=100.29.116.111 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=100.29.151.131 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=100.29.151.131 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=100.29.49.39 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=100.29.49.39 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=100.31.220.135 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=100.31.220.135 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=100.49.88.133 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=100.49.88.133 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=107.20.187.55 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.187.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=107.20.46.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.46.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=107.21.207.165 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.21.207.165 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=108.139.243.67 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.139.243.67 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=108.139.47.108 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.139.47.108 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=108.139.47.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.139.47.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=108.139.47.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.139.47.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=108.139.47.46 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.139.47.46 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }

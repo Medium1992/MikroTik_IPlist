@@ -14,8 +14,10 @@
 :do {add list=$AddressList comment=xhamster.com address=195.181.162.0/24} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=195.181.174.0/23} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=207.211.208.0/21} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=208.99.64.0/19} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=212.102.54.0/23} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=212.102.56.0/23} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=216.18.160.0/19} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=45.133.44.0/22} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=46.151.194.0/24} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=64.210.128.0/19} on-error {}

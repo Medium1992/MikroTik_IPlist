@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=54.154.148.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.154.148.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
+:if ([:len [/ip/route/find dst-address=54.154.159.108 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.154.159.108 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=54.154.164.196 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.154.164.196 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=54.154.27.76 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.154.27.76 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=54.154.83.222 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.154.83.222 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }

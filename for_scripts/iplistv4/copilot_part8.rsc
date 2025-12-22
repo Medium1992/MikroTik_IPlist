@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=copilot address=2.22.251.14} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.251.15} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.251.16} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.251.17} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.251.18} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.251.19} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.251.20} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.251.21} on-error {}
+:do {add list=$AddressList comment=copilot address=2.22.251.22} on-error {}
 :do {add list=$AddressList comment=copilot address=2.22.251.23} on-error {}
 :do {add list=$AddressList comment=copilot address=2.22.251.24} on-error {}
 :do {add list=$AddressList comment=copilot address=2.22.251.25} on-error {}
@@ -282,6 +291,7 @@
 :do {add list=$AddressList comment=copilot address=23.1.254.98} on-error {}
 :do {add list=$AddressList comment=copilot address=23.11.200.147} on-error {}
 :do {add list=$AddressList comment=copilot address=23.11.200.17} on-error {}
+:do {add list=$AddressList comment=copilot address=23.11.206.105} on-error {}
 :do {add list=$AddressList comment=copilot address=23.11.206.106} on-error {}
 :do {add list=$AddressList comment=copilot address=23.11.206.107} on-error {}
 :do {add list=$AddressList comment=copilot address=23.11.206.115} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=copilot address=23.192.36.142} on-error {}
 :do {add list=$AddressList comment=copilot address=23.192.36.144} on-error {}
 :do {add list=$AddressList comment=copilot address=23.195.81.136} on-error {}
-:do {add list=$AddressList comment=copilot address=23.195.81.137} on-error {}
-:do {add list=$AddressList comment=copilot address=23.195.81.138} on-error {}
-:do {add list=$AddressList comment=copilot address=23.195.81.139} on-error {}
-:do {add list=$AddressList comment=copilot address=23.195.81.144} on-error {}
-:do {add list=$AddressList comment=copilot address=23.195.81.146} on-error {}
-:do {add list=$AddressList comment=copilot address=23.195.81.147} on-error {}
-:do {add list=$AddressList comment=copilot address=23.195.81.153} on-error {}
-:do {add list=$AddressList comment=copilot address=23.195.81.154} on-error {}
-:do {add list=$AddressList comment=copilot address=23.195.81.155} on-error {}
-:do {add list=$AddressList comment=copilot address=23.195.81.160} on-error {}

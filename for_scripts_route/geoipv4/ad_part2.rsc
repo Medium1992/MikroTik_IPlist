@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=165.1.192.32/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.192.32/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
+:if ([:len [/ip/route/find dst-address=165.1.192.4/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.192.4/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
 :if ([:len [/ip/route/find dst-address=165.1.192.48/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.192.48/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
 :if ([:len [/ip/route/find dst-address=165.1.192.56/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.192.56/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
 :if ([:len [/ip/route/find dst-address=165.1.192.60/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.192.60/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
@@ -12,6 +14,7 @@
 :if ([:len [/ip/route/find dst-address=165.85.220.64/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.85.220.64/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
 :if ([:len [/ip/route/find dst-address=165.85.231.0/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.85.231.0/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
 :if ([:len [/ip/route/find dst-address=165.85.63.0/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.85.63.0/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
+:if ([:len [/ip/route/find dst-address=172.111.234.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.111.234.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
 :if ([:len [/ip/route/find dst-address=172.225.160.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.225.160.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
 :if ([:len [/ip/route/find dst-address=172.225.162.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.225.162.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
 :if ([:len [/ip/route/find dst-address=172.225.242.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.225.242.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=34.103.254.1/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.254.1/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
 :if ([:len [/ip/route/find dst-address=34.103.254.16/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.254.16/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
 :if ([:len [/ip/route/find dst-address=34.103.254.2/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.254.2/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
-:if ([:len [/ip/route/find dst-address=34.103.254.253/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.254.253/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
-:if ([:len [/ip/route/find dst-address=34.103.254.254/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.254.254/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }
-:if ([:len [/ip/route/find dst-address=34.103.254.32/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.103.254.32/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ad }

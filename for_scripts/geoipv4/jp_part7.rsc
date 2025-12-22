@@ -1,5 +1,17 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jp address=108.165.126.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=108.165.141.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=108.165.167.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=108.165.180.0/23} on-error {}
+:do {add list=$AddressList comment=jp address=108.165.81.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=108.165.82.0/23} on-error {}
+:do {add list=$AddressList comment=jp address=108.165.87.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=108.165.91.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=108.181.48.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=108.181.72.0/21} on-error {}
+:do {add list=$AddressList comment=jp address=108.181.80.0/21} on-error {}
+:do {add list=$AddressList comment=jp address=108.187.14.0/23} on-error {}
 :do {add list=$AddressList comment=jp address=108.187.32.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=108.61.126.0/23} on-error {}
 :do {add list=$AddressList comment=jp address=108.61.160.0/22} on-error {}
@@ -12,7 +24,6 @@
 :do {add list=$AddressList comment=jp address=109.105.196.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=109.107.137.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=109.107.140.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=109.110.161.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=109.110.168.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=109.110.181.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=109.110.182.0/24} on-error {}
@@ -26,6 +37,7 @@
 :do {add list=$AddressList comment=jp address=109.176.210.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=109.176.241.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=109.176.56.0/21} on-error {}
+:do {add list=$AddressList comment=jp address=109.200.220.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=109.236.0.0/20} on-error {}
 :do {add list=$AddressList comment=jp address=109.238.200.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=109.238.202.0/23} on-error {}
@@ -280,6 +292,7 @@
 :do {add list=$AddressList comment=jp address=115.177.192.0/18} on-error {}
 :do {add list=$AddressList comment=jp address=115.178.112.0/21} on-error {}
 :do {add list=$AddressList comment=jp address=115.179.0.0/16} on-error {}
+:do {add list=$AddressList comment=jp address=115.187.16.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=115.187.64.0/20} on-error {}
 :do {add list=$AddressList comment=jp address=115.187.92.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=115.30.0.0/19} on-error {}
@@ -337,16 +350,3 @@
 :do {add list=$AddressList comment=jp address=116.91.0.0/20} on-error {}
 :do {add list=$AddressList comment=jp address=116.91.128.0/18} on-error {}
 :do {add list=$AddressList comment=jp address=116.91.192.0/20} on-error {}
-:do {add list=$AddressList comment=jp address=116.91.224.0/19} on-error {}
-:do {add list=$AddressList comment=jp address=116.91.32.0/19} on-error {}
-:do {add list=$AddressList comment=jp address=116.91.64.0/18} on-error {}
-:do {add list=$AddressList comment=jp address=116.92.1.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=116.92.11.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=116.92.12.0/23} on-error {}
-:do {add list=$AddressList comment=jp address=116.92.131.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=116.92.132.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=116.92.134.0/23} on-error {}
-:do {add list=$AddressList comment=jp address=116.92.136.0/21} on-error {}
-:do {add list=$AddressList comment=jp address=116.92.144.0/20} on-error {}
-:do {add list=$AddressList comment=jp address=116.92.15.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=116.92.16.0/20} on-error {}

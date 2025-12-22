@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=199.232.92.159 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=199.232.92.159 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=x.com }
+:if ([:len [/ip/route/find dst-address=209.237.192.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.237.192.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=x.com }
+:if ([:len [/ip/route/find dst-address=209.237.193.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.237.193.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=x.com }
+:if ([:len [/ip/route/find dst-address=209.237.194.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.237.194.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=x.com }
+:if ([:len [/ip/route/find dst-address=209.237.195.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.237.195.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=x.com }
+:if ([:len [/ip/route/find dst-address=209.237.196.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.237.196.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=x.com }
 :if ([:len [/ip/route/find dst-address=209.237.197.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.237.197.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=x.com }
 :if ([:len [/ip/route/find dst-address=209.237.198.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.237.198.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=x.com }
 :if ([:len [/ip/route/find dst-address=209.237.199.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=209.237.199.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=x.com }

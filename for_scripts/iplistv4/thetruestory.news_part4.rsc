@@ -1,5 +1,17 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=thetruestory.news address=18.64.103.71} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.119.103} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.119.31} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.119.62} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.119.72} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.236.107} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.236.28} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.236.4} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.236.75} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.79.13} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.79.32} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=18.64.79.45} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=18.64.79.97} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=18.65.39.108} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=18.65.39.118} on-error {}
@@ -210,8 +222,12 @@
 :do {add list=$AddressList comment=thetruestory.news address=3.162.140.48} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.162.140.75} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.162.140.92} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.162.38.123} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.162.38.46} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.162.38.47} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.162.38.54} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.162.38.77} on-error {}
+:do {add list=$AddressList comment=thetruestory.news address=3.162.38.81} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.162.38.86} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.162.38.92} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.163.189.111} on-error {}
@@ -334,19 +350,3 @@
 :do {add list=$AddressList comment=thetruestory.news address=3.165.190.8} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.165.190.80} on-error {}
 :do {add list=$AddressList comment=thetruestory.news address=3.165.190.84} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.190.85} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.190.87} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.190.90} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.190.96} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.12} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.121} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.122} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.13} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.14} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.15} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.20} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.22} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.36} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.37} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.52} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=3.165.206.65} on-error {}

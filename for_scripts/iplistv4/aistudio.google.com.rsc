@@ -28,6 +28,7 @@
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.140.74} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.141.42} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.142.106} on-error {}
+:do {add list=$AddressList comment=aistudio.google.com address=142.251.143.234} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.208.106} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.208.138} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.208.170} on-error {}
@@ -57,7 +58,9 @@
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.17.106} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.17.138} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.17.234} on-error {}
+:do {add list=$AddressList comment=aistudio.google.com address=172.217.17.74} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.171.234} on-error {}
+:do {add list=$AddressList comment=aistudio.google.com address=172.217.18.170} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.18.42} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.19.106} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.19.138} on-error {}
@@ -70,6 +73,7 @@
 :do {add list=$AddressList comment=aistudio.google.com address=173.194.221.95} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=173.194.222.95} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=173.194.73.95} on-error {}
+:do {add list=$AddressList comment=aistudio.google.com address=192.178.202.95} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=209.85.233.95} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=216.58.207.202} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=216.58.207.234} on-error {}

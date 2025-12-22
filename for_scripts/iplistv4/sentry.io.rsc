@@ -44,7 +44,9 @@
 :do {add list=$AddressList comment=sentry.io address=142.251.141.51} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.142.115} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.143.179} on-error {}
+:do {add list=$AddressList comment=sentry.io address=142.251.143.19} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.143.211} on-error {}
+:do {add list=$AddressList comment=sentry.io address=142.251.143.243} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.143.51} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.208.115} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.208.147} on-error {}
@@ -74,7 +76,9 @@
 :do {add list=$AddressList comment=sentry.io address=172.217.17.115} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.17.147} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.17.243} on-error {}
+:do {add list=$AddressList comment=sentry.io address=172.217.17.83} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.171.243} on-error {}
+:do {add list=$AddressList comment=sentry.io address=172.217.18.179} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.19.115} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.20.83} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.208.121} on-error {}

@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=copilot address=23.64.12.33} on-error {}
+:do {add list=$AddressList comment=copilot address=23.64.12.34} on-error {}
+:do {add list=$AddressList comment=copilot address=23.64.12.35} on-error {}
+:do {add list=$AddressList comment=copilot address=23.64.12.40} on-error {}
+:do {add list=$AddressList comment=copilot address=23.64.12.41} on-error {}
+:do {add list=$AddressList comment=copilot address=23.64.12.43} on-error {}
+:do {add list=$AddressList comment=copilot address=23.64.12.50} on-error {}
+:do {add list=$AddressList comment=copilot address=23.64.12.58} on-error {}
+:do {add list=$AddressList comment=copilot address=23.64.12.59} on-error {}
+:do {add list=$AddressList comment=copilot address=23.64.12.65} on-error {}
 :do {add list=$AddressList comment=copilot address=23.64.12.66} on-error {}
 :do {add list=$AddressList comment=copilot address=23.64.12.72} on-error {}
 :do {add list=$AddressList comment=copilot address=23.64.12.73} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=copilot address=80.239.150.66} on-error {}
 :do {add list=$AddressList comment=copilot address=80.239.150.67} on-error {}
 :do {add list=$AddressList comment=copilot address=80.239.150.72} on-error {}
-:do {add list=$AddressList comment=copilot address=80.239.150.73} on-error {}
-:do {add list=$AddressList comment=copilot address=80.239.150.74} on-error {}
-:do {add list=$AddressList comment=copilot address=80.239.150.75} on-error {}
-:do {add list=$AddressList comment=copilot address=80.239.150.8} on-error {}
-:do {add list=$AddressList comment=copilot address=80.239.150.80} on-error {}
-:do {add list=$AddressList comment=copilot address=80.239.150.81} on-error {}
-:do {add list=$AddressList comment=copilot address=80.239.150.82} on-error {}
-:do {add list=$AddressList comment=copilot address=80.239.150.83} on-error {}
-:do {add list=$AddressList comment=copilot address=80.239.150.88} on-error {}
-:do {add list=$AddressList comment=copilot address=80.239.150.89} on-error {}

@@ -2,6 +2,10 @@
 /ip firewall address-list
 :do {add list=$AddressList comment=pornhub.com address=152.195.34.118} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=208.99.84.16} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=208.99.84.32} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=208.99.84.33} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=216.18.191.176} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=216.18.191.177} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=216.18.191.192} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=216.18.191.193} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=216.18.191.194} on-error {}
@@ -27,8 +31,13 @@
 :do {add list=$AddressList comment=pornhub.com address=64.210.135.150} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.210.135.151} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.210.136.1} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.210.136.64} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.210.136.65} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.210.147.16} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.210.147.17} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.210.147.32} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.210.147.33} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.210.156.0} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.210.156.1} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.210.156.16} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.210.156.17} on-error {}
@@ -46,7 +55,11 @@
 :do {add list=$AddressList comment=pornhub.com address=64.210.156.7} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.210.158.16} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.210.158.17} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.210.158.32} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.210.158.33} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.88.245.17} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.88.245.32} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.88.245.33} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.88.246.16} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.88.246.17} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.88.246.18} on-error {}
@@ -73,6 +86,8 @@
 :do {add list=$AddressList comment=pornhub.com address=64.88.248.23} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.88.254.160} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=64.88.254.161} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.88.254.176} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=64.88.254.177} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=66.254.114.41} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=66.254.122.16} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=66.254.122.17} on-error {}
@@ -90,8 +105,17 @@
 :do {add list=$AddressList comment=pornhub.com address=66.254.122.37} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=66.254.122.38} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=66.254.122.39} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.48.0} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.48.1} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=67.22.48.16} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=67.22.48.17} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.48.2} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.48.3} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.48.4} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.48.5} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.48.6} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.48.7} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.50.0} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=67.22.50.1} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=67.22.50.16} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=67.22.50.17} on-error {}
@@ -139,6 +163,8 @@
 :do {add list=$AddressList comment=pornhub.com address=67.22.52.37} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=67.22.52.38} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=67.22.52.39} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.55.0} on-error {}
+:do {add list=$AddressList comment=pornhub.com address=67.22.55.1} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=67.22.55.17} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=67.22.56.0} on-error {}
 :do {add list=$AddressList comment=pornhub.com address=67.22.56.1} on-error {}

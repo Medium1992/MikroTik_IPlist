@@ -2,10 +2,12 @@
 /ip firewall address-list
 :do {add list=$AddressList comment=AS2764 address=103.110.108.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=103.141.155.0/24} on-error {}
+:do {add list=$AddressList comment=AS2764 address=103.163.34.0/23} on-error {}
 :do {add list=$AddressList comment=AS2764 address=103.42.20.0/22} on-error {}
 :do {add list=$AddressList comment=AS2764 address=124.246.24.0/21} on-error {}
 :do {add list=$AddressList comment=AS2764 address=124.246.32.0/19} on-error {}
 :do {add list=$AddressList comment=AS2764 address=124.246.8.0/21} on-error {}
+:do {add list=$AddressList comment=AS2764 address=160.250.157.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=161.51.44.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=168.153.0.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=192.189.54.0/24} on-error {}
@@ -91,6 +93,7 @@
 :do {add list=$AddressList comment=AS2764 address=203.19.226.0/23} on-error {}
 :do {add list=$AddressList comment=AS2764 address=203.20.114.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=203.21.79.0/24} on-error {}
+:do {add list=$AddressList comment=AS2764 address=203.23.191.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=203.24.62.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=203.27.30.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=203.28.122.0/24} on-error {}
@@ -98,6 +101,7 @@
 :do {add list=$AddressList comment=AS2764 address=203.29.77.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=203.31.184.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=203.34.104.0/24} on-error {}
+:do {add list=$AddressList comment=AS2764 address=203.34.52.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=203.55.112.0/24} on-error {}
 :do {add list=$AddressList comment=AS2764 address=203.63.0.0/17} on-error {}
 :do {add list=$AddressList comment=AS2764 address=203.63.128.0/18} on-error {}

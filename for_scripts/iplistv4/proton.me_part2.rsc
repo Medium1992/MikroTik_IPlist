@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=proton.me address=65.9.189.21} on-error {}
+:do {add list=$AddressList comment=proton.me address=65.9.189.61} on-error {}
+:do {add list=$AddressList comment=proton.me address=65.9.189.88} on-error {}
+:do {add list=$AddressList comment=proton.me address=65.9.95.108} on-error {}
 :do {add list=$AddressList comment=proton.me address=65.9.95.119} on-error {}
 :do {add list=$AddressList comment=proton.me address=65.9.95.23} on-error {}
 :do {add list=$AddressList comment=proton.me address=65.9.95.87} on-error {}

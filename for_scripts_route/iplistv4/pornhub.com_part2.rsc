@@ -2,6 +2,30 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=66.254.122.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=66.254.122.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=66.254.122.37 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.37 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=66.254.122.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=66.254.122.39 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.39 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.48.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.48.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.48.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.48.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.48.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.48.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.48.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.48.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.48.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.48.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.48.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.48.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.48.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.48.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.48.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.48.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.48.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.48.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.48.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.48.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.50.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.50.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.50.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.50.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.50.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.50.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.50.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.50.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.50.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.50.22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.50.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.50.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.50.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
@@ -41,6 +65,8 @@
 :if ([:len [/ip/route/find dst-address=67.22.52.37 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.52.37 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.52.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.52.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.52.39 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.52.39 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.55.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.55.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.55.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.56.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.56.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }

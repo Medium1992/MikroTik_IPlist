@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=ve address=163.116.134.164/32} on-error {}
 :do {add list=$AddressList comment=ve address=163.116.134.173/32} on-error {}
 :do {add list=$AddressList comment=ve address=163.116.250.63/32} on-error {}
 :do {add list=$AddressList comment=ve address=163.116.250.78/32} on-error {}
@@ -327,7 +326,6 @@
 :do {add list=$AddressList comment=ve address=38.113.167.0/24} on-error {}
 :do {add list=$AddressList comment=ve address=38.121.208.0/20} on-error {}
 :do {add list=$AddressList comment=ve address=38.123.168.0/22} on-error {}
-:do {add list=$AddressList comment=ve address=38.123.175.0/24} on-error {}
 :do {add list=$AddressList comment=ve address=38.129.142.0/23} on-error {}
 :do {add list=$AddressList comment=ve address=38.129.7.0/24} on-error {}
 :do {add list=$AddressList comment=ve address=38.129.89.0/24} on-error {}
@@ -340,9 +338,9 @@
 :do {add list=$AddressList comment=ve address=38.137.232.0/21} on-error {}
 :do {add list=$AddressList comment=ve address=38.147.15.0/24} on-error {}
 :do {add list=$AddressList comment=ve address=38.147.74.0/23} on-error {}
+:do {add list=$AddressList comment=ve address=38.150.24.0/21} on-error {}
 :do {add list=$AddressList comment=ve address=38.150.88.0/21} on-error {}
 :do {add list=$AddressList comment=ve address=38.156.19.0/24} on-error {}
-:do {add list=$AddressList comment=ve address=38.156.252.0/24} on-error {}
 :do {add list=$AddressList comment=ve address=38.159.48.0/20} on-error {}
 :do {add list=$AddressList comment=ve address=38.166.0.0/16} on-error {}
 :do {add list=$AddressList comment=ve address=38.17.128.0/17} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=ve address=38.171.0.0/16} on-error {}
 :do {add list=$AddressList comment=ve address=38.172.138.0/23} on-error {}
 :do {add list=$AddressList comment=ve address=38.172.160.0/19} on-error {}
+:do {add list=$AddressList comment=ve address=38.172.56.0/22} on-error {}
+:do {add list=$AddressList comment=ve address=38.183.112.0/21} on-error {}

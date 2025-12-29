@@ -4,9 +4,7 @@
 /ip route
 :if ([:len [/ip/route/find dst-address=190.93.0.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=190.93.0.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27789 }
 :if ([:len [/ip/route/find dst-address=190.93.100.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=190.93.100.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27789 }
-:if ([:len [/ip/route/find dst-address=190.93.104.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=190.93.104.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27789 }
-:if ([:len [/ip/route/find dst-address=190.93.106.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=190.93.106.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27789 }
-:if ([:len [/ip/route/find dst-address=190.93.108.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=190.93.108.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27789 }
+:if ([:len [/ip/route/find dst-address=190.93.104.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=190.93.104.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27789 }
 :if ([:len [/ip/route/find dst-address=190.93.112.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=190.93.112.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27789 }
 :if ([:len [/ip/route/find dst-address=190.93.16.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=190.93.16.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27789 }
 :if ([:len [/ip/route/find dst-address=190.93.4.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=190.93.4.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS27789 }

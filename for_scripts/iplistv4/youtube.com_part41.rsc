@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=202.65.141.12} on-error {}
+:do {add list=$AddressList comment=youtube.com address=202.65.141.13} on-error {}
+:do {add list=$AddressList comment=youtube.com address=202.65.141.14} on-error {}
+:do {add list=$AddressList comment=youtube.com address=202.67.42.205} on-error {}
+:do {add list=$AddressList comment=youtube.com address=202.67.46.140} on-error {}
+:do {add list=$AddressList comment=youtube.com address=202.67.46.141} on-error {}
+:do {add list=$AddressList comment=youtube.com address=202.69.161.108} on-error {}
+:do {add list=$AddressList comment=youtube.com address=202.69.161.111} on-error {}
+:do {add list=$AddressList comment=youtube.com address=202.69.185.237} on-error {}
 :do {add list=$AddressList comment=youtube.com address=202.69.185.238} on-error {}
 :do {add list=$AddressList comment=youtube.com address=202.69.185.239} on-error {}
 :do {add list=$AddressList comment=youtube.com address=202.69.185.242} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=203.252.15.142} on-error {}
 :do {add list=$AddressList comment=youtube.com address=203.252.15.143} on-error {}
 :do {add list=$AddressList comment=youtube.com address=203.252.15.145} on-error {}
-:do {add list=$AddressList comment=youtube.com address=203.252.15.147} on-error {}
-:do {add list=$AddressList comment=youtube.com address=203.252.15.173} on-error {}
-:do {add list=$AddressList comment=youtube.com address=203.252.15.174} on-error {}
-:do {add list=$AddressList comment=youtube.com address=203.252.15.176} on-error {}
-:do {add list=$AddressList comment=youtube.com address=203.66.155.173} on-error {}
-:do {add list=$AddressList comment=youtube.com address=203.66.169.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=203.66.169.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=203.66.169.48} on-error {}
-:do {add list=$AddressList comment=youtube.com address=203.66.169.49} on-error {}

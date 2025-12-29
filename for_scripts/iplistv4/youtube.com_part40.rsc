@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=192.178.56.129} on-error {}
+:do {add list=$AddressList comment=youtube.com address=192.178.56.131} on-error {}
+:do {add list=$AddressList comment=youtube.com address=192.178.56.132} on-error {}
+:do {add list=$AddressList comment=youtube.com address=192.178.56.138} on-error {}
+:do {add list=$AddressList comment=youtube.com address=192.178.56.14} on-error {}
+:do {add list=$AddressList comment=youtube.com address=192.178.56.140} on-error {}
+:do {add list=$AddressList comment=youtube.com address=192.178.56.142} on-error {}
+:do {add list=$AddressList comment=youtube.com address=192.178.56.143} on-error {}
+:do {add list=$AddressList comment=youtube.com address=192.178.56.150} on-error {}
 :do {add list=$AddressList comment=youtube.com address=192.178.56.161} on-error {}
 :do {add list=$AddressList comment=youtube.com address=192.178.56.163} on-error {}
 :do {add list=$AddressList comment=youtube.com address=192.178.56.164} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=202.53.137.209} on-error {}
 :do {add list=$AddressList comment=youtube.com address=202.60.105.236} on-error {}
 :do {add list=$AddressList comment=youtube.com address=202.60.107.236} on-error {}
-:do {add list=$AddressList comment=youtube.com address=202.65.141.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=202.65.141.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=202.65.141.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=202.67.42.205} on-error {}
-:do {add list=$AddressList comment=youtube.com address=202.67.46.140} on-error {}
-:do {add list=$AddressList comment=youtube.com address=202.67.46.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=202.69.161.108} on-error {}
-:do {add list=$AddressList comment=youtube.com address=202.69.161.111} on-error {}
-:do {add list=$AddressList comment=youtube.com address=202.69.185.237} on-error {}

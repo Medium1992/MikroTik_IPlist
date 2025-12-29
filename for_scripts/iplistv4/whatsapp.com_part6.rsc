@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=whatsapp.com address=52.98.239.104} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=52.98.239.120} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=52.98.239.136} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=52.98.239.152} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=52.98.239.168} on-error {}

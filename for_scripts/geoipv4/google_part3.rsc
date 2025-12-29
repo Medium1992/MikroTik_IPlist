@@ -1,17 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=google address=136.49.179.232/30} on-error {}
-:do {add list=$AddressList comment=google address=136.49.179.236/31} on-error {}
-:do {add list=$AddressList comment=google address=136.49.179.238/32} on-error {}
-:do {add list=$AddressList comment=google address=136.49.179.240/28} on-error {}
-:do {add list=$AddressList comment=google address=136.49.180.0/22} on-error {}
-:do {add list=$AddressList comment=google address=136.49.184.0/23} on-error {}
-:do {add list=$AddressList comment=google address=136.49.186.0/25} on-error {}
-:do {add list=$AddressList comment=google address=136.49.186.128/27} on-error {}
-:do {add list=$AddressList comment=google address=136.49.186.160/30} on-error {}
-:do {add list=$AddressList comment=google address=136.49.186.164/32} on-error {}
-:do {add list=$AddressList comment=google address=136.49.186.166/31} on-error {}
-:do {add list=$AddressList comment=google address=136.49.186.168/29} on-error {}
 :do {add list=$AddressList comment=google address=136.49.186.176/28} on-error {}
 :do {add list=$AddressList comment=google address=136.49.186.192/26} on-error {}
 :do {add list=$AddressList comment=google address=136.49.187.0/24} on-error {}
@@ -350,3 +338,15 @@
 :do {add list=$AddressList comment=google address=136.50.233.48/28} on-error {}
 :do {add list=$AddressList comment=google address=136.50.233.64/26} on-error {}
 :do {add list=$AddressList comment=google address=136.50.234.0/25} on-error {}
+:do {add list=$AddressList comment=google address=136.50.234.128/26} on-error {}
+:do {add list=$AddressList comment=google address=136.50.234.192/28} on-error {}
+:do {add list=$AddressList comment=google address=136.50.234.209/32} on-error {}
+:do {add list=$AddressList comment=google address=136.50.234.210/31} on-error {}
+:do {add list=$AddressList comment=google address=136.50.234.212/30} on-error {}
+:do {add list=$AddressList comment=google address=136.50.234.216/29} on-error {}
+:do {add list=$AddressList comment=google address=136.50.234.224/27} on-error {}
+:do {add list=$AddressList comment=google address=136.50.235.0/24} on-error {}
+:do {add list=$AddressList comment=google address=136.50.236.0/22} on-error {}
+:do {add list=$AddressList comment=google address=136.50.24.0/22} on-error {}
+:do {add list=$AddressList comment=google address=136.50.240.0/26} on-error {}
+:do {add list=$AddressList comment=google address=136.50.240.128/25} on-error {}

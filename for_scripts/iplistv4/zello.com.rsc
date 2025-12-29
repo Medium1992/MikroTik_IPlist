@@ -34,6 +34,14 @@
 :do {add list=$AddressList comment=zello.com address=13.224.186.3} on-error {}
 :do {add list=$AddressList comment=zello.com address=13.224.186.55} on-error {}
 :do {add list=$AddressList comment=zello.com address=13.224.186.97} on-error {}
+:do {add list=$AddressList comment=zello.com address=13.225.196.120} on-error {}
+:do {add list=$AddressList comment=zello.com address=13.225.196.16} on-error {}
+:do {add list=$AddressList comment=zello.com address=13.225.196.36} on-error {}
+:do {add list=$AddressList comment=zello.com address=13.225.196.67} on-error {}
+:do {add list=$AddressList comment=zello.com address=13.226.155.108} on-error {}
+:do {add list=$AddressList comment=zello.com address=13.226.155.110} on-error {}
+:do {add list=$AddressList comment=zello.com address=13.226.155.116} on-error {}
+:do {add list=$AddressList comment=zello.com address=13.226.155.27} on-error {}
 :do {add list=$AddressList comment=zello.com address=13.35.58.103} on-error {}
 :do {add list=$AddressList comment=zello.com address=13.35.58.61} on-error {}
 :do {add list=$AddressList comment=zello.com address=13.35.58.62} on-error {}
@@ -70,6 +78,10 @@
 :do {add list=$AddressList comment=zello.com address=18.165.72.127} on-error {}
 :do {add list=$AddressList comment=zello.com address=18.165.72.4} on-error {}
 :do {add list=$AddressList comment=zello.com address=18.165.72.79} on-error {}
+:do {add list=$AddressList comment=zello.com address=18.165.9.12} on-error {}
+:do {add list=$AddressList comment=zello.com address=18.165.9.28} on-error {}
+:do {add list=$AddressList comment=zello.com address=18.165.9.5} on-error {}
+:do {add list=$AddressList comment=zello.com address=18.165.9.93} on-error {}
 :do {add list=$AddressList comment=zello.com address=18.172.213.106} on-error {}
 :do {add list=$AddressList comment=zello.com address=18.172.213.121} on-error {}
 :do {add list=$AddressList comment=zello.com address=18.172.213.27} on-error {}
@@ -90,6 +102,10 @@
 :do {add list=$AddressList comment=zello.com address=18.173.233.118} on-error {}
 :do {add list=$AddressList comment=zello.com address=18.173.233.18} on-error {}
 :do {add list=$AddressList comment=zello.com address=18.173.233.93} on-error {}
+:do {add list=$AddressList comment=zello.com address=18.173.5.116} on-error {}
+:do {add list=$AddressList comment=zello.com address=18.173.5.20} on-error {}
+:do {add list=$AddressList comment=zello.com address=18.173.5.29} on-error {}
+:do {add list=$AddressList comment=zello.com address=18.173.5.46} on-error {}
 :do {add list=$AddressList comment=zello.com address=18.232.43.224} on-error {}
 :do {add list=$AddressList comment=zello.com address=18.235.4.171} on-error {}
 :do {add list=$AddressList comment=zello.com address=18.239.255.127} on-error {}

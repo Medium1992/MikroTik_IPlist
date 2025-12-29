@@ -2,6 +2,16 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=108.157.229.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=108.157.229.54 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.54 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=108.157.229.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=108.157.229.86 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.86 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=108.157.229.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=108.157.4.37 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.4.37 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=108.157.4.48 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.4.48 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=108.157.4.54 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.4.54 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=108.157.4.63 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.4.63 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=108.157.52.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.52.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=108.157.52.116 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.52.116 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=108.157.52.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.52.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=108.157.52.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.52.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
@@ -92,13 +102,3 @@
 :if ([:len [/ip/route/find dst-address=13.224.186.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=13.224.186.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=13.224.186.119 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.119 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=13.224.186.14 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.14 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=13.224.186.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=13.224.186.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=13.224.186.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=13.224.186.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=13.224.186.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=13.224.186.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=13.224.186.48 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.48 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=13.224.186.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=13.224.186.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.186.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }

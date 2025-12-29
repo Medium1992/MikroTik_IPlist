@@ -7,6 +7,8 @@
 :do {add list=$AddressList comment=signal.org address=100.28.155.30} on-error {}
 :do {add list=$AddressList comment=signal.org address=100.28.183.181} on-error {}
 :do {add list=$AddressList comment=signal.org address=100.49.124.89} on-error {}
+:do {add list=$AddressList comment=signal.org address=100.52.103.32} on-error {}
+:do {add list=$AddressList comment=signal.org address=100.52.54.129} on-error {}
 :do {add list=$AddressList comment=signal.org address=104.18.10.47} on-error {}
 :do {add list=$AddressList comment=signal.org address=104.18.11.47} on-error {}
 :do {add list=$AddressList comment=signal.org address=104.18.12.158} on-error {}
@@ -122,6 +124,14 @@
 :do {add list=$AddressList comment=signal.org address=13.224.83.21} on-error {}
 :do {add list=$AddressList comment=signal.org address=13.224.83.26} on-error {}
 :do {add list=$AddressList comment=signal.org address=13.224.83.28} on-error {}
+:do {add list=$AddressList comment=signal.org address=13.225.196.121} on-error {}
+:do {add list=$AddressList comment=signal.org address=13.225.196.2} on-error {}
+:do {add list=$AddressList comment=signal.org address=13.225.196.60} on-error {}
+:do {add list=$AddressList comment=signal.org address=13.225.196.73} on-error {}
+:do {add list=$AddressList comment=signal.org address=13.225.196.76} on-error {}
+:do {add list=$AddressList comment=signal.org address=13.225.196.77} on-error {}
+:do {add list=$AddressList comment=signal.org address=13.225.196.9} on-error {}
+:do {add list=$AddressList comment=signal.org address=13.225.196.90} on-error {}
 :do {add list=$AddressList comment=signal.org address=13.225.35.124} on-error {}
 :do {add list=$AddressList comment=signal.org address=13.225.35.52} on-error {}
 :do {add list=$AddressList comment=signal.org address=13.225.35.93} on-error {}
@@ -272,6 +282,7 @@
 :do {add list=$AddressList comment=signal.org address=172.217.20.83} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.217.208.121} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.217.21.179} on-error {}
+:do {add list=$AddressList comment=signal.org address=172.217.218.121} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.217.23.115} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.253.130.121} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.64.144.159} on-error {}
@@ -339,14 +350,3 @@
 :do {add list=$AddressList comment=signal.org address=18.165.171.29} on-error {}
 :do {add list=$AddressList comment=signal.org address=18.165.171.48} on-error {}
 :do {add list=$AddressList comment=signal.org address=18.165.171.70} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.171.72} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.171.73} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.171.92} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.171.93} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.183.101} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.183.109} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.183.125} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.183.17} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.183.31} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.183.45} on-error {}
-:do {add list=$AddressList comment=signal.org address=18.165.183.50} on-error {}

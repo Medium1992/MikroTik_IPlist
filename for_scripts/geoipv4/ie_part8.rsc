@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ie address=212.222.251.0/29} on-error {}
+:do {add list=$AddressList comment=ie address=212.222.251.116/30} on-error {}
+:do {add list=$AddressList comment=ie address=212.222.251.192/26} on-error {}
+:do {add list=$AddressList comment=ie address=212.222.251.52/30} on-error {}
+:do {add list=$AddressList comment=ie address=212.222.32.200/29} on-error {}
+:do {add list=$AddressList comment=ie address=212.222.32.208/29} on-error {}
+:do {add list=$AddressList comment=ie address=212.222.32.240/29} on-error {}
 :do {add list=$AddressList comment=ie address=212.222.32.80/29} on-error {}
 :do {add list=$AddressList comment=ie address=212.222.33.0/29} on-error {}
 :do {add list=$AddressList comment=ie address=212.222.35.208/29} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=ie address=217.173.96.144/28} on-error {}
 :do {add list=$AddressList comment=ie address=217.173.96.160/27} on-error {}
 :do {add list=$AddressList comment=ie address=217.173.96.192/26} on-error {}
-:do {add list=$AddressList comment=ie address=217.173.97.0/26} on-error {}
-:do {add list=$AddressList comment=ie address=217.173.97.128/25} on-error {}
-:do {add list=$AddressList comment=ie address=217.173.97.64/29} on-error {}
-:do {add list=$AddressList comment=ie address=217.173.97.72/30} on-error {}
-:do {add list=$AddressList comment=ie address=217.173.97.80/28} on-error {}
-:do {add list=$AddressList comment=ie address=217.173.97.96/27} on-error {}
-:do {add list=$AddressList comment=ie address=217.173.98.0/23} on-error {}

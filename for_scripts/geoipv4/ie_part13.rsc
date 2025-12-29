@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ie address=62.23.108.16/28} on-error {}
+:do {add list=$AddressList comment=ie address=62.23.108.32/29} on-error {}
+:do {add list=$AddressList comment=ie address=62.23.108.44/30} on-error {}
+:do {add list=$AddressList comment=ie address=62.23.108.48/30} on-error {}
+:do {add list=$AddressList comment=ie address=62.23.108.68/30} on-error {}
+:do {add list=$AddressList comment=ie address=62.23.108.76/30} on-error {}
+:do {add list=$AddressList comment=ie address=62.23.108.8/30} on-error {}
 :do {add list=$AddressList comment=ie address=62.23.108.80/29} on-error {}
 :do {add list=$AddressList comment=ie address=62.23.108.92/30} on-error {}
 :do {add list=$AddressList comment=ie address=62.23.128.0/24} on-error {}
@@ -332,8 +339,6 @@
 :do {add list=$AddressList comment=ie address=80.169.229.96/28} on-error {}
 :do {add list=$AddressList comment=ie address=80.169.236.0/24} on-error {}
 :do {add list=$AddressList comment=ie address=80.169.237.0/29} on-error {}
-:do {add list=$AddressList comment=ie address=80.169.237.104/30} on-error {}
-:do {add list=$AddressList comment=ie address=80.169.237.108/31} on-error {}
 :do {add list=$AddressList comment=ie address=80.169.237.112/30} on-error {}
 :do {add list=$AddressList comment=ie address=80.169.237.12/30} on-error {}
 :do {add list=$AddressList comment=ie address=80.169.237.120/29} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=ie address=80.169.237.196/30} on-error {}
 :do {add list=$AddressList comment=ie address=80.169.237.20/30} on-error {}
 :do {add list=$AddressList comment=ie address=80.169.237.200/30} on-error {}
-:do {add list=$AddressList comment=ie address=80.169.237.204/31} on-error {}
-:do {add list=$AddressList comment=ie address=80.169.237.208/29} on-error {}
-:do {add list=$AddressList comment=ie address=80.169.237.224/28} on-error {}
-:do {add list=$AddressList comment=ie address=80.169.237.248/30} on-error {}
-:do {add list=$AddressList comment=ie address=80.169.237.254/31} on-error {}

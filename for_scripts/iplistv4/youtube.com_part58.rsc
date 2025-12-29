@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=74.125.69.129} on-error {}
+:do {add list=$AddressList comment=youtube.com address=74.125.69.132} on-error {}
+:do {add list=$AddressList comment=youtube.com address=74.125.69.134} on-error {}
+:do {add list=$AddressList comment=youtube.com address=74.125.69.136} on-error {}
+:do {add list=$AddressList comment=youtube.com address=74.125.69.138} on-error {}
+:do {add list=$AddressList comment=youtube.com address=74.125.69.139} on-error {}
+:do {add list=$AddressList comment=youtube.com address=74.125.69.147} on-error {}
+:do {add list=$AddressList comment=youtube.com address=74.125.69.190} on-error {}
+:do {add list=$AddressList comment=youtube.com address=74.125.69.91} on-error {}
 :do {add list=$AddressList comment=youtube.com address=74.125.69.92} on-error {}
 :do {add list=$AddressList comment=youtube.com address=74.125.69.93} on-error {}
 :do {add list=$AddressList comment=youtube.com address=74.125.69.94} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=92.87.232.79} on-error {}
 :do {add list=$AddressList comment=youtube.com address=92.87.232.83} on-error {}
 :do {add list=$AddressList comment=youtube.com address=93.123.23.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=93.123.23.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=93.123.23.140} on-error {}
-:do {add list=$AddressList comment=youtube.com address=93.123.23.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=93.123.23.142} on-error {}
-:do {add list=$AddressList comment=youtube.com address=93.123.23.143} on-error {}
-:do {add list=$AddressList comment=youtube.com address=93.123.23.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=93.123.23.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=93.123.23.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=93.179.102.140} on-error {}

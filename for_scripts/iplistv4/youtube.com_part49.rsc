@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=49.44.208.13} on-error {}
+:do {add list=$AddressList comment=youtube.com address=49.44.208.14} on-error {}
+:do {add list=$AddressList comment=youtube.com address=49.44.208.143} on-error {}
+:do {add list=$AddressList comment=youtube.com address=49.44.208.77} on-error {}
+:do {add list=$AddressList comment=youtube.com address=49.44.208.83} on-error {}
+:do {add list=$AddressList comment=youtube.com address=49.44.209.12} on-error {}
+:do {add list=$AddressList comment=youtube.com address=49.44.209.13} on-error {}
+:do {add list=$AddressList comment=youtube.com address=49.44.209.14} on-error {}
+:do {add list=$AddressList comment=youtube.com address=49.44.209.15} on-error {}
 :do {add list=$AddressList comment=youtube.com address=49.44.209.204} on-error {}
 :do {add list=$AddressList comment=youtube.com address=49.44.209.205} on-error {}
 :do {add list=$AddressList comment=youtube.com address=49.44.209.206} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=59.103.21.144} on-error {}
 :do {add list=$AddressList comment=youtube.com address=59.103.21.145} on-error {}
 :do {add list=$AddressList comment=youtube.com address=59.103.21.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=59.103.21.204} on-error {}
-:do {add list=$AddressList comment=youtube.com address=59.103.21.205} on-error {}
-:do {add list=$AddressList comment=youtube.com address=59.103.21.206} on-error {}
-:do {add list=$AddressList comment=youtube.com address=59.103.21.207} on-error {}
-:do {add list=$AddressList comment=youtube.com address=59.103.21.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=59.103.21.83} on-error {}
-:do {add list=$AddressList comment=youtube.com address=59.12.162.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=59.12.162.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=59.12.162.14} on-error {}

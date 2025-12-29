@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=64.233.179.94} on-error {}
+:do {add list=$AddressList comment=youtube.com address=64.233.179.95} on-error {}
+:do {add list=$AddressList comment=youtube.com address=64.233.180.100} on-error {}
+:do {add list=$AddressList comment=youtube.com address=64.233.180.101} on-error {}
+:do {add list=$AddressList comment=youtube.com address=64.233.180.102} on-error {}
+:do {add list=$AddressList comment=youtube.com address=64.233.180.103} on-error {}
+:do {add list=$AddressList comment=youtube.com address=64.233.180.104} on-error {}
+:do {add list=$AddressList comment=youtube.com address=64.233.180.105} on-error {}
+:do {add list=$AddressList comment=youtube.com address=64.233.180.106} on-error {}
 :do {add list=$AddressList comment=youtube.com address=64.233.180.113} on-error {}
 :do {add list=$AddressList comment=youtube.com address=64.233.180.116} on-error {}
 :do {add list=$AddressList comment=youtube.com address=64.233.180.117} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=67.15.100.252} on-error {}
 :do {add list=$AddressList comment=youtube.com address=67.15.129.210} on-error {}
 :do {add list=$AddressList comment=youtube.com address=67.204.184.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=67.228.102.32} on-error {}
-:do {add list=$AddressList comment=youtube.com address=67.228.235.91} on-error {}
-:do {add list=$AddressList comment=youtube.com address=67.228.235.93} on-error {}
-:do {add list=$AddressList comment=youtube.com address=67.230.169.182} on-error {}
-:do {add list=$AddressList comment=youtube.com address=67.50.19.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=67.50.19.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=69.162.134.178} on-error {}
-:do {add list=$AddressList comment=youtube.com address=69.171.224.36} on-error {}
-:do {add list=$AddressList comment=youtube.com address=69.171.224.40} on-error {}

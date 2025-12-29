@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=42.119.210.81} on-error {}
+:do {add list=$AddressList comment=youtube.com address=42.119.210.82} on-error {}
+:do {add list=$AddressList comment=youtube.com address=42.119.210.83} on-error {}
+:do {add list=$AddressList comment=youtube.com address=42.119.211.12} on-error {}
+:do {add list=$AddressList comment=youtube.com address=42.119.211.13} on-error {}
+:do {add list=$AddressList comment=youtube.com address=42.119.211.141} on-error {}
+:do {add list=$AddressList comment=youtube.com address=42.119.211.15} on-error {}
+:do {add list=$AddressList comment=youtube.com address=42.119.211.16} on-error {}
+:do {add list=$AddressList comment=youtube.com address=42.119.211.18} on-error {}
 :do {add list=$AddressList comment=youtube.com address=42.119.211.78} on-error {}
 :do {add list=$AddressList comment=youtube.com address=42.119.211.80} on-error {}
 :do {add list=$AddressList comment=youtube.com address=42.119.211.81} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=49.44.186.82} on-error {}
 :do {add list=$AddressList comment=youtube.com address=49.44.186.83} on-error {}
 :do {add list=$AddressList comment=youtube.com address=49.44.208.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=49.44.208.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=49.44.208.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=49.44.208.143} on-error {}
-:do {add list=$AddressList comment=youtube.com address=49.44.208.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=49.44.208.83} on-error {}
-:do {add list=$AddressList comment=youtube.com address=49.44.209.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=49.44.209.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=49.44.209.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=49.44.209.15} on-error {}

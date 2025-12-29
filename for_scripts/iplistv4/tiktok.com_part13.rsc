@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=138.113.167.109} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.167.110} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.167.111} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.167.115} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.167.116} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.167.118} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.167.119} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.167.120} on-error {}
@@ -142,6 +147,7 @@
 :do {add list=$AddressList comment=tiktok.com address=138.113.27.54} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.27.55} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.27.66} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.27.84} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.27.86} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.27.87} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.27.88} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=14.205.45.82} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=14.205.45.83} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=140.150.13.32} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=140.150.13.33} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=140.150.13.34} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=140.150.13.35} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=140.150.13.36} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=140.150.13.37} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=140.150.13.44} on-error {}

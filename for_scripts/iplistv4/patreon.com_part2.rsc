@@ -190,6 +190,9 @@
 :do {add list=$AddressList comment=patreon.com address=199.96.63.177} on-error {}
 :do {add list=$AddressList comment=patreon.com address=199.96.63.53} on-error {}
 :do {add list=$AddressList comment=patreon.com address=199.96.63.75} on-error {}
+:do {add list=$AddressList comment=patreon.com address=20.190.159.20} on-error {}
+:do {add list=$AddressList comment=patreon.com address=20.190.159.66} on-error {}
+:do {add list=$AddressList comment=patreon.com address=20.190.159.67} on-error {}
 :do {add list=$AddressList comment=patreon.com address=20.190.181.19} on-error {}
 :do {add list=$AddressList comment=patreon.com address=20.190.181.21} on-error {}
 :do {add list=$AddressList comment=patreon.com address=20.190.181.22} on-error {}
@@ -243,6 +246,10 @@
 :do {add list=$AddressList comment=patreon.com address=3.160.132.122} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.160.132.61} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.160.132.91} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.160.188.14} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.160.188.43} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.160.188.48} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.160.188.81} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.160.246.127} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.160.246.53} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.160.246.55} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=patreon.com address=31.13.88.26} on-error {}
 :do {add list=$AddressList comment=patreon.com address=31.13.90.19} on-error {}
 :do {add list=$AddressList comment=patreon.com address=31.13.90.33} on-error {}
-:do {add list=$AddressList comment=patreon.com address=31.13.91.33} on-error {}
-:do {add list=$AddressList comment=patreon.com address=31.13.91.6} on-error {}
-:do {add list=$AddressList comment=patreon.com address=31.13.92.5} on-error {}
-:do {add list=$AddressList comment=patreon.com address=31.13.94.10} on-error {}
-:do {add list=$AddressList comment=patreon.com address=31.13.94.23} on-error {}
-:do {add list=$AddressList comment=patreon.com address=31.13.94.36} on-error {}
-:do {add list=$AddressList comment=patreon.com address=31.13.94.37} on-error {}

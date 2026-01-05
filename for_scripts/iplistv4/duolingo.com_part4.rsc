@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=duolingo.com address=18.154.161.75} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.154.29.42} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.154.29.55} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.154.29.70} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.154.29.96} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.154.48.24} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.154.48.35} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.154.48.41} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=18.154.48.59} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.154.63.113} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.154.63.123} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.154.63.129} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=duolingo.com address=18.173.154.124} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.173.154.34} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=18.173.154.51} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.173.154.62} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.173.154.93} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.173.205.12} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.173.205.121} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.173.205.126} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.173.205.27} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.173.205.3} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.173.205.31} on-error {}
-:do {add list=$AddressList comment=duolingo.com address=18.173.205.37} on-error {}

@@ -1,12 +1,12 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=gb address=149.12.176.32/27} on-error {}
-:do {add list=$AddressList comment=gb address=149.12.176.64/26} on-error {}
+:do {add list=$AddressList comment=gb address=149.12.176.0/29} on-error {}
+:do {add list=$AddressList comment=gb address=149.12.176.224/27} on-error {}
 :do {add list=$AddressList comment=gb address=149.12.177.0/24} on-error {}
-:do {add list=$AddressList comment=gb address=149.12.178.0/24} on-error {}
-:do {add list=$AddressList comment=gb address=149.12.180.0/23} on-error {}
+:do {add list=$AddressList comment=gb address=149.12.180.0/27} on-error {}
+:do {add list=$AddressList comment=gb address=149.12.180.64/26} on-error {}
 :do {add list=$AddressList comment=gb address=149.12.182.0/24} on-error {}
-:do {add list=$AddressList comment=gb address=149.12.184.0/21} on-error {}
+:do {add list=$AddressList comment=gb address=149.12.184.0/22} on-error {}
 :do {add list=$AddressList comment=gb address=149.12.75.0/24} on-error {}
 :do {add list=$AddressList comment=gb address=149.12.80.0/29} on-error {}
 :do {add list=$AddressList comment=gb address=149.126.104.0/21} on-error {}
@@ -186,6 +186,7 @@
 :do {add list=$AddressList comment=gb address=149.14.212.176/29} on-error {}
 :do {add list=$AddressList comment=gb address=149.14.212.192/27} on-error {}
 :do {add list=$AddressList comment=gb address=149.14.212.88/29} on-error {}
+:do {add list=$AddressList comment=gb address=149.14.212.96/29} on-error {}
 :do {add list=$AddressList comment=gb address=149.14.213.128/25} on-error {}
 :do {add list=$AddressList comment=gb address=149.14.213.24/29} on-error {}
 :do {add list=$AddressList comment=gb address=149.14.214.0/23} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=gb address=149.14.251.192/26} on-error {}
 :do {add list=$AddressList comment=gb address=149.14.252.128/25} on-error {}
 :do {add list=$AddressList comment=gb address=149.14.252.16/28} on-error {}
-:do {add list=$AddressList comment=gb address=149.14.252.32/27} on-error {}

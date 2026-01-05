@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=de address=185.97.176.0/21} on-error {}
+:do {add list=$AddressList comment=de address=185.97.214.0/23} on-error {}
+:do {add list=$AddressList comment=de address=185.97.224.0/22} on-error {}
+:do {add list=$AddressList comment=de address=185.97.240.0/22} on-error {}
+:do {add list=$AddressList comment=de address=185.97.4.0/22} on-error {}
+:do {add list=$AddressList comment=de address=185.97.76.0/24} on-error {}
 :do {add list=$AddressList comment=de address=185.97.81.0/26} on-error {}
 :do {add list=$AddressList comment=de address=185.97.81.112/29} on-error {}
 :do {add list=$AddressList comment=de address=185.97.81.120/30} on-error {}
@@ -142,6 +148,7 @@
 :do {add list=$AddressList comment=de address=188.213.0.0/24} on-error {}
 :do {add list=$AddressList comment=de address=188.213.213.0/24} on-error {}
 :do {add list=$AddressList comment=de address=188.213.35.0/24} on-error {}
+:do {add list=$AddressList comment=de address=188.213.50.0/24} on-error {}
 :do {add list=$AddressList comment=de address=188.214.107.0/24} on-error {}
 :do {add list=$AddressList comment=de address=188.214.136.0/22} on-error {}
 :do {add list=$AddressList comment=de address=188.214.150.0/24} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=de address=192.109.211.0/24} on-error {}
 :do {add list=$AddressList comment=de address=192.109.212.0/23} on-error {}
 :do {add list=$AddressList comment=de address=192.109.216.0/24} on-error {}
-:do {add list=$AddressList comment=de address=192.109.218.0/24} on-error {}
-:do {add list=$AddressList comment=de address=192.109.22.0/24} on-error {}
-:do {add list=$AddressList comment=de address=192.109.221.0/24} on-error {}
-:do {add list=$AddressList comment=de address=192.109.222.0/24} on-error {}
-:do {add list=$AddressList comment=de address=192.109.223.0/25} on-error {}
-:do {add list=$AddressList comment=de address=192.109.223.128/27} on-error {}
-:do {add list=$AddressList comment=de address=192.109.223.168/29} on-error {}

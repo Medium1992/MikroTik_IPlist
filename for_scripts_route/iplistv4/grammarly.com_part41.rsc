@@ -2,6 +2,18 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.213.171.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.171.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.173.177 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.173.177 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.173.182 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.173.182 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.175.31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.175.31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.175.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.175.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.18.219 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.18.219 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.183.12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.183.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.187.12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.187.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.189.142 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.189.142 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.19.159 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.19.159 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.190.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.190.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
+:if ([:len [/ip/route/find dst-address=3.213.191.254 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.191.254 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
 :if ([:len [/ip/route/find dst-address=3.213.192.164 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.192.164 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
 :if ([:len [/ip/route/find dst-address=3.213.193.54 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.193.54 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
 :if ([:len [/ip/route/find dst-address=3.213.195.158 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.195.158 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
@@ -90,15 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.214.232.136 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.232.136 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
 :if ([:len [/ip/route/find dst-address=3.214.232.147 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.232.147 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
 :if ([:len [/ip/route/find dst-address=3.214.239.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.239.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.239.238 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.239.238 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.240.191 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.240.191 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.243.119 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.243.119 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.243.71 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.243.71 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.250.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.250.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.252.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.252.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.255.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.255.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.29.143 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.29.143 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.3.189 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.3.189 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.35.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.35.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.35.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.35.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }
-:if ([:len [/ip/route/find dst-address=3.214.38.181 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.214.38.181 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=grammarly.com }

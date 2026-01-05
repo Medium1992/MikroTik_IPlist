@@ -117,7 +117,7 @@
 :do {add list=$AddressList comment=mq address=46.193.54.60/32} on-error {}
 :do {add list=$AddressList comment=mq address=46.193.54.64/31} on-error {}
 :do {add list=$AddressList comment=mq address=46.238.144.0/20} on-error {}
-:do {add list=$AddressList comment=mq address=46.238.160.0/21} on-error {}
+:do {add list=$AddressList comment=mq address=46.238.160.0/22} on-error {}
 :do {add list=$AddressList comment=mq address=46.238.180.0/22} on-error {}
 :do {add list=$AddressList comment=mq address=46.238.188.0/23} on-error {}
 :do {add list=$AddressList comment=mq address=5.102.73.0/24} on-error {}

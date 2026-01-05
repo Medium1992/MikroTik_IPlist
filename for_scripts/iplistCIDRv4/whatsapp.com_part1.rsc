@@ -111,6 +111,7 @@
 :do {add list=$AddressList comment=whatsapp.com address=168.194.0.0/16} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=168.196.0.0/16} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=168.197.0.0/16} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=168.253.0.0/16} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=168.90.0.0/16} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=169.239.0.0/16} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=170.150.0.0/16} on-error {}
@@ -119,6 +120,7 @@
 :do {add list=$AddressList comment=whatsapp.com address=170.238.0.0/16} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=170.245.0.0/19} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=170.246.128.0/17} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=170.250.0.0/16} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=170.52.48.0/21} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=170.78.0.0/16} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=170.80.0.0/16} on-error {}
@@ -220,6 +222,7 @@
 :do {add list=$AddressList comment=whatsapp.com address=190.124.0.0/14} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=190.128.0.0/10} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=190.211.0.0/17} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=190.212.0.0/14} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=190.216.0.0/13} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=190.80.0.0/13} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=190.88.0.0/14} on-error {}
@@ -334,6 +337,7 @@
 :do {add list=$AddressList comment=whatsapp.com address=212.96.64.0/19} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=213.150.160.0/19} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=213.157.192.0/19} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=213.180.193.0/24} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=213.202.0.0/21} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=213.204.119.0/24} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=213.230.52.0/22} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=whatsapp.com address=217.22.184.0/22} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=217.25.24.0/23} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=217.64.96.0/20} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=217.73.140.0/23} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=217.76.71.0/24} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=217.79.128.0/21} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=219.0.0.0/8} on-error {}

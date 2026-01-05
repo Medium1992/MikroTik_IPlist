@@ -3,6 +3,7 @@
 :global GateWay
 /ip route
 :if ([:len [/ip/route/find dst-address=108.128.107.140 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.128.107.140 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
+:if ([:len [/ip/route/find dst-address=108.128.110.253 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.128.110.253 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=108.128.113.44 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.128.113.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=108.128.119.139 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.128.119.139 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=108.128.135.148 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.128.135.148 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
@@ -101,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=108.139.134.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.139.134.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=108.139.166.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.139.166.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=108.139.166.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.139.166.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
-:if ([:len [/ip/route/find dst-address=108.139.166.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.139.166.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }

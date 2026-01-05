@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=184.25.52.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=184.25.52.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
+:if ([:len [/ip/route/find dst-address=184.25.53.156 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=184.25.53.156 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
+:if ([:len [/ip/route/find dst-address=184.26.128.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=184.26.128.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
+:if ([:len [/ip/route/find dst-address=184.26.129.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=184.26.129.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
+:if ([:len [/ip/route/find dst-address=184.26.129.156 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=184.26.129.156 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
+:if ([:len [/ip/route/find dst-address=184.26.133.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=184.26.133.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=184.26.45.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=184.26.45.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=184.26.81.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=184.26.81.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=184.27.185.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=184.27.185.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=2.16.183.212 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.183.212 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=2.16.188.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.188.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
 :if ([:len [/ip/route/find dst-address=2.16.189.78 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.189.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
-:if ([:len [/ip/route/find dst-address=2.16.194.73 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.194.73 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
-:if ([:len [/ip/route/find dst-address=2.16.2.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.2.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
-:if ([:len [/ip/route/find dst-address=2.16.2.49 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.2.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
-:if ([:len [/ip/route/find dst-address=2.16.202.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.202.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
-:if ([:len [/ip/route/find dst-address=2.16.202.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.202.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }
-:if ([:len [/ip/route/find dst-address=2.16.206.141 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.206.141 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=naukri.com }

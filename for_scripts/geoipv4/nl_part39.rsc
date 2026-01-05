@@ -1,12 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=nl address=52.149.64.0/18} on-error {}
-:do {add list=$AddressList comment=nl address=52.157.128.0/17} on-error {}
-:do {add list=$AddressList comment=nl address=52.157.64.0/18} on-error {}
-:do {add list=$AddressList comment=nl address=52.166.0.0/16} on-error {}
-:do {add list=$AddressList comment=nl address=52.174.0.0/16} on-error {}
-:do {add list=$AddressList comment=nl address=52.178.0.0/20} on-error {}
-:do {add list=$AddressList comment=nl address=52.178.16.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=52.178.17.0/31} on-error {}
 :do {add list=$AddressList comment=nl address=52.178.17.128/25} on-error {}
 :do {add list=$AddressList comment=nl address=52.178.17.16/28} on-error {}
@@ -29,6 +22,7 @@
 :do {add list=$AddressList comment=nl address=52.239.242.0/23} on-error {}
 :do {add list=$AddressList comment=nl address=52.245.124.0/22} on-error {}
 :do {add list=$AddressList comment=nl address=52.245.48.0/22} on-error {}
+:do {add list=$AddressList comment=nl address=52.46.22.0/25} on-error {}
 :do {add list=$AddressList comment=nl address=52.97.135.112/28} on-error {}
 :do {add list=$AddressList comment=nl address=52.97.135.128/25} on-error {}
 :do {add list=$AddressList comment=nl address=52.97.135.64/27} on-error {}
@@ -350,3 +344,9 @@
 :do {add list=$AddressList comment=nl address=62.109.222.0/23} on-error {}
 :do {add list=$AddressList comment=nl address=62.109.228.96/27} on-error {}
 :do {add list=$AddressList comment=nl address=62.109.236.128/25} on-error {}
+:do {add list=$AddressList comment=nl address=62.109.236.16/29} on-error {}
+:do {add list=$AddressList comment=nl address=62.109.236.32/27} on-error {}
+:do {add list=$AddressList comment=nl address=62.109.237.128/25} on-error {}
+:do {add list=$AddressList comment=nl address=62.109.237.16/29} on-error {}
+:do {add list=$AddressList comment=nl address=62.109.237.32/27} on-error {}
+:do {add list=$AddressList comment=nl address=62.109.237.64/27} on-error {}

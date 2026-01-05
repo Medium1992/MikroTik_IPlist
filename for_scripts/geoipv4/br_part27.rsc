@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=br address=45.236.96.0/22} on-error {}
+:do {add list=$AddressList comment=br address=45.237.0.0/19} on-error {}
+:do {add list=$AddressList comment=br address=45.237.128.0/22} on-error {}
+:do {add list=$AddressList comment=br address=45.237.140.0/22} on-error {}
+:do {add list=$AddressList comment=br address=45.237.144.0/20} on-error {}
+:do {add list=$AddressList comment=br address=45.237.160.0/21} on-error {}
+:do {add list=$AddressList comment=br address=45.237.180.0/22} on-error {}
+:do {add list=$AddressList comment=br address=45.237.188.0/22} on-error {}
+:do {add list=$AddressList comment=br address=45.237.192.0/20} on-error {}
+:do {add list=$AddressList comment=br address=45.237.208.0/21} on-error {}
 :do {add list=$AddressList comment=br address=45.237.216.0/22} on-error {}
 :do {add list=$AddressList comment=br address=45.237.224.0/19} on-error {}
 :do {add list=$AddressList comment=br address=45.237.32.0/22} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=br address=52.123.28.0/23} on-error {}
 :do {add list=$AddressList comment=br address=52.253.185.0/24} on-error {}
 :do {add list=$AddressList comment=br address=52.253.186.0/24} on-error {}
-:do {add list=$AddressList comment=br address=52.253.197.0/24} on-error {}
-:do {add list=$AddressList comment=br address=52.46.1.0/25} on-error {}
-:do {add list=$AddressList comment=br address=52.46.172.0/22} on-error {}
-:do {add list=$AddressList comment=br address=52.46.43.0/24} on-error {}
-:do {add list=$AddressList comment=br address=52.67.0.0/16} on-error {}
-:do {add list=$AddressList comment=br address=52.93.122.202/31} on-error {}
-:do {add list=$AddressList comment=br address=52.93.126.206/31} on-error {}
-:do {add list=$AddressList comment=br address=52.93.126.234/31} on-error {}
-:do {add list=$AddressList comment=br address=52.93.127.160/31} on-error {}
-:do {add list=$AddressList comment=br address=52.93.127.70/31} on-error {}

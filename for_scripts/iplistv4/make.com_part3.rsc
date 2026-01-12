@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=make.com address=18.173.5.117} on-error {}
+:do {add list=$AddressList comment=make.com address=18.173.5.124} on-error {}
+:do {add list=$AddressList comment=make.com address=18.173.5.58} on-error {}
+:do {add list=$AddressList comment=make.com address=18.173.5.85} on-error {}
+:do {add list=$AddressList comment=make.com address=18.173.5.96} on-error {}
+:do {add list=$AddressList comment=make.com address=18.200.42.24} on-error {}
+:do {add list=$AddressList comment=make.com address=18.202.121.145} on-error {}
 :do {add list=$AddressList comment=make.com address=18.202.121.239} on-error {}
 :do {add list=$AddressList comment=make.com address=18.202.83.219} on-error {}
 :do {add list=$AddressList comment=make.com address=18.203.177.25} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=make.com address=3.161.119.16} on-error {}
 :do {add list=$AddressList comment=make.com address=3.161.119.21} on-error {}
 :do {add list=$AddressList comment=make.com address=3.161.119.23} on-error {}
-:do {add list=$AddressList comment=make.com address=3.161.119.30} on-error {}
-:do {add list=$AddressList comment=make.com address=3.161.119.34} on-error {}
-:do {add list=$AddressList comment=make.com address=3.161.119.37} on-error {}
-:do {add list=$AddressList comment=make.com address=3.161.119.39} on-error {}
-:do {add list=$AddressList comment=make.com address=3.161.119.43} on-error {}
-:do {add list=$AddressList comment=make.com address=3.161.119.53} on-error {}
-:do {add list=$AddressList comment=make.com address=3.161.119.55} on-error {}

@@ -1,5 +1,27 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=notion.so address=52.92.249.130} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.138} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.146} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.154} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.162} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.170} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.178} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.18} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.186} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.194} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.2} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.202} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.210} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.218} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.226} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.234} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.242} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.250} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.26} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.82} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.90} on-error {}
+:do {add list=$AddressList comment=notion.so address=52.92.249.98} on-error {}
 :do {add list=$AddressList comment=notion.so address=52.92.250.10} on-error {}
 :do {add list=$AddressList comment=notion.so address=52.92.250.106} on-error {}
 :do {add list=$AddressList comment=notion.so address=52.92.250.114} on-error {}

@@ -87,6 +87,14 @@
 :do {add list=$AddressList comment=strava.com address=13.32.145.28} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.32.145.5} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.32.145.87} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.32.220.102} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.32.220.121} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.32.220.122} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.32.220.129} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.32.220.21} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.32.220.56} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.32.220.62} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.32.220.76} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.33.141.117} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.33.141.127} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.33.141.28} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=18.165.122.68} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.165.122.82} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.165.122.84} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.165.122.89} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.165.140.103} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.165.140.104} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.165.140.109} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.165.140.11} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.165.140.110} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.165.140.113} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.165.140.129} on-error {}

@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=172.217.15.3} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.15.4} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.15.65} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.15.67} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.15.68} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.15.74} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=172.217.168.206} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.168.207} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.168.214} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.168.22} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.168.225} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.168.227} on-error {}

@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=facebook.com address=163.70.144.32} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.145.42} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.146.36} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.147.23} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.147.40} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.148.40} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.149.40} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.151.12} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.151.14} on-error {}
 :do {add list=$AddressList comment=facebook.com address=163.70.151.175} on-error {}
 :do {add list=$AddressList comment=facebook.com address=163.70.151.21} on-error {}
 :do {add list=$AddressList comment=facebook.com address=163.70.151.216} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=facebook.com address=202.160.130.145} on-error {}
 :do {add list=$AddressList comment=facebook.com address=202.160.130.52} on-error {}
 :do {add list=$AddressList comment=facebook.com address=202.182.98.125} on-error {}
-:do {add list=$AddressList comment=facebook.com address=202.53.137.209} on-error {}
-:do {add list=$AddressList comment=facebook.com address=203.111.254.117} on-error {}
-:do {add list=$AddressList comment=facebook.com address=205.186.152.122} on-error {}
-:do {add list=$AddressList comment=facebook.com address=208.101.21.43} on-error {}
-:do {add list=$AddressList comment=facebook.com address=208.31.254.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=208.43.170.231} on-error {}
-:do {add list=$AddressList comment=facebook.com address=208.43.237.140} on-error {}
-:do {add list=$AddressList comment=facebook.com address=208.77.47.172} on-error {}
-:do {add list=$AddressList comment=facebook.com address=209.95.56.60} on-error {}

@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=ge address=5.62.62.142/31} on-error {}
 :do {add list=$AddressList comment=ge address=57.88.64.0/20} on-error {}
 :do {add list=$AddressList comment=ge address=57.90.144.0/23} on-error {}
 :do {add list=$AddressList comment=ge address=62.128.122.123/32} on-error {}
@@ -17,9 +16,14 @@
 :do {add list=$AddressList comment=ge address=72.56.128.0/22} on-error {}
 :do {add list=$AddressList comment=ge address=77.242.48.0/20} on-error {}
 :do {add list=$AddressList comment=ge address=77.74.40.0/21} on-error {}
+:do {add list=$AddressList comment=ge address=77.91.101.0/24} on-error {}
+:do {add list=$AddressList comment=ge address=77.91.102.0/23} on-error {}
+:do {add list=$AddressList comment=ge address=77.91.122.0/23} on-error {}
+:do {add list=$AddressList comment=ge address=77.91.126.0/24} on-error {}
 :do {add list=$AddressList comment=ge address=77.91.65.0/24} on-error {}
 :do {add list=$AddressList comment=ge address=77.91.72.0/23} on-error {}
 :do {add list=$AddressList comment=ge address=77.91.74.0/24} on-error {}
+:do {add list=$AddressList comment=ge address=77.91.97.0/24} on-error {}
 :do {add list=$AddressList comment=ge address=77.92.224.0/19} on-error {}
 :do {add list=$AddressList comment=ge address=78.139.128.0/18} on-error {}
 :do {add list=$AddressList comment=ge address=78.40.104.0/22} on-error {}
@@ -56,6 +60,7 @@
 :do {add list=$AddressList comment=ge address=91.184.96.0/19} on-error {}
 :do {add list=$AddressList comment=ge address=91.192.8.0/24} on-error {}
 :do {add list=$AddressList comment=ge address=91.193.56.0/23} on-error {}
+:do {add list=$AddressList comment=ge address=91.194.7.0/24} on-error {}
 :do {add list=$AddressList comment=ge address=91.200.136.0/23} on-error {}
 :do {add list=$AddressList comment=ge address=91.201.96.0/22} on-error {}
 :do {add list=$AddressList comment=ge address=91.202.56.0/22} on-error {}
@@ -69,6 +74,7 @@
 :do {add list=$AddressList comment=ge address=91.211.86.0/24} on-error {}
 :do {add list=$AddressList comment=ge address=91.212.213.0/24} on-error {}
 :do {add list=$AddressList comment=ge address=91.212.225.0/24} on-error {}
+:do {add list=$AddressList comment=ge address=91.214.79.0/24} on-error {}
 :do {add list=$AddressList comment=ge address=91.220.84.0/24} on-error {}
 :do {add list=$AddressList comment=ge address=91.223.245.0/24} on-error {}
 :do {add list=$AddressList comment=ge address=91.223.53.0/24} on-error {}

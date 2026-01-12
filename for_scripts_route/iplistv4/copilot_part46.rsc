@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=92.123.189.82 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.189.82 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.123.189.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.189.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.123.189.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.189.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.123.189.96 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.189.96 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.123.189.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.189.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.123.189.98 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.189.98 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.123.189.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.189.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.123.236.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.236.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.123.236.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.236.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=95.100.100.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.100.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=95.100.100.130 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.100.130 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=95.100.107.146 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.107.146 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=95.100.107.149 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.107.149 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=95.100.107.156 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.107.156 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=95.100.107.158 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.107.158 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=95.100.107.162 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.107.162 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=95.100.108.136 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.108.136 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=95.100.108.138 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.108.138 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }

@@ -2,6 +2,9 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.98.207.168 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.98.207.168 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
+:if ([:len [/ip/route/find dst-address=52.98.207.184 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.98.207.184 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
+:if ([:len [/ip/route/find dst-address=52.98.207.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.98.207.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=52.98.207.40 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.98.207.40 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=52.98.207.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.98.207.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=52.98.207.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.98.207.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
@@ -99,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=95.161.64.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.161.64.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=95.161.64.100 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.161.64.100 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=95.161.64.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.161.64.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
-:if ([:len [/ip/route/find dst-address=95.161.64.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.161.64.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }

@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=crunchyroll.com address=18.67.240.55} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=18.67.250.108} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=18.67.250.121} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=18.67.250.42} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=18.67.250.72} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=188.114.98.224} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=188.114.98.228} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=188.114.98.229} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=188.114.98.233} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=188.114.99.224} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=188.114.99.228} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=crunchyroll.com address=52.222.236.76} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=52.84.106.119} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=52.84.106.2} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.25} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.50} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.6} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.63} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.65} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.7} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.83} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.87} on-error {}

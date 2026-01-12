@@ -80,8 +80,6 @@
 :do {add list=$AddressList comment=mw address=154.66.120.0/21} on-error {}
 :do {add list=$AddressList comment=mw address=157.5.101.130/31} on-error {}
 :do {add list=$AddressList comment=mw address=157.5.109.130/31} on-error {}
-:do {add list=$AddressList comment=mw address=160.225.72.0/23} on-error {}
-:do {add list=$AddressList comment=mw address=160.225.74.0/24} on-error {}
 :do {add list=$AddressList comment=mw address=162.10.8.97/32} on-error {}
 :do {add list=$AddressList comment=mw address=162.10.8.98/32} on-error {}
 :do {add list=$AddressList comment=mw address=163.116.167.140/31} on-error {}

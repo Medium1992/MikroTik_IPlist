@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.176} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.177} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.178} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.179} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.18} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.180} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.182} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.183} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.184} on-error {}
@@ -164,6 +170,7 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=34.88.97.204} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=35.228.170.167} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=5.252.75.222} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.42.112} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.42.132} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.42.179} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.42.242} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.1} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.10} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.100} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.101} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.102} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.103} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.104} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.105} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.106} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.107} on-error {}

@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.193} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.194} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.196} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.198} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.220} on-error {}
@@ -38,6 +40,7 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.119} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.12} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.120} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.121} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.122} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.123} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.124} on-error {}
@@ -59,6 +62,7 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.139} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.14} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.140} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.141} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.142} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.143} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.144} on-error {}
@@ -157,6 +161,7 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.230} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.231} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.233} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.234} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.235} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.236} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.237} on-error {}
@@ -194,6 +199,7 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.36} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.37} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.38} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.39} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.4} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.40} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.41} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.172} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.173} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.175} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.176} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.177} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.178} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.179} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.18} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.180} on-error {}

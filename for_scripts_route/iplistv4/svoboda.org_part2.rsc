@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=104.83.4.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.83.4.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
+:if ([:len [/ip/route/find dst-address=104.83.4.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.83.4.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
+:if ([:len [/ip/route/find dst-address=104.83.4.186 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.83.4.186 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
+:if ([:len [/ip/route/find dst-address=104.83.4.192 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.83.4.192 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
+:if ([:len [/ip/route/find dst-address=104.83.4.193 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.83.4.193 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
+:if ([:len [/ip/route/find dst-address=104.83.4.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.83.4.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
 :if ([:len [/ip/route/find dst-address=104.83.4.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.83.4.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
 :if ([:len [/ip/route/find dst-address=104.83.4.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.83.4.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
 :if ([:len [/ip/route/find dst-address=104.83.4.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.83.4.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=108.158.173.13 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.158.173.13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
 :if ([:len [/ip/route/find dst-address=108.158.173.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.158.173.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
 :if ([:len [/ip/route/find dst-address=108.158.173.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.158.173.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
-:if ([:len [/ip/route/find dst-address=108.158.251.46 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.158.251.46 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
-:if ([:len [/ip/route/find dst-address=108.158.251.74 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.158.251.74 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
-:if ([:len [/ip/route/find dst-address=108.158.251.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.158.251.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
-:if ([:len [/ip/route/find dst-address=108.158.251.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.158.251.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
-:if ([:len [/ip/route/find dst-address=108.158.61.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.158.61.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }
-:if ([:len [/ip/route/find dst-address=108.158.61.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.158.61.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=svoboda.org }

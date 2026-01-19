@@ -1,5 +1,26 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.122} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.123} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.124} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.14} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.15} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.2} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.21} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.28} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.29} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.30} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.32} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.33} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.36} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.45} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.46} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.6} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.60} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.61} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.65} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.66} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.9.95.7} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=65.9.95.70} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=65.9.95.72} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=65.9.95.75} on-error {}

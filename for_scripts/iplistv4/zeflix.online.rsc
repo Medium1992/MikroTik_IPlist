@@ -1,8 +1,16 @@
 :global AddressList
 /ip firewall address-list
 :do {add list=$AddressList comment=zeflix.online address=104.21.23.33} on-error {}
+:do {add list=$AddressList comment=zeflix.online address=104.21.3.237} on-error {}
+:do {add list=$AddressList comment=zeflix.online address=104.21.36.85} on-error {}
+:do {add list=$AddressList comment=zeflix.online address=104.21.8.251} on-error {}
+:do {add list=$AddressList comment=zeflix.online address=104.21.94.131} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=104.21.96.36} on-error {}
+:do {add list=$AddressList comment=zeflix.online address=172.67.131.85} on-error {}
+:do {add list=$AddressList comment=zeflix.online address=172.67.136.79} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=172.67.172.66} on-error {}
+:do {add list=$AddressList comment=zeflix.online address=172.67.188.219} on-error {}
+:do {add list=$AddressList comment=zeflix.online address=172.67.190.175} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=172.67.208.163} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=185.53.179.113} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=188.114.96.0} on-error {}
@@ -21,5 +29,6 @@
 :do {add list=$AddressList comment=zeflix.online address=188.114.97.7} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=188.114.97.8} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=188.114.97.9} on-error {}
+:do {add list=$AddressList comment=zeflix.online address=193.176.1.47} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=75.2.37.224} on-error {}
 :do {add list=$AddressList comment=zeflix.online address=99.83.151.79} on-error {}

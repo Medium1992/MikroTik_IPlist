@@ -1,7 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=pe address=200.192.105.0/24} on-error {}
-:do {add list=$AddressList comment=pe address=200.215.228.0/22} on-error {}
 :do {add list=$AddressList comment=pe address=200.215.248.0/22} on-error {}
 :do {add list=$AddressList comment=pe address=200.233.44.0/22} on-error {}
 :do {add list=$AddressList comment=pe address=200.24.150.248/29} on-error {}
@@ -166,8 +164,6 @@
 :do {add list=$AddressList comment=pe address=38.180.173.0/24} on-error {}
 :do {add list=$AddressList comment=pe address=38.180.174.0/24} on-error {}
 :do {add list=$AddressList comment=pe address=38.183.182.0/23} on-error {}
-:do {add list=$AddressList comment=pe address=38.183.185.0/24} on-error {}
-:do {add list=$AddressList comment=pe address=38.183.186.0/23} on-error {}
 :do {add list=$AddressList comment=pe address=38.187.0.0/19} on-error {}
 :do {add list=$AddressList comment=pe address=38.188.100.0/23} on-error {}
 :do {add list=$AddressList comment=pe address=38.19.100.0/24} on-error {}
@@ -292,6 +288,7 @@
 :do {add list=$AddressList comment=pe address=45.190.170.0/24} on-error {}
 :do {add list=$AddressList comment=pe address=45.191.196.0/22} on-error {}
 :do {add list=$AddressList comment=pe address=45.191.96.0/22} on-error {}
+:do {add list=$AddressList comment=pe address=45.194.7.0/24} on-error {}
 :do {add list=$AddressList comment=pe address=45.194.8.0/23} on-error {}
 :do {add list=$AddressList comment=pe address=45.200.120.0/23} on-error {}
 :do {add list=$AddressList comment=pe address=45.200.127.0/24} on-error {}
@@ -350,3 +347,6 @@
 :do {add list=$AddressList comment=pe address=45.94.160.0/24} on-error {}
 :do {add list=$AddressList comment=pe address=5.145.169.72/30} on-error {}
 :do {add list=$AddressList comment=pe address=5.62.56.181/32} on-error {}
+:do {add list=$AddressList comment=pe address=5.62.56.182/31} on-error {}
+:do {add list=$AddressList comment=pe address=52.46.13.0/25} on-error {}
+:do {add list=$AddressList comment=pe address=57.74.208.0/22} on-error {}

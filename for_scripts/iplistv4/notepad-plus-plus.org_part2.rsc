@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.146} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.15} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.175} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.190} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.193} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.194} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.196} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.169} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.17} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.170} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.171} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.172} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.173} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.175} on-error {}

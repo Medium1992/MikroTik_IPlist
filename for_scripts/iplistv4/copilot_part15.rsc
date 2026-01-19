@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=copilot address=95.101.11.146} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.11.147} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.11.152} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.11.153} on-error {}
@@ -272,6 +273,7 @@
 :do {add list=$AddressList comment=copilot address=95.101.27.102} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.27.103} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.27.104} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.105} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.27.106} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.27.108} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.27.109} on-error {}
@@ -281,7 +283,21 @@
 :do {add list=$AddressList comment=copilot address=95.101.27.116} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.27.69} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.27.70} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.81} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.27.82} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.85} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.86} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.87} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.88} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.89} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.90} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.91} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.93} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.94} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.95} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.96} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.97} on-error {}
+:do {add list=$AddressList comment=copilot address=95.101.27.98} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.34.105} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.34.97} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.35.114} on-error {}
@@ -334,19 +350,3 @@
 :do {add list=$AddressList comment=copilot address=95.101.38.147} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.38.152} on-error {}
 :do {add list=$AddressList comment=copilot address=95.101.38.156} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.158} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.161} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.163} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.167} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.168} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.169} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.172} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.173} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.175} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.177} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.179} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.180} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.182} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.183} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.185} on-error {}
-:do {add list=$AddressList comment=copilot address=95.101.38.186} on-error {}

@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=150.129.7.13} on-error {}
+:do {add list=$AddressList comment=youtube.com address=150.129.7.14} on-error {}
+:do {add list=$AddressList comment=youtube.com address=150.129.7.141} on-error {}
+:do {add list=$AddressList comment=youtube.com address=150.129.7.15} on-error {}
+:do {add list=$AddressList comment=youtube.com address=150.129.7.16} on-error {}
+:do {add list=$AddressList comment=youtube.com address=154.0.29.13} on-error {}
+:do {add list=$AddressList comment=youtube.com address=154.83.14.134} on-error {}
+:do {add list=$AddressList comment=youtube.com address=154.83.15.20} on-error {}
+:do {add list=$AddressList comment=youtube.com address=154.83.15.45} on-error {}
 :do {add list=$AddressList comment=youtube.com address=154.84.246.13} on-error {}
 :do {add list=$AddressList comment=youtube.com address=154.85.102.30} on-error {}
 :do {add list=$AddressList comment=youtube.com address=154.85.102.32} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=172.217.1.46} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.1.47} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.1.54} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.1.97} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.1.99} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.10.100} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.10.106} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.10.108} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.10.110} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.10.118} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.10.163} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.10.174} on-error {}

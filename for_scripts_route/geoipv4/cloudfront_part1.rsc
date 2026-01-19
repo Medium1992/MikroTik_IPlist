@@ -80,6 +80,7 @@
 :if ([:len [/ip/route/find dst-address=205.251.254.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=205.251.254.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }
 :if ([:len [/ip/route/find dst-address=216.137.32.0/19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.32.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }
 :if ([:len [/ip/route/find dst-address=23.228.220.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.228.220.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }
+:if ([:len [/ip/route/find dst-address=23.234.192.0/18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.234.192.0/18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }
 :if ([:len [/ip/route/find dst-address=23.91.0.0/19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.91.0.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }
 :if ([:len [/ip/route/find dst-address=24.110.32.0/19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=24.110.32.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }
 :if ([:len [/ip/route/find dst-address=3.10.17.128/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.10.17.128/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }
@@ -101,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.234.232.224/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.234.232.224/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }
 :if ([:len [/ip/route/find dst-address=3.236.169.192/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.236.169.192/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }
 :if ([:len [/ip/route/find dst-address=3.236.48.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.236.48.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }
-:if ([:len [/ip/route/find dst-address=3.29.40.128/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.29.40.128/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=cloudfront }

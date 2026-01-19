@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=discord.com address=18.161.34.61} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.161.34.89} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.164.68.117} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.164.68.16} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.164.68.71} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.164.68.73} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.165.122.3} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.165.122.71} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.165.122.81} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=discord.com address=52.84.106.105} on-error {}
 :do {add list=$AddressList comment=discord.com address=52.84.106.20} on-error {}
 :do {add list=$AddressList comment=discord.com address=52.84.106.34} on-error {}
-:do {add list=$AddressList comment=discord.com address=52.84.106.72} on-error {}
-:do {add list=$AddressList comment=discord.com address=52.84.66.27} on-error {}
-:do {add list=$AddressList comment=discord.com address=52.84.66.44} on-error {}
-:do {add list=$AddressList comment=discord.com address=52.84.66.75} on-error {}
-:do {add list=$AddressList comment=discord.com address=52.84.66.76} on-error {}
-:do {add list=$AddressList comment=discord.com address=52.85.213.109} on-error {}

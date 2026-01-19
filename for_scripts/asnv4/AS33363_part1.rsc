@@ -212,7 +212,14 @@
 :do {add list=$AddressList comment=AS33363 address=47.227.235.232/29} on-error {}
 :do {add list=$AddressList comment=AS33363 address=47.227.235.240/28} on-error {}
 :do {add list=$AddressList comment=AS33363 address=47.227.236.0/23} on-error {}
-:do {add list=$AddressList comment=AS33363 address=47.227.238.0/24} on-error {}
+:do {add list=$AddressList comment=AS33363 address=47.227.238.0/25} on-error {}
+:do {add list=$AddressList comment=AS33363 address=47.227.238.128/27} on-error {}
+:do {add list=$AddressList comment=AS33363 address=47.227.238.160/28} on-error {}
+:do {add list=$AddressList comment=AS33363 address=47.227.238.176/29} on-error {}
+:do {add list=$AddressList comment=AS33363 address=47.227.238.184/31} on-error {}
+:do {add list=$AddressList comment=AS33363 address=47.227.238.187/32} on-error {}
+:do {add list=$AddressList comment=AS33363 address=47.227.238.188/30} on-error {}
+:do {add list=$AddressList comment=AS33363 address=47.227.238.192/26} on-error {}
 :do {add list=$AddressList comment=AS33363 address=47.227.239.0/27} on-error {}
 :do {add list=$AddressList comment=AS33363 address=47.227.239.128/25} on-error {}
 :do {add list=$AddressList comment=AS33363 address=47.227.239.32/28} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=AS33363 address=67.9.239.0/24} on-error {}
 :do {add list=$AddressList comment=AS33363 address=67.9.240.0/20} on-error {}
 :do {add list=$AddressList comment=AS33363 address=67.9.32.0/20} on-error {}
-:do {add list=$AddressList comment=AS33363 address=67.9.56.0/21} on-error {}
-:do {add list=$AddressList comment=AS33363 address=67.9.64.0/18} on-error {}
-:do {add list=$AddressList comment=AS33363 address=68.200.0.0/16} on-error {}
-:do {add list=$AddressList comment=AS33363 address=68.202.0.0/16} on-error {}
-:do {add list=$AddressList comment=AS33363 address=68.204.0.0/15} on-error {}
-:do {add list=$AddressList comment=AS33363 address=68.207.128.0/17} on-error {}
-:do {add list=$AddressList comment=AS33363 address=68.207.80.0/20} on-error {}

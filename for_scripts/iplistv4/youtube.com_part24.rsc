@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=142.251.42.206} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.42.214} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.42.22} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.42.225} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.42.227} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.42.228} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.42.234} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.42.236} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.42.238} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.42.239} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.42.246} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.42.3} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=150.129.59.12} on-error {}
 :do {add list=$AddressList comment=youtube.com address=150.129.59.13} on-error {}
 :do {add list=$AddressList comment=youtube.com address=150.129.7.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=150.129.7.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=150.129.7.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=150.129.7.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=150.129.7.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=150.129.7.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=154.0.29.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=154.83.14.134} on-error {}
-:do {add list=$AddressList comment=youtube.com address=154.83.15.20} on-error {}
-:do {add list=$AddressList comment=youtube.com address=154.83.15.45} on-error {}

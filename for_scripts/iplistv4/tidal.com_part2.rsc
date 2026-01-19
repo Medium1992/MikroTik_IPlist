@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tidal.com address=13.225.35.99} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.226.155.100} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.226.155.103} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.226.155.104} on-error {}
@@ -41,6 +42,11 @@
 :do {add list=$AddressList comment=tidal.com address=13.227.173.111} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.227.173.33} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.227.173.84} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.227.192.31} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.227.192.37} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.227.192.38} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.227.192.53} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.227.208.243} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.227.211.249} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.227.219.102} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.227.219.107} on-error {}
@@ -84,9 +90,13 @@
 :do {add list=$AddressList comment=tidal.com address=13.32.145.63} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.32.145.91} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.32.216.253} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.32.220.124} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.32.220.23} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.32.220.29} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.32.220.33} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.32.220.35} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.32.220.72} on-error {}
+:do {add list=$AddressList comment=tidal.com address=13.32.220.87} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.32.220.9} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.32.99.101} on-error {}
 :do {add list=$AddressList comment=tidal.com address=13.32.99.28} on-error {}
@@ -286,6 +296,7 @@
 :do {add list=$AddressList comment=tidal.com address=172.29.210.226} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.210.233} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.210.240} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.210.244} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.210.39} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.210.48} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.210.49} on-error {}
@@ -339,14 +350,3 @@
 :do {add list=$AddressList comment=tidal.com address=172.29.217.184} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.217.197} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.217.237} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.217.29} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.217.31} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.217.37} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.217.67} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.217.71} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.217.82} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.217.84} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.217.93} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.218.105} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.218.107} on-error {}
-:do {add list=$AddressList comment=tidal.com address=172.29.218.131} on-error {}

@@ -13,7 +13,9 @@
 :do {add list=$AddressList comment=fastly address=157.5.120.0/24} on-error {}
 :do {add list=$AddressList comment=fastly address=157.5.122.0/23} on-error {}
 :do {add list=$AddressList comment=fastly address=157.5.124.0/24} on-error {}
-:do {add list=$AddressList comment=fastly address=157.5.64.0/21} on-error {}
+:do {add list=$AddressList comment=fastly address=157.5.64.0/22} on-error {}
+:do {add list=$AddressList comment=fastly address=157.5.69.0/24} on-error {}
+:do {add list=$AddressList comment=fastly address=157.5.70.0/23} on-error {}
 :do {add list=$AddressList comment=fastly address=157.5.72.0/23} on-error {}
 :do {add list=$AddressList comment=fastly address=157.5.74.0/24} on-error {}
 :do {add list=$AddressList comment=fastly address=157.5.76.0/24} on-error {}
@@ -42,5 +44,8 @@
 :do {add list=$AddressList comment=fastly address=23.185.0.0/24} on-error {}
 :do {add list=$AddressList comment=fastly address=23.235.32.0/20} on-error {}
 :do {add list=$AddressList comment=fastly address=43.249.72.0/22} on-error {}
+:do {add list=$AddressList comment=fastly address=63.245.216.0/22} on-error {}
+:do {add list=$AddressList comment=fastly address=63.245.220.0/23} on-error {}
+:do {add list=$AddressList comment=fastly address=63.245.222.0/24} on-error {}
 :do {add list=$AddressList comment=fastly address=66.211.168.0/24} on-error {}
 :do {add list=$AddressList comment=fastly address=66.43.1.0/24} on-error {}

@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=sa address=196.199.171.0/24} on-error {}
 :do {add list=$AddressList comment=sa address=196.3.66.0/24} on-error {}
 :do {add list=$AddressList comment=sa address=196.48.171.0/24} on-error {}
 :do {add list=$AddressList comment=sa address=196.56.171.0/24} on-error {}
@@ -40,6 +39,7 @@
 :do {add list=$AddressList comment=sa address=204.195.241.240/29} on-error {}
 :do {add list=$AddressList comment=sa address=204.195.241.248/31} on-error {}
 :do {add list=$AddressList comment=sa address=204.195.241.250/32} on-error {}
+:do {add list=$AddressList comment=sa address=204.3.188.0/24} on-error {}
 :do {add list=$AddressList comment=sa address=205.238.64.0/18} on-error {}
 :do {add list=$AddressList comment=sa address=207.127.96.0/21} on-error {}
 :do {add list=$AddressList comment=sa address=207.135.30.0/23} on-error {}
@@ -334,7 +334,9 @@
 :do {add list=$AddressList comment=sa address=57.188.19.0/24} on-error {}
 :do {add list=$AddressList comment=sa address=57.83.120.0/21} on-error {}
 :do {add list=$AddressList comment=sa address=57.88.208.0/20} on-error {}
-:do {add list=$AddressList comment=sa address=62.109.248.0/21} on-error {}
+:do {add list=$AddressList comment=sa address=62.109.250.0/23} on-error {}
+:do {add list=$AddressList comment=sa address=62.109.252.0/24} on-error {}
+:do {add list=$AddressList comment=sa address=62.109.254.0/23} on-error {}
 :do {add list=$AddressList comment=sa address=62.120.0.0/16} on-error {}
 :do {add list=$AddressList comment=sa address=62.149.64.0/18} on-error {}
 :do {add list=$AddressList comment=sa address=62.204.48.0/24} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=sa address=66.103.25.128/25} on-error {}
 :do {add list=$AddressList comment=sa address=66.118.128.0/18} on-error {}
 :do {add list=$AddressList comment=sa address=66.212.96.0/19} on-error {}
-:do {add list=$AddressList comment=sa address=66.33.114.0/23} on-error {}
-:do {add list=$AddressList comment=sa address=66.35.22.124/32} on-error {}

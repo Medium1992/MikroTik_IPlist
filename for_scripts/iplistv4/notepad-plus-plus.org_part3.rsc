@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.171} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.172} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.173} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.175} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.176} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.177} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.178} on-error {}
@@ -176,6 +180,7 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.42.242} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.42.248} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.42.249} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.42.251} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.42.30} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.42.67} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.50.0} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.50.95} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.50.96} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.50.97} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.50.99} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.0} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.1} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.10} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=77.37.53.100} on-error {}

@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jp address=23.47.146.0/23} on-error {}
+:do {add list=$AddressList comment=jp address=23.47.80.0/20} on-error {}
+:do {add list=$AddressList comment=jp address=23.48.112.0/21} on-error {}
+:do {add list=$AddressList comment=jp address=23.48.148.0/23} on-error {}
+:do {add list=$AddressList comment=jp address=23.48.161.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=23.48.166.0/23} on-error {}
+:do {add list=$AddressList comment=jp address=23.48.212.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=23.48.213.100/30} on-error {}
 :do {add list=$AddressList comment=jp address=23.48.213.108/30} on-error {}
 :do {add list=$AddressList comment=jp address=23.48.213.116/30} on-error {}
@@ -136,7 +143,6 @@
 :do {add list=$AddressList comment=jp address=23.65.183.219/32} on-error {}
 :do {add list=$AddressList comment=jp address=23.65.183.220/32} on-error {}
 :do {add list=$AddressList comment=jp address=23.67.72.0/22} on-error {}
-:do {add list=$AddressList comment=jp address=23.77.204.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=23.77.216.0/23} on-error {}
 :do {add list=$AddressList comment=jp address=23.81.40.0/21} on-error {}
 :do {add list=$AddressList comment=jp address=23.89.144.0/22} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=jp address=32.114.66.240/29} on-error {}
 :do {add list=$AddressList comment=jp address=32.114.66.58/32} on-error {}
 :do {add list=$AddressList comment=jp address=32.114.67.162/32} on-error {}
-:do {add list=$AddressList comment=jp address=32.114.67.166/32} on-error {}
-:do {add list=$AddressList comment=jp address=32.114.67.250/32} on-error {}
-:do {add list=$AddressList comment=jp address=32.114.67.94/32} on-error {}
-:do {add list=$AddressList comment=jp address=32.114.69.138/32} on-error {}
-:do {add list=$AddressList comment=jp address=32.114.69.198/32} on-error {}
-:do {add list=$AddressList comment=jp address=32.114.69.250/32} on-error {}

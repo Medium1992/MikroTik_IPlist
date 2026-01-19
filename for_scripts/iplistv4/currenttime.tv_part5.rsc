@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=currenttime.tv address=23.199.232.68} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=23.199.232.69} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=23.199.232.84} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=23.199.47.82} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=23.199.47.83} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=23.199.47.84} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=23.199.47.87} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=23.199.47.89} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.199.47.90} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.199.75.114} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.199.75.120} on-error {}
@@ -50,8 +58,10 @@
 :do {add list=$AddressList comment=currenttime.tv address=23.206.188.136} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.206.188.167} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.206.188.172} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=23.206.195.122} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.206.195.131} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.206.195.139} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=23.206.195.178} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.206.197.24} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.206.197.32} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.206.197.50} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=currenttime.tv address=23.55.38.50} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.55.38.58} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=23.55.38.7} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.55.48.133} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.55.48.156} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.59.88.202} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.59.88.209} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.59.88.232} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.59.88.236} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.59.88.36} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.59.88.42} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.59.88.49} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.60.96.43} on-error {}

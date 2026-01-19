@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=138.199.4.46 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.199.4.46 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=138.199.4.48 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.199.4.48 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=138.199.4.55 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.199.4.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=138.199.4.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.199.4.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=138.199.4.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.199.4.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=138.199.4.87 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.199.4.87 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.199.45.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.199.45.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.199.5.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.199.5.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.199.5.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.199.5.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=140.150.17.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=140.150.17.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=140.150.17.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=140.150.17.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=140.150.18.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=140.150.18.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=140.150.20.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=140.150.20.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=140.150.22.100 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=140.150.22.100 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=140.150.22.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=140.150.22.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=140.150.22.135 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=140.150.22.135 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=140.150.22.160 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=140.150.22.160 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=140.150.22.161 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=140.150.22.161 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }

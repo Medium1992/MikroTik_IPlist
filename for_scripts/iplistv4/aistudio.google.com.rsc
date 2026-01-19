@@ -28,6 +28,7 @@
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.140.74} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.141.42} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.142.106} on-error {}
+:do {add list=$AddressList comment=aistudio.google.com address=142.251.142.234} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.143.234} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.208.106} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.208.138} on-error {}
@@ -64,6 +65,7 @@
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.18.42} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.19.106} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.19.138} on-error {}
+:do {add list=$AddressList comment=aistudio.google.com address=172.217.19.234} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.19.42} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.20.10} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.20.74} on-error {}

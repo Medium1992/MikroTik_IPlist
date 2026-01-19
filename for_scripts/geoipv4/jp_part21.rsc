@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jp address=202.42.104.0/21} on-error {}
+:do {add list=$AddressList comment=jp address=202.42.112.0/20} on-error {}
+:do {add list=$AddressList comment=jp address=202.42.136.0/22} on-error {}
+:do {add list=$AddressList comment=jp address=202.42.140.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=202.42.148.0/24} on-error {}
+:do {add list=$AddressList comment=jp address=202.42.150.0/23} on-error {}
 :do {add list=$AddressList comment=jp address=202.42.153.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=202.42.156.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=202.42.160.0/24} on-error {}
@@ -317,7 +323,7 @@
 :do {add list=$AddressList comment=jp address=203.120.211.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=203.120.213.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=203.120.217.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=203.120.220.0/23} on-error {}
+:do {add list=$AddressList comment=jp address=203.120.220.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=203.120.224.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=203.120.235.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=203.120.237.0/24} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=jp address=203.120.6.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=203.120.60.0/23} on-error {}
 :do {add list=$AddressList comment=jp address=203.120.63.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=203.120.64.0/22} on-error {}
-:do {add list=$AddressList comment=jp address=203.120.68.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=203.120.70.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=203.120.72.0/22} on-error {}
-:do {add list=$AddressList comment=jp address=203.120.76.0/24} on-error {}
-:do {add list=$AddressList comment=jp address=203.120.78.0/23} on-error {}

@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=facebook.com address=202.160.128.195} on-error {}
+:do {add list=$AddressList comment=facebook.com address=202.160.128.203} on-error {}
+:do {add list=$AddressList comment=facebook.com address=202.160.128.205} on-error {}
+:do {add list=$AddressList comment=facebook.com address=202.160.128.210} on-error {}
+:do {add list=$AddressList comment=facebook.com address=202.160.128.238} on-error {}
+:do {add list=$AddressList comment=facebook.com address=202.160.128.40} on-error {}
+:do {add list=$AddressList comment=facebook.com address=202.160.128.96} on-error {}
+:do {add list=$AddressList comment=facebook.com address=202.160.129.164} on-error {}
+:do {add list=$AddressList comment=facebook.com address=202.160.129.36} on-error {}
+:do {add list=$AddressList comment=facebook.com address=202.160.129.37} on-error {}
 :do {add list=$AddressList comment=facebook.com address=202.160.129.6} on-error {}
 :do {add list=$AddressList comment=facebook.com address=202.160.130.117} on-error {}
 :do {add list=$AddressList comment=facebook.com address=202.160.130.118} on-error {}
@@ -123,16 +133,19 @@
 :do {add list=$AddressList comment=facebook.com address=23.55.104.193} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.110.62} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.110.78} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.132} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.134} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.136} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.137} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.138} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.141} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.142} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.149} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.150} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.151} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.152} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.153} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.156} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.160} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.165} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.167} on-error {}
@@ -337,16 +350,3 @@
 :do {add list=$AddressList comment=facebook.com address=4.78.139.50} on-error {}
 :do {add list=$AddressList comment=facebook.com address=4.78.139.54} on-error {}
 :do {add list=$AddressList comment=facebook.com address=43.226.16.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=45.114.11.238} on-error {}
-:do {add list=$AddressList comment=facebook.com address=45.114.11.25} on-error {}
-:do {add list=$AddressList comment=facebook.com address=45.77.186.255} on-error {}
-:do {add list=$AddressList comment=facebook.com address=47.88.58.234} on-error {}
-:do {add list=$AddressList comment=facebook.com address=5.178.43.104} on-error {}
-:do {add list=$AddressList comment=facebook.com address=5.178.43.90} on-error {}
-:do {add list=$AddressList comment=facebook.com address=50.117.117.42} on-error {}
-:do {add list=$AddressList comment=facebook.com address=50.23.209.199} on-error {}
-:do {add list=$AddressList comment=facebook.com address=50.87.93.246} on-error {}
-:do {add list=$AddressList comment=facebook.com address=52.175.9.80} on-error {}
-:do {add list=$AddressList comment=facebook.com address=52.58.1.161} on-error {}
-:do {add list=$AddressList comment=facebook.com address=54.234.18.200} on-error {}
-:do {add list=$AddressList comment=facebook.com address=54.89.135.129} on-error {}

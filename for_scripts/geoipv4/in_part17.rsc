@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=in address=104.28.67.48/30} on-error {}
+:do {add list=$AddressList comment=in address=104.28.67.52/32} on-error {}
+:do {add list=$AddressList comment=in address=104.28.67.8/31} on-error {}
+:do {add list=$AddressList comment=in address=104.28.69.137/32} on-error {}
 :do {add list=$AddressList comment=in address=104.28.69.138/31} on-error {}
 :do {add list=$AddressList comment=in address=104.28.69.140/30} on-error {}
 :do {add list=$AddressList comment=in address=104.28.69.144/28} on-error {}
@@ -139,6 +143,9 @@
 :do {add list=$AddressList comment=in address=104.30.168.63/32} on-error {}
 :do {add list=$AddressList comment=in address=104.30.168.64/32} on-error {}
 :do {add list=$AddressList comment=in address=104.30.168.95/32} on-error {}
+:do {add list=$AddressList comment=in address=104.30.169.29/32} on-error {}
+:do {add list=$AddressList comment=in address=104.30.169.30/32} on-error {}
+:do {add list=$AddressList comment=in address=104.30.169.44/31} on-error {}
 :do {add list=$AddressList comment=in address=104.30.176.1/32} on-error {}
 :do {add list=$AddressList comment=in address=104.30.176.106/31} on-error {}
 :do {add list=$AddressList comment=in address=104.30.176.195/32} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=in address=114.69.248.0/23} on-error {}
 :do {add list=$AddressList comment=in address=114.69.252.0/22} on-error {}
 :do {add list=$AddressList comment=in address=114.79.128.0/17} on-error {}
-:do {add list=$AddressList comment=in address=115.108.0.0/19} on-error {}
-:do {add list=$AddressList comment=in address=115.108.128.0/17} on-error {}
-:do {add list=$AddressList comment=in address=115.108.32.0/20} on-error {}
-:do {add list=$AddressList comment=in address=115.108.48.0/22} on-error {}
-:do {add list=$AddressList comment=in address=115.108.52.128/25} on-error {}
-:do {add list=$AddressList comment=in address=115.108.52.32/27} on-error {}
-:do {add list=$AddressList comment=in address=115.108.52.64/26} on-error {}

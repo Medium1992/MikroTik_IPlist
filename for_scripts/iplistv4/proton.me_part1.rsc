@@ -48,6 +48,10 @@
 :do {add list=$AddressList comment=proton.me address=13.227.146.35} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.227.146.53} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.227.146.7} on-error {}
+:do {add list=$AddressList comment=proton.me address=13.227.192.102} on-error {}
+:do {add list=$AddressList comment=proton.me address=13.227.192.108} on-error {}
+:do {add list=$AddressList comment=proton.me address=13.227.192.30} on-error {}
+:do {add list=$AddressList comment=proton.me address=13.227.192.68} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.32.110.107} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.32.110.110} on-error {}
 :do {add list=$AddressList comment=proton.me address=13.32.110.30} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=proton.me address=54.240.174.45} on-error {}
 :do {add list=$AddressList comment=proton.me address=54.240.174.80} on-error {}
 :do {add list=$AddressList comment=proton.me address=65.8.131.34} on-error {}
-:do {add list=$AddressList comment=proton.me address=65.8.131.51} on-error {}
-:do {add list=$AddressList comment=proton.me address=65.8.131.63} on-error {}
-:do {add list=$AddressList comment=proton.me address=65.8.131.66} on-error {}
-:do {add list=$AddressList comment=proton.me address=65.8.19.100} on-error {}

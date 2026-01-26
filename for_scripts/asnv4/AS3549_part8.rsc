@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS3549 address=64.209.0.0/21} on-error {}
-:do {add list=$AddressList comment=AS3549 address=64.209.10.0/23} on-error {}
-:do {add list=$AddressList comment=AS3549 address=64.209.12.0/22} on-error {}
-:do {add list=$AddressList comment=AS3549 address=64.209.16.0/21} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.209.24.0/22} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.209.28.0/23} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.209.32.0/21} on-error {}
@@ -61,6 +57,10 @@
 :do {add list=$AddressList comment=AS3549 address=64.211.95.0/24} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.211.96.0/20} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.212.0.0/19} on-error {}
+:do {add list=$AddressList comment=AS3549 address=64.212.112.0/22} on-error {}
+:do {add list=$AddressList comment=AS3549 address=64.212.117.0/24} on-error {}
+:do {add list=$AddressList comment=AS3549 address=64.212.118.0/23} on-error {}
+:do {add list=$AddressList comment=AS3549 address=64.212.120.0/21} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.212.128.0/18} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.212.192.0/20} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.212.209.0/24} on-error {}
@@ -75,7 +75,7 @@
 :do {add list=$AddressList comment=AS3549 address=64.212.62.0/24} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.212.64.0/21} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.212.80.0/20} on-error {}
-:do {add list=$AddressList comment=AS3549 address=64.212.96.0/19} on-error {}
+:do {add list=$AddressList comment=AS3549 address=64.212.96.0/20} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.213.0.0/19} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.213.128.0/23} on-error {}
 :do {add list=$AddressList comment=AS3549 address=64.213.131.0/24} on-error {}

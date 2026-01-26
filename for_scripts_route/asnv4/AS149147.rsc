@@ -4,10 +4,8 @@
 /ip route
 :if ([:len [/ip/route/find dst-address=103.166.176.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.166.176.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS149147 }
 :if ([:len [/ip/route/find dst-address=103.168.36.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.168.36.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS149147 }
-:if ([:len [/ip/route/find dst-address=103.213.12.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.213.12.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS149147 }
 :if ([:len [/ip/route/find dst-address=103.213.216.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.213.216.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS149147 }
 :if ([:len [/ip/route/find dst-address=103.213.8.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.213.8.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS149147 }
-:if ([:len [/ip/route/find dst-address=103.248.230.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.248.230.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS149147 }
 :if ([:len [/ip/route/find dst-address=103.37.60.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.37.60.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS149147 }
 :if ([:len [/ip/route/find dst-address=113.192.18.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=113.192.18.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS149147 }
 :if ([:len [/ip/route/find dst-address=160.191.250.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=160.191.250.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS149147 }

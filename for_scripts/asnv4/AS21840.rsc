@@ -5,7 +5,6 @@
 :do {add list=$AddressList comment=AS21840 address=141.11.175.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=143.20.115.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=143.20.93.0/24} on-error {}
-:do {add list=$AddressList comment=AS21840 address=148.135.203.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=150.241.198.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=151.240.76.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=151.243.31.0/24} on-error {}
@@ -17,12 +16,12 @@
 :do {add list=$AddressList comment=AS21840 address=185.218.142.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=188.255.236.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=198.102.11.0/24} on-error {}
-:do {add list=$AddressList comment=AS21840 address=212.135.242.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=212.2.237.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=31.57.229.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=31.58.101.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=45.91.138.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=64.113.17.0/24} on-error {}
+:do {add list=$AddressList comment=AS21840 address=64.81.168.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=65.87.6.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=69.166.234.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=75.127.68.0/24} on-error {}
@@ -36,4 +35,5 @@
 :do {add list=$AddressList comment=AS21840 address=88.209.195.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=92.112.37.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=92.62.252.0/24} on-error {}
+:do {add list=$AddressList comment=AS21840 address=95.135.109.0/24} on-error {}
 :do {add list=$AddressList comment=AS21840 address=96.62.247.0/24} on-error {}

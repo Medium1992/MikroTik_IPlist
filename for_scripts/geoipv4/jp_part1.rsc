@@ -159,7 +159,7 @@
 :do {add list=$AddressList comment=jp address=103.122.176.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=103.122.178.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=103.122.52.160/29} on-error {}
-:do {add list=$AddressList comment=jp address=103.123.136.0/22} on-error {}
+:do {add list=$AddressList comment=jp address=103.123.138.0/24} on-error {}
 :do {add list=$AddressList comment=jp address=103.123.180.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=103.124.0.0/22} on-error {}
 :do {add list=$AddressList comment=jp address=103.124.127.254/32} on-error {}

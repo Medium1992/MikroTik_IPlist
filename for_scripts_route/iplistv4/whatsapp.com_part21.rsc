@@ -2,6 +2,19 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=57.144.215.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.215.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.217.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.217.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.218.155 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.218.155 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.219.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.219.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.219.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.219.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.22.155 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.22.155 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.221.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.221.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.222.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.222.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.222.141 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.222.141 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.223.149 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.223.149 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.223.150 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.223.150 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.223.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.223.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
+:if ([:len [/ip/route/find dst-address=57.144.223.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.223.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
 :if ([:len [/ip/route/find dst-address=57.144.225.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.225.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
 :if ([:len [/ip/route/find dst-address=57.144.229.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.229.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
 :if ([:len [/ip/route/find dst-address=57.144.23.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.23.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
@@ -89,16 +102,3 @@
 :if ([:len [/ip/route/find dst-address=70.186.26.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=70.186.26.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
 :if ([:len [/ip/route/find dst-address=72.136.192.161 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=72.136.192.161 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
 :if ([:len [/ip/route/find dst-address=72.136.192.225 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=72.136.192.225 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=72.136.192.96 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=72.136.192.96 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=72.195.166.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=72.195.166.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=74.118.82.98 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.118.82.98 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=74.50.212.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.50.212.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=77.136.191.34 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.136.191.34 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=77.226.195.162 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.226.195.162 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=77.226.195.34 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.226.195.34 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=77.226.195.98 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.226.195.98 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=77.226.71.162 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.226.71.162 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=77.226.71.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.226.71.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=77.226.93.226 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.226.93.226 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=77.237.0.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.237.0.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }
-:if ([:len [/ip/route/find dst-address=77.243.18.161 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.243.18.161 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whatsapp.com }

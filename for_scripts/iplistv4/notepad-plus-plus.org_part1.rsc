@@ -346,7 +346,7 @@
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.105} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.127} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.16} on-error {}
+:do {add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.165} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.190} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.60} on-error {}
 :do {add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.82} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.121} on-error {}

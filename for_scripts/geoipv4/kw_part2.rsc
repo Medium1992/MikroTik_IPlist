@@ -141,3 +141,4 @@
 :do {add list=$AddressList comment=kw address=94.187.192.0/18} on-error {}
 :do {add list=$AddressList comment=kw address=94.29.128.0/17} on-error {}
 :do {add list=$AddressList comment=kw address=95.66.0.0/17} on-error {}
+:do {add list=$AddressList comment=kw address=96.62.136.0/24} on-error {}

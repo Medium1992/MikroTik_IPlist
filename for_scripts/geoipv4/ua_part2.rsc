@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ua address=137.83.243.0/27} on-error {}
 :do {add list=$AddressList comment=ua address=138.226.244.0/23} on-error {}
 :do {add list=$AddressList comment=ua address=138.226.248.0/23} on-error {}
 :do {add list=$AddressList comment=ua address=138.249.100.0/23} on-error {}
@@ -33,9 +34,7 @@
 :do {add list=$AddressList comment=ua address=140.248.62.229/32} on-error {}
 :do {add list=$AddressList comment=ua address=140.248.63.229/32} on-error {}
 :do {add list=$AddressList comment=ua address=141.101.0.0/19} on-error {}
-:do {add list=$AddressList comment=ua address=141.105.128.0/23} on-error {}
-:do {add list=$AddressList comment=ua address=141.105.130.0/24} on-error {}
-:do {add list=$AddressList comment=ua address=141.105.132.0/22} on-error {}
+:do {add list=$AddressList comment=ua address=141.105.128.0/21} on-error {}
 :do {add list=$AddressList comment=ua address=141.105.136.0/22} on-error {}
 :do {add list=$AddressList comment=ua address=141.11.252.0/24} on-error {}
 :do {add list=$AddressList comment=ua address=141.138.96.0/19} on-error {}
@@ -211,7 +210,6 @@
 :do {add list=$AddressList comment=ua address=151.249.96.0/21} on-error {}
 :do {add list=$AddressList comment=ua address=152.53.40.0/24} on-error {}
 :do {add list=$AddressList comment=ua address=152.89.192.0/24} on-error {}
-:do {add list=$AddressList comment=ua address=152.89.195.0/24} on-error {}
 :do {add list=$AddressList comment=ua address=152.89.20.0/22} on-error {}
 :do {add list=$AddressList comment=ua address=152.89.60.0/22} on-error {}
 :do {add list=$AddressList comment=ua address=154.14.116.96/29} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=ua address=166.1.47.0/24} on-error {}
 :do {add list=$AddressList comment=ua address=166.1.85.0/24} on-error {}
 :do {add list=$AddressList comment=ua address=166.1.88.0/24} on-error {}
+:do {add list=$AddressList comment=ua address=167.17.186.0/24} on-error {}
+:do {add list=$AddressList comment=ua address=169.155.242.0/24} on-error {}

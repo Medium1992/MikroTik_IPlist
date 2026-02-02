@@ -2,6 +2,7 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=172.69.106.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.69.106.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
 :if ([:len [/ip/route/find dst-address=172.69.210.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.69.210.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
 :if ([:len [/ip/route/find dst-address=172.69.245.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.69.245.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
 :if ([:len [/ip/route/find dst-address=172.69.53.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.69.53.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
@@ -56,7 +57,8 @@
 :if ([:len [/ip/route/find dst-address=185.147.100.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.147.100.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
 :if ([:len [/ip/route/find dst-address=185.155.156.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.155.156.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
 :if ([:len [/ip/route/find dst-address=185.157.180.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.157.180.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
-:if ([:len [/ip/route/find dst-address=185.158.20.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.158.20.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
+:if ([:len [/ip/route/find dst-address=185.158.21.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.158.21.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
+:if ([:len [/ip/route/find dst-address=185.158.22.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.158.22.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
 :if ([:len [/ip/route/find dst-address=185.16.25.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.16.25.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
 :if ([:len [/ip/route/find dst-address=185.16.26.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.16.26.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
 :if ([:len [/ip/route/find dst-address=185.164.216.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.164.216.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=185.24.60.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.24.60.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
 :if ([:len [/ip/route/find dst-address=185.240.16.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.240.16.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
 :if ([:len [/ip/route/find dst-address=185.243.128.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.243.128.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
-:if ([:len [/ip/route/find dst-address=185.244.152.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.244.152.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }
-:if ([:len [/ip/route/find dst-address=185.244.176.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.244.176.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=iq }

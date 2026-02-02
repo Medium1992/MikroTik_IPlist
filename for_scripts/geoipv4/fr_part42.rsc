@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fr address=213.187.224.0/23} on-error {}
+:do {add list=$AddressList comment=fr address=213.187.235.0/24} on-error {}
+:do {add list=$AddressList comment=fr address=213.19.128.0/21} on-error {}
+:do {add list=$AddressList comment=fr address=213.19.136.0/22} on-error {}
 :do {add list=$AddressList comment=fr address=213.19.140.0/24} on-error {}
 :do {add list=$AddressList comment=fr address=213.19.142.0/23} on-error {}
 :do {add list=$AddressList comment=fr address=213.19.144.0/25} on-error {}
@@ -210,6 +214,9 @@
 :do {add list=$AddressList comment=fr address=213.232.226.0/24} on-error {}
 :do {add list=$AddressList comment=fr address=213.232.80.0/22} on-error {}
 :do {add list=$AddressList comment=fr address=213.232.85.0/24} on-error {}
+:do {add list=$AddressList comment=fr address=213.235.10.112/29} on-error {}
+:do {add list=$AddressList comment=fr address=213.235.10.192/29} on-error {}
+:do {add list=$AddressList comment=fr address=213.235.9.128/28} on-error {}
 :do {add list=$AddressList comment=fr address=213.235.9.80/29} on-error {}
 :do {add list=$AddressList comment=fr address=213.242.119.92/32} on-error {}
 :do {add list=$AddressList comment=fr address=213.244.0.0/19} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=fr address=213.39.32.64/26} on-error {}
 :do {add list=$AddressList comment=fr address=213.39.32.8/29} on-error {}
 :do {add list=$AddressList comment=fr address=213.39.33.0/28} on-error {}
-:do {add list=$AddressList comment=fr address=213.39.33.128/25} on-error {}
-:do {add list=$AddressList comment=fr address=213.39.33.24/29} on-error {}
-:do {add list=$AddressList comment=fr address=213.39.33.32/27} on-error {}
-:do {add list=$AddressList comment=fr address=213.39.33.64/26} on-error {}
-:do {add list=$AddressList comment=fr address=213.39.34.0/23} on-error {}
-:do {add list=$AddressList comment=fr address=213.39.36.0/22} on-error {}
-:do {add list=$AddressList comment=fr address=213.39.4.0/24} on-error {}

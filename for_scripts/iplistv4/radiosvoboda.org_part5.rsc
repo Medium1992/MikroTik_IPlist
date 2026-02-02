@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=radiosvoboda.org address=23.50.131.146} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.50.131.148} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.50.131.149} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.50.131.153} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.50.131.157} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.50.131.159} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.50.183.142} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.50.59.163} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.52.22.226} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.52.58.13} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.52.60.60} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.52.79.155} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.52.79.196} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.53.1.198} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.53.1.210} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.53.1.42} on-error {}
@@ -263,6 +276,10 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=52.84.127.119} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=52.84.127.12} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=52.84.127.43} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=52.84.20.103} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=52.84.20.110} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=52.84.20.61} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=52.84.20.79} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=52.84.90.10} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=52.84.90.108} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=52.84.90.40} on-error {}
@@ -333,20 +350,3 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=63.140.36.26} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=63.140.36.51} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=63.140.36.67} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.36.86} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.103} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.126} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.142} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.145} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.151} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.158} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.206} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.238} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.244} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.246} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.37.33} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.62.120} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.62.139} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.62.17} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.62.172} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=63.140.62.200} on-error {}

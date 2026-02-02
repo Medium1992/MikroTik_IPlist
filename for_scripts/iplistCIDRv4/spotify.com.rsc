@@ -10,6 +10,7 @@
 :do {add list=$AddressList comment=spotify.com address=184.24.0.0/13} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.50.0.0/15} on-error {}
 :do {add list=$AddressList comment=spotify.com address=184.84.0.0/14} on-error {}
+:do {add list=$AddressList comment=spotify.com address=185.200.124.0/22} on-error {}
 :do {add list=$AddressList comment=spotify.com address=193.14.90.0/24} on-error {}
 :do {add list=$AddressList comment=spotify.com address=199.232.0.0/16} on-error {}
 :do {add list=$AddressList comment=spotify.com address=2.16.0.0/13} on-error {}

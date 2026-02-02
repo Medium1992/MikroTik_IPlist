@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=uz address=213.156.252.10/32} on-error {}
 :do {add list=$AddressList comment=uz address=213.206.32.0/19} on-error {}
 :do {add list=$AddressList comment=uz address=213.230.64.0/18} on-error {}
 :do {add list=$AddressList comment=uz address=213.232.225.0/24} on-error {}
@@ -69,6 +70,7 @@
 :do {add list=$AddressList comment=uz address=62.233.48.0/24} on-error {}
 :do {add list=$AddressList comment=uz address=63.246.33.128/26} on-error {}
 :do {add list=$AddressList comment=uz address=72.14.201.104/32} on-error {}
+:do {add list=$AddressList comment=uz address=77.83.206.0/24} on-error {}
 :do {add list=$AddressList comment=uz address=77.83.56.0/23} on-error {}
 :do {add list=$AddressList comment=uz address=79.135.105.204/30} on-error {}
 :do {add list=$AddressList comment=uz address=80.80.208.0/20} on-error {}
@@ -114,6 +116,7 @@
 :do {add list=$AddressList comment=uz address=91.213.31.0/24} on-error {}
 :do {add list=$AddressList comment=uz address=91.213.99.0/24} on-error {}
 :do {add list=$AddressList comment=uz address=91.216.37.0/24} on-error {}
+:do {add list=$AddressList comment=uz address=91.224.23.0/24} on-error {}
 :do {add list=$AddressList comment=uz address=91.227.14.0/23} on-error {}
 :do {add list=$AddressList comment=uz address=91.229.160.0/22} on-error {}
 :do {add list=$AddressList comment=uz address=91.229.164.0/23} on-error {}
@@ -152,7 +155,7 @@
 :do {add list=$AddressList comment=uz address=93.170.88.0/24} on-error {}
 :do {add list=$AddressList comment=uz address=93.171.210.0/23} on-error {}
 :do {add list=$AddressList comment=uz address=93.171.226.0/24} on-error {}
-:do {add list=$AddressList comment=uz address=93.171.232.0/22} on-error {}
+:do {add list=$AddressList comment=uz address=93.171.235.153/32} on-error {}
 :do {add list=$AddressList comment=uz address=93.171.238.0/24} on-error {}
 :do {add list=$AddressList comment=uz address=93.174.164.0/24} on-error {}
 :do {add list=$AddressList comment=uz address=93.188.80.0/21} on-error {}

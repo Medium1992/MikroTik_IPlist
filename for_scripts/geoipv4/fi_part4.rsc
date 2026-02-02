@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fi address=185.247.140.0/23} on-error {}
+:do {add list=$AddressList comment=fi address=185.248.34.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=185.249.253.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=185.249.48.0/22} on-error {}
+:do {add list=$AddressList comment=fi address=185.25.1.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=185.25.200.0/22} on-error {}
+:do {add list=$AddressList comment=fi address=185.25.76.0/22} on-error {}
+:do {add list=$AddressList comment=fi address=185.25.94.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=185.250.132.0/22} on-error {}
+:do {add list=$AddressList comment=fi address=185.251.112.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=185.251.48.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=185.252.116.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=185.252.144.0/24} on-error {}
@@ -96,6 +106,7 @@
 :do {add list=$AddressList comment=fi address=185.85.96.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=185.87.108.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=185.87.244.0/22} on-error {}
+:do {add list=$AddressList comment=fi address=185.88.101.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=185.88.36.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=185.89.52.0/22} on-error {}
 :do {add list=$AddressList comment=fi address=185.9.26.0/24} on-error {}
@@ -339,14 +350,3 @@
 :do {add list=$AddressList comment=fi address=193.143.225.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=193.143.228.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=193.143.230.0/24} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.232.0/21} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.253.0/24} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.254.0/24} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.32.0/19} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.4.0/23} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.70.0/23} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.79.0/24} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.80.0/21} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.88.0/23} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.91.0/24} on-error {}
-:do {add list=$AddressList comment=fi address=193.143.93.0/24} on-error {}

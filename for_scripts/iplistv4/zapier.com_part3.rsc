@@ -267,14 +267,18 @@
 :do {add list=$AddressList comment=zapier.com address=18.66.195.30} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.195.38} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.195.93} on-error {}
+:do {add list=$AddressList comment=zapier.com address=18.66.218.112} on-error {}
+:do {add list=$AddressList comment=zapier.com address=18.66.218.114} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.218.12} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.218.123} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.218.127} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.218.19} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.218.43} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.218.45} on-error {}
+:do {add list=$AddressList comment=zapier.com address=18.66.218.72} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.218.8} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.218.87} on-error {}
+:do {add list=$AddressList comment=zapier.com address=18.66.218.97} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.233.49} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.233.50} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.233.58} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=zapier.com address=3.160.150.119} on-error {}
 :do {add list=$AddressList comment=zapier.com address=3.160.150.126} on-error {}
 :do {add list=$AddressList comment=zapier.com address=3.160.150.27} on-error {}
-:do {add list=$AddressList comment=zapier.com address=3.160.150.46} on-error {}
-:do {add list=$AddressList comment=zapier.com address=3.160.150.55} on-error {}
-:do {add list=$AddressList comment=zapier.com address=3.160.150.66} on-error {}
-:do {add list=$AddressList comment=zapier.com address=3.160.150.67} on-error {}

@@ -8,6 +8,8 @@
 :do {add list=$AddressList comment=messenger.com address=157.240.195.56} on-error {}
 :do {add list=$AddressList comment=messenger.com address=157.240.196.17} on-error {}
 :do {add list=$AddressList comment=messenger.com address=157.240.196.60} on-error {}
+:do {add list=$AddressList comment=messenger.com address=157.240.200.16} on-error {}
+:do {add list=$AddressList comment=messenger.com address=157.240.200.60} on-error {}
 :do {add list=$AddressList comment=messenger.com address=157.240.201.17} on-error {}
 :do {add list=$AddressList comment=messenger.com address=157.240.201.60} on-error {}
 :do {add list=$AddressList comment=messenger.com address=157.240.202.14} on-error {}

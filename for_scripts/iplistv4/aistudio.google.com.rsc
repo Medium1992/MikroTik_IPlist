@@ -50,6 +50,7 @@
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.39.10} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.39.42} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=142.251.39.74} on-error {}
+:do {add list=$AddressList comment=aistudio.google.com address=172.217.16.138} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.16.170} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.168.42} on-error {}
 :do {add list=$AddressList comment=aistudio.google.com address=172.217.168.74} on-error {}

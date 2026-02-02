@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=104.126.36.89} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.126.36.9} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.126.36.90} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.126.36.91} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.126.36.96} on-error {}
@@ -95,6 +97,10 @@
 :do {add list=$AddressList comment=tiktok.com address=104.166.182.191} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.166.182.192} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.166.182.193} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.166.182.194} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.166.182.195} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.166.182.196} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.166.182.197} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.166.182.20} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.166.182.205} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.166.182.206} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=104.76.220.131} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.76.220.136} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.76.220.137} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.76.220.138} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.76.220.139} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.76.220.144} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.76.220.145} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.76.220.146} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.76.220.147} on-error {}

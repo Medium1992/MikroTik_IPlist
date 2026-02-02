@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.230} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.231} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.232} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.233} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.234} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.235} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.236} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.237} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.24} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.150.25} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.150.26} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.150.33} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=139.45.207.19} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=139.45.207.24} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=139.45.207.25} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.45.207.27} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.45.207.32} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.45.207.34} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.45.207.41} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.45.207.48} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.45.207.50} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.45.207.65} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.45.207.67} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.45.207.74} on-error {}

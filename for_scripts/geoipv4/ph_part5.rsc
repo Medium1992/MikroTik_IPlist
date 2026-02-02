@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ph address=202.147.27.112/28} on-error {}
+:do {add list=$AddressList comment=ph address=202.147.27.128/25} on-error {}
+:do {add list=$AddressList comment=ph address=202.147.27.64/27} on-error {}
+:do {add list=$AddressList comment=ph address=202.147.29.0/24} on-error {}
+:do {add list=$AddressList comment=ph address=202.147.30.0/24} on-error {}
+:do {add list=$AddressList comment=ph address=202.151.35.0/24} on-error {}
 :do {add list=$AddressList comment=ph address=202.155.20.0/22} on-error {}
 :do {add list=$AddressList comment=ph address=202.155.28.0/22} on-error {}
 :do {add list=$AddressList comment=ph address=202.162.160.0/20} on-error {}
@@ -153,6 +159,7 @@
 :do {add list=$AddressList comment=ph address=206.201.0.0/20} on-error {}
 :do {add list=$AddressList comment=ph address=206.237.106.0/23} on-error {}
 :do {add list=$AddressList comment=ph address=206.62.40.0/22} on-error {}
+:do {add list=$AddressList comment=ph address=206.72.210.0/23} on-error {}
 :do {add list=$AddressList comment=ph address=207.176.48.192/27} on-error {}
 :do {add list=$AddressList comment=ph address=208.127.168.192/27} on-error {}
 :do {add list=$AddressList comment=ph address=208.127.220.129/32} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=ph address=43.243.124.0/22} on-error {}
 :do {add list=$AddressList comment=ph address=43.245.221.0/32} on-error {}
 :do {add list=$AddressList comment=ph address=43.247.16.0/22} on-error {}
-:do {add list=$AddressList comment=ph address=43.250.224.0/22} on-error {}
-:do {add list=$AddressList comment=ph address=43.251.64.0/24} on-error {}
-:do {add list=$AddressList comment=ph address=43.251.65.0/25} on-error {}
-:do {add list=$AddressList comment=ph address=43.251.65.128/26} on-error {}
-:do {add list=$AddressList comment=ph address=43.251.65.192/27} on-error {}
-:do {add list=$AddressList comment=ph address=43.251.65.224/28} on-error {}
-:do {add list=$AddressList comment=ph address=43.251.65.240/29} on-error {}

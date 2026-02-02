@@ -15,7 +15,6 @@
 :do {add list=$AddressList comment=kh address=188.215.235.0/24} on-error {}
 :do {add list=$AddressList comment=kh address=191.96.158.0/24} on-error {}
 :do {add list=$AddressList comment=kh address=192.109.41.32/29} on-error {}
-:do {add list=$AddressList comment=kh address=193.31.60.0/24} on-error {}
 :do {add list=$AddressList comment=kh address=194.50.99.118/32} on-error {}
 :do {add list=$AddressList comment=kh address=195.80.149.0/24} on-error {}
 :do {add list=$AddressList comment=kh address=196.197.60.0/24} on-error {}
@@ -92,7 +91,11 @@
 :do {add list=$AddressList comment=kh address=208.127.115.191/32} on-error {}
 :do {add list=$AddressList comment=kh address=208.127.115.192/32} on-error {}
 :do {add list=$AddressList comment=kh address=208.127.115.255/32} on-error {}
-:do {add list=$AddressList comment=kh address=208.127.115.32/28} on-error {}
+:do {add list=$AddressList comment=kh address=208.127.115.33/32} on-error {}
+:do {add list=$AddressList comment=kh address=208.127.115.34/31} on-error {}
+:do {add list=$AddressList comment=kh address=208.127.115.36/31} on-error {}
+:do {add list=$AddressList comment=kh address=208.127.115.38/32} on-error {}
+:do {add list=$AddressList comment=kh address=208.127.115.40/29} on-error {}
 :do {add list=$AddressList comment=kh address=208.127.115.63/32} on-error {}
 :do {add list=$AddressList comment=kh address=208.127.115.64/27} on-error {}
 :do {add list=$AddressList comment=kh address=208.127.115.96/29} on-error {}
@@ -121,6 +124,7 @@
 :do {add list=$AddressList comment=kh address=208.127.223.62/32} on-error {}
 :do {add list=$AddressList comment=kh address=208.127.223.8/29} on-error {}
 :do {add list=$AddressList comment=kh address=209.146.60.0/22} on-error {}
+:do {add list=$AddressList comment=kh address=210.247.192.0/20} on-error {}
 :do {add list=$AddressList comment=kh address=217.138.201.160/27} on-error {}
 :do {add list=$AddressList comment=kh address=218.100.71.0/24} on-error {}
 :do {add list=$AddressList comment=kh address=220.158.232.0/22} on-error {}

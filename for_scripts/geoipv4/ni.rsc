@@ -49,7 +49,6 @@
 :do {add list=$AddressList comment=ni address=143.202.252.0/22} on-error {}
 :do {add list=$AddressList comment=ni address=146.75.132.98/31} on-error {}
 :do {add list=$AddressList comment=ni address=146.75.160.98/31} on-error {}
-:do {add list=$AddressList comment=ni address=148.227.110.0/23} on-error {}
 :do {add list=$AddressList comment=ni address=150.48.179.82/31} on-error {}
 :do {add list=$AddressList comment=ni address=150.48.179.84/30} on-error {}
 :do {add list=$AddressList comment=ni address=150.48.179.88/29} on-error {}

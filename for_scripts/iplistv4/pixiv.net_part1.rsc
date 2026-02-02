@@ -152,6 +152,7 @@
 :do {add list=$AddressList comment=pixiv.net address=143.204.55.66} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=143.204.55.81} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=143.204.55.95} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=172.217.16.147} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=172.217.16.179} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=172.217.168.51} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=172.217.168.83} on-error {}
@@ -260,6 +261,10 @@
 :do {add list=$AddressList comment=pixiv.net address=18.244.146.28} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=18.244.146.64} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=18.244.146.82} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=18.244.18.101} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=18.244.18.48} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=18.244.18.60} on-error {}
+:do {add list=$AddressList comment=pixiv.net address=18.244.18.91} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=18.244.28.112} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=18.244.28.12} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=18.244.28.16} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=pixiv.net address=216.198.54.6} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=216.58.204.243} on-error {}
 :do {add list=$AddressList comment=pixiv.net address=216.58.205.51} on-error {}
-:do {add list=$AddressList comment=pixiv.net address=216.58.206.51} on-error {}
-:do {add list=$AddressList comment=pixiv.net address=216.58.207.211} on-error {}
-:do {add list=$AddressList comment=pixiv.net address=216.58.207.243} on-error {}
-:do {add list=$AddressList comment=pixiv.net address=216.58.211.19} on-error {}
-:do {add list=$AddressList comment=pixiv.net address=216.58.211.211} on-error {}

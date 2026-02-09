@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=it address=45.144.140.0/24} on-error {}
-:do {add list=$AddressList comment=it address=45.144.141.0/25} on-error {}
-:do {add list=$AddressList comment=it address=45.144.141.128/26} on-error {}
-:do {add list=$AddressList comment=it address=45.144.141.192/27} on-error {}
 :do {add list=$AddressList comment=it address=45.144.141.224/28} on-error {}
 :do {add list=$AddressList comment=it address=45.144.141.240/30} on-error {}
 :do {add list=$AddressList comment=it address=45.144.141.248/29} on-error {}
@@ -35,6 +31,7 @@
 :do {add list=$AddressList comment=it address=45.152.118.0/24} on-error {}
 :do {add list=$AddressList comment=it address=45.152.144.0/22} on-error {}
 :do {add list=$AddressList comment=it address=45.152.38.0/23} on-error {}
+:do {add list=$AddressList comment=it address=45.153.172.0/24} on-error {}
 :do {add list=$AddressList comment=it address=45.153.40.0/22} on-error {}
 :do {add list=$AddressList comment=it address=45.153.83.140/30} on-error {}
 :do {add list=$AddressList comment=it address=45.153.83.78/31} on-error {}
@@ -119,6 +116,7 @@
 :do {add list=$AddressList comment=it address=45.87.36.0/22} on-error {}
 :do {add list=$AddressList comment=it address=45.87.64.0/22} on-error {}
 :do {add list=$AddressList comment=it address=45.88.187.0/24} on-error {}
+:do {add list=$AddressList comment=it address=45.88.56.0/24} on-error {}
 :do {add list=$AddressList comment=it address=45.89.120.0/22} on-error {}
 :do {add list=$AddressList comment=it address=45.89.180.0/22} on-error {}
 :do {add list=$AddressList comment=it address=45.89.210.0/23} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=it address=5.150.128.0/20} on-error {}
 :do {add list=$AddressList comment=it address=5.152.128.0/22} on-error {}
 :do {add list=$AddressList comment=it address=5.152.144.0/22} on-error {}
+:do {add list=$AddressList comment=it address=5.152.148.0/23} on-error {}
+:do {add list=$AddressList comment=it address=5.152.154.0/23} on-error {}

@@ -2,6 +2,9 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=136.227.141.36/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=136.227.141.36/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
+:if ([:len [/ip/route/find dst-address=138.122.160.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.122.160.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
+:if ([:len [/ip/route/find dst-address=138.186.60.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.186.60.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
 :if ([:len [/ip/route/find dst-address=138.59.164.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.59.164.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
 :if ([:len [/ip/route/find dst-address=138.59.224.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.59.224.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
 :if ([:len [/ip/route/find dst-address=138.99.100.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.99.100.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
@@ -38,7 +41,6 @@
 :if ([:len [/ip/route/find dst-address=154.58.235.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.58.235.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
 :if ([:len [/ip/route/find dst-address=154.61.168.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.61.168.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
 :if ([:len [/ip/route/find dst-address=154.61.172.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.61.172.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
-:if ([:len [/ip/route/find dst-address=154.61.174.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.61.174.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
 :if ([:len [/ip/route/find dst-address=155.117.31.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=155.117.31.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
 :if ([:len [/ip/route/find dst-address=157.167.21.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=157.167.21.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
 :if ([:len [/ip/route/find dst-address=157.167.224.45/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=157.167.224.45/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=165.1.222.62/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.222.62/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
 :if ([:len [/ip/route/find dst-address=165.1.222.8/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.222.8/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
 :if ([:len [/ip/route/find dst-address=165.1.246.1/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.246.1/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
-:if ([:len [/ip/route/find dst-address=165.1.246.16/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.246.16/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }
-:if ([:len [/ip/route/find dst-address=165.1.246.2/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.246.2/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=py }

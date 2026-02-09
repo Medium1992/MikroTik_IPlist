@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=8.29.109.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.29.109.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13335 }
+:if ([:len [/ip/route/find dst-address=8.29.228.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.29.228.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13335 }
+:if ([:len [/ip/route/find dst-address=8.29.230.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.29.230.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13335 }
+:if ([:len [/ip/route/find dst-address=8.30.234.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.30.234.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13335 }
+:if ([:len [/ip/route/find dst-address=8.31.161.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.31.161.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13335 }
+:if ([:len [/ip/route/find dst-address=8.31.2.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.31.2.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13335 }
 :if ([:len [/ip/route/find dst-address=8.34.146.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.34.146.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13335 }
 :if ([:len [/ip/route/find dst-address=8.34.201.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.34.201.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13335 }
 :if ([:len [/ip/route/find dst-address=8.34.202.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.34.202.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13335 }

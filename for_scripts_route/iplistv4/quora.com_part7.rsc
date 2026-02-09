@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=35.174.51.247 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.174.51.247 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=35.174.95.164 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.174.95.164 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=35.175.4.64 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.175.4.64 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=35.175.70.165 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.175.70.165 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=44.193.187.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.193.187.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=44.193.234.194 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.193.234.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=44.193.238.30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.193.238.30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=44.193.31.197 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.193.31.197 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=44.193.40.119 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.193.40.119 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=44.222.44.177 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.222.44.177 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=44.223.201.254 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.223.201.254 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=44.223.251.171 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.223.251.171 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=50.16.108.190 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.16.108.190 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=50.17.122.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.17.122.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=50.17.136.63 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.17.136.63 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=50.17.199.159 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.17.199.159 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=50.17.211.168 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.17.211.168 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=50.19.143.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.19.143.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }

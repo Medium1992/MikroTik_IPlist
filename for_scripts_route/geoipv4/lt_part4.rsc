@@ -2,6 +2,7 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=165.1.242.248/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.242.248/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
 :if ([:len [/ip/route/find dst-address=165.1.242.252/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.242.252/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
 :if ([:len [/ip/route/find dst-address=165.1.242.254/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.1.242.254/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
 :if ([:len [/ip/route/find dst-address=165.85.13.96/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.85.13.96/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
@@ -69,6 +70,8 @@
 :if ([:len [/ip/route/find dst-address=185.153.201.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.153.201.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
 :if ([:len [/ip/route/find dst-address=185.153.202.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.153.202.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
 :if ([:len [/ip/route/find dst-address=185.160.140.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.160.140.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
+:if ([:len [/ip/route/find dst-address=185.162.44.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.162.44.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
+:if ([:len [/ip/route/find dst-address=185.163.52.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.163.52.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
 :if ([:len [/ip/route/find dst-address=185.164.128.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.164.128.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
 :if ([:len [/ip/route/find dst-address=185.168.12.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.168.12.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
 :if ([:len [/ip/route/find dst-address=185.168.64.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.168.64.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=185.213.0.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.213.0.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
 :if ([:len [/ip/route/find dst-address=185.213.1.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.213.1.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
 :if ([:len [/ip/route/find dst-address=185.213.1.128/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.213.1.128/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
-:if ([:len [/ip/route/find dst-address=185.213.1.16/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.213.1.16/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
-:if ([:len [/ip/route/find dst-address=185.213.1.20/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.213.1.20/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }
-:if ([:len [/ip/route/find dst-address=185.213.1.24/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.213.1.24/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lt }

@@ -2,6 +2,7 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=57.144.52.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.52.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=57.144.54.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.54.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=57.144.56.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.56.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=57.144.68.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.68.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
@@ -10,6 +11,7 @@
 :if ([:len [/ip/route/find dst-address=57.144.68.141 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.68.141 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=57.144.68.144 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.68.144 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=57.144.68.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.68.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
+:if ([:len [/ip/route/find dst-address=57.144.74.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=57.144.74.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=59.188.250.54 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=59.188.250.54 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=59.24.3.173 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=59.24.3.173 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=62.115.252.194 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=62.115.252.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=88.221.132.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.132.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=88.221.132.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.132.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=88.221.132.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.132.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
-:if ([:len [/ip/route/find dst-address=88.221.132.34 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.132.34 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
-:if ([:len [/ip/route/find dst-address=88.221.132.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.132.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }

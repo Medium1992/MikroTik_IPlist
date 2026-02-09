@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.165.190.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=3.165.190.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=3.165.190.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=3.165.190.44 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=3.165.190.49 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=3.165.190.52 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.52 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=3.165.190.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=3.165.190.55 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=3.165.190.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.171.139.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.171.139.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=3.174.113.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=3.174.113.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.174.113.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.174.113.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.174.113.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.174.113.52 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.52 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.174.113.69 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.69 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.174.113.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }

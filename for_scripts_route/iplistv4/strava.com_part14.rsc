@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=18.66.192.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.192.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=18.66.192.116 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.192.116 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=18.66.192.119 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.192.119 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=18.66.192.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.192.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=18.66.192.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.192.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=18.66.192.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.192.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=18.66.192.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.192.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=18.67.240.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.67.240.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=18.67.240.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.67.240.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=184.73.197.206 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=184.73.197.206 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
-:if ([:len [/ip/route/find dst-address=216.137.52.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
-:if ([:len [/ip/route/find dst-address=216.137.52.110 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.110 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
-:if ([:len [/ip/route/find dst-address=216.137.52.111 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.111 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
-:if ([:len [/ip/route/find dst-address=216.137.52.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.137.52.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }

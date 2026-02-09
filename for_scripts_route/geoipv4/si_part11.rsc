@@ -2,12 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=91.223.166.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.223.166.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=si }
-:if ([:len [/ip/route/find dst-address=91.223.174.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.223.174.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=si }
-:if ([:len [/ip/route/find dst-address=91.223.182.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.223.182.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=si }
-:if ([:len [/ip/route/find dst-address=91.223.189.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.223.189.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=si }
-:if ([:len [/ip/route/find dst-address=91.223.193.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.223.193.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=si }
-:if ([:len [/ip/route/find dst-address=91.223.197.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.223.197.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=si }
 :if ([:len [/ip/route/find dst-address=91.223.230.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.223.230.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=si }
 :if ([:len [/ip/route/find dst-address=91.223.238.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.223.238.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=si }
 :if ([:len [/ip/route/find dst-address=91.223.26.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.223.26.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=si }

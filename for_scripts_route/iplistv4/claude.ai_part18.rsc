@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.174.113.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=3.174.113.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=3.174.113.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=3.174.113.52 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.52 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=3.174.113.69 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.69 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=3.174.113.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.113.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=3.174.18.102 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.18.102 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=3.174.18.113 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.18.113 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=3.174.18.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.18.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.215.200.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.215.200.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=3.215.209.155 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.215.209.155 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=3.215.214.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.215.214.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.216.10.161 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.216.10.161 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.216.119.162 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.216.119.162 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.216.187.236 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.216.187.236 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.216.229.42 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.216.229.42 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.216.250.201 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.216.250.201 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=3.216.33.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.216.33.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }

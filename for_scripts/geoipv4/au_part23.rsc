@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=au address=203.18.88.0/22} on-error {}
+:do {add list=$AddressList comment=au address=203.18.94.0/24} on-error {}
+:do {add list=$AddressList comment=au address=203.18.96.0/23} on-error {}
+:do {add list=$AddressList comment=au address=203.185.184.0/24} on-error {}
+:do {add list=$AddressList comment=au address=203.185.185.0/29} on-error {}
+:do {add list=$AddressList comment=au address=203.185.185.128/25} on-error {}
+:do {add list=$AddressList comment=au address=203.185.185.16/28} on-error {}
+:do {add list=$AddressList comment=au address=203.185.185.32/27} on-error {}
+:do {add list=$AddressList comment=au address=203.185.185.64/26} on-error {}
+:do {add list=$AddressList comment=au address=203.185.186.0/23} on-error {}
 :do {add list=$AddressList comment=au address=203.185.190.0/24} on-error {}
 :do {add list=$AddressList comment=au address=203.185.192.0/18} on-error {}
 :do {add list=$AddressList comment=au address=203.187.146.0/24} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=au address=203.222.176.0/26} on-error {}
 :do {add list=$AddressList comment=au address=203.222.176.128/25} on-error {}
 :do {add list=$AddressList comment=au address=203.222.176.64/27} on-error {}
-:do {add list=$AddressList comment=au address=203.222.176.96/28} on-error {}
-:do {add list=$AddressList comment=au address=203.222.177.0/24} on-error {}
-:do {add list=$AddressList comment=au address=203.222.178.0/23} on-error {}
-:do {add list=$AddressList comment=au address=203.222.180.0/22} on-error {}
-:do {add list=$AddressList comment=au address=203.222.184.0/24} on-error {}
-:do {add list=$AddressList comment=au address=203.222.185.0/29} on-error {}
-:do {add list=$AddressList comment=au address=203.222.185.128/25} on-error {}
-:do {add list=$AddressList comment=au address=203.222.185.16/28} on-error {}
-:do {add list=$AddressList comment=au address=203.222.185.32/27} on-error {}
-:do {add list=$AddressList comment=au address=203.222.185.64/26} on-error {}

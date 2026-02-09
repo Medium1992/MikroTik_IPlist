@@ -1,15 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=ch address=212.221.43.184/29} on-error {}
-:do {add list=$AddressList comment=ch address=212.221.5.80/29} on-error {}
-:do {add list=$AddressList comment=ch address=212.221.6.128/29} on-error {}
-:do {add list=$AddressList comment=ch address=212.221.6.16/28} on-error {}
-:do {add list=$AddressList comment=ch address=212.221.6.165/32} on-error {}
-:do {add list=$AddressList comment=ch address=212.221.60.32/28} on-error {}
-:do {add list=$AddressList comment=ch address=212.221.60.96/28} on-error {}
-:do {add list=$AddressList comment=ch address=212.221.62.0/28} on-error {}
-:do {add list=$AddressList comment=ch address=212.221.62.192/28} on-error {}
-:do {add list=$AddressList comment=ch address=212.221.62.80/28} on-error {}
 :do {add list=$AddressList comment=ch address=212.221.68.128/28} on-error {}
 :do {add list=$AddressList comment=ch address=212.221.68.168/29} on-error {}
 :do {add list=$AddressList comment=ch address=212.221.7.0/28} on-error {}
@@ -350,3 +340,13 @@
 :do {add list=$AddressList comment=ch address=213.244.159.112/29} on-error {}
 :do {add list=$AddressList comment=ch address=213.244.194.0/23} on-error {}
 :do {add list=$AddressList comment=ch address=213.249.124.224/29} on-error {}
+:do {add list=$AddressList comment=ch address=213.251.1.152/29} on-error {}
+:do {add list=$AddressList comment=ch address=213.251.27.224/28} on-error {}
+:do {add list=$AddressList comment=ch address=213.251.5.80/28} on-error {}
+:do {add list=$AddressList comment=ch address=213.251.6.208/29} on-error {}
+:do {add list=$AddressList comment=ch address=213.251.7.208/29} on-error {}
+:do {add list=$AddressList comment=ch address=213.254.165.0/24} on-error {}
+:do {add list=$AddressList comment=ch address=213.254.203.112/28} on-error {}
+:do {add list=$AddressList comment=ch address=213.254.243.128/25} on-error {}
+:do {add list=$AddressList comment=ch address=213.3.0.0/16} on-error {}
+:do {add list=$AddressList comment=ch address=213.33.53.96/29} on-error {}

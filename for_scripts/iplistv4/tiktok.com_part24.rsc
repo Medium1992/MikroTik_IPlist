@@ -1,5 +1,20 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.66} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.67} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.72} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.73} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.74} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.75} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.80} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.81} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.82} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.83} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.88} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.89} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.90} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.91} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.28.198.96} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.28.198.97} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.28.198.98} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.28.198.99} on-error {}
@@ -335,18 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=184.50.113.144} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.50.113.145} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.50.113.146} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.147} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.152} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.153} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.154} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.155} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.16} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.162} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.168} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.177} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.178} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.179} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.18} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.184} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.185} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.50.113.186} on-error {}

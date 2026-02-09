@@ -1,7 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=hk address=195.153.128.0/18} on-error {}
-:do {add list=$AddressList comment=hk address=195.153.17.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=195.153.18.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=195.153.192.0/20} on-error {}
 :do {add list=$AddressList comment=hk address=195.153.2.0/23} on-error {}
@@ -122,7 +120,6 @@
 :do {add list=$AddressList comment=hk address=199.188.196.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=199.190.44.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=199.204.228.0/22} on-error {}
-:do {add list=$AddressList comment=hk address=199.229.216.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=199.244.118.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=199.33.119.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=199.43.19.0/24} on-error {}
@@ -132,7 +129,6 @@
 :do {add list=$AddressList comment=hk address=199.58.88.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=199.58.92.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=199.59.231.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=199.7.141.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=199.9.24.0/21} on-error {}
 :do {add list=$AddressList comment=hk address=2.16.244.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=2.20.40.0/22} on-error {}
@@ -350,3 +346,7 @@
 :do {add list=$AddressList comment=hk address=202.181.132.32/28} on-error {}
 :do {add list=$AddressList comment=hk address=202.181.136.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=202.181.138.0/24} on-error {}
+:do {add list=$AddressList comment=hk address=202.181.140.0/23} on-error {}
+:do {add list=$AddressList comment=hk address=202.181.142.0/24} on-error {}
+:do {add list=$AddressList comment=hk address=202.181.144.0/22} on-error {}
+:do {add list=$AddressList comment=hk address=202.181.149.0/24} on-error {}

@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=hu address=212.14.73.128/28} on-error {}
+:do {add list=$AddressList comment=hu address=212.14.73.20/30} on-error {}
+:do {add list=$AddressList comment=hu address=212.14.91.112/28} on-error {}
+:do {add list=$AddressList comment=hu address=212.16.128.0/19} on-error {}
+:do {add list=$AddressList comment=hu address=212.162.140.0/22} on-error {}
+:do {add list=$AddressList comment=hu address=212.221.116.80/29} on-error {}
 :do {add list=$AddressList comment=hu address=212.221.117.160/30} on-error {}
 :do {add list=$AddressList comment=hu address=212.221.15.84/30} on-error {}
 :do {add list=$AddressList comment=hu address=212.221.29.56/30} on-error {}
@@ -116,6 +122,7 @@
 :do {add list=$AddressList comment=hu address=213.222.128.0/18} on-error {}
 :do {add list=$AddressList comment=hu address=213.228.201.40/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.235.10.64/28} on-error {}
+:do {add list=$AddressList comment=hu address=213.235.11.112/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.235.9.104/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.251.1.16/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.251.27.16/28} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=hu address=5.148.192.0/18} on-error {}
 :do {add list=$AddressList comment=hu address=5.149.240.0/21} on-error {}
 :do {add list=$AddressList comment=hu address=5.159.232.0/21} on-error {}
-:do {add list=$AddressList comment=hu address=5.180.120.0/22} on-error {}
-:do {add list=$AddressList comment=hu address=5.181.77.0/24} on-error {}
-:do {add list=$AddressList comment=hu address=5.182.112.0/24} on-error {}
-:do {add list=$AddressList comment=hu address=5.182.130.52/30} on-error {}
-:do {add list=$AddressList comment=hu address=5.182.38.0/24} on-error {}
-:do {add list=$AddressList comment=hu address=5.187.128.0/17} on-error {}
-:do {add list=$AddressList comment=hu address=5.204.0.0/16} on-error {}

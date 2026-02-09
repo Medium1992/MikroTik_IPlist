@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=kr address=168.222.8.0/23} on-error {}
+:do {add list=$AddressList comment=kr address=168.225.28.0/24} on-error {}
+:do {add list=$AddressList comment=kr address=168.248.0.0/15} on-error {}
 :do {add list=$AddressList comment=kr address=168.78.0.0/16} on-error {}
 :do {add list=$AddressList comment=kr address=168.93.224.0/24} on-error {}
 :do {add list=$AddressList comment=kr address=169.140.0.0/16} on-error {}
@@ -68,7 +71,6 @@
 :do {add list=$AddressList comment=kr address=173.223.140.0/22} on-error {}
 :do {add list=$AddressList comment=kr address=173.223.227.0/24} on-error {}
 :do {add list=$AddressList comment=kr address=173.232.192.0/24} on-error {}
-:do {add list=$AddressList comment=kr address=173.239.230.0/24} on-error {}
 :do {add list=$AddressList comment=kr address=173.244.42.0/24} on-error {}
 :do {add list=$AddressList comment=kr address=173.244.51.0/24} on-error {}
 :do {add list=$AddressList comment=kr address=173.244.58.128/25} on-error {}
@@ -287,6 +289,7 @@
 :do {add list=$AddressList comment=kr address=192.56.127.0/24} on-error {}
 :do {add list=$AddressList comment=kr address=192.56.72.0/24} on-error {}
 :do {add list=$AddressList comment=kr address=192.67.153.0/24} on-error {}
+:do {add list=$AddressList comment=kr address=193.108.47.0/24} on-error {}
 :do {add list=$AddressList comment=kr address=193.122.96.0/19} on-error {}
 :do {add list=$AddressList comment=kr address=193.123.224.0/19} on-error {}
 :do {add list=$AddressList comment=kr address=193.142.6.0/24} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=kr address=20.190.144.128/27} on-error {}
 :do {add list=$AddressList comment=kr address=20.190.144.160/31} on-error {}
 :do {add list=$AddressList comment=kr address=20.190.144.162/32} on-error {}
-:do {add list=$AddressList comment=kr address=20.190.144.164/30} on-error {}
-:do {add list=$AddressList comment=kr address=20.190.144.168/29} on-error {}
-:do {add list=$AddressList comment=kr address=20.190.144.176/28} on-error {}

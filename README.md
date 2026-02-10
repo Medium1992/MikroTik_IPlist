@@ -1,4 +1,4 @@
-# MikroTik_DNS_FWD
+# MikroTik_IPlist
 This repository contains IPs for autocompletion and regular updating in MikroTik RouterOS ip/firewall/address-list or ip/route.
 IPs are collected full from tree sources
 - https://iplist.opencck.org (iplistCIDRv4 and iplistv4)

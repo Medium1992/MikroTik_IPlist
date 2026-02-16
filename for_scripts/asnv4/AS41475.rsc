@@ -4,4 +4,3 @@
 :do {add list=$AddressList comment=AS41475 address=89.20.36.0/24} on-error {}
 :do {add list=$AddressList comment=AS41475 address=89.20.41.0/24} on-error {}
 :do {add list=$AddressList comment=AS41475 address=89.20.42.0/23} on-error {}
-:do {add list=$AddressList comment=AS41475 address=89.20.44.0/24} on-error {}

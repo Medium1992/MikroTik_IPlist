@@ -324,7 +324,7 @@
 :do {add list=$AddressList comment=us address=102.129.176.0/23} on-error {}
 :do {add list=$AddressList comment=us address=102.129.178.0/24} on-error {}
 :do {add list=$AddressList comment=us address=102.129.181.0/24} on-error {}
-:do {add list=$AddressList comment=us address=102.129.185.83/32} on-error {}
+:do {add list=$AddressList comment=us address=102.129.185.82/31} on-error {}
 :do {add list=$AddressList comment=us address=102.129.190.0/23} on-error {}
 :do {add list=$AddressList comment=us address=102.129.192.0/23} on-error {}
 :do {add list=$AddressList comment=us address=102.129.194.0/24} on-error {}

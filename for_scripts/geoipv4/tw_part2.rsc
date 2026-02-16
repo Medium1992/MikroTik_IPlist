@@ -349,4 +349,4 @@
 :do {add list=$AddressList comment=tw address=119.75.240.0/20} on-error {}
 :do {add list=$AddressList comment=tw address=119.77.128.0/17} on-error {}
 :do {add list=$AddressList comment=tw address=120.138.50.64/26} on-error {}
-:do {add list=$AddressList comment=tw address=120.29.217.196/31} on-error {}
+:do {add list=$AddressList comment=tw address=120.96.0.0/11} on-error {}

@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains.com address=18.244.28.18} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.244.28.19} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.244.28.2} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.244.28.26} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.244.28.37} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.244.28.40} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.244.28.48} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.244.28.51} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.244.28.56} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.244.28.62} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.244.28.67} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.244.28.88} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=jetbrains.com address=18.64.67.40} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.64.67.61} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.64.67.82} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.64.67.85} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.64.67.94} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.64.79.101} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.64.79.106} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.64.79.109} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.64.79.110} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.64.79.12} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.64.79.124} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.64.79.128} on-error {}

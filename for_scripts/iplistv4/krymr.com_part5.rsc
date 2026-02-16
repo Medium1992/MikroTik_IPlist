@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=krymr.com address=3.173.238.15} on-error {}
+:do {add list=$AddressList comment=krymr.com address=3.173.238.72} on-error {}
+:do {add list=$AddressList comment=krymr.com address=3.174.18.102} on-error {}
+:do {add list=$AddressList comment=krymr.com address=3.174.18.40} on-error {}
+:do {add list=$AddressList comment=krymr.com address=3.174.18.41} on-error {}
+:do {add list=$AddressList comment=krymr.com address=3.174.18.51} on-error {}
 :do {add list=$AddressList comment=krymr.com address=3.174.83.6} on-error {}
 :do {add list=$AddressList comment=krymr.com address=3.174.83.79} on-error {}
 :do {add list=$AddressList comment=krymr.com address=3.174.83.83} on-error {}
@@ -283,6 +289,7 @@
 :do {add list=$AddressList comment=krymr.com address=95.101.133.106} on-error {}
 :do {add list=$AddressList comment=krymr.com address=95.101.133.25} on-error {}
 :do {add list=$AddressList comment=krymr.com address=95.101.133.81} on-error {}
+:do {add list=$AddressList comment=krymr.com address=95.101.133.88} on-error {}
 :do {add list=$AddressList comment=krymr.com address=95.101.181.125} on-error {}
 :do {add list=$AddressList comment=krymr.com address=95.101.181.19} on-error {}
 :do {add list=$AddressList comment=krymr.com address=95.101.181.80} on-error {}
@@ -343,9 +350,3 @@
 :do {add list=$AddressList comment=krymr.com address=99.86.182.96} on-error {}
 :do {add list=$AddressList comment=krymr.com address=99.86.240.106} on-error {}
 :do {add list=$AddressList comment=krymr.com address=99.86.240.124} on-error {}
-:do {add list=$AddressList comment=krymr.com address=99.86.240.24} on-error {}
-:do {add list=$AddressList comment=krymr.com address=99.86.240.54} on-error {}
-:do {add list=$AddressList comment=krymr.com address=99.86.38.100} on-error {}
-:do {add list=$AddressList comment=krymr.com address=99.86.38.121} on-error {}
-:do {add list=$AddressList comment=krymr.com address=99.86.38.44} on-error {}
-:do {add list=$AddressList comment=krymr.com address=99.86.38.59} on-error {}

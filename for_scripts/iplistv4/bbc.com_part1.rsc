@@ -83,6 +83,7 @@
 :do {add list=$AddressList comment=bbc.com address=108.128.178.61} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.128.184.116} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.128.189.89} on-error {}
+:do {add list=$AddressList comment=bbc.com address=108.128.202.202} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.128.203.57} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.128.237.184} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.128.31.182} on-error {}
@@ -180,6 +181,10 @@
 :do {add list=$AddressList comment=bbc.com address=108.157.150.77} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.157.181.177} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.157.192.90} on-error {}
+:do {add list=$AddressList comment=bbc.com address=108.157.194.10} on-error {}
+:do {add list=$AddressList comment=bbc.com address=108.157.194.127} on-error {}
+:do {add list=$AddressList comment=bbc.com address=108.157.194.28} on-error {}
+:do {add list=$AddressList comment=bbc.com address=108.157.194.7} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.157.207.110} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.157.208.110} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.157.210.125} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=bbc.com address=13.33.141.47} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.33.141.69} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.33.15.83} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.33.153.102} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.33.153.104} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.33.153.41} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.33.153.61} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.33.173.27} on-error {}

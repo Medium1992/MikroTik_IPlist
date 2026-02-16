@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=spotify.com address=2.22.91.134} on-error {}
+:do {add list=$AddressList comment=spotify.com address=2.22.91.135} on-error {}
+:do {add list=$AddressList comment=spotify.com address=2.22.91.136} on-error {}
 :do {add list=$AddressList comment=spotify.com address=2.22.91.139} on-error {}
 :do {add list=$AddressList comment=spotify.com address=2.22.91.146} on-error {}
 :do {add list=$AddressList comment=spotify.com address=2.22.91.152} on-error {}
@@ -261,6 +264,9 @@
 :do {add list=$AddressList comment=spotify.com address=23.212.97.41} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.212.97.5} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.212.97.8} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.213.161.113} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.213.161.117} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.213.161.121} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.214.95.214} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.214.95.218} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.215.2.132} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=spotify.com address=23.216.77.157} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.216.77.158} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.216.77.159} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.216.77.160} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.216.77.161} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.216.77.162} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.216.77.163} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.216.77.164} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.216.77.165} on-error {}

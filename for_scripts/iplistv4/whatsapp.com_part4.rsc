@@ -349,4 +349,4 @@
 :do {add list=$AddressList comment=whatsapp.com address=40.99.150.152} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=40.99.150.168} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=40.99.150.184} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=40.99.150.24} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=40.99.150.200} on-error {}

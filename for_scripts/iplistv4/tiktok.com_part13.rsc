@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=138.113.149.153} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.15.33} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.15.34} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.15.35} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.11} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.18} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.191} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.20} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=138.113.150.208} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.150.224} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.150.225} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.150.226} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=139.177.227.196} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=139.177.227.225} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=139.177.240.209} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.177.240.240} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.177.241.193} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.177.241.194} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.177.241.195} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.177.241.196} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.177.241.204} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.177.241.225} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.177.245.196} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=139.177.247.157} on-error {}

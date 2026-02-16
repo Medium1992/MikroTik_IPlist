@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=44.208.129.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.208.129.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
+:if ([:len [/ip/route/find dst-address=44.208.73.103 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.208.73.103 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=44.209.50.215 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.209.50.215 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=44.209.6.82 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.209.6.82 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=44.210.225.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.210.225.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
@@ -34,6 +36,7 @@
 :if ([:len [/ip/route/find dst-address=44.232.119.100 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.232.119.100 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=50.16.28.149 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.16.28.149 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=50.17.174.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.17.174.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
+:if ([:len [/ip/route/find dst-address=50.19.148.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.19.148.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=50.19.196.143 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.19.196.143 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=50.19.41.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=50.19.41.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=52.0.120.222 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.0.120.222 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=52.71.103.247 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.71.103.247 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=52.72.196.177 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.72.196.177 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=52.72.229.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.72.229.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
-:if ([:len [/ip/route/find dst-address=52.72.29.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.72.29.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
-:if ([:len [/ip/route/find dst-address=52.72.69.161 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.72.69.161 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
-:if ([:len [/ip/route/find dst-address=52.73.15.162 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.73.15.162 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }

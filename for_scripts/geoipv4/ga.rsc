@@ -2,7 +2,10 @@
 /ip firewall address-list
 :do {add list=$AddressList comment=ga address=102.129.32.0/22} on-error {}
 :do {add list=$AddressList comment=ga address=102.134.28.0/22} on-error {}
-:do {add list=$AddressList comment=ga address=102.142.0.0/16} on-error {}
+:do {add list=$AddressList comment=ga address=102.142.0.0/17} on-error {}
+:do {add list=$AddressList comment=ga address=102.142.128.0/18} on-error {}
+:do {add list=$AddressList comment=ga address=102.142.192.0/19} on-error {}
+:do {add list=$AddressList comment=ga address=102.142.224.0/20} on-error {}
 :do {add list=$AddressList comment=ga address=102.164.124.0/22} on-error {}
 :do {add list=$AddressList comment=ga address=104.28.10.1/32} on-error {}
 :do {add list=$AddressList comment=ga address=104.28.10.2/31} on-error {}

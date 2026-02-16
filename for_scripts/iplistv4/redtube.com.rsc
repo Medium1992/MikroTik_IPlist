@@ -1,9 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=redtube.com address=208.99.84.16} on-error {}
+:do {add list=$AddressList comment=redtube.com address=208.99.84.17} on-error {}
 :do {add list=$AddressList comment=redtube.com address=208.99.84.32} on-error {}
 :do {add list=$AddressList comment=redtube.com address=208.99.84.33} on-error {}
 :do {add list=$AddressList comment=redtube.com address=216.18.191.176} on-error {}
 :do {add list=$AddressList comment=redtube.com address=216.18.191.177} on-error {}
+:do {add list=$AddressList comment=redtube.com address=216.18.191.192} on-error {}
+:do {add list=$AddressList comment=redtube.com address=216.18.191.193} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.135.112} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.135.113} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.135.114} on-error {}
@@ -20,6 +24,8 @@
 :do {add list=$AddressList comment=redtube.com address=64.210.135.149} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.135.150} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.135.151} on-error {}
+:do {add list=$AddressList comment=redtube.com address=64.210.136.0} on-error {}
+:do {add list=$AddressList comment=redtube.com address=64.210.136.1} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.136.64} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.136.65} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.147.16} on-error {}
@@ -46,6 +52,7 @@
 :do {add list=$AddressList comment=redtube.com address=64.210.158.17} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.158.32} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.210.158.33} on-error {}
+:do {add list=$AddressList comment=redtube.com address=64.88.245.16} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.88.245.17} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.88.245.32} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.88.245.33} on-error {}
@@ -73,6 +80,8 @@
 :do {add list=$AddressList comment=redtube.com address=64.88.248.21} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.88.248.22} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.88.248.23} on-error {}
+:do {add list=$AddressList comment=redtube.com address=64.88.248.32} on-error {}
+:do {add list=$AddressList comment=redtube.com address=64.88.248.33} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.88.254.160} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.88.254.161} on-error {}
 :do {add list=$AddressList comment=redtube.com address=64.88.254.176} on-error {}
@@ -154,9 +163,12 @@
 :do {add list=$AddressList comment=redtube.com address=67.22.52.39} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.55.0} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.55.1} on-error {}
+:do {add list=$AddressList comment=redtube.com address=67.22.55.16} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.55.17} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.56.0} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.56.1} on-error {}
+:do {add list=$AddressList comment=redtube.com address=67.22.56.16} on-error {}
+:do {add list=$AddressList comment=redtube.com address=67.22.56.17} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.56.2} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.56.3} on-error {}
 :do {add list=$AddressList comment=redtube.com address=67.22.56.4} on-error {}

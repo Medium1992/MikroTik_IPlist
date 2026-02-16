@@ -1,14 +1,19 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=claude.ai address=18.239.69.84} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.69.99} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.83.100} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.83.108} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.239.83.122} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.239.83.22} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.83.54} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.83.59} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.83.60} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.83.67} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.239.83.70} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.83.71} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.83.74} on-error {}
+:do {add list=$AddressList comment=claude.ai address=18.239.83.81} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.94.10} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.94.93} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.239.94.97} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=claude.ai address=3.160.132.67} on-error {}
 :do {add list=$AddressList comment=claude.ai address=3.160.132.72} on-error {}
 :do {add list=$AddressList comment=claude.ai address=3.160.132.77} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.160.132.88} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.160.132.95} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.160.132.99} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.160.150.38} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.160.150.49} on-error {}

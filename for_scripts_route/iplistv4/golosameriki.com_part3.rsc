@@ -2,6 +2,11 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=13.225.103.93 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.225.103.93 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
+:if ([:len [/ip/route/find dst-address=13.226.175.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
+:if ([:len [/ip/route/find dst-address=13.226.175.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
+:if ([:len [/ip/route/find dst-address=13.226.175.84 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.84 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
+:if ([:len [/ip/route/find dst-address=13.226.175.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
 :if ([:len [/ip/route/find dst-address=13.226.2.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.2.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
 :if ([:len [/ip/route/find dst-address=13.226.2.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.2.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
 :if ([:len [/ip/route/find dst-address=13.226.2.64 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.2.64 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
@@ -79,6 +84,8 @@
 :if ([:len [/ip/route/find dst-address=173.222.106.60 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.222.106.60 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
 :if ([:len [/ip/route/find dst-address=173.222.106.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.222.106.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
 :if ([:len [/ip/route/find dst-address=173.222.106.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.222.106.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
+:if ([:len [/ip/route/find dst-address=173.222.107.198 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.222.107.198 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
+:if ([:len [/ip/route/find dst-address=173.222.107.200 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.222.107.200 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
 :if ([:len [/ip/route/find dst-address=173.222.108.50 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.222.108.50 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
 :if ([:len [/ip/route/find dst-address=173.222.108.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.222.108.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
 :if ([:len [/ip/route/find dst-address=173.222.108.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.222.108.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
@@ -95,10 +102,3 @@
 :if ([:len [/ip/route/find dst-address=173.223.234.151 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.223.234.151 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
 :if ([:len [/ip/route/find dst-address=173.223.234.196 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.223.234.196 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
 :if ([:len [/ip/route/find dst-address=173.223.234.198 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.223.234.198 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
-:if ([:len [/ip/route/find dst-address=173.223.234.201 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.223.234.201 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
-:if ([:len [/ip/route/find dst-address=173.223.234.209 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.223.234.209 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
-:if ([:len [/ip/route/find dst-address=173.223.234.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.223.234.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
-:if ([:len [/ip/route/find dst-address=173.223.234.52 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.223.234.52 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
-:if ([:len [/ip/route/find dst-address=18.154.161.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.154.161.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
-:if ([:len [/ip/route/find dst-address=18.154.161.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.154.161.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }
-:if ([:len [/ip/route/find dst-address=18.154.161.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.154.161.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=golosameriki.com }

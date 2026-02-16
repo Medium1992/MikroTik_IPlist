@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains.com address=18.64.67.85} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.64.67.94} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.64.79.101} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.64.79.106} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.64.79.109} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.64.79.110} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.64.79.12} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.64.79.124} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.64.79.128} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.64.79.18} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.64.79.20} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.64.79.23} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=jetbrains.com address=18.66.196.15} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.66.196.21} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.66.196.24} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.66.196.28} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.66.196.3} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.66.196.30} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.66.196.35} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.66.196.36} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.66.196.37} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.66.196.4} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.66.196.45} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.66.196.5} on-error {}

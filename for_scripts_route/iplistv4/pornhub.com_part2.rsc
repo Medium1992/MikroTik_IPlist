@@ -2,6 +2,9 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=66.254.122.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=66.254.122.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=66.254.122.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=66.254.122.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=66.254.122.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=66.254.122.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=66.254.122.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
@@ -75,9 +78,12 @@
 :if ([:len [/ip/route/find dst-address=67.22.52.39 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.52.39 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.55.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.55.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.55.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.55.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.56.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.56.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.56.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.56.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.56.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.56.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.56.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }

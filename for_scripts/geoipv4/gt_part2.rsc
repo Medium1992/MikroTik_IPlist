@@ -1,6 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=gt address=198.45.242.64/27} on-error {}
+:do {add list=$AddressList comment=gt address=198.55.121.0/24} on-error {}
 :do {add list=$AddressList comment=gt address=199.100.36.0/30} on-error {}
+:do {add list=$AddressList comment=gt address=199.100.36.12/31} on-error {}
 :do {add list=$AddressList comment=gt address=2.57.225.30/31} on-error {}
 :do {add list=$AddressList comment=gt address=2.57.225.32/31} on-error {}
 :do {add list=$AddressList comment=gt address=2.57.255.30/31} on-error {}
@@ -101,19 +104,7 @@
 :do {add list=$AddressList comment=gt address=24.152.52.0/22} on-error {}
 :do {add list=$AddressList comment=gt address=31.15.7.0/24} on-error {}
 :do {add list=$AddressList comment=gt address=38.165.224.0/22} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.0.12/30} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.0.120/30} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.0.168/30} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.0.176/28} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.0.192/26} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.0.36/30} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.0.52/30} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.0.60/30} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.0.80/29} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.1.0/24} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.2.0/23} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.4.0/22} on-error {}
-:do {add list=$AddressList comment=gt address=38.19.8.0/21} on-error {}
+:do {add list=$AddressList comment=gt address=38.19.0.0/20} on-error {}
 :do {add list=$AddressList comment=gt address=38.190.0.0/23} on-error {}
 :do {add list=$AddressList comment=gt address=38.199.88.0/24} on-error {}
 :do {add list=$AddressList comment=gt address=38.199.90.0/24} on-error {}

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=quora.com address=3.228.207.88} on-error {}
 :do {add list=$AddressList comment=quora.com address=3.228.235.228} on-error {}
 :do {add list=$AddressList comment=quora.com address=3.228.245.121} on-error {}
 :do {add list=$AddressList comment=quora.com address=3.228.26.139} on-error {}
@@ -269,6 +270,7 @@
 :do {add list=$AddressList comment=quora.com address=44.194.225.251} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.194.5.159} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.194.61.173} on-error {}
+:do {add list=$AddressList comment=quora.com address=44.195.133.232} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.195.148.22} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.195.163.186} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.196.108.232} on-error {}
@@ -321,6 +323,7 @@
 :do {add list=$AddressList comment=quora.com address=44.213.141.119} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.213.230.230} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.213.39.139} on-error {}
+:do {add list=$AddressList comment=quora.com address=44.213.4.228} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.214.248.254} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.214.59.101} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.214.65.185} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=quora.com address=44.220.104.120} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.220.120.53} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.221.189.16} on-error {}
-:do {add list=$AddressList comment=quora.com address=44.222.44.177} on-error {}
-:do {add list=$AddressList comment=quora.com address=44.223.201.254} on-error {}
-:do {add list=$AddressList comment=quora.com address=44.223.251.171} on-error {}

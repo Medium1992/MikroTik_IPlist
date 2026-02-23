@@ -159,7 +159,7 @@
 :do {add list=$AddressList comment=kg address=213.155.28.0/24} on-error {}
 :do {add list=$AddressList comment=kg address=213.156.252.6/32} on-error {}
 :do {add list=$AddressList comment=kg address=213.232.200.0/24} on-error {}
-:do {add list=$AddressList comment=kg address=217.177.44.0/22} on-error {}
+:do {add list=$AddressList comment=kg address=217.177.47.0/24} on-error {}
 :do {add list=$AddressList comment=kg address=217.29.16.0/20} on-error {}
 :do {add list=$AddressList comment=kg address=23.218.81.0/24} on-error {}
 :do {add list=$AddressList comment=kg address=31.148.30.0/24} on-error {}

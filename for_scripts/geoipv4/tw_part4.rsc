@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tw address=152.101.26.0/23} on-error {}
+:do {add list=$AddressList comment=tw address=152.101.32.0/24} on-error {}
 :do {add list=$AddressList comment=tw address=152.101.5.0/24} on-error {}
 :do {add list=$AddressList comment=tw address=152.101.50.0/24} on-error {}
 :do {add list=$AddressList comment=tw address=152.104.96.0/19} on-error {}
@@ -12,6 +14,7 @@
 :do {add list=$AddressList comment=tw address=152.32.232.0/24} on-error {}
 :do {add list=$AddressList comment=tw address=152.65.249.0/24} on-error {}
 :do {add list=$AddressList comment=tw address=153.72.40.192/27} on-error {}
+:do {add list=$AddressList comment=tw address=153.72.60.128/25} on-error {}
 :do {add list=$AddressList comment=tw address=153.80.124.0/24} on-error {}
 :do {add list=$AddressList comment=tw address=153.80.17.0/24} on-error {}
 :do {add list=$AddressList comment=tw address=153.80.42.0/24} on-error {}
@@ -31,7 +34,7 @@
 :do {add list=$AddressList comment=tw address=154.18.24.24/29} on-error {}
 :do {add list=$AddressList comment=tw address=154.18.24.72/29} on-error {}
 :do {add list=$AddressList comment=tw address=154.18.24.80/29} on-error {}
-:do {add list=$AddressList comment=tw address=154.18.24.88/31} on-error {}
+:do {add list=$AddressList comment=tw address=154.18.24.88/30} on-error {}
 :do {add list=$AddressList comment=tw address=154.18.24.96/28} on-error {}
 :do {add list=$AddressList comment=tw address=154.196.2.0/23} on-error {}
 :do {add list=$AddressList comment=tw address=154.197.60.0/23} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=tw address=17.91.120.0/21} on-error {}
 :do {add list=$AddressList comment=tw address=17.91.176.0/21} on-error {}
 :do {add list=$AddressList comment=tw address=17.92.184.0/21} on-error {}
-:do {add list=$AddressList comment=tw address=17.92.192.0/21} on-error {}
-:do {add list=$AddressList comment=tw address=17.92.208.0/20} on-error {}
-:do {add list=$AddressList comment=tw address=170.168.124.0/24} on-error {}

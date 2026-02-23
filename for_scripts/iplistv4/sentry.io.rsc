@@ -30,6 +30,8 @@
 :do {add list=$AddressList comment=sentry.io address=142.250.187.147} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.250.187.179} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.250.201.211} on-error {}
+:do {add list=$AddressList comment=sentry.io address=142.250.203.211} on-error {}
+:do {add list=$AddressList comment=sentry.io address=142.250.27.121} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.250.74.115} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.250.74.147} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.250.74.179} on-error {}
@@ -44,6 +46,7 @@
 :do {add list=$AddressList comment=sentry.io address=142.251.141.51} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.142.115} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.142.243} on-error {}
+:do {add list=$AddressList comment=sentry.io address=142.251.143.147} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.143.179} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.143.19} on-error {}
 :do {add list=$AddressList comment=sentry.io address=142.251.143.211} on-error {}
@@ -85,6 +88,7 @@
 :do {add list=$AddressList comment=sentry.io address=172.217.19.115} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.19.179} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.19.243} on-error {}
+:do {add list=$AddressList comment=sentry.io address=172.217.20.179} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.20.19} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.20.211} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.20.83} on-error {}
@@ -92,6 +96,7 @@
 :do {add list=$AddressList comment=sentry.io address=172.217.21.179} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.21.243} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.217.22.243} on-error {}
+:do {add list=$AddressList comment=sentry.io address=172.217.23.147} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.253.130.121} on-error {}
 :do {add list=$AddressList comment=sentry.io address=172.67.152.165} on-error {}
 :do {add list=$AddressList comment=sentry.io address=173.194.220.121} on-error {}
@@ -123,6 +128,10 @@
 :do {add list=$AddressList comment=sentry.io address=192.178.204.121} on-error {}
 :do {add list=$AddressList comment=sentry.io address=192.28.151.14} on-error {}
 :do {add list=$AddressList comment=sentry.io address=209.85.233.121} on-error {}
+:do {add list=$AddressList comment=sentry.io address=216.198.79.1} on-error {}
+:do {add list=$AddressList comment=sentry.io address=216.198.79.131} on-error {}
+:do {add list=$AddressList comment=sentry.io address=216.198.79.195} on-error {}
+:do {add list=$AddressList comment=sentry.io address=216.198.79.65} on-error {}
 :do {add list=$AddressList comment=sentry.io address=216.239.32.21} on-error {}
 :do {add list=$AddressList comment=sentry.io address=216.239.34.21} on-error {}
 :do {add list=$AddressList comment=sentry.io address=216.239.36.21} on-error {}
@@ -194,6 +203,10 @@
 :do {add list=$AddressList comment=sentry.io address=64.239.123.129} on-error {}
 :do {add list=$AddressList comment=sentry.io address=64.239.123.193} on-error {}
 :do {add list=$AddressList comment=sentry.io address=64.239.123.65} on-error {}
+:do {add list=$AddressList comment=sentry.io address=64.29.17.1} on-error {}
+:do {add list=$AddressList comment=sentry.io address=64.29.17.131} on-error {}
+:do {add list=$AddressList comment=sentry.io address=64.29.17.195} on-error {}
+:do {add list=$AddressList comment=sentry.io address=64.29.17.65} on-error {}
 :do {add list=$AddressList comment=sentry.io address=66.33.60.129} on-error {}
 :do {add list=$AddressList comment=sentry.io address=66.33.60.130} on-error {}
 :do {add list=$AddressList comment=sentry.io address=66.33.60.193} on-error {}

@@ -2,6 +2,9 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=146.75.205.16/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=146.75.205.16/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
+:if ([:len [/ip/route/find dst-address=146.75.205.24/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=146.75.205.24/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
+:if ([:len [/ip/route/find dst-address=146.75.205.28/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=146.75.205.28/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
 :if ([:len [/ip/route/find dst-address=146.75.214.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=146.75.214.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
 :if ([:len [/ip/route/find dst-address=146.75.214.16/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=146.75.214.16/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
 :if ([:len [/ip/route/find dst-address=146.75.214.24/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=146.75.214.24/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
@@ -39,7 +42,6 @@
 :if ([:len [/ip/route/find dst-address=147.75.228.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=147.75.228.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
 :if ([:len [/ip/route/find dst-address=147.75.230.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=147.75.230.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
 :if ([:len [/ip/route/find dst-address=147.79.64.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=147.79.64.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
-:if ([:len [/ip/route/find dst-address=147.90.176.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=147.90.176.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
 :if ([:len [/ip/route/find dst-address=147.93.152.143/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=147.93.152.143/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
 :if ([:len [/ip/route/find dst-address=147.93.152.179/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=147.93.152.179/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
 :if ([:len [/ip/route/find dst-address=147.93.16.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=147.93.16.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=15.158.42.128/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=15.158.42.128/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
 :if ([:len [/ip/route/find dst-address=15.158.49.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=15.158.49.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
 :if ([:len [/ip/route/find dst-address=15.177.73.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=15.177.73.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
-:if ([:len [/ip/route/find dst-address=15.177.94.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=15.177.94.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }
-:if ([:len [/ip/route/find dst-address=15.193.0.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=15.193.0.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=in }

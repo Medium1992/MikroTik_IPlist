@@ -2,12 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=87.119.78.184/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.119.78.184/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
-:if ([:len [/ip/route/find dst-address=87.119.78.40/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.119.78.40/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
-:if ([:len [/ip/route/find dst-address=87.119.78.88/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.119.78.88/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
-:if ([:len [/ip/route/find dst-address=87.119.79.176/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.119.79.176/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
-:if ([:len [/ip/route/find dst-address=87.119.79.224/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.119.79.224/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
-:if ([:len [/ip/route/find dst-address=87.119.80.16/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.119.80.16/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
 :if ([:len [/ip/route/find dst-address=87.119.82.152/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.119.82.152/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
 :if ([:len [/ip/route/find dst-address=87.119.82.32/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.119.82.32/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
 :if ([:len [/ip/route/find dst-address=87.119.82.56/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.119.82.56/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
@@ -102,3 +96,9 @@
 :if ([:len [/ip/route/find dst-address=87.98.241.100/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.98.241.100/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
 :if ([:len [/ip/route/find dst-address=87.98.241.104/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.98.241.104/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
 :if ([:len [/ip/route/find dst-address=87.98.241.112/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.98.241.112/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
+:if ([:len [/ip/route/find dst-address=87.98.241.120/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.98.241.120/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
+:if ([:len [/ip/route/find dst-address=87.98.241.122/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.98.241.122/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
+:if ([:len [/ip/route/find dst-address=87.98.241.124/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.98.241.124/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
+:if ([:len [/ip/route/find dst-address=87.98.241.128/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.98.241.128/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
+:if ([:len [/ip/route/find dst-address=87.98.241.192/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.98.241.192/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }
+:if ([:len [/ip/route/find dst-address=87.98.241.208/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.98.241.208/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=fr }

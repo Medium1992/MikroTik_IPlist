@@ -2,6 +2,30 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=93.217.157.64/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.217.157.64/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=93.217.158.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.217.158.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=93.217.160.0/19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.217.160.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=93.217.192.0/18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.217.192.0/18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=93.218.0.0/15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.218.0.0/15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=93.220.0.0/14 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.220.0.0/14 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=93.224.0.0/11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.224.0.0/11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.126.98.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.126.98.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.139.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.139.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.158.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.158.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.162.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.162.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.165.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.165.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.167.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.167.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.174.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.174.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.177.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.177.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.183.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.183.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.198.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.198.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.206.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.206.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.211.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.211.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.218.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.218.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.227.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.227.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.228.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.228.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.234.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.234.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
+:if ([:len [/ip/route/find dst-address=94.185.238.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.238.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
 :if ([:len [/ip/route/find dst-address=94.185.241.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.241.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
 :if ([:len [/ip/route/find dst-address=94.185.243.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.243.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }
 :if ([:len [/ip/route/find dst-address=94.185.246.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.185.246.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS3320 }

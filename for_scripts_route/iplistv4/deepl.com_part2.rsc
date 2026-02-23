@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.211.141.100 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.211.141.100 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
+:if ([:len [/ip/route/find dst-address=3.211.148.183 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.211.148.183 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=3.211.154.233 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.211.154.233 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=3.211.158.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.211.158.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=3.211.159.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.211.159.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
@@ -72,6 +74,7 @@
 :if ([:len [/ip/route/find dst-address=3.224.70.252 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.224.70.252 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=3.224.73.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.224.73.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=3.226.153.145 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.226.153.145 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
+:if ([:len [/ip/route/find dst-address=3.226.43.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.226.43.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=3.226.84.233 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.226.84.233 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=3.227.15.189 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.227.15.189 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=3.227.213.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.227.213.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.90.157.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.90.157.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=3.91.122.240 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.91.122.240 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
 :if ([:len [/ip/route/find dst-address=3.94.227.52 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.94.227.52 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
-:if ([:len [/ip/route/find dst-address=3.95.96.96 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.95.96.96 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
-:if ([:len [/ip/route/find dst-address=34.192.66.180 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.192.66.180 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }
-:if ([:len [/ip/route/find dst-address=34.193.143.201 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.193.143.201 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deepl.com }

@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=149.5.171.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=149.5.171.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
+:if ([:len [/ip/route/find dst-address=149.6.146.248/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=149.6.146.248/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
 :if ([:len [/ip/route/find dst-address=149.6.174.88/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=149.6.174.88/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
 :if ([:len [/ip/route/find dst-address=149.6.50.0/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=149.6.50.0/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
 :if ([:len [/ip/route/find dst-address=149.6.50.12/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=149.6.50.12/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
@@ -27,6 +29,7 @@
 :if ([:len [/ip/route/find dst-address=149.6.58.220/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=149.6.58.220/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
 :if ([:len [/ip/route/find dst-address=149.88.32.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=149.88.32.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
 :if ([:len [/ip/route/find dst-address=150.107.224.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=150.107.224.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
+:if ([:len [/ip/route/find dst-address=150.241.128.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=150.241.128.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
 :if ([:len [/ip/route/find dst-address=150.48.144.100/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=150.48.144.100/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
 :if ([:len [/ip/route/find dst-address=150.48.144.16/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=150.48.144.16/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
 :if ([:len [/ip/route/find dst-address=150.48.144.20/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=150.48.144.20/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=154.14.49.232/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.49.232/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
 :if ([:len [/ip/route/find dst-address=154.14.56.192/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.56.192/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
 :if ([:len [/ip/route/find dst-address=154.14.60.64/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.60.64/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
-:if ([:len [/ip/route/find dst-address=154.14.60.88/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.60.88/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
-:if ([:len [/ip/route/find dst-address=154.14.7.200/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.7.200/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }
-:if ([:len [/ip/route/find dst-address=154.14.83.152/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.14.83.152/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ro }

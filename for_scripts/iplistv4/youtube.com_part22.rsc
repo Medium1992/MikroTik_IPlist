@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=142.251.208.106} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.208.108} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.208.110} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.208.111} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.208.118} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.208.12} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.208.129} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.208.131} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.208.132} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.208.138} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.208.14} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.208.140} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=142.251.33.175} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.33.182} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.33.193} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.33.195} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.33.196} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.33.202} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.33.204} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.33.206} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.33.207} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.33.214} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.33.22} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.33.227} on-error {}

@@ -321,10 +321,10 @@
 :do {add list=$AddressList comment=za address=206.249.0.2/31} on-error {}
 :do {add list=$AddressList comment=za address=206.249.0.208/28} on-error {}
 :do {add list=$AddressList comment=za address=206.249.0.224/28} on-error {}
+:do {add list=$AddressList comment=za address=206.249.0.24/30} on-error {}
 :do {add list=$AddressList comment=za address=206.249.0.240/29} on-error {}
 :do {add list=$AddressList comment=za address=206.249.0.250/31} on-error {}
 :do {add list=$AddressList comment=za address=206.249.0.252/31} on-error {}
-:do {add list=$AddressList comment=za address=206.249.0.26/31} on-error {}
 :do {add list=$AddressList comment=za address=206.249.0.30/31} on-error {}
 :do {add list=$AddressList comment=za address=206.249.0.32/29} on-error {}
 :do {add list=$AddressList comment=za address=206.249.0.4/30} on-error {}

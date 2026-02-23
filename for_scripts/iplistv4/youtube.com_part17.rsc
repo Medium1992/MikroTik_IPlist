@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=142.250.73.196} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.250.73.202} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.250.73.204} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.250.73.206} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.250.73.207} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.250.73.214} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.250.73.225} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.250.73.227} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.250.73.228} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.250.73.234} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.250.73.236} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=142.250.81.78} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.250.9.100} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.250.9.101} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.9.102} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.9.103} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.9.104} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.9.105} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.9.106} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.9.113} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.9.116} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.9.117} on-error {}

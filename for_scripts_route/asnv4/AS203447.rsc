@@ -4,7 +4,9 @@
 /ip route
 :if ([:len [/ip/route/find dst-address=185.132.0.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.132.0.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS203447 }
 :if ([:len [/ip/route/find dst-address=185.32.61.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.32.61.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS203447 }
+:if ([:len [/ip/route/find dst-address=185.32.63.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.32.63.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS203447 }
 :if ([:len [/ip/route/find dst-address=91.210.117.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.210.117.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS203447 }
-:if ([:len [/ip/route/find dst-address=91.210.119.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.210.119.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS203447 }
+:if ([:len [/ip/route/find dst-address=91.210.118.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.210.118.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS203447 }
 :if ([:len [/ip/route/find dst-address=91.228.58.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.228.58.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS203447 }
 :if ([:len [/ip/route/find dst-address=91.237.125.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.237.125.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS203447 }
+:if ([:len [/ip/route/find dst-address=91.237.126.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=91.237.126.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS203447 }

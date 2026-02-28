@@ -21,21 +21,31 @@ use:
 
 # List of resources corresponding to RSC files
 :global resources {
+# telegram
 "geoipv4/telegram";
 "asnv4/AS62041";
 "asnv4/AS59930";
 "asnv4/AS62014";
 "asnv4/AS211157";
 "asnv4/AS44907";
+# twitter
 "geoipv4/twitter";
 "asnv4/AS13414";
 "asnv4/AS63179";
 "asnv4/AS35995";
+# meta
 "geoipv4/facebook";
 "asnv4/AS32934";
 "asnv4/AS54115";
+# netflix
 "geoipv4/netflix";
-"asnv4/AS2906"
+"asnv4/AS2906";
+"asnv4/AS55095";
+"asnv4/AS40027";
+# roblox
+"asnv4/AS22697";
+"asnv4/AS11281";
+"asnv4/AS136766";
 }
 
 # Base URL for RSC files

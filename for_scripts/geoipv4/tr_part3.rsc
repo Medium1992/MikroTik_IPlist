@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tr address=167.103.152.0/24} on-error {}
+:do {add list=$AddressList comment=tr address=167.160.10.0/23} on-error {}
 :do {add list=$AddressList comment=tr address=167.160.27.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=167.17.187.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=168.139.0.0/16} on-error {}
@@ -46,6 +48,7 @@
 :do {add list=$AddressList comment=tr address=170.168.85.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=170.62.250.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=170.84.252.0/23} on-error {}
+:do {add list=$AddressList comment=tr address=171.22.112.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=171.22.184.0/22} on-error {}
 :do {add list=$AddressList comment=tr address=171.22.56.0/22} on-error {}
 :do {add list=$AddressList comment=tr address=172.111.206.0/24} on-error {}
@@ -117,6 +120,7 @@
 :do {add list=$AddressList comment=tr address=176.30.0.0/16} on-error {}
 :do {add list=$AddressList comment=tr address=176.33.0.0/16} on-error {}
 :do {add list=$AddressList comment=tr address=176.40.0.0/14} on-error {}
+:do {add list=$AddressList comment=tr address=176.46.136.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=176.52.176.0/22} on-error {}
 :do {add list=$AddressList comment=tr address=176.53.0.0/17} on-error {}
 :do {add list=$AddressList comment=tr address=176.53.157.0/24} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=tr address=185.174.28.0/22} on-error {}
 :do {add list=$AddressList comment=tr address=185.174.61.0/24} on-error {}
 :do {add list=$AddressList comment=tr address=185.174.68.0/22} on-error {}
-:do {add list=$AddressList comment=tr address=185.175.67.0/24} on-error {}
-:do {add list=$AddressList comment=tr address=185.177.27.0/24} on-error {}
-:do {add list=$AddressList comment=tr address=185.178.240.0/22} on-error {}
-:do {add list=$AddressList comment=tr address=185.179.100.0/24} on-error {}

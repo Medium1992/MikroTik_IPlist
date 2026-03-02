@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=id address=208.127.222.132/30} on-error {}
+:do {add list=$AddressList comment=id address=208.127.222.136/29} on-error {}
+:do {add list=$AddressList comment=id address=208.127.222.144/28} on-error {}
+:do {add list=$AddressList comment=id address=208.127.222.160/28} on-error {}
+:do {add list=$AddressList comment=id address=208.127.222.176/29} on-error {}
+:do {add list=$AddressList comment=id address=208.127.222.184/30} on-error {}
+:do {add list=$AddressList comment=id address=208.127.222.188/31} on-error {}
 :do {add list=$AddressList comment=id address=208.127.222.190/32} on-error {}
 :do {add list=$AddressList comment=id address=208.76.40.0/24} on-error {}
 :do {add list=$AddressList comment=id address=208.81.116.0/23} on-error {}
@@ -329,7 +336,6 @@
 :do {add list=$AddressList comment=id address=38.225.120.0/22} on-error {}
 :do {add list=$AddressList comment=id address=38.226.240.0/22} on-error {}
 :do {add list=$AddressList comment=id address=38.226.44.0/22} on-error {}
-:do {add list=$AddressList comment=id address=38.226.62.0/24} on-error {}
 :do {add list=$AddressList comment=id address=38.244.146.0/23} on-error {}
 :do {add list=$AddressList comment=id address=38.244.180.0/23} on-error {}
 :do {add list=$AddressList comment=id address=38.248.19.0/24} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=id address=38.46.214.0/24} on-error {}
 :do {add list=$AddressList comment=id address=38.46.232.0/22} on-error {}
 :do {add list=$AddressList comment=id address=38.47.178.0/23} on-error {}
-:do {add list=$AddressList comment=id address=38.47.180.0/22} on-error {}
-:do {add list=$AddressList comment=id address=38.47.184.0/22} on-error {}
-:do {add list=$AddressList comment=id address=38.47.190.0/24} on-error {}
-:do {add list=$AddressList comment=id address=38.47.64.0/19} on-error {}
-:do {add list=$AddressList comment=id address=38.52.146.0/23} on-error {}
-:do {add list=$AddressList comment=id address=38.52.148.0/24} on-error {}

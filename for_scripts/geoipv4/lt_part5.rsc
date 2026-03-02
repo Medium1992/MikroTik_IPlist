@@ -1,12 +1,11 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=lt address=88.222.224.0/20} on-error {}
-:do {add list=$AddressList comment=lt address=88.222.248.0/21} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.0.0/20} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.128.0/19} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.160.0/22} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.164.0/23} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.166.0/24} on-error {}
+:do {add list=$AddressList comment=lt address=88.223.168.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.176.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.178.0/23} on-error {}
 :do {add list=$AddressList comment=lt address=88.223.181.0/24} on-error {}
@@ -164,7 +163,6 @@
 :do {add list=$AddressList comment=lt address=91.192.82.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=91.198.17.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=91.199.163.0/24} on-error {}
-:do {add list=$AddressList comment=lt address=91.199.166.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=91.199.168.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=91.199.172.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=91.199.55.0/24} on-error {}
@@ -198,7 +196,7 @@
 :do {add list=$AddressList comment=lt address=91.244.197.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=91.247.185.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=92.112.180.0/22} on-error {}
-:do {add list=$AddressList comment=lt address=92.119.12.0/23} on-error {}
+:do {add list=$AddressList comment=lt address=92.119.13.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=92.242.187.0/24} on-error {}
 :do {add list=$AddressList comment=lt address=92.61.32.0/20} on-error {}
 :do {add list=$AddressList comment=lt address=92.62.128.0/20} on-error {}

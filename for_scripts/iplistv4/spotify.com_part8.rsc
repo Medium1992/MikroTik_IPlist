@@ -1,5 +1,24 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=spotify.com address=95.100.171.43} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.100.171.45} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.100.171.5} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.100.171.9} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.100.181.196} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.100.181.217} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.100.181.219} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.100.181.221} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.100.203.139} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.100.203.208} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.101.119.10} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.101.119.11} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.101.119.18} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.101.119.19} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.101.119.25} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.101.119.26} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.101.119.27} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.101.119.32} on-error {}
+:do {add list=$AddressList comment=spotify.com address=95.101.119.33} on-error {}
 :do {add list=$AddressList comment=spotify.com address=95.101.119.34} on-error {}
 :do {add list=$AddressList comment=spotify.com address=95.101.119.35} on-error {}
 :do {add list=$AddressList comment=spotify.com address=95.101.119.40} on-error {}

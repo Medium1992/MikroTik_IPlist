@@ -274,6 +274,7 @@
 :do {add list=$AddressList comment=strava.com address=18.173.5.109} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.173.5.129} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.173.5.22} on-error {}
+:do {add list=$AddressList comment=strava.com address=18.173.5.26} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.173.5.30} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.173.5.44} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.173.5.49} on-error {}
@@ -281,8 +282,11 @@
 :do {add list=$AddressList comment=strava.com address=18.173.5.68} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.173.5.74} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.173.5.77} on-error {}
+:do {add list=$AddressList comment=strava.com address=18.173.5.84} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.173.5.88} on-error {}
+:do {add list=$AddressList comment=strava.com address=18.173.5.90} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.173.5.91} on-error {}
+:do {add list=$AddressList comment=strava.com address=18.173.5.94} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.202.8.75} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.205.120.126} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.205.222.15} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=18.239.105.11} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.239.105.39} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.239.105.46} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.239.105.84} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.239.18.103} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.239.18.109} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.239.18.116} on-error {}

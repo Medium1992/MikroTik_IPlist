@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=zapier.com address=3.175.34.44} on-error {}
+:do {add list=$AddressList comment=zapier.com address=3.175.34.59} on-error {}
+:do {add list=$AddressList comment=zapier.com address=3.175.34.70} on-error {}
+:do {add list=$AddressList comment=zapier.com address=3.175.34.80} on-error {}
+:do {add list=$AddressList comment=zapier.com address=3.175.34.81} on-error {}
+:do {add list=$AddressList comment=zapier.com address=3.175.34.97} on-error {}
+:do {add list=$AddressList comment=zapier.com address=3.175.34.99} on-error {}
+:do {add list=$AddressList comment=zapier.com address=3.175.86.122} on-error {}
 :do {add list=$AddressList comment=zapier.com address=3.175.86.123} on-error {}
 :do {add list=$AddressList comment=zapier.com address=3.175.86.20} on-error {}
 :do {add list=$AddressList comment=zapier.com address=3.175.86.36} on-error {}
@@ -180,6 +188,10 @@
 :do {add list=$AddressList comment=zapier.com address=54.230.114.82} on-error {}
 :do {add list=$AddressList comment=zapier.com address=54.230.114.83} on-error {}
 :do {add list=$AddressList comment=zapier.com address=54.230.114.97} on-error {}
+:do {add list=$AddressList comment=zapier.com address=54.230.183.114} on-error {}
+:do {add list=$AddressList comment=zapier.com address=54.230.183.41} on-error {}
+:do {add list=$AddressList comment=zapier.com address=54.230.183.79} on-error {}
+:do {add list=$AddressList comment=zapier.com address=54.230.183.99} on-error {}
 :do {add list=$AddressList comment=zapier.com address=54.239.195.111} on-error {}
 :do {add list=$AddressList comment=zapier.com address=54.239.195.13} on-error {}
 :do {add list=$AddressList comment=zapier.com address=54.239.195.16} on-error {}
@@ -338,15 +350,3 @@
 :do {add list=$AddressList comment=zapier.com address=99.84.91.30} on-error {}
 :do {add list=$AddressList comment=zapier.com address=99.84.91.39} on-error {}
 :do {add list=$AddressList comment=zapier.com address=99.84.91.46} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.84.91.56} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.84.91.63} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.84.91.65} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.84.91.67} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.84.91.7} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.84.91.8} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.84.91.82} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.84.91.84} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.84.91.91} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.84.91.99} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.86.159.109} on-error {}
-:do {add list=$AddressList comment=zapier.com address=99.86.159.118} on-error {}

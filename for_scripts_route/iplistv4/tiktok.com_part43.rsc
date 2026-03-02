@@ -2,6 +2,9 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=138.113.133.237 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.133.237 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=138.113.133.244 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.133.244 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=138.113.133.246 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.133.246 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.113.136.12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.136.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.113.136.124 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.136.124 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.113.136.127 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.136.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
@@ -21,6 +24,7 @@
 :if ([:len [/ip/route/find dst-address=138.113.15.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.15.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.113.150.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.150.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.113.150.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.150.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
+:if ([:len [/ip/route/find dst-address=138.113.150.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.150.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.113.150.191 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.150.191 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.113.150.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.150.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.113.150.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.150.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=138.113.20.181 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.20.181 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.113.20.182 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.20.182 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
 :if ([:len [/ip/route/find dst-address=138.113.20.183 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.20.183 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=138.113.20.185 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.20.185 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=138.113.20.190 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.20.190 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=138.113.20.191 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.20.191 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }
-:if ([:len [/ip/route/find dst-address=138.113.20.193 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=138.113.20.193 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tiktok.com }

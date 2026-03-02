@@ -1,5 +1,21 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=strava.com address=44.232.22.185} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.24.186} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.27.116} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.38.54} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.45.106} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.49.196} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.59.12} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.63.177} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.67.88} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.82.218} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.9.49} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.91.131} on-error {}
+:do {add list=$AddressList comment=strava.com address=44.232.92.63} on-error {}
+:do {add list=$AddressList comment=strava.com address=50.112.133.196} on-error {}
+:do {add list=$AddressList comment=strava.com address=50.16.202.116} on-error {}
+:do {add list=$AddressList comment=strava.com address=50.16.25.81} on-error {}
 :do {add list=$AddressList comment=strava.com address=50.16.99.139} on-error {}
 :do {add list=$AddressList comment=strava.com address=50.17.190.205} on-error {}
 :do {add list=$AddressList comment=strava.com address=50.17.230.77} on-error {}
@@ -30,6 +46,7 @@
 :do {add list=$AddressList comment=strava.com address=52.2.74.96} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.20.135.14} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.20.168.18} on-error {}
+:do {add list=$AddressList comment=strava.com address=52.20.53.30} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.20.9.62} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.20.91.201} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.20.93.229} on-error {}
@@ -333,20 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=52.85.5.33} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.85.5.36} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.85.5.41} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.44} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.47} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.52} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.53} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.55} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.61} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.62} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.69} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.77} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.82} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.83} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.92} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.5.99} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.61.115} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.61.21} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.61.24} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.85.61.31} on-error {}

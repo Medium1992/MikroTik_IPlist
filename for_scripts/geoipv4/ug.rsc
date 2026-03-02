@@ -111,6 +111,7 @@
 :do {add list=$AddressList comment=ug address=150.48.189.208/28} on-error {}
 :do {add list=$AddressList comment=ug address=150.48.189.224/30} on-error {}
 :do {add list=$AddressList comment=ug address=150.48.189.228/31} on-error {}
+:do {add list=$AddressList comment=ug address=153.67.146.0/23} on-error {}
 :do {add list=$AddressList comment=ug address=153.72.40.64/26} on-error {}
 :do {add list=$AddressList comment=ug address=154.0.128.0/20} on-error {}
 :do {add list=$AddressList comment=ug address=154.224.0.0/13} on-error {}

@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=lv address=217.21.160.0/20} on-error {}
+:do {add list=$AddressList comment=lv address=217.217.244.0/24} on-error {}
+:do {add list=$AddressList comment=lv address=217.24.64.0/20} on-error {}
 :do {add list=$AddressList comment=lv address=217.28.243.0/30} on-error {}
 :do {add list=$AddressList comment=lv address=217.28.243.20/31} on-error {}
 :do {add list=$AddressList comment=lv address=217.28.243.254/31} on-error {}
@@ -264,7 +267,7 @@
 :do {add list=$AddressList comment=lv address=85.254.123.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=85.254.127.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=85.254.132.0/24} on-error {}
-:do {add list=$AddressList comment=lv address=85.254.14.0/23} on-error {}
+:do {add list=$AddressList comment=lv address=85.254.14.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=85.254.141.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=85.254.142.0/23} on-error {}
 :do {add list=$AddressList comment=lv address=85.254.144.0/21} on-error {}
@@ -304,7 +307,6 @@
 :do {add list=$AddressList comment=lv address=85.254.58.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=85.254.6.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=85.254.60.0/23} on-error {}
-:do {add list=$AddressList comment=lv address=85.254.63.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=85.254.68.0/23} on-error {}
 :do {add list=$AddressList comment=lv address=85.254.71.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=85.254.73.0/24} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=lv address=89.254.128.0/18} on-error {}
 :do {add list=$AddressList comment=lv address=89.36.161.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=89.40.204.0/24} on-error {}
-:do {add list=$AddressList comment=lv address=89.46.238.0/24} on-error {}
-:do {add list=$AddressList comment=lv address=90.128.0.0/18} on-error {}

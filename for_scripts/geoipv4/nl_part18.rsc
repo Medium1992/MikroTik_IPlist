@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=nl address=185.78.197.2/31} on-error {}
+:do {add list=$AddressList comment=nl address=185.78.197.32/27} on-error {}
+:do {add list=$AddressList comment=nl address=185.78.197.4/30} on-error {}
+:do {add list=$AddressList comment=nl address=185.78.197.64/26} on-error {}
+:do {add list=$AddressList comment=nl address=185.78.197.8/29} on-error {}
+:do {add list=$AddressList comment=nl address=185.78.198.1/32} on-error {}
+:do {add list=$AddressList comment=nl address=185.78.198.128/25} on-error {}
 :do {add list=$AddressList comment=nl address=185.78.198.16/28} on-error {}
 :do {add list=$AddressList comment=nl address=185.78.198.2/31} on-error {}
 :do {add list=$AddressList comment=nl address=185.78.198.32/27} on-error {}
@@ -183,7 +190,6 @@
 :do {add list=$AddressList comment=nl address=188.137.180.0/23} on-error {}
 :do {add list=$AddressList comment=nl address=188.137.182.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=188.137.226.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=188.137.231.0/24} on-error {}
 :do {add list=$AddressList comment=nl address=188.137.232.0/21} on-error {}
 :do {add list=$AddressList comment=nl address=188.137.240.0/23} on-error {}
 :do {add list=$AddressList comment=nl address=188.137.246.0/23} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=nl address=192.113.0.0/18} on-error {}
 :do {add list=$AddressList comment=nl address=192.113.128.0/17} on-error {}
 :do {add list=$AddressList comment=nl address=192.113.64.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=192.113.67.0/24} on-error {}
-:do {add list=$AddressList comment=nl address=192.113.68.0/23} on-error {}
-:do {add list=$AddressList comment=nl address=192.113.70.0/31} on-error {}
-:do {add list=$AddressList comment=nl address=192.113.70.128/25} on-error {}
-:do {add list=$AddressList comment=nl address=192.113.70.16/28} on-error {}
-:do {add list=$AddressList comment=nl address=192.113.70.3/32} on-error {}

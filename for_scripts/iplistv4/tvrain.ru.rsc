@@ -4,6 +4,10 @@
 :do {add list=$AddressList comment=tvrain.ru address=104.18.13.225} on-error {}
 :do {add list=$AddressList comment=tvrain.ru address=104.18.18.130} on-error {}
 :do {add list=$AddressList comment=tvrain.ru address=104.18.19.130} on-error {}
+:do {add list=$AddressList comment=tvrain.ru address=109.234.211.230} on-error {}
+:do {add list=$AddressList comment=tvrain.ru address=109.234.211.231} on-error {}
+:do {add list=$AddressList comment=tvrain.ru address=109.234.211.232} on-error {}
+:do {add list=$AddressList comment=tvrain.ru address=109.234.211.233} on-error {}
 :do {add list=$AddressList comment=tvrain.ru address=109.234.211.249} on-error {}
 :do {add list=$AddressList comment=tvrain.ru address=109.234.211.250} on-error {}
 :do {add list=$AddressList comment=tvrain.ru address=109.234.211.251} on-error {}

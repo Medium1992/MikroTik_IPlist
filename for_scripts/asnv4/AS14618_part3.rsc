@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS14618 address=35.168.0.0/13} on-error {}
+:do {add list=$AddressList comment=AS14618 address=35.50.137.0/24} on-error {}
+:do {add list=$AddressList comment=AS14618 address=35.50.139.0/24} on-error {}
+:do {add list=$AddressList comment=AS14618 address=35.50.141.0/24} on-error {}
+:do {add list=$AddressList comment=AS14618 address=35.54.32.0/21} on-error {}
 :do {add list=$AddressList comment=AS14618 address=35.55.29.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=35.55.30.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=35.55.32.0/24} on-error {}
@@ -100,6 +105,10 @@
 :do {add list=$AddressList comment=AS14618 address=64.57.9.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=64.7.220.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=64.71.238.0/24} on-error {}
+:do {add list=$AddressList comment=AS14618 address=64.73.192.0/22} on-error {}
+:do {add list=$AddressList comment=AS14618 address=64.73.196.0/23} on-error {}
+:do {add list=$AddressList comment=AS14618 address=64.73.199.0/24} on-error {}
+:do {add list=$AddressList comment=AS14618 address=64.73.202.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=64.95.153.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=64.95.199.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=64.99.175.0/24} on-error {}
@@ -153,6 +162,7 @@
 :do {add list=$AddressList comment=AS14618 address=69.194.145.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=69.196.242.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=69.2.101.0/24} on-error {}
+:do {add list=$AddressList comment=AS14618 address=69.46.37.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=69.52.209.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=69.56.0.0/18} on-error {}
 :do {add list=$AddressList comment=AS14618 address=69.59.249.0/24} on-error {}

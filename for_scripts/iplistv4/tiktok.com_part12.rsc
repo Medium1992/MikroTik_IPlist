@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=116.162.208.161} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=116.162.210.246} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=116.162.210.248} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=116.162.210.249} on-error {}
@@ -70,6 +71,7 @@
 :do {add list=$AddressList comment=tiktok.com address=119.36.124.207} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=119.36.124.209} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=119.36.124.239} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=119.36.127.81} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=119.36.90.169} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=119.36.90.170} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=119.36.90.171} on-error {}
@@ -91,6 +93,7 @@
 :do {add list=$AddressList comment=tiktok.com address=120.206.176.42} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=120.206.176.43} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=120.206.176.48} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=120.220.157.61} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=120.226.6.159} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=120.226.6.164} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=120.226.6.165} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=138.113.131.14} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.131.2} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=138.113.133.18} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=138.113.133.237} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=138.113.133.244} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=138.113.133.246} on-error {}

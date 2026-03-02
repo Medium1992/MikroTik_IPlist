@@ -128,6 +128,10 @@
 :do {add list=$AddressList comment=canva.com address=18.66.102.17} on-error {}
 :do {add list=$AddressList comment=canva.com address=18.66.102.9} on-error {}
 :do {add list=$AddressList comment=canva.com address=18.66.102.90} on-error {}
+:do {add list=$AddressList comment=canva.com address=18.66.218.11} on-error {}
+:do {add list=$AddressList comment=canva.com address=18.66.218.122} on-error {}
+:do {add list=$AddressList comment=canva.com address=18.66.218.39} on-error {}
+:do {add list=$AddressList comment=canva.com address=18.66.218.77} on-error {}
 :do {add list=$AddressList comment=canva.com address=18.66.248.103} on-error {}
 :do {add list=$AddressList comment=canva.com address=18.66.248.11} on-error {}
 :do {add list=$AddressList comment=canva.com address=18.66.248.22} on-error {}

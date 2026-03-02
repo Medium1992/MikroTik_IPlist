@@ -41,6 +41,7 @@
 :do {add list=$AddressList comment=ga address=150.48.150.108/30} on-error {}
 :do {add list=$AddressList comment=ga address=150.48.186.104/30} on-error {}
 :do {add list=$AddressList comment=ga address=150.48.186.108/31} on-error {}
+:do {add list=$AddressList comment=ga address=153.67.152.0/23} on-error {}
 :do {add list=$AddressList comment=ga address=154.0.176.0/20} on-error {}
 :do {add list=$AddressList comment=ga address=154.0.32.0/19} on-error {}
 :do {add list=$AddressList comment=ga address=154.112.0.0/16} on-error {}

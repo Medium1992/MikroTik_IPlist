@@ -37,6 +37,8 @@ use:
 "geoipv4/facebook";
 "asnv4/AS32934";
 "asnv4/AS54115";
+"asnv4/AS63293";
+"asnv4/AS45796";
 # netflix
 "geoipv4/netflix";
 "asnv4/AS2906";

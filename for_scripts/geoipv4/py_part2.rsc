@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=py address=196.57.158.0/24} on-error {}
-:do {add list=$AddressList comment=py address=196.58.158.0/24} on-error {}
-:do {add list=$AddressList comment=py address=198.54.100.74/31} on-error {}
-:do {add list=$AddressList comment=py address=200.1.200.0/21} on-error {}
 :do {add list=$AddressList comment=py address=200.10.141.0/24} on-error {}
 :do {add list=$AddressList comment=py address=200.10.228.0/22} on-error {}
 :do {add list=$AddressList comment=py address=200.108.128.0/20} on-error {}
@@ -24,12 +20,6 @@
 :do {add list=$AddressList comment=py address=201.222.48.0/21} on-error {}
 :do {add list=$AddressList comment=py address=202.181.129.72/29} on-error {}
 :do {add list=$AddressList comment=py address=203.20.86.0/24} on-error {}
-:do {add list=$AddressList comment=py address=204.195.247.241/32} on-error {}
-:do {add list=$AddressList comment=py address=204.195.247.242/31} on-error {}
-:do {add list=$AddressList comment=py address=204.195.247.244/32} on-error {}
-:do {add list=$AddressList comment=py address=204.195.248.10/31} on-error {}
-:do {add list=$AddressList comment=py address=204.195.248.12/32} on-error {}
-:do {add list=$AddressList comment=py address=204.195.248.9/32} on-error {}
 :do {add list=$AddressList comment=py address=208.127.151.0/24} on-error {}
 :do {add list=$AddressList comment=py address=208.127.170.185/32} on-error {}
 :do {add list=$AddressList comment=py address=208.127.170.186/31} on-error {}
@@ -54,7 +44,11 @@
 :do {add list=$AddressList comment=py address=31.15.0.0/24} on-error {}
 :do {add list=$AddressList comment=py address=34.100.32.0/22} on-error {}
 :do {add list=$AddressList comment=py address=34.100.60.0/23} on-error {}
+:do {add list=$AddressList comment=py address=37.230.48.0/24} on-error {}
+:do {add list=$AddressList comment=py address=37.230.50.0/23} on-error {}
+:do {add list=$AddressList comment=py address=37.230.52.0/22} on-error {}
 :do {add list=$AddressList comment=py address=37.230.56.0/22} on-error {}
+:do {add list=$AddressList comment=py address=37.230.63.0/24} on-error {}
 :do {add list=$AddressList comment=py address=38.130.137.0/24} on-error {}
 :do {add list=$AddressList comment=py address=38.134.188.0/24} on-error {}
 :do {add list=$AddressList comment=py address=38.165.233.0/24} on-error {}

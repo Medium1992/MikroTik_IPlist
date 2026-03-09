@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fr address=82.165.36.128/25} on-error {}
+:do {add list=$AddressList comment=fr address=82.165.36.32/28} on-error {}
+:do {add list=$AddressList comment=fr address=82.165.36.48/29} on-error {}
+:do {add list=$AddressList comment=fr address=82.165.36.56/30} on-error {}
+:do {add list=$AddressList comment=fr address=82.165.36.60/31} on-error {}
+:do {add list=$AddressList comment=fr address=82.165.36.62/32} on-error {}
+:do {add list=$AddressList comment=fr address=82.165.36.64/26} on-error {}
+:do {add list=$AddressList comment=fr address=82.165.37.0/24} on-error {}
+:do {add list=$AddressList comment=fr address=82.165.38.0/24} on-error {}
+:do {add list=$AddressList comment=fr address=82.165.41.0/24} on-error {}
+:do {add list=$AddressList comment=fr address=82.165.43.0/24} on-error {}
 :do {add list=$AddressList comment=fr address=82.165.44.0/22} on-error {}
 :do {add list=$AddressList comment=fr address=82.165.91.0/24} on-error {}
 :do {add list=$AddressList comment=fr address=82.165.92.0/22} on-error {}
@@ -339,14 +350,3 @@
 :do {add list=$AddressList comment=fr address=84.14.184.212/30} on-error {}
 :do {add list=$AddressList comment=fr address=84.14.184.216/30} on-error {}
 :do {add list=$AddressList comment=fr address=84.14.184.222/31} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.184.232/29} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.184.248/29} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.184.48/30} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.184.68/30} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.184.72/29} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.184.80/29} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.184.88/30} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.184.96/30} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.185.0/24} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.188.0/22} on-error {}
-:do {add list=$AddressList comment=fr address=84.14.192.0/20} on-error {}

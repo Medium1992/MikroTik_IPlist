@@ -101,4 +101,4 @@
 :if ([:len [/ip/route/find dst-address=179.43.163.230 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=179.43.163.230 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hdrezka.ag }
 :if ([:len [/ip/route/find dst-address=185.190.188.195 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.190.188.195 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hdrezka.ag }
 :if ([:len [/ip/route/find dst-address=185.190.188.197 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.190.188.197 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hdrezka.ag }
-:if ([:len [/ip/route/find dst-address=185.190.190.195 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.190.190.195 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hdrezka.ag }
+:if ([:len [/ip/route/find dst-address=185.190.188.205 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.190.188.205 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=hdrezka.ag }

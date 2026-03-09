@@ -14,9 +14,6 @@
 :do {add list=$AddressList comment=tc address=104.28.50.226/31} on-error {}
 :do {add list=$AddressList comment=tc address=104.28.50.228/31} on-error {}
 :do {add list=$AddressList comment=tc address=104.28.92.236/32} on-error {}
-:do {add list=$AddressList comment=tc address=131.125.105.22/31} on-error {}
-:do {add list=$AddressList comment=tc address=131.125.107.35/32} on-error {}
-:do {add list=$AddressList comment=tc address=131.125.107.36/32} on-error {}
 :do {add list=$AddressList comment=tc address=136.23.15.34/32} on-error {}
 :do {add list=$AddressList comment=tc address=136.23.9.34/32} on-error {}
 :do {add list=$AddressList comment=tc address=140.248.4.56/31} on-error {}
@@ -30,11 +27,7 @@
 :do {add list=$AddressList comment=tc address=140.248.62.213/32} on-error {}
 :do {add list=$AddressList comment=tc address=140.248.63.213/32} on-error {}
 :do {add list=$AddressList comment=tc address=142.54.204.0/22} on-error {}
-:do {add list=$AddressList comment=tc address=150.48.180.78/31} on-error {}
 :do {add list=$AddressList comment=tc address=153.67.166.0/23} on-error {}
-:do {add list=$AddressList comment=tc address=157.5.67.153/32} on-error {}
-:do {add list=$AddressList comment=tc address=157.5.67.154/32} on-error {}
-:do {add list=$AddressList comment=tc address=157.5.91.152/31} on-error {}
 :do {add list=$AddressList comment=tc address=162.120.199.177/32} on-error {}
 :do {add list=$AddressList comment=tc address=162.120.202.228/32} on-error {}
 :do {add list=$AddressList comment=tc address=162.212.12.0/24} on-error {}
@@ -55,15 +48,6 @@
 :do {add list=$AddressList comment=tc address=200.50.90.0/24} on-error {}
 :do {add list=$AddressList comment=tc address=204.110.56.0/21} on-error {}
 :do {add list=$AddressList comment=tc address=204.13.104.0/22} on-error {}
-:do {add list=$AddressList comment=tc address=204.195.244.155/32} on-error {}
-:do {add list=$AddressList comment=tc address=204.195.244.156/30} on-error {}
-:do {add list=$AddressList comment=tc address=204.195.244.160/29} on-error {}
-:do {add list=$AddressList comment=tc address=204.195.244.168/32} on-error {}
-:do {add list=$AddressList comment=tc address=204.195.246.217/32} on-error {}
-:do {add list=$AddressList comment=tc address=204.195.246.218/31} on-error {}
-:do {add list=$AddressList comment=tc address=204.195.246.220/30} on-error {}
-:do {add list=$AddressList comment=tc address=204.195.246.224/29} on-error {}
-:do {add list=$AddressList comment=tc address=204.195.246.232/32} on-error {}
 :do {add list=$AddressList comment=tc address=205.214.195.0/24} on-error {}
 :do {add list=$AddressList comment=tc address=205.214.199.0/24} on-error {}
 :do {add list=$AddressList comment=tc address=207.254.138.0/24} on-error {}
@@ -71,8 +55,6 @@
 :do {add list=$AddressList comment=tc address=208.138.41.0/24} on-error {}
 :do {add list=$AddressList comment=tc address=208.138.44.0/24} on-error {}
 :do {add list=$AddressList comment=tc address=208.169.70.0/23} on-error {}
-:do {add list=$AddressList comment=tc address=208.169.72.0/24} on-error {}
-:do {add list=$AddressList comment=tc address=208.169.78.0/23} on-error {}
 :do {add list=$AddressList comment=tc address=209.236.48.0/22} on-error {}
 :do {add list=$AddressList comment=tc address=209.236.52.0/23} on-error {}
 :do {add list=$AddressList comment=tc address=23.94.236.132/31} on-error {}

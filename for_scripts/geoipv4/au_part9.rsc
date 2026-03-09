@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=au address=113.29.64.192/26} on-error {}
+:do {add list=$AddressList comment=au address=113.29.65.0/24} on-error {}
+:do {add list=$AddressList comment=au address=113.29.66.0/23} on-error {}
+:do {add list=$AddressList comment=au address=113.29.68.0/26} on-error {}
+:do {add list=$AddressList comment=au address=113.29.68.128/26} on-error {}
+:do {add list=$AddressList comment=au address=113.29.68.192/28} on-error {}
+:do {add list=$AddressList comment=au address=113.29.68.208/29} on-error {}
+:do {add list=$AddressList comment=au address=113.29.68.224/27} on-error {}
+:do {add list=$AddressList comment=au address=113.29.68.72/29} on-error {}
+:do {add list=$AddressList comment=au address=113.29.68.80/28} on-error {}
 :do {add list=$AddressList comment=au address=113.29.68.96/27} on-error {}
 :do {add list=$AddressList comment=au address=113.29.69.0/24} on-error {}
 :do {add list=$AddressList comment=au address=113.29.70.0/23} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=au address=122.151.200.0/23} on-error {}
 :do {add list=$AddressList comment=au address=122.151.202.0/24} on-error {}
 :do {add list=$AddressList comment=au address=122.151.203.0/25} on-error {}
-:do {add list=$AddressList comment=au address=122.151.203.128/27} on-error {}
-:do {add list=$AddressList comment=au address=122.151.203.160/30} on-error {}
-:do {add list=$AddressList comment=au address=122.151.203.164/31} on-error {}
-:do {add list=$AddressList comment=au address=122.151.203.166/32} on-error {}
-:do {add list=$AddressList comment=au address=122.151.203.168/29} on-error {}
-:do {add list=$AddressList comment=au address=122.151.203.176/28} on-error {}
-:do {add list=$AddressList comment=au address=122.151.203.192/26} on-error {}
-:do {add list=$AddressList comment=au address=122.151.204.0/22} on-error {}
-:do {add list=$AddressList comment=au address=122.151.208.0/20} on-error {}
-:do {add list=$AddressList comment=au address=122.151.224.0/19} on-error {}

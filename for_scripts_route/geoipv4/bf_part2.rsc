@@ -2,12 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=172.224.230.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.224.230.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
-:if ([:len [/ip/route/find dst-address=172.225.144.32/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.225.144.32/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
-:if ([:len [/ip/route/find dst-address=172.225.178.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.225.178.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
-:if ([:len [/ip/route/find dst-address=172.225.212.32/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.225.212.32/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
-:if ([:len [/ip/route/find dst-address=172.71.3.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.71.3.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
-:if ([:len [/ip/route/find dst-address=192.12.116.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=192.12.116.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
 :if ([:len [/ip/route/find dst-address=192.136.55.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=192.136.55.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
 :if ([:len [/ip/route/find dst-address=192.136.56.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=192.136.56.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
 :if ([:len [/ip/route/find dst-address=194.50.99.21/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=194.50.99.21/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
@@ -26,9 +20,6 @@
 :if ([:len [/ip/route/find dst-address=196.58.58.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=196.58.58.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
 :if ([:len [/ip/route/find dst-address=196.60.76.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=196.60.76.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
 :if ([:len [/ip/route/find dst-address=197.239.64.0/18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=197.239.64.0/18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
-:if ([:len [/ip/route/find dst-address=204.195.242.247/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=204.195.242.247/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
-:if ([:len [/ip/route/find dst-address=204.195.242.248/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=204.195.242.248/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
-:if ([:len [/ip/route/find dst-address=204.195.242.250/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=204.195.242.250/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
 :if ([:len [/ip/route/find dst-address=206.82.130.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=206.82.130.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
 :if ([:len [/ip/route/find dst-address=212.52.128.0/19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=212.52.128.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }
 :if ([:len [/ip/route/find dst-address=213.156.254.4/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.156.254.4/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bf }

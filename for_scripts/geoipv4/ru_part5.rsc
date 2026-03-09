@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ru address=172.225.43.0/27} on-error {}
 :do {add list=$AddressList comment=ru address=172.225.46.128/26} on-error {}
 :do {add list=$AddressList comment=ru address=172.225.52.0/26} on-error {}
 :do {add list=$AddressList comment=ru address=172.225.52.64/27} on-error {}
@@ -233,7 +234,6 @@
 :do {add list=$AddressList comment=ru address=176.124.188.0/23} on-error {}
 :do {add list=$AddressList comment=ru address=176.124.192.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=176.124.196.0/23} on-error {}
-:do {add list=$AddressList comment=ru address=176.124.20.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=176.124.200.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=176.124.208.0/21} on-error {}
 :do {add list=$AddressList comment=ru address=176.124.216.0/22} on-error {}
@@ -293,7 +293,9 @@
 :do {add list=$AddressList comment=ru address=176.56.34.0/23} on-error {}
 :do {add list=$AddressList comment=ru address=176.56.36.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=176.56.48.0/21} on-error {}
-:do {add list=$AddressList comment=ru address=176.57.208.0/21} on-error {}
+:do {add list=$AddressList comment=ru address=176.57.208.0/23} on-error {}
+:do {add list=$AddressList comment=ru address=176.57.211.0/24} on-error {}
+:do {add list=$AddressList comment=ru address=176.57.212.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=176.57.216.0/22} on-error {}
 :do {add list=$AddressList comment=ru address=176.57.220.0/24} on-error {}
 :do {add list=$AddressList comment=ru address=176.57.222.0/23} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=ru address=176.98.168.0/21} on-error {}
 :do {add list=$AddressList comment=ru address=176.98.176.0/23} on-error {}
 :do {add list=$AddressList comment=ru address=176.98.178.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=176.98.180.0/24} on-error {}
-:do {add list=$AddressList comment=ru address=176.98.187.0/24} on-error {}

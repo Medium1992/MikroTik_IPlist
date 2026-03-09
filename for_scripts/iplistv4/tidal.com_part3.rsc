@@ -1,7 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tidal.com address=172.29.209.177} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.209.180} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.209.185} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.209.186} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.209.21} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.209.214} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.209.217} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.209.22} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.209.232} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.209.233} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.209.239} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.209.247} on-error {}
@@ -94,6 +101,7 @@
 :do {add list=$AddressList comment=tidal.com address=172.29.218.114} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.218.131} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.218.146} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.218.147} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.218.156} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.218.168} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.218.179} on-error {}
@@ -112,13 +120,16 @@
 :do {add list=$AddressList comment=tidal.com address=172.29.218.76} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.218.82} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.1} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.219.118} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.121} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.126} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.142} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.171} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.219.206} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.211} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.213} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.219} on-error {}
+:do {add list=$AddressList comment=tidal.com address=172.29.219.223} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.237} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.245} on-error {}
 :do {add list=$AddressList comment=tidal.com address=172.29.219.25} on-error {}
@@ -339,14 +350,3 @@
 :do {add list=$AddressList comment=tidal.com address=18.165.72.14} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.165.72.15} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.165.72.17} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.2} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.21} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.23} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.36} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.55} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.6} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.72} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.77} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.78} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.79} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.165.72.82} on-error {}

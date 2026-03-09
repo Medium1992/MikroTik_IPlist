@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=facebook.com address=95.100.181.13} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.100.181.133} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.100.181.134} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.100.181.136} on-error {}
+:do {add list=$AddressList comment=facebook.com address=95.100.181.138} on-error {}
 :do {add list=$AddressList comment=facebook.com address=95.100.181.143} on-error {}
 :do {add list=$AddressList comment=facebook.com address=95.100.181.20} on-error {}
 :do {add list=$AddressList comment=facebook.com address=95.100.181.23} on-error {}

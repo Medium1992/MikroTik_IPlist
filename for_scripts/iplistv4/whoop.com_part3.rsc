@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=whoop.com address=13.32.99.28} on-error {}
 :do {add list=$AddressList comment=whoop.com address=13.32.99.63} on-error {}
 :do {add list=$AddressList comment=whoop.com address=13.32.99.97} on-error {}
 :do {add list=$AddressList comment=whoop.com address=13.33.141.104} on-error {}
@@ -105,6 +106,7 @@
 :do {add list=$AddressList comment=whoop.com address=173.222.105.45} on-error {}
 :do {add list=$AddressList comment=whoop.com address=173.222.105.48} on-error {}
 :do {add list=$AddressList comment=whoop.com address=173.222.105.62} on-error {}
+:do {add list=$AddressList comment=whoop.com address=173.222.106.10} on-error {}
 :do {add list=$AddressList comment=whoop.com address=173.222.106.11} on-error {}
 :do {add list=$AddressList comment=whoop.com address=173.222.106.12} on-error {}
 :do {add list=$AddressList comment=whoop.com address=173.222.106.133} on-error {}
@@ -156,6 +158,7 @@
 :do {add list=$AddressList comment=whoop.com address=173.222.106.5} on-error {}
 :do {add list=$AddressList comment=whoop.com address=173.222.106.50} on-error {}
 :do {add list=$AddressList comment=whoop.com address=173.222.106.52} on-error {}
+:do {add list=$AddressList comment=whoop.com address=173.222.106.54} on-error {}
 :do {add list=$AddressList comment=whoop.com address=173.222.106.57} on-error {}
 :do {add list=$AddressList comment=whoop.com address=173.222.106.58} on-error {}
 :do {add list=$AddressList comment=whoop.com address=173.222.106.62} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=whoop.com address=18.165.61.84} on-error {}
 :do {add list=$AddressList comment=whoop.com address=18.165.61.88} on-error {}
 :do {add list=$AddressList comment=whoop.com address=18.165.61.9} on-error {}
-:do {add list=$AddressList comment=whoop.com address=18.165.72.112} on-error {}
-:do {add list=$AddressList comment=whoop.com address=18.165.72.116} on-error {}
-:do {add list=$AddressList comment=whoop.com address=18.165.72.118} on-error {}

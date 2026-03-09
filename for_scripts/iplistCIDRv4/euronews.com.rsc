@@ -5,6 +5,7 @@
 :do {add list=$AddressList comment=euronews.com address=151.101.0.0/16} on-error {}
 :do {add list=$AddressList comment=euronews.com address=18.128.0.0/9} on-error {}
 :do {add list=$AddressList comment=euronews.com address=199.232.0.0/16} on-error {}
+:do {add list=$AddressList comment=euronews.com address=3.128.0.0/9} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.192.0.0/10} on-error {}
 :do {add list=$AddressList comment=euronews.com address=46.137.0.0/17} on-error {}
 :do {add list=$AddressList comment=euronews.com address=46.51.128.0/18} on-error {}

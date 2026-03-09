@@ -219,6 +219,7 @@
 :do {add list=$AddressList comment=youtube.com address=84.235.77.0/24} on-error {}
 :do {add list=$AddressList comment=youtube.com address=84.235.78.0/24} on-error {}
 :do {add list=$AddressList comment=youtube.com address=85.112.112.0/20} on-error {}
+:do {add list=$AddressList comment=youtube.com address=85.249.244.0/23} on-error {}
 :do {add list=$AddressList comment=youtube.com address=86.120.7.128/27} on-error {}
 :do {add list=$AddressList comment=youtube.com address=86.62.126.64/27} on-error {}
 :do {add list=$AddressList comment=youtube.com address=87.245.192.0/20} on-error {}

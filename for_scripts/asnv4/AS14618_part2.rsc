@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS14618 address=184.72.64.0/18} on-error {}
+:do {add list=$AddressList comment=AS14618 address=184.73.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS14618 address=185.112.133.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=185.117.225.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=185.119.221.0/24} on-error {}
@@ -262,7 +264,6 @@
 :do {add list=$AddressList comment=AS14618 address=213.156.160.0/22} on-error {}
 :do {add list=$AddressList comment=AS14618 address=213.156.164.0/23} on-error {}
 :do {add list=$AddressList comment=AS14618 address=216.115.21.0/24} on-error {}
-:do {add list=$AddressList comment=AS14618 address=216.115.212.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=216.115.219.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=216.115.22.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=216.117.204.0/22} on-error {}
@@ -282,6 +283,7 @@
 :do {add list=$AddressList comment=AS14618 address=216.182.224.0/21} on-error {}
 :do {add list=$AddressList comment=AS14618 address=216.182.232.0/22} on-error {}
 :do {add list=$AddressList comment=AS14618 address=216.182.238.0/23} on-error {}
+:do {add list=$AddressList comment=AS14618 address=216.183.240.0/23} on-error {}
 :do {add list=$AddressList comment=AS14618 address=216.185.208.0/22} on-error {}
 :do {add list=$AddressList comment=AS14618 address=216.198.1.0/24} on-error {}
 :do {add list=$AddressList comment=AS14618 address=216.198.193.0/24} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=AS14618 address=32.192.0.0/13} on-error {}
 :do {add list=$AddressList comment=AS14618 address=34.192.0.0/12} on-error {}
 :do {add list=$AddressList comment=AS14618 address=34.224.0.0/12} on-error {}
-:do {add list=$AddressList comment=AS14618 address=35.111.255.0/24} on-error {}
-:do {add list=$AddressList comment=AS14618 address=35.153.0.0/16} on-error {}

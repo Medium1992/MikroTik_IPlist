@@ -154,6 +154,10 @@
 :do {add list=$AddressList comment=crunchyroll.com address=3.163.10.33} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=3.163.10.44} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=3.163.10.77} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=3.163.165.125} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=3.163.165.22} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=3.163.165.23} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=3.163.165.91} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=3.163.198.116} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=3.163.198.14} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=3.163.198.28} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=crunchyroll.com address=3.174.230.65} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=3.174.255.112} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=3.174.255.122} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.255.30} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.255.63} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.98.116} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.98.28} on-error {}

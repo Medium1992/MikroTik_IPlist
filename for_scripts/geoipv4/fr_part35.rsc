@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fr address=193.70.101.203/32} on-error {}
+:do {add list=$AddressList comment=fr address=193.70.101.204/30} on-error {}
+:do {add list=$AddressList comment=fr address=193.70.101.208/28} on-error {}
+:do {add list=$AddressList comment=fr address=193.70.101.224/27} on-error {}
+:do {add list=$AddressList comment=fr address=193.70.102.0/23} on-error {}
+:do {add list=$AddressList comment=fr address=193.70.104.0/25} on-error {}
+:do {add list=$AddressList comment=fr address=193.70.104.128/27} on-error {}
 :do {add list=$AddressList comment=fr address=193.70.104.161/32} on-error {}
 :do {add list=$AddressList comment=fr address=193.70.104.162/31} on-error {}
 :do {add list=$AddressList comment=fr address=193.70.104.164/30} on-error {}
@@ -209,7 +216,6 @@
 :do {add list=$AddressList comment=fr address=194.116.218.0/23} on-error {}
 :do {add list=$AddressList comment=fr address=194.116.248.0/22} on-error {}
 :do {add list=$AddressList comment=fr address=194.117.192.0/19} on-error {}
-:do {add list=$AddressList comment=fr address=194.117.238.0/24} on-error {}
 :do {add list=$AddressList comment=fr address=194.117.244.0/22} on-error {}
 :do {add list=$AddressList comment=fr address=194.117.66.0/24} on-error {}
 :do {add list=$AddressList comment=fr address=194.119.0.0/22} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=fr address=194.163.152.0/21} on-error {}
 :do {add list=$AddressList comment=fr address=194.163.160.0/19} on-error {}
 :do {add list=$AddressList comment=fr address=194.164.217.0/24} on-error {}
-:do {add list=$AddressList comment=fr address=194.164.218.64/26} on-error {}
-:do {add list=$AddressList comment=fr address=194.164.4.0/22} on-error {}
-:do {add list=$AddressList comment=fr address=194.164.72.0/21} on-error {}
-:do {add list=$AddressList comment=fr address=194.164.8.0/22} on-error {}
-:do {add list=$AddressList comment=fr address=194.165.10.0/23} on-error {}
-:do {add list=$AddressList comment=fr address=194.165.14.0/23} on-error {}

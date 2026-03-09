@@ -3,6 +3,7 @@
 :do {add list=$AddressList comment=tayga.info address=104.21.47.221} on-error {}
 :do {add list=$AddressList comment=tayga.info address=172.67.173.116} on-error {}
 :do {add list=$AddressList comment=tayga.info address=188.114.96.0} on-error {}
+:do {add list=$AddressList comment=tayga.info address=188.114.96.1} on-error {}
 :do {add list=$AddressList comment=tayga.info address=188.114.96.10} on-error {}
 :do {add list=$AddressList comment=tayga.info address=188.114.96.12} on-error {}
 :do {add list=$AddressList comment=tayga.info address=188.114.96.3} on-error {}
@@ -10,6 +11,7 @@
 :do {add list=$AddressList comment=tayga.info address=188.114.96.8} on-error {}
 :do {add list=$AddressList comment=tayga.info address=188.114.96.9} on-error {}
 :do {add list=$AddressList comment=tayga.info address=188.114.97.0} on-error {}
+:do {add list=$AddressList comment=tayga.info address=188.114.97.1} on-error {}
 :do {add list=$AddressList comment=tayga.info address=188.114.97.10} on-error {}
 :do {add list=$AddressList comment=tayga.info address=188.114.97.12} on-error {}
 :do {add list=$AddressList comment=tayga.info address=188.114.97.3} on-error {}

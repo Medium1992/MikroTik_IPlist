@@ -2,6 +2,13 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.84.106.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
+:if ([:len [/ip/route/find dst-address=52.84.106.112 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.112 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
+:if ([:len [/ip/route/find dst-address=52.84.106.116 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.116 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
+:if ([:len [/ip/route/find dst-address=52.84.106.117 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.117 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
+:if ([:len [/ip/route/find dst-address=52.84.106.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
+:if ([:len [/ip/route/find dst-address=52.84.106.127 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
+:if ([:len [/ip/route/find dst-address=52.84.106.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
 :if ([:len [/ip/route/find dst-address=52.84.106.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
 :if ([:len [/ip/route/find dst-address=52.84.106.22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
 :if ([:len [/ip/route/find dst-address=52.84.106.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
@@ -16,6 +23,10 @@
 :if ([:len [/ip/route/find dst-address=52.84.106.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
 :if ([:len [/ip/route/find dst-address=52.84.106.81 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.81 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
 :if ([:len [/ip/route/find dst-address=52.84.106.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
+:if ([:len [/ip/route/find dst-address=52.84.108.109 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.108.109 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
+:if ([:len [/ip/route/find dst-address=52.84.108.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.108.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
+:if ([:len [/ip/route/find dst-address=52.84.108.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.108.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
+:if ([:len [/ip/route/find dst-address=52.84.108.69 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.108.69 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
 :if ([:len [/ip/route/find dst-address=52.84.127.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.127.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
 :if ([:len [/ip/route/find dst-address=52.84.127.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.127.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
 :if ([:len [/ip/route/find dst-address=52.84.127.60 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.127.60 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
@@ -91,14 +102,3 @@
 :if ([:len [/ip/route/find dst-address=52.85.65.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
 :if ([:len [/ip/route/find dst-address=52.85.65.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
 :if ([:len [/ip/route/find dst-address=52.85.65.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.85.65.67 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.67 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.85.65.72 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.72 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.85.65.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.85.92.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.92.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.85.92.45 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.92.45 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.85.92.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.92.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.85.92.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.92.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.97.105.168 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.97.105.168 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.97.105.184 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.97.105.184 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.97.105.200 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.97.105.200 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }
-:if ([:len [/ip/route/find dst-address=52.97.105.72 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.97.105.72 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=themoviedb.org }

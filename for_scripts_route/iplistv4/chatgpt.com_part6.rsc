@@ -2,6 +2,20 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.84.106.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.84.106.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.84.106.44 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.84.106.98 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.98 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.85.223.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.223.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.85.223.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.223.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.85.223.72 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.223.72 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.85.223.73 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.223.73 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.112 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.112 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.67 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.67 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.93 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.93 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
 :if ([:len [/ip/route/find dst-address=52.85.5.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
 :if ([:len [/ip/route/find dst-address=52.85.5.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }
 :if ([:len [/ip/route/find dst-address=65.9.117.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.117.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=chatgpt.com }

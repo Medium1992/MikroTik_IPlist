@@ -13,9 +13,7 @@
 :do {add list=$AddressList comment=is address=104.28.226.138/31} on-error {}
 :do {add list=$AddressList comment=is address=104.28.226.140/31} on-error {}
 :do {add list=$AddressList comment=is address=104.28.40.169/32} on-error {}
-:do {add list=$AddressList comment=is address=104.28.40.174/31} on-error {}
-:do {add list=$AddressList comment=is address=104.28.40.176/28} on-error {}
-:do {add list=$AddressList comment=is address=104.28.40.192/26} on-error {}
+:do {add list=$AddressList comment=is address=104.28.40.174/32} on-error {}
 :do {add list=$AddressList comment=is address=104.28.89.24/31} on-error {}
 :do {add list=$AddressList comment=is address=104.30.168.2/32} on-error {}
 :do {add list=$AddressList comment=is address=128.140.232.0/21} on-error {}
@@ -267,7 +265,6 @@
 :do {add list=$AddressList comment=is address=213.190.96.0/19} on-error {}
 :do {add list=$AddressList comment=is address=213.213.128.0/19} on-error {}
 :do {add list=$AddressList comment=is address=213.220.64.0/18} on-error {}
-:do {add list=$AddressList comment=is address=213.234.96.0/20} on-error {}
 :do {add list=$AddressList comment=is address=217.151.160.0/19} on-error {}
 :do {add list=$AddressList comment=is address=217.171.208.0/20} on-error {}
 :do {add list=$AddressList comment=is address=217.28.176.0/20} on-error {}
@@ -298,6 +295,7 @@
 :do {add list=$AddressList comment=is address=46.28.152.0/21} on-error {}
 :do {add list=$AddressList comment=is address=5.180.43.0/24} on-error {}
 :do {add list=$AddressList comment=is address=5.23.64.0/19} on-error {}
+:do {add list=$AddressList comment=is address=5.62.20.0/24} on-error {}
 :do {add list=$AddressList comment=is address=57.86.80.0/22} on-error {}
 :do {add list=$AddressList comment=is address=62.145.128.0/19} on-error {}
 :do {add list=$AddressList comment=is address=63.141.51.0/24} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=is address=89.160.128.0/17} on-error {}
 :do {add list=$AddressList comment=is address=89.17.128.0/19} on-error {}
 :do {add list=$AddressList comment=is address=91.148.243.240/28} on-error {}
+:do {add list=$AddressList comment=is address=91.148.246.160/27} on-error {}
+:do {add list=$AddressList comment=is address=91.148.247.240/28} on-error {}

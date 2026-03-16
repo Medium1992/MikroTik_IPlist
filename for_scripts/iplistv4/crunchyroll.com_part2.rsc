@@ -25,13 +25,17 @@
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.122.76} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.122.87} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.122.94} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=18.165.140.102} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=18.165.140.111} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.140.117} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.140.4} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.140.40} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.140.45} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=18.165.140.46} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.140.60} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.140.7} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.140.81} on-error {}
+:do {add list=$AddressList comment=crunchyroll.com address=18.165.140.87} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.140.88} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.160.47} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.165.160.69} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=crunchyroll.com address=18.66.233.81} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.66.26.105} on-error {}
 :do {add list=$AddressList comment=crunchyroll.com address=18.66.26.12} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=18.66.26.18} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=18.66.26.24} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=18.66.26.25} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=18.66.26.26} on-error {}

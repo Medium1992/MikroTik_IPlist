@@ -44,13 +44,16 @@
 :do {add list=$AddressList comment=AS9318 address=43.230.0.0/22} on-error {}
 :do {add list=$AddressList comment=AS9318 address=43.242.136.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=45.14.234.0/23} on-error {}
+:do {add list=$AddressList comment=AS9318 address=45.38.145.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=45.45.209.0/24} on-error {}
+:do {add list=$AddressList comment=AS9318 address=45.45.211.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=49.128.200.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=49.128.202.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=49.128.204.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=49.128.206.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=49.128.211.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=49.128.213.0/24} on-error {}
+:do {add list=$AddressList comment=AS9318 address=50.3.101.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=58.120.0.0/17} on-error {}
 :do {add list=$AddressList comment=AS9318 address=58.120.128.0/19} on-error {}
 :do {add list=$AddressList comment=AS9318 address=58.120.160.0/22} on-error {}
@@ -327,8 +330,7 @@
 :do {add list=$AddressList comment=AS9318 address=61.98.80.0/20} on-error {}
 :do {add list=$AddressList comment=AS9318 address=61.98.96.0/19} on-error {}
 :do {add list=$AddressList comment=AS9318 address=61.99.0.0/16} on-error {}
-:do {add list=$AddressList comment=AS9318 address=64.205.231.0/24} on-error {}
+:do {add list=$AddressList comment=AS9318 address=79.99.76.0/24} on-error {}
+:do {add list=$AddressList comment=AS9318 address=82.23.13.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=82.40.39.0/24} on-error {}
-:do {add list=$AddressList comment=AS9318 address=82.40.48.0/24} on-error {}
-:do {add list=$AddressList comment=AS9318 address=82.40.51.0/24} on-error {}
 :do {add list=$AddressList comment=AS9318 address=82.41.3.0/24} on-error {}

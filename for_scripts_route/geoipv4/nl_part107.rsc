@@ -2,12 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=213.39.75.152/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.39.75.152/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
-:if ([:len [/ip/route/find dst-address=213.39.75.160/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.39.75.160/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
-:if ([:len [/ip/route/find dst-address=213.39.75.192/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.39.75.192/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
-:if ([:len [/ip/route/find dst-address=213.39.76.176/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.39.76.176/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
-:if ([:len [/ip/route/find dst-address=213.39.77.112/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.39.77.112/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
-:if ([:len [/ip/route/find dst-address=213.39.77.160/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.39.77.160/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
 :if ([:len [/ip/route/find dst-address=213.39.77.184/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.39.77.184/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
 :if ([:len [/ip/route/find dst-address=213.39.77.240/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.39.77.240/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
 :if ([:len [/ip/route/find dst-address=213.39.77.28/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.39.77.28/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
@@ -102,3 +96,9 @@
 :if ([:len [/ip/route/find dst-address=213.62.120.0/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.62.120.0/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
 :if ([:len [/ip/route/find dst-address=213.62.120.128/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.62.120.128/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
 :if ([:len [/ip/route/find dst-address=213.62.120.64/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.62.120.64/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
+:if ([:len [/ip/route/find dst-address=213.62.120.84/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.62.120.84/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
+:if ([:len [/ip/route/find dst-address=213.62.120.88/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.62.120.88/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
+:if ([:len [/ip/route/find dst-address=213.62.120.96/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.62.120.96/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
+:if ([:len [/ip/route/find dst-address=213.62.121.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.62.121.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
+:if ([:len [/ip/route/find dst-address=213.62.122.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.62.122.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }
+:if ([:len [/ip/route/find dst-address=213.62.122.128/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=213.62.122.128/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=nl }

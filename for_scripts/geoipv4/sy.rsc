@@ -222,12 +222,13 @@
 :do {add list=$AddressList comment=sy address=198.51.143.0/24} on-error {}
 :do {add list=$AddressList comment=sy address=198.51.144.0/23} on-error {}
 :do {add list=$AddressList comment=sy address=198.51.146.0/24} on-error {}
-:do {add list=$AddressList comment=sy address=205.209.64.0/19} on-error {}
+:do {add list=$AddressList comment=sy address=205.209.64.0/20} on-error {}
 :do {add list=$AddressList comment=sy address=212.107.20.0/22} on-error {}
 :do {add list=$AddressList comment=sy address=212.11.192.0/19} on-error {}
 :do {add list=$AddressList comment=sy address=213.177.185.0/24} on-error {}
 :do {add list=$AddressList comment=sy address=213.178.224.0/19} on-error {}
 :do {add list=$AddressList comment=sy address=213.217.32.0/19} on-error {}
+:do {add list=$AddressList comment=sy address=216.173.90.0/24} on-error {}
 :do {add list=$AddressList comment=sy address=217.20.208.0/20} on-error {}
 :do {add list=$AddressList comment=sy address=31.14.164.0/22} on-error {}
 :do {add list=$AddressList comment=sy address=31.193.64.0/20} on-error {}

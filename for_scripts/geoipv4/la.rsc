@@ -111,14 +111,7 @@
 :do {add list=$AddressList comment=la address=192.109.41.128/29} on-error {}
 :do {add list=$AddressList comment=la address=193.124.254.0/24} on-error {}
 :do {add list=$AddressList comment=la address=194.169.168.0/24} on-error {}
-:do {add list=$AddressList comment=la address=194.26.27.0/28} on-error {}
-:do {add list=$AddressList comment=la address=194.26.27.128/25} on-error {}
-:do {add list=$AddressList comment=la address=194.26.27.16/30} on-error {}
-:do {add list=$AddressList comment=la address=194.26.27.20/31} on-error {}
-:do {add list=$AddressList comment=la address=194.26.27.23/32} on-error {}
-:do {add list=$AddressList comment=la address=194.26.27.24/29} on-error {}
-:do {add list=$AddressList comment=la address=194.26.27.32/27} on-error {}
-:do {add list=$AddressList comment=la address=194.26.27.64/26} on-error {}
+:do {add list=$AddressList comment=la address=194.26.27.0/24} on-error {}
 :do {add list=$AddressList comment=la address=194.50.99.127/32} on-error {}
 :do {add list=$AddressList comment=la address=196.196.118.0/24} on-error {}
 :do {add list=$AddressList comment=la address=196.197.118.0/24} on-error {}
@@ -147,6 +140,7 @@
 :do {add list=$AddressList comment=la address=43.228.87.0/24} on-error {}
 :do {add list=$AddressList comment=la address=43.252.244.0/22} on-error {}
 :do {add list=$AddressList comment=la address=5.253.184.0/23} on-error {}
+:do {add list=$AddressList comment=la address=5.62.16.0/24} on-error {}
 :do {add list=$AddressList comment=la address=5.62.60.209/32} on-error {}
 :do {add list=$AddressList comment=la address=5.62.60.210/31} on-error {}
 :do {add list=$AddressList comment=la address=5.62.62.201/32} on-error {}
@@ -154,4 +148,5 @@
 :do {add list=$AddressList comment=la address=57.72.84.0/22} on-error {}
 :do {add list=$AddressList comment=la address=63.246.46.128/26} on-error {}
 :do {add list=$AddressList comment=la address=64.64.98.0/24} on-error {}
+:do {add list=$AddressList comment=la address=72.56.52.0/23} on-error {}
 :do {add list=$AddressList comment=la address=88.218.82.0/23} on-error {}

@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=95.164.68.192/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.164.68.192/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
+:if ([:len [/ip/route/find dst-address=95.164.68.196/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.164.68.196/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
+:if ([:len [/ip/route/find dst-address=95.164.68.198/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.164.68.198/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
+:if ([:len [/ip/route/find dst-address=95.164.68.200/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.164.68.200/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
+:if ([:len [/ip/route/find dst-address=95.164.68.208/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.164.68.208/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
+:if ([:len [/ip/route/find dst-address=95.164.68.224/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.164.68.224/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
 :if ([:len [/ip/route/find dst-address=95.164.69.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.164.69.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
 :if ([:len [/ip/route/find dst-address=95.164.72.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.164.72.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }
 :if ([:len [/ip/route/find dst-address=95.164.74.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.164.74.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bg }

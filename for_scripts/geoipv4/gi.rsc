@@ -124,6 +124,7 @@
 :do {add list=$AddressList comment=gi address=45.89.212.0/22} on-error {}
 :do {add list=$AddressList comment=gi address=45.94.8.0/22} on-error {}
 :do {add list=$AddressList comment=gi address=5.150.152.0/22} on-error {}
+:do {add list=$AddressList comment=gi address=5.175.190.110/31} on-error {}
 :do {add list=$AddressList comment=gi address=5.230.47.215/32} on-error {}
 :do {add list=$AddressList comment=gi address=5.62.60.153/32} on-error {}
 :do {add list=$AddressList comment=gi address=5.62.60.154/31} on-error {}

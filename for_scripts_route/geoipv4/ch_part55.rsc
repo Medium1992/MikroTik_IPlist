@@ -2,12 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=77.109.141.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.109.141.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
-:if ([:len [/ip/route/find dst-address=77.109.142.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.109.142.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
-:if ([:len [/ip/route/find dst-address=77.109.144.0/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.109.144.0/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
-:if ([:len [/ip/route/find dst-address=77.109.144.128/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.109.144.128/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
-:if ([:len [/ip/route/find dst-address=77.109.144.208/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.109.144.208/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
-:if ([:len [/ip/route/find dst-address=77.109.144.224/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.109.144.224/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
 :if ([:len [/ip/route/find dst-address=77.109.145.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.109.145.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
 :if ([:len [/ip/route/find dst-address=77.109.146.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.109.146.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
 :if ([:len [/ip/route/find dst-address=77.109.148.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=77.109.148.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
@@ -102,3 +96,9 @@
 :if ([:len [/ip/route/find dst-address=79.133.168.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=79.133.168.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
 :if ([:len [/ip/route/find dst-address=79.134.224.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=79.134.224.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
 :if ([:len [/ip/route/find dst-address=79.134.226.0/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=79.134.226.0/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
+:if ([:len [/ip/route/find dst-address=79.134.226.128/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=79.134.226.128/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
+:if ([:len [/ip/route/find dst-address=79.134.226.192/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=79.134.226.192/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
+:if ([:len [/ip/route/find dst-address=79.134.226.216/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=79.134.226.216/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
+:if ([:len [/ip/route/find dst-address=79.134.226.224/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=79.134.226.224/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
+:if ([:len [/ip/route/find dst-address=79.134.227.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=79.134.227.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }
+:if ([:len [/ip/route/find dst-address=79.134.228.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=79.134.228.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ch }

@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=facebook.com address=163.70.128.175} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.128.19} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.128.208} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.128.23} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.128.3} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.128.32} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.128.35} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.128.37} on-error {}
+:do {add list=$AddressList comment=facebook.com address=163.70.128.4} on-error {}
 :do {add list=$AddressList comment=facebook.com address=163.70.128.6} on-error {}
 :do {add list=$AddressList comment=facebook.com address=163.70.128.9} on-error {}
 :do {add list=$AddressList comment=facebook.com address=163.70.130.36} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=facebook.com address=2.21.245.174} on-error {}
 :do {add list=$AddressList comment=facebook.com address=2.21.69.18} on-error {}
 :do {add list=$AddressList comment=facebook.com address=2.21.69.19} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.22.231.114} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.22.231.115} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.22.231.125} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.22.61.163} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.22.61.186} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.22.89.25} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.22.89.55} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.22.91.138} on-error {}
-:do {add list=$AddressList comment=facebook.com address=2.22.91.140} on-error {}

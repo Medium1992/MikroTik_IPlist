@@ -35,6 +35,8 @@
 :do {add list=$AddressList comment=chatgpt.com address=52.136.0.0/13} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=52.160.0.0/11} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=52.84.0.0/14} on-error {}
+:do {add list=$AddressList comment=chatgpt.com address=64.239.109.0/24} on-error {}
+:do {add list=$AddressList comment=chatgpt.com address=64.239.123.0/24} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=65.8.0.0/14} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=74.119.238.0/23} on-error {}
 :do {add list=$AddressList comment=chatgpt.com address=8.0.0.0/13} on-error {}

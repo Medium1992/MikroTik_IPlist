@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=fr address=46.105.139.0/26} on-error {}
+:do {add list=$AddressList comment=fr address=46.105.139.128/25} on-error {}
+:do {add list=$AddressList comment=fr address=46.105.139.96/27} on-error {}
+:do {add list=$AddressList comment=fr address=46.105.140.128/25} on-error {}
+:do {add list=$AddressList comment=fr address=46.105.140.32/27} on-error {}
+:do {add list=$AddressList comment=fr address=46.105.140.64/26} on-error {}
+:do {add list=$AddressList comment=fr address=46.105.141.0/24} on-error {}
+:do {add list=$AddressList comment=fr address=46.105.142.0/24} on-error {}
+:do {add list=$AddressList comment=fr address=46.105.143.0/25} on-error {}
+:do {add list=$AddressList comment=fr address=46.105.143.128/28} on-error {}
 :do {add list=$AddressList comment=fr address=46.105.143.160/27} on-error {}
 :do {add list=$AddressList comment=fr address=46.105.143.192/26} on-error {}
 :do {add list=$AddressList comment=fr address=46.105.144.0/27} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=fr address=46.193.192.54/32} on-error {}
 :do {add list=$AddressList comment=fr address=46.193.192.56/29} on-error {}
 :do {add list=$AddressList comment=fr address=46.193.192.6/31} on-error {}
-:do {add list=$AddressList comment=fr address=46.193.192.64/26} on-error {}
-:do {add list=$AddressList comment=fr address=46.193.192.8/29} on-error {}
-:do {add list=$AddressList comment=fr address=46.193.193.0/24} on-error {}
-:do {add list=$AddressList comment=fr address=46.193.194.0/32} on-error {}
-:do {add list=$AddressList comment=fr address=46.193.194.100/31} on-error {}
-:do {add list=$AddressList comment=fr address=46.193.194.103/32} on-error {}
-:do {add list=$AddressList comment=fr address=46.193.194.104/29} on-error {}
-:do {add list=$AddressList comment=fr address=46.193.194.112/28} on-error {}
-:do {add list=$AddressList comment=fr address=46.193.194.128/25} on-error {}
-:do {add list=$AddressList comment=fr address=46.193.194.14/32} on-error {}

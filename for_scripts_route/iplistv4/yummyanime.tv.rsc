@@ -18,3 +18,4 @@
 :if ([:len [/ip/route/find dst-address=67.159.10.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.159.10.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=yummyanime.tv }
 :if ([:len [/ip/route/find dst-address=85.136.181.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=85.136.181.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=yummyanime.tv }
 :if ([:len [/ip/route/find dst-address=87.236.177.141 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.236.177.141 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=yummyanime.tv }
+:if ([:len [/ip/route/find dst-address=95.129.233.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.129.233.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=yummyanime.tv }

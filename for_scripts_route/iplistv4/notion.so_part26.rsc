@@ -2,6 +2,14 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.218.216.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.216.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.218.217.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.217.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.218.217.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.217.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.218.217.113 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.217.113 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.218.217.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.217.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.218.217.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.217.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.218.217.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.217.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.218.217.145 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.217.145 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
 :if ([:len [/ip/route/find dst-address=52.218.217.153 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.217.153 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
 :if ([:len [/ip/route/find dst-address=52.218.217.161 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.217.161 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
 :if ([:len [/ip/route/find dst-address=52.218.217.169 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.217.169 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
@@ -94,11 +102,3 @@
 :if ([:len [/ip/route/find dst-address=52.218.220.249 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.249 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
 :if ([:len [/ip/route/find dst-address=52.218.220.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
 :if ([:len [/ip/route/find dst-address=52.218.220.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.218.220.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.218.220.49 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.218.220.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.218.220.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.218.220.73 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.73 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.218.220.81 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.81 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.218.220.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.218.220.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.218.220.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }

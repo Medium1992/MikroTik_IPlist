@@ -1,7 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=pl address=185.146.8.0/22} on-error {}
-:do {add list=$AddressList comment=pl address=185.146.96.0/22} on-error {}
 :do {add list=$AddressList comment=pl address=185.147.252.0/22} on-error {}
 :do {add list=$AddressList comment=pl address=185.147.68.0/22} on-error {}
 :do {add list=$AddressList comment=pl address=185.147.99.0/24} on-error {}
@@ -186,6 +184,7 @@
 :do {add list=$AddressList comment=pl address=185.212.250.0/24} on-error {}
 :do {add list=$AddressList comment=pl address=185.212.40.0/22} on-error {}
 :do {add list=$AddressList comment=pl address=185.212.64.0/22} on-error {}
+:do {add list=$AddressList comment=pl address=185.213.120.0/24} on-error {}
 :do {add list=$AddressList comment=pl address=185.213.188.0/22} on-error {}
 :do {add list=$AddressList comment=pl address=185.213.249.0/24} on-error {}
 :do {add list=$AddressList comment=pl address=185.213.36.0/22} on-error {}
@@ -350,3 +349,4 @@
 :do {add list=$AddressList comment=pl address=185.252.180.0/22} on-error {}
 :do {add list=$AddressList comment=pl address=185.252.96.0/22} on-error {}
 :do {add list=$AddressList comment=pl address=185.253.164.0/22} on-error {}
+:do {add list=$AddressList comment=pl address=185.253.212.0/22} on-error {}

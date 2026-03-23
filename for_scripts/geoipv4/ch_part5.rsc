@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ch address=162.86.0.0/18} on-error {}
+:do {add list=$AddressList comment=ch address=162.86.128.0/17} on-error {}
+:do {add list=$AddressList comment=ch address=162.86.64.0/23} on-error {}
+:do {add list=$AddressList comment=ch address=162.86.67.0/24} on-error {}
+:do {add list=$AddressList comment=ch address=162.86.68.0/22} on-error {}
+:do {add list=$AddressList comment=ch address=162.86.72.0/21} on-error {}
 :do {add list=$AddressList comment=ch address=162.86.80.0/20} on-error {}
 :do {add list=$AddressList comment=ch address=162.86.96.0/19} on-error {}
 :do {add list=$AddressList comment=ch address=163.116.171.0/24} on-error {}
@@ -124,6 +130,7 @@
 :do {add list=$AddressList comment=ch address=169.36.248.0/21} on-error {}
 :do {add list=$AddressList comment=ch address=169.37.0.0/16} on-error {}
 :do {add list=$AddressList comment=ch address=169.39.0.0/16} on-error {}
+:do {add list=$AddressList comment=ch address=169.40.14.0/24} on-error {}
 :do {add list=$AddressList comment=ch address=169.41.0.0/16} on-error {}
 :do {add list=$AddressList comment=ch address=169.42.0.0/15} on-error {}
 :do {add list=$AddressList comment=ch address=169.49.0.0/16} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=ch address=185.112.132.54/31} on-error {}
 :do {add list=$AddressList comment=ch address=185.112.132.56/31} on-error {}
 :do {add list=$AddressList comment=ch address=185.112.132.62/32} on-error {}
-:do {add list=$AddressList comment=ch address=185.112.132.69/32} on-error {}
-:do {add list=$AddressList comment=ch address=185.112.132.71/32} on-error {}
-:do {add list=$AddressList comment=ch address=185.112.132.72/32} on-error {}
-:do {add list=$AddressList comment=ch address=185.112.132.75/32} on-error {}
-:do {add list=$AddressList comment=ch address=185.112.132.76/31} on-error {}
-:do {add list=$AddressList comment=ch address=185.112.132.80/32} on-error {}
-:do {add list=$AddressList comment=ch address=185.112.132.82/32} on-error {}

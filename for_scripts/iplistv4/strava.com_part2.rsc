@@ -33,8 +33,11 @@
 :do {add list=$AddressList comment=strava.com address=13.226.251.84} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.10} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.101} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.227.146.103} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.112} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.115} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.227.146.121} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.227.146.16} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.23} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.42} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.51} on-error {}
@@ -42,6 +45,7 @@
 :do {add list=$AddressList comment=strava.com address=13.227.146.66} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.67} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.69} on-error {}
+:do {add list=$AddressList comment=strava.com address=13.227.146.75} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.82} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.83} on-error {}
 :do {add list=$AddressList comment=strava.com address=13.227.146.88} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=18.155.153.81} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.155.202.14} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.155.202.15} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.155.202.25} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.155.202.92} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.160.10.2} on-error {}
-:do {add list=$AddressList comment=strava.com address=18.160.10.63} on-error {}

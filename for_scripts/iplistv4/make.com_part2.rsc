@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=make.com address=13.227.192.22} on-error {}
+:do {add list=$AddressList comment=make.com address=13.227.192.26} on-error {}
+:do {add list=$AddressList comment=make.com address=13.227.192.30} on-error {}
 :do {add list=$AddressList comment=make.com address=13.227.192.31} on-error {}
 :do {add list=$AddressList comment=make.com address=13.227.192.32} on-error {}
 :do {add list=$AddressList comment=make.com address=13.227.192.38} on-error {}
@@ -43,10 +46,14 @@
 :do {add list=$AddressList comment=make.com address=13.32.121.125} on-error {}
 :do {add list=$AddressList comment=make.com address=13.32.121.65} on-error {}
 :do {add list=$AddressList comment=make.com address=13.32.121.83} on-error {}
+:do {add list=$AddressList comment=make.com address=13.32.220.124} on-error {}
 :do {add list=$AddressList comment=make.com address=13.32.220.129} on-error {}
 :do {add list=$AddressList comment=make.com address=13.32.220.15} on-error {}
+:do {add list=$AddressList comment=make.com address=13.32.220.3} on-error {}
 :do {add list=$AddressList comment=make.com address=13.32.220.51} on-error {}
+:do {add list=$AddressList comment=make.com address=13.32.220.54} on-error {}
 :do {add list=$AddressList comment=make.com address=13.32.220.75} on-error {}
+:do {add list=$AddressList comment=make.com address=13.32.220.89} on-error {}
 :do {add list=$AddressList comment=make.com address=13.33.109.126} on-error {}
 :do {add list=$AddressList comment=make.com address=13.33.109.17} on-error {}
 :do {add list=$AddressList comment=make.com address=13.33.109.36} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=make.com address=18.165.72.90} on-error {}
 :do {add list=$AddressList comment=make.com address=18.165.72.96} on-error {}
 :do {add list=$AddressList comment=make.com address=18.165.72.97} on-error {}
-:do {add list=$AddressList comment=make.com address=18.172.112.115} on-error {}
-:do {add list=$AddressList comment=make.com address=18.172.112.123} on-error {}
-:do {add list=$AddressList comment=make.com address=18.172.112.15} on-error {}
-:do {add list=$AddressList comment=make.com address=18.172.112.32} on-error {}
-:do {add list=$AddressList comment=make.com address=18.172.112.47} on-error {}
-:do {add list=$AddressList comment=make.com address=18.172.112.60} on-error {}
-:do {add list=$AddressList comment=make.com address=18.172.112.62} on-error {}

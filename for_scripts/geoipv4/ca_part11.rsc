@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ca address=162.208.88.0/23} on-error {}
+:do {add list=$AddressList comment=ca address=162.208.90.0/24} on-error {}
+:do {add list=$AddressList comment=ca address=162.210.160.0/21} on-error {}
+:do {add list=$AddressList comment=ca address=162.210.180.0/22} on-error {}
+:do {add list=$AddressList comment=ca address=162.210.224.0/22} on-error {}
+:do {add list=$AddressList comment=ca address=162.210.32.0/22} on-error {}
+:do {add list=$AddressList comment=ca address=162.210.56.0/22} on-error {}
 :do {add list=$AddressList comment=ca address=162.210.8.0/22} on-error {}
 :do {add list=$AddressList comment=ca address=162.211.10.0/23} on-error {}
 :do {add list=$AddressList comment=ca address=162.211.100.0/24} on-error {}
@@ -216,7 +223,6 @@
 :do {add list=$AddressList comment=ca address=163.123.184.0/22} on-error {}
 :do {add list=$AddressList comment=ca address=163.123.217.0/24} on-error {}
 :do {add list=$AddressList comment=ca address=163.123.228.0/22} on-error {}
-:do {add list=$AddressList comment=ca address=163.123.232.0/22} on-error {}
 :do {add list=$AddressList comment=ca address=163.155.0.0/16} on-error {}
 :do {add list=$AddressList comment=ca address=163.171.155.0/24} on-error {}
 :do {add list=$AddressList comment=ca address=163.171.89.0/24} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=ca address=167.114.100.52/30} on-error {}
 :do {add list=$AddressList comment=ca address=167.114.100.56/29} on-error {}
 :do {add list=$AddressList comment=ca address=167.114.100.64/27} on-error {}
-:do {add list=$AddressList comment=ca address=167.114.100.96/28} on-error {}
-:do {add list=$AddressList comment=ca address=167.114.101.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=167.114.102.0/23} on-error {}
-:do {add list=$AddressList comment=ca address=167.114.104.0/21} on-error {}
-:do {add list=$AddressList comment=ca address=167.114.11.0/27} on-error {}
-:do {add list=$AddressList comment=ca address=167.114.11.128/25} on-error {}

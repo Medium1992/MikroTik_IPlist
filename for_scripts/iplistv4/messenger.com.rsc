@@ -71,3 +71,5 @@
 :do {add list=$AddressList comment=messenger.com address=57.144.245.32} on-error {}
 :do {add list=$AddressList comment=messenger.com address=57.144.248.141} on-error {}
 :do {add list=$AddressList comment=messenger.com address=57.144.249.32} on-error {}
+:do {add list=$AddressList comment=messenger.com address=57.145.4.141} on-error {}
+:do {add list=$AddressList comment=messenger.com address=57.145.5.32} on-error {}

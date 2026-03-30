@@ -2,6 +2,14 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=80.239.137.170 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.137.170 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=80.239.137.171 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.137.171 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=80.239.150.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.150.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=80.239.150.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.150.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=80.239.150.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.150.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=80.239.150.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.150.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=80.239.150.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.150.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=80.239.150.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.150.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=80.239.150.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.150.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=80.239.150.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.150.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=80.239.150.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=80.239.150.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
@@ -94,11 +102,3 @@
 :if ([:len [/ip/route/find dst-address=88.221.135.48 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.135.48 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=88.221.135.50 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.135.50 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=88.221.135.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.135.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=88.221.135.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.135.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=88.221.197.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.197.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=88.221.197.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.197.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=88.221.197.107 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.197.107 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=88.221.197.112 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.197.112 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=88.221.197.113 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.197.113 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=88.221.197.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.197.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=88.221.197.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.221.197.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }

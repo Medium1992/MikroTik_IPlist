@@ -32,6 +32,7 @@
 :do {add list=$AddressList comment=itch.io address=2.19.48.0/20} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.12.0/22} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.242.0/24} on-error {}
+:do {add list=$AddressList comment=itch.io address=2.20.253.0/24} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.254.0/23} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.45.0/24} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.21.0.0/20} on-error {}

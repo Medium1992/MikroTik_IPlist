@@ -101,6 +101,7 @@
 :do {add list=$AddressList comment=itch.io address=2.16.10.68} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.16.10.81} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.16.10.89} on-error {}
+:do {add list=$AddressList comment=itch.io address=2.16.103.10} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.16.103.104} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.16.103.113} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.16.103.17} on-error {}
@@ -249,6 +250,8 @@
 :do {add list=$AddressList comment=itch.io address=2.20.242.128} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.242.130} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.242.155} on-error {}
+:do {add list=$AddressList comment=itch.io address=2.20.253.86} on-error {}
+:do {add list=$AddressList comment=itch.io address=2.20.253.87} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.255.114} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.255.139} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.255.153} on-error {}
@@ -260,6 +263,8 @@
 :do {add list=$AddressList comment=itch.io address=2.20.45.35} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.45.49} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.20.45.64} on-error {}
+:do {add list=$AddressList comment=itch.io address=2.21.15.155} on-error {}
+:do {add list=$AddressList comment=itch.io address=2.21.15.227} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.21.173.105} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.21.173.121} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.21.173.144} on-error {}
@@ -294,6 +299,7 @@
 :do {add list=$AddressList comment=itch.io address=2.22.91.150} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.154.10} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.154.105} on-error {}
+:do {add list=$AddressList comment=itch.io address=2.23.154.11} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.154.112} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.154.115} on-error {}
 :do {add list=$AddressList comment=itch.io address=2.23.154.120} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=itch.io address=212.95.165.10} on-error {}
 :do {add list=$AddressList comment=itch.io address=212.95.165.11} on-error {}
 :do {add list=$AddressList comment=itch.io address=212.95.165.17} on-error {}
-:do {add list=$AddressList comment=itch.io address=212.95.165.18} on-error {}
-:do {add list=$AddressList comment=itch.io address=212.95.165.19} on-error {}
-:do {add list=$AddressList comment=itch.io address=212.95.165.33} on-error {}
-:do {add list=$AddressList comment=itch.io address=212.95.165.40} on-error {}
-:do {add list=$AddressList comment=itch.io address=212.95.165.41} on-error {}
-:do {add list=$AddressList comment=itch.io address=212.95.165.42} on-error {}

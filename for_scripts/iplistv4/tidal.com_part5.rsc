@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tidal.com address=18.244.146.79} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.244.146.81} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.244.146.83} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.244.164.117} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.244.164.17} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.244.164.38} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.244.164.93} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.244.17.247} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.244.18.30} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.244.18.54} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.244.18.62} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.244.18.79} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.244.81.247} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.244.87.10} on-error {}
@@ -227,6 +238,11 @@
 :do {add list=$AddressList comment=tidal.com address=18.66.27.87} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.66.27.91} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.66.27.95} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.67.13.126} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.67.13.243} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.67.13.50} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.67.13.68} on-error {}
+:do {add list=$AddressList comment=tidal.com address=18.67.13.70} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.67.250.104} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.67.250.127} on-error {}
 :do {add list=$AddressList comment=tidal.com address=18.67.250.4} on-error {}
@@ -334,19 +350,3 @@
 :do {add list=$AddressList comment=tidal.com address=3.160.41.247} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.160.57.6} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.160.57.62} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.160.57.76} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.160.57.95} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.103} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.108} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.116} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.123} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.126} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.127} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.128} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.13} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.14} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.23} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.24} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.30} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.35} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.161.119.36} on-error {}

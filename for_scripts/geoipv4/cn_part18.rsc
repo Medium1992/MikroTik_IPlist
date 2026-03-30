@@ -1,18 +1,10 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=cn address=210.2.2.0/24} on-error {}
-:do {add list=$AddressList comment=cn address=210.2.20.0/23} on-error {}
-:do {add list=$AddressList comment=cn address=210.2.24.0/21} on-error {}
-:do {add list=$AddressList comment=cn address=210.2.4.0/22} on-error {}
-:do {add list=$AddressList comment=cn address=210.2.8.0/21} on-error {}
-:do {add list=$AddressList comment=cn address=210.21.0.0/16} on-error {}
-:do {add list=$AddressList comment=cn address=210.22.0.0/16} on-error {}
 :do {add list=$AddressList comment=cn address=210.23.32.0/19} on-error {}
 :do {add list=$AddressList comment=cn address=210.25.0.0/16} on-error {}
 :do {add list=$AddressList comment=cn address=210.26.0.0/15} on-error {}
 :do {add list=$AddressList comment=cn address=210.28.0.0/14} on-error {}
 :do {add list=$AddressList comment=cn address=210.32.0.0/12} on-error {}
-:do {add list=$AddressList comment=cn address=210.48.136.0/22} on-error {}
 :do {add list=$AddressList comment=cn address=210.48.140.0/23} on-error {}
 :do {add list=$AddressList comment=cn address=210.48.142.0/24} on-error {}
 :do {add list=$AddressList comment=cn address=210.5.0.0/19} on-error {}
@@ -350,3 +342,11 @@
 :do {add list=$AddressList comment=cn address=27.54.72.0/21} on-error {}
 :do {add list=$AddressList comment=cn address=27.8.0.0/13} on-error {}
 :do {add list=$AddressList comment=cn address=27.98.208.0/20} on-error {}
+:do {add list=$AddressList comment=cn address=27.98.224.0/19} on-error {}
+:do {add list=$AddressList comment=cn address=27.99.128.0/17} on-error {}
+:do {add list=$AddressList comment=cn address=31.42.125.0/24} on-error {}
+:do {add list=$AddressList comment=cn address=31.56.66.0/24} on-error {}
+:do {add list=$AddressList comment=cn address=31.57.10.0/24} on-error {}
+:do {add list=$AddressList comment=cn address=31.57.248.0/24} on-error {}
+:do {add list=$AddressList comment=cn address=36.0.0.0/22} on-error {}
+:do {add list=$AddressList comment=cn address=36.0.16.0/20} on-error {}

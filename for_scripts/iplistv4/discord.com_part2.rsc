@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=discord.com address=172.67.183.173} on-error {}
+:do {add list=$AddressList comment=discord.com address=172.67.191.5} on-error {}
 :do {add list=$AddressList comment=discord.com address=172.67.193.243} on-error {}
 :do {add list=$AddressList comment=discord.com address=172.67.203.5} on-error {}
 :do {add list=$AddressList comment=discord.com address=172.67.21.236} on-error {}
@@ -106,6 +108,10 @@
 :do {add list=$AddressList comment=discord.com address=18.244.102.113} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.244.102.38} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.244.102.88} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.244.146.113} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.244.146.27} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.244.146.77} on-error {}
+:do {add list=$AddressList comment=discord.com address=18.244.146.80} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.244.18.101} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.244.18.51} on-error {}
 :do {add list=$AddressList comment=discord.com address=18.244.18.76} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=discord.com address=3.174.18.74} on-error {}
 :do {add list=$AddressList comment=discord.com address=3.174.193.103} on-error {}
 :do {add list=$AddressList comment=discord.com address=3.174.193.105} on-error {}
-:do {add list=$AddressList comment=discord.com address=3.174.193.113} on-error {}
-:do {add list=$AddressList comment=discord.com address=3.174.193.64} on-error {}
-:do {add list=$AddressList comment=discord.com address=3.174.98.112} on-error {}
-:do {add list=$AddressList comment=discord.com address=3.174.98.25} on-error {}
-:do {add list=$AddressList comment=discord.com address=3.174.98.59} on-error {}
-:do {add list=$AddressList comment=discord.com address=3.174.98.89} on-error {}

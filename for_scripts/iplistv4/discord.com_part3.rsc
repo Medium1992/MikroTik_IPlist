@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=discord.com address=3.174.193.113} on-error {}
+:do {add list=$AddressList comment=discord.com address=3.174.193.64} on-error {}
+:do {add list=$AddressList comment=discord.com address=3.174.98.112} on-error {}
+:do {add list=$AddressList comment=discord.com address=3.174.98.25} on-error {}
+:do {add list=$AddressList comment=discord.com address=3.174.98.59} on-error {}
+:do {add list=$AddressList comment=discord.com address=3.174.98.89} on-error {}
 :do {add list=$AddressList comment=discord.com address=3.175.64.103} on-error {}
 :do {add list=$AddressList comment=discord.com address=3.175.64.107} on-error {}
 :do {add list=$AddressList comment=discord.com address=3.175.64.38} on-error {}

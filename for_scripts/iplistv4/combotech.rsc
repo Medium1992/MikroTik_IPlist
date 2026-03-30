@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do {add list=$AddressList comment=combotech address=104.18.42.52} on-error {}
 :do {add list=$AddressList comment=combotech address=104.18.43.186} on-error {}
+:do {add list=$AddressList comment=combotech address=104.20.17.176} on-error {}
 :do {add list=$AddressList comment=combotech address=104.22.26.197} on-error {}
 :do {add list=$AddressList comment=combotech address=104.22.27.197} on-error {}
 :do {add list=$AddressList comment=combotech address=104.22.30.217} on-error {}
@@ -13,6 +14,7 @@
 :do {add list=$AddressList comment=combotech address=154.197.65.96} on-error {}
 :do {add list=$AddressList comment=combotech address=172.64.144.70} on-error {}
 :do {add list=$AddressList comment=combotech address=172.64.145.204} on-error {}
+:do {add list=$AddressList comment=combotech address=172.66.154.29} on-error {}
 :do {add list=$AddressList comment=combotech address=172.66.40.138} on-error {}
 :do {add list=$AddressList comment=combotech address=172.66.40.229} on-error {}
 :do {add list=$AddressList comment=combotech address=172.66.41.27} on-error {}

@@ -56,7 +56,14 @@
 :do {add list=$AddressList comment=AS10242 address=206.55.186.0/23} on-error {}
 :do {add list=$AddressList comment=AS10242 address=206.55.188.0/22} on-error {}
 :do {add list=$AddressList comment=AS10242 address=207.153.0.0/23} on-error {}
-:do {add list=$AddressList comment=AS10242 address=207.153.16.0/24} on-error {}
+:do {add list=$AddressList comment=AS10242 address=207.153.16.0/26} on-error {}
+:do {add list=$AddressList comment=AS10242 address=207.153.16.128/25} on-error {}
+:do {add list=$AddressList comment=AS10242 address=207.153.16.64/29} on-error {}
+:do {add list=$AddressList comment=AS10242 address=207.153.16.73/32} on-error {}
+:do {add list=$AddressList comment=AS10242 address=207.153.16.74/31} on-error {}
+:do {add list=$AddressList comment=AS10242 address=207.153.16.76/30} on-error {}
+:do {add list=$AddressList comment=AS10242 address=207.153.16.80/28} on-error {}
+:do {add list=$AddressList comment=AS10242 address=207.153.16.96/27} on-error {}
 :do {add list=$AddressList comment=AS10242 address=207.153.17.0/25} on-error {}
 :do {add list=$AddressList comment=AS10242 address=207.153.17.128/26} on-error {}
 :do {add list=$AddressList comment=AS10242 address=207.153.17.192/27} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=AS10242 address=68.168.189.0/25} on-error {}
 :do {add list=$AddressList comment=AS10242 address=68.168.189.128/27} on-error {}
 :do {add list=$AddressList comment=AS10242 address=68.168.189.160/29} on-error {}
-:do {add list=$AddressList comment=AS10242 address=68.168.189.168/31} on-error {}
-:do {add list=$AddressList comment=AS10242 address=68.168.189.171/32} on-error {}
-:do {add list=$AddressList comment=AS10242 address=68.168.189.172/30} on-error {}
-:do {add list=$AddressList comment=AS10242 address=68.168.189.176/28} on-error {}
-:do {add list=$AddressList comment=AS10242 address=68.168.189.192/26} on-error {}
-:do {add list=$AddressList comment=AS10242 address=68.168.190.0/23} on-error {}
-:do {add list=$AddressList comment=AS10242 address=72.50.192.0/21} on-error {}

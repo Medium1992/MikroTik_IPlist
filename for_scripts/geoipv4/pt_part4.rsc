@@ -1,22 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=pt address=208.127.99.172/30} on-error {}
-:do {add list=$AddressList comment=pt address=209.206.19.0/24} on-error {}
-:do {add list=$AddressList comment=pt address=209.242.208.0/23} on-error {}
-:do {add list=$AddressList comment=pt address=209.40.109.137/32} on-error {}
-:do {add list=$AddressList comment=pt address=209.40.109.239/32} on-error {}
-:do {add list=$AddressList comment=pt address=209.40.120.30/32} on-error {}
-:do {add list=$AddressList comment=pt address=209.40.120.53/32} on-error {}
-:do {add list=$AddressList comment=pt address=212.0.160.0/19} on-error {}
-:do {add list=$AddressList comment=pt address=212.104.208.0/23} on-error {}
-:do {add list=$AddressList comment=pt address=212.113.160.0/19} on-error {}
-:do {add list=$AddressList comment=pt address=212.115.136.132/30} on-error {}
-:do {add list=$AddressList comment=pt address=212.115.140.240/32} on-error {}
-:do {add list=$AddressList comment=pt address=212.115.165.244/30} on-error {}
-:do {add list=$AddressList comment=pt address=212.115.166.180/30} on-error {}
-:do {add list=$AddressList comment=pt address=212.115.167.112/29} on-error {}
-:do {add list=$AddressList comment=pt address=212.115.167.92/30} on-error {}
-:do {add list=$AddressList comment=pt address=212.115.181.184/29} on-error {}
 :do {add list=$AddressList comment=pt address=212.115.185.120/29} on-error {}
 :do {add list=$AddressList comment=pt address=212.13.32.0/19} on-error {}
 :do {add list=$AddressList comment=pt address=212.137.84.0/24} on-error {}
@@ -181,6 +164,7 @@
 :do {add list=$AddressList comment=pt address=213.58.0.0/16} on-error {}
 :do {add list=$AddressList comment=pt address=213.63.0.0/16} on-error {}
 :do {add list=$AddressList comment=pt address=216.132.118.0/24} on-error {}
+:do {add list=$AddressList comment=pt address=216.146.31.0/24} on-error {}
 :do {add list=$AddressList comment=pt address=216.224.126.32/27} on-error {}
 :do {add list=$AddressList comment=pt address=217.111.173.40/30} on-error {}
 :do {add list=$AddressList comment=pt address=217.118.113.0/29} on-error {}
@@ -208,6 +192,7 @@
 :do {add list=$AddressList comment=pt address=31.133.0.84/32} on-error {}
 :do {add list=$AddressList comment=pt address=31.212.216.0/21} on-error {}
 :do {add list=$AddressList comment=pt address=31.212.224.0/20} on-error {}
+:do {add list=$AddressList comment=pt address=31.212.68.0/22} on-error {}
 :do {add list=$AddressList comment=pt address=31.22.128.0/17} on-error {}
 :do {add list=$AddressList comment=pt address=31.25.8.0/23} on-error {}
 :do {add list=$AddressList comment=pt address=32.109.60.80/28} on-error {}
@@ -350,3 +335,18 @@
 :do {add list=$AddressList comment=pt address=51.254.100.124/32} on-error {}
 :do {add list=$AddressList comment=pt address=51.254.127.126/32} on-error {}
 :do {add list=$AddressList comment=pt address=51.254.164.33/32} on-error {}
+:do {add list=$AddressList comment=pt address=51.254.164.34/31} on-error {}
+:do {add list=$AddressList comment=pt address=51.254.245.184/30} on-error {}
+:do {add list=$AddressList comment=pt address=51.254.64.106/32} on-error {}
+:do {add list=$AddressList comment=pt address=51.255.208.72/30} on-error {}
+:do {add list=$AddressList comment=pt address=51.255.210.151/32} on-error {}
+:do {add list=$AddressList comment=pt address=51.255.30.48/30} on-error {}
+:do {add list=$AddressList comment=pt address=51.255.30.54/31} on-error {}
+:do {add list=$AddressList comment=pt address=51.255.30.56/31} on-error {}
+:do {add list=$AddressList comment=pt address=51.38.122.36/32} on-error {}
+:do {add list=$AddressList comment=pt address=51.77.24.216/30} on-error {}
+:do {add list=$AddressList comment=pt address=51.77.94.176/30} on-error {}
+:do {add list=$AddressList comment=pt address=51.89.191.28/30} on-error {}
+:do {add list=$AddressList comment=pt address=51.89.208.128/30} on-error {}
+:do {add list=$AddressList comment=pt address=54.36.20.223/32} on-error {}
+:do {add list=$AddressList comment=pt address=57.79.128.0/19} on-error {}

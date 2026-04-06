@@ -1,7 +1,6 @@
 :global AddressList
 /ip firewall address-list
 :do {add list=$AddressList comment=lv address=102.38.247.0/24} on-error {}
-:do {add list=$AddressList comment=lv address=103.231.73.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=104.165.205.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=104.253.250.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=104.28.105.22/31} on-error {}
@@ -49,6 +48,7 @@
 :do {add list=$AddressList comment=lv address=109.73.96.0/20} on-error {}
 :do {add list=$AddressList comment=lv address=128.77.120.96/27} on-error {}
 :do {add list=$AddressList comment=lv address=128.90.174.0/24} on-error {}
+:do {add list=$AddressList comment=lv address=13.140.16.0/21} on-error {}
 :do {add list=$AddressList comment=lv address=130.255.161.136/30} on-error {}
 :do {add list=$AddressList comment=lv address=130.41.133.0/25} on-error {}
 :do {add list=$AddressList comment=lv address=130.49.30.0/24} on-error {}
@@ -88,6 +88,7 @@
 :do {add list=$AddressList comment=lv address=144.36.114.0/23} on-error {}
 :do {add list=$AddressList comment=lv address=144.36.116.0/22} on-error {}
 :do {add list=$AddressList comment=lv address=146.19.128.0/24} on-error {}
+:do {add list=$AddressList comment=lv address=146.19.247.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=146.19.84.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=146.75.202.8/30} on-error {}
 :do {add list=$AddressList comment=lv address=148.64.10.208/28} on-error {}
@@ -280,7 +281,6 @@
 :do {add list=$AddressList comment=lv address=176.106.48.0/20} on-error {}
 :do {add list=$AddressList comment=lv address=176.106.96.0/22} on-error {}
 :do {add list=$AddressList comment=lv address=176.111.36.0/24} on-error {}
-:do {add list=$AddressList comment=lv address=176.120.67.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=176.126.162.0/24} on-error {}
 :do {add list=$AddressList comment=lv address=176.57.40.0/21} on-error {}
 :do {add list=$AddressList comment=lv address=176.67.32.0/20} on-error {}

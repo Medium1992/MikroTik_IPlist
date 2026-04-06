@@ -1,5 +1,27 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=claude.ai address=99.84.91.61} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.84.91.63} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.84.91.65} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.84.91.76} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.84.91.9} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.159.109} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.159.115} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.159.20} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.159.66} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.171.117} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.171.17} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.171.34} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.171.5} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.108} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.109} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.116} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.126} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.127} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.16} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.17} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.18} on-error {}
+:do {add list=$AddressList comment=claude.ai address=99.86.240.2} on-error {}
 :do {add list=$AddressList comment=claude.ai address=99.86.240.22} on-error {}
 :do {add list=$AddressList comment=claude.ai address=99.86.240.33} on-error {}
 :do {add list=$AddressList comment=claude.ai address=99.86.240.57} on-error {}

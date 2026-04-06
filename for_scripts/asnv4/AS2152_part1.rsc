@@ -40,10 +40,7 @@
 :do {add list=$AddressList comment=AS2152 address=136.168.0.0/17} on-error {}
 :do {add list=$AddressList comment=AS2152 address=136.168.128.0/18} on-error {}
 :do {add list=$AddressList comment=AS2152 address=136.168.192.0/19} on-error {}
-:do {add list=$AddressList comment=AS2152 address=136.168.224.0/21} on-error {}
-:do {add list=$AddressList comment=AS2152 address=136.168.232.0/22} on-error {}
-:do {add list=$AddressList comment=AS2152 address=136.168.236.0/24} on-error {}
-:do {add list=$AddressList comment=AS2152 address=136.168.239.0/24} on-error {}
+:do {add list=$AddressList comment=AS2152 address=136.168.224.0/20} on-error {}
 :do {add list=$AddressList comment=AS2152 address=136.168.242.0/23} on-error {}
 :do {add list=$AddressList comment=AS2152 address=136.168.244.0/22} on-error {}
 :do {add list=$AddressList comment=AS2152 address=136.168.248.0/21} on-error {}
@@ -299,7 +296,6 @@
 :do {add list=$AddressList comment=AS2152 address=207.166.9.0/24} on-error {}
 :do {add list=$AddressList comment=AS2152 address=207.233.0.0/19} on-error {}
 :do {add list=$AddressList comment=AS2152 address=207.233.104.0/24} on-error {}
-:do {add list=$AddressList comment=AS2152 address=207.233.106.0/24} on-error {}
 :do {add list=$AddressList comment=AS2152 address=207.233.110.0/23} on-error {}
 :do {add list=$AddressList comment=AS2152 address=207.233.112.0/21} on-error {}
 :do {add list=$AddressList comment=AS2152 address=207.233.120.0/22} on-error {}
@@ -350,3 +346,7 @@
 :do {add list=$AddressList comment=AS2152 address=209.129.64.0/18} on-error {}
 :do {add list=$AddressList comment=AS2152 address=209.129.8.0/21} on-error {}
 :do {add list=$AddressList comment=AS2152 address=209.132.147.0/24} on-error {}
+:do {add list=$AddressList comment=AS2152 address=209.132.158.0/23} on-error {}
+:do {add list=$AddressList comment=AS2152 address=209.188.128.0/17} on-error {}
+:do {add list=$AddressList comment=AS2152 address=216.231.241.0/24} on-error {}
+:do {add list=$AddressList comment=AS2152 address=64.39.112.0/20} on-error {}

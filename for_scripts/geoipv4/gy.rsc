@@ -68,7 +68,6 @@
 :do {add list=$AddressList comment=gy address=196.57.96.0/24} on-error {}
 :do {add list=$AddressList comment=gy address=196.58.96.0/24} on-error {}
 :do {add list=$AddressList comment=gy address=198.45.242.0/27} on-error {}
-:do {add list=$AddressList comment=gy address=209.59.74.141/32} on-error {}
 :do {add list=$AddressList comment=gy address=45.11.243.192/26} on-error {}
 :do {add list=$AddressList comment=gy address=5.62.56.117/32} on-error {}
 :do {add list=$AddressList comment=gy address=5.62.56.118/31} on-error {}

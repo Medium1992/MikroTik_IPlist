@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=96.45.44.118/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.45.44.118/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=au }
+:if ([:len [/ip/route/find dst-address=96.45.44.121/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.45.44.121/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=au }
+:if ([:len [/ip/route/find dst-address=96.45.44.122/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.45.44.122/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=au }
+:if ([:len [/ip/route/find dst-address=96.45.44.124/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.45.44.124/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=au }
+:if ([:len [/ip/route/find dst-address=96.45.44.127/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.45.44.127/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=au }
+:if ([:len [/ip/route/find dst-address=96.45.44.129/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.45.44.129/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=au }
 :if ([:len [/ip/route/find dst-address=96.45.44.13/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.45.44.13/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=au }
 :if ([:len [/ip/route/find dst-address=96.45.44.130/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.45.44.130/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=au }
 :if ([:len [/ip/route/find dst-address=96.45.44.132/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.45.44.132/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=au }

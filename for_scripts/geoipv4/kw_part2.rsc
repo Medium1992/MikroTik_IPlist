@@ -109,6 +109,7 @@
 :do {add list=$AddressList comment=kw address=84.246.72.0/21} on-error {}
 :do {add list=$AddressList comment=kw address=85.239.0.0/19} on-error {}
 :do {add list=$AddressList comment=kw address=87.236.120.0/21} on-error {}
+:do {add list=$AddressList comment=kw address=87.84.2.0/24} on-error {}
 :do {add list=$AddressList comment=kw address=89.203.0.0/17} on-error {}
 :do {add list=$AddressList comment=kw address=89.251.80.0/20} on-error {}
 :do {add list=$AddressList comment=kw address=91.102.144.0/21} on-error {}

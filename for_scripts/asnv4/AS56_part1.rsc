@@ -178,7 +178,10 @@
 :do {add list=$AddressList comment=AS56 address=131.62.62.0/23} on-error {}
 :do {add list=$AddressList comment=AS56 address=131.62.64.0/21} on-error {}
 :do {add list=$AddressList comment=AS56 address=131.62.72.0/22} on-error {}
+:do {add list=$AddressList comment=AS56 address=131.62.78.0/23} on-error {}
 :do {add list=$AddressList comment=AS56 address=131.62.8.0/22} on-error {}
+:do {add list=$AddressList comment=AS56 address=131.62.80.0/21} on-error {}
+:do {add list=$AddressList comment=AS56 address=131.62.88.0/22} on-error {}
 :do {add list=$AddressList comment=AS56 address=131.62.94.0/23} on-error {}
 :do {add list=$AddressList comment=AS56 address=131.62.96.0/21} on-error {}
 :do {add list=$AddressList comment=AS56 address=131.7.0.0/17} on-error {}
@@ -329,11 +332,9 @@
 :do {add list=$AddressList comment=AS56 address=137.244.0.0/15} on-error {}
 :do {add list=$AddressList comment=AS56 address=137.3.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS56 address=137.4.0.0/16} on-error {}
-:do {add list=$AddressList comment=AS56 address=137.6.0.0/18} on-error {}
+:do {add list=$AddressList comment=AS56 address=137.6.0.0/17} on-error {}
 :do {add list=$AddressList comment=AS56 address=137.6.128.0/18} on-error {}
 :do {add list=$AddressList comment=AS56 address=137.6.192.0/19} on-error {}
-:do {add list=$AddressList comment=AS56 address=137.6.64.0/20} on-error {}
-:do {add list=$AddressList comment=AS56 address=137.6.96.0/19} on-error {}
 :do {add list=$AddressList comment=AS56 address=137.7.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS56 address=137.9.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS56 address=138.13.0.0/16} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=AS56 address=143.141.104.0/22} on-error {}
 :do {add list=$AddressList comment=AS56 address=143.141.112.0/21} on-error {}
 :do {add list=$AddressList comment=AS56 address=143.141.128.0/22} on-error {}
-:do {add list=$AddressList comment=AS56 address=143.141.136.0/21} on-error {}

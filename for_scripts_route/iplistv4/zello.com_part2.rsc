@@ -2,6 +2,9 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=158.247.16.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=158.247.16.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
+:if ([:len [/ip/route/find dst-address=159.8.207.42 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=159.8.207.42 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
+:if ([:len [/ip/route/find dst-address=161.202.74.157 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=161.202.74.157 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
 :if ([:len [/ip/route/find dst-address=168.1.52.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=168.1.52.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
 :if ([:len [/ip/route/find dst-address=169.45.218.12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=169.45.218.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
 :if ([:len [/ip/route/find dst-address=169.45.252.171 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=169.45.252.171 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
@@ -65,6 +68,7 @@
 :if ([:len [/ip/route/find dst-address=18.210.150.161 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.210.150.161 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
 :if ([:len [/ip/route/find dst-address=18.211.211.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.211.211.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
 :if ([:len [/ip/route/find dst-address=18.213.117.40 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.213.117.40 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
+:if ([:len [/ip/route/find dst-address=18.214.211.205 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.214.211.205 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
 :if ([:len [/ip/route/find dst-address=18.215.46.240 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.215.46.240 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
 :if ([:len [/ip/route/find dst-address=18.232.43.224 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.232.43.224 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
 :if ([:len [/ip/route/find dst-address=18.235.4.171 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.235.4.171 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=18.64.79.93 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.64.79.93 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
 :if ([:len [/ip/route/find dst-address=18.65.229.113 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.229.113 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
 :if ([:len [/ip/route/find dst-address=18.65.229.34 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.229.34 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
-:if ([:len [/ip/route/find dst-address=18.65.229.45 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.229.45 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
-:if ([:len [/ip/route/find dst-address=18.65.229.86 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.65.229.86 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
-:if ([:len [/ip/route/find dst-address=18.66.26.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.26.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }
-:if ([:len [/ip/route/find dst-address=18.66.26.48 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.26.48 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zello.com }

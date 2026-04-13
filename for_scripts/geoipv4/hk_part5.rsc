@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=hk address=103.80.220.64/26} on-error {}
+:do {add list=$AddressList comment=hk address=103.80.221.0/24} on-error {}
+:do {add list=$AddressList comment=hk address=103.80.24.0/22} on-error {}
+:do {add list=$AddressList comment=hk address=103.80.252.0/23} on-error {}
+:do {add list=$AddressList comment=hk address=103.82.16.0/22} on-error {}
+:do {add list=$AddressList comment=hk address=103.82.168.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=103.82.170.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.82.212.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=103.82.216.0/22} on-error {}
@@ -59,7 +65,7 @@
 :do {add list=$AddressList comment=hk address=103.94.103.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.94.148.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=103.94.184.0/24} on-error {}
-:do {add list=$AddressList comment=hk address=103.94.214.0/23} on-error {}
+:do {add list=$AddressList comment=hk address=103.94.214.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.94.76.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=103.95.103.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.95.176.0/22} on-error {}
@@ -108,10 +114,12 @@
 :do {add list=$AddressList comment=hk address=104.192.80.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.208.64.0/18} on-error {}
 :do {add list=$AddressList comment=hk address=104.214.160.0/19} on-error {}
+:do {add list=$AddressList comment=hk address=104.219.210.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.223.37.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.233.130.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.233.220.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=104.233.224.0/23} on-error {}
+:do {add list=$AddressList comment=hk address=104.233.247.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.233.252.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=104.234.157.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=104.234.176.0/24} on-error {}
@@ -240,17 +248,6 @@
 :do {add list=$AddressList comment=hk address=104.28.66.241/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.28.66.242/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.28.66.255/32} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.11/32} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.12/32} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.222/31} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.224/29} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.235/32} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.236/32} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.241/32} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.242/32} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.251/32} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.252/32} on-error {}
-:do {add list=$AddressList comment=hk address=104.28.67.255/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.28.68.0/31} on-error {}
 :do {add list=$AddressList comment=hk address=104.28.68.10/31} on-error {}
 :do {add list=$AddressList comment=hk address=104.28.68.100/32} on-error {}
@@ -350,3 +347,6 @@
 :do {add list=$AddressList comment=hk address=104.30.161.55/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.30.161.67/32} on-error {}
 :do {add list=$AddressList comment=hk address=104.30.162.114/32} on-error {}
+:do {add list=$AddressList comment=hk address=104.30.162.141/32} on-error {}
+:do {add list=$AddressList comment=hk address=104.30.162.2/32} on-error {}
+:do {add list=$AddressList comment=hk address=104.30.162.23/32} on-error {}

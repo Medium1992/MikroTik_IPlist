@@ -9,6 +9,8 @@
 :do {add list=$AddressList comment=bestchange.ru address=186.2.165.82} on-error {}
 :do {add list=$AddressList comment=bestchange.ru address=188.124.37.146} on-error {}
 :do {add list=$AddressList comment=bestchange.ru address=188.165.25.6} on-error {}
+:do {add list=$AddressList comment=bestchange.ru address=193.187.173.68} on-error {}
+:do {add list=$AddressList comment=bestchange.ru address=193.187.173.70} on-error {}
 :do {add list=$AddressList comment=bestchange.ru address=34.8.0.82} on-error {}
 :do {add list=$AddressList comment=bestchange.ru address=37.9.38.38} on-error {}
 :do {add list=$AddressList comment=bestchange.ru address=5.135.168.234} on-error {}

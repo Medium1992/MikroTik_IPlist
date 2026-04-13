@@ -100,18 +100,6 @@
 :do {add list=$AddressList comment=AS6730 address=45.85.99.0/24} on-error {}
 :do {add list=$AddressList comment=AS6730 address=46.126.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS6730 address=46.127.0.0/18} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.112.0/22} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.116.0/28} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.116.128/25} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.116.16/29} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.116.24/31} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.116.26/32} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.116.28/30} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.116.32/27} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.116.64/26} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.117.0/24} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.118.0/23} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.120.0/21} on-error {}
 :do {add list=$AddressList comment=AS6730 address=46.127.128.0/17} on-error {}
 :do {add list=$AddressList comment=AS6730 address=46.127.64.0/24} on-error {}
 :do {add list=$AddressList comment=AS6730 address=46.127.65.0/25} on-error {}
@@ -126,7 +114,7 @@
 :do {add list=$AddressList comment=AS6730 address=46.127.68.0/22} on-error {}
 :do {add list=$AddressList comment=AS6730 address=46.127.72.0/21} on-error {}
 :do {add list=$AddressList comment=AS6730 address=46.127.80.0/20} on-error {}
-:do {add list=$AddressList comment=AS6730 address=46.127.96.0/20} on-error {}
+:do {add list=$AddressList comment=AS6730 address=46.127.96.0/19} on-error {}
 :do {add list=$AddressList comment=AS6730 address=46.140.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS6730 address=62.167.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS6730 address=62.2.0.0/16} on-error {}

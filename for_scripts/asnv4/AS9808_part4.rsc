@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS9808 address=120.240.64.0/20} on-error {}
 :do {add list=$AddressList comment=AS9808 address=120.240.80.0/23} on-error {}
 :do {add list=$AddressList comment=AS9808 address=120.240.93.0/24} on-error {}
 :do {add list=$AddressList comment=AS9808 address=120.240.94.0/23} on-error {}
@@ -97,8 +96,6 @@
 :do {add list=$AddressList comment=AS9808 address=157.66.164.0/23} on-error {}
 :do {add list=$AddressList comment=AS9808 address=160.19.76.0/23} on-error {}
 :do {add list=$AddressList comment=AS9808 address=182.157.0.0/16} on-error {}
-:do {add list=$AddressList comment=AS9808 address=183.192.161.0/24} on-error {}
-:do {add list=$AddressList comment=AS9808 address=183.192.162.0/24} on-error {}
 :do {add list=$AddressList comment=AS9808 address=183.192.164.0/22} on-error {}
 :do {add list=$AddressList comment=AS9808 address=183.192.168.0/21} on-error {}
 :do {add list=$AddressList comment=AS9808 address=183.192.176.0/20} on-error {}
@@ -203,6 +200,7 @@
 :do {add list=$AddressList comment=AS9808 address=183.233.128.0/19} on-error {}
 :do {add list=$AddressList comment=AS9808 address=183.233.160.0/20} on-error {}
 :do {add list=$AddressList comment=AS9808 address=183.233.176.0/22} on-error {}
+:do {add list=$AddressList comment=AS9808 address=183.233.183.0/24} on-error {}
 :do {add list=$AddressList comment=AS9808 address=183.233.184.0/21} on-error {}
 :do {add list=$AddressList comment=AS9808 address=183.233.19.0/24} on-error {}
 :do {add list=$AddressList comment=AS9808 address=183.233.192.0/20} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=AS9808 address=183.238.21.0/24} on-error {}
 :do {add list=$AddressList comment=AS9808 address=183.238.213.0/24} on-error {}
 :do {add list=$AddressList comment=AS9808 address=183.238.214.0/23} on-error {}
+:do {add list=$AddressList comment=AS9808 address=183.238.216.0/21} on-error {}
+:do {add list=$AddressList comment=AS9808 address=183.238.22.0/23} on-error {}

@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ralphlauren.eu address=104.18.14.158} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=104.18.15.158} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=104.18.40.196} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=104.21.65.222} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=116.51.25.129} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=116.51.25.130} on-error {}
@@ -46,6 +49,7 @@
 :do {add list=$AddressList comment=ralphlauren.eu address=165.254.198.78} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=165.254.198.79} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=165.254.198.80} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=172.64.147.60} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=172.67.193.131} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=188.114.96.0} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=188.114.96.10} on-error {}
@@ -90,3 +94,5 @@
 :do {add list=$AddressList comment=ralphlauren.eu address=64.71.161.56} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=64.71.161.57} on-error {}
 :do {add list=$AddressList comment=ralphlauren.eu address=64.71.161.59} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=8.47.69.0} on-error {}
+:do {add list=$AddressList comment=ralphlauren.eu address=8.6.112.0} on-error {}

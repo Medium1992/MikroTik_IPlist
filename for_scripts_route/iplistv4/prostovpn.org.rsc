@@ -4,3 +4,5 @@
 /ip route
 :if ([:len [/ip/route/find dst-address=130.255.78.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=130.255.78.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=prostovpn.org }
 :if ([:len [/ip/route/find dst-address=195.123.208.131 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.123.208.131 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=prostovpn.org }
+:if ([:len [/ip/route/find dst-address=195.123.215.176 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.123.215.176 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=prostovpn.org }
+:if ([:len [/ip/route/find dst-address=195.123.215.185 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.123.215.185 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=prostovpn.org }

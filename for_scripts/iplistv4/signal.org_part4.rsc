@@ -1,5 +1,23 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=signal.org address=44.217.223.222} on-error {}
+:do {add list=$AddressList comment=signal.org address=44.218.127.61} on-error {}
+:do {add list=$AddressList comment=signal.org address=44.219.112.129} on-error {}
+:do {add list=$AddressList comment=signal.org address=44.219.76.109} on-error {}
+:do {add list=$AddressList comment=signal.org address=44.221.186.20} on-error {}
+:do {add list=$AddressList comment=signal.org address=44.221.188.5} on-error {}
+:do {add list=$AddressList comment=signal.org address=50.16.133.64} on-error {}
+:do {add list=$AddressList comment=signal.org address=50.16.139.207} on-error {}
+:do {add list=$AddressList comment=signal.org address=50.17.190.197} on-error {}
+:do {add list=$AddressList comment=signal.org address=52.0.157.130} on-error {}
+:do {add list=$AddressList comment=signal.org address=52.0.54.110} on-error {}
+:do {add list=$AddressList comment=signal.org address=52.1.0.79} on-error {}
+:do {add list=$AddressList comment=signal.org address=52.1.115.66} on-error {}
+:do {add list=$AddressList comment=signal.org address=52.1.194.236} on-error {}
+:do {add list=$AddressList comment=signal.org address=52.2.1.121} on-error {}
+:do {add list=$AddressList comment=signal.org address=52.2.17.120} on-error {}
+:do {add list=$AddressList comment=signal.org address=52.2.190.16} on-error {}
+:do {add list=$AddressList comment=signal.org address=52.2.206.1} on-error {}
 :do {add list=$AddressList comment=signal.org address=52.2.48.2} on-error {}
 :do {add list=$AddressList comment=signal.org address=52.20.24.186} on-error {}
 :do {add list=$AddressList comment=signal.org address=52.20.89.197} on-error {}
@@ -18,6 +36,7 @@
 :do {add list=$AddressList comment=signal.org address=52.204.243.49} on-error {}
 :do {add list=$AddressList comment=signal.org address=52.204.60.38} on-error {}
 :do {add list=$AddressList comment=signal.org address=52.204.71.252} on-error {}
+:do {add list=$AddressList comment=signal.org address=52.205.153.76} on-error {}
 :do {add list=$AddressList comment=signal.org address=52.205.154.83} on-error {}
 :do {add list=$AddressList comment=signal.org address=52.205.233.189} on-error {}
 :do {add list=$AddressList comment=signal.org address=52.205.34.75} on-error {}
@@ -105,6 +124,7 @@
 :do {add list=$AddressList comment=signal.org address=54.156.191.237} on-error {}
 :do {add list=$AddressList comment=signal.org address=54.156.232.155} on-error {}
 :do {add list=$AddressList comment=signal.org address=54.157.151.9} on-error {}
+:do {add list=$AddressList comment=signal.org address=54.157.152.21} on-error {}
 :do {add list=$AddressList comment=signal.org address=54.157.157.41} on-error {}
 :do {add list=$AddressList comment=signal.org address=54.157.93.64} on-error {}
 :do {add list=$AddressList comment=signal.org address=54.158.183.230} on-error {}
@@ -151,6 +171,7 @@
 :do {add list=$AddressList comment=signal.org address=54.236.187.226} on-error {}
 :do {add list=$AddressList comment=signal.org address=54.242.28.207} on-error {}
 :do {add list=$AddressList comment=signal.org address=54.242.75.165} on-error {}
+:do {add list=$AddressList comment=signal.org address=54.80.10.173} on-error {}
 :do {add list=$AddressList comment=signal.org address=54.80.54.186} on-error {}
 :do {add list=$AddressList comment=signal.org address=54.81.165.217} on-error {}
 :do {add list=$AddressList comment=signal.org address=54.82.132.131} on-error {}
@@ -231,6 +252,7 @@
 :do {add list=$AddressList comment=signal.org address=8.6.112.8} on-error {}
 :do {add list=$AddressList comment=signal.org address=8.6.112.9} on-error {}
 :do {add list=$AddressList comment=signal.org address=98.80.49.69} on-error {}
+:do {add list=$AddressList comment=signal.org address=98.82.239.140} on-error {}
 :do {add list=$AddressList comment=signal.org address=98.82.45.58} on-error {}
 :do {add list=$AddressList comment=signal.org address=98.83.47.7} on-error {}
 :do {add list=$AddressList comment=signal.org address=98.85.112.113} on-error {}

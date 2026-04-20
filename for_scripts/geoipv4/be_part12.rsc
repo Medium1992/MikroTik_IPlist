@@ -1,5 +1,21 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=be address=217.111.248.144/30} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.152/30} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.16/29} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.168/29} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.176/30} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.184/29} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.192/29} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.204/30} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.212/30} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.220/30} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.224/28} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.240/29} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.252/30} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.28/30} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.32/31} on-error {}
+:do {add list=$AddressList comment=be address=217.111.248.36/30} on-error {}
 :do {add list=$AddressList comment=be address=217.111.248.40/29} on-error {}
 :do {add list=$AddressList comment=be address=217.111.248.48/29} on-error {}
 :do {add list=$AddressList comment=be address=217.111.248.64/29} on-error {}
@@ -264,15 +280,7 @@
 :do {add list=$AddressList comment=be address=37.72.224.0/21} on-error {}
 :do {add list=$AddressList comment=be address=38.175.116.0/24} on-error {}
 :do {add list=$AddressList comment=be address=38.180.18.0/24} on-error {}
-:do {add list=$AddressList comment=be address=38.180.86.0/28} on-error {}
-:do {add list=$AddressList comment=be address=38.180.86.128/25} on-error {}
-:do {add list=$AddressList comment=be address=38.180.86.16/30} on-error {}
-:do {add list=$AddressList comment=be address=38.180.86.20/32} on-error {}
-:do {add list=$AddressList comment=be address=38.180.86.22/31} on-error {}
-:do {add list=$AddressList comment=be address=38.180.86.24/29} on-error {}
-:do {add list=$AddressList comment=be address=38.180.86.32/27} on-error {}
-:do {add list=$AddressList comment=be address=38.180.86.64/26} on-error {}
-:do {add list=$AddressList comment=be address=38.180.87.0/24} on-error {}
+:do {add list=$AddressList comment=be address=38.180.86.0/23} on-error {}
 :do {add list=$AddressList comment=be address=38.210.122.0/24} on-error {}
 :do {add list=$AddressList comment=be address=38.244.130.0/23} on-error {}
 :do {add list=$AddressList comment=be address=38.255.7.0/24} on-error {}
@@ -326,8 +334,6 @@
 :do {add list=$AddressList comment=be address=45.138.168.0/23} on-error {}
 :do {add list=$AddressList comment=be address=45.138.170.0/24} on-error {}
 :do {add list=$AddressList comment=be address=45.140.171.0/24} on-error {}
-:do {add list=$AddressList comment=be address=45.144.128.0/24} on-error {}
-:do {add list=$AddressList comment=be address=45.144.130.0/23} on-error {}
 :do {add list=$AddressList comment=be address=45.149.64.0/23} on-error {}
 :do {add list=$AddressList comment=be address=45.149.96.0/22} on-error {}
 :do {add list=$AddressList comment=be address=45.152.68.0/24} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=be address=45.57.20.0/23} on-error {}
 :do {add list=$AddressList comment=be address=45.74.6.0/24} on-error {}
 :do {add list=$AddressList comment=be address=45.83.37.48/29} on-error {}
-:do {add list=$AddressList comment=be address=45.83.39.240/29} on-error {}
-:do {add list=$AddressList comment=be address=45.85.20.0/22} on-error {}
-:do {add list=$AddressList comment=be address=45.85.28.0/22} on-error {}
-:do {add list=$AddressList comment=be address=45.86.92.0/22} on-error {}
-:do {add list=$AddressList comment=be address=45.87.76.0/22} on-error {}
-:do {add list=$AddressList comment=be address=45.91.140.0/22} on-error {}

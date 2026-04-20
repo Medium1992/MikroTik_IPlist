@@ -83,6 +83,7 @@
 :do {add list=$AddressList comment=ba address=164.40.224.0/21} on-error {}
 :do {add list=$AddressList comment=ba address=170.168.169.0/24} on-error {}
 :do {add list=$AddressList comment=ba address=171.22.20.0/22} on-error {}
+:do {add list=$AddressList comment=ba address=172.216.246.0/24} on-error {}
 :do {add list=$AddressList comment=ba address=172.225.190.64/27} on-error {}
 :do {add list=$AddressList comment=ba address=172.225.34.0/28} on-error {}
 :do {add list=$AddressList comment=ba address=172.225.40.96/27} on-error {}
@@ -263,12 +264,10 @@
 :do {add list=$AddressList comment=ba address=81.94.0.0/20} on-error {}
 :do {add list=$AddressList comment=ba address=82.117.232.0/21} on-error {}
 :do {add list=$AddressList comment=ba address=82.118.0.0/20} on-error {}
-:do {add list=$AddressList comment=ba address=84.41.104.0/24} on-error {}
-:do {add list=$AddressList comment=ba address=84.41.106.62/32} on-error {}
-:do {add list=$AddressList comment=ba address=84.41.109.0/24} on-error {}
 :do {add list=$AddressList comment=ba address=84.41.116.56/29} on-error {}
 :do {add list=$AddressList comment=ba address=84.41.117.176/28} on-error {}
 :do {add list=$AddressList comment=ba address=84.41.118.104/29} on-error {}
+:do {add list=$AddressList comment=ba address=84.41.96.0/20} on-error {}
 :do {add list=$AddressList comment=ba address=85.158.32.0/21} on-error {}
 :do {add list=$AddressList comment=ba address=85.209.96.0/22} on-error {}
 :do {add list=$AddressList comment=ba address=85.235.84.0/22} on-error {}
@@ -294,6 +293,7 @@
 :do {add list=$AddressList comment=ba address=93.180.144.0/21} on-error {}
 :do {add list=$AddressList comment=ba address=93.180.96.0/19} on-error {}
 :do {add list=$AddressList comment=ba address=94.250.0.0/17} on-error {}
+:do {add list=$AddressList comment=ba address=95.133.140.0/22} on-error {}
 :do {add list=$AddressList comment=ba address=95.133.232.0/22} on-error {}
 :do {add list=$AddressList comment=ba address=95.156.128.0/18} on-error {}
 :do {add list=$AddressList comment=ba address=95.47.208.0/20} on-error {}

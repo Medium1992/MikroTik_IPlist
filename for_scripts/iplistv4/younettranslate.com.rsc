@@ -1,9 +1,13 @@
 :global AddressList
 /ip firewall address-list
 :do {add list=$AddressList comment=younettranslate.com address=100.29.24.1} on-error {}
+:do {add list=$AddressList comment=younettranslate.com address=172.233.212.129} on-error {}
+:do {add list=$AddressList comment=younettranslate.com address=172.233.212.151} on-error {}
+:do {add list=$AddressList comment=younettranslate.com address=172.233.212.224} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.233.219.123} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.233.219.49} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.233.219.78} on-error {}
+:do {add list=$AddressList comment=younettranslate.com address=172.234.31.13} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.237.146.25} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.237.146.38} on-error {}
 :do {add list=$AddressList comment=younettranslate.com address=172.237.146.8} on-error {}

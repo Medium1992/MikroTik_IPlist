@@ -137,6 +137,7 @@
 :do {add list=$AddressList comment=ci address=172.225.160.80/28} on-error {}
 :do {add list=$AddressList comment=ci address=172.68.13.0/24} on-error {}
 :do {add list=$AddressList comment=ci address=172.71.252.0/24} on-error {}
+:do {add list=$AddressList comment=ci address=179.64.84.0/23} on-error {}
 :do {add list=$AddressList comment=ci address=184.25.239.0/24} on-error {}
 :do {add list=$AddressList comment=ci address=185.223.180.212/32} on-error {}
 :do {add list=$AddressList comment=ci address=192.12.110.0/24} on-error {}

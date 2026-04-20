@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=facebook.com address=69.197.153.180} on-error {}
+:do {add list=$AddressList comment=facebook.com address=69.30.25.21} on-error {}
+:do {add list=$AddressList comment=facebook.com address=69.50.221.20} on-error {}
+:do {add list=$AddressList comment=facebook.com address=69.63.176.143} on-error {}
+:do {add list=$AddressList comment=facebook.com address=69.63.176.15} on-error {}
+:do {add list=$AddressList comment=facebook.com address=69.63.178.13} on-error {}
+:do {add list=$AddressList comment=facebook.com address=69.63.180.173} on-error {}
+:do {add list=$AddressList comment=facebook.com address=69.63.181.12} on-error {}
+:do {add list=$AddressList comment=facebook.com address=69.63.184.14} on-error {}
+:do {add list=$AddressList comment=facebook.com address=69.63.184.142} on-error {}
+:do {add list=$AddressList comment=facebook.com address=69.63.184.30} on-error {}
 :do {add list=$AddressList comment=facebook.com address=69.63.186.30} on-error {}
 :do {add list=$AddressList comment=facebook.com address=69.63.186.31} on-error {}
 :do {add list=$AddressList comment=facebook.com address=69.63.187.12} on-error {}

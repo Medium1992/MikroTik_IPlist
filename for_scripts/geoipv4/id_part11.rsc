@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=id address=111.68.24.0/21} on-error {}
+:do {add list=$AddressList comment=id address=111.92.160.0/20} on-error {}
+:do {add list=$AddressList comment=id address=111.94.0.0/16} on-error {}
+:do {add list=$AddressList comment=id address=111.95.0.0/17} on-error {}
+:do {add list=$AddressList comment=id address=111.95.128.0/18} on-error {}
 :do {add list=$AddressList comment=id address=111.95.192.0/19} on-error {}
 :do {add list=$AddressList comment=id address=111.95.224.0/20} on-error {}
 :do {add list=$AddressList comment=id address=111.95.240.0/22} on-error {}
@@ -298,6 +303,8 @@
 :do {add list=$AddressList comment=id address=13.34.36.0/26} on-error {}
 :do {add list=$AddressList comment=id address=13.34.78.0/26} on-error {}
 :do {add list=$AddressList comment=id address=130.176.129.0/24} on-error {}
+:do {add list=$AddressList comment=id address=130.176.33.0/25} on-error {}
+:do {add list=$AddressList comment=id address=130.176.44.0/25} on-error {}
 :do {add list=$AddressList comment=id address=130.41.154.64/27} on-error {}
 :do {add list=$AddressList comment=id address=130.41.161.0/24} on-error {}
 :do {add list=$AddressList comment=id address=130.41.214.192/27} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=id address=131.229.247.34/31} on-error {}
 :do {add list=$AddressList comment=id address=131.229.248.13/32} on-error {}
 :do {add list=$AddressList comment=id address=131.229.248.141/32} on-error {}
-:do {add list=$AddressList comment=id address=131.229.255.13/32} on-error {}
-:do {add list=$AddressList comment=id address=131.229.255.141/32} on-error {}
-:do {add list=$AddressList comment=id address=132.255.134.0/24} on-error {}
-:do {add list=$AddressList comment=id address=134.231.164.0/25} on-error {}
-:do {add list=$AddressList comment=id address=134.231.191.192/26} on-error {}
-:do {add list=$AddressList comment=id address=134.231.225.0/25} on-error {}
-:do {add list=$AddressList comment=id address=134.238.23.160/27} on-error {}

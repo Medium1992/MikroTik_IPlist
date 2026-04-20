@@ -6,17 +6,15 @@
 :do {add list=$AddressList comment=AS25198 address=103.244.144.0/23} on-error {}
 :do {add list=$AddressList comment=AS25198 address=103.246.248.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=109.111.255.0/24} on-error {}
+:do {add list=$AddressList comment=AS25198 address=132.243.215.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=162.249.124.0/22} on-error {}
-:do {add list=$AddressList comment=AS25198 address=168.222.104.0/22} on-error {}
 :do {add list=$AddressList comment=AS25198 address=173.239.230.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=185.101.107.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=185.104.63.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=188.211.233.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=188.241.218.0/23} on-error {}
 :do {add list=$AddressList comment=AS25198 address=193.124.205.0/24} on-error {}
-:do {add list=$AddressList comment=AS25198 address=194.152.145.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=195.133.58.0/24} on-error {}
-:do {add list=$AddressList comment=AS25198 address=195.211.190.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=195.74.93.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=2.27.92.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=203.14.32.0/24} on-error {}
@@ -25,6 +23,7 @@
 :do {add list=$AddressList comment=AS25198 address=205.237.110.0/23} on-error {}
 :do {add list=$AddressList comment=AS25198 address=216.83.52.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=45.128.78.0/24} on-error {}
+:do {add list=$AddressList comment=AS25198 address=45.196.241.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=46.229.243.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=46.229.251.0/24} on-error {}
 :do {add list=$AddressList comment=AS25198 address=46.229.253.0/24} on-error {}

@@ -19,6 +19,7 @@
 :do {add list=$AddressList comment=um address=162.120.214.16/32} on-error {}
 :do {add list=$AddressList comment=um address=162.120.216.178/32} on-error {}
 :do {add list=$AddressList comment=um address=178.175.138.90/32} on-error {}
+:do {add list=$AddressList comment=um address=179.64.24.0/23} on-error {}
 :do {add list=$AddressList comment=um address=194.50.99.233/32} on-error {}
 :do {add list=$AddressList comment=um address=216.252.220.112/29} on-error {}
 :do {add list=$AddressList comment=um address=216.252.220.240/29} on-error {}

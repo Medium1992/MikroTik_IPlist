@@ -14,11 +14,15 @@
 :do {add list=$AddressList comment=anilibria.tv address=104.21.96.1} on-error {}
 :do {add list=$AddressList comment=anilibria.tv address=116.203.58.148} on-error {}
 :do {add list=$AddressList comment=anilibria.tv address=13.229.114.252} on-error {}
+:do {add list=$AddressList comment=anilibria.tv address=172.233.212.129} on-error {}
+:do {add list=$AddressList comment=anilibria.tv address=172.233.212.151} on-error {}
+:do {add list=$AddressList comment=anilibria.tv address=172.233.212.224} on-error {}
 :do {add list=$AddressList comment=anilibria.tv address=172.233.219.123} on-error {}
 :do {add list=$AddressList comment=anilibria.tv address=172.233.219.49} on-error {}
 :do {add list=$AddressList comment=anilibria.tv address=172.233.219.55} on-error {}
 :do {add list=$AddressList comment=anilibria.tv address=172.233.219.78} on-error {}
 :do {add list=$AddressList comment=anilibria.tv address=172.234.212.122} on-error {}
+:do {add list=$AddressList comment=anilibria.tv address=172.234.31.13} on-error {}
 :do {add list=$AddressList comment=anilibria.tv address=172.236.123.101} on-error {}
 :do {add list=$AddressList comment=anilibria.tv address=172.237.146.25} on-error {}
 :do {add list=$AddressList comment=anilibria.tv address=172.237.146.38} on-error {}

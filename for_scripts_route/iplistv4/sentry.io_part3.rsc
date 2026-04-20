@@ -2,6 +2,7 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=34.160.81.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.160.81.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
 :if ([:len [/ip/route/find dst-address=34.36.122.224 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.36.122.224 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
 :if ([:len [/ip/route/find dst-address=34.36.143.250 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.36.143.250 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
 :if ([:len [/ip/route/find dst-address=34.36.255.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.36.255.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }

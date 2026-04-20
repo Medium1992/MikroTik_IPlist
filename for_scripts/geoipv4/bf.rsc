@@ -99,6 +99,8 @@
 :do {add list=$AddressList comment=bf address=172.225.178.0/28} on-error {}
 :do {add list=$AddressList comment=bf address=172.225.212.32/28} on-error {}
 :do {add list=$AddressList comment=bf address=172.71.3.0/24} on-error {}
+:do {add list=$AddressList comment=bf address=179.64.104.0/23} on-error {}
+:do {add list=$AddressList comment=bf address=179.64.96.0/23} on-error {}
 :do {add list=$AddressList comment=bf address=192.12.116.0/24} on-error {}
 :do {add list=$AddressList comment=bf address=192.136.55.0/24} on-error {}
 :do {add list=$AddressList comment=bf address=192.136.56.0/23} on-error {}

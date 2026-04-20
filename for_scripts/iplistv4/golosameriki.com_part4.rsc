@@ -1,5 +1,19 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=golosameriki.com address=2.22.31.184} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.31.185} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.31.19} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.31.24} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.31.42} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.31.43} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.31.96} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.54.105} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.54.184} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.89.140} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.89.162} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.89.168} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.89.180} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.22.89.182} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.22.89.189} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.22.89.193} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.23.119.135} on-error {}
@@ -163,8 +177,10 @@
 :do {add list=$AddressList comment=golosameriki.com address=23.215.5.84} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=23.215.5.91} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=23.215.5.93} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=23.216.134.145} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=23.216.134.146} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=23.216.134.147} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=23.216.134.157} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=23.216.134.199} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=23.216.134.205} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=23.216.134.209} on-error {}
@@ -334,19 +350,3 @@
 :do {add list=$AddressList comment=golosameriki.com address=23.55.38.180} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=23.55.38.50} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=23.55.38.58} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.55.48.211} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.55.48.219} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.55.79.110} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.57.20.158} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.57.230.212} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.59.88.36} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.59.88.42} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.60.173.42} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.60.173.51} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.61.250.124} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.61.250.132} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.61.250.136} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.61.250.137} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.61.250.15} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.61.250.154} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=23.61.250.166} on-error {}

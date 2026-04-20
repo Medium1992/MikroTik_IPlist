@@ -5,6 +5,7 @@
 :do {add list=$AddressList comment=lostfilm.tv address=104.21.32.1} on-error {}
 :do {add list=$AddressList comment=lostfilm.tv address=104.21.48.1} on-error {}
 :do {add list=$AddressList comment=lostfilm.tv address=104.21.64.1} on-error {}
+:do {add list=$AddressList comment=lostfilm.tv address=104.21.74.5} on-error {}
 :do {add list=$AddressList comment=lostfilm.tv address=104.21.75.190} on-error {}
 :do {add list=$AddressList comment=lostfilm.tv address=104.21.80.1} on-error {}
 :do {add list=$AddressList comment=lostfilm.tv address=104.21.9.225} on-error {}
@@ -21,6 +22,7 @@
 :do {add list=$AddressList comment=lostfilm.tv address=134.119.176.28} on-error {}
 :do {add list=$AddressList comment=lostfilm.tv address=134.119.176.29} on-error {}
 :do {add list=$AddressList comment=lostfilm.tv address=134.119.176.30} on-error {}
+:do {add list=$AddressList comment=lostfilm.tv address=172.67.152.117} on-error {}
 :do {add list=$AddressList comment=lostfilm.tv address=172.67.161.94} on-error {}
 :do {add list=$AddressList comment=lostfilm.tv address=172.67.180.224} on-error {}
 :do {add list=$AddressList comment=lostfilm.tv address=185.85.121.13} on-error {}

@@ -156,6 +156,7 @@
 :do {add list=$AddressList comment=AS214143 address=178.94.35.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=178.94.40.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=178.94.82.0/24} on-error {}
+:do {add list=$AddressList comment=AS214143 address=178.95.245.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=184.174.23.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=185.237.93.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=195.216.160.0/24} on-error {}
@@ -164,6 +165,7 @@
 :do {add list=$AddressList comment=AS214143 address=202.155.96.0/22} on-error {}
 :do {add list=$AddressList comment=AS214143 address=203.84.137.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=208.75.220.0/22} on-error {}
+:do {add list=$AddressList comment=AS214143 address=209.131.66.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=209.142.103.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=212.102.236.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=212.102.248.0/22} on-error {}
@@ -214,7 +216,11 @@
 :do {add list=$AddressList comment=AS214143 address=72.14.138.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=80.71.233.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=82.152.49.0/24} on-error {}
+:do {add list=$AddressList comment=AS214143 address=82.23.132.0/23} on-error {}
 :do {add list=$AddressList comment=AS214143 address=82.23.135.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=82.23.251.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=82.23.252.0/24} on-error {}
+:do {add list=$AddressList comment=AS214143 address=82.24.121.0/24} on-error {}
+:do {add list=$AddressList comment=AS214143 address=82.24.42.0/24} on-error {}
+:do {add list=$AddressList comment=AS214143 address=87.121.165.0/24} on-error {}
 :do {add list=$AddressList comment=AS214143 address=92.112.244.0/23} on-error {}

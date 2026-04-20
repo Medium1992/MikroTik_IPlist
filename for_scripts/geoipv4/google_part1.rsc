@@ -54,7 +54,8 @@
 :do {add list=$AddressList comment=google address=104.134.68.0/23} on-error {}
 :do {add list=$AddressList comment=google address=104.134.78.0/23} on-error {}
 :do {add list=$AddressList comment=google address=104.134.80.0/20} on-error {}
-:do {add list=$AddressList comment=google address=104.135.128.0/19} on-error {}
+:do {add list=$AddressList comment=google address=104.135.128.0/21} on-error {}
+:do {add list=$AddressList comment=google address=104.135.144.0/20} on-error {}
 :do {add list=$AddressList comment=google address=104.135.16.0/21} on-error {}
 :do {add list=$AddressList comment=google address=104.135.160.0/20} on-error {}
 :do {add list=$AddressList comment=google address=104.135.224.0/20} on-error {}
@@ -209,7 +210,13 @@
 :do {add list=$AddressList comment=google address=136.36.135.8/29} on-error {}
 :do {add list=$AddressList comment=google address=136.36.136.0/23} on-error {}
 :do {add list=$AddressList comment=google address=136.36.138.0/26} on-error {}
-:do {add list=$AddressList comment=google address=136.36.138.128/25} on-error {}
+:do {add list=$AddressList comment=google address=136.36.138.128/27} on-error {}
+:do {add list=$AddressList comment=google address=136.36.138.160/32} on-error {}
+:do {add list=$AddressList comment=google address=136.36.138.162/31} on-error {}
+:do {add list=$AddressList comment=google address=136.36.138.164/30} on-error {}
+:do {add list=$AddressList comment=google address=136.36.138.168/29} on-error {}
+:do {add list=$AddressList comment=google address=136.36.138.176/28} on-error {}
+:do {add list=$AddressList comment=google address=136.36.138.192/26} on-error {}
 :do {add list=$AddressList comment=google address=136.36.138.64/32} on-error {}
 :do {add list=$AddressList comment=google address=136.36.138.66/31} on-error {}
 :do {add list=$AddressList comment=google address=136.36.138.68/30} on-error {}
@@ -270,13 +277,8 @@
 :do {add list=$AddressList comment=google address=136.36.192.0/19} on-error {}
 :do {add list=$AddressList comment=google address=136.36.2.0/23} on-error {}
 :do {add list=$AddressList comment=google address=136.36.224.0/23} on-error {}
-:do {add list=$AddressList comment=google address=136.36.226.0/27} on-error {}
+:do {add list=$AddressList comment=google address=136.36.226.0/26} on-error {}
 :do {add list=$AddressList comment=google address=136.36.226.128/25} on-error {}
-:do {add list=$AddressList comment=google address=136.36.226.32/30} on-error {}
-:do {add list=$AddressList comment=google address=136.36.226.36/31} on-error {}
-:do {add list=$AddressList comment=google address=136.36.226.39/32} on-error {}
-:do {add list=$AddressList comment=google address=136.36.226.40/29} on-error {}
-:do {add list=$AddressList comment=google address=136.36.226.48/28} on-error {}
 :do {add list=$AddressList comment=google address=136.36.226.65/32} on-error {}
 :do {add list=$AddressList comment=google address=136.36.226.66/31} on-error {}
 :do {add list=$AddressList comment=google address=136.36.226.68/30} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=google address=136.36.35.224/29} on-error {}
 :do {add list=$AddressList comment=google address=136.36.35.232/32} on-error {}
 :do {add list=$AddressList comment=google address=136.36.35.234/31} on-error {}
-:do {add list=$AddressList comment=google address=136.36.35.236/30} on-error {}
-:do {add list=$AddressList comment=google address=136.36.35.240/28} on-error {}

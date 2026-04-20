@@ -14,6 +14,7 @@
 :do {add list=$AddressList comment=sh address=140.248.63.198/32} on-error {}
 :do {add list=$AddressList comment=sh address=162.120.206.15/32} on-error {}
 :do {add list=$AddressList comment=sh address=162.120.214.14/32} on-error {}
+:do {add list=$AddressList comment=sh address=179.64.106.0/23} on-error {}
 :do {add list=$AddressList comment=sh address=194.50.99.200/32} on-error {}
 :do {add list=$AddressList comment=sh address=195.10.0.0/24} on-error {}
 :do {add list=$AddressList comment=sh address=196.249.201.0/24} on-error {}

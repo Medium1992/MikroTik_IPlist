@@ -7,6 +7,7 @@
 :if ([:len [/ip/route/find dst-address=104.21.32.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.21.32.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
 :if ([:len [/ip/route/find dst-address=104.21.48.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.21.48.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
 :if ([:len [/ip/route/find dst-address=104.21.64.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.21.64.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
+:if ([:len [/ip/route/find dst-address=104.21.74.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.21.74.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
 :if ([:len [/ip/route/find dst-address=104.21.75.190 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.21.75.190 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
 :if ([:len [/ip/route/find dst-address=104.21.80.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.21.80.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
 :if ([:len [/ip/route/find dst-address=104.21.9.225 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.21.9.225 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
@@ -23,6 +24,7 @@
 :if ([:len [/ip/route/find dst-address=134.119.176.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=134.119.176.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
 :if ([:len [/ip/route/find dst-address=134.119.176.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=134.119.176.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
 :if ([:len [/ip/route/find dst-address=134.119.176.30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=134.119.176.30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
+:if ([:len [/ip/route/find dst-address=172.67.152.117 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.67.152.117 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
 :if ([:len [/ip/route/find dst-address=172.67.161.94 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.67.161.94 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
 :if ([:len [/ip/route/find dst-address=172.67.180.224 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.67.180.224 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }
 :if ([:len [/ip/route/find dst-address=185.85.121.13 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.85.121.13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lostfilm.tv }

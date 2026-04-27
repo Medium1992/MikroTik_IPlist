@@ -1,11 +1,12 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=jut.su address=104.16.0.0/12} on-error {}
+:do {add list=$AddressList comment=jut.su address=104.26.6.135/32} on-error {}
+:do {add list=$AddressList comment=jut.su address=104.26.7.135/32} on-error {}
 :do {add list=$AddressList comment=jut.su address=116.202.8.0/21} on-error {}
 :do {add list=$AddressList comment=jut.su address=116.202.96.0/20} on-error {}
 :do {add list=$AddressList comment=jut.su address=116.203.248.0/21} on-error {}
-:do {add list=$AddressList comment=jut.su address=128.140.0.0/16} on-error {}
-:do {add list=$AddressList comment=jut.su address=136.243.0.0/16} on-error {}
+:do {add list=$AddressList comment=jut.su address=128.140.115.27/32} on-error {}
+:do {add list=$AddressList comment=jut.su address=136.243.68.218/32} on-error {}
 :do {add list=$AddressList comment=jut.su address=138.199.128.0/17} on-error {}
 :do {add list=$AddressList comment=jut.su address=138.200.0.0/15} on-error {}
 :do {add list=$AddressList comment=jut.su address=144.76.0.0/16} on-error {}
@@ -13,7 +14,7 @@
 :do {add list=$AddressList comment=jut.su address=157.90.0.0/16} on-error {}
 :do {add list=$AddressList comment=jut.su address=159.69.0.0/16} on-error {}
 :do {add list=$AddressList comment=jut.su address=168.119.0.0/16} on-error {}
-:do {add list=$AddressList comment=jut.su address=172.64.0.0/13} on-error {}
+:do {add list=$AddressList comment=jut.su address=172.67.72.179/32} on-error {}
 :do {add list=$AddressList comment=jut.su address=176.9.1.224/27} on-error {}
 :do {add list=$AddressList comment=jut.su address=176.9.106.0/27} on-error {}
 :do {add list=$AddressList comment=jut.su address=176.9.114.128/27} on-error {}
@@ -184,8 +185,8 @@
 :do {add list=$AddressList comment=jut.su address=78.47.74.168/29} on-error {}
 :do {add list=$AddressList comment=jut.su address=78.47.80.64/27} on-error {}
 :do {add list=$AddressList comment=jut.su address=78.47.81.176/29} on-error {}
-:do {add list=$AddressList comment=jut.su address=8.0.0.0/13} on-error {}
-:do {add list=$AddressList comment=jut.su address=8.32.0.0/11} on-error {}
+:do {add list=$AddressList comment=jut.su address=8.47.0.0/16} on-error {}
+:do {add list=$AddressList comment=jut.su address=8.6.0.0/16} on-error {}
 :do {add list=$AddressList comment=jut.su address=88.198.119.192/28} on-error {}
 :do {add list=$AddressList comment=jut.su address=88.198.121.112/29} on-error {}
 :do {add list=$AddressList comment=jut.su address=88.198.122.32/29} on-error {}

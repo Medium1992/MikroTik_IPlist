@@ -1,5 +1,25 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=deviantart.com address=18.66.248.7} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.26.24} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.26.35} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.26.52} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.26.54} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.26.8} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.26.88} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.26.89} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.26.95} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.27.19} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.27.42} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.27.70} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=18.66.27.85} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=185.230.63.107} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=185.230.63.171} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=185.230.63.186} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=3.160.132.116} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=3.160.132.121} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=3.160.132.5} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=3.160.132.70} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=3.160.132.83} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=3.160.132.84} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=3.160.132.86} on-error {}
@@ -204,6 +224,14 @@
 :do {add list=$AddressList comment=deviantart.com address=52.84.50.65} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=52.84.50.83} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=52.84.50.86} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.185.123} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.185.19} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.185.49} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.185.55} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.185.7} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.185.78} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.185.87} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.185.93} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.192.97.105} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.192.97.39} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.192.97.61} on-error {}
@@ -212,6 +240,10 @@
 :do {add list=$AddressList comment=deviantart.com address=54.230.114.38} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.230.114.76} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.230.114.92} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=54.230.172.102} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=54.230.172.115} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=54.230.172.27} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=54.230.172.84} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.230.183.12} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.230.183.24} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.230.183.26} on-error {}

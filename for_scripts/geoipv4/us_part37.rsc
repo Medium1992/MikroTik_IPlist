@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=us address=107.208.111.0/31} on-error {}
+:do {add list=$AddressList comment=us address=107.208.111.128/25} on-error {}
+:do {add list=$AddressList comment=us address=107.208.111.16/28} on-error {}
+:do {add list=$AddressList comment=us address=107.208.111.2/32} on-error {}
+:do {add list=$AddressList comment=us address=107.208.111.32/27} on-error {}
+:do {add list=$AddressList comment=us address=107.208.111.4/30} on-error {}
 :do {add list=$AddressList comment=us address=107.208.111.64/26} on-error {}
 :do {add list=$AddressList comment=us address=107.208.111.8/29} on-error {}
 :do {add list=$AddressList comment=us address=107.208.112.0/20} on-error {}
@@ -256,7 +262,7 @@
 :do {add list=$AddressList comment=us address=107.64.0.0/10} on-error {}
 :do {add list=$AddressList comment=us address=107.7.0.0/16} on-error {}
 :do {add list=$AddressList comment=us address=107.8.0.0/13} on-error {}
-:do {add list=$AddressList comment=us address=108.0.0.0/15} on-error {}
+:do {add list=$AddressList comment=us address=108.0.0.0/14} on-error {}
 :do {add list=$AddressList comment=us address=108.12.0.0/17} on-error {}
 :do {add list=$AddressList comment=us address=108.12.128.0/18} on-error {}
 :do {add list=$AddressList comment=us address=108.12.192.0/20} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=us address=108.157.4.82/31} on-error {}
 :do {add list=$AddressList comment=us address=108.157.4.84/30} on-error {}
 :do {add list=$AddressList comment=us address=108.157.4.88/29} on-error {}
-:do {add list=$AddressList comment=us address=108.157.4.96/27} on-error {}
-:do {add list=$AddressList comment=us address=108.157.5.0/24} on-error {}
-:do {add list=$AddressList comment=us address=108.157.6.0/23} on-error {}
-:do {add list=$AddressList comment=us address=108.157.64.0/18} on-error {}
-:do {add list=$AddressList comment=us address=108.157.8.0/21} on-error {}
-:do {add list=$AddressList comment=us address=108.158.0.0/15} on-error {}

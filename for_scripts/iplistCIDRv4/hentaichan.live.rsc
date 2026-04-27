@@ -8,7 +8,10 @@
 :do {add list=$AddressList comment=hentaichan.live address=103.39.64.0/18} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=103.42.0.0/16} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=103.97.128.0/18} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=104.16.0.0/12} on-error {}
+:do {add list=$AddressList comment=hentaichan.live address=104.16.251.55/32} on-error {}
+:do {add list=$AddressList comment=hentaichan.live address=104.16.252.55/32} on-error {}
+:do {add list=$AddressList comment=hentaichan.live address=104.23.124.189/32} on-error {}
+:do {add list=$AddressList comment=hentaichan.live address=104.23.125.189/32} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=104.244.40.0/21} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=108.160.160.0/20} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=118.107.180.0/22} on-error {}
@@ -47,7 +50,7 @@
 :do {add list=$AddressList comment=hentaichan.live address=31.13.64.0/18} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=38.0.0.0/7} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=45.114.8.0/21} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=54.224.0.0/11} on-error {}
+:do {add list=$AddressList comment=hentaichan.live address=54.234.18.200/32} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=59.160.0.0/11} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=64.13.192.0/18} on-error {}
 :do {add list=$AddressList comment=hentaichan.live address=65.49.0.0/17} on-error {}

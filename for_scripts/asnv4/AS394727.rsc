@@ -14,6 +14,4 @@
 :do {add list=$AddressList comment=AS394727 address=63.142.240.0/23} on-error {}
 :do {add list=$AddressList comment=AS394727 address=63.142.244.0/23} on-error {}
 :do {add list=$AddressList comment=AS394727 address=63.142.246.0/24} on-error {}
-:do {add list=$AddressList comment=AS394727 address=63.142.249.0/24} on-error {}
-:do {add list=$AddressList comment=AS394727 address=63.142.250.0/23} on-error {}
-:do {add list=$AddressList comment=AS394727 address=63.142.252.0/22} on-error {}
+:do {add list=$AddressList comment=AS394727 address=63.142.248.0/21} on-error {}

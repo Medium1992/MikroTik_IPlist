@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ro address=205.188.196.0/22} on-error {}
+:do {add list=$AddressList comment=ro address=205.188.232.0/22} on-error {}
+:do {add list=$AddressList comment=ro address=205.188.244.0/22} on-error {}
+:do {add list=$AddressList comment=ro address=205.188.44.0/22} on-error {}
+:do {add list=$AddressList comment=ro address=205.237.108.0/22} on-error {}
+:do {add list=$AddressList comment=ro address=206.123.153.0/25} on-error {}
 :do {add list=$AddressList comment=ro address=206.123.153.128/29} on-error {}
 :do {add list=$AddressList comment=ro address=206.123.153.136/30} on-error {}
 :do {add list=$AddressList comment=ro address=206.123.153.140/31} on-error {}
@@ -101,6 +107,7 @@
 :do {add list=$AddressList comment=ro address=212.14.72.192/30} on-error {}
 :do {add list=$AddressList comment=ro address=212.14.72.240/30} on-error {}
 :do {add list=$AddressList comment=ro address=212.14.74.140/30} on-error {}
+:do {add list=$AddressList comment=ro address=212.14.81.96/30} on-error {}
 :do {add list=$AddressList comment=ro address=212.14.90.96/29} on-error {}
 :do {add list=$AddressList comment=ro address=212.14.91.168/29} on-error {}
 :do {add list=$AddressList comment=ro address=212.14.91.176/29} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=ro address=31.25.10.0/24} on-error {}
 :do {add list=$AddressList comment=ro address=31.47.208.0/21} on-error {}
 :do {add list=$AddressList comment=ro address=31.5.0.0/16} on-error {}
-:do {add list=$AddressList comment=ro address=31.6.1.0/24} on-error {}
-:do {add list=$AddressList comment=ro address=32.112.163.118/32} on-error {}
-:do {add list=$AddressList comment=ro address=34.103.194.0/23} on-error {}
-:do {add list=$AddressList comment=ro address=34.103.242.0/24} on-error {}
-:do {add list=$AddressList comment=ro address=34.99.178.0/23} on-error {}
-:do {add list=$AddressList comment=ro address=34.99.250.0/23} on-error {}
-:do {add list=$AddressList comment=ro address=37.120.128.0/24} on-error {}

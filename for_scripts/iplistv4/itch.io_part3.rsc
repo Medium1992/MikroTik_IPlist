@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=itch.io address=8.47.69.9} on-error {}
+:do {add list=$AddressList comment=itch.io address=8.6.112.0} on-error {}
+:do {add list=$AddressList comment=itch.io address=8.6.112.8} on-error {}
+:do {add list=$AddressList comment=itch.io address=8.6.112.9} on-error {}
+:do {add list=$AddressList comment=itch.io address=80.239.138.106} on-error {}
+:do {add list=$AddressList comment=itch.io address=80.239.138.107} on-error {}
 :do {add list=$AddressList comment=itch.io address=80.239.138.115} on-error {}
 :do {add list=$AddressList comment=itch.io address=80.239.138.128} on-error {}
 :do {add list=$AddressList comment=itch.io address=80.239.138.129} on-error {}

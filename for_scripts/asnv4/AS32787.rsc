@@ -16,7 +16,6 @@
 :do {add list=$AddressList comment=AS32787 address=142.146.60.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=142.146.96.0/22} on-error {}
 :do {add list=$AddressList comment=AS32787 address=156.13.222.0/24} on-error {}
-:do {add list=$AddressList comment=AS32787 address=162.128.156.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=163.156.3.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=163.156.4.0/23} on-error {}
 :do {add list=$AddressList comment=AS32787 address=167.140.240.0/23} on-error {}
@@ -36,6 +35,7 @@
 :do {add list=$AddressList comment=AS32787 address=194.34.10.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=194.34.8.0/23} on-error {}
 :do {add list=$AddressList comment=AS32787 address=194.40.0.0/22} on-error {}
+:do {add list=$AddressList comment=AS32787 address=194.7.205.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=2.17.108.0/22} on-error {}
 :do {add list=$AddressList comment=AS32787 address=2.17.120.0/22} on-error {}
 :do {add list=$AddressList comment=AS32787 address=2.17.192.0/22} on-error {}
@@ -130,6 +130,7 @@
 :do {add list=$AddressList comment=AS32787 address=81.174.71.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=85.45.250.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=89.147.32.0/23} on-error {}
+:do {add list=$AddressList comment=AS32787 address=89.147.34.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=92.122.184.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=92.122.207.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=93.191.172.0/24} on-error {}
@@ -140,3 +141,4 @@
 :do {add list=$AddressList comment=AS32787 address=95.101.117.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=95.101.118.0/24} on-error {}
 :do {add list=$AddressList comment=AS32787 address=96.6.144.0/21} on-error {}
+:do {add list=$AddressList comment=AS32787 address=96.6.80.0/23} on-error {}

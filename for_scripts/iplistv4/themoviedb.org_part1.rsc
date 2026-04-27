@@ -255,8 +255,12 @@
 :do {add list=$AddressList comment=themoviedb.org address=108.157.229.97} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=108.157.4.33} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=108.157.4.46} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=108.157.4.47} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=108.157.4.51} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=108.157.4.70} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=108.157.4.76} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=108.157.4.82} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=108.157.4.88} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=108.157.52.3} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=108.157.52.57} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=108.157.52.73} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=themoviedb.org address=13.224.245.15} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=13.224.245.73} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=13.224.245.75} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=13.224.245.87} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=13.224.68.10} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=13.224.68.100} on-error {}
-:do {add list=$AddressList comment=themoviedb.org address=13.224.68.101} on-error {}

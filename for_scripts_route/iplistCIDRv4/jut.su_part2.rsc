@@ -2,6 +2,7 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=5.9.105.32/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=5.9.105.32/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
 :if ([:len [/ip/route/find dst-address=5.9.107.160/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=5.9.107.160/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
 :if ([:len [/ip/route/find dst-address=5.9.108.192/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=5.9.108.192/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
 :if ([:len [/ip/route/find dst-address=5.9.111.160/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=5.9.111.160/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
@@ -86,8 +87,8 @@
 :if ([:len [/ip/route/find dst-address=78.47.74.168/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=78.47.74.168/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
 :if ([:len [/ip/route/find dst-address=78.47.80.64/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=78.47.80.64/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
 :if ([:len [/ip/route/find dst-address=78.47.81.176/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=78.47.81.176/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
-:if ([:len [/ip/route/find dst-address=8.0.0.0/13 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.0.0.0/13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
-:if ([:len [/ip/route/find dst-address=8.32.0.0/11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.32.0.0/11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
+:if ([:len [/ip/route/find dst-address=8.47.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.47.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
+:if ([:len [/ip/route/find dst-address=8.6.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.6.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
 :if ([:len [/ip/route/find dst-address=88.198.119.192/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.198.119.192/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
 :if ([:len [/ip/route/find dst-address=88.198.121.112/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.198.121.112/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
 :if ([:len [/ip/route/find dst-address=88.198.122.32/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.198.122.32/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
@@ -101,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=88.198.230.192/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.198.230.192/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
 :if ([:len [/ip/route/find dst-address=88.198.32.0/19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.198.32.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
 :if ([:len [/ip/route/find dst-address=88.198.93.0/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.198.93.0/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }
-:if ([:len [/ip/route/find dst-address=88.99.122.0/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.99.122.0/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jut.su }

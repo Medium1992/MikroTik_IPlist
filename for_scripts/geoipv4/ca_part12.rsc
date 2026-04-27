@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ca address=165.231.24.0/23} on-error {}
+:do {add list=$AddressList comment=ca address=165.231.27.0/24} on-error {}
+:do {add list=$AddressList comment=ca address=165.231.28.0/22} on-error {}
+:do {add list=$AddressList comment=ca address=165.245.0.0/17} on-error {}
+:do {add list=$AddressList comment=ca address=165.245.224.0/20} on-error {}
+:do {add list=$AddressList comment=ca address=165.254.243.160/28} on-error {}
+:do {add list=$AddressList comment=ca address=165.85.106.192/27} on-error {}
+:do {add list=$AddressList comment=ca address=165.85.108.144/28} on-error {}
+:do {add list=$AddressList comment=ca address=165.85.156.192/26} on-error {}
+:do {add list=$AddressList comment=ca address=165.85.166.0/24} on-error {}
 :do {add list=$AddressList comment=ca address=165.85.207.0/24} on-error {}
 :do {add list=$AddressList comment=ca address=165.85.212.0/24} on-error {}
 :do {add list=$AddressList comment=ca address=165.85.214.128/25} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=ca address=169.53.164.112/29} on-error {}
 :do {add list=$AddressList comment=ca address=169.53.164.124/30} on-error {}
 :do {add list=$AddressList comment=ca address=169.53.170.20/32} on-error {}
-:do {add list=$AddressList comment=ca address=169.53.186.34/32} on-error {}
-:do {add list=$AddressList comment=ca address=169.53.189.0/28} on-error {}
-:do {add list=$AddressList comment=ca address=169.54.64.0/18} on-error {}
-:do {add list=$AddressList comment=ca address=169.55.144.208/28} on-error {}
-:do {add list=$AddressList comment=ca address=169.55.161.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=169.55.176.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=169.55.191.96/28} on-error {}
-:do {add list=$AddressList comment=ca address=17.118.56.0/23} on-error {}
-:do {add list=$AddressList comment=ca address=17.118.7.8/30} on-error {}
-:do {add list=$AddressList comment=ca address=17.118.77.0/27} on-error {}

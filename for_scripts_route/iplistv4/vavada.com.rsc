@@ -3,6 +3,7 @@
 :global GateWay
 /ip route
 :if ([:len [/ip/route/find dst-address=104.21.8.240 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.21.8.240 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }
+:if ([:len [/ip/route/find dst-address=109.61.19.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=109.61.19.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }
 :if ([:len [/ip/route/find dst-address=109.61.41.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=109.61.41.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }
 :if ([:len [/ip/route/find dst-address=151.248.104.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=151.248.104.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }
 :if ([:len [/ip/route/find dst-address=172.67.158.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.67.158.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=vavada.com }

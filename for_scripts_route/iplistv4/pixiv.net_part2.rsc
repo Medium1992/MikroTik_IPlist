@@ -2,7 +2,14 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=13.33.235.14 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.33.235.14 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=13.33.235.30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.33.235.30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=13.33.235.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.33.235.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=13.33.235.61 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.33.235.61 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=142.250.102.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.102.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=142.250.110.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.110.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=142.250.150.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.150.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=142.250.153.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.153.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=142.250.178.211 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.178.211 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=142.250.178.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.178.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=142.250.180.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.180.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
@@ -95,10 +102,3 @@
 :if ([:len [/ip/route/find dst-address=172.217.19.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.19.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=172.217.19.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.19.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=172.217.20.147 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.20.147 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=172.217.20.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.20.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=172.217.20.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.20.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=172.217.20.211 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.20.211 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=172.217.20.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.20.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=172.217.208.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.208.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=172.217.21.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.21.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=172.217.21.211 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.21.211 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }

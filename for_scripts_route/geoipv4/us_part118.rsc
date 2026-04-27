@@ -2,8 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=107.150.8.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.150.8.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
-:if ([:len [/ip/route/find dst-address=107.150.80.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.150.80.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
 :if ([:len [/ip/route/find dst-address=107.150.83.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.150.83.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
 :if ([:len [/ip/route/find dst-address=107.150.84.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.150.84.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
 :if ([:len [/ip/route/find dst-address=107.150.88.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.150.88.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
@@ -26,7 +24,7 @@
 :if ([:len [/ip/route/find dst-address=107.151.162.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.151.162.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
 :if ([:len [/ip/route/find dst-address=107.151.165.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.151.165.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
 :if ([:len [/ip/route/find dst-address=107.151.166.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.151.166.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
-:if ([:len [/ip/route/find dst-address=107.151.168.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.151.168.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
+:if ([:len [/ip/route/find dst-address=107.151.168.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.151.168.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
 :if ([:len [/ip/route/find dst-address=107.151.171.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.151.171.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
 :if ([:len [/ip/route/find dst-address=107.151.172.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.151.172.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
 :if ([:len [/ip/route/find dst-address=107.151.176.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.151.176.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
@@ -102,3 +100,5 @@
 :if ([:len [/ip/route/find dst-address=107.152.32.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.152.32.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
 :if ([:len [/ip/route/find dst-address=107.152.40.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.152.40.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
 :if ([:len [/ip/route/find dst-address=107.152.44.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.152.44.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
+:if ([:len [/ip/route/find dst-address=107.152.46.0/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.152.46.0/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }
+:if ([:len [/ip/route/find dst-address=107.152.46.128/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.152.46.128/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=us }

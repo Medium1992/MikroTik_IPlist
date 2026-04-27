@@ -56,6 +56,7 @@
 :do {add list=$AddressList comment=bbc.com address=104.81.140.172} on-error {}
 :do {add list=$AddressList comment=bbc.com address=104.81.140.29} on-error {}
 :do {add list=$AddressList comment=bbc.com address=104.81.4.131} on-error {}
+:do {add list=$AddressList comment=bbc.com address=104.81.78.120} on-error {}
 :do {add list=$AddressList comment=bbc.com address=104.81.99.196} on-error {}
 :do {add list=$AddressList comment=bbc.com address=104.83.138.232} on-error {}
 :do {add list=$AddressList comment=bbc.com address=104.83.158.134} on-error {}
@@ -138,7 +139,10 @@
 :do {add list=$AddressList comment=bbc.com address=108.138.36.20} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.138.36.63} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.138.48.156} on-error {}
+:do {add list=$AddressList comment=bbc.com address=108.138.51.110} on-error {}
+:do {add list=$AddressList comment=bbc.com address=108.138.51.122} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.138.51.127} on-error {}
+:do {add list=$AddressList comment=bbc.com address=108.138.51.17} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.138.51.5} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.138.51.73} on-error {}
 :do {add list=$AddressList comment=bbc.com address=108.138.51.92} on-error {}
@@ -319,7 +323,9 @@
 :do {add list=$AddressList comment=bbc.com address=13.227.210.56} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.227.223.129} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.249.10.136} on-error {}
+:do {add list=$AddressList comment=bbc.com address=13.249.12.77} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.249.2.48} on-error {}
+:do {add list=$AddressList comment=bbc.com address=13.249.2.53} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.249.251.231} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.249.251.236} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.249.5.48} on-error {}
@@ -328,6 +334,7 @@
 :do {add list=$AddressList comment=bbc.com address=13.32.110.35} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.110.36} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.110.50} on-error {}
+:do {add list=$AddressList comment=bbc.com address=13.32.110.53} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.110.55} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.110.7} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.110.73} on-error {}
@@ -335,6 +342,7 @@
 :do {add list=$AddressList comment=bbc.com address=13.32.113.150} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.119.113} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.12.121} on-error {}
+:do {add list=$AddressList comment=bbc.com address=13.32.13.76} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.132.38} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.217.80} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.220.41} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=bbc.com address=13.32.220.83} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.220.99} on-error {}
 :do {add list=$AddressList comment=bbc.com address=13.32.27.115} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.32.27.61} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.32.27.64} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.32.27.74} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.32.69.80} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.32.91.55} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.33.109.46} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.33.109.60} on-error {}
-:do {add list=$AddressList comment=bbc.com address=13.33.109.71} on-error {}

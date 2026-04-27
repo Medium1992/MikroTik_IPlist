@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=92.122.225.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.122.225.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.122.225.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.122.225.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.122.225.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.122.225.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.122.225.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.122.225.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.122.225.98 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.122.225.98 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=92.122.225.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.122.225.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.122.95.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.122.95.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.123.102.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.102.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.123.102.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.102.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=92.123.104.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.104.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.123.104.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.104.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=92.123.104.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.104.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=92.123.104.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.104.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=92.123.104.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.104.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=92.123.104.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.104.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=92.123.104.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.104.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=92.123.104.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.104.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=92.123.104.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=92.123.104.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }

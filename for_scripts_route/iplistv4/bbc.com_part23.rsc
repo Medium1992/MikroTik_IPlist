@@ -2,6 +2,20 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.210.42.63 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.42.63 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.210.44.156 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.44.156 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.210.44.214 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.44.214 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.210.48.108 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.48.108 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.210.49.141 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.49.141 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.210.77.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.77.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.210.81.131 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.81.131 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.210.87.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.87.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.210.9.177 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.9.177 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.211.0.244 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.211.0.244 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.211.116.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.211.116.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.211.12.225 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.211.12.225 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.211.123.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.211.123.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=52.211.123.132 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.211.123.132 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=52.211.13.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.211.13.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=52.211.131.249 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.211.131.249 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=52.211.135.178 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.211.135.178 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
@@ -88,17 +102,3 @@
 :if ([:len [/ip/route/find dst-address=52.213.172.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.172.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=52.213.184.164 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.184.164 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=52.213.191.143 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.191.143 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.203.252 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.203.252 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.210.138 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.210.138 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.217.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.217.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.223.232 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.223.232 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.229.189 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.229.189 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.239.37 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.239.37 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.254.156 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.254.156 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.26.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.26.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.32.113 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.32.113 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.47.185 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.47.185 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.48.250 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.48.250 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.67.182 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.67.182 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.71.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.71.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=52.213.84.185 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.84.185 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }

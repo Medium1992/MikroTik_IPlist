@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.84.106.54 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.54 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
+:if ([:len [/ip/route/find dst-address=52.84.106.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
+:if ([:len [/ip/route/find dst-address=52.84.106.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
+:if ([:len [/ip/route/find dst-address=52.84.106.64 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.64 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
 :if ([:len [/ip/route/find dst-address=52.84.106.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.106.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
 :if ([:len [/ip/route/find dst-address=52.84.108.111 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.108.111 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
 :if ([:len [/ip/route/find dst-address=52.84.108.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.108.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
@@ -96,9 +100,5 @@
 :if ([:len [/ip/route/find dst-address=54.230.114.73 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.114.73 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
 :if ([:len [/ip/route/find dst-address=54.230.114.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.114.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
 :if ([:len [/ip/route/find dst-address=54.230.114.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.114.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
-:if ([:len [/ip/route/find dst-address=54.230.206.119 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.206.119 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
-:if ([:len [/ip/route/find dst-address=54.230.206.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.206.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
-:if ([:len [/ip/route/find dst-address=54.230.206.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.206.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
-:if ([:len [/ip/route/find dst-address=54.230.206.40 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.206.40 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
-:if ([:len [/ip/route/find dst-address=54.230.206.49 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.206.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
-:if ([:len [/ip/route/find dst-address=54.230.206.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.206.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
+:if ([:len [/ip/route/find dst-address=54.230.172.102 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.172.102 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }
+:if ([:len [/ip/route/find dst-address=54.230.172.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.172.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linktr.ee }

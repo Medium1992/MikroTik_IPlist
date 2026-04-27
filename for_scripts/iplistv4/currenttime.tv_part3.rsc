@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=currenttime.tv address=18.172.226.86} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=18.172.242.123} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=18.172.242.13} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=18.172.242.24} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=18.172.242.4} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=18.172.242.55} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=18.172.242.60} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=18.172.242.69} on-error {}
+:do {add list=$AddressList comment=currenttime.tv address=18.172.242.92} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=18.172.88.122} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=18.172.88.125} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=18.172.88.58} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=currenttime.tv address=2.16.6.29} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=2.16.6.33} on-error {}
 :do {add list=$AddressList comment=currenttime.tv address=2.16.6.68} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=2.16.6.81} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=2.16.6.9} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=2.16.65.104} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=2.16.65.17} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=2.16.65.41} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=2.16.65.91} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=2.16.65.99} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=2.16.76.105} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=2.16.76.82} on-error {}

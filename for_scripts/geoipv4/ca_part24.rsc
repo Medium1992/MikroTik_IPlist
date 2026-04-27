@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ca address=205.142.224.0/21} on-error {}
+:do {add list=$AddressList comment=ca address=205.142.243.132/32} on-error {}
+:do {add list=$AddressList comment=ca address=205.142.243.139/32} on-error {}
+:do {add list=$AddressList comment=ca address=205.142.243.17/32} on-error {}
+:do {add list=$AddressList comment=ca address=205.142.243.188/32} on-error {}
+:do {add list=$AddressList comment=ca address=205.142.243.217/32} on-error {}
+:do {add list=$AddressList comment=ca address=205.142.243.63/32} on-error {}
+:do {add list=$AddressList comment=ca address=205.145.24.0/24} on-error {}
+:do {add list=$AddressList comment=ca address=205.149.0.0/21} on-error {}
+:do {add list=$AddressList comment=ca address=205.150.107.41/32} on-error {}
 :do {add list=$AddressList comment=ca address=205.150.107.42/32} on-error {}
 :do {add list=$AddressList comment=ca address=205.150.123.224/29} on-error {}
 :do {add list=$AddressList comment=ca address=205.150.123.32/28} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=ca address=205.234.32.0/19} on-error {}
 :do {add list=$AddressList comment=ca address=205.236.1.0/24} on-error {}
 :do {add list=$AddressList comment=ca address=205.236.100.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=205.236.102.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=205.236.104.0/21} on-error {}
-:do {add list=$AddressList comment=ca address=205.236.112.0/21} on-error {}
-:do {add list=$AddressList comment=ca address=205.236.120.0/22} on-error {}
-:do {add list=$AddressList comment=ca address=205.236.124.0/23} on-error {}
-:do {add list=$AddressList comment=ca address=205.236.126.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=205.236.128.0/22} on-error {}
-:do {add list=$AddressList comment=ca address=205.236.132.0/24} on-error {}
-:do {add list=$AddressList comment=ca address=205.236.134.0/23} on-error {}
-:do {add list=$AddressList comment=ca address=205.236.136.0/21} on-error {}

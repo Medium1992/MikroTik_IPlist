@@ -97,9 +97,11 @@
 :do {add list=$AddressList comment=gu address=202.123.144.0/22} on-error {}
 :do {add list=$AddressList comment=gu address=202.123.152.0/22} on-error {}
 :do {add list=$AddressList comment=gu address=202.123.159.128/25} on-error {}
-:do {add list=$AddressList comment=gu address=202.128.0.0/20} on-error {}
 :do {add list=$AddressList comment=gu address=202.128.16.0/21} on-error {}
+:do {add list=$AddressList comment=gu address=202.128.2.0/23} on-error {}
+:do {add list=$AddressList comment=gu address=202.128.4.0/22} on-error {}
 :do {add list=$AddressList comment=gu address=202.128.64.0/19} on-error {}
+:do {add list=$AddressList comment=gu address=202.128.8.0/21} on-error {}
 :do {add list=$AddressList comment=gu address=202.131.160.0/19} on-error {}
 :do {add list=$AddressList comment=gu address=202.151.64.0/19} on-error {}
 :do {add list=$AddressList comment=gu address=202.22.176.0/20} on-error {}

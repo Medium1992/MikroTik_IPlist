@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=bg address=208.127.101.43/32} on-error {}
+:do {add list=$AddressList comment=bg address=208.127.101.44/30} on-error {}
 :do {add list=$AddressList comment=bg address=208.127.101.48/31} on-error {}
 :do {add list=$AddressList comment=bg address=208.127.104.43/32} on-error {}
 :do {add list=$AddressList comment=bg address=208.127.104.44/30} on-error {}
@@ -74,6 +76,7 @@
 :do {add list=$AddressList comment=bg address=212.14.90.88/29} on-error {}
 :do {add list=$AddressList comment=bg address=212.14.91.104/29} on-error {}
 :do {add list=$AddressList comment=bg address=212.187.175.80/29} on-error {}
+:do {add list=$AddressList comment=bg address=212.2.32.0/21} on-error {}
 :do {add list=$AddressList comment=bg address=212.21.128.0/19} on-error {}
 :do {add list=$AddressList comment=bg address=212.212.124.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=212.221.31.160/30} on-error {}
@@ -246,6 +249,7 @@
 :do {add list=$AddressList comment=bg address=37.60.143.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=37.63.0.0/17} on-error {}
 :do {add list=$AddressList comment=bg address=37.72.130.0/24} on-error {}
+:do {add list=$AddressList comment=bg address=38.134.3.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=38.172.201.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=38.172.202.0/23} on-error {}
 :do {add list=$AddressList comment=bg address=38.180.2.0/23} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=bg address=45.9.159.128/27} on-error {}
 :do {add list=$AddressList comment=bg address=45.9.159.160/28} on-error {}
 :do {add list=$AddressList comment=bg address=45.9.159.176/29} on-error {}
-:do {add list=$AddressList comment=bg address=45.9.159.184/30} on-error {}
-:do {add list=$AddressList comment=bg address=45.9.159.188/32} on-error {}
-:do {add list=$AddressList comment=bg address=45.9.159.190/31} on-error {}
-:do {add list=$AddressList comment=bg address=45.9.159.192/26} on-error {}

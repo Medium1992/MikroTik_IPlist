@@ -68,7 +68,6 @@
 :do {add list=$AddressList comment=bi address=41.79.44.0/22} on-error {}
 :do {add list=$AddressList comment=bi address=5.62.60.61/32} on-error {}
 :do {add list=$AddressList comment=bi address=5.62.60.62/31} on-error {}
-:do {add list=$AddressList comment=bi address=5.62.62.61/32} on-error {}
-:do {add list=$AddressList comment=bi address=5.62.62.62/31} on-error {}
-:do {add list=$AddressList comment=bi address=57.82.124.0/23} on-error {}
+:do {add list=$AddressList comment=bi address=57.82.116.0/22} on-error {}
+:do {add list=$AddressList comment=bi address=57.82.120.0/21} on-error {}
 :do {add list=$AddressList comment=bi address=66.102.38.192/26} on-error {}

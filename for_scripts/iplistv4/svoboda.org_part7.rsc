@@ -1,5 +1,26 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=svoboda.org address=92.123.102.97} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.102.98} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.102.99} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.10} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.107} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.112} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.126} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.57} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.65} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.74} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.81} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.82} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.83} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.89} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.90} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.91} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.103.96} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.106.113} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.106.138} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.106.184} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=92.123.106.209} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=92.123.12.138} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=92.123.12.163} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=92.123.12.169} on-error {}

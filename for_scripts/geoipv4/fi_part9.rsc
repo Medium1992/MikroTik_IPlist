@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=fi address=83.143.218.0/28} on-error {}
-:do {add list=$AddressList comment=fi address=83.143.218.16/29} on-error {}
-:do {add list=$AddressList comment=fi address=83.143.218.32/27} on-error {}
 :do {add list=$AddressList comment=fi address=83.143.219.0/28} on-error {}
 :do {add list=$AddressList comment=fi address=83.143.219.128/26} on-error {}
 :do {add list=$AddressList comment=fi address=83.143.219.208/28} on-error {}
@@ -46,6 +43,7 @@
 :do {add list=$AddressList comment=fi address=83.241.217.250/32} on-error {}
 :do {add list=$AddressList comment=fi address=83.245.128.0/17} on-error {}
 :do {add list=$AddressList comment=fi address=84.19.140.154/32} on-error {}
+:do {add list=$AddressList comment=fi address=84.19.151.121/32} on-error {}
 :do {add list=$AddressList comment=fi address=84.19.3.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=84.20.128.0/19} on-error {}
 :do {add list=$AddressList comment=fi address=84.21.191.0/24} on-error {}
@@ -59,7 +57,6 @@
 :do {add list=$AddressList comment=fi address=84.248.0.0/14} on-error {}
 :do {add list=$AddressList comment=fi address=84.253.192.0/18} on-error {}
 :do {add list=$AddressList comment=fi address=84.34.0.0/16} on-error {}
-:do {add list=$AddressList comment=fi address=84.47.166.0/32} on-error {}
 :do {add list=$AddressList comment=fi address=84.55.18.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=85.115.63.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=85.131.0.0/17} on-error {}
@@ -350,3 +347,6 @@
 :do {add list=$AddressList comment=fi address=91.220.241.0/24} on-error {}
 :do {add list=$AddressList comment=fi address=91.221.238.0/23} on-error {}
 :do {add list=$AddressList comment=fi address=91.221.66.0/24} on-error {}
+:do {add list=$AddressList comment=fi address=91.221.67.0/29} on-error {}
+:do {add list=$AddressList comment=fi address=91.221.67.10/31} on-error {}
+:do {add list=$AddressList comment=fi address=91.221.67.12/30} on-error {}

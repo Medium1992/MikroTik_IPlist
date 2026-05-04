@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=184.50.113.242} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.50.113.243} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.50.113.248} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.50.113.249} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.50.113.25} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.50.113.250} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.50.113.251} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.50.113.26} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.50.113.27} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.50.113.32} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.50.113.33} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.50.113.34} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=184.51.252.188} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.51.252.189} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.51.252.190} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.51.252.191} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.51.252.192} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.51.252.193} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.51.252.194} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.51.252.195} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.51.252.197} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.51.252.198} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.51.252.200} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.51.252.201} on-error {}

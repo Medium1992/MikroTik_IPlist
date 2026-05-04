@@ -86,6 +86,7 @@
 :do {add list=$AddressList comment=quora.com address=34.206.0.0/16} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.207.26.66/32} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.207.4.248/32} on-error {}
+:do {add list=$AddressList comment=quora.com address=34.224.134.174/32} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.224.220.30/32} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.224.232.237/32} on-error {}
 :do {add list=$AddressList comment=quora.com address=34.225.174.106/32} on-error {}
@@ -144,6 +145,7 @@
 :do {add list=$AddressList comment=quora.com address=44.221.189.16/32} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.221.36.238/32} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.222.44.177/32} on-error {}
+:do {add list=$AddressList comment=quora.com address=44.223.161.137/32} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.223.201.254/32} on-error {}
 :do {add list=$AddressList comment=quora.com address=44.223.251.171/32} on-error {}
 :do {add list=$AddressList comment=quora.com address=50.16.0.0/14} on-error {}

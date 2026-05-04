@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=184.86.251.17} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.86.251.18} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.86.251.19} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.86.251.196} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.86.251.197} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.86.251.198} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.86.251.199} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.86.251.20} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.86.251.200} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.86.251.201} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.86.251.202} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.86.251.203} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=193.108.153.173} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=193.108.153.174} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=193.108.153.175} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=193.108.153.18} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=193.108.153.20} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=193.108.153.21} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=193.108.153.22} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=193.108.153.23} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=193.108.153.24} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=193.108.153.25} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=193.108.153.26} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=193.118.33.130} on-error {}

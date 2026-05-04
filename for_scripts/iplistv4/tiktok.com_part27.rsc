@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=184.51.252.191} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.51.252.192} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.51.252.193} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.51.252.194} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.51.252.195} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.51.252.197} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.51.252.198} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.51.252.200} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=184.51.252.201} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.51.252.202} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.51.252.203} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.51.252.204} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=184.86.251.158} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.86.251.159} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=184.86.251.16} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.86.251.17} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.86.251.18} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.86.251.19} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.86.251.196} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.86.251.197} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.86.251.198} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.86.251.199} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.86.251.20} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.86.251.200} on-error {}

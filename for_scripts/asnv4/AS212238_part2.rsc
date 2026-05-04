@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS212238 address=154.16.164.0/23} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.16.17.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.16.172.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.16.174.0/23} on-error {}
@@ -28,6 +29,7 @@
 :do {add list=$AddressList comment=AS212238 address=154.17.153.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.17.190.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.198.16.0/24} on-error {}
+:do {add list=$AddressList comment=AS212238 address=154.222.9.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.28.211.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.28.94.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=154.29.14.0/24} on-error {}
@@ -151,6 +153,7 @@
 :do {add list=$AddressList comment=AS212238 address=168.199.210.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=168.199.231.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=168.199.233.0/24} on-error {}
+:do {add list=$AddressList comment=AS212238 address=168.222.72.0/22} on-error {}
 :do {add list=$AddressList comment=AS212238 address=168.91.124.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=168.93.227.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=169.150.196.0/22} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=AS212238 address=181.215.222.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=181.215.224.0/24} on-error {}
 :do {add list=$AddressList comment=AS212238 address=181.215.232.0/24} on-error {}
-:do {add list=$AddressList comment=AS212238 address=181.215.234.0/24} on-error {}
-:do {add list=$AddressList comment=AS212238 address=181.215.27.0/24} on-error {}
-:do {add list=$AddressList comment=AS212238 address=181.215.33.0/24} on-error {}

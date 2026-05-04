@@ -2,6 +2,14 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=18.66.195.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.195.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
+:if ([:len [/ip/route/find dst-address=18.66.196.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.196.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
+:if ([:len [/ip/route/find dst-address=18.66.196.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.196.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
+:if ([:len [/ip/route/find dst-address=18.66.196.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.196.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
+:if ([:len [/ip/route/find dst-address=18.66.196.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.196.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
+:if ([:len [/ip/route/find dst-address=18.66.218.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.218.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
+:if ([:len [/ip/route/find dst-address=18.66.218.117 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.218.117 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
+:if ([:len [/ip/route/find dst-address=18.66.218.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.218.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
 :if ([:len [/ip/route/find dst-address=18.66.218.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.218.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
 :if ([:len [/ip/route/find dst-address=18.66.233.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.233.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
 :if ([:len [/ip/route/find dst-address=18.66.233.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.233.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
@@ -94,11 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.160.212.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.212.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
 :if ([:len [/ip/route/find dst-address=3.160.212.124 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.212.124 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
 :if ([:len [/ip/route/find dst-address=3.160.212.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.212.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
-:if ([:len [/ip/route/find dst-address=3.160.212.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.212.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
-:if ([:len [/ip/route/find dst-address=3.160.212.44 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.212.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
-:if ([:len [/ip/route/find dst-address=3.160.212.55 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.212.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
-:if ([:len [/ip/route/find dst-address=3.160.212.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.212.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
-:if ([:len [/ip/route/find dst-address=3.160.212.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.212.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
-:if ([:len [/ip/route/find dst-address=3.160.231.108 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.231.108 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
-:if ([:len [/ip/route/find dst-address=3.160.231.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.231.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }
-:if ([:len [/ip/route/find dst-address=3.160.231.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.231.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=crunchyroll.com }

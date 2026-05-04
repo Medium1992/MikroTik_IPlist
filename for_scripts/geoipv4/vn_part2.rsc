@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=vn address=103.176.108.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=103.176.112.0/23} on-error {}
 :do {add list=$AddressList comment=vn address=103.176.144.0/21} on-error {}
 :do {add list=$AddressList comment=vn address=103.176.164.0/23} on-error {}
@@ -215,7 +214,6 @@
 :do {add list=$AddressList comment=vn address=103.249.156.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=103.249.20.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=103.249.200.0/23} on-error {}
-:do {add list=$AddressList comment=vn address=103.250.141.0/24} on-error {}
 :do {add list=$AddressList comment=vn address=103.250.24.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=103.250.78.0/23} on-error {}
 :do {add list=$AddressList comment=vn address=103.252.0.0/22} on-error {}
@@ -235,8 +233,6 @@
 :do {add list=$AddressList comment=vn address=103.255.236.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=103.255.84.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=103.26.252.0/22} on-error {}
-:do {add list=$AddressList comment=vn address=103.27.229.128/25} on-error {}
-:do {add list=$AddressList comment=vn address=103.27.231.0/25} on-error {}
 :do {add list=$AddressList comment=vn address=103.27.236.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=103.27.60.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=103.27.64.0/22} on-error {}
@@ -350,3 +346,7 @@
 :do {add list=$AddressList comment=vn address=103.73.86.0/23} on-error {}
 :do {add list=$AddressList comment=vn address=103.74.100.0/22} on-error {}
 :do {add list=$AddressList comment=vn address=103.74.104.0/22} on-error {}
+:do {add list=$AddressList comment=vn address=103.74.112.0/21} on-error {}
+:do {add list=$AddressList comment=vn address=103.74.120.0/22} on-error {}
+:do {add list=$AddressList comment=vn address=103.75.176.0/21} on-error {}
+:do {add list=$AddressList comment=vn address=103.75.184.0/22} on-error {}

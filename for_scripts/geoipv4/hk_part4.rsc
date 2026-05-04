@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=hk address=103.28.144.0/22} on-error {}
-:do {add list=$AddressList comment=hk address=103.28.44.0/22} on-error {}
-:do {add list=$AddressList comment=hk address=103.28.54.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.28.68.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.28.76.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=103.28.88.0/23} on-error {}
@@ -276,6 +273,7 @@
 :do {add list=$AddressList comment=hk address=103.70.59.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.70.76.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=103.71.148.0/22} on-error {}
+:do {add list=$AddressList comment=hk address=103.71.152.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.71.154.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=103.71.228.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=103.71.236.0/22} on-error {}
@@ -313,7 +311,7 @@
 :do {add list=$AddressList comment=hk address=103.77.192.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=103.77.20.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=103.77.210.0/23} on-error {}
-:do {add list=$AddressList comment=hk address=103.78.40.0/22} on-error {}
+:do {add list=$AddressList comment=hk address=103.78.40.0/23} on-error {}
 :do {add list=$AddressList comment=hk address=103.79.184.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=103.79.240.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=103.79.52.0/22} on-error {}
@@ -350,3 +348,5 @@
 :do {add list=$AddressList comment=hk address=103.84.136.0/22} on-error {}
 :do {add list=$AddressList comment=hk address=103.84.152.0/24} on-error {}
 :do {add list=$AddressList comment=hk address=103.84.168.0/24} on-error {}
+:do {add list=$AddressList comment=hk address=103.84.220.0/22} on-error {}
+:do {add list=$AddressList comment=hk address=103.84.32.0/22} on-error {}

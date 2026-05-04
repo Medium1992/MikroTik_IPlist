@@ -17,7 +17,6 @@
 :do {add list=$AddressList comment=kw address=104.28.165.155/32} on-error {}
 :do {add list=$AddressList comment=kw address=104.28.172.252/30} on-error {}
 :do {add list=$AddressList comment=kw address=104.28.173.0/30} on-error {}
-:do {add list=$AddressList comment=kw address=104.28.205.0/32} on-error {}
 :do {add list=$AddressList comment=kw address=104.28.205.23/32} on-error {}
 :do {add list=$AddressList comment=kw address=104.28.205.24/30} on-error {}
 :do {add list=$AddressList comment=kw address=104.28.205.28/31} on-error {}
@@ -78,7 +77,6 @@
 :do {add list=$AddressList comment=kw address=140.248.61.122/32} on-error {}
 :do {add list=$AddressList comment=kw address=140.248.62.122/32} on-error {}
 :do {add list=$AddressList comment=kw address=140.248.63.122/32} on-error {}
-:do {add list=$AddressList comment=kw address=141.197.16.0/23} on-error {}
 :do {add list=$AddressList comment=kw address=144.125.128.0/27} on-error {}
 :do {add list=$AddressList comment=kw address=144.125.196.0/25} on-error {}
 :do {add list=$AddressList comment=kw address=146.75.162.42/31} on-error {}
@@ -265,7 +263,6 @@
 :do {add list=$AddressList comment=kw address=196.56.116.0/24} on-error {}
 :do {add list=$AddressList comment=kw address=196.57.116.0/24} on-error {}
 :do {add list=$AddressList comment=kw address=196.58.116.0/24} on-error {}
-:do {add list=$AddressList comment=kw address=198.54.100.78/31} on-error {}
 :do {add list=$AddressList comment=kw address=202.181.128.60/30} on-error {}
 :do {add list=$AddressList comment=kw address=202.181.128.64/31} on-error {}
 :do {add list=$AddressList comment=kw address=208.127.100.127/32} on-error {}
@@ -350,3 +347,6 @@
 :do {add list=$AddressList comment=kw address=31.223.185.32/31} on-error {}
 :do {add list=$AddressList comment=kw address=31.223.185.35/32} on-error {}
 :do {add list=$AddressList comment=kw address=31.223.185.36/30} on-error {}
+:do {add list=$AddressList comment=kw address=31.223.185.40/29} on-error {}
+:do {add list=$AddressList comment=kw address=31.223.185.48/28} on-error {}
+:do {add list=$AddressList comment=kw address=31.223.185.64/26} on-error {}

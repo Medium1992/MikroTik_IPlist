@@ -227,8 +227,6 @@
 :do {add list=$AddressList comment=lk address=45.200.172.0/23} on-error {}
 :do {add list=$AddressList comment=lk address=45.200.174.0/24} on-error {}
 :do {add list=$AddressList comment=lk address=45.83.127.0/27} on-error {}
-:do {add list=$AddressList comment=lk address=5.62.63.133/32} on-error {}
-:do {add list=$AddressList comment=lk address=5.62.63.134/31} on-error {}
 :do {add list=$AddressList comment=lk address=57.72.88.0/23} on-error {}
 :do {add list=$AddressList comment=lk address=57.93.16.0/20} on-error {}
 :do {add list=$AddressList comment=lk address=59.163.240.0/20} on-error {}

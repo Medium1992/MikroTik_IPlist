@@ -38,7 +38,6 @@
 :do {add list=$AddressList comment=sv address=131.100.140.0/22} on-error {}
 :do {add list=$AddressList comment=sv address=131.196.32.10/32} on-error {}
 :do {add list=$AddressList comment=sv address=132.255.208.0/22} on-error {}
-:do {add list=$AddressList comment=sv address=136.23.22.44/32} on-error {}
 :do {add list=$AddressList comment=sv address=136.23.26.28/32} on-error {}
 :do {add list=$AddressList comment=sv address=138.186.248.0/22} on-error {}
 :do {add list=$AddressList comment=sv address=138.219.12.0/22} on-error {}
@@ -184,7 +183,6 @@
 :do {add list=$AddressList comment=sv address=196.57.82.0/24} on-error {}
 :do {add list=$AddressList comment=sv address=196.58.82.0/24} on-error {}
 :do {add list=$AddressList comment=sv address=200.0.180.0/24} on-error {}
-:do {add list=$AddressList comment=sv address=200.0.86.0/23} on-error {}
 :do {add list=$AddressList comment=sv address=200.106.224.0/20} on-error {}
 :do {add list=$AddressList comment=sv address=200.107.207.0/24} on-error {}
 :do {add list=$AddressList comment=sv address=200.11.31.0/24} on-error {}
@@ -264,13 +262,10 @@
 :do {add list=$AddressList comment=sv address=45.187.210.0/23} on-error {}
 :do {add list=$AddressList comment=sv address=45.195.206.0/23} on-error {}
 :do {add list=$AddressList comment=sv address=45.5.12.0/24} on-error {}
-:do {add list=$AddressList comment=sv address=45.6.248.0/21} on-error {}
 :do {add list=$AddressList comment=sv address=45.81.127.0/24} on-error {}
 :do {add list=$AddressList comment=sv address=45.83.146.0/27} on-error {}
 :do {add list=$AddressList comment=sv address=45.89.99.28/30} on-error {}
 :do {add list=$AddressList comment=sv address=45.89.99.92/30} on-error {}
-:do {add list=$AddressList comment=sv address=5.62.56.89/32} on-error {}
-:do {add list=$AddressList comment=sv address=5.62.56.90/32} on-error {}
 :do {add list=$AddressList comment=sv address=57.74.84.0/22} on-error {}
 :do {add list=$AddressList comment=sv address=57.75.192.0/20} on-error {}
 :do {add list=$AddressList comment=sv address=65.182.10.0/24} on-error {}

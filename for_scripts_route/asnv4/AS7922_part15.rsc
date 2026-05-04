@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=174.62.81.84/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=174.62.81.84/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
+:if ([:len [/ip/route/find dst-address=174.62.81.88/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=174.62.81.88/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
+:if ([:len [/ip/route/find dst-address=174.62.81.96/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=174.62.81.96/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
+:if ([:len [/ip/route/find dst-address=174.62.82.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=174.62.82.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
+:if ([:len [/ip/route/find dst-address=174.62.84.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=174.62.84.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
+:if ([:len [/ip/route/find dst-address=174.62.88.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=174.62.88.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
 :if ([:len [/ip/route/find dst-address=174.62.96.0/19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=174.62.96.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
 :if ([:len [/ip/route/find dst-address=174.63.0.0/18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=174.63.0.0/18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
 :if ([:len [/ip/route/find dst-address=174.63.100.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=174.63.100.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=24.0.111.120/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=24.0.111.120/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
 :if ([:len [/ip/route/find dst-address=24.0.111.128/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=24.0.111.128/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
 :if ([:len [/ip/route/find dst-address=24.0.111.64/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=24.0.111.64/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=24.0.111.96/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=24.0.111.96/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=24.0.112.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=24.0.112.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=24.0.128.0/18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=24.0.128.0/18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=24.0.16.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=24.0.16.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=24.0.192.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=24.0.192.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=24.0.200.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=24.0.200.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }

@@ -310,15 +310,15 @@
 :do {add list=$AddressList comment=ir address=195.181.0.0/17} on-error {}
 :do {add list=$AddressList comment=ir address=195.182.38.0/24} on-error {}
 :do {add list=$AddressList comment=ir address=195.190.130.0/24} on-error {}
+:do {add list=$AddressList comment=ir address=195.190.139.0/24} on-error {}
 :do {add list=$AddressList comment=ir address=195.190.144.0/24} on-error {}
 :do {add list=$AddressList comment=ir address=195.191.22.0/23} on-error {}
 :do {add list=$AddressList comment=ir address=195.191.44.0/23} on-error {}
 :do {add list=$AddressList comment=ir address=195.191.74.0/23} on-error {}
 :do {add list=$AddressList comment=ir address=195.2.234.0/24} on-error {}
 :do {add list=$AddressList comment=ir address=195.20.136.0/24} on-error {}
-:do {add list=$AddressList comment=ir address=195.200.77.0/24} on-error {}
+:do {add list=$AddressList comment=ir address=195.200.76.0/23} on-error {}
 :do {add list=$AddressList comment=ir address=195.211.44.0/22} on-error {}
-:do {add list=$AddressList comment=ir address=195.211.71.0/24} on-error {}
 :do {add list=$AddressList comment=ir address=195.214.235.0/24} on-error {}
 :do {add list=$AddressList comment=ir address=195.225.232.0/24} on-error {}
 :do {add list=$AddressList comment=ir address=195.226.223.0/24} on-error {}

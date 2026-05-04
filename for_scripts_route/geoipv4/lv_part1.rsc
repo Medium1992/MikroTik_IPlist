@@ -3,6 +3,7 @@
 :global GateWay
 /ip route
 :if ([:len [/ip/route/find dst-address=102.38.247.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=102.38.247.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lv }
+:if ([:len [/ip/route/find dst-address=103.237.44.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.237.44.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lv }
 :if ([:len [/ip/route/find dst-address=104.165.205.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.165.205.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lv }
 :if ([:len [/ip/route/find dst-address=104.252.19.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.252.19.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lv }
 :if ([:len [/ip/route/find dst-address=104.253.250.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.253.250.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lv }
@@ -101,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=146.75.202.8/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=146.75.202.8/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lv }
 :if ([:len [/ip/route/find dst-address=148.64.10.208/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=148.64.10.208/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lv }
 :if ([:len [/ip/route/find dst-address=149.100.208.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=149.100.208.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lv }
-:if ([:len [/ip/route/find dst-address=149.11.20.36/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=149.11.20.36/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=lv }

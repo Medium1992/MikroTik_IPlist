@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=signal.org address=216.58.206.211} on-error {}
+:do {add list=$AddressList comment=signal.org address=216.58.206.51} on-error {}
+:do {add list=$AddressList comment=signal.org address=216.58.206.83} on-error {}
+:do {add list=$AddressList comment=signal.org address=216.58.207.19} on-error {}
+:do {add list=$AddressList comment=signal.org address=216.58.207.211} on-error {}
 :do {add list=$AddressList comment=signal.org address=216.58.207.243} on-error {}
 :do {add list=$AddressList comment=signal.org address=216.58.207.51} on-error {}
 :do {add list=$AddressList comment=signal.org address=216.58.207.83} on-error {}
@@ -9,6 +14,7 @@
 :do {add list=$AddressList comment=signal.org address=216.58.212.51} on-error {}
 :do {add list=$AddressList comment=signal.org address=216.58.213.115} on-error {}
 :do {add list=$AddressList comment=signal.org address=216.58.214.147} on-error {}
+:do {add list=$AddressList comment=signal.org address=23.20.17.88} on-error {}
 :do {add list=$AddressList comment=signal.org address=23.20.52.2} on-error {}
 :do {add list=$AddressList comment=signal.org address=23.20.89.45} on-error {}
 :do {add list=$AddressList comment=signal.org address=23.21.182.250} on-error {}
@@ -194,6 +200,7 @@
 :do {add list=$AddressList comment=signal.org address=3.223.231.70} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.224.188.219} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.225.158.44} on-error {}
+:do {add list=$AddressList comment=signal.org address=3.225.24.252} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.226.119.153} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.226.172.34} on-error {}
 :do {add list=$AddressList comment=signal.org address=3.227.157.77} on-error {}
@@ -230,6 +237,7 @@
 :do {add list=$AddressList comment=signal.org address=32.193.168.169} on-error {}
 :do {add list=$AddressList comment=signal.org address=32.194.105.110} on-error {}
 :do {add list=$AddressList comment=signal.org address=32.195.14.32} on-error {}
+:do {add list=$AddressList comment=signal.org address=32.197.7.201} on-error {}
 :do {add list=$AddressList comment=signal.org address=34.0.251.209} on-error {}
 :do {add list=$AddressList comment=signal.org address=34.102.228.46} on-error {}
 :do {add list=$AddressList comment=signal.org address=34.117.136.13} on-error {}
@@ -242,6 +250,7 @@
 :do {add list=$AddressList comment=signal.org address=34.194.136.236} on-error {}
 :do {add list=$AddressList comment=signal.org address=34.194.162.249} on-error {}
 :do {add list=$AddressList comment=signal.org address=34.194.44.162} on-error {}
+:do {add list=$AddressList comment=signal.org address=34.194.54.206} on-error {}
 :do {add list=$AddressList comment=signal.org address=34.196.143.39} on-error {}
 :do {add list=$AddressList comment=signal.org address=34.196.152.126} on-error {}
 :do {add list=$AddressList comment=signal.org address=34.196.175.99} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=signal.org address=35.219.233.199} on-error {}
 :do {add list=$AddressList comment=signal.org address=35.219.233.51} on-error {}
 :do {add list=$AddressList comment=signal.org address=35.219.243.173} on-error {}
-:do {add list=$AddressList comment=signal.org address=35.219.252.146} on-error {}
-:do {add list=$AddressList comment=signal.org address=40.122.45.194} on-error {}
-:do {add list=$AddressList comment=signal.org address=44.193.124.156} on-error {}
-:do {add list=$AddressList comment=signal.org address=44.193.157.164} on-error {}
-:do {add list=$AddressList comment=signal.org address=44.193.253.45} on-error {}
-:do {add list=$AddressList comment=signal.org address=44.193.68.128} on-error {}
-:do {add list=$AddressList comment=signal.org address=44.194.12.115} on-error {}
-:do {add list=$AddressList comment=signal.org address=44.194.179.199} on-error {}
-:do {add list=$AddressList comment=signal.org address=44.194.227.159} on-error {}

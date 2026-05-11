@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tidal.com address=18.67.250.44} on-error {}
+:do {add list=$AddressList comment=tidal.com address=188.114.98.228} on-error {}
+:do {add list=$AddressList comment=tidal.com address=188.114.99.228} on-error {}
 :do {add list=$AddressList comment=tidal.com address=199.232.169.51} on-error {}
 :do {add list=$AddressList comment=tidal.com address=199.232.173.51} on-error {}
 :do {add list=$AddressList comment=tidal.com address=199.232.174.142} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=tidal.com address=3.166.14.127} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.166.14.29} on-error {}
 :do {add list=$AddressList comment=tidal.com address=3.166.14.78} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.166.14.83} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.166.15.246} on-error {}
-:do {add list=$AddressList comment=tidal.com address=3.166.4.246} on-error {}

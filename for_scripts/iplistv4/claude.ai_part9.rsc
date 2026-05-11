@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=claude.ai address=54.242.248.64} on-error {}
+:do {add list=$AddressList comment=claude.ai address=54.243.107.248} on-error {}
+:do {add list=$AddressList comment=claude.ai address=54.243.163.130} on-error {}
+:do {add list=$AddressList comment=claude.ai address=54.243.4.1} on-error {}
+:do {add list=$AddressList comment=claude.ai address=54.243.89.148} on-error {}
+:do {add list=$AddressList comment=claude.ai address=54.80.110.71} on-error {}
+:do {add list=$AddressList comment=claude.ai address=54.80.115.251} on-error {}
+:do {add list=$AddressList comment=claude.ai address=54.80.201.22} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.80.231.185} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.80.87.119} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.80.98.53} on-error {}
@@ -19,6 +27,7 @@
 :do {add list=$AddressList comment=claude.ai address=54.84.248.19} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.84.67.64} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.85.104.159} on-error {}
+:do {add list=$AddressList comment=claude.ai address=54.85.202.215} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.85.233.133} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.85.25.172} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.85.34.174} on-error {}
@@ -32,6 +41,7 @@
 :do {add list=$AddressList comment=claude.ai address=54.88.18.31} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.88.181.149} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.88.192.34} on-error {}
+:do {add list=$AddressList comment=claude.ai address=54.88.249.111} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.89.46.106} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.90.199.138} on-error {}
 :do {add list=$AddressList comment=claude.ai address=54.90.56.35} on-error {}

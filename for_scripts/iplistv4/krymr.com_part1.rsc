@@ -111,6 +111,7 @@
 :do {add list=$AddressList comment=krymr.com address=104.83.140.152} on-error {}
 :do {add list=$AddressList comment=krymr.com address=104.83.149.149} on-error {}
 :do {add list=$AddressList comment=krymr.com address=104.83.150.224} on-error {}
+:do {add list=$AddressList comment=krymr.com address=104.83.4.187} on-error {}
 :do {add list=$AddressList comment=krymr.com address=104.83.4.192} on-error {}
 :do {add list=$AddressList comment=krymr.com address=104.83.4.40} on-error {}
 :do {add list=$AddressList comment=krymr.com address=104.83.4.42} on-error {}
@@ -205,6 +206,10 @@
 :do {add list=$AddressList comment=krymr.com address=108.156.60.61} on-error {}
 :do {add list=$AddressList comment=krymr.com address=108.156.60.73} on-error {}
 :do {add list=$AddressList comment=krymr.com address=108.156.60.82} on-error {}
+:do {add list=$AddressList comment=krymr.com address=108.157.173.114} on-error {}
+:do {add list=$AddressList comment=krymr.com address=108.157.173.115} on-error {}
+:do {add list=$AddressList comment=krymr.com address=108.157.173.57} on-error {}
+:do {add list=$AddressList comment=krymr.com address=108.157.173.62} on-error {}
 :do {add list=$AddressList comment=krymr.com address=108.157.188.35} on-error {}
 :do {add list=$AddressList comment=krymr.com address=108.157.188.63} on-error {}
 :do {add list=$AddressList comment=krymr.com address=108.157.188.67} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=krymr.com address=13.227.192.64} on-error {}
 :do {add list=$AddressList comment=krymr.com address=13.227.192.75} on-error {}
 :do {add list=$AddressList comment=krymr.com address=13.227.192.98} on-error {}
-:do {add list=$AddressList comment=krymr.com address=13.227.249.113} on-error {}
-:do {add list=$AddressList comment=krymr.com address=13.227.249.40} on-error {}
-:do {add list=$AddressList comment=krymr.com address=13.227.249.41} on-error {}
-:do {add list=$AddressList comment=krymr.com address=13.227.249.97} on-error {}
-:do {add list=$AddressList comment=krymr.com address=13.227.62.124} on-error {}

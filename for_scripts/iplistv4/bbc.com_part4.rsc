@@ -204,6 +204,7 @@
 :do {add list=$AddressList comment=bbc.com address=23.220.150.176} on-error {}
 :do {add list=$AddressList comment=bbc.com address=23.220.188.130} on-error {}
 :do {add list=$AddressList comment=bbc.com address=23.221.103.199} on-error {}
+:do {add list=$AddressList comment=bbc.com address=23.221.202.115} on-error {}
 :do {add list=$AddressList comment=bbc.com address=23.222.30.173} on-error {}
 :do {add list=$AddressList comment=bbc.com address=23.222.84.172} on-error {}
 :do {add list=$AddressList comment=bbc.com address=23.222.88.177} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=bbc.com address=23.58.216.53} on-error {}
 :do {add list=$AddressList comment=bbc.com address=23.59.16.176} on-error {}
 :do {add list=$AddressList comment=bbc.com address=23.59.84.111} on-error {}
-:do {add list=$AddressList comment=bbc.com address=23.59.84.25} on-error {}

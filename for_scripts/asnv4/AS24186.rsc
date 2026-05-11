@@ -56,11 +56,16 @@
 :do {add list=$AddressList comment=AS24186 address=180.94.32.0/22} on-error {}
 :do {add list=$AddressList comment=AS24186 address=202.140.128.0/22} on-error {}
 :do {add list=$AddressList comment=AS24186 address=202.141.0.0/22} on-error {}
+:do {add list=$AddressList comment=AS24186 address=202.141.101.0/24} on-error {}
 :do {add list=$AddressList comment=AS24186 address=202.141.112.0/24} on-error {}
 :do {add list=$AddressList comment=AS24186 address=202.141.19.0/24} on-error {}
 :do {add list=$AddressList comment=AS24186 address=202.141.20.0/23} on-error {}
 :do {add list=$AddressList comment=AS24186 address=202.141.24.0/21} on-error {}
-:do {add list=$AddressList comment=AS24186 address=202.141.32.0/19} on-error {}
+:do {add list=$AddressList comment=AS24186 address=202.141.32.0/22} on-error {}
+:do {add list=$AddressList comment=AS24186 address=202.141.36.0/23} on-error {}
+:do {add list=$AddressList comment=AS24186 address=202.141.38.0/24} on-error {}
+:do {add list=$AddressList comment=AS24186 address=202.141.40.0/21} on-error {}
+:do {add list=$AddressList comment=AS24186 address=202.141.48.0/20} on-error {}
 :do {add list=$AddressList comment=AS24186 address=202.141.64.0/23} on-error {}
 :do {add list=$AddressList comment=AS24186 address=202.141.67.0/24} on-error {}
 :do {add list=$AddressList comment=AS24186 address=202.141.80.0/24} on-error {}
@@ -83,7 +88,7 @@
 :do {add list=$AddressList comment=AS24186 address=27.112.120.0/22} on-error {}
 :do {add list=$AddressList comment=AS24186 address=27.116.40.0/22} on-error {}
 :do {add list=$AddressList comment=AS24186 address=27.122.60.0/22} on-error {}
-:do {add list=$AddressList comment=AS24186 address=36.255.14.0/23} on-error {}
+:do {add list=$AddressList comment=AS24186 address=36.255.12.0/22} on-error {}
 :do {add list=$AddressList comment=AS24186 address=36.255.16.0/22} on-error {}
 :do {add list=$AddressList comment=AS24186 address=36.255.4.0/22} on-error {}
 :do {add list=$AddressList comment=AS24186 address=45.115.88.0/22} on-error {}

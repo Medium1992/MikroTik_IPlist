@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=bd address=165.99.216.0/22} on-error {}
+:do {add list=$AddressList comment=bd address=165.99.34.0/23} on-error {}
+:do {add list=$AddressList comment=bd address=165.99.38.0/23} on-error {}
+:do {add list=$AddressList comment=bd address=165.99.62.0/23} on-error {}
+:do {add list=$AddressList comment=bd address=165.99.74.0/23} on-error {}
 :do {add list=$AddressList comment=bd address=165.99.80.0/23} on-error {}
 :do {add list=$AddressList comment=bd address=165.99.90.0/23} on-error {}
 :do {add list=$AddressList comment=bd address=169.136.113.0/24} on-error {}
@@ -265,7 +270,8 @@
 :do {add list=$AddressList comment=bd address=210.4.64.0/20} on-error {}
 :do {add list=$AddressList comment=bd address=210.56.144.0/23} on-error {}
 :do {add list=$AddressList comment=bd address=210.79.180.0/22} on-error {}
-:do {add list=$AddressList comment=bd address=210.87.68.0/22} on-error {}
+:do {add list=$AddressList comment=bd address=210.87.68.0/24} on-error {}
+:do {add list=$AddressList comment=bd address=210.87.70.0/23} on-error {}
 :do {add list=$AddressList comment=bd address=212.134.106.0/23} on-error {}
 :do {add list=$AddressList comment=bd address=212.134.108.0/23} on-error {}
 :do {add list=$AddressList comment=bd address=212.134.32.0/22} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=bd address=43.230.120.0/22} on-error {}
 :do {add list=$AddressList comment=bd address=43.230.210.0/23} on-error {}
 :do {add list=$AddressList comment=bd address=43.231.20.0/22} on-error {}
-:do {add list=$AddressList comment=bd address=43.231.76.0/22} on-error {}
-:do {add list=$AddressList comment=bd address=43.239.72.0/22} on-error {}
-:do {add list=$AddressList comment=bd address=43.240.100.0/22} on-error {}
-:do {add list=$AddressList comment=bd address=43.242.0.0/22} on-error {}
-:do {add list=$AddressList comment=bd address=43.243.204.0/22} on-error {}
-:do {add list=$AddressList comment=bd address=43.245.118.0/23} on-error {}

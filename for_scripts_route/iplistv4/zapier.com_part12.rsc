@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=216.198.79.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.79.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
+:if ([:len [/ip/route/find dst-address=216.198.79.66 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.79.66 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
+:if ([:len [/ip/route/find dst-address=3.160.132.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.132.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
+:if ([:len [/ip/route/find dst-address=3.160.132.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.132.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
+:if ([:len [/ip/route/find dst-address=3.160.132.112 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.132.112 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
+:if ([:len [/ip/route/find dst-address=3.160.132.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.132.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
 :if ([:len [/ip/route/find dst-address=3.160.132.116 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.132.116 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
 :if ([:len [/ip/route/find dst-address=3.160.132.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.132.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
 :if ([:len [/ip/route/find dst-address=3.160.132.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.160.132.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.162.79.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.162.79.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
 :if ([:len [/ip/route/find dst-address=3.162.79.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.162.79.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
 :if ([:len [/ip/route/find dst-address=3.162.79.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.162.79.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
-:if ([:len [/ip/route/find dst-address=3.162.79.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.162.79.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
-:if ([:len [/ip/route/find dst-address=3.162.79.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.162.79.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
-:if ([:len [/ip/route/find dst-address=3.162.79.55 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.162.79.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
-:if ([:len [/ip/route/find dst-address=3.162.79.60 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.162.79.60 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
-:if ([:len [/ip/route/find dst-address=3.162.79.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.162.79.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
-:if ([:len [/ip/route/find dst-address=3.163.10.109 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.163.10.109 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }

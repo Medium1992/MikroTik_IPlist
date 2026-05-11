@@ -1,5 +1,17 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=soundcloud.com address=65.8.202.75} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.202.77} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.202.89} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.214.100} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.214.106} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.214.128} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.214.14} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.214.29} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.214.40} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.214.82} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.214.89} on-error {}
+:do {add list=$AddressList comment=soundcloud.com address=65.8.49.106} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=65.8.49.120} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=65.8.49.71} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=65.8.49.91} on-error {}
@@ -338,9 +350,3 @@
 :do {add list=$AddressList comment=soundcloud.com address=99.86.4.99} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=99.86.57.109} on-error {}
 :do {add list=$AddressList comment=soundcloud.com address=99.86.57.32} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=99.86.57.51} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=99.86.57.93} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=99.86.91.102} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=99.86.91.24} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=99.86.91.46} on-error {}
-:do {add list=$AddressList comment=soundcloud.com address=99.86.91.76} on-error {}

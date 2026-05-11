@@ -34,5 +34,3 @@
 :do {add list=$AddressList comment=tk address=212.221.41.120/29} on-error {}
 :do {add list=$AddressList comment=tk address=27.96.24.0/21} on-error {}
 :do {add list=$AddressList comment=tk address=45.138.10.176/30} on-error {}
-:do {add list=$AddressList comment=tk address=5.62.56.225/32} on-error {}
-:do {add list=$AddressList comment=tk address=5.62.56.226/31} on-error {}

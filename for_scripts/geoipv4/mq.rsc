@@ -138,10 +138,10 @@
 :do {add list=$AddressList comment=mq address=83.137.198.128/29} on-error {}
 :do {add list=$AddressList comment=mq address=83.137.199.128/29} on-error {}
 :do {add list=$AddressList comment=mq address=83.203.0.0/17} on-error {}
+:do {add list=$AddressList comment=mq address=89.157.104.0/21} on-error {}
 :do {add list=$AddressList comment=mq address=89.16.0.0/21} on-error {}
 :do {add list=$AddressList comment=mq address=89.190.157.0/24} on-error {}
 :do {add list=$AddressList comment=mq address=89.3.248.0/21} on-error {}
-:do {add list=$AddressList comment=mq address=90.82.64.0/20} on-error {}
 :do {add list=$AddressList comment=mq address=92.144.0.0/16} on-error {}
 :do {add list=$AddressList comment=mq address=92.49.112.0/20} on-error {}
 :do {add list=$AddressList comment=mq address=92.49.64.0/19} on-error {}

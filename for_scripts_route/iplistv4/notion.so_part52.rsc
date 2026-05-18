@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.92.210.226 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.210.226 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.92.210.234 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.210.234 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.92.210.242 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.210.242 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.92.210.250 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.210.250 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.92.210.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.210.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
+:if ([:len [/ip/route/find dst-address=52.92.210.34 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.210.34 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
 :if ([:len [/ip/route/find dst-address=52.92.210.42 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.210.42 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
 :if ([:len [/ip/route/find dst-address=52.92.210.50 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.210.50 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
 :if ([:len [/ip/route/find dst-address=52.92.210.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.210.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=52.92.213.98 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.213.98 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
 :if ([:len [/ip/route/find dst-address=52.92.216.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.216.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
 :if ([:len [/ip/route/find dst-address=52.92.216.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.216.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.92.216.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.216.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.92.216.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.216.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.92.216.130 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.216.130 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.92.216.138 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.216.138 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.92.216.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.216.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }
-:if ([:len [/ip/route/find dst-address=52.92.216.194 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.92.216.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=notion.so }

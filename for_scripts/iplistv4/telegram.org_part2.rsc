@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=telegram.org address=40.101.83.24} on-error {}
+:do {add list=$AddressList comment=telegram.org address=40.101.84.216} on-error {}
+:do {add list=$AddressList comment=telegram.org address=40.101.84.232} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.101.84.24} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.101.92.184} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.101.92.200} on-error {}
@@ -16,6 +19,7 @@
 :do {add list=$AddressList comment=telegram.org address=40.104.62.216} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.104.62.232} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.104.62.248} on-error {}
+:do {add list=$AddressList comment=telegram.org address=40.98.16.10} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.108} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.11} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.18} on-error {}
@@ -32,9 +36,11 @@
 :do {add list=$AddressList comment=telegram.org address=40.98.16.6} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.63} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.7} on-error {}
+:do {add list=$AddressList comment=telegram.org address=40.98.16.71} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.76} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.77} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.8} on-error {}
+:do {add list=$AddressList comment=telegram.org address=40.98.16.85} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.91} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.95} on-error {}
 :do {add list=$AddressList comment=telegram.org address=40.98.16.99} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=telegram.org address=52.98.232.56} on-error {}
 :do {add list=$AddressList comment=telegram.org address=52.98.232.8} on-error {}
 :do {add list=$AddressList comment=telegram.org address=52.98.236.120} on-error {}
-:do {add list=$AddressList comment=telegram.org address=52.98.236.152} on-error {}
-:do {add list=$AddressList comment=telegram.org address=52.98.237.152} on-error {}
-:do {add list=$AddressList comment=telegram.org address=52.98.237.168} on-error {}
-:do {add list=$AddressList comment=telegram.org address=52.98.239.104} on-error {}
-:do {add list=$AddressList comment=telegram.org address=52.98.239.120} on-error {}
-:do {add list=$AddressList comment=telegram.org address=52.98.239.136} on-error {}

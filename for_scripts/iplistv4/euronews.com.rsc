@@ -2,6 +2,8 @@
 /ip firewall address-list
 :do {add list=$AddressList comment=euronews.com address=108.128.135.170} on-error {}
 :do {add list=$AddressList comment=euronews.com address=108.128.213.170} on-error {}
+:do {add list=$AddressList comment=euronews.com address=108.128.240.117} on-error {}
+:do {add list=$AddressList comment=euronews.com address=108.128.31.116} on-error {}
 :do {add list=$AddressList comment=euronews.com address=146.75.117.91} on-error {}
 :do {add list=$AddressList comment=euronews.com address=146.75.121.91} on-error {}
 :do {add list=$AddressList comment=euronews.com address=146.75.29.91} on-error {}
@@ -49,6 +51,7 @@
 :do {add list=$AddressList comment=euronews.com address=34.246.30.251} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.247.205.222} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.247.247.134} on-error {}
+:do {add list=$AddressList comment=euronews.com address=34.247.42.229} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.248.102.139} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.248.24.50} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.249.6.252} on-error {}

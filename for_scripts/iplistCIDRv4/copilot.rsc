@@ -51,6 +51,7 @@
 :do {add list=$AddressList comment=copilot address=2.16.224.0/19} on-error {}
 :do {add list=$AddressList comment=copilot address=2.16.26.0/23} on-error {}
 :do {add list=$AddressList comment=copilot address=2.16.56.0/23} on-error {}
+:do {add list=$AddressList comment=copilot address=2.16.6.0/23} on-error {}
 :do {add list=$AddressList comment=copilot address=2.16.64.0/23} on-error {}
 :do {add list=$AddressList comment=copilot address=2.17.112.0/22} on-error {}
 :do {add list=$AddressList comment=copilot address=2.17.196.0/22} on-error {}

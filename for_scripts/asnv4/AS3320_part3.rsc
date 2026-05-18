@@ -1,27 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS3320 address=84.142.118.210/32} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.142.118.212/30} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.142.118.216/29} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.142.118.224/27} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.142.119.0/24} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.142.120.0/21} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.142.128.0/17} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.142.64.0/19} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.142.96.0/20} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.143.0.0/16} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.144.0.0/12} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.160.0.0/11} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.232.29.0/24} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.236.247.0/24} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.246.111.0/24} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.75.154.0/24} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.75.172.0/24} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.75.196.0/24} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.75.200.0/24} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.75.206.0/24} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.75.209.0/24} on-error {}
-:do {add list=$AddressList comment=AS3320 address=84.75.218.0/24} on-error {}
 :do {add list=$AddressList comment=AS3320 address=85.119.160.0/23} on-error {}
 :do {add list=$AddressList comment=AS3320 address=85.204.181.0/24} on-error {}
 :do {add list=$AddressList comment=AS3320 address=85.232.176.0/24} on-error {}

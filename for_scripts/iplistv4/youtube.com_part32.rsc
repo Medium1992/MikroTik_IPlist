@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=172.217.25.214} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.25.22} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.25.227} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.25.3} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.25.35} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.25.4} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.25.67} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.25.78} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.25.99} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.26.110} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.26.14} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.26.163} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.26.195} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.26.227} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.26.228} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.26.234} on-error {}
@@ -34,6 +47,7 @@
 :do {add list=$AddressList comment=youtube.com address=172.217.27.214} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.27.22} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.27.227} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.27.238} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.27.3} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.27.33} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.27.35} on-error {}
@@ -194,6 +208,7 @@
 :do {add list=$AddressList comment=youtube.com address=172.217.31.246} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.31.3} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.31.4} on-error {}
+:do {add list=$AddressList comment=youtube.com address=172.217.31.46} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.4.100} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.4.106} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.4.110} on-error {}
@@ -335,18 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=172.217.9.193} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.9.195} on-error {}
 :do {add list=$AddressList comment=youtube.com address=172.217.9.196} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.202} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.204} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.206} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.207} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.214} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.33} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.36} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.42} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.46} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.47} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.54} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.65} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.68} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.74} on-error {}
-:do {add list=$AddressList comment=youtube.com address=172.217.9.78} on-error {}

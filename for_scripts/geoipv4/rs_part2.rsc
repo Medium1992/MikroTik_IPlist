@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=rs address=185.118.168.0/22} on-error {}
+:do {add list=$AddressList comment=rs address=185.119.88.0/22} on-error {}
+:do {add list=$AddressList comment=rs address=185.125.176.0/22} on-error {}
 :do {add list=$AddressList comment=rs address=185.125.60.0/22} on-error {}
 :do {add list=$AddressList comment=rs address=185.127.216.0/22} on-error {}
 :do {add list=$AddressList comment=rs address=185.129.120.0/24} on-error {}
@@ -112,7 +115,6 @@
 :do {add list=$AddressList comment=rs address=188.255.160.0/23} on-error {}
 :do {add list=$AddressList comment=rs address=188.255.166.0/23} on-error {}
 :do {add list=$AddressList comment=rs address=188.255.168.0/24} on-error {}
-:do {add list=$AddressList comment=rs address=188.255.170.0/24} on-error {}
 :do {add list=$AddressList comment=rs address=188.255.172.0/24} on-error {}
 :do {add list=$AddressList comment=rs address=188.255.174.0/23} on-error {}
 :do {add list=$AddressList comment=rs address=188.255.176.0/21} on-error {}
@@ -340,6 +342,7 @@
 :do {add list=$AddressList comment=rs address=5.172.36.0/24} on-error {}
 :do {add list=$AddressList comment=rs address=5.172.38.0/23} on-error {}
 :do {add list=$AddressList comment=rs address=5.182.130.72/30} on-error {}
+:do {add list=$AddressList comment=rs address=5.182.131.32/31} on-error {}
 :do {add list=$AddressList comment=rs address=5.183.24.0/22} on-error {}
 :do {add list=$AddressList comment=rs address=5.22.160.0/19} on-error {}
 :do {add list=$AddressList comment=rs address=5.252.236.0/22} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=rs address=5.57.72.0/21} on-error {}
 :do {add list=$AddressList comment=rs address=57.90.192.0/21} on-error {}
 :do {add list=$AddressList comment=rs address=62.101.128.0/20} on-error {}
-:do {add list=$AddressList comment=rs address=62.108.96.0/19} on-error {}
-:do {add list=$AddressList comment=rs address=62.182.152.0/22} on-error {}
-:do {add list=$AddressList comment=rs address=62.192.113.0/24} on-error {}

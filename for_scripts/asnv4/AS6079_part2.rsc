@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS6079 address=192.53.64.0/21} on-error {}
+:do {add list=$AddressList comment=AS6079 address=192.64.26.0/23} on-error {}
 :do {add list=$AddressList comment=AS6079 address=192.70.176.0/24} on-error {}
 :do {add list=$AddressList comment=AS6079 address=193.160.80.0/22} on-error {}
 :do {add list=$AddressList comment=AS6079 address=193.233.108.0/22} on-error {}
@@ -236,6 +238,7 @@
 :do {add list=$AddressList comment=AS6079 address=209.127.104.0/21} on-error {}
 :do {add list=$AddressList comment=AS6079 address=209.130.0.0/17} on-error {}
 :do {add list=$AddressList comment=AS6079 address=209.135.184.0/22} on-error {}
+:do {add list=$AddressList comment=AS6079 address=209.137.177.0/24} on-error {}
 :do {add list=$AddressList comment=AS6079 address=209.137.179.0/24} on-error {}
 :do {add list=$AddressList comment=AS6079 address=209.142.102.0/24} on-error {}
 :do {add list=$AddressList comment=AS6079 address=209.150.32.0/19} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=AS6079 address=37.202.206.0/24} on-error {}
 :do {add list=$AddressList comment=AS6079 address=37.203.146.0/24} on-error {}
 :do {add list=$AddressList comment=AS6079 address=37.203.168.0/23} on-error {}
-:do {add list=$AddressList comment=AS6079 address=37.203.170.0/24} on-error {}
-:do {add list=$AddressList comment=AS6079 address=38.110.113.0/24} on-error {}
-:do {add list=$AddressList comment=AS6079 address=38.110.136.0/24} on-error {}

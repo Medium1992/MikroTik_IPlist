@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=jetbrains.com address=18.165.72.113} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.165.72.116} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.165.72.117} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.165.72.119} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.165.72.122} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=18.165.72.123} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.165.72.125} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.165.72.126} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.165.72.127} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=jetbrains.com address=18.172.242.40} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.172.242.41} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=18.172.242.42} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.172.242.43} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.172.242.44} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.172.242.45} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.172.242.46} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.172.242.47} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=18.172.242.48} on-error {}

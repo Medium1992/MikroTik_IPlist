@@ -1,14 +1,10 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=cz address=149.6.24.208/29} on-error {}
-:do {add list=$AddressList comment=cz address=149.6.24.224/27} on-error {}
-:do {add list=$AddressList comment=cz address=149.6.24.24/29} on-error {}
-:do {add list=$AddressList comment=cz address=149.6.24.32/27} on-error {}
-:do {add list=$AddressList comment=cz address=149.6.24.64/26} on-error {}
 :do {add list=$AddressList comment=cz address=149.6.24.8/30} on-error {}
 :do {add list=$AddressList comment=cz address=149.6.25.0/29} on-error {}
 :do {add list=$AddressList comment=cz address=149.6.25.120/29} on-error {}
 :do {add list=$AddressList comment=cz address=149.6.25.128/27} on-error {}
+:do {add list=$AddressList comment=cz address=149.6.25.14/31} on-error {}
 :do {add list=$AddressList comment=cz address=149.6.25.16/29} on-error {}
 :do {add list=$AddressList comment=cz address=149.6.25.160/28} on-error {}
 :do {add list=$AddressList comment=cz address=149.6.25.184/29} on-error {}
@@ -49,6 +45,7 @@
 :do {add list=$AddressList comment=cz address=153.72.176.64/26} on-error {}
 :do {add list=$AddressList comment=cz address=153.72.41.32/27} on-error {}
 :do {add list=$AddressList comment=cz address=153.72.52.64/26} on-error {}
+:do {add list=$AddressList comment=cz address=153.76.160.0/19} on-error {}
 :do {add list=$AddressList comment=cz address=153.92.166.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=154.14.0.248/30} on-error {}
 :do {add list=$AddressList comment=cz address=154.14.102.84/30} on-error {}
@@ -350,3 +347,6 @@
 :do {add list=$AddressList comment=cz address=176.96.237.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=176.96.255.0/24} on-error {}
 :do {add list=$AddressList comment=cz address=176.97.201.0/24} on-error {}
+:do {add list=$AddressList comment=cz address=176.97.240.0/21} on-error {}
+:do {add list=$AddressList comment=cz address=176.97.75.0/24} on-error {}
+:do {add list=$AddressList comment=cz address=176.97.8.0/21} on-error {}

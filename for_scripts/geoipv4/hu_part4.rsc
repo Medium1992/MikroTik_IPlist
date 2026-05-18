@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=hu address=212.222.9.72/29} on-error {}
 :do {add list=$AddressList comment=hu address=212.222.93.8/30} on-error {}
 :do {add list=$AddressList comment=hu address=212.24.160.0/19} on-error {}
 :do {add list=$AddressList comment=hu address=212.39.1.240/29} on-error {}
@@ -58,6 +57,9 @@
 :do {add list=$AddressList comment=hu address=213.198.107.48/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.222.128.0/18} on-error {}
 :do {add list=$AddressList comment=hu address=213.228.201.40/29} on-error {}
+:do {add list=$AddressList comment=hu address=213.228.207.232/29} on-error {}
+:do {add list=$AddressList comment=hu address=213.228.207.240/29} on-error {}
+:do {add list=$AddressList comment=hu address=213.228.212.208/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.235.10.64/28} on-error {}
 :do {add list=$AddressList comment=hu address=213.235.11.112/29} on-error {}
 :do {add list=$AddressList comment=hu address=213.235.24.64/29} on-error {}
@@ -226,6 +228,7 @@
 :do {add list=$AddressList comment=hu address=45.141.160.0/22} on-error {}
 :do {add list=$AddressList comment=hu address=45.144.192.0/22} on-error {}
 :do {add list=$AddressList comment=hu address=45.146.0.0/22} on-error {}
+:do {add list=$AddressList comment=hu address=45.147.158.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=45.15.192.96/28} on-error {}
 :do {add list=$AddressList comment=hu address=45.15.68.0/22} on-error {}
 :do {add list=$AddressList comment=hu address=45.153.148.0/22} on-error {}
@@ -297,6 +300,7 @@
 :do {add list=$AddressList comment=hu address=5.181.77.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=5.182.112.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=5.182.130.52/30} on-error {}
+:do {add list=$AddressList comment=hu address=5.182.131.22/31} on-error {}
 :do {add list=$AddressList comment=hu address=5.182.38.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=5.187.128.0/17} on-error {}
 :do {add list=$AddressList comment=hu address=5.204.0.0/16} on-error {}
@@ -313,6 +317,7 @@
 :do {add list=$AddressList comment=hu address=5.61.240.0/21} on-error {}
 :do {add list=$AddressList comment=hu address=5.63.192.0/18} on-error {}
 :do {add list=$AddressList comment=hu address=50.114.168.0/24} on-error {}
+:do {add list=$AddressList comment=hu address=51.194.234.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=52.46.14.0/25} on-error {}
 :do {add list=$AddressList comment=hu address=57.90.112.0/21} on-error {}
 :do {add list=$AddressList comment=hu address=62.100.224.0/19} on-error {}
@@ -337,16 +342,11 @@
 :do {add list=$AddressList comment=hu address=74.125.61.80/29} on-error {}
 :do {add list=$AddressList comment=hu address=77.110.128.0/18} on-error {}
 :do {add list=$AddressList comment=hu address=77.111.112.0/22} on-error {}
+:do {add list=$AddressList comment=hu address=77.111.116.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=77.111.119.0/24} on-error {}
+:do {add list=$AddressList comment=hu address=77.111.121.0/24} on-error {}
 :do {add list=$AddressList comment=hu address=77.111.124.0/22} on-error {}
 :do {add list=$AddressList comment=hu address=77.111.128.0/18} on-error {}
 :do {add list=$AddressList comment=hu address=77.111.88.0/21} on-error {}
 :do {add list=$AddressList comment=hu address=77.221.32.0/19} on-error {}
 :do {add list=$AddressList comment=hu address=77.234.64.0/19} on-error {}
-:do {add list=$AddressList comment=hu address=77.242.144.0/24} on-error {}
-:do {add list=$AddressList comment=hu address=77.242.148.0/24} on-error {}
-:do {add list=$AddressList comment=hu address=77.242.151.0/24} on-error {}
-:do {add list=$AddressList comment=hu address=77.242.152.0/22} on-error {}
-:do {add list=$AddressList comment=hu address=77.242.156.0/24} on-error {}
-:do {add list=$AddressList comment=hu address=77.242.159.0/24} on-error {}
-:do {add list=$AddressList comment=hu address=77.243.208.0/20} on-error {}

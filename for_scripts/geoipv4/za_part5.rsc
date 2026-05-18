@@ -1,11 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=za address=154.65.97.238/32} on-error {}
-:do {add list=$AddressList comment=za address=154.66.112.0/22} on-error {}
-:do {add list=$AddressList comment=za address=154.66.144.0/20} on-error {}
-:do {add list=$AddressList comment=za address=154.66.176.0/20} on-error {}
-:do {add list=$AddressList comment=za address=154.66.192.0/20} on-error {}
-:do {add list=$AddressList comment=za address=154.66.208.0/22} on-error {}
 :do {add list=$AddressList comment=za address=154.66.241.0/24} on-error {}
 :do {add list=$AddressList comment=za address=154.66.244.0/24} on-error {}
 :do {add list=$AddressList comment=za address=154.66.248.0/21} on-error {}
@@ -219,7 +213,6 @@
 :do {add list=$AddressList comment=za address=160.242.67.0/24} on-error {}
 :do {add list=$AddressList comment=za address=160.242.69.0/24} on-error {}
 :do {add list=$AddressList comment=za address=160.242.71.0/24} on-error {}
-:do {add list=$AddressList comment=za address=160.242.80.0/20} on-error {}
 :do {add list=$AddressList comment=za address=160.25.104.85/32} on-error {}
 :do {add list=$AddressList comment=za address=160.25.105.85/32} on-error {}
 :do {add list=$AddressList comment=za address=160.48.233.0/24} on-error {}
@@ -350,3 +343,10 @@
 :do {add list=$AddressList comment=za address=165.1.197.193/32} on-error {}
 :do {add list=$AddressList comment=za address=165.1.197.194/31} on-error {}
 :do {add list=$AddressList comment=za address=165.1.197.196/30} on-error {}
+:do {add list=$AddressList comment=za address=165.1.197.200/29} on-error {}
+:do {add list=$AddressList comment=za address=165.1.197.208/29} on-error {}
+:do {add list=$AddressList comment=za address=165.1.197.216/30} on-error {}
+:do {add list=$AddressList comment=za address=165.1.197.220/31} on-error {}
+:do {add list=$AddressList comment=za address=165.1.197.222/32} on-error {}
+:do {add list=$AddressList comment=za address=165.1.197.225/32} on-error {}
+:do {add list=$AddressList comment=za address=165.1.197.226/31} on-error {}

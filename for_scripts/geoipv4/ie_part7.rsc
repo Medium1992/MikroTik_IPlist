@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ie address=20.202.142.0/23} on-error {}
+:do {add list=$AddressList comment=ie address=20.202.144.0/22} on-error {}
+:do {add list=$AddressList comment=ie address=20.202.148.0/23} on-error {}
+:do {add list=$AddressList comment=ie address=20.202.151.0/24} on-error {}
+:do {add list=$AddressList comment=ie address=20.202.153.0/24} on-error {}
+:do {add list=$AddressList comment=ie address=20.202.155.0/24} on-error {}
+:do {add list=$AddressList comment=ie address=20.202.157.0/24} on-error {}
+:do {add list=$AddressList comment=ie address=20.202.159.0/24} on-error {}
+:do {add list=$AddressList comment=ie address=20.202.161.0/24} on-error {}
+:do {add list=$AddressList comment=ie address=20.202.163.0/24} on-error {}
 :do {add list=$AddressList comment=ie address=20.202.165.0/24} on-error {}
 :do {add list=$AddressList comment=ie address=20.202.167.0/24} on-error {}
 :do {add list=$AddressList comment=ie address=20.202.227.0/24} on-error {}
@@ -340,13 +350,3 @@
 :do {add list=$AddressList comment=ie address=212.222.240.16/29} on-error {}
 :do {add list=$AddressList comment=ie address=212.222.240.232/29} on-error {}
 :do {add list=$AddressList comment=ie address=212.222.241.160/29} on-error {}
-:do {add list=$AddressList comment=ie address=212.222.241.64/28} on-error {}
-:do {add list=$AddressList comment=ie address=212.222.242.104/29} on-error {}
-:do {add list=$AddressList comment=ie address=212.222.242.184/29} on-error {}
-:do {add list=$AddressList comment=ie address=212.222.248.0/29} on-error {}
-:do {add list=$AddressList comment=ie address=212.222.249.232/29} on-error {}
-:do {add list=$AddressList comment=ie address=212.222.249.48/30} on-error {}
-:do {add list=$AddressList comment=ie address=212.222.251.0/29} on-error {}
-:do {add list=$AddressList comment=ie address=212.222.251.116/30} on-error {}
-:do {add list=$AddressList comment=ie address=212.222.251.192/26} on-error {}
-:do {add list=$AddressList comment=ie address=212.222.251.52/30} on-error {}

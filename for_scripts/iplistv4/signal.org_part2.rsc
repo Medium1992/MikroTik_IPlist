@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=signal.org address=172.217.20.19} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.217.20.211} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.217.20.51} on-error {}
 :do {add list=$AddressList comment=signal.org address=172.217.20.83} on-error {}
@@ -180,6 +181,7 @@
 :do {add list=$AddressList comment=signal.org address=18.214.63.159} on-error {}
 :do {add list=$AddressList comment=signal.org address=18.232.218.24} on-error {}
 :do {add list=$AddressList comment=signal.org address=18.232.30.252} on-error {}
+:do {add list=$AddressList comment=signal.org address=18.235.205.120} on-error {}
 :do {add list=$AddressList comment=signal.org address=18.235.239.12} on-error {}
 :do {add list=$AddressList comment=signal.org address=18.235.9.35} on-error {}
 :do {add list=$AddressList comment=signal.org address=18.238.49.106} on-error {}
@@ -324,6 +326,7 @@
 :do {add list=$AddressList comment=signal.org address=192.178.25.179} on-error {}
 :do {add list=$AddressList comment=signal.org address=192.178.25.19} on-error {}
 :do {add list=$AddressList comment=signal.org address=192.178.25.243} on-error {}
+:do {add list=$AddressList comment=signal.org address=192.178.25.83} on-error {}
 :do {add list=$AddressList comment=signal.org address=20.104.52.125} on-error {}
 :do {add list=$AddressList comment=signal.org address=20.119.62.85} on-error {}
 :do {add list=$AddressList comment=signal.org address=20.127.86.118} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=signal.org address=216.58.201.179} on-error {}
 :do {add list=$AddressList comment=signal.org address=216.58.201.211} on-error {}
 :do {add list=$AddressList comment=signal.org address=216.58.201.243} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.204.115} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.205.147} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.205.51} on-error {}

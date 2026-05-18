@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=bg address=192.19.59.250/32} on-error {}
+:do {add list=$AddressList comment=bg address=192.56.226.0/24} on-error {}
+:do {add list=$AddressList comment=bg address=192.58.32.0/22} on-error {}
 :do {add list=$AddressList comment=bg address=192.77.249.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=192.92.129.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=193.104.165.0/24} on-error {}
@@ -203,7 +206,6 @@
 :do {add list=$AddressList comment=bg address=194.50.99.22/32} on-error {}
 :do {add list=$AddressList comment=bg address=194.54.140.0/22} on-error {}
 :do {add list=$AddressList comment=bg address=194.55.184.0/23} on-error {}
-:do {add list=$AddressList comment=bg address=194.55.224.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=194.61.32.0/22} on-error {}
 :do {add list=$AddressList comment=bg address=194.63.136.0/22} on-error {}
 :do {add list=$AddressList comment=bg address=194.68.225.0/24} on-error {}
@@ -254,11 +256,9 @@
 :do {add list=$AddressList comment=bg address=195.214.248.0/21} on-error {}
 :do {add list=$AddressList comment=bg address=195.216.228.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=195.219.190.0/25} on-error {}
-:do {add list=$AddressList comment=bg address=195.219.190.128/30} on-error {}
-:do {add list=$AddressList comment=bg address=195.219.190.132/31} on-error {}
-:do {add list=$AddressList comment=bg address=195.219.190.136/29} on-error {}
-:do {add list=$AddressList comment=bg address=195.219.190.144/28} on-error {}
+:do {add list=$AddressList comment=bg address=195.219.190.128/27} on-error {}
 :do {add list=$AddressList comment=bg address=195.219.190.160/30} on-error {}
+:do {add list=$AddressList comment=bg address=195.219.190.168/29} on-error {}
 :do {add list=$AddressList comment=bg address=195.225.124.0/22} on-error {}
 :do {add list=$AddressList comment=bg address=195.225.252.0/22} on-error {}
 :do {add list=$AddressList comment=bg address=195.225.51.0/24} on-error {}

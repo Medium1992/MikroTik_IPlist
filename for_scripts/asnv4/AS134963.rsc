@@ -43,12 +43,10 @@
 :do {add list=$AddressList comment=AS134963 address=203.107.48.0/22} on-error {}
 :do {add list=$AddressList comment=AS134963 address=205.198.40.0/23} on-error {}
 :do {add list=$AddressList comment=AS134963 address=205.198.43.0/24} on-error {}
-:do {add list=$AddressList comment=AS134963 address=205.198.44.0/22} on-error {}
-:do {add list=$AddressList comment=AS134963 address=209.146.118.0/23} on-error {}
-:do {add list=$AddressList comment=AS134963 address=38.47.128.0/19} on-error {}
-:do {add list=$AddressList comment=AS134963 address=45.194.56.0/22} on-error {}
-:do {add list=$AddressList comment=AS134963 address=45.194.60.0/23} on-error {}
-:do {add list=$AddressList comment=AS134963 address=45.194.63.0/24} on-error {}
+:do {add list=$AddressList comment=AS134963 address=38.47.130.0/24} on-error {}
+:do {add list=$AddressList comment=AS134963 address=38.47.152.0/23} on-error {}
+:do {add list=$AddressList comment=AS134963 address=38.47.156.0/23} on-error {}
+:do {add list=$AddressList comment=AS134963 address=45.194.56.0/23} on-error {}
 :do {add list=$AddressList comment=AS134963 address=47.236.216.0/22} on-error {}
 :do {add list=$AddressList comment=AS134963 address=47.237.248.0/24} on-error {}
 :do {add list=$AddressList comment=AS134963 address=47.238.24.0/22} on-error {}
@@ -80,8 +78,7 @@
 :do {add list=$AddressList comment=AS134963 address=8.215.164.0/22} on-error {}
 :do {add list=$AddressList comment=AS134963 address=8.216.76.0/22} on-error {}
 :do {add list=$AddressList comment=AS134963 address=8.220.124.0/22} on-error {}
-:do {add list=$AddressList comment=AS134963 address=8.220.168.0/23} on-error {}
-:do {add list=$AddressList comment=AS134963 address=8.220.170.0/24} on-error {}
+:do {add list=$AddressList comment=AS134963 address=8.220.168.0/22} on-error {}
 :do {add list=$AddressList comment=AS134963 address=8.220.236.0/22} on-error {}
 :do {add list=$AddressList comment=AS134963 address=8.220.248.0/21} on-error {}
 :do {add list=$AddressList comment=AS134963 address=8.221.152.0/22} on-error {}

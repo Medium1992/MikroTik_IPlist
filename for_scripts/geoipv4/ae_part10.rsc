@@ -1,5 +1,22 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=ae address=92.242.184.0/24} on-error {}
+:do {add list=$AddressList comment=ae address=92.242.186.0/24} on-error {}
+:do {add list=$AddressList comment=ae address=92.4.0.0/22} on-error {}
+:do {add list=$AddressList comment=ae address=92.4.100.0/23} on-error {}
+:do {add list=$AddressList comment=ae address=92.4.102.0/24} on-error {}
+:do {add list=$AddressList comment=ae address=92.4.104.0/21} on-error {}
+:do {add list=$AddressList comment=ae address=92.4.112.0/21} on-error {}
+:do {add list=$AddressList comment=ae address=92.4.16.0/21} on-error {}
+:do {add list=$AddressList comment=ae address=92.4.4.0/23} on-error {}
+:do {add list=$AddressList comment=ae address=92.4.8.0/21} on-error {}
+:do {add list=$AddressList comment=ae address=92.4.96.0/22} on-error {}
+:do {add list=$AddressList comment=ae address=92.51.48.0/22} on-error {}
+:do {add list=$AddressList comment=ae address=92.51.52.0/24} on-error {}
+:do {add list=$AddressList comment=ae address=92.51.54.0/23} on-error {}
+:do {add list=$AddressList comment=ae address=92.96.0.0/14} on-error {}
+:do {add list=$AddressList comment=ae address=93.115.105.0/24} on-error {}
+:do {add list=$AddressList comment=ae address=93.115.107.0/24} on-error {}
 :do {add list=$AddressList comment=ae address=93.115.175.0/24} on-error {}
 :do {add list=$AddressList comment=ae address=93.118.36.0/24} on-error {}
 :do {add list=$AddressList comment=ae address=93.127.183.0/24} on-error {}
@@ -7,7 +24,6 @@
 :do {add list=$AddressList comment=ae address=93.187.17.178/31} on-error {}
 :do {add list=$AddressList comment=ae address=93.90.75.0/24} on-error {}
 :do {add list=$AddressList comment=ae address=94.101.111.0/24} on-error {}
-:do {add list=$AddressList comment=ae address=94.103.182.0/24} on-error {}
 :do {add list=$AddressList comment=ae address=94.119.3.96/29} on-error {}
 :do {add list=$AddressList comment=ae address=94.140.0.0/24} on-error {}
 :do {add list=$AddressList comment=ae address=94.176.215.0/24} on-error {}

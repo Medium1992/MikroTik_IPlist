@@ -19,3 +19,4 @@
 :if ([:len [/ip/route/find dst-address=188.114.97.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.97.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mangahub.ru }
 :if ([:len [/ip/route/find dst-address=188.114.97.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.97.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mangahub.ru }
 :if ([:len [/ip/route/find dst-address=188.114.97.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.97.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mangahub.ru }
+:if ([:len [/ip/route/find dst-address=37.221.65.175 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=37.221.65.175 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=mangahub.ru }

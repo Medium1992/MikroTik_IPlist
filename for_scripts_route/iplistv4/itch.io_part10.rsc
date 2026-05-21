@@ -2,6 +2,16 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=95.100.181.132 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.181.132 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=95.100.181.134 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.181.134 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=95.100.181.136 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.181.136 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=95.100.181.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.181.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=95.100.181.138 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.181.138 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=95.100.181.141 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.181.141 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=95.100.181.22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.181.22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=95.100.181.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.181.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=95.100.181.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.181.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=95.100.248.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.248.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
 :if ([:len [/ip/route/find dst-address=95.100.248.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.248.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
 :if ([:len [/ip/route/find dst-address=95.100.248.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.248.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
 :if ([:len [/ip/route/find dst-address=95.101.11.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.101.11.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
@@ -67,3 +77,5 @@
 :if ([:len [/ip/route/find dst-address=96.16.53.159 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.16.53.159 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
 :if ([:len [/ip/route/find dst-address=96.17.178.163 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.17.178.163 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
 :if ([:len [/ip/route/find dst-address=96.17.178.191 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.17.178.191 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=96.17.207.136 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.17.207.136 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=96.17.207.139 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=96.17.207.139 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }

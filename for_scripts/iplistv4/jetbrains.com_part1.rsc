@@ -65,12 +65,14 @@
 :do {add list=$AddressList comment=jetbrains.com address=108.129.43.90} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.129.5.170} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.129.59.127} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=108.129.7.249} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.129.8.189} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.131.185.56} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.131.188.204} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.131.191.108} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.131.196.61} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.131.198.9} on-error {}
+:do {add list=$AddressList comment=jetbrains.com address=108.132.15.174} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.132.28.216} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.132.33.179} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.132.57.230} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=jetbrains.com address=108.138.7.84} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.138.7.88} on-error {}
 :do {add list=$AddressList comment=jetbrains.com address=108.138.7.89} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=108.138.7.92} on-error {}
-:do {add list=$AddressList comment=jetbrains.com address=108.138.7.98} on-error {}

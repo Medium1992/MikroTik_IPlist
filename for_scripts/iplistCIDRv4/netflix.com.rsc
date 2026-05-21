@@ -97,6 +97,7 @@
 :do {add list=$AddressList comment=netflix.com address=202.136.0.0/13} on-error {}
 :do {add list=$AddressList comment=netflix.com address=204.236.128.0/17} on-error {}
 :do {add list=$AddressList comment=netflix.com address=207.45.72.0/22} on-error {}
+:do {add list=$AddressList comment=netflix.com address=23.0.23.232/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.10.11.98/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.10.78.3/32} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.12.110.45/32} on-error {}

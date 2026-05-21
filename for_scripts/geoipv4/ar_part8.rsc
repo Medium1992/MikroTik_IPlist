@@ -1,11 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=ar address=200.61.192.0/19} on-error {}
-:do {add list=$AddressList comment=ar address=200.61.240.0/21} on-error {}
-:do {add list=$AddressList comment=ar address=200.61.248.0/22} on-error {}
-:do {add list=$AddressList comment=ar address=200.61.254.0/23} on-error {}
-:do {add list=$AddressList comment=ar address=200.61.32.0/20} on-error {}
-:do {add list=$AddressList comment=ar address=200.61.48.0/23} on-error {}
 :do {add list=$AddressList comment=ar address=200.61.52.0/22} on-error {}
 :do {add list=$AddressList comment=ar address=200.61.56.0/21} on-error {}
 :do {add list=$AddressList comment=ar address=200.61.64.0/18} on-error {}
@@ -320,7 +314,6 @@
 :do {add list=$AddressList comment=ar address=217.146.15.0/24} on-error {}
 :do {add list=$AddressList comment=ar address=217.146.28.0/24} on-error {}
 :do {add list=$AddressList comment=ar address=23.1.208.0/20} on-error {}
-:do {add list=$AddressList comment=ar address=23.12.152.0/22} on-error {}
 :do {add list=$AddressList comment=ar address=23.175.40.0/23} on-error {}
 :do {add list=$AddressList comment=ar address=23.192.128.0/20} on-error {}
 :do {add list=$AddressList comment=ar address=23.192.149.0/24} on-error {}
@@ -350,3 +343,10 @@
 :do {add list=$AddressList comment=ar address=23.49.200.0/22} on-error {}
 :do {add list=$AddressList comment=ar address=23.51.176.0/20} on-error {}
 :do {add list=$AddressList comment=ar address=23.64.57.0/24} on-error {}
+:do {add list=$AddressList comment=ar address=23.64.58.0/24} on-error {}
+:do {add list=$AddressList comment=ar address=24.152.57.0/24} on-error {}
+:do {add list=$AddressList comment=ar address=24.232.0.0/16} on-error {}
+:do {add list=$AddressList comment=ar address=24.239.161.0/24} on-error {}
+:do {add list=$AddressList comment=ar address=3.172.98.0/24} on-error {}
+:do {add list=$AddressList comment=ar address=31.13.94.0/24} on-error {}
+:do {add list=$AddressList comment=ar address=31.213.183.0/24} on-error {}

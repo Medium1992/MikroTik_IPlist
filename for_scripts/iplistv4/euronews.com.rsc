@@ -4,6 +4,7 @@
 :do {add list=$AddressList comment=euronews.com address=108.128.213.170} on-error {}
 :do {add list=$AddressList comment=euronews.com address=108.128.240.117} on-error {}
 :do {add list=$AddressList comment=euronews.com address=108.128.31.116} on-error {}
+:do {add list=$AddressList comment=euronews.com address=108.131.173.253} on-error {}
 :do {add list=$AddressList comment=euronews.com address=146.75.117.91} on-error {}
 :do {add list=$AddressList comment=euronews.com address=146.75.121.91} on-error {}
 :do {add list=$AddressList comment=euronews.com address=146.75.29.91} on-error {}
@@ -45,6 +46,7 @@
 :do {add list=$AddressList comment=euronews.com address=34.242.177.176} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.242.45.24} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.243.204.137} on-error {}
+:do {add list=$AddressList comment=euronews.com address=34.243.86.84} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.246.13.214} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.246.15.18} on-error {}
 :do {add list=$AddressList comment=euronews.com address=34.246.170.229} on-error {}

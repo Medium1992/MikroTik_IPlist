@@ -2,8 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=38.116.24.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.116.24.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
-:if ([:len [/ip/route/find dst-address=38.116.25.128/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.116.25.128/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
 :if ([:len [/ip/route/find dst-address=38.116.25.16/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.116.25.16/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
 :if ([:len [/ip/route/find dst-address=38.116.25.32/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.116.25.32/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
 :if ([:len [/ip/route/find dst-address=38.116.25.64/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.116.25.64/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
@@ -45,7 +43,7 @@
 :if ([:len [/ip/route/find dst-address=38.117.86.0/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.117.86.0/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
 :if ([:len [/ip/route/find dst-address=38.117.86.128/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.117.86.128/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
 :if ([:len [/ip/route/find dst-address=38.117.86.208/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.117.86.208/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
-:if ([:len [/ip/route/find dst-address=38.117.88.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.117.88.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
+:if ([:len [/ip/route/find dst-address=38.117.88.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.117.88.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
 :if ([:len [/ip/route/find dst-address=38.117.91.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.117.91.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
 :if ([:len [/ip/route/find dst-address=38.117.92.0/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.117.92.0/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
 :if ([:len [/ip/route/find dst-address=38.117.92.128/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.117.92.128/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
@@ -102,3 +100,5 @@
 :if ([:len [/ip/route/find dst-address=38.122.186.0/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.122.186.0/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
 :if ([:len [/ip/route/find dst-address=38.122.186.120/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.122.186.120/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
 :if ([:len [/ip/route/find dst-address=38.122.186.128/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.122.186.128/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
+:if ([:len [/ip/route/find dst-address=38.122.186.152/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.122.186.152/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }
+:if ([:len [/ip/route/find dst-address=38.122.186.160/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=38.122.186.160/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=ca }

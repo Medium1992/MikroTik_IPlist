@@ -3,6 +3,8 @@
 :do {add list=$AddressList comment=proekt.media address=104.20.24.244} on-error {}
 :do {add list=$AddressList comment=proekt.media address=104.22.26.162} on-error {}
 :do {add list=$AddressList comment=proekt.media address=104.22.27.162} on-error {}
+:do {add list=$AddressList comment=proekt.media address=172.234.24.211} on-error {}
+:do {add list=$AddressList comment=proekt.media address=172.239.57.117} on-error {}
 :do {add list=$AddressList comment=proekt.media address=172.66.154.235} on-error {}
 :do {add list=$AddressList comment=proekt.media address=172.67.31.24} on-error {}
 :do {add list=$AddressList comment=proekt.media address=188.114.98.224} on-error {}

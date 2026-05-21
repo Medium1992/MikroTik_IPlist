@@ -17,3 +17,4 @@
 :do {add list=$AddressList comment=mangahub.ru address=188.114.97.7} on-error {}
 :do {add list=$AddressList comment=mangahub.ru address=188.114.97.8} on-error {}
 :do {add list=$AddressList comment=mangahub.ru address=188.114.97.9} on-error {}
+:do {add list=$AddressList comment=mangahub.ru address=37.221.65.175} on-error {}

@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=108.157.113.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.113.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
+:if ([:len [/ip/route/find dst-address=108.157.113.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.113.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
+:if ([:len [/ip/route/find dst-address=108.157.113.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.113.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
+:if ([:len [/ip/route/find dst-address=108.157.113.66 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.113.66 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
 :if ([:len [/ip/route/find dst-address=108.157.113.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.113.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
 :if ([:len [/ip/route/find dst-address=108.157.113.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.113.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
 :if ([:len [/ip/route/find dst-address=108.157.142.109 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.142.109 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=108.157.229.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
 :if ([:len [/ip/route/find dst-address=108.157.229.124 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.124 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
 :if ([:len [/ip/route/find dst-address=108.157.229.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
-:if ([:len [/ip/route/find dst-address=108.157.229.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
-:if ([:len [/ip/route/find dst-address=108.157.229.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
-:if ([:len [/ip/route/find dst-address=108.157.229.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }
-:if ([:len [/ip/route/find dst-address=108.157.229.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.157.229.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=soundcloud.com }

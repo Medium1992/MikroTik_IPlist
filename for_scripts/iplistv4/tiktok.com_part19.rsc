@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=168.235.196.24} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=168.235.196.25} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=168.235.196.28} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=168.235.196.29} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=168.235.196.34} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=168.235.196.44} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=168.235.196.76} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=168.235.196.77} on-error {}
@@ -90,6 +95,7 @@
 :do {add list=$AddressList comment=tiktok.com address=172.217.40.20} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=172.217.40.29} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=172.232.222.11} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=172.232.222.12} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=172.232.222.13} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=172.232.222.14} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=172.232.222.15} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=172.253.12.153} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=172.253.12.154} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=172.253.12.155} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=172.253.12.156} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=172.253.12.157} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=172.253.12.158} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=172.253.12.16} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=172.253.12.17} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=172.253.12.18} on-error {}

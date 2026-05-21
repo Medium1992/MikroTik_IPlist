@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=br address=158.62.220.0/24} on-error {}
+:do {add list=$AddressList comment=br address=158.69.150.0/27} on-error {}
+:do {add list=$AddressList comment=br address=158.69.150.128/27} on-error {}
+:do {add list=$AddressList comment=br address=158.69.150.160/29} on-error {}
+:do {add list=$AddressList comment=br address=158.69.150.169/32} on-error {}
+:do {add list=$AddressList comment=br address=158.69.150.170/31} on-error {}
+:do {add list=$AddressList comment=br address=158.69.150.172/30} on-error {}
 :do {add list=$AddressList comment=br address=158.69.150.176/28} on-error {}
 :do {add list=$AddressList comment=br address=158.69.150.192/26} on-error {}
 :do {add list=$AddressList comment=br address=158.69.150.32/32} on-error {}
@@ -80,10 +87,6 @@
 :do {add list=$AddressList comment=br address=161.22.56.0/21} on-error {}
 :do {add list=$AddressList comment=br address=161.24.0.0/16} on-error {}
 :do {add list=$AddressList comment=br address=161.38.40.0/23} on-error {}
-:do {add list=$AddressList comment=br address=161.69.105.12/32} on-error {}
-:do {add list=$AddressList comment=br address=161.69.105.140/32} on-error {}
-:do {add list=$AddressList comment=br address=161.69.60.21/32} on-error {}
-:do {add list=$AddressList comment=br address=161.69.60.37/32} on-error {}
 :do {add list=$AddressList comment=br address=161.69.63.0/24} on-error {}
 :do {add list=$AddressList comment=br address=161.79.0.0/16} on-error {}
 :do {add list=$AddressList comment=br address=162.10.24.164/31} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=br address=167.126.224.0/22} on-error {}
 :do {add list=$AddressList comment=br address=167.126.228.0/23} on-error {}
 :do {add list=$AddressList comment=br address=167.126.230.0/24} on-error {}
-:do {add list=$AddressList comment=br address=167.126.232.0/21} on-error {}
-:do {add list=$AddressList comment=br address=167.126.240.0/21} on-error {}
-:do {add list=$AddressList comment=br address=167.126.32.0/20} on-error {}

@@ -2,6 +2,7 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.129.196.255 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.129.196.255 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
 :if ([:len [/ip/route/find dst-address=3.130.228.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.130.228.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
 :if ([:len [/ip/route/find dst-address=3.131.250.78 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.131.250.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
 :if ([:len [/ip/route/find dst-address=3.131.252.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.131.252.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
@@ -101,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=44.226.179.188 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.226.179.188 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
 :if ([:len [/ip/route/find dst-address=44.228.67.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.228.67.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
 :if ([:len [/ip/route/find dst-address=44.229.122.169 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.229.122.169 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
-:if ([:len [/ip/route/find dst-address=44.229.178.197 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.229.178.197 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }

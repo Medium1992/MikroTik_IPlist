@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=strava.com address=34.231.140.104} on-error {}
 :do {add list=$AddressList comment=strava.com address=34.231.177.15} on-error {}
 :do {add list=$AddressList comment=strava.com address=34.231.82.239} on-error {}
 :do {add list=$AddressList comment=strava.com address=34.231.83.242} on-error {}
@@ -56,6 +57,7 @@
 :do {add list=$AddressList comment=strava.com address=35.170.155.131} on-error {}
 :do {add list=$AddressList comment=strava.com address=35.170.205.30} on-error {}
 :do {add list=$AddressList comment=strava.com address=35.170.212.71} on-error {}
+:do {add list=$AddressList comment=strava.com address=35.170.4.92} on-error {}
 :do {add list=$AddressList comment=strava.com address=35.170.91.80} on-error {}
 :do {add list=$AddressList comment=strava.com address=35.170.93.142} on-error {}
 :do {add list=$AddressList comment=strava.com address=35.171.229.84} on-error {}
@@ -265,6 +267,7 @@
 :do {add list=$AddressList comment=strava.com address=52.1.200.130} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.1.202.34} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.1.251.207} on-error {}
+:do {add list=$AddressList comment=strava.com address=52.1.30.230} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.10.237.221} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.10.47.251} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.11.118.109} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=52.222.136.87} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.222.144.104} on-error {}
 :do {add list=$AddressList comment=strava.com address=52.222.144.30} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.222.144.78} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.222.144.85} on-error {}
-:do {add list=$AddressList comment=strava.com address=52.222.149.103} on-error {}

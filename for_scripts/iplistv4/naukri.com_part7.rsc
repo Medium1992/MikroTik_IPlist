@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=naukri.com address=18.244.102.122} on-error {}
+:do {add list=$AddressList comment=naukri.com address=18.244.102.18} on-error {}
+:do {add list=$AddressList comment=naukri.com address=18.244.102.21} on-error {}
+:do {add list=$AddressList comment=naukri.com address=18.244.102.23} on-error {}
+:do {add list=$AddressList comment=naukri.com address=18.244.102.25} on-error {}
+:do {add list=$AddressList comment=naukri.com address=18.244.102.26} on-error {}
+:do {add list=$AddressList comment=naukri.com address=18.244.102.28} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.244.102.29} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.244.102.32} on-error {}
 :do {add list=$AddressList comment=naukri.com address=18.244.102.4} on-error {}
@@ -343,10 +350,3 @@
 :do {add list=$AddressList comment=naukri.com address=180.179.180.193} on-error {}
 :do {add list=$AddressList comment=naukri.com address=180.179.180.214} on-error {}
 :do {add list=$AddressList comment=naukri.com address=184.24.144.7} on-error {}
-:do {add list=$AddressList comment=naukri.com address=184.24.145.154} on-error {}
-:do {add list=$AddressList comment=naukri.com address=184.24.197.78} on-error {}
-:do {add list=$AddressList comment=naukri.com address=184.24.44.5} on-error {}
-:do {add list=$AddressList comment=naukri.com address=184.24.45.237} on-error {}
-:do {add list=$AddressList comment=naukri.com address=184.24.77.194} on-error {}
-:do {add list=$AddressList comment=naukri.com address=184.24.77.204} on-error {}
-:do {add list=$AddressList comment=naukri.com address=184.24.77.211} on-error {}

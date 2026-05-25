@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS4766 address=61.79.96.0/19} on-error {}
-:do {add list=$AddressList comment=AS4766 address=61.80.0.0/17} on-error {}
-:do {add list=$AddressList comment=AS4766 address=61.80.128.0/18} on-error {}
 :do {add list=$AddressList comment=AS4766 address=61.80.192.0/21} on-error {}
 :do {add list=$AddressList comment=AS4766 address=61.80.200.0/22} on-error {}
 :do {add list=$AddressList comment=AS4766 address=61.80.204.0/23} on-error {}
@@ -98,6 +95,7 @@
 :do {add list=$AddressList comment=AS4766 address=74.124.196.0/24} on-error {}
 :do {add list=$AddressList comment=AS4766 address=79.135.102.0/23} on-error {}
 :do {add list=$AddressList comment=AS4766 address=82.206.2.0/23} on-error {}
+:do {add list=$AddressList comment=AS4766 address=82.206.76.0/23} on-error {}
 :do {add list=$AddressList comment=AS4766 address=82.23.240.0/24} on-error {}
 :do {add list=$AddressList comment=AS4766 address=82.24.209.0/24} on-error {}
 :do {add list=$AddressList comment=AS4766 address=82.24.219.0/24} on-error {}
@@ -108,6 +106,8 @@
 :do {add list=$AddressList comment=AS4766 address=84.37.2.0/24} on-error {}
 :do {add list=$AddressList comment=AS4766 address=84.37.23.0/24} on-error {}
 :do {add list=$AddressList comment=AS4766 address=84.75.2.0/23} on-error {}
+:do {add list=$AddressList comment=AS4766 address=85.155.90.0/23} on-error {}
+:do {add list=$AddressList comment=AS4766 address=85.232.191.0/24} on-error {}
 :do {add list=$AddressList comment=AS4766 address=92.112.40.0/23} on-error {}
 :do {add list=$AddressList comment=AS4766 address=93.152.105.0/24} on-error {}
 :do {add list=$AddressList comment=AS4766 address=93.152.108.0/24} on-error {}
@@ -119,3 +119,4 @@
 :do {add list=$AddressList comment=AS4766 address=93.152.78.0/24} on-error {}
 :do {add list=$AddressList comment=AS4766 address=93.152.82.0/24} on-error {}
 :do {add list=$AddressList comment=AS4766 address=93.152.88.0/24} on-error {}
+:do {add list=$AddressList comment=AS4766 address=94.231.232.0/22} on-error {}

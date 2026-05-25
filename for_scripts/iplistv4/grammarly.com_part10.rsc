@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=grammarly.com address=18.215.210.125} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.214.159} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.214.74} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.23.12} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.24.90} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.27.184} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.3.50} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.30.238} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.31.213} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.35.44} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.36.170} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.37.18} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=18.215.39.97} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=18.215.4.253} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=18.215.41.68} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=18.215.43.111} on-error {}
@@ -337,16 +350,3 @@
 :do {add list=$AddressList comment=grammarly.com address=18.238.243.27} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=18.238.243.3} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=18.238.243.33} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.243.37} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.243.57} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.243.6} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.49.101} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.49.2} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.49.3} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.49.84} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.80.22} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.80.68} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.80.79} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.238.80.82} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.239.18.115} on-error {}
-:do {add list=$AddressList comment=grammarly.com address=18.239.18.69} on-error {}

@@ -7,7 +7,6 @@
 :do {add list=$AddressList comment=AS140637 address=143.188.0.0/17} on-error {}
 :do {add list=$AddressList comment=AS140637 address=143.188.128.0/20} on-error {}
 :do {add list=$AddressList comment=AS140637 address=143.188.144.0/22} on-error {}
-:do {add list=$AddressList comment=AS140637 address=143.188.162.0/23} on-error {}
 :do {add list=$AddressList comment=AS140637 address=143.188.164.0/22} on-error {}
 :do {add list=$AddressList comment=AS140637 address=143.188.168.0/21} on-error {}
 :do {add list=$AddressList comment=AS140637 address=143.188.176.0/20} on-error {}

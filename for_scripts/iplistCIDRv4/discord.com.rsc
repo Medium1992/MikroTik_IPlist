@@ -64,6 +64,7 @@
 :do {add list=$AddressList comment=discord.com address=75.2.0.0/17} on-error {}
 :do {add list=$AddressList comment=discord.com address=76.223.0.0/17} on-error {}
 :do {add list=$AddressList comment=discord.com address=77.247.183.144/28} on-error {}
+:do {add list=$AddressList comment=discord.com address=78.157.209.168/29} on-error {}
 :do {add list=$AddressList comment=discord.com address=8.0.0.0/13} on-error {}
 :do {add list=$AddressList comment=discord.com address=8.32.0.0/11} on-error {}
 :do {add list=$AddressList comment=discord.com address=81.17.16.0/20} on-error {}

@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=143.204.176.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.176.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
+:if ([:len [/ip/route/find dst-address=143.204.176.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.176.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
+:if ([:len [/ip/route/find dst-address=143.204.176.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.176.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
+:if ([:len [/ip/route/find dst-address=143.204.194.100 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.194.100 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
 :if ([:len [/ip/route/find dst-address=143.204.194.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.194.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
 :if ([:len [/ip/route/find dst-address=143.204.194.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.194.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
 :if ([:len [/ip/route/find dst-address=143.204.194.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.194.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=18.161.111.60 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.111.60 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
 :if ([:len [/ip/route/find dst-address=18.161.205.14 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.205.14 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
 :if ([:len [/ip/route/find dst-address=18.161.205.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.205.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
-:if ([:len [/ip/route/find dst-address=18.161.205.44 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.205.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
-:if ([:len [/ip/route/find dst-address=18.161.205.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.205.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
-:if ([:len [/ip/route/find dst-address=18.161.21.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.21.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }
-:if ([:len [/ip/route/find dst-address=18.161.21.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.21.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=zapier.com }

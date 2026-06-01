@@ -2,6 +2,14 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=34.111.228.132 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.111.228.132 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
+:if ([:len [/ip/route/find dst-address=34.111.240.64 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.111.240.64 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
+:if ([:len [/ip/route/find dst-address=34.117.181.214 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.117.181.214 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
+:if ([:len [/ip/route/find dst-address=34.117.2.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.117.2.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
+:if ([:len [/ip/route/find dst-address=34.117.239.211 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.117.239.211 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
+:if ([:len [/ip/route/find dst-address=34.117.3.154 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.117.3.154 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
+:if ([:len [/ip/route/find dst-address=34.120.114.84 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.120.114.84 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
+:if ([:len [/ip/route/find dst-address=34.120.195.249 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.120.195.249 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
 :if ([:len [/ip/route/find dst-address=34.120.198.171 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.120.198.171 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
 :if ([:len [/ip/route/find dst-address=34.120.62.213 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.120.62.213 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }
 :if ([:len [/ip/route/find dst-address=34.120.63.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.120.63.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=sentry.io }

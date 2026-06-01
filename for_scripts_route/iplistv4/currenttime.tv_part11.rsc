@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=2.16.158.186 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.158.186 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
+:if ([:len [/ip/route/find dst-address=2.16.158.80 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.158.80 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
+:if ([:len [/ip/route/find dst-address=2.16.158.96 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.158.96 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
+:if ([:len [/ip/route/find dst-address=2.16.16.162 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.16.162 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
+:if ([:len [/ip/route/find dst-address=2.16.16.163 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.16.163 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
+:if ([:len [/ip/route/find dst-address=2.16.16.165 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.16.165 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
 :if ([:len [/ip/route/find dst-address=2.16.16.168 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.16.168 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
 :if ([:len [/ip/route/find dst-address=2.16.16.169 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.16.169 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
 :if ([:len [/ip/route/find dst-address=2.16.16.173 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.16.173 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=2.16.6.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.6.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
 :if ([:len [/ip/route/find dst-address=2.16.6.201 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.6.201 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
 :if ([:len [/ip/route/find dst-address=2.16.6.203 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.6.203 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
-:if ([:len [/ip/route/find dst-address=2.16.6.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.6.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
-:if ([:len [/ip/route/find dst-address=2.16.6.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.6.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
-:if ([:len [/ip/route/find dst-address=2.16.6.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.6.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
-:if ([:len [/ip/route/find dst-address=2.16.6.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.6.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
-:if ([:len [/ip/route/find dst-address=2.16.6.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.6.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }
-:if ([:len [/ip/route/find dst-address=2.16.6.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.6.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=currenttime.tv }

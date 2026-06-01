@@ -2,6 +2,11 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=210.140.139.182 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=210.140.139.182 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=210.140.139.183 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=210.140.139.183 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=210.140.139.184 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=210.140.139.184 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=210.140.92.181 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=210.140.92.181 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=210.140.92.183 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=210.140.92.183 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=210.140.92.186 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=210.140.92.186 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=210.140.92.187 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=210.140.92.187 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=210.140.92.194 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=210.140.92.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
@@ -13,7 +18,9 @@
 :if ([:len [/ip/route/find dst-address=216.198.54.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.54.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=216.198.54.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.54.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=216.198.54.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.198.54.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=216.58.198.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.198.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=216.58.201.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.201.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=216.58.201.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.201.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=216.58.201.211 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.201.211 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=216.58.201.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.201.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=216.58.204.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=216.58.204.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
@@ -95,10 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.166.81.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.166.81.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=3.166.81.111 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.166.81.111 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=3.166.81.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.166.81.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=3.166.81.71 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.166.81.71 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=3.170.19.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.170.19.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=3.170.19.76 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.170.19.76 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=3.170.19.78 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.170.19.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=3.170.19.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.170.19.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=3.171.214.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.171.214.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=3.171.214.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.171.214.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }

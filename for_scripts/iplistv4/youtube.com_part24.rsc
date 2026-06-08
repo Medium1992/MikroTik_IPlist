@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=142.251.36.68} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.36.74} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.36.76} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.36.78} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.36.79} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.36.86} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.36.97} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.36.99} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.37.1} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.37.10} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.37.100} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.37.106} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=142.251.45.35} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.45.36} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.45.4} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.45.42} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.45.44} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.45.46} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.45.47} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.45.54} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.45.65} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.45.67} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.45.68} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.45.74} on-error {}

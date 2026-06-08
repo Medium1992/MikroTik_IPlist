@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=spotify.com address=212.70.97.209} on-error {}
+:do {add list=$AddressList comment=spotify.com address=212.95.165.10} on-error {}
 :do {add list=$AddressList comment=spotify.com address=212.95.165.11} on-error {}
 :do {add list=$AddressList comment=spotify.com address=212.95.165.16} on-error {}
 :do {add list=$AddressList comment=spotify.com address=212.95.165.17} on-error {}
@@ -178,8 +180,11 @@
 :do {add list=$AddressList comment=spotify.com address=23.215.2.135} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.215.2.136} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.215.2.139} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.215.2.140} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.215.2.141} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.215.2.146} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.215.2.147} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.215.2.152} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.215.2.164} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.215.2.166} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.215.2.169} on-error {}
@@ -345,8 +350,3 @@
 :do {add list=$AddressList comment=spotify.com address=23.220.255.50} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.220.255.51} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.220.255.52} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.220.255.53} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.220.255.54} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.220.255.55} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.220.255.56} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.220.255.57} on-error {}

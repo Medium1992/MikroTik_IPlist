@@ -19,6 +19,7 @@
 :do {add list=$AddressList comment=deepl.com address=18.211.159.218/32} on-error {}
 :do {add list=$AddressList comment=deepl.com address=18.211.49.102/32} on-error {}
 :do {add list=$AddressList comment=deepl.com address=18.211.79.74/32} on-error {}
+:do {add list=$AddressList comment=deepl.com address=18.213.189.63/32} on-error {}
 :do {add list=$AddressList comment=deepl.com address=18.214.184.47/32} on-error {}
 :do {add list=$AddressList comment=deepl.com address=18.214.221.62/32} on-error {}
 :do {add list=$AddressList comment=deepl.com address=18.214.64.149/32} on-error {}

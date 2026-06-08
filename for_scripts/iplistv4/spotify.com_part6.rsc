@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=spotify.com address=23.220.255.53} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.220.255.54} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.220.255.55} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.220.255.56} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.220.255.57} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.220.255.58} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.220.255.59} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.220.255.6} on-error {}
@@ -70,6 +75,7 @@
 :do {add list=$AddressList comment=spotify.com address=23.35.105.128} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.35.105.129} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.35.105.136} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.35.105.137} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.35.105.138} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.35.105.139} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.35.105.144} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=spotify.com address=23.55.110.144} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.55.110.145} on-error {}
 :do {add list=$AddressList comment=spotify.com address=23.55.110.146} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.55.110.147} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.55.110.148} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.55.110.149} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.55.110.150} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.55.110.151} on-error {}
-:do {add list=$AddressList comment=spotify.com address=23.55.110.152} on-error {}

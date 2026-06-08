@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=deepl.com address=44.221.189.19} on-error {}
 :do {add list=$AddressList comment=deepl.com address=44.221.204.208} on-error {}
 :do {add list=$AddressList comment=deepl.com address=44.221.97.118} on-error {}
 :do {add list=$AddressList comment=deepl.com address=44.223.241.180} on-error {}

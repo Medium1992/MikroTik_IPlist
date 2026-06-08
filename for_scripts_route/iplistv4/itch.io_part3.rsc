@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=2.17.251.76 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.17.251.76 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=2.17.251.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.17.251.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=2.17.251.80 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.17.251.80 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
+:if ([:len [/ip/route/find dst-address=2.18.244.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.244.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
 :if ([:len [/ip/route/find dst-address=2.18.244.214 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.244.214 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
 :if ([:len [/ip/route/find dst-address=2.18.64.204 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.64.204 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
 :if ([:len [/ip/route/find dst-address=2.18.64.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.64.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=2.20.254.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.254.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
 :if ([:len [/ip/route/find dst-address=2.20.255.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.255.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
 :if ([:len [/ip/route/find dst-address=2.20.255.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.255.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
-:if ([:len [/ip/route/find dst-address=2.20.255.139 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.255.139 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
-:if ([:len [/ip/route/find dst-address=2.20.255.153 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.255.153 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
-:if ([:len [/ip/route/find dst-address=2.20.255.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.255.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }
-:if ([:len [/ip/route/find dst-address=2.20.255.186 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.20.255.186 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=itch.io }

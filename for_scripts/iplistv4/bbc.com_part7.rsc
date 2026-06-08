@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=bbc.com address=52.16.162.62} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.16.170.16} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.16.174.68} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.16.192.229} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.16.194.205} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.16.201.140} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.16.208.3} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.16.21.27} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.16.212.180} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.16.218.11} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.16.229.231} on-error {}
 :do {add list=$AddressList comment=bbc.com address=52.16.235.245} on-error {}
 :do {add list=$AddressList comment=bbc.com address=52.16.238.225} on-error {}
 :do {add list=$AddressList comment=bbc.com address=52.16.241.246} on-error {}
@@ -203,6 +214,7 @@
 :do {add list=$AddressList comment=bbc.com address=52.211.135.178} on-error {}
 :do {add list=$AddressList comment=bbc.com address=52.211.136.209} on-error {}
 :do {add list=$AddressList comment=bbc.com address=52.211.144.76} on-error {}
+:do {add list=$AddressList comment=bbc.com address=52.211.149.225} on-error {}
 :do {add list=$AddressList comment=bbc.com address=52.211.150.62} on-error {}
 :do {add list=$AddressList comment=bbc.com address=52.211.16.49} on-error {}
 :do {add list=$AddressList comment=bbc.com address=52.211.161.4} on-error {}
@@ -338,15 +350,3 @@
 :do {add list=$AddressList comment=bbc.com address=52.214.92.133} on-error {}
 :do {add list=$AddressList comment=bbc.com address=52.214.98.138} on-error {}
 :do {add list=$AddressList comment=bbc.com address=52.215.1.127} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.105.44} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.108.250} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.12.84} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.121.238} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.122.212} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.144.227} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.164.147} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.172.206} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.18.82} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.185.86} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.19.236} on-error {}
-:do {add list=$AddressList comment=bbc.com address=52.215.2.210} on-error {}

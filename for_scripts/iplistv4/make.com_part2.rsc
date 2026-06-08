@@ -56,6 +56,7 @@
 :do {add list=$AddressList comment=make.com address=13.227.231.71} on-error {}
 :do {add list=$AddressList comment=make.com address=13.227.231.74} on-error {}
 :do {add list=$AddressList comment=make.com address=13.249.8.10} on-error {}
+:do {add list=$AddressList comment=make.com address=13.249.8.108} on-error {}
 :do {add list=$AddressList comment=make.com address=13.249.8.11} on-error {}
 :do {add list=$AddressList comment=make.com address=13.249.8.129} on-error {}
 :do {add list=$AddressList comment=make.com address=13.249.8.15} on-error {}
@@ -63,9 +64,12 @@
 :do {add list=$AddressList comment=make.com address=13.249.8.49} on-error {}
 :do {add list=$AddressList comment=make.com address=13.249.8.60} on-error {}
 :do {add list=$AddressList comment=make.com address=13.249.8.63} on-error {}
+:do {add list=$AddressList comment=make.com address=13.249.8.74} on-error {}
+:do {add list=$AddressList comment=make.com address=13.249.8.79} on-error {}
 :do {add list=$AddressList comment=make.com address=13.249.8.85} on-error {}
 :do {add list=$AddressList comment=make.com address=13.249.8.9} on-error {}
 :do {add list=$AddressList comment=make.com address=13.249.8.91} on-error {}
+:do {add list=$AddressList comment=make.com address=13.249.8.95} on-error {}
 :do {add list=$AddressList comment=make.com address=13.249.8.97} on-error {}
 :do {add list=$AddressList comment=make.com address=13.32.110.107} on-error {}
 :do {add list=$AddressList comment=make.com address=13.32.110.11} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=make.com address=18.165.160.8} on-error {}
 :do {add list=$AddressList comment=make.com address=18.165.160.85} on-error {}
 :do {add list=$AddressList comment=make.com address=18.165.160.88} on-error {}
-:do {add list=$AddressList comment=make.com address=18.165.171.107} on-error {}
-:do {add list=$AddressList comment=make.com address=18.165.171.12} on-error {}
-:do {add list=$AddressList comment=make.com address=18.165.171.23} on-error {}
-:do {add list=$AddressList comment=make.com address=18.165.171.24} on-error {}

@@ -2,6 +2,14 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.222.236.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.222.236.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.222.236.48 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.222.236.48 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.222.236.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.222.236.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.222.236.54 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.222.236.54 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.222.236.75 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.222.236.75 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.222.236.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.222.236.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.222.236.94 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.222.236.94 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.45.224.193 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.45.224.193 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.45.23.127 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.45.23.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.45.83.39 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.45.83.39 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.5.115.175 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.5.115.175 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
@@ -84,21 +92,13 @@
 :if ([:len [/ip/route/find dst-address=52.84.50.60 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.50.60 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.84.50.66 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.50.66 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.84.50.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.50.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.85.118.108 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.118.108 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.85.118.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.118.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.85.118.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.118.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.85.118.70 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.118.70 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.85.12.124 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.12.124 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.85.12.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.12.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.85.12.55 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.12.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.85.12.56 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.12.56 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.85.12.75 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.12.75 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.85.12.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.12.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.12.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.12.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.12.92 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.12.92 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.129.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.129.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.129.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.129.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.129.13 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.129.13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.129.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.129.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.129.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.129.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.129.78 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.129.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.129.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.129.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.132.22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.132.22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.132.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.132.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=52.85.132.67 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.132.67 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }

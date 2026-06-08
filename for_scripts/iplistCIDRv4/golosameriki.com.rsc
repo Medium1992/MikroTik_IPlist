@@ -3,6 +3,7 @@
 :do {add list=$AddressList comment=golosameriki.com address=104.101.247.182/32} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=104.104.0.0/16} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=104.107.149.52/32} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=104.109.0.0/16} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=104.110.0.0/16} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=104.115.0.0/16} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=104.117.0.0/16} on-error {}

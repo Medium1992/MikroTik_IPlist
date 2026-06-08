@@ -30,6 +30,7 @@
 :do {add list=$AddressList comment=deepl.com address=18.211.159.218} on-error {}
 :do {add list=$AddressList comment=deepl.com address=18.211.49.102} on-error {}
 :do {add list=$AddressList comment=deepl.com address=18.211.79.74} on-error {}
+:do {add list=$AddressList comment=deepl.com address=18.213.189.63} on-error {}
 :do {add list=$AddressList comment=deepl.com address=18.214.184.47} on-error {}
 :do {add list=$AddressList comment=deepl.com address=18.214.221.62} on-error {}
 :do {add list=$AddressList comment=deepl.com address=18.214.64.149} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=deepl.com address=44.219.246.192} on-error {}
 :do {add list=$AddressList comment=deepl.com address=44.220.113.203} on-error {}
 :do {add list=$AddressList comment=deepl.com address=44.220.21.25} on-error {}
-:do {add list=$AddressList comment=deepl.com address=44.221.189.19} on-error {}

@@ -92,8 +92,10 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=104.69.222.67} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=104.69.222.75} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=104.69.222.88} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=104.70.121.33} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=104.70.121.58} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=104.70.121.72} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=104.70.121.83} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=104.70.84.19} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=104.73.231.108} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=104.77.28.72} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=108.159.91.105} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=108.159.91.34} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=108.159.91.86} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=108.159.91.88} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=13.224.106.117} on-error {}

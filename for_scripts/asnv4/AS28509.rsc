@@ -10,7 +10,7 @@
 :do {add list=$AddressList comment=AS28509 address=177.236.32.0/20} on-error {}
 :do {add list=$AddressList comment=AS28509 address=177.237.240.0/20} on-error {}
 :do {add list=$AddressList comment=AS28509 address=177.238.0.0/20} on-error {}
-:do {add list=$AddressList comment=AS28509 address=177.238.128.0/19} on-error {}
+:do {add list=$AddressList comment=AS28509 address=177.238.144.0/20} on-error {}
 :do {add list=$AddressList comment=AS28509 address=177.238.16.0/21} on-error {}
 :do {add list=$AddressList comment=AS28509 address=177.238.186.0/24} on-error {}
 :do {add list=$AddressList comment=AS28509 address=177.238.191.0/24} on-error {}
@@ -21,9 +21,7 @@
 :do {add list=$AddressList comment=AS28509 address=177.238.248.0/24} on-error {}
 :do {add list=$AddressList comment=AS28509 address=177.238.254.0/24} on-error {}
 :do {add list=$AddressList comment=AS28509 address=177.238.27.0/24} on-error {}
-:do {add list=$AddressList comment=AS28509 address=177.238.32.0/21} on-error {}
-:do {add list=$AddressList comment=AS28509 address=177.238.40.0/22} on-error {}
-:do {add list=$AddressList comment=AS28509 address=177.238.44.0/23} on-error {}
+:do {add list=$AddressList comment=AS28509 address=177.238.32.0/20} on-error {}
 :do {add list=$AddressList comment=AS28509 address=177.238.50.0/24} on-error {}
 :do {add list=$AddressList comment=AS28509 address=177.239.109.0/24} on-error {}
 :do {add list=$AddressList comment=AS28509 address=177.239.110.0/23} on-error {}
@@ -184,7 +182,6 @@
 :do {add list=$AddressList comment=AS28509 address=201.160.179.0/24} on-error {}
 :do {add list=$AddressList comment=AS28509 address=201.160.187.0/24} on-error {}
 :do {add list=$AddressList comment=AS28509 address=201.160.32.0/20} on-error {}
-:do {add list=$AddressList comment=AS28509 address=201.160.56.0/21} on-error {}
 :do {add list=$AddressList comment=AS28509 address=201.160.64.0/20} on-error {}
 :do {add list=$AddressList comment=AS28509 address=201.166.0.0/20} on-error {}
 :do {add list=$AddressList comment=AS28509 address=201.166.64.0/19} on-error {}

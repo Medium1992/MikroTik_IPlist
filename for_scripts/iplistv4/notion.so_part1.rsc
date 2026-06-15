@@ -288,8 +288,11 @@
 :do {add list=$AddressList comment=notion.so address=16.12.101.226} on-error {}
 :do {add list=$AddressList comment=notion.so address=16.12.101.234} on-error {}
 :do {add list=$AddressList comment=notion.so address=16.12.101.242} on-error {}
+:do {add list=$AddressList comment=notion.so address=16.12.102.10} on-error {}
+:do {add list=$AddressList comment=notion.so address=16.12.102.2} on-error {}
 :do {add list=$AddressList comment=notion.so address=16.12.102.50} on-error {}
 :do {add list=$AddressList comment=notion.so address=16.12.102.58} on-error {}
+:do {add list=$AddressList comment=notion.so address=16.12.102.66} on-error {}
 :do {add list=$AddressList comment=notion.so address=16.12.102.74} on-error {}
 :do {add list=$AddressList comment=notion.so address=16.12.102.82} on-error {}
 :do {add list=$AddressList comment=notion.so address=16.12.102.90} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=notion.so address=16.12.96.122} on-error {}
 :do {add list=$AddressList comment=notion.so address=16.12.96.130} on-error {}
 :do {add list=$AddressList comment=notion.so address=16.12.96.138} on-error {}
-:do {add list=$AddressList comment=notion.so address=16.12.96.146} on-error {}
-:do {add list=$AddressList comment=notion.so address=16.12.96.154} on-error {}
-:do {add list=$AddressList comment=notion.so address=16.12.96.178} on-error {}

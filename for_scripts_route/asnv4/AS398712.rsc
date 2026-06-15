@@ -10,3 +10,4 @@
 :if ([:len [/ip/route/find dst-address=23.227.88.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.227.88.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS398712 }
 :if ([:len [/ip/route/find dst-address=45.4.196.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=45.4.196.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS398712 }
 :if ([:len [/ip/route/find dst-address=52.128.0.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.128.0.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS398712 }
+:if ([:len [/ip/route/find dst-address=94.131.68.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.131.68.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS398712 }

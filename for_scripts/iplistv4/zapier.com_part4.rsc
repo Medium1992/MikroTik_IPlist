@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=zapier.com address=18.66.218.45} on-error {}
+:do {add list=$AddressList comment=zapier.com address=18.66.218.72} on-error {}
+:do {add list=$AddressList comment=zapier.com address=18.66.218.8} on-error {}
+:do {add list=$AddressList comment=zapier.com address=18.66.218.87} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.218.97} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.233.124} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.66.233.15} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=zapier.com address=3.166.81.97} on-error {}
 :do {add list=$AddressList comment=zapier.com address=3.167.112.108} on-error {}
 :do {add list=$AddressList comment=zapier.com address=3.167.112.117} on-error {}
-:do {add list=$AddressList comment=zapier.com address=3.167.112.124} on-error {}
-:do {add list=$AddressList comment=zapier.com address=3.167.112.59} on-error {}
-:do {add list=$AddressList comment=zapier.com address=3.167.2.106} on-error {}
-:do {add list=$AddressList comment=zapier.com address=3.167.2.18} on-error {}

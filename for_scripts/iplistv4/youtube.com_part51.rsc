@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=223.62.16.206} on-error {}
+:do {add list=$AddressList comment=youtube.com address=223.62.16.209} on-error {}
+:do {add list=$AddressList comment=youtube.com address=223.62.16.76} on-error {}
+:do {add list=$AddressList comment=youtube.com address=223.62.226.140} on-error {}
+:do {add list=$AddressList comment=youtube.com address=223.62.226.141} on-error {}
+:do {add list=$AddressList comment=youtube.com address=223.62.226.142} on-error {}
+:do {add list=$AddressList comment=youtube.com address=223.62.226.144} on-error {}
+:do {add list=$AddressList comment=youtube.com address=223.62.226.145} on-error {}
+:do {add list=$AddressList comment=youtube.com address=223.62.226.146} on-error {}
 :do {add list=$AddressList comment=youtube.com address=223.62.226.147} on-error {}
 :do {add list=$AddressList comment=youtube.com address=223.62.226.77} on-error {}
 :do {add list=$AddressList comment=youtube.com address=223.62.226.81} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=36.92.236.77} on-error {}
 :do {add list=$AddressList comment=youtube.com address=36.92.237.204} on-error {}
 :do {add list=$AddressList comment=youtube.com address=36.92.237.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=36.92.237.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=36.92.237.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=36.92.237.79} on-error {}
-:do {add list=$AddressList comment=youtube.com address=36.92.237.80} on-error {}
-:do {add list=$AddressList comment=youtube.com address=36.92.238.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=36.92.238.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=36.92.238.142} on-error {}
-:do {add list=$AddressList comment=youtube.com address=36.92.238.172} on-error {}
-:do {add list=$AddressList comment=youtube.com address=36.92.238.173} on-error {}

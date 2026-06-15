@@ -95,6 +95,7 @@
 :do {add list=$AddressList comment=instagram.com address=57.144.54.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.56.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.60.5} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.62.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.64.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.66.192} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.66.5} on-error {}

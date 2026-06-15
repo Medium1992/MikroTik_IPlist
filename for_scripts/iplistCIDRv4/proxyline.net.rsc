@@ -10,7 +10,7 @@
 :do {add list=$AddressList comment=proxyline.net address=192.124.249.0/24} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=3.33.130.190/32} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=38.0.0.0/8} on-error {}
-:do {add list=$AddressList comment=proxyline.net address=5.101.152.0/24} on-error {}
+:do {add list=$AddressList comment=proxyline.net address=5.101.152.161/32} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=5.2.79.0/24} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=82.117.243.0/24} on-error {}
 :do {add list=$AddressList comment=proxyline.net address=92.205.128.0/20} on-error {}

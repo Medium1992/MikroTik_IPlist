@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=13.227.219.60 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.219.60 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
+:if ([:len [/ip/route/find dst-address=13.227.219.69 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.219.69 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
+:if ([:len [/ip/route/find dst-address=13.227.219.71 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.219.71 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
+:if ([:len [/ip/route/find dst-address=13.227.219.86 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.219.86 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
+:if ([:len [/ip/route/find dst-address=13.227.219.87 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.219.87 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
+:if ([:len [/ip/route/find dst-address=13.227.219.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.219.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
 :if ([:len [/ip/route/find dst-address=13.227.219.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.219.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
 :if ([:len [/ip/route/find dst-address=13.227.231.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.231.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
 :if ([:len [/ip/route/find dst-address=13.227.231.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.231.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=13.33.235.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.33.235.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
 :if ([:len [/ip/route/find dst-address=13.33.235.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.33.235.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
 :if ([:len [/ip/route/find dst-address=13.35.107.109 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.107.109 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
-:if ([:len [/ip/route/find dst-address=13.35.107.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.107.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
-:if ([:len [/ip/route/find dst-address=13.35.107.12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.107.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
-:if ([:len [/ip/route/find dst-address=13.35.107.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.107.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
-:if ([:len [/ip/route/find dst-address=13.35.107.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.107.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
-:if ([:len [/ip/route/find dst-address=13.35.107.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.107.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }
-:if ([:len [/ip/route/find dst-address=13.35.107.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.107.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=make.com }

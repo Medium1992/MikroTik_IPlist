@@ -56,14 +56,18 @@
 :do {add list=$AddressList comment=zapier.com address=13.32.110.99} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.100} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.113} on-error {}
+:do {add list=$AddressList comment=zapier.com address=13.32.12.116} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.127} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.128} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.18} on-error {}
+:do {add list=$AddressList comment=zapier.com address=13.32.12.21} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.29} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.49} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.67} on-error {}
+:do {add list=$AddressList comment=zapier.com address=13.32.12.72} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.85} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.90} on-error {}
+:do {add list=$AddressList comment=zapier.com address=13.32.12.94} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.97} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.12.99} on-error {}
 :do {add list=$AddressList comment=zapier.com address=13.32.121.101} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=zapier.com address=18.165.183.92} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.165.183.94} on-error {}
 :do {add list=$AddressList comment=zapier.com address=18.165.183.97} on-error {}
-:do {add list=$AddressList comment=zapier.com address=18.165.25.115} on-error {}
-:do {add list=$AddressList comment=zapier.com address=18.165.25.38} on-error {}
-:do {add list=$AddressList comment=zapier.com address=18.165.25.70} on-error {}
-:do {add list=$AddressList comment=zapier.com address=18.165.25.79} on-error {}

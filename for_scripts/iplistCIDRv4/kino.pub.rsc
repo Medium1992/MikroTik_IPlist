@@ -13,6 +13,7 @@
 :do {add list=$AddressList comment=kino.pub address=172.67.173.78/32} on-error {}
 :do {add list=$AddressList comment=kino.pub address=172.67.218.67/32} on-error {}
 :do {add list=$AddressList comment=kino.pub address=172.67.74.191/32} on-error {}
+:do {add list=$AddressList comment=kino.pub address=185.203.114.0/23} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.96.0/22} on-error {}
 :do {add list=$AddressList comment=kino.pub address=213.183.46.0/24} on-error {}
 :do {add list=$AddressList comment=kino.pub address=31.40.217.114/32} on-error {}
@@ -25,14 +26,16 @@
 :do {add list=$AddressList comment=kino.pub address=46.166.167.64/29} on-error {}
 :do {add list=$AddressList comment=kino.pub address=5.188.188.0/22} on-error {}
 :do {add list=$AddressList comment=kino.pub address=5.188.94.0/24} on-error {}
+:do {add list=$AddressList comment=kino.pub address=51.254.0.0/15} on-error {}
 :do {add list=$AddressList comment=kino.pub address=51.44.0.0/16} on-error {}
 :do {add list=$AddressList comment=kino.pub address=52.38.196.63/32} on-error {}
 :do {add list=$AddressList comment=kino.pub address=52.47.111.119/32} on-error {}
 :do {add list=$AddressList comment=kino.pub address=52.47.167.129/32} on-error {}
 :do {add list=$AddressList comment=kino.pub address=52.47.63.37/32} on-error {}
 :do {add list=$AddressList comment=kino.pub address=57.0.0.0/8} on-error {}
+:do {add list=$AddressList comment=kino.pub address=62.75.136.0/25} on-error {}
 :do {add list=$AddressList comment=kino.pub address=8.47.0.0/16} on-error {}
 :do {add list=$AddressList comment=kino.pub address=8.6.0.0/16} on-error {}
 :do {add list=$AddressList comment=kino.pub address=92.223.84.84/32} on-error {}
-:do {add list=$AddressList comment=kino.pub address=95.129.233.136/29} on-error {}
+:do {add list=$AddressList comment=kino.pub address=95.129.232.0/21} on-error {}
 :do {add list=$AddressList comment=kino.pub address=95.216.208.0/20} on-error {}

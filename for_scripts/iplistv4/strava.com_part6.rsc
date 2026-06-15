@@ -1,5 +1,19 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=strava.com address=3.162.140.5} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.140.55} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.140.61} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.140.73} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.38.37} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.38.63} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.38.69} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.38.90} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.79.103} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.79.61} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.79.72} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.79.87} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.163.158.118} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.163.158.20} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.163.158.81} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.163.158.91} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.163.189.112} on-error {}
@@ -227,8 +241,12 @@
 :do {add list=$AddressList comment=strava.com address=3.165.255.111} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.165.255.113} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.165.255.114} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.165.255.127} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.165.255.128} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.165.255.4} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.165.255.42} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.165.255.61} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.165.255.64} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.165.255.68} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.165.255.88} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.166.14.15} on-error {}
@@ -332,21 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=3.169.85.18} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.169.85.34} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.169.85.62} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.169.85.63} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.169.85.66} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.169.85.67} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.170.42.117} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.170.42.36} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.170.42.75} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.170.42.9} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.214.101} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.214.11} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.214.24} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.214.78} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.38.35} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.38.46} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.38.63} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.38.77} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.61.110} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.61.27} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.171.61.82} on-error {}

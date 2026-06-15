@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=bg address=188.126.24.0/22} on-error {}
+:do {add list=$AddressList comment=bg address=188.126.28.0/23} on-error {}
 :do {add list=$AddressList comment=bg address=188.126.4.0/22} on-error {}
 :do {add list=$AddressList comment=bg address=188.126.8.0/21} on-error {}
 :do {add list=$AddressList comment=bg address=188.190.29.0/24} on-error {}
@@ -81,6 +83,7 @@
 :do {add list=$AddressList comment=bg address=193.148.51.62/31} on-error {}
 :do {add list=$AddressList comment=bg address=193.148.51.64/26} on-error {}
 :do {add list=$AddressList comment=bg address=193.148.51.8/32} on-error {}
+:do {add list=$AddressList comment=bg address=193.148.56.0/23} on-error {}
 :do {add list=$AddressList comment=bg address=193.148.59.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=193.150.67.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=193.151.20.0/22} on-error {}
@@ -265,6 +268,7 @@
 :do {add list=$AddressList comment=bg address=195.211.50.0/24} on-error {}
 :do {add list=$AddressList comment=bg address=195.212.63.184/29} on-error {}
 :do {add list=$AddressList comment=bg address=195.212.63.208/29} on-error {}
+:do {add list=$AddressList comment=bg address=195.212.63.240/28} on-error {}
 :do {add list=$AddressList comment=bg address=195.212.63.90/32} on-error {}
 :do {add list=$AddressList comment=bg address=195.214.248.0/21} on-error {}
 :do {add list=$AddressList comment=bg address=195.216.228.0/24} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=bg address=2.56.12.0/22} on-error {}
 :do {add list=$AddressList comment=bg address=2.56.52.0/22} on-error {}
 :do {add list=$AddressList comment=bg address=2.58.92.0/24} on-error {}
-:do {add list=$AddressList comment=bg address=2.59.218.0/24} on-error {}
-:do {add list=$AddressList comment=bg address=2.59.254.0/25} on-error {}
-:do {add list=$AddressList comment=bg address=2.59.254.128/26} on-error {}
-:do {add list=$AddressList comment=bg address=2.59.254.192/28} on-error {}

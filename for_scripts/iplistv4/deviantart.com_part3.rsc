@@ -1,6 +1,10 @@
 :global AddressList
 /ip firewall address-list
 :do {add list=$AddressList comment=deviantart.com address=52.85.185.93} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.47.117} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.47.58} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.47.76} on-error {}
+:do {add list=$AddressList comment=deviantart.com address=52.85.47.9} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.192.35.25} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.192.35.38} on-error {}
 :do {add list=$AddressList comment=deviantart.com address=54.192.35.52} on-error {}

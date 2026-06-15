@@ -196,14 +196,7 @@
 :do {add list=$AddressList comment=AS20001 address=104.173.198.0/23} on-error {}
 :do {add list=$AddressList comment=AS20001 address=104.173.20.0/22} on-error {}
 :do {add list=$AddressList comment=AS20001 address=104.173.200.0/23} on-error {}
-:do {add list=$AddressList comment=AS20001 address=104.173.202.0/26} on-error {}
-:do {add list=$AddressList comment=AS20001 address=104.173.202.128/25} on-error {}
-:do {add list=$AddressList comment=AS20001 address=104.173.202.64/28} on-error {}
-:do {add list=$AddressList comment=AS20001 address=104.173.202.80/29} on-error {}
-:do {add list=$AddressList comment=AS20001 address=104.173.202.88/30} on-error {}
-:do {add list=$AddressList comment=AS20001 address=104.173.202.92/31} on-error {}
-:do {add list=$AddressList comment=AS20001 address=104.173.202.94/32} on-error {}
-:do {add list=$AddressList comment=AS20001 address=104.173.202.96/27} on-error {}
+:do {add list=$AddressList comment=AS20001 address=104.173.202.0/24} on-error {}
 :do {add list=$AddressList comment=AS20001 address=104.173.203.0/28} on-error {}
 :do {add list=$AddressList comment=AS20001 address=104.173.203.128/25} on-error {}
 :do {add list=$AddressList comment=AS20001 address=104.173.203.16/31} on-error {}
@@ -350,3 +343,10 @@
 :do {add list=$AddressList comment=AS20001 address=104.174.224.0/20} on-error {}
 :do {add list=$AddressList comment=AS20001 address=104.174.24.0/23} on-error {}
 :do {add list=$AddressList comment=AS20001 address=104.174.240.0/26} on-error {}
+:do {add list=$AddressList comment=AS20001 address=104.174.240.100/32} on-error {}
+:do {add list=$AddressList comment=AS20001 address=104.174.240.102/31} on-error {}
+:do {add list=$AddressList comment=AS20001 address=104.174.240.104/29} on-error {}
+:do {add list=$AddressList comment=AS20001 address=104.174.240.112/28} on-error {}
+:do {add list=$AddressList comment=AS20001 address=104.174.240.128/25} on-error {}
+:do {add list=$AddressList comment=AS20001 address=104.174.240.64/27} on-error {}
+:do {add list=$AddressList comment=AS20001 address=104.174.240.96/30} on-error {}

@@ -2,6 +2,14 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=88.208.29.180 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.208.29.180 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }
+:if ([:len [/ip/route/find dst-address=88.208.60.136 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=88.208.60.136 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }
+:if ([:len [/ip/route/find dst-address=89.187.162.130 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.162.130 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }
+:if ([:len [/ip/route/find dst-address=89.187.162.133 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.162.133 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }
+:if ([:len [/ip/route/find dst-address=89.187.162.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.162.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }
+:if ([:len [/ip/route/find dst-address=89.187.162.140 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.162.140 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }
+:if ([:len [/ip/route/find dst-address=89.187.162.142 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.162.142 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }
+:if ([:len [/ip/route/find dst-address=89.187.162.145 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.162.145 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }
 :if ([:len [/ip/route/find dst-address=89.187.162.149 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.162.149 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }
 :if ([:len [/ip/route/find dst-address=89.187.162.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.162.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }
 :if ([:len [/ip/route/find dst-address=89.187.162.37 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.162.37 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xhamster.com }

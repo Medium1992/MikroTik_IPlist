@@ -25,7 +25,6 @@
 :do {add list=$AddressList comment=AS132203 address=101.33.64.0/18} on-error {}
 :do {add list=$AddressList comment=AS132203 address=103.205.121.0/24} on-error {}
 :do {add list=$AddressList comment=AS132203 address=103.205.122.0/23} on-error {}
-:do {add list=$AddressList comment=AS132203 address=103.238.16.0/23} on-error {}
 :do {add list=$AddressList comment=AS132203 address=103.242.0.0/23} on-error {}
 :do {add list=$AddressList comment=AS132203 address=103.7.28.0/22} on-error {}
 :do {add list=$AddressList comment=AS132203 address=119.28.0.0/17} on-error {}
@@ -123,8 +122,7 @@
 :do {add list=$AddressList comment=AS132203 address=43.135.0.0/17} on-error {}
 :do {add list=$AddressList comment=AS132203 address=43.135.128.0/18} on-error {}
 :do {add list=$AddressList comment=AS132203 address=43.135.192.0/19} on-error {}
-:do {add list=$AddressList comment=AS132203 address=43.152.112.0/22} on-error {}
-:do {add list=$AddressList comment=AS132203 address=43.152.116.0/23} on-error {}
+:do {add list=$AddressList comment=AS132203 address=43.152.112.0/21} on-error {}
 :do {add list=$AddressList comment=AS132203 address=43.152.224.0/19} on-error {}
 :do {add list=$AddressList comment=AS132203 address=43.152.64.0/24} on-error {}
 :do {add list=$AddressList comment=AS132203 address=43.152.66.0/23} on-error {}
@@ -156,7 +154,8 @@
 :do {add list=$AddressList comment=AS132203 address=43.161.128.0/17} on-error {}
 :do {add list=$AddressList comment=AS132203 address=43.162.0.0/15} on-error {}
 :do {add list=$AddressList comment=AS132203 address=43.164.0.0/18} on-error {}
-:do {add list=$AddressList comment=AS132203 address=43.164.108.0/22} on-error {}
+:do {add list=$AddressList comment=AS132203 address=43.164.100.0/22} on-error {}
+:do {add list=$AddressList comment=AS132203 address=43.164.104.0/21} on-error {}
 :do {add list=$AddressList comment=AS132203 address=43.164.112.0/20} on-error {}
 :do {add list=$AddressList comment=AS132203 address=43.164.128.0/17} on-error {}
 :do {add list=$AddressList comment=AS132203 address=43.164.64.0/19} on-error {}

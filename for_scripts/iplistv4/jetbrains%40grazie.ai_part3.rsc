@@ -251,6 +251,7 @@
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=3.71.249.181} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.240.120.87} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.240.165.30} on-error {}
+:do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.240.60.220} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.240.96.244} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.241.111.223} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=34.241.171.159} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=46.137.102.242} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=46.137.167.64} on-error {}
 :do {add list=$AddressList comment=jetbrains%40grazie.ai address=46.51.142.235} on-error {}
-:do {add list=$AddressList comment=jetbrains%40grazie.ai address=46.51.149.97} on-error {}

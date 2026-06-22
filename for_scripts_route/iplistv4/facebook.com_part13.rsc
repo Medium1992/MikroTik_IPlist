@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=23.194.202.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.194.202.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
+:if ([:len [/ip/route/find dst-address=23.195.81.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
+:if ([:len [/ip/route/find dst-address=23.195.81.81 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.81 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
+:if ([:len [/ip/route/find dst-address=23.196.236.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.196.236.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
+:if ([:len [/ip/route/find dst-address=23.196.236.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.196.236.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
+:if ([:len [/ip/route/find dst-address=23.196.236.50 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.196.236.50 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=23.200.86.234 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.200.86.234 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=23.200.86.250 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.200.86.250 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=23.200.87.14 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.200.87.14 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=23.55.104.192 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.104.192 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=23.55.104.193 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.104.193 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
 :if ([:len [/ip/route/find dst-address=23.55.110.45 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.110.45 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
-:if ([:len [/ip/route/find dst-address=23.55.110.46 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.110.46 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
-:if ([:len [/ip/route/find dst-address=23.55.110.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.110.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
-:if ([:len [/ip/route/find dst-address=23.55.110.69 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.110.69 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
-:if ([:len [/ip/route/find dst-address=23.55.110.77 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.110.77 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
-:if ([:len [/ip/route/find dst-address=23.55.110.78 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.110.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }
-:if ([:len [/ip/route/find dst-address=23.55.161.132 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.55.161.132 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=facebook.com }

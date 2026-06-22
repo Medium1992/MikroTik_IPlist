@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=115.231.152.109} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=115.54.23.135} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=115.54.23.150} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=115.54.23.151} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=115.54.23.153} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=115.54.23.154} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=115.54.23.155} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=115.54.23.167} on-error {}
@@ -291,6 +296,7 @@
 :do {add list=$AddressList comment=tiktok.com address=125.89.169.119} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=125.89.169.120} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=125.89.169.123} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=125.89.169.54} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=125.89.169.74} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=128.1.11.90} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=128.1.11.93} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=128.75.253.115} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=128.75.253.119} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=128.75.253.120} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=128.75.253.122} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=128.75.253.125} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=128.75.253.136} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=128.75.253.153} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=128.75.253.154} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=128.75.253.155} on-error {}

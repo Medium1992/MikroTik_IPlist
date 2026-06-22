@@ -2,8 +2,11 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=93.186.137.153/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.186.137.153/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=dw.com }
+:if ([:len [/ip/route/find dst-address=93.186.137.176/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.186.137.176/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=dw.com }
+:if ([:len [/ip/route/find dst-address=93.186.137.185/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.186.137.185/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=dw.com }
 :if ([:len [/ip/route/find dst-address=93.186.137.186/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.186.137.186/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=dw.com }
-:if ([:len [/ip/route/find dst-address=93.186.137.203/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.186.137.203/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=dw.com }
+:if ([:len [/ip/route/find dst-address=93.186.137.202/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=93.186.137.202/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=dw.com }
 :if ([:len [/ip/route/find dst-address=95.100.104.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.104.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=dw.com }
 :if ([:len [/ip/route/find dst-address=95.100.112.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.112.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=dw.com }
 :if ([:len [/ip/route/find dst-address=95.100.128.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=95.100.128.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=dw.com }

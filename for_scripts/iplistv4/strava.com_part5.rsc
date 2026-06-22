@@ -90,14 +90,18 @@
 :do {add list=$AddressList comment=strava.com address=18.66.2.73} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.2.92} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.2.95} on-error {}
+:do {add list=$AddressList comment=strava.com address=18.66.218.107} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.218.110} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.218.29} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.218.31} on-error {}
+:do {add list=$AddressList comment=strava.com address=18.66.218.37} on-error {}
+:do {add list=$AddressList comment=strava.com address=18.66.218.56} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.218.69} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.218.73} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.218.74} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.218.8} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.218.86} on-error {}
+:do {add list=$AddressList comment=strava.com address=18.66.218.92} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.233.109} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.233.110} on-error {}
 :do {add list=$AddressList comment=strava.com address=18.66.233.112} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=3.162.125.62} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.162.125.83} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.162.125.89} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.162.140.11} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.162.140.117} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.162.140.39} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.162.140.47} on-error {}

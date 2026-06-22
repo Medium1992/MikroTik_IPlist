@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=claude.ai address=143.204.130.83} on-error {}
+:do {add list=$AddressList comment=claude.ai address=143.204.160.117} on-error {}
+:do {add list=$AddressList comment=claude.ai address=143.204.160.123} on-error {}
+:do {add list=$AddressList comment=claude.ai address=143.204.160.32} on-error {}
+:do {add list=$AddressList comment=claude.ai address=143.204.160.78} on-error {}
 :do {add list=$AddressList comment=claude.ai address=143.204.194.113} on-error {}
 :do {add list=$AddressList comment=claude.ai address=143.204.194.14} on-error {}
 :do {add list=$AddressList comment=claude.ai address=143.204.194.43} on-error {}
@@ -56,6 +61,7 @@
 :do {add list=$AddressList comment=claude.ai address=172.217.20.83} on-error {}
 :do {add list=$AddressList comment=claude.ai address=172.217.21.211} on-error {}
 :do {add list=$AddressList comment=claude.ai address=172.217.21.243} on-error {}
+:do {add list=$AddressList comment=claude.ai address=172.217.22.243} on-error {}
 :do {add list=$AddressList comment=claude.ai address=172.217.23.147} on-error {}
 :do {add list=$AddressList comment=claude.ai address=172.217.23.179} on-error {}
 :do {add list=$AddressList comment=claude.ai address=172.217.23.19} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=claude.ai address=18.173.187.118} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.173.187.121} on-error {}
 :do {add list=$AddressList comment=claude.ai address=18.173.187.125} on-error {}
-:do {add list=$AddressList comment=claude.ai address=18.173.187.31} on-error {}
-:do {add list=$AddressList comment=claude.ai address=18.173.187.39} on-error {}
-:do {add list=$AddressList comment=claude.ai address=18.173.187.92} on-error {}
-:do {add list=$AddressList comment=claude.ai address=18.173.205.121} on-error {}
-:do {add list=$AddressList comment=claude.ai address=18.173.205.56} on-error {}
-:do {add list=$AddressList comment=claude.ai address=18.173.205.63} on-error {}

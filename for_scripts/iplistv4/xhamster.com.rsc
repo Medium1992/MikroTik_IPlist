@@ -119,6 +119,12 @@
 :do {add list=$AddressList comment=xhamster.com address=64.210.156.7} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=64.210.158.32} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=64.210.158.33} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=64.210.158.34} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=64.210.158.35} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=64.210.158.36} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=64.210.158.37} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=64.210.158.38} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=64.210.158.39} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=64.88.245.32} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=64.88.245.33} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=64.88.246.32} on-error {}
@@ -189,6 +195,14 @@
 :do {add list=$AddressList comment=xhamster.com address=67.22.56.5} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=67.22.56.6} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=67.22.56.7} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=67.22.57.176} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=67.22.57.177} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=67.22.57.178} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=67.22.57.179} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=67.22.57.180} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=67.22.57.181} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=67.22.57.182} on-error {}
+:do {add list=$AddressList comment=xhamster.com address=67.22.57.183} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=79.127.178.164} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=79.127.203.30} on-error {}
 :do {add list=$AddressList comment=xhamster.com address=79.127.203.31} on-error {}

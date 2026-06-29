@@ -171,5 +171,6 @@
 :do {add list=$AddressList comment=xvideos.com address=89.222.127.9} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=91.206.163.163} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=92.223.40.62} on-error {}
+:do {add list=$AddressList comment=xvideos.com address=93.123.11.62} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=93.123.17.252} on-error {}
 :do {add list=$AddressList comment=xvideos.com address=93.123.17.254} on-error {}

@@ -69,6 +69,7 @@
 :do {add list=$AddressList comment=AS23724 address=106.2.156.0/23} on-error {}
 :do {add list=$AddressList comment=AS23724 address=106.3.0.0/19} on-error {}
 :do {add list=$AddressList comment=AS23724 address=106.3.192.0/20} on-error {}
+:do {add list=$AddressList comment=AS23724 address=106.3.32.0/20} on-error {}
 :do {add list=$AddressList comment=AS23724 address=106.3.80.0/22} on-error {}
 :do {add list=$AddressList comment=AS23724 address=106.3.88.0/21} on-error {}
 :do {add list=$AddressList comment=AS23724 address=106.37.72.0/22} on-error {}
@@ -328,11 +329,7 @@
 :do {add list=$AddressList comment=AS23724 address=211.99.176.0/21} on-error {}
 :do {add list=$AddressList comment=AS23724 address=211.99.184.0/22} on-error {}
 :do {add list=$AddressList comment=AS23724 address=211.99.190.0/23} on-error {}
-:do {add list=$AddressList comment=AS23724 address=211.99.192.0/20} on-error {}
-:do {add list=$AddressList comment=AS23724 address=211.99.208.0/21} on-error {}
-:do {add list=$AddressList comment=AS23724 address=211.99.217.0/24} on-error {}
-:do {add list=$AddressList comment=AS23724 address=211.99.218.0/23} on-error {}
-:do {add list=$AddressList comment=AS23724 address=211.99.220.0/22} on-error {}
+:do {add list=$AddressList comment=AS23724 address=211.99.192.0/19} on-error {}
 :do {add list=$AddressList comment=AS23724 address=218.240.128.0/19} on-error {}
 :do {add list=$AddressList comment=AS23724 address=218.240.185.0/24} on-error {}
 :do {add list=$AddressList comment=AS23724 address=218.240.186.0/23} on-error {}
@@ -350,3 +347,6 @@
 :do {add list=$AddressList comment=AS23724 address=218.97.240.0/20} on-error {}
 :do {add list=$AddressList comment=AS23724 address=219.141.220.0/24} on-error {}
 :do {add list=$AddressList comment=AS23724 address=219.142.118.0/24} on-error {}
+:do {add list=$AddressList comment=AS23724 address=219.142.78.0/24} on-error {}
+:do {add list=$AddressList comment=AS23724 address=220.154.16.0/23} on-error {}
+:do {add list=$AddressList comment=AS23724 address=220.154.8.0/21} on-error {}

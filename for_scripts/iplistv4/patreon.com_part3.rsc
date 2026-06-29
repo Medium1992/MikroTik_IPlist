@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=patreon.com address=3.174.18.128} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.174.18.67} on-error {}
+:do {add list=$AddressList comment=patreon.com address=3.174.18.75} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.174.230.122} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.174.230.126} on-error {}
 :do {add list=$AddressList comment=patreon.com address=3.174.230.31} on-error {}
@@ -84,6 +87,18 @@
 :do {add list=$AddressList comment=patreon.com address=39.109.122.128} on-error {}
 :do {add list=$AddressList comment=patreon.com address=4.78.139.50} on-error {}
 :do {add list=$AddressList comment=patreon.com address=4.78.139.54} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.26.130} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.26.131} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.26.17} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.26.18} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.26.19} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.29.0} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.29.1} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.29.2} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.29.20} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.29.21} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.29.22} on-error {}
+:do {add list=$AddressList comment=patreon.com address=40.126.29.23} on-error {}
 :do {add list=$AddressList comment=patreon.com address=40.126.31.66} on-error {}
 :do {add list=$AddressList comment=patreon.com address=40.126.32.129} on-error {}
 :do {add list=$AddressList comment=patreon.com address=40.126.32.131} on-error {}
@@ -105,7 +120,9 @@
 :do {add list=$AddressList comment=patreon.com address=50.117.117.42} on-error {}
 :do {add list=$AddressList comment=patreon.com address=50.23.209.199} on-error {}
 :do {add list=$AddressList comment=patreon.com address=50.87.93.246} on-error {}
+:do {add list=$AddressList comment=patreon.com address=52.168.116.128} on-error {}
 :do {add list=$AddressList comment=patreon.com address=52.175.9.80} on-error {}
+:do {add list=$AddressList comment=patreon.com address=52.182.141.192} on-error {}
 :do {add list=$AddressList comment=patreon.com address=52.236.189.96} on-error {}
 :do {add list=$AddressList comment=patreon.com address=52.34.88.86} on-error {}
 :do {add list=$AddressList comment=patreon.com address=52.42.110.212} on-error {}

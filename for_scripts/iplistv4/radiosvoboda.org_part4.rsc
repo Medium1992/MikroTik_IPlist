@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.206.205} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.206.212} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.241.76} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.241.87} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.27.68} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.27.74} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.27.95} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.56.139} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.16.56.153} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.16.6.11} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.16.6.12} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.16.6.200} on-error {}
@@ -64,11 +73,13 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=2.18.255.74} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.18.61.174} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.18.61.185} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.18.64.14} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.18.64.16} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.18.64.30} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.18.64.35} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.18.64.5} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.19.120.34} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.19.120.68} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.19.120.89} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.19.120.90} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.19.124.136} on-error {}
@@ -181,6 +192,7 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=2.19.96.168} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.19.96.179} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.19.96.232} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=2.19.96.240} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.19.96.40} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.19.97.11} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.19.97.8} on-error {}
@@ -338,15 +350,3 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.43} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.57} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.58} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.64} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.65} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.83} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.9} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.90} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.97} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.98} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.225.99} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.228.162} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.228.178} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.228.186} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=2.22.228.192} on-error {}

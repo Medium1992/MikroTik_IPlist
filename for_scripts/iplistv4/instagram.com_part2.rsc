@@ -139,6 +139,7 @@
 :do {add list=$AddressList comment=instagram.com address=157.240.26.33} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.26.63} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.27.11} on-error {}
+:do {add list=$AddressList comment=instagram.com address=157.240.27.142} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.27.174} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.27.175} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.27.18} on-error {}
@@ -173,7 +174,9 @@
 :do {add list=$AddressList comment=instagram.com address=157.240.30.33} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.30.63} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.31.33} on-error {}
+:do {add list=$AddressList comment=instagram.com address=157.240.5.12} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.5.37} on-error {}
+:do {add list=$AddressList comment=instagram.com address=157.240.5.6} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.5.63} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.6.35} on-error {}
 :do {add list=$AddressList comment=instagram.com address=157.240.7.5} on-error {}
@@ -289,6 +292,7 @@
 :do {add list=$AddressList comment=instagram.com address=179.60.195.35} on-error {}
 :do {add list=$AddressList comment=instagram.com address=179.60.195.4} on-error {}
 :do {add list=$AddressList comment=instagram.com address=179.60.195.52} on-error {}
+:do {add list=$AddressList comment=instagram.com address=179.60.195.6} on-error {}
 :do {add list=$AddressList comment=instagram.com address=179.60.195.7} on-error {}
 :do {add list=$AddressList comment=instagram.com address=182.50.139.56} on-error {}
 :do {add list=$AddressList comment=instagram.com address=184.173.136.86} on-error {}
@@ -346,7 +350,3 @@
 :do {add list=$AddressList comment=instagram.com address=199.16.158.104} on-error {}
 :do {add list=$AddressList comment=instagram.com address=199.16.158.12} on-error {}
 :do {add list=$AddressList comment=instagram.com address=199.16.158.182} on-error {}
-:do {add list=$AddressList comment=instagram.com address=199.16.158.190} on-error {}
-:do {add list=$AddressList comment=instagram.com address=199.16.158.8} on-error {}
-:do {add list=$AddressList comment=instagram.com address=199.16.158.9} on-error {}
-:do {add list=$AddressList comment=instagram.com address=199.193.116.105} on-error {}

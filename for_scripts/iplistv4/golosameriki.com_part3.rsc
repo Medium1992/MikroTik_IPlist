@@ -81,8 +81,10 @@
 :do {add list=$AddressList comment=golosameriki.com address=184.51.252.33} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=184.51.252.4} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=184.51.88.137} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=184.51.88.142} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=184.51.88.156} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=184.51.88.182} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=184.51.88.190} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=184.86.103.10} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=184.86.103.134} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=184.86.103.147} on-error {}
@@ -109,6 +111,7 @@
 :do {add list=$AddressList comment=golosameriki.com address=2.16.11.80} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.16.110.104} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.16.110.114} on-error {}
+:do {add list=$AddressList comment=golosameriki.com address=2.16.110.51} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.16.110.83} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.16.113.135} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.16.135.217} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=golosameriki.com address=2.20.134.80} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.20.134.90} on-error {}
 :do {add list=$AddressList comment=golosameriki.com address=2.20.135.178} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.20.142.105} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.20.142.130} on-error {}
-:do {add list=$AddressList comment=golosameriki.com address=2.20.142.98} on-error {}

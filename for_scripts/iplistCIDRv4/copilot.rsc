@@ -138,7 +138,7 @@
 :do {add list=$AddressList comment=copilot address=23.3.0.0/16} on-error {}
 :do {add list=$AddressList comment=copilot address=23.33.0.0/16} on-error {}
 :do {add list=$AddressList comment=copilot address=23.34.0.0/16} on-error {}
-:do {add list=$AddressList comment=copilot address=23.36.0.0/16} on-error {}
+:do {add list=$AddressList comment=copilot address=23.36.0.0/15} on-error {}
 :do {add list=$AddressList comment=copilot address=23.38.0.0/16} on-error {}
 :do {add list=$AddressList comment=copilot address=23.4.0.0/16} on-error {}
 :do {add list=$AddressList comment=copilot address=23.43.0.0/16} on-error {}

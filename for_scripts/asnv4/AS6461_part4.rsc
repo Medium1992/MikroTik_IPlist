@@ -1,17 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS6461 address=66.46.44.0/23} on-error {}
-:do {add list=$AddressList comment=AS6461 address=66.46.48.0/20} on-error {}
-:do {add list=$AddressList comment=AS6461 address=66.46.64.0/19} on-error {}
-:do {add list=$AddressList comment=AS6461 address=66.46.96.0/22} on-error {}
-:do {add list=$AddressList comment=AS6461 address=66.62.132.0/24} on-error {}
-:do {add list=$AddressList comment=AS6461 address=66.62.161.0/24} on-error {}
-:do {add list=$AddressList comment=AS6461 address=66.62.182.0/23} on-error {}
-:do {add list=$AddressList comment=AS6461 address=66.62.230.0/24} on-error {}
-:do {add list=$AddressList comment=AS6461 address=66.62.238.0/23} on-error {}
-:do {add list=$AddressList comment=AS6461 address=66.62.240.0/22} on-error {}
-:do {add list=$AddressList comment=AS6461 address=66.62.244.0/23} on-error {}
-:do {add list=$AddressList comment=AS6461 address=67.136.93.0/24} on-error {}
 :do {add list=$AddressList comment=AS6461 address=67.208.224.0/21} on-error {}
 :do {add list=$AddressList comment=AS6461 address=67.208.232.0/23} on-error {}
 :do {add list=$AddressList comment=AS6461 address=67.208.235.0/24} on-error {}
@@ -76,9 +64,7 @@
 :do {add list=$AddressList comment=AS6461 address=74.216.208.0/23} on-error {}
 :do {add list=$AddressList comment=AS6461 address=74.216.212.0/22} on-error {}
 :do {add list=$AddressList comment=AS6461 address=74.216.216.0/21} on-error {}
-:do {add list=$AddressList comment=AS6461 address=74.216.224.0/23} on-error {}
-:do {add list=$AddressList comment=AS6461 address=74.216.226.0/24} on-error {}
-:do {add list=$AddressList comment=AS6461 address=74.216.228.0/22} on-error {}
+:do {add list=$AddressList comment=AS6461 address=74.216.224.0/21} on-error {}
 :do {add list=$AddressList comment=AS6461 address=74.216.232.0/23} on-error {}
 :do {add list=$AddressList comment=AS6461 address=74.216.235.0/24} on-error {}
 :do {add list=$AddressList comment=AS6461 address=74.216.236.0/22} on-error {}

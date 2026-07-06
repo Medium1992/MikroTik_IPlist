@@ -3,6 +3,7 @@
 :global GateWay
 /ip route
 :if ([:len [/ip/route/find dst-address=108.128.107.140 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.128.107.140 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
+:if ([:len [/ip/route/find dst-address=108.128.109.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.128.109.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=108.128.110.253 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.128.110.253 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=108.128.113.44 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.128.113.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=108.128.119.139 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.128.119.139 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
@@ -101,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=108.138.7.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.138.7.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=108.138.7.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.138.7.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=108.138.7.127 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.138.7.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
-:if ([:len [/ip/route/find dst-address=108.138.7.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.138.7.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }

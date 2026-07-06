@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=tiktok.com address=104.126.36.104} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.126.36.105} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.126.36.106} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.126.36.107} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.126.36.11} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.126.36.112} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.126.36.113} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.126.36.114} on-error {}
@@ -176,6 +181,7 @@
 :do {add list=$AddressList comment=tiktok.com address=104.166.182.27} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.22.123.223} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.22.123.224} on-error {}
+:do {add list=$AddressList comment=tiktok.com address=104.22.123.225} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.23.125.189} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.23.163.40} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.23.240.37} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=tiktok.com address=104.70.121.211} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.70.121.218} on-error {}
 :do {add list=$AddressList comment=tiktok.com address=104.70.121.219} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.70.121.24} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.70.121.25} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.70.121.26} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.70.121.27} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.70.121.32} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=104.70.121.33} on-error {}

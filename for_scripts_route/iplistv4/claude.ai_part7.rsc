@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=13.32.12.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.32.12.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=13.32.12.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.32.12.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=13.32.12.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.32.12.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=13.32.12.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.32.12.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=13.32.12.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.32.12.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=13.32.12.92 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.32.12.92 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=13.32.12.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.32.12.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=13.32.220.100 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.32.220.100 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=13.32.220.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.32.220.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=143.204.11.110 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.110 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=143.204.11.12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=143.204.11.124 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.124 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=143.204.11.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=143.204.11.22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=143.204.11.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=143.204.11.60 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.60 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=143.204.11.63 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.63 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=143.204.11.64 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.64 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }

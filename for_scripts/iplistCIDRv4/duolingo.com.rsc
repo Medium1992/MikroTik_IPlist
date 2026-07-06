@@ -310,6 +310,7 @@
 :do {add list=$AddressList comment=duolingo.com address=95.101.76.0/22} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=95.101.8.0/22} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=96.16.0.0/16} on-error {}
+:do {add list=$AddressList comment=duolingo.com address=96.6.0.0/15} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=98.80.0.0/12} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=99.84.0.0/16} on-error {}
 :do {add list=$AddressList comment=duolingo.com address=99.86.0.0/16} on-error {}

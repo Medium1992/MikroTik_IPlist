@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=strava.com address=3.162.125.83} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.162.125.89} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.162.140.11} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.162.140.117} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.162.140.39} on-error {}
@@ -348,5 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=3.169.173.30} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.169.173.49} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.169.173.8} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.169.173.92} on-error {}
-:do {add list=$AddressList comment=strava.com address=3.169.183.114} on-error {}

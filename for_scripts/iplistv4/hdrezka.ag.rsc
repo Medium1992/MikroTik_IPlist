@@ -194,9 +194,12 @@
 :do {add list=$AddressList comment=hdrezka.ag address=176.58.57.211} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=176.58.57.213} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=178.63.75.27} on-error {}
+:do {add list=$AddressList comment=hdrezka.ag address=179.43.149.9} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=179.43.158.227} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=179.43.163.206} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=179.43.163.230} on-error {}
+:do {add list=$AddressList comment=hdrezka.ag address=179.43.189.162} on-error {}
+:do {add list=$AddressList comment=hdrezka.ag address=179.43.189.163} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=185.190.188.195} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=185.190.188.197} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=185.190.188.205} on-error {}
@@ -205,6 +208,7 @@
 :do {add list=$AddressList comment=hdrezka.ag address=185.190.190.197} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=185.190.190.203} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=185.190.190.205} on-error {}
+:do {add list=$AddressList comment=hdrezka.ag address=185.231.220.9} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=185.53.177.50} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=185.53.178.99} on-error {}
 :do {add list=$AddressList comment=hdrezka.ag address=199.59.243.228} on-error {}

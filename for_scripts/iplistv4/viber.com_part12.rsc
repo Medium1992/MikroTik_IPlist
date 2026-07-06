@@ -1,5 +1,24 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=viber.com address=18.154.63.42} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.44} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.51} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.61} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.62} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.64} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.74} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.75} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.83} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.84} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.85} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.87} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.63.89} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.84.104} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.84.11} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.84.111} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.84.32} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.84.41} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.154.84.43} on-error {}
 :do {add list=$AddressList comment=viber.com address=18.154.84.47} on-error {}
 :do {add list=$AddressList comment=viber.com address=18.154.84.48} on-error {}
 :do {add list=$AddressList comment=viber.com address=18.154.84.51} on-error {}
@@ -174,6 +193,7 @@
 :do {add list=$AddressList comment=viber.com address=18.158.95.203} on-error {}
 :do {add list=$AddressList comment=viber.com address=18.158.98.255} on-error {}
 :do {add list=$AddressList comment=viber.com address=18.159.105.193} on-error {}
+:do {add list=$AddressList comment=viber.com address=18.159.12.119} on-error {}
 :do {add list=$AddressList comment=viber.com address=18.159.12.127} on-error {}
 :do {add list=$AddressList comment=viber.com address=18.159.137.164} on-error {}
 :do {add list=$AddressList comment=viber.com address=18.159.14.203} on-error {}
@@ -330,23 +350,3 @@
 :do {add list=$AddressList comment=viber.com address=18.161.97.66} on-error {}
 :do {add list=$AddressList comment=viber.com address=18.161.97.72} on-error {}
 :do {add list=$AddressList comment=viber.com address=18.161.97.75} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.161.97.80} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.161.97.89} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.161.97.93} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.116.43} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.116.66} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.116.77} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.116.9} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.144.113} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.144.45} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.144.48} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.144.59} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.52.105} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.52.107} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.52.112} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.52.114} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.52.118} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.52.123} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.52.127} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.52.22} on-error {}
-:do {add list=$AddressList comment=viber.com address=18.164.52.23} on-error {}

@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=whatsapp.com address=201.0.238.33} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=201.0.244.161} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=201.0.247.34} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=201.0.248.33} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=201.0.249.33} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=201.0.250.33} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=201.132.118.161} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=201.148.13.161} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=201.157.200.97} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=201.158.25.36} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=201.16.134.225} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=201.16.144.161} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=whatsapp.com address=40.101.22.193} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=40.101.22.197} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=40.101.22.201} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=40.101.22.205} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=40.101.27.137} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=40.101.27.141} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=40.101.27.166} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=40.101.27.199} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=40.101.27.205} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=40.101.27.211} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=40.101.27.212} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=40.101.27.215} on-error {}

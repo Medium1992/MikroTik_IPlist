@@ -66,6 +66,7 @@
 :do {add list=$AddressList comment=linktr.ee address=151.101.66.133} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=151.101.78.133} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=151.101.86.133} on-error {}
+:do {add list=$AddressList comment=linktr.ee address=167.82.50.133} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=18.154.161.122} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=18.154.161.123} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=18.154.161.14} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=linktr.ee address=18.239.83.44} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=18.239.83.61} on-error {}
 :do {add list=$AddressList comment=linktr.ee address=18.239.83.97} on-error {}
-:do {add list=$AddressList comment=linktr.ee address=18.239.94.17} on-error {}

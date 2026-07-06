@@ -46,6 +46,7 @@
 :do {add list=$AddressList comment=themoviedb.org address=40.96.0.0/12} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=5.189.202.62/32} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=5.9.98.32/27} on-error {}
+:do {add list=$AddressList comment=themoviedb.org address=51.83.172.128/26} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=52.0.16.118/32} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=52.1.119.170/32} on-error {}
 :do {add list=$AddressList comment=themoviedb.org address=52.1.147.205/32} on-error {}

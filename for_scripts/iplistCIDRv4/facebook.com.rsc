@@ -152,6 +152,7 @@
 :do {add list=$AddressList comment=facebook.com address=23.48.0.0/16} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.52.0.0/15} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.0.0/16} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.73.0.0/16} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.75.0.0/16} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.76.0.0/16} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.96.0.0/13} on-error {}

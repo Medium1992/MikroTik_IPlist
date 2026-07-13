@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=whatsapp.com address=52.96.189.24} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=52.96.189.56} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=52.96.189.8} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=52.96.190.232} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=52.96.222.168} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=52.96.222.200} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=52.96.223.8} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=52.96.226.136} on-error {}
+:do {add list=$AddressList comment=whatsapp.com address=52.96.43.168} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=52.96.73.56} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=52.96.79.88} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=52.96.97.152} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=whatsapp.com address=52.98.242.184} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=52.98.242.232} on-error {}
 :do {add list=$AddressList comment=whatsapp.com address=52.98.242.248} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=52.98.243.152} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=52.98.243.24} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=52.98.243.40} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=52.98.243.56} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=52.98.243.8} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=52.98.244.104} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=52.98.246.56} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=52.98.248.120} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=52.98.250.136} on-error {}

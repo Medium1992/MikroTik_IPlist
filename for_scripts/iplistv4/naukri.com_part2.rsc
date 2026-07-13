@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=naukri.com address=108.157.125.71} on-error {}
 :do {add list=$AddressList comment=naukri.com address=108.157.125.97} on-error {}
 :do {add list=$AddressList comment=naukri.com address=108.157.128.121} on-error {}
 :do {add list=$AddressList comment=naukri.com address=108.157.128.126} on-error {}
@@ -155,6 +156,7 @@
 :do {add list=$AddressList comment=naukri.com address=13.213.117.29} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.213.131.181} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.213.161.175} on-error {}
+:do {add list=$AddressList comment=naukri.com address=13.213.165.138} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.213.174.29} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.213.182.134} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.213.183.225} on-error {}
@@ -166,6 +168,7 @@
 :do {add list=$AddressList comment=naukri.com address=13.213.225.95} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.213.236.68} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.213.249.215} on-error {}
+:do {add list=$AddressList comment=naukri.com address=13.213.82.14} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.213.96.1} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.214.10.103} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.214.102.113} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=naukri.com address=13.225.239.9} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.225.239.93} on-error {}
 :do {add list=$AddressList comment=naukri.com address=13.225.239.97} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.225.35.104} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.225.35.105} on-error {}
-:do {add list=$AddressList comment=naukri.com address=13.225.35.108} on-error {}

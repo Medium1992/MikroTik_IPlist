@@ -301,6 +301,10 @@
 :do {add list=$AddressList comment=svoboda.org address=13.224.186.2} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.224.186.20} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.224.186.23} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=13.224.236.11} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=13.224.236.22} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=13.224.236.64} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=13.224.236.98} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.224.245.116} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.224.245.15} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.224.245.25} on-error {}
@@ -317,9 +321,13 @@
 :do {add list=$AddressList comment=svoboda.org address=13.224.83.42} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.224.83.61} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.224.83.99} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=13.225.103.100} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.225.103.101} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=13.225.103.105} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.225.103.65} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=13.225.103.71} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.225.103.83} on-error {}
+:do {add list=$AddressList comment=svoboda.org address=13.225.103.86} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.225.103.93} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.225.107.5} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.225.107.52} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=svoboda.org address=13.225.5.48} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.225.5.76} on-error {}
 :do {add list=$AddressList comment=svoboda.org address=13.226.144.124} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=13.226.144.39} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=13.226.144.70} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=13.226.144.91} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=13.226.175.101} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=13.226.175.4} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=13.226.175.84} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=13.226.175.90} on-error {}
-:do {add list=$AddressList comment=svoboda.org address=13.226.2.36} on-error {}

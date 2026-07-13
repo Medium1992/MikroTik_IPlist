@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=instagram.com address=57.144.168.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.172.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.174.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.176.5} on-error {}

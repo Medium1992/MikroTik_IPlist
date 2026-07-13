@@ -1,5 +1,22 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=copilot address=23.221.225.200} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.201} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.202} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.203} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.208} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.210} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.216} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.218} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.219} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.224} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.225} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.227} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.233} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.234} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.235} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.240} on-error {}
+:do {add list=$AddressList comment=copilot address=23.221.225.242} on-error {}
 :do {add list=$AddressList comment=copilot address=23.221.225.243} on-error {}
 :do {add list=$AddressList comment=copilot address=23.221.24.13} on-error {}
 :do {add list=$AddressList comment=copilot address=23.221.24.15} on-error {}
@@ -175,7 +192,9 @@
 :do {add list=$AddressList comment=copilot address=23.34.62.163} on-error {}
 :do {add list=$AddressList comment=copilot address=23.34.62.164} on-error {}
 :do {add list=$AddressList comment=copilot address=23.34.62.174} on-error {}
+:do {add list=$AddressList comment=copilot address=23.34.62.176} on-error {}
 :do {add list=$AddressList comment=copilot address=23.34.62.180} on-error {}
+:do {add list=$AddressList comment=copilot address=23.34.62.181} on-error {}
 :do {add list=$AddressList comment=copilot address=23.36.162.68} on-error {}
 :do {add list=$AddressList comment=copilot address=23.36.162.71} on-error {}
 :do {add list=$AddressList comment=copilot address=23.36.162.72} on-error {}
@@ -331,22 +350,3 @@
 :do {add list=$AddressList comment=copilot address=23.44.10.73} on-error {}
 :do {add list=$AddressList comment=copilot address=23.44.10.83} on-error {}
 :do {add list=$AddressList comment=copilot address=23.44.201.27} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.201.28} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.201.29} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.201.30} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.201.31} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.201.32} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.201.33} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.201.34} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.201.35} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.203.172} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.203.175} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.203.186} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.203.192} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.203.196} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.203.205} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.203.208} on-error {}
-:do {add list=$AddressList comment=copilot address=23.44.203.211} on-error {}
-:do {add list=$AddressList comment=copilot address=23.45.115.226} on-error {}
-:do {add list=$AddressList comment=copilot address=23.45.176.12} on-error {}
-:do {add list=$AddressList comment=copilot address=23.45.176.14} on-error {}

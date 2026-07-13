@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.85.5.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.85.65.108 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.108 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.85.65.117 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.117 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.85.65.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.85.65.46 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.46 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
+:if ([:len [/ip/route/find dst-address=52.85.65.70 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.70 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.85.65.86 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.86 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.85.65.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=52.85.65.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.65.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=54.230.114.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.114.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=54.230.172.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.172.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
 :if ([:len [/ip/route/find dst-address=54.230.172.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.172.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=54.230.172.119 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.172.119 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=54.230.172.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.172.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=54.230.172.129 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.172.129 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=54.230.172.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.172.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=54.230.172.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.172.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }
-:if ([:len [/ip/route/find dst-address=54.230.172.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.230.172.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=tidal.com }

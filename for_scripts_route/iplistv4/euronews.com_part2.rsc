@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.209.227.204 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.209.227.204 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
+:if ([:len [/ip/route/find dst-address=52.209.232.76 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.209.232.76 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=52.209.241.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.209.241.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=52.210.131.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.131.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=52.210.223.226 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.210.223.226 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
@@ -11,6 +13,7 @@
 :if ([:len [/ip/route/find dst-address=52.212.233.145 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.212.233.145 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=52.212.55.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.212.55.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=52.213.133.87 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.133.87 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
+:if ([:len [/ip/route/find dst-address=52.213.162.155 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.162.155 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=52.213.178.177 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.213.178.177 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=52.214.157.244 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.214.157.244 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=52.214.190.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.214.190.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=63.34.130.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.34.130.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=63.34.131.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.34.131.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=63.34.227.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.34.227.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
-:if ([:len [/ip/route/find dst-address=63.34.30.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.34.30.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
-:if ([:len [/ip/route/find dst-address=63.34.52.69 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.34.52.69 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
-:if ([:len [/ip/route/find dst-address=63.35.245.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.35.245.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }

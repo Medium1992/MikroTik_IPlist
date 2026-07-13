@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=au address=103.209.4.0/23} on-error {}
+:do {add list=$AddressList comment=au address=103.209.44.0/22} on-error {}
+:do {add list=$AddressList comment=au address=103.209.55.0/24} on-error {}
+:do {add list=$AddressList comment=au address=103.21.0.0/22} on-error {}
+:do {add list=$AddressList comment=au address=103.21.108.0/22} on-error {}
+:do {add list=$AddressList comment=au address=103.21.128.0/21} on-error {}
 :do {add list=$AddressList comment=au address=103.21.144.0/22} on-error {}
 :do {add list=$AddressList comment=au address=103.21.156.0/22} on-error {}
 :do {add list=$AddressList comment=au address=103.21.17.0/24} on-error {}
@@ -122,7 +128,7 @@
 :do {add list=$AddressList comment=au address=103.226.219.0/24} on-error {}
 :do {add list=$AddressList comment=au address=103.226.220.0/22} on-error {}
 :do {add list=$AddressList comment=au address=103.226.244.0/23} on-error {}
-:do {add list=$AddressList comment=au address=103.226.34.0/23} on-error {}
+:do {add list=$AddressList comment=au address=103.226.35.0/24} on-error {}
 :do {add list=$AddressList comment=au address=103.226.37.0/24} on-error {}
 :do {add list=$AddressList comment=au address=103.226.38.0/23} on-error {}
 :do {add list=$AddressList comment=au address=103.226.53.0/24} on-error {}
@@ -344,9 +350,3 @@
 :do {add list=$AddressList comment=au address=103.25.112.0/22} on-error {}
 :do {add list=$AddressList comment=au address=103.25.160.0/22} on-error {}
 :do {add list=$AddressList comment=au address=103.25.180.0/22} on-error {}
-:do {add list=$AddressList comment=au address=103.25.212.0/22} on-error {}
-:do {add list=$AddressList comment=au address=103.25.221.0/24} on-error {}
-:do {add list=$AddressList comment=au address=103.25.53.0/24} on-error {}
-:do {add list=$AddressList comment=au address=103.25.56.0/22} on-error {}
-:do {add list=$AddressList comment=au address=103.25.84.0/24} on-error {}
-:do {add list=$AddressList comment=au address=103.25.86.0/23} on-error {}

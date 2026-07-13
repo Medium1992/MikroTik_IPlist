@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=radiosvoboda.org address=23.3.90.43} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.33.119.33} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.33.119.89} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.33.40.78} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.33.40.79} on-error {}
@@ -7,6 +9,7 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=23.34.240.152} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.34.62.163} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.34.62.171} on-error {}
+:do {add list=$AddressList comment=radiosvoboda.org address=23.34.62.180} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.36.162.200} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.36.162.206} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=23.36.162.211} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=radiosvoboda.org address=3.169.28.10} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=3.169.28.112} on-error {}
 :do {add list=$AddressList comment=radiosvoboda.org address=3.169.28.4} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=3.169.28.77} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=3.169.71.55} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=3.169.71.68} on-error {}

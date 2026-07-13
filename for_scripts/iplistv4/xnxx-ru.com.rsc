@@ -107,6 +107,14 @@
 :do {add list=$AddressList comment=xnxx-ru.com address=195.181.166.15} on-error {}
 :do {add list=$AddressList comment=xnxx-ru.com address=195.181.170.26} on-error {}
 :do {add list=$AddressList comment=xnxx-ru.com address=195.181.170.27} on-error {}
+:do {add list=$AddressList comment=xnxx-ru.com address=195.181.174.10} on-error {}
+:do {add list=$AddressList comment=xnxx-ru.com address=195.181.174.11} on-error {}
+:do {add list=$AddressList comment=xnxx-ru.com address=195.181.174.13} on-error {}
+:do {add list=$AddressList comment=xnxx-ru.com address=195.181.174.14} on-error {}
+:do {add list=$AddressList comment=xnxx-ru.com address=195.181.174.3} on-error {}
+:do {add list=$AddressList comment=xnxx-ru.com address=195.181.174.4} on-error {}
+:do {add list=$AddressList comment=xnxx-ru.com address=195.181.174.6} on-error {}
+:do {add list=$AddressList comment=xnxx-ru.com address=195.181.174.7} on-error {}
 :do {add list=$AddressList comment=xnxx-ru.com address=195.181.175.15} on-error {}
 :do {add list=$AddressList comment=xnxx-ru.com address=195.181.175.16} on-error {}
 :do {add list=$AddressList comment=xnxx-ru.com address=195.181.175.18} on-error {}

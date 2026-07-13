@@ -61,6 +61,7 @@
 :do {add list=$AddressList comment=kino.pub address=188.114.99.224} on-error {}
 :do {add list=$AddressList comment=kino.pub address=188.114.99.228} on-error {}
 :do {add list=$AddressList comment=kino.pub address=213.183.46.34} on-error {}
+:do {add list=$AddressList comment=kino.pub address=213.252.245.106} on-error {}
 :do {add list=$AddressList comment=kino.pub address=31.40.217.114} on-error {}
 :do {add list=$AddressList comment=kino.pub address=31.40.218.242} on-error {}
 :do {add list=$AddressList comment=kino.pub address=35.180.146.98} on-error {}

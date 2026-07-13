@@ -265,6 +265,14 @@
 :do {add list=$AddressList comment=zapier.com address=52.85.31.50} on-error {}
 :do {add list=$AddressList comment=zapier.com address=52.85.31.89} on-error {}
 :do {add list=$AddressList comment=zapier.com address=52.85.31.90} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.114} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.23} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.25} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.3} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.45} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.53} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.62} on-error {}
+:do {add list=$AddressList comment=zapier.com address=52.85.47.71} on-error {}
 :do {add list=$AddressList comment=zapier.com address=52.85.49.103} on-error {}
 :do {add list=$AddressList comment=zapier.com address=52.85.49.118} on-error {}
 :do {add list=$AddressList comment=zapier.com address=52.85.49.120} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=zapier.com address=54.230.172.8} on-error {}
 :do {add list=$AddressList comment=zapier.com address=54.230.172.82} on-error {}
 :do {add list=$AddressList comment=zapier.com address=54.230.183.114} on-error {}
-:do {add list=$AddressList comment=zapier.com address=54.230.183.41} on-error {}
-:do {add list=$AddressList comment=zapier.com address=54.230.183.79} on-error {}
-:do {add list=$AddressList comment=zapier.com address=54.230.183.99} on-error {}
-:do {add list=$AddressList comment=zapier.com address=54.239.195.111} on-error {}
-:do {add list=$AddressList comment=zapier.com address=54.239.195.13} on-error {}
-:do {add list=$AddressList comment=zapier.com address=54.239.195.16} on-error {}
-:do {add list=$AddressList comment=zapier.com address=54.239.195.25} on-error {}
-:do {add list=$AddressList comment=zapier.com address=54.239.195.28} on-error {}

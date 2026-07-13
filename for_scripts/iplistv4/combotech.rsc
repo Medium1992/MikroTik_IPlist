@@ -40,6 +40,12 @@
 :do {add list=$AddressList comment=combotech address=154.197.65.145} on-error {}
 :do {add list=$AddressList comment=combotech address=154.197.65.146} on-error {}
 :do {add list=$AddressList comment=combotech address=154.197.65.147} on-error {}
+:do {add list=$AddressList comment=combotech address=154.197.65.148} on-error {}
+:do {add list=$AddressList comment=combotech address=154.197.65.149} on-error {}
+:do {add list=$AddressList comment=combotech address=154.197.65.150} on-error {}
+:do {add list=$AddressList comment=combotech address=154.197.65.151} on-error {}
+:do {add list=$AddressList comment=combotech address=154.197.65.152} on-error {}
+:do {add list=$AddressList comment=combotech address=154.197.65.153} on-error {}
 :do {add list=$AddressList comment=combotech address=154.197.65.87} on-error {}
 :do {add list=$AddressList comment=combotech address=154.197.65.88} on-error {}
 :do {add list=$AddressList comment=combotech address=154.197.65.89} on-error {}

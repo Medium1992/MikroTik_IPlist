@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=13.224.189.108 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.189.108 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
+:if ([:len [/ip/route/find dst-address=13.224.189.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.189.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
+:if ([:len [/ip/route/find dst-address=13.224.189.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.189.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
+:if ([:len [/ip/route/find dst-address=13.224.189.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.189.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
 :if ([:len [/ip/route/find dst-address=13.224.189.127 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.189.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
 :if ([:len [/ip/route/find dst-address=13.224.189.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.189.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
 :if ([:len [/ip/route/find dst-address=13.224.189.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.189.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=13.224.83.73 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.83.73 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
 :if ([:len [/ip/route/find dst-address=13.224.83.74 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.83.74 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
 :if ([:len [/ip/route/find dst-address=13.224.83.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.83.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
-:if ([:len [/ip/route/find dst-address=13.224.83.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.83.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
-:if ([:len [/ip/route/find dst-address=13.224.83.94 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.83.94 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
-:if ([:len [/ip/route/find dst-address=13.224.83.98 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.83.98 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
-:if ([:len [/ip/route/find dst-address=13.224.83.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.83.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }

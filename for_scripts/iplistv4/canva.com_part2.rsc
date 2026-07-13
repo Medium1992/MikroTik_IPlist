@@ -8,6 +8,10 @@
 :do {add list=$AddressList comment=canva.com address=99.84.91.35} on-error {}
 :do {add list=$AddressList comment=canva.com address=99.84.91.6} on-error {}
 :do {add list=$AddressList comment=canva.com address=99.84.91.75} on-error {}
+:do {add list=$AddressList comment=canva.com address=99.86.109.16} on-error {}
+:do {add list=$AddressList comment=canva.com address=99.86.109.23} on-error {}
+:do {add list=$AddressList comment=canva.com address=99.86.109.7} on-error {}
+:do {add list=$AddressList comment=canva.com address=99.86.109.75} on-error {}
 :do {add list=$AddressList comment=canva.com address=99.86.159.107} on-error {}
 :do {add list=$AddressList comment=canva.com address=99.86.159.128} on-error {}
 :do {add list=$AddressList comment=canva.com address=99.86.159.21} on-error {}

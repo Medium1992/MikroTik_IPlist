@@ -11,10 +11,8 @@
 :do {add list=$AddressList comment=AS134773 address=119.33.194.0/23} on-error {}
 :do {add list=$AddressList comment=AS134773 address=119.34.128.0/17} on-error {}
 :do {add list=$AddressList comment=AS134773 address=124.29.0.0/17} on-error {}
-:do {add list=$AddressList comment=AS134773 address=125.171.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS134773 address=202.111.242.0/24} on-error {}
 :do {add list=$AddressList comment=AS134773 address=203.88.192.0/19} on-error {}
-:do {add list=$AddressList comment=AS134773 address=210.185.192.0/18} on-error {}
 :do {add list=$AddressList comment=AS134773 address=210.75.32.0/19} on-error {}
 :do {add list=$AddressList comment=AS134773 address=210.76.64.0/21} on-error {}
 :do {add list=$AddressList comment=AS134773 address=210.76.72.0/23} on-error {}
@@ -27,15 +25,8 @@
 :do {add list=$AddressList comment=AS134773 address=210.76.88.0/21} on-error {}
 :do {add list=$AddressList comment=AS134773 address=211.147.224.0/19} on-error {}
 :do {add list=$AddressList comment=AS134773 address=211.155.16.0/20} on-error {}
-:do {add list=$AddressList comment=AS134773 address=211.156.176.0/20} on-error {}
 :do {add list=$AddressList comment=AS134773 address=219.137.159.0/24} on-error {}
 :do {add list=$AddressList comment=AS134773 address=219.137.193.0/24} on-error {}
 :do {add list=$AddressList comment=AS134773 address=59.107.0.0/17} on-error {}
 :do {add list=$AddressList comment=AS134773 address=59.37.0.0/23} on-error {}
 :do {add list=$AddressList comment=AS134773 address=61.144.6.0/24} on-error {}
-:do {add list=$AddressList comment=AS134773 address=61.29.128.0/19} on-error {}
-:do {add list=$AddressList comment=AS134773 address=61.29.160.0/24} on-error {}
-:do {add list=$AddressList comment=AS134773 address=61.29.162.0/23} on-error {}
-:do {add list=$AddressList comment=AS134773 address=61.29.164.0/22} on-error {}
-:do {add list=$AddressList comment=AS134773 address=61.29.168.0/21} on-error {}
-:do {add list=$AddressList comment=AS134773 address=61.29.176.0/20} on-error {}

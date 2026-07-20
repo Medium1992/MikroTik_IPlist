@@ -2,10 +2,16 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=104.21.10.87 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.21.10.87 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=104.26.2.110 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.26.2.110 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=104.26.3.110 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.26.3.110 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
+:if ([:len [/ip/route/find dst-address=172.67.162.191 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.67.162.191 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=172.67.75.189 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.67.75.189 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=185.215.4.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.215.4.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
+:if ([:len [/ip/route/find dst-address=188.114.96.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.96.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
+:if ([:len [/ip/route/find dst-address=188.114.96.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.96.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
+:if ([:len [/ip/route/find dst-address=188.114.97.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.97.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
+:if ([:len [/ip/route/find dst-address=188.114.97.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.97.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=194.67.71.107 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=194.67.71.107 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=194.67.71.108 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=194.67.71.108 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=194.67.71.152 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=194.67.71.152 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
@@ -24,6 +30,7 @@
 :if ([:len [/ip/route/find dst-address=194.67.71.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=194.67.71.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=194.67.71.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=194.67.71.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=35.190.45.78 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.190.45.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
+:if ([:len [/ip/route/find dst-address=5.45.124.171 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=5.45.124.171 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=8.47.69.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.47.69.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=8.47.69.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.47.69.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }
 :if ([:len [/ip/route/find dst-address=8.47.69.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.47.69.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=paperpaper.ru }

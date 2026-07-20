@@ -29,6 +29,7 @@
 :do {add list=$AddressList comment=linkedin.com address=185.5.161.128/25} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=188.43.72.0/21} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=199.232.0.0/16} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.16.10.0/23} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.16.102.0/23} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.16.106.0/23} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.16.134.0/23} on-error {}
@@ -39,6 +40,7 @@
 :do {add list=$AddressList comment=linkedin.com address=2.16.170.0/23} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.16.182.0/23} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.16.192.0/20} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=2.16.2.0/23} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.16.52.0/23} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.16.56.0/23} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.17.112.0/22} on-error {}
@@ -90,6 +92,7 @@
 :do {add list=$AddressList comment=linkedin.com address=23.206.0.0/16} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.214.0.0/15} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.216.0.0/16} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=23.218.0.0/16} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.220.0.0/16} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.222.0.0/16} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.3.0.0/16} on-error {}
@@ -129,6 +132,7 @@
 :do {add list=$AddressList comment=linkedin.com address=88.221.128.0/21} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=88.221.87.0/24} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=92.122.100.0/22} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=92.122.160.0/20} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=92.122.224.0/21} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=92.122.244.0/22} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=92.123.102.0/24} on-error {}

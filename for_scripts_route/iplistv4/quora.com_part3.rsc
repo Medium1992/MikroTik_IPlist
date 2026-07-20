@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.210.69.190 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.210.69.190 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=3.210.71.34 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.210.71.34 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.210.96.176 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.210.96.176 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.210.97.209 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.210.97.209 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.211.1.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.211.1.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
@@ -53,6 +55,7 @@
 :if ([:len [/ip/route/find dst-address=3.212.59.157 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.59.157 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.212.59.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.59.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.212.63.77 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.63.77 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=3.212.64.103 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.64.103 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.212.77.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.77.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.212.85.77 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.212.85.77 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.213.107.119 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.213.107.119 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.215.80.202 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.215.80.202 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.215.90.169 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.215.90.169 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.216.104.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.216.104.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=3.216.108.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.216.108.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=3.216.120.73 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.216.120.73 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=3.216.165.225 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.216.165.225 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }

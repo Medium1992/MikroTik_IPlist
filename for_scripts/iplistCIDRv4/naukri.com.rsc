@@ -118,6 +118,7 @@
 :do {add list=$AddressList comment=naukri.com address=23.32.0.0/14} on-error {}
 :do {add list=$AddressList comment=naukri.com address=23.36.0.0/15} on-error {}
 :do {add list=$AddressList comment=naukri.com address=23.38.0.0/16} on-error {}
+:do {add list=$AddressList comment=naukri.com address=23.39.185.157/32} on-error {}
 :do {add list=$AddressList comment=naukri.com address=23.39.40.7/32} on-error {}
 :do {add list=$AddressList comment=naukri.com address=23.39.41.149/32} on-error {}
 :do {add list=$AddressList comment=naukri.com address=23.40.0.0/15} on-error {}
@@ -173,6 +174,7 @@
 :do {add list=$AddressList comment=naukri.com address=80.239.138.0/24} on-error {}
 :do {add list=$AddressList comment=naukri.com address=80.67.64.0/21} on-error {}
 :do {add list=$AddressList comment=naukri.com address=80.67.82.0/24} on-error {}
+:do {add list=$AddressList comment=naukri.com address=84.53.164.0/22} on-error {}
 :do {add list=$AddressList comment=naukri.com address=84.53.172.0/22} on-error {}
 :do {add list=$AddressList comment=naukri.com address=84.53.184.0/21} on-error {}
 :do {add list=$AddressList comment=naukri.com address=88.221.110.0/24} on-error {}
@@ -184,6 +186,7 @@
 :do {add list=$AddressList comment=naukri.com address=88.221.24.0/22} on-error {}
 :do {add list=$AddressList comment=naukri.com address=88.221.254.0/23} on-error {}
 :do {add list=$AddressList comment=naukri.com address=88.221.28.0/22} on-error {}
+:do {add list=$AddressList comment=naukri.com address=88.221.36.0/22} on-error {}
 :do {add list=$AddressList comment=naukri.com address=88.221.83.0/24} on-error {}
 :do {add list=$AddressList comment=naukri.com address=88.221.87.0/24} on-error {}
 :do {add list=$AddressList comment=naukri.com address=88.221.88.0/24} on-error {}

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=canva.com address=8.47.69.8} on-error {}
+:do {add list=$AddressList comment=canva.com address=8.6.112.0} on-error {}
+:do {add list=$AddressList comment=canva.com address=8.6.112.4} on-error {}
+:do {add list=$AddressList comment=canva.com address=8.6.112.8} on-error {}
 :do {add list=$AddressList comment=canva.com address=99.84.152.101} on-error {}
 :do {add list=$AddressList comment=canva.com address=99.84.152.25} on-error {}
 :do {add list=$AddressList comment=canva.com address=99.84.152.30} on-error {}

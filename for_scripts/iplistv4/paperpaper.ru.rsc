@@ -1,9 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=paperpaper.ru address=104.21.10.87} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=104.26.2.110} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=104.26.3.110} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=172.67.162.191} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=172.67.75.189} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=185.215.4.19} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=188.114.96.3} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=188.114.96.4} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=188.114.97.3} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=188.114.97.4} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=194.67.71.107} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=194.67.71.108} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=194.67.71.152} on-error {}
@@ -22,6 +28,7 @@
 :do {add list=$AddressList comment=paperpaper.ru address=194.67.71.89} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=194.67.71.97} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=35.190.45.78} on-error {}
+:do {add list=$AddressList comment=paperpaper.ru address=5.45.124.171} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=8.47.69.0} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=8.47.69.8} on-error {}
 :do {add list=$AddressList comment=paperpaper.ru address=8.47.69.9} on-error {}

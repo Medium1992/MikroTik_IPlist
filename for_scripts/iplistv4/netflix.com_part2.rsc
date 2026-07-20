@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=netflix.com address=23.219.225.186} on-error {}
+:do {add list=$AddressList comment=netflix.com address=23.22.178.161} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.221.161.58} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.222.38.138} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.222.38.190} on-error {}
@@ -13,6 +15,7 @@
 :do {add list=$AddressList comment=netflix.com address=23.246.59.196} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.34.43.107} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.34.65.152} on-error {}
+:do {add list=$AddressList comment=netflix.com address=23.36.237.232} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.37.169.226} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.37.177.173} on-error {}
 :do {add list=$AddressList comment=netflix.com address=23.37.44.161} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=netflix.com address=54.224.145.4} on-error {}
 :do {add list=$AddressList comment=netflix.com address=54.229.152.140} on-error {}
 :do {add list=$AddressList comment=netflix.com address=54.229.239.201} on-error {}
-:do {add list=$AddressList comment=netflix.com address=54.235.126.162} on-error {}
-:do {add list=$AddressList comment=netflix.com address=54.236.226.169} on-error {}
-:do {add list=$AddressList comment=netflix.com address=54.237.226.164} on-error {}

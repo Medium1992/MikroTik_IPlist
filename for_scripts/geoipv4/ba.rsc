@@ -90,7 +90,6 @@
 :do {add list=$AddressList comment=ba address=172.94.103.0/24} on-error {}
 :do {add list=$AddressList comment=ba address=176.108.56.0/21} on-error {}
 :do {add list=$AddressList comment=ba address=176.119.220.0/24} on-error {}
-:do {add list=$AddressList comment=ba address=176.223.188.0/24} on-error {}
 :do {add list=$AddressList comment=ba address=178.209.0.0/19} on-error {}
 :do {add list=$AddressList comment=ba address=178.209.32.0/24} on-error {}
 :do {add list=$AddressList comment=ba address=178.210.184.0/21} on-error {}
@@ -161,13 +160,6 @@
 :do {add list=$AddressList comment=ba address=194.99.16.0/22} on-error {}
 :do {add list=$AddressList comment=ba address=195.130.32.0/19} on-error {}
 :do {add list=$AddressList comment=ba address=195.222.32.0/19} on-error {}
-:do {add list=$AddressList comment=ba address=196.197.53.0/24} on-error {}
-:do {add list=$AddressList comment=ba address=196.198.53.0/24} on-error {}
-:do {add list=$AddressList comment=ba address=196.199.53.0/24} on-error {}
-:do {add list=$AddressList comment=ba address=196.48.53.0/24} on-error {}
-:do {add list=$AddressList comment=ba address=196.56.53.0/24} on-error {}
-:do {add list=$AddressList comment=ba address=196.57.53.0/24} on-error {}
-:do {add list=$AddressList comment=ba address=196.58.53.0/24} on-error {}
 :do {add list=$AddressList comment=ba address=198.145.147.0/24} on-error {}
 :do {add list=$AddressList comment=ba address=199.247.33.64/27} on-error {}
 :do {add list=$AddressList comment=ba address=200.162.147.0/24} on-error {}
@@ -214,6 +206,7 @@
 :do {add list=$AddressList comment=ba address=45.14.36.0/22} on-error {}
 :do {add list=$AddressList comment=ba address=45.148.123.0/24} on-error {}
 :do {add list=$AddressList comment=ba address=45.156.248.0/22} on-error {}
+:do {add list=$AddressList comment=ba address=45.157.182.0/24} on-error {}
 :do {add list=$AddressList comment=ba address=45.196.144.0/21} on-error {}
 :do {add list=$AddressList comment=ba address=45.82.88.0/22} on-error {}
 :do {add list=$AddressList comment=ba address=46.163.60.0/24} on-error {}

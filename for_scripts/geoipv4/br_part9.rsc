@@ -1,15 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=br address=156.249.64.0/22} on-error {}
-:do {add list=$AddressList comment=br address=156.45.232.0/24} on-error {}
-:do {add list=$AddressList comment=br address=157.137.128.0/22} on-error {}
-:do {add list=$AddressList comment=br address=157.151.0.0/19} on-error {}
-:do {add list=$AddressList comment=br address=157.151.48.0/23} on-error {}
-:do {add list=$AddressList comment=br address=157.166.152.0/24} on-error {}
-:do {add list=$AddressList comment=br address=157.166.187.0/24} on-error {}
-:do {add list=$AddressList comment=br address=157.166.68.0/23} on-error {}
-:do {add list=$AddressList comment=br address=157.167.132.0/24} on-error {}
-:do {add list=$AddressList comment=br address=157.167.152.0/24} on-error {}
 :do {add list=$AddressList comment=br address=157.167.224.5/32} on-error {}
 :do {add list=$AddressList comment=br address=157.167.224.57/32} on-error {}
 :do {add list=$AddressList comment=br address=157.167.224.6/32} on-error {}
@@ -350,3 +340,13 @@
 :do {add list=$AddressList comment=br address=165.1.247.194/31} on-error {}
 :do {add list=$AddressList comment=br address=165.1.247.196/30} on-error {}
 :do {add list=$AddressList comment=br address=165.1.247.200/30} on-error {}
+:do {add list=$AddressList comment=br address=165.1.247.204/31} on-error {}
+:do {add list=$AddressList comment=br address=165.1.247.206/32} on-error {}
+:do {add list=$AddressList comment=br address=165.1.247.241/32} on-error {}
+:do {add list=$AddressList comment=br address=165.1.247.242/31} on-error {}
+:do {add list=$AddressList comment=br address=165.1.247.244/30} on-error {}
+:do {add list=$AddressList comment=br address=165.1.247.248/30} on-error {}
+:do {add list=$AddressList comment=br address=165.1.247.252/31} on-error {}
+:do {add list=$AddressList comment=br address=165.1.247.254/32} on-error {}
+:do {add list=$AddressList comment=br address=165.1.247.33/32} on-error {}
+:do {add list=$AddressList comment=br address=165.1.247.34/31} on-error {}

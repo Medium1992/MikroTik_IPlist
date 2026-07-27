@@ -1,5 +1,22 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=facebook.com address=23.55.161.141} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.142} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.146} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.149} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.150} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.151} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.152} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.153} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.156} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.157} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.159} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.160} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.162} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.164} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.165} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.167} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.55.161.175} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.178} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.190} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.55.161.202} on-error {}
@@ -31,6 +48,7 @@
 :do {add list=$AddressList comment=facebook.com address=23.55.48.66} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.73.2.77} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.73.2.87} on-error {}
+:do {add list=$AddressList comment=facebook.com address=23.73.2.89} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.75.20.104} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.75.20.32} on-error {}
 :do {add list=$AddressList comment=facebook.com address=23.75.20.41} on-error {}
@@ -332,21 +350,3 @@
 :do {add list=$AddressList comment=facebook.com address=57.144.192.141} on-error {}
 :do {add list=$AddressList comment=facebook.com address=57.144.192.5} on-error {}
 :do {add list=$AddressList comment=facebook.com address=57.144.194.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.196.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.196.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.198.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.200.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.200.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.202.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.204.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.206.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.208.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.210.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.212.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.214.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.216.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.217.149} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.218.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.22.128} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.22.129} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.22.5} on-error {}

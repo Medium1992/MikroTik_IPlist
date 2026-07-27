@@ -1,5 +1,28 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=AS1540 address=6.244.0.0/14} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.248.0.0/13} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.41.0.0/16} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.42.192.0/19} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.42.224.0/21} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.42.232.0/22} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.42.243.0/24} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.42.244.0/22} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.64.151.0/24} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.64.159.0/24} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.64.162.0/23} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.130.0/23} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.132.0/22} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.136.0/21} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.144.0/20} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.16.0/24} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.160.0/20} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.176.0/21} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.184.0/22} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.20.0/22} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.26.0/23} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.34.0/23} on-error {}
+:do {add list=$AddressList comment=AS1540 address=6.65.36.0/22} on-error {}
 :do {add list=$AddressList comment=AS1540 address=6.65.4.0/24} on-error {}
 :do {add list=$AddressList comment=AS1540 address=6.65.40.0/24} on-error {}
 :do {add list=$AddressList comment=AS1540 address=6.65.44.0/22} on-error {}

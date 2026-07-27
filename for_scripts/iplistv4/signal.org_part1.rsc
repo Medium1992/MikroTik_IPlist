@@ -63,6 +63,7 @@
 :do {add list=$AddressList comment=signal.org address=107.20.183.188} on-error {}
 :do {add list=$AddressList comment=signal.org address=107.20.204.179} on-error {}
 :do {add list=$AddressList comment=signal.org address=107.20.23.42} on-error {}
+:do {add list=$AddressList comment=signal.org address=107.21.157.235} on-error {}
 :do {add list=$AddressList comment=signal.org address=107.21.194.176} on-error {}
 :do {add list=$AddressList comment=signal.org address=107.21.251.255} on-error {}
 :do {add list=$AddressList comment=signal.org address=107.21.30.33} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=signal.org address=143.204.238.116} on-error {}
 :do {add list=$AddressList comment=signal.org address=143.204.238.34} on-error {}
 :do {add list=$AddressList comment=signal.org address=143.204.238.77} on-error {}
-:do {add list=$AddressList comment=signal.org address=143.204.238.90} on-error {}

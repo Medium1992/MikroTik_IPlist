@@ -174,6 +174,7 @@
 :do {add list=$AddressList comment=AS8075 address=137.132.48.0/23} on-error {}
 :do {add list=$AddressList comment=AS8075 address=137.135.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS8075 address=137.162.0.0/16} on-error {}
+:do {add list=$AddressList comment=AS8075 address=137.44.127.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=137.70.152.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=137.70.154.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=138.105.0.0/16} on-error {}
@@ -276,7 +277,6 @@
 :do {add list=$AddressList comment=AS8075 address=152.148.0.0/16} on-error {}
 :do {add list=$AddressList comment=AS8075 address=152.38.156.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=153.45.129.0/24} on-error {}
-:do {add list=$AddressList comment=AS8075 address=153.45.158.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=153.45.169.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=153.45.170.0/23} on-error {}
 :do {add list=$AddressList comment=AS8075 address=153.45.174.0/23} on-error {}
@@ -336,6 +336,7 @@
 :do {add list=$AddressList comment=AS8075 address=161.195.152.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=161.195.155.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=161.195.188.0/23} on-error {}
+:do {add list=$AddressList comment=AS8075 address=161.195.200.0/22} on-error {}
 :do {add list=$AddressList comment=AS8075 address=161.195.248.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=161.195.96.0/21} on-error {}
 :do {add list=$AddressList comment=AS8075 address=161.220.0.0/16} on-error {}
@@ -349,4 +350,3 @@
 :do {add list=$AddressList comment=AS8075 address=162.254.245.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=162.254.247.0/24} on-error {}
 :do {add list=$AddressList comment=AS8075 address=163.199.84.0/23} on-error {}
-:do {add list=$AddressList comment=AS8075 address=163.57.0.0/16} on-error {}

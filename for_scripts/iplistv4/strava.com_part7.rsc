@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=strava.com address=3.168.73.88} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.168.73.99} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.169.107.101} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.169.107.116} on-error {}
@@ -227,6 +228,7 @@
 :do {add list=$AddressList comment=strava.com address=3.211.167.75} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.211.17.234} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.211.179.244} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.211.227.247} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.211.254.100} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.211.6.121} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.212.186.169} on-error {}
@@ -245,6 +247,7 @@
 :do {add list=$AddressList comment=strava.com address=3.215.164.0} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.215.35.3} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.216.11.236} on-error {}
+:do {add list=$AddressList comment=strava.com address=3.216.121.188} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.216.174.255} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.216.19.106} on-error {}
 :do {add list=$AddressList comment=strava.com address=3.216.215.165} on-error {}
@@ -347,6 +350,3 @@
 :do {add list=$AddressList comment=strava.com address=34.197.30.241} on-error {}
 :do {add list=$AddressList comment=strava.com address=34.197.61.125} on-error {}
 :do {add list=$AddressList comment=strava.com address=34.197.81.140} on-error {}
-:do {add list=$AddressList comment=strava.com address=34.198.17.61} on-error {}
-:do {add list=$AddressList comment=strava.com address=34.198.171.28} on-error {}
-:do {add list=$AddressList comment=strava.com address=34.198.19.213} on-error {}

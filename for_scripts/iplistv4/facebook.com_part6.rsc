@@ -1,5 +1,23 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=facebook.com address=57.144.196.1} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.196.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.198.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.200.141} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.200.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.202.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.204.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.206.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.208.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.210.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.212.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.214.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.216.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.217.149} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.218.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.22.128} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.22.129} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.22.5} on-error {}
 :do {add list=$AddressList comment=facebook.com address=57.144.220.5} on-error {}
 :do {add list=$AddressList comment=facebook.com address=57.144.222.1} on-error {}
 :do {add list=$AddressList comment=facebook.com address=57.144.222.128} on-error {}
@@ -100,6 +118,7 @@
 :do {add list=$AddressList comment=facebook.com address=57.144.86.5} on-error {}
 :do {add list=$AddressList comment=facebook.com address=57.144.88.5} on-error {}
 :do {add list=$AddressList comment=facebook.com address=57.144.90.5} on-error {}
+:do {add list=$AddressList comment=facebook.com address=57.144.98.5} on-error {}
 :do {add list=$AddressList comment=facebook.com address=57.145.0.5} on-error {}
 :do {add list=$AddressList comment=facebook.com address=57.145.10.5} on-error {}
 :do {add list=$AddressList comment=facebook.com address=57.145.12.5} on-error {}
@@ -331,4 +350,3 @@
 :do {add list=$AddressList comment=facebook.com address=96.44.137.28} on-error {}
 :do {add list=$AddressList comment=facebook.com address=98.159.108.57} on-error {}
 :do {add list=$AddressList comment=facebook.com address=98.159.108.58} on-error {}
-:do {add list=$AddressList comment=facebook.com address=98.159.108.61} on-error {}

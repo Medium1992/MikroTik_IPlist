@@ -1,7 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS9009 address=92.244.172.0/23} on-error {}
-:do {add list=$AddressList comment=AS9009 address=92.50.14.0/23} on-error {}
 :do {add list=$AddressList comment=AS9009 address=92.50.16.0/20} on-error {}
 :do {add list=$AddressList comment=AS9009 address=92.50.32.0/19} on-error {}
 :do {add list=$AddressList comment=AS9009 address=92.61.104.0/24} on-error {}
@@ -57,6 +55,7 @@
 :do {add list=$AddressList comment=AS9009 address=93.177.72.0/22} on-error {}
 :do {add list=$AddressList comment=AS9009 address=94.154.140.0/22} on-error {}
 :do {add list=$AddressList comment=AS9009 address=94.154.171.0/24} on-error {}
+:do {add list=$AddressList comment=AS9009 address=94.154.36.0/24} on-error {}
 :do {add list=$AddressList comment=AS9009 address=94.176.148.0/24} on-error {}
 :do {add list=$AddressList comment=AS9009 address=94.185.128.0/22} on-error {}
 :do {add list=$AddressList comment=AS9009 address=94.185.132.0/23} on-error {}
@@ -102,6 +101,7 @@
 :do {add list=$AddressList comment=AS9009 address=95.135.248.0/24} on-error {}
 :do {add list=$AddressList comment=AS9009 address=95.135.96.0/22} on-error {}
 :do {add list=$AddressList comment=AS9009 address=95.156.207.0/24} on-error {}
+:do {add list=$AddressList comment=AS9009 address=95.169.162.0/24} on-error {}
 :do {add list=$AddressList comment=AS9009 address=95.174.64.0/22} on-error {}
 :do {add list=$AddressList comment=AS9009 address=95.177.13.0/24} on-error {}
 :do {add list=$AddressList comment=AS9009 address=95.177.3.0/24} on-error {}
@@ -114,6 +114,5 @@
 :do {add list=$AddressList comment=AS9009 address=95.214.136.0/22} on-error {}
 :do {add list=$AddressList comment=AS9009 address=96.126.178.0/24} on-error {}
 :do {add list=$AddressList comment=AS9009 address=96.126.184.0/22} on-error {}
-:do {add list=$AddressList comment=AS9009 address=96.62.103.0/24} on-error {}
 :do {add list=$AddressList comment=AS9009 address=96.62.251.0/24} on-error {}
 :do {add list=$AddressList comment=AS9009 address=96.62.254.0/24} on-error {}

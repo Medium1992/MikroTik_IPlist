@@ -1,5 +1,20 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=whoop.com address=52.85.49.49} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.51} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.59} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.62} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.65} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.72} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.78} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.79} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.84} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.93} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.94} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.97} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.49.99} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.5.106} on-error {}
+:do {add list=$AddressList comment=whoop.com address=52.85.5.127} on-error {}
 :do {add list=$AddressList comment=whoop.com address=52.85.5.129} on-error {}
 :do {add list=$AddressList comment=whoop.com address=52.85.5.17} on-error {}
 :do {add list=$AddressList comment=whoop.com address=52.85.5.36} on-error {}
@@ -92,6 +107,10 @@
 :do {add list=$AddressList comment=whoop.com address=54.175.213.250} on-error {}
 :do {add list=$AddressList comment=whoop.com address=54.175.251.27} on-error {}
 :do {add list=$AddressList comment=whoop.com address=54.187.181.70} on-error {}
+:do {add list=$AddressList comment=whoop.com address=54.192.100.107} on-error {}
+:do {add list=$AddressList comment=whoop.com address=54.192.100.32} on-error {}
+:do {add list=$AddressList comment=whoop.com address=54.192.100.40} on-error {}
+:do {add list=$AddressList comment=whoop.com address=54.192.100.8} on-error {}
 :do {add list=$AddressList comment=whoop.com address=54.192.51.108} on-error {}
 :do {add list=$AddressList comment=whoop.com address=54.192.51.127} on-error {}
 :do {add list=$AddressList comment=whoop.com address=54.192.51.72} on-error {}
@@ -331,22 +350,3 @@
 :do {add list=$AddressList comment=whoop.com address=65.9.46.120} on-error {}
 :do {add list=$AddressList comment=whoop.com address=65.9.46.123} on-error {}
 :do {add list=$AddressList comment=whoop.com address=65.9.46.20} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.46.36} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.46.43} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.46.62} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.46.73} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.46.75} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.46.76} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.46.85} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.46.86} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.62.15} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.62.57} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.62.69} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.62.74} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.66.29} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.66.31} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.66.55} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.66.99} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.86.106} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.86.116} on-error {}
-:do {add list=$AddressList comment=whoop.com address=65.9.86.118} on-error {}

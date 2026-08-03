@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=instagram.com address=57.144.160.192} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.160.5} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.162.144} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.162.192} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.162.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.164.5} on-error {}
@@ -56,6 +59,8 @@
 :do {add list=$AddressList comment=instagram.com address=57.144.234.144} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.234.192} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.234.5} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.238.141} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.238.144} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.238.192} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.238.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.240.128} on-error {}
@@ -99,6 +104,8 @@
 :do {add list=$AddressList comment=instagram.com address=57.144.254.36} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.254.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.38.5} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.4.192} on-error {}
+:do {add list=$AddressList comment=instagram.com address=57.144.4.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.40.141} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.40.5} on-error {}
 :do {add list=$AddressList comment=instagram.com address=57.144.42.5} on-error {}

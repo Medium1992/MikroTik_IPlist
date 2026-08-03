@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=18.155.153.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.155.153.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=18.155.153.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.155.153.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=18.155.153.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.155.153.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=18.158.228.216 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.158.228.216 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=18.161.111.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.111.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=18.161.111.37 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.111.37 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=18.161.111.44 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.111.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=18.161.111.46 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.111.46 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=18.161.34.111 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.161.34.111 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=185.45.6.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.45.6.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=185.45.7.165 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.45.7.165 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=185.45.7.185 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.45.7.185 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=185.45.7.189 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.45.7.189 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=185.45.7.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.45.7.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=185.60.216.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.60.216.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=185.60.216.169 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.60.216.169 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=185.60.216.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.60.216.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=185.60.216.50 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.60.216.50 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }

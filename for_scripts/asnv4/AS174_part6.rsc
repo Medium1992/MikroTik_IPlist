@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS174 address=195.238.96.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=195.78.54.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=198.1.196.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=198.100.16.0/24} on-error {}
@@ -304,15 +303,15 @@
 :do {add list=$AddressList comment=AS174 address=204.120.184.0/21} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.120.192.0/18} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.122.9.0/24} on-error {}
-:do {add list=$AddressList comment=AS174 address=204.126.99.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.137.167.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.15.207.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.157.0.0/18} on-error {}
-:do {add list=$AddressList comment=AS174 address=204.157.116.0/22} on-error {}
+:do {add list=$AddressList comment=AS174 address=204.157.112.0/21} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.157.120.0/22} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.157.125.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.157.135.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.157.136.0/21} on-error {}
+:do {add list=$AddressList comment=AS174 address=204.157.146.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.157.148.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.157.150.0/23} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.157.154.0/23} on-error {}
@@ -350,3 +349,4 @@
 :do {add list=$AddressList comment=AS174 address=204.180.65.0/24} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.180.66.0/23} on-error {}
 :do {add list=$AddressList comment=AS174 address=204.180.68.0/22} on-error {}
+:do {add list=$AddressList comment=AS174 address=204.180.72.0/21} on-error {}

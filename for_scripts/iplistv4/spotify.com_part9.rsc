@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=spotify.com address=23.76.204.144} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.76.204.145} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.76.204.149} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.76.204.151} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.76.204.154} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.76.204.156} on-error {}
+:do {add list=$AddressList comment=spotify.com address=23.76.204.157} on-error {}
+:do {add list=$AddressList comment=spotify.com address=3.126.5.188} on-error {}
+:do {add list=$AddressList comment=spotify.com address=3.71.139.153} on-error {}
 :do {add list=$AddressList comment=spotify.com address=35.167.216.18} on-error {}
 :do {add list=$AddressList comment=spotify.com address=35.186.224.24} on-error {}
 :do {add list=$AddressList comment=spotify.com address=35.186.224.26} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=spotify.com address=92.122.244.49} on-error {}
 :do {add list=$AddressList comment=spotify.com address=92.122.244.50} on-error {}
 :do {add list=$AddressList comment=spotify.com address=92.122.244.51} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.122.244.56} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.122.244.8} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.122.244.9} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.102.107} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.102.11} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.102.112} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.102.114} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.102.115} on-error {}
-:do {add list=$AddressList comment=spotify.com address=92.123.102.120} on-error {}

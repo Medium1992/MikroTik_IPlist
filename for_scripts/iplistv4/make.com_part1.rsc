@@ -159,6 +159,14 @@
 :do {add list=$AddressList comment=make.com address=108.157.128.13} on-error {}
 :do {add list=$AddressList comment=make.com address=108.157.128.88} on-error {}
 :do {add list=$AddressList comment=make.com address=108.157.128.92} on-error {}
+:do {add list=$AddressList comment=make.com address=108.157.142.129} on-error {}
+:do {add list=$AddressList comment=make.com address=108.157.142.27} on-error {}
+:do {add list=$AddressList comment=make.com address=108.157.142.28} on-error {}
+:do {add list=$AddressList comment=make.com address=108.157.142.29} on-error {}
+:do {add list=$AddressList comment=make.com address=108.157.142.36} on-error {}
+:do {add list=$AddressList comment=make.com address=108.157.142.40} on-error {}
+:do {add list=$AddressList comment=make.com address=108.157.142.45} on-error {}
+:do {add list=$AddressList comment=make.com address=108.157.142.60} on-error {}
 :do {add list=$AddressList comment=make.com address=108.157.188.104} on-error {}
 :do {add list=$AddressList comment=make.com address=108.157.188.116} on-error {}
 :do {add list=$AddressList comment=make.com address=108.157.188.120} on-error {}
@@ -342,11 +350,3 @@
 :do {add list=$AddressList comment=make.com address=13.226.244.18} on-error {}
 :do {add list=$AddressList comment=make.com address=13.226.244.56} on-error {}
 :do {add list=$AddressList comment=make.com address=13.226.244.78} on-error {}
-:do {add list=$AddressList comment=make.com address=13.227.146.108} on-error {}
-:do {add list=$AddressList comment=make.com address=13.227.146.114} on-error {}
-:do {add list=$AddressList comment=make.com address=13.227.146.121} on-error {}
-:do {add list=$AddressList comment=make.com address=13.227.146.123} on-error {}
-:do {add list=$AddressList comment=make.com address=13.227.146.128} on-error {}
-:do {add list=$AddressList comment=make.com address=13.227.146.129} on-error {}
-:do {add list=$AddressList comment=make.com address=13.227.146.14} on-error {}
-:do {add list=$AddressList comment=make.com address=13.227.146.2} on-error {}

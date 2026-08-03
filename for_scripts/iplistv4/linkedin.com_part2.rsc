@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=linkedin.com address=2.18.79.81} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.18.79.82} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.18.79.83} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=2.18.79.84} on-error {}
@@ -317,6 +318,7 @@
 :do {add list=$AddressList comment=linkedin.com address=23.218.218.147} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.218.218.148} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.218.218.149} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=23.218.218.150} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.218.218.155} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.218.218.161} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.218.218.162} on-error {}
@@ -342,11 +344,9 @@
 :do {add list=$AddressList comment=linkedin.com address=23.3.90.122} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.3.90.65} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.3.90.74} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=23.32.238.104} on-error {}
+:do {add list=$AddressList comment=linkedin.com address=23.32.238.112} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.32.238.178} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.32.238.208} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.32.238.211} on-error {}
 :do {add list=$AddressList comment=linkedin.com address=23.32.238.219} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=23.32.239.42} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=23.32.239.72} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=23.35.104.146} on-error {}
-:do {add list=$AddressList comment=linkedin.com address=23.35.104.147} on-error {}

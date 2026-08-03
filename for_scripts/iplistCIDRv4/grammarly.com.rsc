@@ -56,6 +56,7 @@
 :do {add list=$AddressList comment=grammarly.com address=35.160.0.0/12} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=44.192.0.0/13} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=44.202.94.78/32} on-error {}
+:do {add list=$AddressList comment=grammarly.com address=44.203.165.157/32} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=44.205.0.0/16} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=44.206.0.0/15} on-error {}
 :do {add list=$AddressList comment=grammarly.com address=44.208.0.0/12} on-error {}

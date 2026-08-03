@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=142.251.32.78} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.32.79} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.32.86} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.32.97} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.32.99} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.33.1} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.33.10} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.33.100} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.33.106} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.33.108} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.33.110} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.33.111} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=142.251.40.161} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.40.163} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.40.164} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.40.170} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.40.172} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.40.174} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.40.175} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.40.182} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.40.193} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.40.195} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.40.196} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.40.202} on-error {}

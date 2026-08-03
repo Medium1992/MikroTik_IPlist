@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS4811 address=218.78.211.0/24} on-error {}
 :do {add list=$AddressList comment=AS4811 address=218.78.212.0/23} on-error {}
 :do {add list=$AddressList comment=AS4811 address=218.78.64.0/19} on-error {}
 :do {add list=$AddressList comment=AS4811 address=218.78.96.0/20} on-error {}
@@ -25,7 +24,11 @@
 :do {add list=$AddressList comment=AS4811 address=222.73.156.0/23} on-error {}
 :do {add list=$AddressList comment=AS4811 address=222.73.158.0/24} on-error {}
 :do {add list=$AddressList comment=AS4811 address=222.73.16.0/21} on-error {}
-:do {add list=$AddressList comment=AS4811 address=222.73.160.0/19} on-error {}
+:do {add list=$AddressList comment=AS4811 address=222.73.160.0/21} on-error {}
+:do {add list=$AddressList comment=AS4811 address=222.73.168.0/22} on-error {}
+:do {add list=$AddressList comment=AS4811 address=222.73.172.0/23} on-error {}
+:do {add list=$AddressList comment=AS4811 address=222.73.175.0/24} on-error {}
+:do {add list=$AddressList comment=AS4811 address=222.73.176.0/20} on-error {}
 :do {add list=$AddressList comment=AS4811 address=222.73.192.0/22} on-error {}
 :do {add list=$AddressList comment=AS4811 address=222.73.196.0/23} on-error {}
 :do {add list=$AddressList comment=AS4811 address=222.73.198.0/24} on-error {}
@@ -98,7 +101,8 @@
 :do {add list=$AddressList comment=AS4811 address=61.151.236.0/24} on-error {}
 :do {add list=$AddressList comment=AS4811 address=61.151.238.0/23} on-error {}
 :do {add list=$AddressList comment=AS4811 address=61.151.241.0/24} on-error {}
-:do {add list=$AddressList comment=AS4811 address=61.151.244.0/22} on-error {}
+:do {add list=$AddressList comment=AS4811 address=61.151.244.0/24} on-error {}
+:do {add list=$AddressList comment=AS4811 address=61.151.246.0/23} on-error {}
 :do {add list=$AddressList comment=AS4811 address=61.151.249.0/24} on-error {}
 :do {add list=$AddressList comment=AS4811 address=61.151.250.0/24} on-error {}
 :do {add list=$AddressList comment=AS4811 address=61.152.104.0/23} on-error {}

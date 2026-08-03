@@ -2,6 +2,17 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=195.181.166.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.166.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=195.181.170.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.170.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=195.181.170.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.170.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=195.181.174.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.174.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=195.181.174.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.174.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=195.181.174.13 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.174.13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=195.181.174.14 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.174.14 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=195.181.174.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.174.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=195.181.174.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.174.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=195.181.174.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.174.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=195.181.174.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.174.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
 :if ([:len [/ip/route/find dst-address=195.181.175.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.175.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
 :if ([:len [/ip/route/find dst-address=195.181.175.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.175.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
 :if ([:len [/ip/route/find dst-address=195.181.175.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=195.181.175.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
@@ -51,6 +62,10 @@
 :if ([:len [/ip/route/find dst-address=84.17.59.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=84.17.59.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
 :if ([:len [/ip/route/find dst-address=87.249.131.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.249.131.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
 :if ([:len [/ip/route/find dst-address=87.249.131.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=87.249.131.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=89.187.164.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.164.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=89.187.164.30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.164.30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=89.187.164.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.164.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
+:if ([:len [/ip/route/find dst-address=89.187.164.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.164.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
 :if ([:len [/ip/route/find dst-address=89.187.165.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.165.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
 :if ([:len [/ip/route/find dst-address=89.187.165.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.165.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }
 :if ([:len [/ip/route/find dst-address=89.187.171.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=89.187.171.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=xvideos.com }

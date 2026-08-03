@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=128.121.243.76 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=128.121.243.76 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=128.121.243.77 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=128.121.243.77 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=128.242.240.117 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=128.242.240.117 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=128.242.240.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=128.242.240.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=128.242.240.149 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=128.242.240.149 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=128.242.240.155 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=128.242.240.155 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=128.242.240.157 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=128.242.240.157 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
@@ -34,12 +38,14 @@
 :if ([:len [/ip/route/find dst-address=128.242.250.155 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=128.242.250.155 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=128.242.250.157 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=128.242.250.157 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=13.107.219.60 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.107.219.60 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=13.107.228.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.107.228.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=13.107.228.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.107.228.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=13.107.228.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.107.228.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=13.107.228.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.107.228.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=13.107.228.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.107.228.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=13.107.228.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.107.228.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=13.107.228.50 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.107.228.50 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=13.107.228.52 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.107.228.52 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=13.214.238.55 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.214.238.55 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=13.224.106.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.106.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=13.224.106.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.106.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=154.83.14.134 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.83.14.134 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=154.83.15.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.83.15.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=154.83.15.45 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.83.15.45 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=154.85.102.30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.85.102.30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=154.85.102.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.85.102.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=154.92.16.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.92.16.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=156.233.67.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=156.233.67.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=157.240.0.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=157.240.0.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=157.240.0.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=157.240.0.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }

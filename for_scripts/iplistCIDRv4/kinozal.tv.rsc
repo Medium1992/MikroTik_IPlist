@@ -7,3 +7,4 @@
 :do {add list=$AddressList comment=kinozal.tv address=172.67.142.133/32} on-error {}
 :do {add list=$AddressList comment=kinozal.tv address=172.67.189.243/32} on-error {}
 :do {add list=$AddressList comment=kinozal.tv address=188.114.96.0/22} on-error {}
+:do {add list=$AddressList comment=kinozal.tv address=188.120.248.0/21} on-error {}

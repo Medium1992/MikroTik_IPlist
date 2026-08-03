@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:do {add list=$AddressList comment=youtube.com address=142.251.40.170} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.40.172} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.40.174} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.40.175} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.40.182} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.40.193} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.40.195} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.40.196} on-error {}
+:do {add list=$AddressList comment=youtube.com address=142.251.40.202} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.40.204} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.40.206} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.40.207} on-error {}
@@ -341,12 +350,3 @@
 :do {add list=$AddressList comment=youtube.com address=142.251.85.103} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.85.104} on-error {}
 :do {add list=$AddressList comment=youtube.com address=142.251.85.105} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.85.106} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.85.134} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.85.135} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.85.136} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.85.137} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.85.138} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.85.166} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.85.167} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.251.85.168} on-error {}

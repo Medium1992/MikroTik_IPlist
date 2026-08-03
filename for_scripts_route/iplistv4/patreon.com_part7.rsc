@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=20.190.151.71 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.190.151.71 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=20.190.151.72 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.190.151.72 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=20.190.154.140 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.190.154.140 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=20.190.154.141 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.190.154.141 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=20.190.159.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.190.159.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
+:if ([:len [/ip/route/find dst-address=20.190.159.66 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.190.159.66 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=20.190.159.67 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.190.159.67 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=20.190.181.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.190.181.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=20.190.181.21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=20.190.181.21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.165.190.22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=3.165.190.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
 :if ([:len [/ip/route/find dst-address=3.165.190.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.190.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=3.165.206.100 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.206.100 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=3.165.206.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.206.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=3.165.206.82 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.206.82 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=3.165.206.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.206.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=3.165.239.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.239.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }
-:if ([:len [/ip/route/find dst-address=3.165.239.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.165.239.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=patreon.com }

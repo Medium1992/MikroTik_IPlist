@@ -4,6 +4,8 @@ IPs are collected full from tree sources
 - https://iplist.opencck.org (iplistCIDRv4 and iplistv4)
 - https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geoip and geo-lite/geoip (geoipv4)
 - https://github.com/MetaCubeX/meta-rules-dat/tree/meta/asn (asnv4)
+- https://cinsscore.com/list/ci-badguys.txt (abusev4/cins, individual IPv4 as /32)
+- https://www.spamhaus.org/drop/drop_v4.json (abusev4/spamhaus-drop, source CIDRs)
 
 You can check which AS an IP belongs to on the website https://bgp.tools
 
@@ -13,6 +15,14 @@ use:
 - geoipv4/...
 - iplistCIDRv4/...
 - iplistv4/...
+- abusev4/cins
+- abusev4/spamhaus-drop
+
+`abusev4/cins` and `abusev4/spamhaus-drop` are deliberately separate resources:
+assign each one its own RouterOS address-list, so the matching firewall rule can
+be disabled independently during diagnostics. Generated address-list entries
+check `list` and `address` before adding; an existing disabled entry therefore
+does not produce a duplicate.
 
 ### scrirt IP_BlackList
 ```bash

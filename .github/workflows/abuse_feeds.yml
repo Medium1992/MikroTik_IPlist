@@ -39,7 +39,7 @@ jobs:
               echo ":global AddressList"
               echo "/ip firewall address-list"
               for addr in "$@"; do
-                echo "add list=\$AddressList comment=$comment address=$addr"
+                echo ":do { add list=\$AddressList comment=$comment address=$addr } on-error={ }"
               done
             } > "$out"
           }

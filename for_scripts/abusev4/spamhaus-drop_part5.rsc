@@ -1,302 +1,302 @@
 :global AddressList
 /ip firewall address-list
-add list=$AddressList comment=spamhaus-drop address=206.41.160.0/19]]
-add list=$AddressList comment=spamhaus-drop address=206.51.29.0/24]]
-add list=$AddressList comment=spamhaus-drop address=206.80.224.0/21]]
-add list=$AddressList comment=spamhaus-drop address=206.83.128.0/21]]
-add list=$AddressList comment=spamhaus-drop address=207.105.108.0/22]]
-add list=$AddressList comment=spamhaus-drop address=207.110.64.0/18]]
-add list=$AddressList comment=spamhaus-drop address=207.183.192.0/19]]
-add list=$AddressList comment=spamhaus-drop address=207.183.64.0/19]]
-add list=$AddressList comment=spamhaus-drop address=207.183.96.0/20]]
-add list=$AddressList comment=spamhaus-drop address=207.199.173.0/24]]
-add list=$AddressList comment=spamhaus-drop address=207.199.188.0/24]]
-add list=$AddressList comment=spamhaus-drop address=207.199.190.0/24]]
-add list=$AddressList comment=spamhaus-drop address=207.22.192.0/18]]
-add list=$AddressList comment=spamhaus-drop address=207.228.200.0/22]]
-add list=$AddressList comment=spamhaus-drop address=207.244.0.0/18]]
-add list=$AddressList comment=spamhaus-drop address=207.252.136.0/21]]
-add list=$AddressList comment=spamhaus-drop address=207.45.104.0/21]]
-add list=$AddressList comment=spamhaus-drop address=207.45.224.0/20]]
-add list=$AddressList comment=spamhaus-drop address=207.45.56.0/21]]
-add list=$AddressList comment=spamhaus-drop address=207.45.96.0/21]]
-add list=$AddressList comment=spamhaus-drop address=207.70.192.0/19]]
-add list=$AddressList comment=spamhaus-drop address=207.89.18.0/24]]
-add list=$AddressList comment=spamhaus-drop address=208.187.240.0/22]]
-add list=$AddressList comment=spamhaus-drop address=208.217.32.0/20]]
-add list=$AddressList comment=spamhaus-drop address=208.75.88.0/22]]
-add list=$AddressList comment=spamhaus-drop address=208.90.32.0/21]]
-add list=$AddressList comment=spamhaus-drop address=208.98.64.0/18]]
-add list=$AddressList comment=spamhaus-drop address=209.120.205.0/24]]
-add list=$AddressList comment=spamhaus-drop address=209.147.81.0/24]]
-add list=$AddressList comment=spamhaus-drop address=209.148.16.0/20]]
-add list=$AddressList comment=spamhaus-drop address=209.159.128.0/20]]
-add list=$AddressList comment=spamhaus-drop address=209.161.64.0/19]]
-add list=$AddressList comment=spamhaus-drop address=209.17.192.0/19]]
-add list=$AddressList comment=spamhaus-drop address=209.182.64.0/19]]
-add list=$AddressList comment=spamhaus-drop address=209.186.20.0/22]]
-add list=$AddressList comment=spamhaus-drop address=209.186.224.0/21]]
-add list=$AddressList comment=spamhaus-drop address=209.186.232.0/22]]
-add list=$AddressList comment=spamhaus-drop address=209.186.236.0/24]]
-add list=$AddressList comment=spamhaus-drop address=209.186.24.0/21]]
-add list=$AddressList comment=spamhaus-drop address=209.233.156.0/22]]
-add list=$AddressList comment=spamhaus-drop address=209.50.160.0/19]]
-add list=$AddressList comment=spamhaus-drop address=209.66.0.0/18]]
-add list=$AddressList comment=spamhaus-drop address=209.66.128.0/19]]
-add list=$AddressList comment=spamhaus-drop address=209.79.220.0/22]]
-add list=$AddressList comment=spamhaus-drop address=209.95.192.0/19]]
-add list=$AddressList comment=spamhaus-drop address=209.95.64.0/19]]
-add list=$AddressList comment=spamhaus-drop address=209.99.184.0/21]]
-add list=$AddressList comment=spamhaus-drop address=210.56.48.0/21]]
-add list=$AddressList comment=spamhaus-drop address=210.57.128.0/18]]
-add list=$AddressList comment=spamhaus-drop address=210.87.69.0/24]]
-add list=$AddressList comment=spamhaus-drop address=211.102.0.0/17]]
-add list=$AddressList comment=spamhaus-drop address=211.102.128.0/22]]
-add list=$AddressList comment=spamhaus-drop address=211.102.132.0/22]]
-add list=$AddressList comment=spamhaus-drop address=211.102.136.0/22]]
-add list=$AddressList comment=spamhaus-drop address=211.102.140.0/22]]
-add list=$AddressList comment=spamhaus-drop address=211.102.144.0/22]]
-add list=$AddressList comment=spamhaus-drop address=211.102.148.0/22]]
-add list=$AddressList comment=spamhaus-drop address=212.237.152.0/21]]
-add list=$AddressList comment=spamhaus-drop address=213.176.24.0/22]]
-add list=$AddressList comment=spamhaus-drop address=213.177.179.0/24]]
-add list=$AddressList comment=spamhaus-drop address=213.209.159.0/24]]
-add list=$AddressList comment=spamhaus-drop address=216.137.144.0/20]]
-add list=$AddressList comment=spamhaus-drop address=216.179.128.0/17]]
-add list=$AddressList comment=spamhaus-drop address=216.250.16.0/20]]
-add list=$AddressList comment=spamhaus-drop address=216.26.224.0/19]]
-add list=$AddressList comment=spamhaus-drop address=216.63.240.0/22]]
-add list=$AddressList comment=spamhaus-drop address=216.7.96.0/20]]
-add list=$AddressList comment=spamhaus-drop address=216.9.224.0/22]]
-add list=$AddressList comment=spamhaus-drop address=216.93.48.0/21]]
-add list=$AddressList comment=spamhaus-drop address=216.93.96.0/19]]
-add list=$AddressList comment=spamhaus-drop address=217.145.226.0/23]]
-add list=$AddressList comment=spamhaus-drop address=217.22.254.0/23]]
-add list=$AddressList comment=spamhaus-drop address=217.60.195.0/24]]
-add list=$AddressList comment=spamhaus-drop address=217.60.199.0/24]]
-add list=$AddressList comment=spamhaus-drop address=217.60.241.0/24]]
-add list=$AddressList comment=spamhaus-drop address=217.60.250.0/24]]
-add list=$AddressList comment=spamhaus-drop address=218.99.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=221.128.128.0/17]]
-add list=$AddressList comment=spamhaus-drop address=222.123.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=223.155.16.0/24]]
-add list=$AddressList comment=spamhaus-drop address=223.169.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=223.254.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=223.26.48.0/20]]
-add list=$AddressList comment=spamhaus-drop address=223.29.226.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.129.252.0/23]]
-add list=$AddressList comment=spamhaus-drop address=23.132.164.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.137.100.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.143.16.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.146.240.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.146.241.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.146.242.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.147.148.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.147.156.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.147.164.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.147.52.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.148.144.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.164.152.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.164.153.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.172.112.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.176.184.0/24]]
-add list=$AddressList comment=spamhaus-drop address=23.235.128.0/19]]
-add list=$AddressList comment=spamhaus-drop address=23.247.176.0/22]]
-add list=$AddressList comment=spamhaus-drop address=24.137.16.0/20]]
-add list=$AddressList comment=spamhaus-drop address=24.170.208.0/20]]
-add list=$AddressList comment=spamhaus-drop address=24.233.0.0/19]]
-add list=$AddressList comment=spamhaus-drop address=24.236.0.0/19]]
-add list=$AddressList comment=spamhaus-drop address=27.100.28.0/22]]
-add list=$AddressList comment=spamhaus-drop address=27.112.32.0/19]]
-add list=$AddressList comment=spamhaus-drop address=27.122.32.0/20]]
-add list=$AddressList comment=spamhaus-drop address=27.123.208.0/22]]
-add list=$AddressList comment=spamhaus-drop address=27.124.0.0/18]]
-add list=$AddressList comment=spamhaus-drop address=27.124.17.0/24]]
-add list=$AddressList comment=spamhaus-drop address=27.124.41.0/24]]
-add list=$AddressList comment=spamhaus-drop address=27.126.160.0/20]]
-add list=$AddressList comment=spamhaus-drop address=27.146.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=27.255.85.0/24]]
-add list=$AddressList comment=spamhaus-drop address=27.50.63.0/24]]
-add list=$AddressList comment=spamhaus-drop address=27.99.128.0/17]]
-add list=$AddressList comment=spamhaus-drop address=31.129.49.0/24]]
-add list=$AddressList comment=spamhaus-drop address=31.217.252.0/24]]
-add list=$AddressList comment=spamhaus-drop address=31.222.236.0/24]]
-add list=$AddressList comment=spamhaus-drop address=31.43.185.0/24]]
-add list=$AddressList comment=spamhaus-drop address=31.56.209.0/24]]
-add list=$AddressList comment=spamhaus-drop address=31.57.184.0/24]]
-add list=$AddressList comment=spamhaus-drop address=31.57.216.0/24]]
-add list=$AddressList comment=spamhaus-drop address=31.76.32.0/24]]
-add list=$AddressList comment=spamhaus-drop address=36.0.128.0/17]]
-add list=$AddressList comment=spamhaus-drop address=36.0.8.0/21]]
-add list=$AddressList comment=spamhaus-drop address=36.116.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=36.119.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=36.255.216.0/22]]
-add list=$AddressList comment=spamhaus-drop address=36.255.236.0/22]]
-add list=$AddressList comment=spamhaus-drop address=36.255.97.0/24]]
-add list=$AddressList comment=spamhaus-drop address=36.255.98.0/24]]
-add list=$AddressList comment=spamhaus-drop address=36.37.48.0/20]]
-add list=$AddressList comment=spamhaus-drop address=37.140.251.0/24]]
-add list=$AddressList comment=spamhaus-drop address=37.156.64.0/23]]
-add list=$AddressList comment=spamhaus-drop address=37.49.148.0/24]]
-add list=$AddressList comment=spamhaus-drop address=37.72.140.0/24]]
-add list=$AddressList comment=spamhaus-drop address=37.77.150.0/24]]
-add list=$AddressList comment=spamhaus-drop address=38.107.120.0/21]]
-add list=$AddressList comment=spamhaus-drop address=38.18.13.0/24]]
-add list=$AddressList comment=spamhaus-drop address=38.92.184.0/21]]
-add list=$AddressList comment=spamhaus-drop address=40.183.136.0/22]]
-add list=$AddressList comment=spamhaus-drop address=41.138.192.0/18]]
-add list=$AddressList comment=spamhaus-drop address=41.231.240.0/22]]
-add list=$AddressList comment=spamhaus-drop address=41.71.128.0/17]]
-add list=$AddressList comment=spamhaus-drop address=41.71.150.0/24]]
-add list=$AddressList comment=spamhaus-drop address=41.71.222.0/24]]
-add list=$AddressList comment=spamhaus-drop address=41.71.223.0/24]]
-add list=$AddressList comment=spamhaus-drop address=41.71.224.0/24]]
-add list=$AddressList comment=spamhaus-drop address=41.71.225.0/24]]
-add list=$AddressList comment=spamhaus-drop address=41.71.226.0/24]]
-add list=$AddressList comment=spamhaus-drop address=41.71.229.0/24]]
-add list=$AddressList comment=spamhaus-drop address=41.71.230.0/24]]
-add list=$AddressList comment=spamhaus-drop address=41.71.240.0/24]]
-add list=$AddressList comment=spamhaus-drop address=41.79.219.0/24]]
-add list=$AddressList comment=spamhaus-drop address=42.0.128.0/17]]
-add list=$AddressList comment=spamhaus-drop address=42.0.32.0/19]]
-add list=$AddressList comment=spamhaus-drop address=42.128.0.0/12]]
-add list=$AddressList comment=spamhaus-drop address=42.160.0.0/12]]
-add list=$AddressList comment=spamhaus-drop address=42.208.0.0/12]]
-add list=$AddressList comment=spamhaus-drop address=43.226.17.0/24]]
-add list=$AddressList comment=spamhaus-drop address=43.228.157.0/24]]
-add list=$AddressList comment=spamhaus-drop address=43.228.159.0/24]]
-add list=$AddressList comment=spamhaus-drop address=43.229.240.0/22]]
-add list=$AddressList comment=spamhaus-drop address=43.229.52.0/22]]
-add list=$AddressList comment=spamhaus-drop address=43.231.220.0/22]]
-add list=$AddressList comment=spamhaus-drop address=43.236.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=43.239.104.0/22]]
-add list=$AddressList comment=spamhaus-drop address=43.240.12.0/22]]
-add list=$AddressList comment=spamhaus-drop address=43.248.40.0/22]]
-add list=$AddressList comment=spamhaus-drop address=43.249.92.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.11.76.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.114.184.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.114.200.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.116.224.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.116.76.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.117.140.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.121.204.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.125.12.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.125.32.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.125.33.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.125.66.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.129.187.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.13.186.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.13.213.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.13.37.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.132.180.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.133.173.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.133.246.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.133.73.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.135.193.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.135.194.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.135.48.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.136.5.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.137.201.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.138.16.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.139.104.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.141.12.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.141.215.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.141.56.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.141.58.0/23]]
-add list=$AddressList comment=spamhaus-drop address=45.141.84.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.142.152.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.142.155.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.142.193.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.143.158.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.143.201.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.144.212.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.148.10.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.15.21.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.150.34.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.152.149.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.153.34.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.154.244.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.154.98.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.156.87.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.170.247.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.192.178.0/23]]
-add list=$AddressList comment=spamhaus-drop address=45.192.211.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.194.92.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.197.176.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.197.177.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.197.178.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.197.179.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.221.116.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.230.66.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.248.88.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.3.62.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.41.128.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.42.80.0/20]]
-add list=$AddressList comment=spamhaus-drop address=45.64.52.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.64.74.0/23]]
-add list=$AddressList comment=spamhaus-drop address=45.65.32.0/22]]
-add list=$AddressList comment=spamhaus-drop address=45.66.117.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.66.118.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.74.10.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.74.16.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.74.40.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.74.47.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.74.57.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.74.59.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.74.61.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.74.7.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.80.158.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.80.248.0/23]]
-add list=$AddressList comment=spamhaus-drop address=45.80.37.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.83.28.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.83.31.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.87.249.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.88.186.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.9.168.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.91.227.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.92.1.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.93.20.0/24]]
-add list=$AddressList comment=spamhaus-drop address=45.94.31.0/24]]
-add list=$AddressList comment=spamhaus-drop address=46.151.182.0/24]]
-add list=$AddressList comment=spamhaus-drop address=46.173.240.0/20]]
-add list=$AddressList comment=spamhaus-drop address=46.174.204.0/22]]
-add list=$AddressList comment=spamhaus-drop address=49.156.160.0/19]]
-add list=$AddressList comment=spamhaus-drop address=49.238.64.0/18]]
-add list=$AddressList comment=spamhaus-drop address=49.89.240.0/22]]
-add list=$AddressList comment=spamhaus-drop address=5.101.86.0/24]]
-add list=$AddressList comment=spamhaus-drop address=5.105.220.0/24]]
-add list=$AddressList comment=spamhaus-drop address=5.175.189.0/24]]
-add list=$AddressList comment=spamhaus-drop address=5.183.60.0/22]]
-add list=$AddressList comment=spamhaus-drop address=5.188.236.0/23]]
-add list=$AddressList comment=spamhaus-drop address=5.230.201.0/24]]
-add list=$AddressList comment=spamhaus-drop address=5.231.63.0/24]]
-add list=$AddressList comment=spamhaus-drop address=5.252.153.0/24]]
-add list=$AddressList comment=spamhaus-drop address=5.252.83.0/24]]
-add list=$AddressList comment=spamhaus-drop address=5.42.92.0/24]]
-add list=$AddressList comment=spamhaus-drop address=57.14.0.0/15]]
-add list=$AddressList comment=spamhaus-drop address=57.37.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=58.147.0.0/17]]
-add list=$AddressList comment=spamhaus-drop address=58.2.0.0/17]]
-add list=$AddressList comment=spamhaus-drop address=59.155.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=60.200.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=60.233.0.0/16]]
-add list=$AddressList comment=spamhaus-drop address=61.11.224.0/19]]
-add list=$AddressList comment=spamhaus-drop address=61.45.251.0/24]]
-add list=$AddressList comment=spamhaus-drop address=62.204.41.0/24]]
-add list=$AddressList comment=spamhaus-drop address=62.60.130.0/24]]
-add list=$AddressList comment=spamhaus-drop address=62.60.131.0/24]]
-add list=$AddressList comment=spamhaus-drop address=62.60.135.0/24]]
-add list=$AddressList comment=spamhaus-drop address=62.60.188.0/22]]
-add list=$AddressList comment=spamhaus-drop address=62.60.226.0/24]]
-add list=$AddressList comment=spamhaus-drop address=63.80.8.0/22]]
-add list=$AddressList comment=spamhaus-drop address=64.116.200.0/21]]
-add list=$AddressList comment=spamhaus-drop address=64.15.0.0/20]]
-add list=$AddressList comment=spamhaus-drop address=64.250.144.0/20]]
-add list=$AddressList comment=spamhaus-drop address=64.77.128.0/18]]
-add list=$AddressList comment=spamhaus-drop address=64.89.160.0/22]]
-add list=$AddressList comment=spamhaus-drop address=64.89.160.0/23]]
-add list=$AddressList comment=spamhaus-drop address=64.92.224.0/20]]
-add list=$AddressList comment=spamhaus-drop address=65.166.249.0/24]]
-add list=$AddressList comment=spamhaus-drop address=65.205.64.0/22]]
-add list=$AddressList comment=spamhaus-drop address=65.216.208.0/21]]
-add list=$AddressList comment=spamhaus-drop address=66.198.225.0/24]]
+:do { add list=$AddressList comment=spamhaus-drop address=206.41.160.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=206.51.29.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=206.80.224.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=206.83.128.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.105.108.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.110.64.0/18 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.183.192.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.183.64.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.183.96.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.199.173.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.199.188.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.199.190.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.22.192.0/18 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.228.200.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.244.0.0/18 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.252.136.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.45.104.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.45.224.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.45.56.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.45.96.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.70.192.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=207.89.18.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=208.187.240.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=208.217.32.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=208.75.88.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=208.90.32.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=208.98.64.0/18 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.120.205.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.147.81.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.148.16.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.159.128.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.161.64.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.17.192.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.182.64.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.186.20.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.186.224.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.186.232.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.186.236.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.186.24.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.233.156.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.50.160.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.66.0.0/18 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.66.128.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.79.220.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.95.192.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.95.64.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=209.99.184.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=210.56.48.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=210.57.128.0/18 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=210.87.69.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=211.102.0.0/17 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=211.102.128.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=211.102.132.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=211.102.136.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=211.102.140.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=211.102.144.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=211.102.148.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=212.237.152.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=213.176.24.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=213.177.179.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=213.209.159.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=216.137.144.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=216.179.128.0/17 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=216.250.16.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=216.26.224.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=216.63.240.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=216.7.96.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=216.9.224.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=216.93.48.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=216.93.96.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=217.145.226.0/23 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=217.22.254.0/23 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=217.60.195.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=217.60.199.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=217.60.241.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=217.60.250.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=218.99.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=221.128.128.0/17 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=222.123.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=223.155.16.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=223.169.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=223.254.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=223.26.48.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=223.29.226.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.129.252.0/23 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.132.164.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.137.100.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.143.16.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.146.240.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.146.241.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.146.242.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.147.148.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.147.156.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.147.164.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.147.52.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.148.144.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.164.152.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.164.153.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.172.112.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.176.184.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.235.128.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=23.247.176.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=24.137.16.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=24.170.208.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=24.233.0.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=24.236.0.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.100.28.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.112.32.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.122.32.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.123.208.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.124.0.0/18 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.124.17.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.124.41.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.126.160.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.146.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.255.85.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.50.63.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=27.99.128.0/17 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=31.129.49.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=31.217.252.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=31.222.236.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=31.43.185.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=31.56.209.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=31.57.184.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=31.57.216.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=31.76.32.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=36.0.128.0/17 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=36.0.8.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=36.116.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=36.119.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=36.255.216.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=36.255.236.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=36.255.97.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=36.255.98.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=36.37.48.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=37.140.251.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=37.156.64.0/23 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=37.49.148.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=37.72.140.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=37.77.150.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=38.107.120.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=38.18.13.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=38.92.184.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=40.183.136.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.138.192.0/18 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.231.240.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.71.128.0/17 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.71.150.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.71.222.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.71.223.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.71.224.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.71.225.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.71.226.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.71.229.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.71.230.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.71.240.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=41.79.219.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=42.0.128.0/17 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=42.0.32.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=42.128.0.0/12 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=42.160.0.0/12 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=42.208.0.0/12 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.226.17.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.228.157.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.228.159.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.229.240.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.229.52.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.231.220.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.236.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.239.104.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.240.12.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.248.40.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=43.249.92.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.11.76.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.114.184.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.114.200.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.116.224.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.116.76.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.117.140.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.121.204.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.125.12.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.125.32.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.125.33.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.125.66.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.129.187.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.13.186.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.13.213.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.13.37.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.132.180.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.133.173.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.133.246.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.133.73.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.135.193.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.135.194.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.135.48.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.136.5.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.137.201.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.138.16.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.139.104.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.141.12.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.141.215.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.141.56.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.141.58.0/23 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.141.84.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.142.152.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.142.155.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.142.193.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.143.158.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.143.201.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.144.212.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.148.10.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.15.21.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.150.34.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.152.149.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.153.34.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.154.244.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.154.98.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.156.87.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.170.247.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.192.178.0/23 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.192.211.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.194.92.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.197.176.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.197.177.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.197.178.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.197.179.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.221.116.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.230.66.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.248.88.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.3.62.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.41.128.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.42.80.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.64.52.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.64.74.0/23 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.65.32.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.66.117.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.66.118.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.74.10.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.74.16.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.74.40.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.74.47.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.74.57.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.74.59.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.74.61.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.74.7.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.80.158.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.80.248.0/23 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.80.37.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.83.28.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.83.31.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.87.249.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.88.186.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.9.168.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.91.227.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.92.1.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.93.20.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=45.94.31.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=46.151.182.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=46.173.240.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=46.174.204.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=49.156.160.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=49.238.64.0/18 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=49.89.240.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=5.101.86.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=5.105.220.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=5.175.189.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=5.183.60.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=5.188.236.0/23 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=5.230.201.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=5.231.63.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=5.252.153.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=5.252.83.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=5.42.92.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=57.14.0.0/15 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=57.37.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=58.147.0.0/17 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=58.2.0.0/17 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=59.155.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=60.200.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=60.233.0.0/16 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=61.11.224.0/19 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=61.45.251.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=62.204.41.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=62.60.130.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=62.60.131.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=62.60.135.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=62.60.188.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=62.60.226.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=63.80.8.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=64.116.200.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=64.15.0.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=64.250.144.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=64.77.128.0/18 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=64.89.160.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=64.89.160.0/23 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=64.92.224.0/20 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=65.166.249.0/24 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=65.205.64.0/22 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=65.216.208.0/21 } on-error={}
+:do { add list=$AddressList comment=spamhaus-drop address=66.198.225.0/24 } on-error={}

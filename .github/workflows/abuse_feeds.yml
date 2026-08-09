@@ -16,7 +16,7 @@ permissions:
 
 env:
   # RouterOS fetch output is parsed from a variable; keep parts below 30 KiB.
-  MAX_ABUSE_ENTRIES_PER_FILE: 180
+  MAX_ABUSE_ENTRIES_PER_FILE: 300
 
 jobs:
   generate-abuse-rsc:
@@ -39,7 +39,7 @@ jobs:
               echo ":global AddressList"
               echo "/ip firewall address-list"
               for addr in "$@"; do
-                echo ":if ([:len [find where list=\$AddressList and address=$addr]] = 0) do={ add list=\$AddressList comment=$comment address=$addr }"
+                echo "add list=\$AddressList comment=$comment address=$addr"
               done
             } > "$out"
           }
@@ -49,17 +49,15 @@ jobs:
             mapfile -t entries < "$input"
             local count=${#entries[@]}
             [ "$count" -gt 0 ] || { echo "No entries for $resource" >&2; exit 1; }
-            rm -f "$OUTPUT_DIR/${resource}.rsc" "$OUTPUT_DIR/${resource}_part"*.rsc
-            if [ "$count" -le "$MAX" ]; then
-              gen_addr "$OUTPUT_DIR/${resource}.rsc" "$comment" "${entries[@]}"
-              return 0
-            fi
+            rm -f "$OUTPUT_DIR/${resource}.rsc" "$OUTPUT_DIR/${resource}_part"*.rsc "$OUTPUT_DIR/${resource}.parts" "$OUTPUT_DIR/${resource}.entries"
             local part=1 index=0
             while [ "$index" -lt "$count" ]; do
               gen_addr "$OUTPUT_DIR/${resource}_part${part}.rsc" "$comment" "${entries[@]:index:MAX}"
               index=$((index + MAX))
               part=$((part + 1))
             done
+            printf '%s\n' "$((part - 1))" > "$OUTPUT_DIR/${resource}.parts"
+            printf '%s\n' "$count" > "$OUTPUT_DIR/${resource}.entries"
           }
 
           curl --fail --silent --show-error --location \

@@ -21,8 +21,11 @@ use:
 `abusev4/cins` and `abusev4/spamhaus-drop` are deliberately separate resources:
 assign each one its own RouterOS address-list, so the matching firewall rule can
 be disabled independently during diagnostics. Generated address-list entries
-check `list` and `address` before adding; an existing disabled entry therefore
-does not produce a duplicate.
+are intentionally direct `add` commands for fast RouterOS import. The abuse
+loaders in `remnanode-infra` load them into an inactive staging list, validate
+the accompanying `.parts` and `.entries` manifests, then switch the raw rule
+to that completed list. The prior list remains active if download or validation
+fails.
 
 ### scrirt IP_BlackList
 ```bash

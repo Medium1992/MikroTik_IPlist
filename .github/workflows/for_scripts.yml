@@ -12,7 +12,7 @@ env:
   # Rendered RouterOS files are loaded into a variable on the router.
   # Keep each generated part comfortably below its practical 30 KiB limit.
   MAX_ENTRIES_PER_FILE: 180
-  MAX_ABUSE_ENTRIES_PER_FILE: 300
+  MAX_ABUSE_ENTRIES_PER_FILE: 180
   MAX_ENTRIES_PER_ROUTE_FILE: 100
   SITE_LIST: "amedia.site,anidub.pro,anilibria.tv,animego.org,animevost.org,bato.to,crunchyroll.com,jut.su,kara.su,kodik.info,mangahub.ru,mangapark.net,nyaa.land,nyaa.si,yummyanime.tv,danbooru.donmai.us,deviantart.com,ficbook.net,gelbooru.com,hentaichan.live,infinitenovel.eu,pixiv.net,rulate.ru,vndb.org,younettranslate.com,7k.casino,combotech,vavada.com,discord.com,discord.gg,discord.media,duolingo.com,grammarly.com,mrakopedia.net,refactoring.guru,wikiart.org,znanija.com,chess.com,itch.io,jetbrains.com,jetbrains%40cdn,jetbrains%40grazie.ai,messenger.com,signal.org,telegram.org,viber.com,whatsapp.com,zello.com,soundcloud.com,spotify.com,tidal.com,agents.media,agentura.ru,bbc.com,bellingcat.com,cherta.media,colta.ru,currenttime.tv,dept.one,doxa.team,dw.com,echofm.online,ehorussia.com,ej.ru,euronews.com,exler.ru,golosameriki.com,gordonua.com,gulagu.net,holod.media,hrw.org,istories.media,kasparov.ru,kavkaz-uzel.eu,korrespondent.net,krymr.com,meduza.io,memohrc.org,moscowtimes.ru,navalny.com,newtimes.ru,novayagazeta.ru,ovd.info,paperpaper.ru,polit.ru,proekt.media,prostovpn.org,radiosvoboda.org,semnasem.org,svoboda.org,tayga.info,the-village.ru,theins.ru,thetruestory.news,tvrain.ru,unian.net,verstka.media,vot-tak.tv,zona.media,beeg.com,hqporner.com,pornhub.com,pornolab.net,reddxxx.com,redgifs.com,redtube.com,rule34.xxx,xhamster.com,xhamsterlive.com,xnxx-ru.com,xvideos.com,babook.org,ralphlauren.eu,facebook.com,instagram.com,linkedin.com,patreon.com,quora.com,tiktok.com,x.com,10minutemail.com,aistudio.google.com,basecamp.com,bestchange.ru,canva.com,chatgpt.com,claude.ai,connect.garmin.com,copilot,deepl.com,elevenlabs.io,fmhy.net,grok.com,linktr.ee,make.com,medium.com,miro.com,naukri.com,notepad-plus-plus.org,notion.so,proton.me,proxyline.net,sentry.io,strava.com,trainingpeaks.com,tuta.com,whoop.com,zapier.com,1337x.to,booktracker.org,filmitorrent.net,freetp.org,kinozal.me,newstudio.tv,nnmclub.to,rustorka.com,rutor.info,rutracker.org,thepiratebay.org,torrent.by,daramalive.life,doramy.club,filmix.fm,hdrezka.ag,kino.pub,kinobase.org,kinovod.pro,kinozal.tv,lostfilm.tv,netflix.com,themoviedb.org,zeflix.online,youtube.com"
   CIDR4_URL_TEMPLATE: https://iplist.opencck.org/?format=text&data=cidr4&site={site}
@@ -44,7 +44,7 @@ jobs:
               echo "/ip firewall address-list"
               for e in "$@"; do
                 addr=${e#*:}
-                echo "add list=\$AddressList comment=$comment address=$addr"
+                echo ":if ([:len [find where list=\$AddressList and address=$addr]] = 0) do={ add list=\$AddressList comment=$comment address=$addr }"
               done
             } > "$out"
           }
@@ -228,15 +228,17 @@ jobs:
             mapfile -t entries < "$input"
             local count=${#entries[@]}
             [ "$count" -gt 0 ] || return 0
-            rm -f "$OUTPUT_DIR/${resource}.rsc" "$OUTPUT_DIR/${resource}_part"*.rsc "$OUTPUT_DIR/${resource}.parts" "$OUTPUT_DIR/${resource}.entries"
+            rm -f "$OUTPUT_DIR/${resource}.rsc" "$OUTPUT_DIR/${resource}_part"*.rsc
+            if [ "$count" -le "$MAX" ]; then
+              gen_addr "$OUTPUT_DIR/${resource}.rsc" "$comment" "${entries[@]}"
+              return 0
+            fi
             local part=1 index=0
             while [ "$index" -lt "$count" ]; do
               gen_addr "$OUTPUT_DIR/${resource}_part${part}.rsc" "$comment" "${entries[@]:index:MAX}"
               index=$((index + MAX))
               part=$((part + 1))
             done
-            printf '%s\n' "$((part - 1))" > "$OUTPUT_DIR/${resource}.parts"
-            printf '%s\n' "$count" > "$OUTPUT_DIR/${resource}.entries"
           }
 
           curl --fail --silent --show-error --location \

@@ -1,32 +1,33 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=aistudio.google.com address=108.177.14.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=142.250.0.0/16} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=142.251.0.0/16} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=172.217.16.0/21} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=172.217.168.0/23} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=172.217.171.0/24} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=172.253.130.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=172.253.152.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=173.194.220.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=173.194.221.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=173.194.222.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=173.194.73.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=192.178.0.0/16} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=209.85.233.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=216.58.198.0/24} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=216.58.201.0/24} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=216.58.204.106/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=216.58.207.0/24} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=216.58.211.10/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=216.58.212.0/24} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=216.58.213.106/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=216.58.214.138/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=64.233.161.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=64.233.162.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=64.233.163.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=64.233.164.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=64.233.165.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=74.125.131.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=74.125.205.95/32} on-error {}
-:do {add list=$AddressList comment=aistudio.google.com address=74.125.29.95/32} on-error {}
+:if ([:len [find where list=$AddressList and address=108.177.14.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=108.177.14.95/32 }
+:if ([:len [find where list=$AddressList and address=142.250.0.0/16]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.0.0/16 }
+:if ([:len [find where list=$AddressList and address=142.251.0.0/16]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.251.0.0/16 }
+:if ([:len [find where list=$AddressList and address=172.217.16.0/21]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=172.217.16.0/21 }
+:if ([:len [find where list=$AddressList and address=172.217.168.0/23]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=172.217.168.0/23 }
+:if ([:len [find where list=$AddressList and address=172.217.171.0/24]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=172.217.171.0/24 }
+:if ([:len [find where list=$AddressList and address=172.253.130.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=172.253.130.95/32 }
+:if ([:len [find where list=$AddressList and address=172.253.152.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=172.253.152.95/32 }
+:if ([:len [find where list=$AddressList and address=173.194.220.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=173.194.220.95/32 }
+:if ([:len [find where list=$AddressList and address=173.194.221.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=173.194.221.95/32 }
+:if ([:len [find where list=$AddressList and address=173.194.222.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=173.194.222.95/32 }
+:if ([:len [find where list=$AddressList and address=173.194.73.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=173.194.73.95/32 }
+:if ([:len [find where list=$AddressList and address=192.178.0.0/16]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=192.178.0.0/16 }
+:if ([:len [find where list=$AddressList and address=209.85.233.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=209.85.233.95/32 }
+:if ([:len [find where list=$AddressList and address=216.58.198.0/24]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=216.58.198.0/24 }
+:if ([:len [find where list=$AddressList and address=216.58.201.0/24]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=216.58.201.0/24 }
+:if ([:len [find where list=$AddressList and address=216.58.204.106/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=216.58.204.106/32 }
+:if ([:len [find where list=$AddressList and address=216.58.205.138/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=216.58.205.138/32 }
+:if ([:len [find where list=$AddressList and address=216.58.207.0/24]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=216.58.207.0/24 }
+:if ([:len [find where list=$AddressList and address=216.58.211.10/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=216.58.211.10/32 }
+:if ([:len [find where list=$AddressList and address=216.58.212.0/24]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=216.58.212.0/24 }
+:if ([:len [find where list=$AddressList and address=216.58.213.106/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=216.58.213.106/32 }
+:if ([:len [find where list=$AddressList and address=216.58.214.138/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=216.58.214.138/32 }
+:if ([:len [find where list=$AddressList and address=64.233.161.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=64.233.161.95/32 }
+:if ([:len [find where list=$AddressList and address=64.233.162.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=64.233.162.95/32 }
+:if ([:len [find where list=$AddressList and address=64.233.163.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=64.233.163.95/32 }
+:if ([:len [find where list=$AddressList and address=64.233.164.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=64.233.164.95/32 }
+:if ([:len [find where list=$AddressList and address=64.233.165.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=64.233.165.95/32 }
+:if ([:len [find where list=$AddressList and address=74.125.131.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=74.125.131.95/32 }
+:if ([:len [find where list=$AddressList and address=74.125.205.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=74.125.205.95/32 }
+:if ([:len [find where list=$AddressList and address=74.125.29.95/32]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=74.125.29.95/32 }

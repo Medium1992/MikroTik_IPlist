@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=zello.com address=100.24.169.189} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.24.180.149} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.25.133.182} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.27.126.29} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.27.183.134} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.29.103.176} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.30.50.253} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.30.91.70} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.48.175.206} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.49.103.200} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.49.174.90} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.49.186.65} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.50.136.167} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.50.151.226} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.50.199.123} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.50.93.191} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.51.155.163} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.51.214.111} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.52.26.9} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.55.176.13} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.55.241.21} on-error {}
-:do {add list=$AddressList comment=zello.com address=100.56.97.17} on-error {}
-:do {add list=$AddressList comment=zello.com address=104.16.164.109} on-error {}
-:do {add list=$AddressList comment=zello.com address=104.16.165.109} on-error {}
-:do {add list=$AddressList comment=zello.com address=104.18.4.130} on-error {}
-:do {add list=$AddressList comment=zello.com address=104.18.41.248} on-error {}
-:do {add list=$AddressList comment=zello.com address=104.18.5.130} on-error {}
-:do {add list=$AddressList comment=zello.com address=107.22.215.87} on-error {}
-:do {add list=$AddressList comment=zello.com address=107.23.151.136} on-error {}
-:do {add list=$AddressList comment=zello.com address=107.23.52.242} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.192.102} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.192.29} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.192.86} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.192.99} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.36.112} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.36.42} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.36.51} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.36.67} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.51.21} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.51.43} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.51.68} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.138.51.77} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.139.10.105} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.139.10.48} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.139.10.57} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.139.10.99} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.139.229.102} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.139.229.45} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.139.229.70} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.139.229.88} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.156.2.13} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.156.2.30} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.156.2.50} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.156.2.83} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.156.22.110} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.156.22.112} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.156.22.26} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.156.22.89} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.188.53} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.188.54} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.188.89} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.188.95} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.214.127} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.214.29} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.214.34} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.214.51} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.229.100} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.229.110} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.229.40} on-error {}
-:do {add list=$AddressList comment=zello.com address=108.157.229.69} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.216.13.209} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.216.147.107} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.216.63.159} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.224.185.112} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.224.185.121} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.224.185.88} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.224.185.96} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.224.186.111} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.224.186.3} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.224.186.55} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.224.186.97} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.225.196.120} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.225.196.16} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.225.196.36} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.225.196.67} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.225.239.100} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.225.239.126} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.225.239.35} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.225.239.48} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.226.155.108} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.226.155.110} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.226.155.116} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.226.155.27} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.227.146.11} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.227.146.51} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.227.146.57} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.227.146.70} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.227.192.103} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.227.192.123} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.227.192.53} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.227.192.74} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.249.228.109} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.249.228.42} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.249.228.48} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.249.228.59} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.249.8.39} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.249.8.62} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.249.8.63} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.249.8.91} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.32.220.100} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.32.220.113} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.32.220.4} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.32.220.84} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.33.235.11} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.33.235.33} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.33.235.63} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.33.235.68} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.35.58.103} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.35.58.61} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.35.58.62} on-error {}
-:do {add list=$AddressList comment=zello.com address=13.35.58.91} on-error {}
-:do {add list=$AddressList comment=zello.com address=143.204.160.17} on-error {}
-:do {add list=$AddressList comment=zello.com address=143.204.160.20} on-error {}
-:do {add list=$AddressList comment=zello.com address=143.204.160.6} on-error {}
-:do {add list=$AddressList comment=zello.com address=143.204.160.92} on-error {}
-:do {add list=$AddressList comment=zello.com address=143.204.238.17} on-error {}
-:do {add list=$AddressList comment=zello.com address=143.204.238.2} on-error {}
-:do {add list=$AddressList comment=zello.com address=143.204.238.45} on-error {}
-:do {add list=$AddressList comment=zello.com address=143.204.238.80} on-error {}
-:do {add list=$AddressList comment=zello.com address=150.239.92.163} on-error {}
-:do {add list=$AddressList comment=zello.com address=150.239.92.169} on-error {}
-:do {add list=$AddressList comment=zello.com address=150.239.92.170} on-error {}
-:do {add list=$AddressList comment=zello.com address=158.247.16.56} on-error {}
-:do {add list=$AddressList comment=zello.com address=159.8.207.42} on-error {}
-:do {add list=$AddressList comment=zello.com address=161.202.74.157} on-error {}
-:do {add list=$AddressList comment=zello.com address=168.1.52.118} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.45.218.12} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.45.252.171} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.47.174.74} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.47.178.36} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.55.60.1} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.55.78.248} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.55.87.37} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.60.135.199} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.63.90.103} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.63.90.112} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.63.90.116} on-error {}
-:do {add list=$AddressList comment=zello.com address=169.63.90.123} on-error {}
-:do {add list=$AddressList comment=zello.com address=172.64.146.8} on-error {}
-:do {add list=$AddressList comment=zello.com address=172.65.214.182} on-error {}
-:do {add list=$AddressList comment=zello.com address=172.65.229.17} on-error {}
-:do {add list=$AddressList comment=zello.com address=174.37.240.236} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.122.36} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.122.49} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.122.54} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.122.89} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.140.124} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.140.39} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.140.52} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.140.85} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.72.111} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.72.127} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.72.4} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.72.79} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.9.12} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.9.28} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.9.5} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.165.9.93} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.213.106} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.213.121} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.213.27} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.213.84} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.242.18} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.242.3} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.242.60} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.242.89} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.88.25} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.88.28} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.88.63} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.172.88.7} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.205.105} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.205.36} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.205.62} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.205.78} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.233.105} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.233.118} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.233.18} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.233.93} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.5.116} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.5.20} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.5.29} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.173.5.46} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.205.61.228} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.206.232.209} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.209.115.178} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.210.150.161} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.211.12.237} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.211.211.56} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.213.117.40} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.213.201.188} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.213.22.174} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.214.211.205} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.215.46.240} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.232.43.224} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.235.116.112} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.235.4.171} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.208.102} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.208.122} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.208.79} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.208.85} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.255.127} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.255.53} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.255.65} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.255.96} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.50.107} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.50.127} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.50.39} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.239.50.83} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.244.102.38} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.244.102.59} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.244.102.68} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.244.102.87} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.244.87.110} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.244.87.121} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.244.87.55} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.244.87.88} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.245.162.24} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.245.162.62} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.245.162.76} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.245.162.93} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.64.79.36} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.64.79.40} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.64.79.41} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.64.79.93} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.65.229.113} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.65.229.34} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.65.229.45} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.65.229.86} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.66.233.106} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.66.233.111} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.66.233.23} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.66.233.51} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.66.26.122} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.66.26.48} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.66.26.55} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.66.26.86} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.67.13.11} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.67.13.123} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.67.13.124} on-error {}
-:do {add list=$AddressList comment=zello.com address=18.67.13.36} on-error {}
-:do {add list=$AddressList comment=zello.com address=184.173.136.137} on-error {}
-:do {add list=$AddressList comment=zello.com address=184.173.136.161} on-error {}
-:do {add list=$AddressList comment=zello.com address=184.173.146.95} on-error {}
-:do {add list=$AddressList comment=zello.com address=184.173.170.65} on-error {}
-:do {add list=$AddressList comment=zello.com address=198.51.100.1} on-error {}
-:do {add list=$AddressList comment=zello.com address=199.60.103.228} on-error {}
-:do {add list=$AddressList comment=zello.com address=199.60.103.28} on-error {}
-:do {add list=$AddressList comment=zello.com address=216.137.44.103} on-error {}
-:do {add list=$AddressList comment=zello.com address=216.137.44.24} on-error {}
-:do {add list=$AddressList comment=zello.com address=216.137.44.60} on-error {}
-:do {add list=$AddressList comment=zello.com address=216.137.44.85} on-error {}
-:do {add list=$AddressList comment=zello.com address=216.198.51.1} on-error {}
-:do {add list=$AddressList comment=zello.com address=216.198.52.1} on-error {}
-:do {add list=$AddressList comment=zello.com address=216.198.53.6} on-error {}
-:do {add list=$AddressList comment=zello.com address=216.198.54.6} on-error {}
-:do {add list=$AddressList comment=zello.com address=23.21.137.84} on-error {}
-:do {add list=$AddressList comment=zello.com address=23.23.120.225} on-error {}
-:do {add list=$AddressList comment=zello.com address=23.23.71.24} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.160.132.115} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.160.132.64} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.160.132.82} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.160.132.87} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.160.246.100} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.160.246.57} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.160.246.86} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.160.246.9} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.161.119.42} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.161.119.44} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.161.119.48} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.161.119.54} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.161.213.11} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.161.213.3} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.161.213.40} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.161.213.73} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.230.106} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.230.34} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.230.57} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.230.99} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.240.21} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.240.67} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.240.86} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.240.88} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.68.119} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.68.122} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.68.128} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.164.68.43} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.190.12} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.190.124} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.190.125} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.190.96} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.206.12} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.206.33} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.206.41} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.206.76} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.232.12} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.232.25} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.232.55} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.232.80} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.239.12} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.239.54} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.239.56} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.165.239.6} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.166.96.105} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.166.96.112} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.166.96.37} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.166.96.73} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.168.40.107} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.168.40.31} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.168.40.46} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.168.40.48} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.169.173.127} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.169.173.34} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.169.173.45} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.169.173.92} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.169.85.104} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.169.85.27} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.169.85.34} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.169.85.36} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.173.161.19} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.173.161.24} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.173.161.48} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.173.161.77} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.174.180.11} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.174.180.120} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.174.180.24} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.174.180.59} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.174.230.115} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.174.230.35} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.174.230.48} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.174.230.66} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.175.86.114} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.175.86.34} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.175.86.44} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.175.86.69} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.208.118.55} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.208.209.91} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.209.131.182} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.209.188.162} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.209.20.52} on-error {}
-:do {add list=$AddressList comment=zello.com address=3.209.233.168} on-error {}
+:if ([:len [find where list=$AddressList and address=100.24.169.189]] = 0) do={ add list=$AddressList comment=zello.com address=100.24.169.189 }
+:if ([:len [find where list=$AddressList and address=100.24.180.149]] = 0) do={ add list=$AddressList comment=zello.com address=100.24.180.149 }
+:if ([:len [find where list=$AddressList and address=100.25.133.182]] = 0) do={ add list=$AddressList comment=zello.com address=100.25.133.182 }
+:if ([:len [find where list=$AddressList and address=100.27.126.29]] = 0) do={ add list=$AddressList comment=zello.com address=100.27.126.29 }
+:if ([:len [find where list=$AddressList and address=100.27.183.134]] = 0) do={ add list=$AddressList comment=zello.com address=100.27.183.134 }
+:if ([:len [find where list=$AddressList and address=100.29.103.176]] = 0) do={ add list=$AddressList comment=zello.com address=100.29.103.176 }
+:if ([:len [find where list=$AddressList and address=100.30.50.253]] = 0) do={ add list=$AddressList comment=zello.com address=100.30.50.253 }
+:if ([:len [find where list=$AddressList and address=100.30.91.70]] = 0) do={ add list=$AddressList comment=zello.com address=100.30.91.70 }
+:if ([:len [find where list=$AddressList and address=100.48.175.206]] = 0) do={ add list=$AddressList comment=zello.com address=100.48.175.206 }
+:if ([:len [find where list=$AddressList and address=100.49.103.200]] = 0) do={ add list=$AddressList comment=zello.com address=100.49.103.200 }
+:if ([:len [find where list=$AddressList and address=100.49.174.90]] = 0) do={ add list=$AddressList comment=zello.com address=100.49.174.90 }
+:if ([:len [find where list=$AddressList and address=100.49.186.65]] = 0) do={ add list=$AddressList comment=zello.com address=100.49.186.65 }
+:if ([:len [find where list=$AddressList and address=100.50.136.167]] = 0) do={ add list=$AddressList comment=zello.com address=100.50.136.167 }
+:if ([:len [find where list=$AddressList and address=100.50.151.226]] = 0) do={ add list=$AddressList comment=zello.com address=100.50.151.226 }
+:if ([:len [find where list=$AddressList and address=100.50.199.123]] = 0) do={ add list=$AddressList comment=zello.com address=100.50.199.123 }
+:if ([:len [find where list=$AddressList and address=100.50.93.191]] = 0) do={ add list=$AddressList comment=zello.com address=100.50.93.191 }
+:if ([:len [find where list=$AddressList and address=100.51.155.163]] = 0) do={ add list=$AddressList comment=zello.com address=100.51.155.163 }
+:if ([:len [find where list=$AddressList and address=100.51.214.111]] = 0) do={ add list=$AddressList comment=zello.com address=100.51.214.111 }
+:if ([:len [find where list=$AddressList and address=100.52.26.9]] = 0) do={ add list=$AddressList comment=zello.com address=100.52.26.9 }
+:if ([:len [find where list=$AddressList and address=100.55.176.13]] = 0) do={ add list=$AddressList comment=zello.com address=100.55.176.13 }
+:if ([:len [find where list=$AddressList and address=100.55.241.21]] = 0) do={ add list=$AddressList comment=zello.com address=100.55.241.21 }
+:if ([:len [find where list=$AddressList and address=100.56.97.17]] = 0) do={ add list=$AddressList comment=zello.com address=100.56.97.17 }
+:if ([:len [find where list=$AddressList and address=104.16.164.109]] = 0) do={ add list=$AddressList comment=zello.com address=104.16.164.109 }
+:if ([:len [find where list=$AddressList and address=104.16.165.109]] = 0) do={ add list=$AddressList comment=zello.com address=104.16.165.109 }
+:if ([:len [find where list=$AddressList and address=104.18.4.130]] = 0) do={ add list=$AddressList comment=zello.com address=104.18.4.130 }
+:if ([:len [find where list=$AddressList and address=104.18.41.248]] = 0) do={ add list=$AddressList comment=zello.com address=104.18.41.248 }
+:if ([:len [find where list=$AddressList and address=104.18.5.130]] = 0) do={ add list=$AddressList comment=zello.com address=104.18.5.130 }
+:if ([:len [find where list=$AddressList and address=107.22.215.87]] = 0) do={ add list=$AddressList comment=zello.com address=107.22.215.87 }
+:if ([:len [find where list=$AddressList and address=107.23.151.136]] = 0) do={ add list=$AddressList comment=zello.com address=107.23.151.136 }
+:if ([:len [find where list=$AddressList and address=107.23.52.242]] = 0) do={ add list=$AddressList comment=zello.com address=107.23.52.242 }
+:if ([:len [find where list=$AddressList and address=108.138.192.102]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.192.102 }
+:if ([:len [find where list=$AddressList and address=108.138.192.29]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.192.29 }
+:if ([:len [find where list=$AddressList and address=108.138.192.86]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.192.86 }
+:if ([:len [find where list=$AddressList and address=108.138.192.99]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.192.99 }
+:if ([:len [find where list=$AddressList and address=108.138.36.112]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.36.112 }
+:if ([:len [find where list=$AddressList and address=108.138.36.42]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.36.42 }
+:if ([:len [find where list=$AddressList and address=108.138.36.51]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.36.51 }
+:if ([:len [find where list=$AddressList and address=108.138.36.67]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.36.67 }
+:if ([:len [find where list=$AddressList and address=108.138.51.21]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.51.21 }
+:if ([:len [find where list=$AddressList and address=108.138.51.43]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.51.43 }
+:if ([:len [find where list=$AddressList and address=108.138.51.68]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.51.68 }
+:if ([:len [find where list=$AddressList and address=108.138.51.77]] = 0) do={ add list=$AddressList comment=zello.com address=108.138.51.77 }
+:if ([:len [find where list=$AddressList and address=108.139.10.105]] = 0) do={ add list=$AddressList comment=zello.com address=108.139.10.105 }
+:if ([:len [find where list=$AddressList and address=108.139.10.48]] = 0) do={ add list=$AddressList comment=zello.com address=108.139.10.48 }
+:if ([:len [find where list=$AddressList and address=108.139.10.57]] = 0) do={ add list=$AddressList comment=zello.com address=108.139.10.57 }
+:if ([:len [find where list=$AddressList and address=108.139.10.99]] = 0) do={ add list=$AddressList comment=zello.com address=108.139.10.99 }
+:if ([:len [find where list=$AddressList and address=108.139.229.102]] = 0) do={ add list=$AddressList comment=zello.com address=108.139.229.102 }
+:if ([:len [find where list=$AddressList and address=108.139.229.45]] = 0) do={ add list=$AddressList comment=zello.com address=108.139.229.45 }
+:if ([:len [find where list=$AddressList and address=108.139.229.70]] = 0) do={ add list=$AddressList comment=zello.com address=108.139.229.70 }
+:if ([:len [find where list=$AddressList and address=108.139.229.88]] = 0) do={ add list=$AddressList comment=zello.com address=108.139.229.88 }
+:if ([:len [find where list=$AddressList and address=108.156.2.13]] = 0) do={ add list=$AddressList comment=zello.com address=108.156.2.13 }
+:if ([:len [find where list=$AddressList and address=108.156.2.30]] = 0) do={ add list=$AddressList comment=zello.com address=108.156.2.30 }
+:if ([:len [find where list=$AddressList and address=108.156.2.50]] = 0) do={ add list=$AddressList comment=zello.com address=108.156.2.50 }
+:if ([:len [find where list=$AddressList and address=108.156.2.83]] = 0) do={ add list=$AddressList comment=zello.com address=108.156.2.83 }
+:if ([:len [find where list=$AddressList and address=108.156.22.110]] = 0) do={ add list=$AddressList comment=zello.com address=108.156.22.110 }
+:if ([:len [find where list=$AddressList and address=108.156.22.112]] = 0) do={ add list=$AddressList comment=zello.com address=108.156.22.112 }
+:if ([:len [find where list=$AddressList and address=108.156.22.26]] = 0) do={ add list=$AddressList comment=zello.com address=108.156.22.26 }
+:if ([:len [find where list=$AddressList and address=108.156.22.89]] = 0) do={ add list=$AddressList comment=zello.com address=108.156.22.89 }
+:if ([:len [find where list=$AddressList and address=108.157.188.53]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.188.53 }
+:if ([:len [find where list=$AddressList and address=108.157.188.54]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.188.54 }
+:if ([:len [find where list=$AddressList and address=108.157.188.89]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.188.89 }
+:if ([:len [find where list=$AddressList and address=108.157.188.95]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.188.95 }
+:if ([:len [find where list=$AddressList and address=108.157.214.127]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.214.127 }
+:if ([:len [find where list=$AddressList and address=108.157.214.29]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.214.29 }
+:if ([:len [find where list=$AddressList and address=108.157.214.34]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.214.34 }
+:if ([:len [find where list=$AddressList and address=108.157.214.51]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.214.51 }
+:if ([:len [find where list=$AddressList and address=108.157.229.100]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.229.100 }
+:if ([:len [find where list=$AddressList and address=108.157.229.110]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.229.110 }
+:if ([:len [find where list=$AddressList and address=108.157.229.40]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.229.40 }
+:if ([:len [find where list=$AddressList and address=108.157.229.69]] = 0) do={ add list=$AddressList comment=zello.com address=108.157.229.69 }
+:if ([:len [find where list=$AddressList and address=13.216.13.209]] = 0) do={ add list=$AddressList comment=zello.com address=13.216.13.209 }
+:if ([:len [find where list=$AddressList and address=13.216.147.107]] = 0) do={ add list=$AddressList comment=zello.com address=13.216.147.107 }
+:if ([:len [find where list=$AddressList and address=13.216.63.159]] = 0) do={ add list=$AddressList comment=zello.com address=13.216.63.159 }
+:if ([:len [find where list=$AddressList and address=13.224.185.112]] = 0) do={ add list=$AddressList comment=zello.com address=13.224.185.112 }
+:if ([:len [find where list=$AddressList and address=13.224.185.121]] = 0) do={ add list=$AddressList comment=zello.com address=13.224.185.121 }
+:if ([:len [find where list=$AddressList and address=13.224.185.88]] = 0) do={ add list=$AddressList comment=zello.com address=13.224.185.88 }
+:if ([:len [find where list=$AddressList and address=13.224.185.96]] = 0) do={ add list=$AddressList comment=zello.com address=13.224.185.96 }
+:if ([:len [find where list=$AddressList and address=13.224.186.111]] = 0) do={ add list=$AddressList comment=zello.com address=13.224.186.111 }
+:if ([:len [find where list=$AddressList and address=13.224.186.3]] = 0) do={ add list=$AddressList comment=zello.com address=13.224.186.3 }
+:if ([:len [find where list=$AddressList and address=13.224.186.55]] = 0) do={ add list=$AddressList comment=zello.com address=13.224.186.55 }
+:if ([:len [find where list=$AddressList and address=13.224.186.97]] = 0) do={ add list=$AddressList comment=zello.com address=13.224.186.97 }
+:if ([:len [find where list=$AddressList and address=13.225.196.120]] = 0) do={ add list=$AddressList comment=zello.com address=13.225.196.120 }
+:if ([:len [find where list=$AddressList and address=13.225.196.16]] = 0) do={ add list=$AddressList comment=zello.com address=13.225.196.16 }
+:if ([:len [find where list=$AddressList and address=13.225.196.36]] = 0) do={ add list=$AddressList comment=zello.com address=13.225.196.36 }
+:if ([:len [find where list=$AddressList and address=13.225.196.67]] = 0) do={ add list=$AddressList comment=zello.com address=13.225.196.67 }
+:if ([:len [find where list=$AddressList and address=13.225.239.100]] = 0) do={ add list=$AddressList comment=zello.com address=13.225.239.100 }
+:if ([:len [find where list=$AddressList and address=13.225.239.126]] = 0) do={ add list=$AddressList comment=zello.com address=13.225.239.126 }
+:if ([:len [find where list=$AddressList and address=13.225.239.35]] = 0) do={ add list=$AddressList comment=zello.com address=13.225.239.35 }
+:if ([:len [find where list=$AddressList and address=13.225.239.48]] = 0) do={ add list=$AddressList comment=zello.com address=13.225.239.48 }
+:if ([:len [find where list=$AddressList and address=13.226.155.108]] = 0) do={ add list=$AddressList comment=zello.com address=13.226.155.108 }
+:if ([:len [find where list=$AddressList and address=13.226.155.110]] = 0) do={ add list=$AddressList comment=zello.com address=13.226.155.110 }
+:if ([:len [find where list=$AddressList and address=13.226.155.116]] = 0) do={ add list=$AddressList comment=zello.com address=13.226.155.116 }
+:if ([:len [find where list=$AddressList and address=13.226.155.27]] = 0) do={ add list=$AddressList comment=zello.com address=13.226.155.27 }
+:if ([:len [find where list=$AddressList and address=13.227.146.11]] = 0) do={ add list=$AddressList comment=zello.com address=13.227.146.11 }
+:if ([:len [find where list=$AddressList and address=13.227.146.51]] = 0) do={ add list=$AddressList comment=zello.com address=13.227.146.51 }
+:if ([:len [find where list=$AddressList and address=13.227.146.57]] = 0) do={ add list=$AddressList comment=zello.com address=13.227.146.57 }
+:if ([:len [find where list=$AddressList and address=13.227.146.70]] = 0) do={ add list=$AddressList comment=zello.com address=13.227.146.70 }
+:if ([:len [find where list=$AddressList and address=13.227.192.103]] = 0) do={ add list=$AddressList comment=zello.com address=13.227.192.103 }
+:if ([:len [find where list=$AddressList and address=13.227.192.123]] = 0) do={ add list=$AddressList comment=zello.com address=13.227.192.123 }
+:if ([:len [find where list=$AddressList and address=13.227.192.53]] = 0) do={ add list=$AddressList comment=zello.com address=13.227.192.53 }
+:if ([:len [find where list=$AddressList and address=13.227.192.74]] = 0) do={ add list=$AddressList comment=zello.com address=13.227.192.74 }
+:if ([:len [find where list=$AddressList and address=13.249.228.109]] = 0) do={ add list=$AddressList comment=zello.com address=13.249.228.109 }
+:if ([:len [find where list=$AddressList and address=13.249.228.42]] = 0) do={ add list=$AddressList comment=zello.com address=13.249.228.42 }
+:if ([:len [find where list=$AddressList and address=13.249.228.48]] = 0) do={ add list=$AddressList comment=zello.com address=13.249.228.48 }
+:if ([:len [find where list=$AddressList and address=13.249.228.59]] = 0) do={ add list=$AddressList comment=zello.com address=13.249.228.59 }
+:if ([:len [find where list=$AddressList and address=13.249.8.39]] = 0) do={ add list=$AddressList comment=zello.com address=13.249.8.39 }
+:if ([:len [find where list=$AddressList and address=13.249.8.62]] = 0) do={ add list=$AddressList comment=zello.com address=13.249.8.62 }
+:if ([:len [find where list=$AddressList and address=13.249.8.63]] = 0) do={ add list=$AddressList comment=zello.com address=13.249.8.63 }
+:if ([:len [find where list=$AddressList and address=13.249.8.91]] = 0) do={ add list=$AddressList comment=zello.com address=13.249.8.91 }
+:if ([:len [find where list=$AddressList and address=13.32.220.100]] = 0) do={ add list=$AddressList comment=zello.com address=13.32.220.100 }
+:if ([:len [find where list=$AddressList and address=13.32.220.113]] = 0) do={ add list=$AddressList comment=zello.com address=13.32.220.113 }
+:if ([:len [find where list=$AddressList and address=13.32.220.4]] = 0) do={ add list=$AddressList comment=zello.com address=13.32.220.4 }
+:if ([:len [find where list=$AddressList and address=13.32.220.84]] = 0) do={ add list=$AddressList comment=zello.com address=13.32.220.84 }
+:if ([:len [find where list=$AddressList and address=13.33.235.11]] = 0) do={ add list=$AddressList comment=zello.com address=13.33.235.11 }
+:if ([:len [find where list=$AddressList and address=13.33.235.33]] = 0) do={ add list=$AddressList comment=zello.com address=13.33.235.33 }
+:if ([:len [find where list=$AddressList and address=13.33.235.63]] = 0) do={ add list=$AddressList comment=zello.com address=13.33.235.63 }
+:if ([:len [find where list=$AddressList and address=13.33.235.68]] = 0) do={ add list=$AddressList comment=zello.com address=13.33.235.68 }
+:if ([:len [find where list=$AddressList and address=13.35.58.103]] = 0) do={ add list=$AddressList comment=zello.com address=13.35.58.103 }
+:if ([:len [find where list=$AddressList and address=13.35.58.61]] = 0) do={ add list=$AddressList comment=zello.com address=13.35.58.61 }
+:if ([:len [find where list=$AddressList and address=13.35.58.62]] = 0) do={ add list=$AddressList comment=zello.com address=13.35.58.62 }
+:if ([:len [find where list=$AddressList and address=13.35.58.91]] = 0) do={ add list=$AddressList comment=zello.com address=13.35.58.91 }
+:if ([:len [find where list=$AddressList and address=143.204.160.17]] = 0) do={ add list=$AddressList comment=zello.com address=143.204.160.17 }
+:if ([:len [find where list=$AddressList and address=143.204.160.20]] = 0) do={ add list=$AddressList comment=zello.com address=143.204.160.20 }
+:if ([:len [find where list=$AddressList and address=143.204.160.6]] = 0) do={ add list=$AddressList comment=zello.com address=143.204.160.6 }
+:if ([:len [find where list=$AddressList and address=143.204.160.92]] = 0) do={ add list=$AddressList comment=zello.com address=143.204.160.92 }
+:if ([:len [find where list=$AddressList and address=143.204.238.17]] = 0) do={ add list=$AddressList comment=zello.com address=143.204.238.17 }
+:if ([:len [find where list=$AddressList and address=143.204.238.2]] = 0) do={ add list=$AddressList comment=zello.com address=143.204.238.2 }
+:if ([:len [find where list=$AddressList and address=143.204.238.45]] = 0) do={ add list=$AddressList comment=zello.com address=143.204.238.45 }
+:if ([:len [find where list=$AddressList and address=143.204.238.80]] = 0) do={ add list=$AddressList comment=zello.com address=143.204.238.80 }
+:if ([:len [find where list=$AddressList and address=150.239.92.163]] = 0) do={ add list=$AddressList comment=zello.com address=150.239.92.163 }
+:if ([:len [find where list=$AddressList and address=150.239.92.169]] = 0) do={ add list=$AddressList comment=zello.com address=150.239.92.169 }
+:if ([:len [find where list=$AddressList and address=150.239.92.170]] = 0) do={ add list=$AddressList comment=zello.com address=150.239.92.170 }
+:if ([:len [find where list=$AddressList and address=158.247.16.56]] = 0) do={ add list=$AddressList comment=zello.com address=158.247.16.56 }
+:if ([:len [find where list=$AddressList and address=159.8.207.42]] = 0) do={ add list=$AddressList comment=zello.com address=159.8.207.42 }
+:if ([:len [find where list=$AddressList and address=161.202.74.157]] = 0) do={ add list=$AddressList comment=zello.com address=161.202.74.157 }
+:if ([:len [find where list=$AddressList and address=168.1.52.118]] = 0) do={ add list=$AddressList comment=zello.com address=168.1.52.118 }
+:if ([:len [find where list=$AddressList and address=169.45.218.12]] = 0) do={ add list=$AddressList comment=zello.com address=169.45.218.12 }
+:if ([:len [find where list=$AddressList and address=169.45.252.171]] = 0) do={ add list=$AddressList comment=zello.com address=169.45.252.171 }
+:if ([:len [find where list=$AddressList and address=169.47.174.74]] = 0) do={ add list=$AddressList comment=zello.com address=169.47.174.74 }
+:if ([:len [find where list=$AddressList and address=169.47.178.36]] = 0) do={ add list=$AddressList comment=zello.com address=169.47.178.36 }
+:if ([:len [find where list=$AddressList and address=169.55.60.1]] = 0) do={ add list=$AddressList comment=zello.com address=169.55.60.1 }
+:if ([:len [find where list=$AddressList and address=169.55.78.248]] = 0) do={ add list=$AddressList comment=zello.com address=169.55.78.248 }
+:if ([:len [find where list=$AddressList and address=169.55.87.37]] = 0) do={ add list=$AddressList comment=zello.com address=169.55.87.37 }
+:if ([:len [find where list=$AddressList and address=169.60.135.199]] = 0) do={ add list=$AddressList comment=zello.com address=169.60.135.199 }
+:if ([:len [find where list=$AddressList and address=169.63.90.103]] = 0) do={ add list=$AddressList comment=zello.com address=169.63.90.103 }
+:if ([:len [find where list=$AddressList and address=169.63.90.112]] = 0) do={ add list=$AddressList comment=zello.com address=169.63.90.112 }
+:if ([:len [find where list=$AddressList and address=169.63.90.116]] = 0) do={ add list=$AddressList comment=zello.com address=169.63.90.116 }
+:if ([:len [find where list=$AddressList and address=169.63.90.123]] = 0) do={ add list=$AddressList comment=zello.com address=169.63.90.123 }
+:if ([:len [find where list=$AddressList and address=172.64.146.8]] = 0) do={ add list=$AddressList comment=zello.com address=172.64.146.8 }
+:if ([:len [find where list=$AddressList and address=172.65.214.182]] = 0) do={ add list=$AddressList comment=zello.com address=172.65.214.182 }
+:if ([:len [find where list=$AddressList and address=172.65.229.17]] = 0) do={ add list=$AddressList comment=zello.com address=172.65.229.17 }
+:if ([:len [find where list=$AddressList and address=174.37.240.236]] = 0) do={ add list=$AddressList comment=zello.com address=174.37.240.236 }
+:if ([:len [find where list=$AddressList and address=18.165.122.36]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.122.36 }
+:if ([:len [find where list=$AddressList and address=18.165.122.49]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.122.49 }
+:if ([:len [find where list=$AddressList and address=18.165.122.54]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.122.54 }
+:if ([:len [find where list=$AddressList and address=18.165.122.89]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.122.89 }
+:if ([:len [find where list=$AddressList and address=18.165.140.124]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.140.124 }
+:if ([:len [find where list=$AddressList and address=18.165.140.39]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.140.39 }
+:if ([:len [find where list=$AddressList and address=18.165.140.52]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.140.52 }
+:if ([:len [find where list=$AddressList and address=18.165.140.85]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.140.85 }
+:if ([:len [find where list=$AddressList and address=18.165.72.111]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.72.111 }
+:if ([:len [find where list=$AddressList and address=18.165.72.127]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.72.127 }
+:if ([:len [find where list=$AddressList and address=18.165.72.4]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.72.4 }
+:if ([:len [find where list=$AddressList and address=18.165.72.79]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.72.79 }
+:if ([:len [find where list=$AddressList and address=18.165.9.12]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.9.12 }
+:if ([:len [find where list=$AddressList and address=18.165.9.28]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.9.28 }
+:if ([:len [find where list=$AddressList and address=18.165.9.5]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.9.5 }
+:if ([:len [find where list=$AddressList and address=18.165.9.93]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.9.93 }
+:if ([:len [find where list=$AddressList and address=18.172.213.106]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.213.106 }
+:if ([:len [find where list=$AddressList and address=18.172.213.121]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.213.121 }
+:if ([:len [find where list=$AddressList and address=18.172.213.27]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.213.27 }
+:if ([:len [find where list=$AddressList and address=18.172.213.84]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.213.84 }
+:if ([:len [find where list=$AddressList and address=18.172.242.18]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.242.18 }
+:if ([:len [find where list=$AddressList and address=18.172.242.3]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.242.3 }
+:if ([:len [find where list=$AddressList and address=18.172.242.60]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.242.60 }
+:if ([:len [find where list=$AddressList and address=18.172.242.89]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.242.89 }
+:if ([:len [find where list=$AddressList and address=18.172.88.25]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.88.25 }
+:if ([:len [find where list=$AddressList and address=18.172.88.28]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.88.28 }
+:if ([:len [find where list=$AddressList and address=18.172.88.63]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.88.63 }
+:if ([:len [find where list=$AddressList and address=18.172.88.7]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.88.7 }

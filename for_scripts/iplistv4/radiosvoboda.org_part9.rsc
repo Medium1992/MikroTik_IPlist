@@ -1,189 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.10.104} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.10.137} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.10.138} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.10.145} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.10.163} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.10.168} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.10.98} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.116.13} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.116.21} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.116.221} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.116.223} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.116.28} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.116.33} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.116.4} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.123.113} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.123.26} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.123.33} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.123.49} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.123.67} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.10} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.105} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.123} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.138} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.147} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.154} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.17} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.170} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.19} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.26} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.27} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.35} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.42} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.43} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.48} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.49} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.50} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.51} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.56} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.57} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.59} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.64} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.65} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.66} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.8} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.82} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.133.99} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.143.185} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.143.219} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.181.11} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.181.43} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.181.59} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.181.66} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.181.72} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.181.83} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.181.90} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.182.64} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.182.89} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.183.103} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.183.105} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.215.180} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.22.154} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.22.168} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.22.185} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.104} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.105} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.18} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.186} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.200} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.41} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.43} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.48} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.64} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.66} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.67} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.73} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.8} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.80} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.88} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.96} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.23.99} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.235.138} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.235.157} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.235.160} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.235.205} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.235.209} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.235.215} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.235.221} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.27.102} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.27.106} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.27.115} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.27.122} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.27.85} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.29.19} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.29.52} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.29.63} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.120} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.137} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.160} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.163} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.178} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.202} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.35.233} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.38.16} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.38.32} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.38.33} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.38.36} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.38.38} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.38.41} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.61.70} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.61.79} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.63.194} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.63.226} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.63.240} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.63.50} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.74.104} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.74.85} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.74.91} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.74.92} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.74.97} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.74.98} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.79.82} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=95.101.79.99} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.248.134} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.248.137} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.248.148} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.248.150} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.248.166} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.49.205} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.49.215} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.49.223} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.49.224} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.54.113} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.54.115} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.54.185} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.88.136} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.88.139} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.88.140} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.88.160} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.88.172} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=96.16.88.195} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.203.23} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.203.24} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.203.56} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.203.72} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.237.102} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.237.28} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.237.54} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.237.80} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.66.120} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.66.19} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.66.44} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.66.66} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.91.15} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.91.31} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.91.37} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.91.41} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.91.43} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.91.66} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.84.91.7} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.171.105} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.171.32} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.171.44} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.171.85} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.182.108} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.182.11} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.182.17} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.182.33} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.182.42} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.182.51} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.182.62} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.182.96} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.20.114} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.20.35} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.20.48} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.20.65} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.240.106} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.240.124} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.240.24} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.240.54} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.38.100} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.38.121} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.38.44} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.38.59} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.57.13} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.57.21} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.57.56} on-error {}
-:do {add list=$AddressList comment=radiosvoboda.org address=99.86.57.80} on-error {}
+:if ([:len [find where list=$AddressList and address=2.22.225.98]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.225.98 }
+:if ([:len [find where list=$AddressList and address=2.22.225.99]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.225.99 }
+:if ([:len [find where list=$AddressList and address=2.22.228.162]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.228.162 }
+:if ([:len [find where list=$AddressList and address=2.22.228.178]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.228.178 }
+:if ([:len [find where list=$AddressList and address=2.22.228.186]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.228.186 }
+:if ([:len [find where list=$AddressList and address=2.22.228.192]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.228.192 }
+:if ([:len [find where list=$AddressList and address=2.22.228.209]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.228.209 }
+:if ([:len [find where list=$AddressList and address=2.22.228.219]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.228.219 }
+:if ([:len [find where list=$AddressList and address=2.22.228.81]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.228.81 }
+:if ([:len [find where list=$AddressList and address=2.22.231.138]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.231.138 }
+:if ([:len [find where list=$AddressList and address=2.22.231.157]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.231.157 }
+:if ([:len [find where list=$AddressList and address=2.22.231.201]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.231.201 }
+:if ([:len [find where list=$AddressList and address=2.22.240.194]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.240.194 }
+:if ([:len [find where list=$AddressList and address=2.22.240.235]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.240.235 }
+:if ([:len [find where list=$AddressList and address=2.22.240.32]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.240.32 }
+:if ([:len [find where list=$AddressList and address=2.22.240.98]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.240.98 }
+:if ([:len [find where list=$AddressList and address=2.22.244.217]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.244.217 }
+:if ([:len [find where list=$AddressList and address=2.22.245.104]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.104 }
+:if ([:len [find where list=$AddressList and address=2.22.245.112]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.112 }
+:if ([:len [find where list=$AddressList and address=2.22.245.114]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.114 }
+:if ([:len [find where list=$AddressList and address=2.22.245.122]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.122 }
+:if ([:len [find where list=$AddressList and address=2.22.245.123]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.123 }
+:if ([:len [find where list=$AddressList and address=2.22.245.139]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.139 }
+:if ([:len [find where list=$AddressList and address=2.22.245.153]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.153 }
+:if ([:len [find where list=$AddressList and address=2.22.245.170]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.170 }
+:if ([:len [find where list=$AddressList and address=2.22.245.178]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.178 }
+:if ([:len [find where list=$AddressList and address=2.22.245.18]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.18 }
+:if ([:len [find where list=$AddressList and address=2.22.245.192]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.192 }
+:if ([:len [find where list=$AddressList and address=2.22.245.227]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.227 }
+:if ([:len [find where list=$AddressList and address=2.22.245.33]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.33 }
+:if ([:len [find where list=$AddressList and address=2.22.245.40]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.40 }
+:if ([:len [find where list=$AddressList and address=2.22.245.41]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.41 }
+:if ([:len [find where list=$AddressList and address=2.22.245.48]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.48 }
+:if ([:len [find where list=$AddressList and address=2.22.245.65]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.65 }
+:if ([:len [find where list=$AddressList and address=2.22.245.72]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.72 }
+:if ([:len [find where list=$AddressList and address=2.22.245.73]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.73 }
+:if ([:len [find where list=$AddressList and address=2.22.245.8]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.8 }
+:if ([:len [find where list=$AddressList and address=2.22.245.83]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.83 }
+:if ([:len [find where list=$AddressList and address=2.22.245.89]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.89 }
+:if ([:len [find where list=$AddressList and address=2.22.245.96]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.96 }
+:if ([:len [find where list=$AddressList and address=2.22.245.98]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.245.98 }
+:if ([:len [find where list=$AddressList and address=2.22.248.105]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.248.105 }
+:if ([:len [find where list=$AddressList and address=2.22.248.119]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.248.119 }
+:if ([:len [find where list=$AddressList and address=2.22.248.13]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.248.13 }
+:if ([:len [find where list=$AddressList and address=2.22.248.159]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.248.159 }
+:if ([:len [find where list=$AddressList and address=2.22.248.16]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.248.16 }
+:if ([:len [find where list=$AddressList and address=2.22.248.183]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.248.183 }
+:if ([:len [find where list=$AddressList and address=2.22.248.76]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.248.76 }
+:if ([:len [find where list=$AddressList and address=2.22.248.99]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.248.99 }
+:if ([:len [find where list=$AddressList and address=2.22.251.13]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.251.13 }
+:if ([:len [find where list=$AddressList and address=2.22.251.18]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.251.18 }
+:if ([:len [find where list=$AddressList and address=2.22.251.47]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.251.47 }
+:if ([:len [find where list=$AddressList and address=2.22.251.50]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.251.50 }
+:if ([:len [find where list=$AddressList and address=2.22.251.59]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.251.59 }
+:if ([:len [find where list=$AddressList and address=2.22.31.104]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.104 }
+:if ([:len [find where list=$AddressList and address=2.22.31.153]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.153 }
+:if ([:len [find where list=$AddressList and address=2.22.31.17]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.17 }
+:if ([:len [find where list=$AddressList and address=2.22.31.171]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.171 }
+:if ([:len [find where list=$AddressList and address=2.22.31.179]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.179 }
+:if ([:len [find where list=$AddressList and address=2.22.31.185]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.185 }
+:if ([:len [find where list=$AddressList and address=2.22.31.186]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.186 }
+:if ([:len [find where list=$AddressList and address=2.22.31.187]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.187 }
+:if ([:len [find where list=$AddressList and address=2.22.31.194]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.194 }
+:if ([:len [find where list=$AddressList and address=2.22.31.27]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.27 }
+:if ([:len [find where list=$AddressList and address=2.22.31.56]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.56 }
+:if ([:len [find where list=$AddressList and address=2.22.31.57]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.57 }
+:if ([:len [find where list=$AddressList and address=2.22.31.64]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.64 }
+:if ([:len [find where list=$AddressList and address=2.22.31.91]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.91 }
+:if ([:len [find where list=$AddressList and address=2.22.31.97]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.97 }
+:if ([:len [find where list=$AddressList and address=2.22.31.98]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.31.98 }
+:if ([:len [find where list=$AddressList and address=2.22.54.128]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.54.128 }
+:if ([:len [find where list=$AddressList and address=2.22.54.131]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.54.131 }
+:if ([:len [find where list=$AddressList and address=2.22.89.142]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.89.142 }
+:if ([:len [find where list=$AddressList and address=2.22.89.149]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.89.149 }
+:if ([:len [find where list=$AddressList and address=2.22.89.150]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.89.150 }
+:if ([:len [find where list=$AddressList and address=2.22.89.156]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.89.156 }
+:if ([:len [find where list=$AddressList and address=2.22.89.157]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.89.157 }
+:if ([:len [find where list=$AddressList and address=2.22.89.170]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.89.170 }
+:if ([:len [find where list=$AddressList and address=2.22.89.179]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.89.179 }
+:if ([:len [find where list=$AddressList and address=2.22.89.193]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.22.89.193 }
+:if ([:len [find where list=$AddressList and address=2.23.13.172]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.13.172 }
+:if ([:len [find where list=$AddressList and address=2.23.13.181]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.13.181 }
+:if ([:len [find where list=$AddressList and address=2.23.155.25]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.155.25 }
+:if ([:len [find where list=$AddressList and address=2.23.155.26]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.155.26 }
+:if ([:len [find where list=$AddressList and address=2.23.172.75]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.172.75 }
+:if ([:len [find where list=$AddressList and address=2.23.172.81]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.172.81 }
+:if ([:len [find where list=$AddressList and address=2.23.172.88]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.172.88 }
+:if ([:len [find where list=$AddressList and address=2.23.172.97]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.172.97 }
+:if ([:len [find where list=$AddressList and address=2.23.227.201]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.227.201 }
+:if ([:len [find where list=$AddressList and address=2.23.6.30]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.6.30 }
+:if ([:len [find where list=$AddressList and address=2.23.6.33]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.6.33 }
+:if ([:len [find where list=$AddressList and address=2.23.6.67]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.6.67 }
+:if ([:len [find where list=$AddressList and address=2.23.7.11]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.7.11 }
+:if ([:len [find where list=$AddressList and address=2.23.7.16]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.7.16 }
+:if ([:len [find where list=$AddressList and address=2.23.7.24]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.7.24 }
+:if ([:len [find where list=$AddressList and address=2.23.7.33]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.7.33 }
+:if ([:len [find where list=$AddressList and address=2.23.7.40]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.7.40 }
+:if ([:len [find where list=$AddressList and address=2.23.7.42]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.7.42 }
+:if ([:len [find where list=$AddressList and address=2.23.7.8]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.7.8 }
+:if ([:len [find where list=$AddressList and address=2.23.73.188]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.73.188 }
+:if ([:len [find where list=$AddressList and address=2.23.84.15]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.84.15 }
+:if ([:len [find where list=$AddressList and address=2.23.84.40]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.23.84.40 }
+:if ([:len [find where list=$AddressList and address=216.137.38.102]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=216.137.38.102 }
+:if ([:len [find where list=$AddressList and address=216.137.38.18]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=216.137.38.18 }
+:if ([:len [find where list=$AddressList and address=216.137.38.42]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=216.137.38.42 }
+:if ([:len [find where list=$AddressList and address=216.137.38.56]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=216.137.38.56 }
+:if ([:len [find where list=$AddressList and address=216.137.38.57]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=216.137.38.57 }
+:if ([:len [find where list=$AddressList and address=216.137.38.76]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=216.137.38.76 }
+:if ([:len [find where list=$AddressList and address=216.137.38.92]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=216.137.38.92 }
+:if ([:len [find where list=$AddressList and address=216.137.38.94]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=216.137.38.94 }
+:if ([:len [find where list=$AddressList and address=23.0.162.15]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.0.162.15 }
+:if ([:len [find where list=$AddressList and address=23.0.162.7]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.0.162.7 }
+:if ([:len [find where list=$AddressList and address=23.0.174.104]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.0.174.104 }
+:if ([:len [find where list=$AddressList and address=23.0.174.105]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.0.174.105 }
+:if ([:len [find where list=$AddressList and address=23.0.174.161]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.0.174.161 }
+:if ([:len [find where list=$AddressList and address=23.0.174.177]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.0.174.177 }
+:if ([:len [find where list=$AddressList and address=23.0.174.91]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.0.174.91 }
+:if ([:len [find where list=$AddressList and address=23.0.174.99]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.0.174.99 }
+:if ([:len [find where list=$AddressList and address=23.1.254.129]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.1.254.129 }
+:if ([:len [find where list=$AddressList and address=23.1.254.16]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.1.254.16 }
+:if ([:len [find where list=$AddressList and address=23.1.68.178]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.1.68.178 }
+:if ([:len [find where list=$AddressList and address=23.10.249.98]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.10.249.98 }
+:if ([:len [find where list=$AddressList and address=23.10.249.99]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.10.249.99 }
+:if ([:len [find where list=$AddressList and address=23.11.206.104]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.11.206.104 }
+:if ([:len [find where list=$AddressList and address=23.11.206.26]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.11.206.26 }
+:if ([:len [find where list=$AddressList and address=23.11.206.83]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.11.206.83 }
+:if ([:len [find where list=$AddressList and address=23.11.215.145]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.11.215.145 }
+:if ([:len [find where list=$AddressList and address=23.11.215.219]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.11.215.219 }
+:if ([:len [find where list=$AddressList and address=23.12.139.216]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.139.216 }
+:if ([:len [find where list=$AddressList and address=23.12.144.194]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.144.194 }
+:if ([:len [find where list=$AddressList and address=23.12.144.201]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.144.201 }
+:if ([:len [find where list=$AddressList and address=23.12.144.207]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.144.207 }
+:if ([:len [find where list=$AddressList and address=23.12.144.210]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.144.210 }
+:if ([:len [find where list=$AddressList and address=23.12.144.214]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.144.214 }
+:if ([:len [find where list=$AddressList and address=23.12.144.244]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.144.244 }
+:if ([:len [find where list=$AddressList and address=23.12.144.248]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.144.248 }
+:if ([:len [find where list=$AddressList and address=23.12.145.130]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.145.130 }
+:if ([:len [find where list=$AddressList and address=23.12.145.133]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.145.133 }
+:if ([:len [find where list=$AddressList and address=23.12.145.159]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.145.159 }
+:if ([:len [find where list=$AddressList and address=23.12.146.10]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.146.10 }
+:if ([:len [find where list=$AddressList and address=23.12.146.19]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.146.19 }
+:if ([:len [find where list=$AddressList and address=23.12.146.35]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.146.35 }
+:if ([:len [find where list=$AddressList and address=23.12.146.39]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.146.39 }
+:if ([:len [find where list=$AddressList and address=23.12.146.4]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.146.4 }
+:if ([:len [find where list=$AddressList and address=23.12.147.148]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.147.148 }
+:if ([:len [find where list=$AddressList and address=23.12.147.174]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.147.174 }
+:if ([:len [find where list=$AddressList and address=23.12.147.28]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.147.28 }
+:if ([:len [find where list=$AddressList and address=23.12.147.52]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.147.52 }
+:if ([:len [find where list=$AddressList and address=23.12.147.70]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.147.70 }
+:if ([:len [find where list=$AddressList and address=23.12.147.75]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.147.75 }
+:if ([:len [find where list=$AddressList and address=23.12.147.76]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.147.76 }
+:if ([:len [find where list=$AddressList and address=23.12.147.93]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.12.147.93 }
+:if ([:len [find where list=$AddressList and address=23.13.218.202]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.13.218.202 }
+:if ([:len [find where list=$AddressList and address=23.13.218.204]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.13.218.204 }
+:if ([:len [find where list=$AddressList and address=23.13.218.209]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.13.218.209 }
+:if ([:len [find where list=$AddressList and address=23.13.218.218]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.13.218.218 }
+:if ([:len [find where list=$AddressList and address=23.13.55.15]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.13.55.15 }
+:if ([:len [find where list=$AddressList and address=23.15.178.146]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.15.178.146 }
+:if ([:len [find where list=$AddressList and address=23.15.178.201]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.15.178.201 }
+:if ([:len [find where list=$AddressList and address=23.15.178.42]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.15.178.42 }
+:if ([:len [find where list=$AddressList and address=23.15.178.72]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.15.178.72 }
+:if ([:len [find where list=$AddressList and address=23.192.36.47]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.192.36.47 }
+:if ([:len [find where list=$AddressList and address=23.192.36.51]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.192.36.51 }
+:if ([:len [find where list=$AddressList and address=23.193.116.147]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.193.116.147 }
+:if ([:len [find where list=$AddressList and address=23.193.116.154]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.193.116.154 }
+:if ([:len [find where list=$AddressList and address=23.193.97.10]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.193.97.10 }
+:if ([:len [find where list=$AddressList and address=23.193.97.16]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.193.97.16 }
+:if ([:len [find where list=$AddressList and address=23.195.81.147]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.195.81.147 }
+:if ([:len [find where list=$AddressList and address=23.195.81.153]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.195.81.153 }
+:if ([:len [find where list=$AddressList and address=23.197.143.75]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.197.143.75 }
+:if ([:len [find where list=$AddressList and address=23.199.214.153]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.199.214.153 }
+:if ([:len [find where list=$AddressList and address=23.199.47.82]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.199.47.82 }
+:if ([:len [find where list=$AddressList and address=23.199.47.87]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.199.47.87 }
+:if ([:len [find where list=$AddressList and address=23.199.75.113]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.199.75.113 }
+:if ([:len [find where list=$AddressList and address=23.199.75.120]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.199.75.120 }
+:if ([:len [find where list=$AddressList and address=23.199.75.137]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.199.75.137 }
+:if ([:len [find where list=$AddressList and address=23.199.75.34]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.199.75.34 }
+:if ([:len [find where list=$AddressList and address=23.199.75.41]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.199.75.41 }
+:if ([:len [find where list=$AddressList and address=23.199.75.49]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.199.75.49 }
+:if ([:len [find where list=$AddressList and address=23.199.75.59]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=23.199.75.59 }

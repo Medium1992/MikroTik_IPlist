@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=discord.gg address=34.0.48.184} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.48.198} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.48.223} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.49.127} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.49.93} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.50.124} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.50.29} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.51.119} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.51.216} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.51.227} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.51.231} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.51.49} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.51.67} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.52.125} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.52.198} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.52.204} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.52.253} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.53.191} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.53.3} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.53.64} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.54.137} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.54.35} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.54.61} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.55.176} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.55.83} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.56.146} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.56.193} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.56.40} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.56.43} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.56.70} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.57.120} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.57.156} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.57.255} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.57.83} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.59.14} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.59.15} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.59.161} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.59.180} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.59.201} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.59.217} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.60.111} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.60.118} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.60.211} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.60.8} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.60.88} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.62.171} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.62.187} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.62.202} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.62.205} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.63.228} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.64.121} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.64.194} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.64.213} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.64.221} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.64.225} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.64.255} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.64.26} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.64.32} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.64.50} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.64.52} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.65.103} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.65.227} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.65.31} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.66.130} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.0.82.140} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.1.216.231} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.1.216.91} on-error {}
-:do {add list=$AddressList comment=discord.gg address=34.1.221.166} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.100.104} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.100.74} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.101.130} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.101.154} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.102.39} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.103.112} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.103.70} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.103.97} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.104.10} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.104.109} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.104.162} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.104.182} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.104.191} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.104.202} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.105.198} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.105.253} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.106.133} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.106.153} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.106.188} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.106.254} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.107.19} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.108.152} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.108.198} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.108.215} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.109.185} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.110.163} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.110.17} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.110.175} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.110.187} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.110.73} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.110.97} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.111.174} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.111.179} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.111.215} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.111.234} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.111.248} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.113.32} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.114.16} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.115.163} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.116.51} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.117.227} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.117.24} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.118.217} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.118.27} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.119.48} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.120.2} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.121.204} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.121.52} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.122.141} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.122.37} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.122.79} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.123.253} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.123.31} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.124.145} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.124.60} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.125.116} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.126.200} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.126.203} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.126.217} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.126.30} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.129.199} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.129.2} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.130.15} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.131.136} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.131.152} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.132.105} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.132.151} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.132.247} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.133.19} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.135.147} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.136.157} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.136.22} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.136.46} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.136.69} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.137.164} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.137.186} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.137.207} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.137.4} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.137.61} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.137.62} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.139.154} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.139.182} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.139.211} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.139.22} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.139.220} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.139.227} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.139.43} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.139.89} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.140.144} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.140.241} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.141.119} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.141.138} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.142.104} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.142.162} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.142.230} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.142.232} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.142.63} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.143.121} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.143.19} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.143.96} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.144.0} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.144.109} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.144.131} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.144.84} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.145.172} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.145.203} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.145.35} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.145.63} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.146.130} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.146.230} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.146.84} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.146.89} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.146.96} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.147.121} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.147.226} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.147.245} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.147.248} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.147.63} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.148.156} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.149.130} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.149.52} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.150.137} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.150.20} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.150.237} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.151.102} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.151.27} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.151.61} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.151.78} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.152.239} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.153.117} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.153.6} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.153.8} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.154.172} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.154.200} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.154.236} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.154.5} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.155.172} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.155.216} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.155.70} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.156.194} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.156.254} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.157.7} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.158.144} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.158.15} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.158.192} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.158.218} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.159.139} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.159.190} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.160.160} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.160.247} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.160.43} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.161.102} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.162.193} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.162.239} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.162.3} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.163.203} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.163.49} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.164.100} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.164.105} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.164.170} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.164.57} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.164.73} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.165.147} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.165.219} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.165.55} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.166.166} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.166.24} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.166.36} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.166.51} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.166.69} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.167.113} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.167.122} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.167.161} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.167.214} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.167.219} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.168.116} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.168.42} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.170.135} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.170.191} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.170.29} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.170.35} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.170.8} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.171.122} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.171.222} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.171.225} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.171.40} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.171.99} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.172.136} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.172.210} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.172.246} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.172.68} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.173.35} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.174.191} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.174.55} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.175.99} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.176.188} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.176.206} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.176.226} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.177.139} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.177.236} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.177.5} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.178.228} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.178.51} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.179.40} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.179.83} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.180.152} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.181.73} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.181.76} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.181.83} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.181.93} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.182.125} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.182.212} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.183.150} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.184.101} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.184.174} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.184.20} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.184.81} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.185.192} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.186.188} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.186.197} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.187.228} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.188.142} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.188.209} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.188.57} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.189.137} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.189.14} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.189.243} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.189.58} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.189.98} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.190.174} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.190.194} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.191.113} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.191.121} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.191.45} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.191.84} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.193.165} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.195.75} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.196.215} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.196.40} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.198.216} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.198.95} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.199.225} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.199.70} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.201.186} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.202.169} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.205.211} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.207.4} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.209.118} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.209.40} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.210.191} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.211.253} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.213.97} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.214.21} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.214.215} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.220.147} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.221.58} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.222.105} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.224.151} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.225.210} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.227.110} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.227.143} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.229.212} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.232.26} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.234.182} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.238.104} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.238.171} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.240.251} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.240.78} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.245.126} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.245.207} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.249.145} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.249.151} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.249.153} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.249.250} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.249.64} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.250.212} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.251.10} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.251.29} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.64.164} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.64.211} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.64.4} on-error {}
-:do {add list=$AddressList comment=discord.gg address=35.207.65.141} on-error {}
+:if ([:len [find where list=$AddressList and address=34.0.221.158]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.221.158 }
+:if ([:len [find where list=$AddressList and address=34.0.221.20]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.221.20 }
+:if ([:len [find where list=$AddressList and address=34.0.221.227]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.221.227 }
+:if ([:len [find where list=$AddressList and address=34.0.221.33]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.221.33 }
+:if ([:len [find where list=$AddressList and address=34.0.222.193]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.222.193 }
+:if ([:len [find where list=$AddressList and address=34.0.222.243]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.222.243 }
+:if ([:len [find where list=$AddressList and address=34.0.223.68]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.223.68 }
+:if ([:len [find where list=$AddressList and address=34.0.227.135]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.227.135 }
+:if ([:len [find where list=$AddressList and address=34.0.227.15]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.227.15 }
+:if ([:len [find where list=$AddressList and address=34.0.240.1]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.1 }
+:if ([:len [find where list=$AddressList and address=34.0.240.100]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.100 }
+:if ([:len [find where list=$AddressList and address=34.0.240.121]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.121 }
+:if ([:len [find where list=$AddressList and address=34.0.240.175]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.175 }
+:if ([:len [find where list=$AddressList and address=34.0.240.204]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.204 }
+:if ([:len [find where list=$AddressList and address=34.0.240.207]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.207 }
+:if ([:len [find where list=$AddressList and address=34.0.240.237]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.237 }
+:if ([:len [find where list=$AddressList and address=34.0.240.240]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.240 }
+:if ([:len [find where list=$AddressList and address=34.0.240.245]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.245 }
+:if ([:len [find where list=$AddressList and address=34.0.240.254]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.254 }
+:if ([:len [find where list=$AddressList and address=34.0.240.34]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.34 }
+:if ([:len [find where list=$AddressList and address=34.0.240.39]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.39 }
+:if ([:len [find where list=$AddressList and address=34.0.240.53]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.53 }
+:if ([:len [find where list=$AddressList and address=34.0.240.72]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.72 }
+:if ([:len [find where list=$AddressList and address=34.0.240.84]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.84 }
+:if ([:len [find where list=$AddressList and address=34.0.240.94]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.94 }
+:if ([:len [find where list=$AddressList and address=34.0.240.96]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.96 }
+:if ([:len [find where list=$AddressList and address=34.0.240.99]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.240.99 }
+:if ([:len [find where list=$AddressList and address=34.0.241.112]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.112 }
+:if ([:len [find where list=$AddressList and address=34.0.241.14]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.14 }
+:if ([:len [find where list=$AddressList and address=34.0.241.144]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.144 }
+:if ([:len [find where list=$AddressList and address=34.0.241.149]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.149 }
+:if ([:len [find where list=$AddressList and address=34.0.241.150]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.150 }
+:if ([:len [find where list=$AddressList and address=34.0.241.162]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.162 }
+:if ([:len [find where list=$AddressList and address=34.0.241.180]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.180 }
+:if ([:len [find where list=$AddressList and address=34.0.241.194]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.194 }
+:if ([:len [find where list=$AddressList and address=34.0.241.220]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.220 }
+:if ([:len [find where list=$AddressList and address=34.0.241.223]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.223 }
+:if ([:len [find where list=$AddressList and address=34.0.241.51]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.51 }
+:if ([:len [find where list=$AddressList and address=34.0.241.71]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.71 }
+:if ([:len [find where list=$AddressList and address=34.0.241.8]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.241.8 }
+:if ([:len [find where list=$AddressList and address=34.0.242.134]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.134 }
+:if ([:len [find where list=$AddressList and address=34.0.242.158]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.158 }
+:if ([:len [find where list=$AddressList and address=34.0.242.166]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.166 }
+:if ([:len [find where list=$AddressList and address=34.0.242.180]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.180 }
+:if ([:len [find where list=$AddressList and address=34.0.242.195]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.195 }
+:if ([:len [find where list=$AddressList and address=34.0.242.233]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.233 }
+:if ([:len [find where list=$AddressList and address=34.0.242.39]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.39 }
+:if ([:len [find where list=$AddressList and address=34.0.242.42]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.42 }
+:if ([:len [find where list=$AddressList and address=34.0.242.46]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.46 }
+:if ([:len [find where list=$AddressList and address=34.0.242.7]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.7 }
+:if ([:len [find where list=$AddressList and address=34.0.242.95]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.242.95 }
+:if ([:len [find where list=$AddressList and address=34.0.243.14]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.243.14 }
+:if ([:len [find where list=$AddressList and address=34.0.243.199]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.243.199 }
+:if ([:len [find where list=$AddressList and address=34.0.243.20]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.243.20 }
+:if ([:len [find where list=$AddressList and address=34.0.243.218]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.243.218 }
+:if ([:len [find where list=$AddressList and address=34.0.243.231]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.243.231 }
+:if ([:len [find where list=$AddressList and address=34.0.243.25]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.243.25 }
+:if ([:len [find where list=$AddressList and address=34.0.243.60]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.243.60 }
+:if ([:len [find where list=$AddressList and address=34.0.244.112]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.112 }
+:if ([:len [find where list=$AddressList and address=34.0.244.121]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.121 }
+:if ([:len [find where list=$AddressList and address=34.0.244.142]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.142 }
+:if ([:len [find where list=$AddressList and address=34.0.244.145]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.145 }
+:if ([:len [find where list=$AddressList and address=34.0.244.15]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.15 }
+:if ([:len [find where list=$AddressList and address=34.0.244.165]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.165 }
+:if ([:len [find where list=$AddressList and address=34.0.244.196]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.196 }
+:if ([:len [find where list=$AddressList and address=34.0.244.201]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.201 }
+:if ([:len [find where list=$AddressList and address=34.0.244.207]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.207 }
+:if ([:len [find where list=$AddressList and address=34.0.244.230]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.230 }
+:if ([:len [find where list=$AddressList and address=34.0.244.243]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.243 }
+:if ([:len [find where list=$AddressList and address=34.0.244.45]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.45 }
+:if ([:len [find where list=$AddressList and address=34.0.244.48]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.48 }
+:if ([:len [find where list=$AddressList and address=34.0.244.75]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.75 }
+:if ([:len [find where list=$AddressList and address=34.0.244.83]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.83 }
+:if ([:len [find where list=$AddressList and address=34.0.244.98]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.244.98 }
+:if ([:len [find where list=$AddressList and address=34.0.245.158]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.158 }
+:if ([:len [find where list=$AddressList and address=34.0.245.173]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.173 }
+:if ([:len [find where list=$AddressList and address=34.0.245.18]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.18 }
+:if ([:len [find where list=$AddressList and address=34.0.245.193]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.193 }
+:if ([:len [find where list=$AddressList and address=34.0.245.199]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.199 }
+:if ([:len [find where list=$AddressList and address=34.0.245.220]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.220 }
+:if ([:len [find where list=$AddressList and address=34.0.245.234]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.234 }
+:if ([:len [find where list=$AddressList and address=34.0.245.54]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.54 }
+:if ([:len [find where list=$AddressList and address=34.0.245.62]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.62 }
+:if ([:len [find where list=$AddressList and address=34.0.245.73]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.73 }
+:if ([:len [find where list=$AddressList and address=34.0.245.81]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.81 }
+:if ([:len [find where list=$AddressList and address=34.0.245.95]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.95 }
+:if ([:len [find where list=$AddressList and address=34.0.245.96]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.245.96 }
+:if ([:len [find where list=$AddressList and address=34.0.246.119]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.119 }
+:if ([:len [find where list=$AddressList and address=34.0.246.148]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.148 }
+:if ([:len [find where list=$AddressList and address=34.0.246.15]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.15 }
+:if ([:len [find where list=$AddressList and address=34.0.246.174]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.174 }
+:if ([:len [find where list=$AddressList and address=34.0.246.185]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.185 }
+:if ([:len [find where list=$AddressList and address=34.0.246.214]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.214 }
+:if ([:len [find where list=$AddressList and address=34.0.246.215]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.215 }
+:if ([:len [find where list=$AddressList and address=34.0.246.222]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.222 }
+:if ([:len [find where list=$AddressList and address=34.0.246.240]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.240 }
+:if ([:len [find where list=$AddressList and address=34.0.246.242]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.242 }
+:if ([:len [find where list=$AddressList and address=34.0.246.245]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.245 }
+:if ([:len [find where list=$AddressList and address=34.0.246.39]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.39 }
+:if ([:len [find where list=$AddressList and address=34.0.246.59]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.59 }
+:if ([:len [find where list=$AddressList and address=34.0.246.63]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.63 }
+:if ([:len [find where list=$AddressList and address=34.0.246.66]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.66 }
+:if ([:len [find where list=$AddressList and address=34.0.246.70]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.246.70 }
+:if ([:len [find where list=$AddressList and address=34.0.247.100]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.100 }
+:if ([:len [find where list=$AddressList and address=34.0.247.11]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.11 }
+:if ([:len [find where list=$AddressList and address=34.0.247.118]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.118 }
+:if ([:len [find where list=$AddressList and address=34.0.247.120]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.120 }
+:if ([:len [find where list=$AddressList and address=34.0.247.154]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.154 }
+:if ([:len [find where list=$AddressList and address=34.0.247.19]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.19 }
+:if ([:len [find where list=$AddressList and address=34.0.247.190]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.190 }
+:if ([:len [find where list=$AddressList and address=34.0.247.21]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.21 }
+:if ([:len [find where list=$AddressList and address=34.0.247.217]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.217 }
+:if ([:len [find where list=$AddressList and address=34.0.247.218]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.218 }
+:if ([:len [find where list=$AddressList and address=34.0.247.227]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.227 }
+:if ([:len [find where list=$AddressList and address=34.0.247.249]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.249 }
+:if ([:len [find where list=$AddressList and address=34.0.247.26]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.26 }
+:if ([:len [find where list=$AddressList and address=34.0.247.39]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.39 }
+:if ([:len [find where list=$AddressList and address=34.0.247.85]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.247.85 }
+:if ([:len [find where list=$AddressList and address=34.0.248.104]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.104 }
+:if ([:len [find where list=$AddressList and address=34.0.248.141]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.141 }
+:if ([:len [find where list=$AddressList and address=34.0.248.148]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.148 }
+:if ([:len [find where list=$AddressList and address=34.0.248.182]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.182 }
+:if ([:len [find where list=$AddressList and address=34.0.248.19]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.19 }
+:if ([:len [find where list=$AddressList and address=34.0.248.205]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.205 }
+:if ([:len [find where list=$AddressList and address=34.0.248.21]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.21 }
+:if ([:len [find where list=$AddressList and address=34.0.248.218]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.218 }
+:if ([:len [find where list=$AddressList and address=34.0.248.221]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.221 }
+:if ([:len [find where list=$AddressList and address=34.0.248.228]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.228 }
+:if ([:len [find where list=$AddressList and address=34.0.248.34]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.34 }
+:if ([:len [find where list=$AddressList and address=34.0.248.48]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.48 }
+:if ([:len [find where list=$AddressList and address=34.0.248.61]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.248.61 }
+:if ([:len [find where list=$AddressList and address=34.0.249.101]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.101 }
+:if ([:len [find where list=$AddressList and address=34.0.249.104]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.104 }
+:if ([:len [find where list=$AddressList and address=34.0.249.116]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.116 }
+:if ([:len [find where list=$AddressList and address=34.0.249.148]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.148 }
+:if ([:len [find where list=$AddressList and address=34.0.249.154]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.154 }
+:if ([:len [find where list=$AddressList and address=34.0.249.158]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.158 }
+:if ([:len [find where list=$AddressList and address=34.0.249.187]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.187 }
+:if ([:len [find where list=$AddressList and address=34.0.249.203]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.203 }
+:if ([:len [find where list=$AddressList and address=34.0.249.220]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.220 }
+:if ([:len [find where list=$AddressList and address=34.0.249.228]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.228 }
+:if ([:len [find where list=$AddressList and address=34.0.249.234]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.234 }
+:if ([:len [find where list=$AddressList and address=34.0.249.237]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.237 }
+:if ([:len [find where list=$AddressList and address=34.0.249.238]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.238 }
+:if ([:len [find where list=$AddressList and address=34.0.249.245]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.245 }
+:if ([:len [find where list=$AddressList and address=34.0.249.254]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.254 }
+:if ([:len [find where list=$AddressList and address=34.0.249.68]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.68 }
+:if ([:len [find where list=$AddressList and address=34.0.249.7]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.7 }
+:if ([:len [find where list=$AddressList and address=34.0.249.71]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.249.71 }
+:if ([:len [find where list=$AddressList and address=34.0.250.10]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.10 }
+:if ([:len [find where list=$AddressList and address=34.0.250.133]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.133 }
+:if ([:len [find where list=$AddressList and address=34.0.250.135]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.135 }
+:if ([:len [find where list=$AddressList and address=34.0.250.144]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.144 }
+:if ([:len [find where list=$AddressList and address=34.0.250.156]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.156 }
+:if ([:len [find where list=$AddressList and address=34.0.250.179]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.179 }
+:if ([:len [find where list=$AddressList and address=34.0.250.187]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.187 }
+:if ([:len [find where list=$AddressList and address=34.0.250.189]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.189 }
+:if ([:len [find where list=$AddressList and address=34.0.250.203]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.203 }
+:if ([:len [find where list=$AddressList and address=34.0.250.34]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.34 }
+:if ([:len [find where list=$AddressList and address=34.0.250.38]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.38 }
+:if ([:len [find where list=$AddressList and address=34.0.250.46]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.46 }
+:if ([:len [find where list=$AddressList and address=34.0.250.56]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.56 }
+:if ([:len [find where list=$AddressList and address=34.0.250.71]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.71 }
+:if ([:len [find where list=$AddressList and address=34.0.250.73]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.73 }
+:if ([:len [find where list=$AddressList and address=34.0.250.77]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.77 }
+:if ([:len [find where list=$AddressList and address=34.0.250.90]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.250.90 }
+:if ([:len [find where list=$AddressList and address=34.0.251.17]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.251.17 }
+:if ([:len [find where list=$AddressList and address=34.0.251.86]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.251.86 }
+:if ([:len [find where list=$AddressList and address=34.0.48.0]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.48.0 }
+:if ([:len [find where list=$AddressList and address=34.0.48.108]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.48.108 }
+:if ([:len [find where list=$AddressList and address=34.0.48.184]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.48.184 }
+:if ([:len [find where list=$AddressList and address=34.0.48.198]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.48.198 }
+:if ([:len [find where list=$AddressList and address=34.0.48.223]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.48.223 }
+:if ([:len [find where list=$AddressList and address=34.0.49.127]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.49.127 }
+:if ([:len [find where list=$AddressList and address=34.0.49.93]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.49.93 }
+:if ([:len [find where list=$AddressList and address=34.0.50.124]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.50.124 }
+:if ([:len [find where list=$AddressList and address=34.0.50.29]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.50.29 }
+:if ([:len [find where list=$AddressList and address=34.0.51.119]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.51.119 }
+:if ([:len [find where list=$AddressList and address=34.0.51.216]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.51.216 }
+:if ([:len [find where list=$AddressList and address=34.0.51.227]] = 0) do={ add list=$AddressList comment=discord.gg address=34.0.51.227 }

@@ -1,127 +1,127 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=tvrain.ru address=104.18.12.225} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=104.18.13.225} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=104.18.18.130} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=104.18.19.130} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=109.234.211.230} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=109.234.211.231} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=109.234.211.232} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=109.234.211.233} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=109.234.211.249} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=109.234.211.250} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=109.234.211.251} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=109.234.211.252} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=109.234.211.253} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=109.234.211.254} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=188.114.98.224} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=188.114.98.228} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=188.114.98.229} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=188.114.98.233} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=188.114.98.236} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=188.114.99.224} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=188.114.99.228} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=188.114.99.229} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=188.114.99.233} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=188.114.99.236} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.10} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.100} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.104} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.11} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.110} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.112} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.114} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.115} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.117} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.119} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.121} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.123} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.126} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.127} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.128} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.13} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.130} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.131} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.135} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.138} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.139} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.14} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.142} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.146} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.147} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.148} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.149} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.15} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.150} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.151} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.153} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.155} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.156} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.157} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.158} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.159} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.166} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.169} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.17} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.170} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.176} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.177} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.178} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.181} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.182} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.185} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.189} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.19} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.191} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.194} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.198} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.199} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.21} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.24} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.25} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.26} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.27} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.28} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.29} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.30} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.31} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.32} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.33} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.34} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.35} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.36} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.38} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.39} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.43} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.46} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.47} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.48} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.49} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.5} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.51} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.53} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.55} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.58} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.60} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.61} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.64} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.65} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.66} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.68} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.71} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.73} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.75} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.77} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.78} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.79} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.8} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.80} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.81} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.82} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.83} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.84} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.87} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.89} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.9} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.92} on-error {}
-:do {add list=$AddressList comment=tvrain.ru address=194.67.71.93} on-error {}
+:if ([:len [find where list=$AddressList and address=104.18.12.225]] = 0) do={ add list=$AddressList comment=tvrain.ru address=104.18.12.225 }
+:if ([:len [find where list=$AddressList and address=104.18.13.225]] = 0) do={ add list=$AddressList comment=tvrain.ru address=104.18.13.225 }
+:if ([:len [find where list=$AddressList and address=104.18.18.130]] = 0) do={ add list=$AddressList comment=tvrain.ru address=104.18.18.130 }
+:if ([:len [find where list=$AddressList and address=104.18.19.130]] = 0) do={ add list=$AddressList comment=tvrain.ru address=104.18.19.130 }
+:if ([:len [find where list=$AddressList and address=109.234.211.230]] = 0) do={ add list=$AddressList comment=tvrain.ru address=109.234.211.230 }
+:if ([:len [find where list=$AddressList and address=109.234.211.231]] = 0) do={ add list=$AddressList comment=tvrain.ru address=109.234.211.231 }
+:if ([:len [find where list=$AddressList and address=109.234.211.232]] = 0) do={ add list=$AddressList comment=tvrain.ru address=109.234.211.232 }
+:if ([:len [find where list=$AddressList and address=109.234.211.233]] = 0) do={ add list=$AddressList comment=tvrain.ru address=109.234.211.233 }
+:if ([:len [find where list=$AddressList and address=109.234.211.249]] = 0) do={ add list=$AddressList comment=tvrain.ru address=109.234.211.249 }
+:if ([:len [find where list=$AddressList and address=109.234.211.250]] = 0) do={ add list=$AddressList comment=tvrain.ru address=109.234.211.250 }
+:if ([:len [find where list=$AddressList and address=109.234.211.251]] = 0) do={ add list=$AddressList comment=tvrain.ru address=109.234.211.251 }
+:if ([:len [find where list=$AddressList and address=109.234.211.252]] = 0) do={ add list=$AddressList comment=tvrain.ru address=109.234.211.252 }
+:if ([:len [find where list=$AddressList and address=109.234.211.253]] = 0) do={ add list=$AddressList comment=tvrain.ru address=109.234.211.253 }
+:if ([:len [find where list=$AddressList and address=109.234.211.254]] = 0) do={ add list=$AddressList comment=tvrain.ru address=109.234.211.254 }
+:if ([:len [find where list=$AddressList and address=188.114.98.224]] = 0) do={ add list=$AddressList comment=tvrain.ru address=188.114.98.224 }
+:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=tvrain.ru address=188.114.98.228 }
+:if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=tvrain.ru address=188.114.98.229 }
+:if ([:len [find where list=$AddressList and address=188.114.98.233]] = 0) do={ add list=$AddressList comment=tvrain.ru address=188.114.98.233 }
+:if ([:len [find where list=$AddressList and address=188.114.98.236]] = 0) do={ add list=$AddressList comment=tvrain.ru address=188.114.98.236 }
+:if ([:len [find where list=$AddressList and address=188.114.99.224]] = 0) do={ add list=$AddressList comment=tvrain.ru address=188.114.99.224 }
+:if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=tvrain.ru address=188.114.99.228 }
+:if ([:len [find where list=$AddressList and address=188.114.99.229]] = 0) do={ add list=$AddressList comment=tvrain.ru address=188.114.99.229 }
+:if ([:len [find where list=$AddressList and address=188.114.99.233]] = 0) do={ add list=$AddressList comment=tvrain.ru address=188.114.99.233 }
+:if ([:len [find where list=$AddressList and address=188.114.99.236]] = 0) do={ add list=$AddressList comment=tvrain.ru address=188.114.99.236 }
+:if ([:len [find where list=$AddressList and address=194.67.71.10]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.10 }
+:if ([:len [find where list=$AddressList and address=194.67.71.100]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.100 }
+:if ([:len [find where list=$AddressList and address=194.67.71.104]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.104 }
+:if ([:len [find where list=$AddressList and address=194.67.71.11]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.11 }
+:if ([:len [find where list=$AddressList and address=194.67.71.110]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.110 }
+:if ([:len [find where list=$AddressList and address=194.67.71.112]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.112 }
+:if ([:len [find where list=$AddressList and address=194.67.71.114]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.114 }
+:if ([:len [find where list=$AddressList and address=194.67.71.115]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.115 }
+:if ([:len [find where list=$AddressList and address=194.67.71.117]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.117 }
+:if ([:len [find where list=$AddressList and address=194.67.71.119]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.119 }
+:if ([:len [find where list=$AddressList and address=194.67.71.121]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.121 }
+:if ([:len [find where list=$AddressList and address=194.67.71.123]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.123 }
+:if ([:len [find where list=$AddressList and address=194.67.71.126]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.126 }
+:if ([:len [find where list=$AddressList and address=194.67.71.127]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.127 }
+:if ([:len [find where list=$AddressList and address=194.67.71.128]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.128 }
+:if ([:len [find where list=$AddressList and address=194.67.71.13]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.13 }
+:if ([:len [find where list=$AddressList and address=194.67.71.130]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.130 }
+:if ([:len [find where list=$AddressList and address=194.67.71.131]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.131 }
+:if ([:len [find where list=$AddressList and address=194.67.71.135]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.135 }
+:if ([:len [find where list=$AddressList and address=194.67.71.138]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.138 }
+:if ([:len [find where list=$AddressList and address=194.67.71.139]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.139 }
+:if ([:len [find where list=$AddressList and address=194.67.71.14]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.14 }
+:if ([:len [find where list=$AddressList and address=194.67.71.142]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.142 }
+:if ([:len [find where list=$AddressList and address=194.67.71.146]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.146 }
+:if ([:len [find where list=$AddressList and address=194.67.71.147]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.147 }
+:if ([:len [find where list=$AddressList and address=194.67.71.148]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.148 }
+:if ([:len [find where list=$AddressList and address=194.67.71.149]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.149 }
+:if ([:len [find where list=$AddressList and address=194.67.71.15]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.15 }
+:if ([:len [find where list=$AddressList and address=194.67.71.150]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.150 }
+:if ([:len [find where list=$AddressList and address=194.67.71.151]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.151 }
+:if ([:len [find where list=$AddressList and address=194.67.71.153]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.153 }
+:if ([:len [find where list=$AddressList and address=194.67.71.155]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.155 }
+:if ([:len [find where list=$AddressList and address=194.67.71.156]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.156 }
+:if ([:len [find where list=$AddressList and address=194.67.71.157]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.157 }
+:if ([:len [find where list=$AddressList and address=194.67.71.158]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.158 }
+:if ([:len [find where list=$AddressList and address=194.67.71.159]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.159 }
+:if ([:len [find where list=$AddressList and address=194.67.71.166]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.166 }
+:if ([:len [find where list=$AddressList and address=194.67.71.169]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.169 }
+:if ([:len [find where list=$AddressList and address=194.67.71.17]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.17 }
+:if ([:len [find where list=$AddressList and address=194.67.71.170]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.170 }
+:if ([:len [find where list=$AddressList and address=194.67.71.176]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.176 }
+:if ([:len [find where list=$AddressList and address=194.67.71.177]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.177 }
+:if ([:len [find where list=$AddressList and address=194.67.71.178]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.178 }
+:if ([:len [find where list=$AddressList and address=194.67.71.181]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.181 }
+:if ([:len [find where list=$AddressList and address=194.67.71.182]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.182 }
+:if ([:len [find where list=$AddressList and address=194.67.71.185]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.185 }
+:if ([:len [find where list=$AddressList and address=194.67.71.189]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.189 }
+:if ([:len [find where list=$AddressList and address=194.67.71.19]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.19 }
+:if ([:len [find where list=$AddressList and address=194.67.71.191]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.191 }
+:if ([:len [find where list=$AddressList and address=194.67.71.194]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.194 }
+:if ([:len [find where list=$AddressList and address=194.67.71.198]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.198 }
+:if ([:len [find where list=$AddressList and address=194.67.71.199]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.199 }
+:if ([:len [find where list=$AddressList and address=194.67.71.21]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.21 }
+:if ([:len [find where list=$AddressList and address=194.67.71.24]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.24 }
+:if ([:len [find where list=$AddressList and address=194.67.71.25]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.25 }
+:if ([:len [find where list=$AddressList and address=194.67.71.26]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.26 }
+:if ([:len [find where list=$AddressList and address=194.67.71.27]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.27 }
+:if ([:len [find where list=$AddressList and address=194.67.71.28]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.28 }
+:if ([:len [find where list=$AddressList and address=194.67.71.29]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.29 }
+:if ([:len [find where list=$AddressList and address=194.67.71.30]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.30 }
+:if ([:len [find where list=$AddressList and address=194.67.71.31]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.31 }
+:if ([:len [find where list=$AddressList and address=194.67.71.32]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.32 }
+:if ([:len [find where list=$AddressList and address=194.67.71.33]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.33 }
+:if ([:len [find where list=$AddressList and address=194.67.71.34]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.34 }
+:if ([:len [find where list=$AddressList and address=194.67.71.35]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.35 }
+:if ([:len [find where list=$AddressList and address=194.67.71.36]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.36 }
+:if ([:len [find where list=$AddressList and address=194.67.71.38]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.38 }
+:if ([:len [find where list=$AddressList and address=194.67.71.39]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.39 }
+:if ([:len [find where list=$AddressList and address=194.67.71.43]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.43 }
+:if ([:len [find where list=$AddressList and address=194.67.71.46]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.46 }
+:if ([:len [find where list=$AddressList and address=194.67.71.47]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.47 }
+:if ([:len [find where list=$AddressList and address=194.67.71.48]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.48 }
+:if ([:len [find where list=$AddressList and address=194.67.71.49]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.49 }
+:if ([:len [find where list=$AddressList and address=194.67.71.5]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.5 }
+:if ([:len [find where list=$AddressList and address=194.67.71.51]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.51 }
+:if ([:len [find where list=$AddressList and address=194.67.71.53]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.53 }
+:if ([:len [find where list=$AddressList and address=194.67.71.55]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.55 }
+:if ([:len [find where list=$AddressList and address=194.67.71.58]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.58 }
+:if ([:len [find where list=$AddressList and address=194.67.71.60]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.60 }
+:if ([:len [find where list=$AddressList and address=194.67.71.61]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.61 }
+:if ([:len [find where list=$AddressList and address=194.67.71.64]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.64 }
+:if ([:len [find where list=$AddressList and address=194.67.71.65]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.65 }
+:if ([:len [find where list=$AddressList and address=194.67.71.66]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.66 }
+:if ([:len [find where list=$AddressList and address=194.67.71.68]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.68 }
+:if ([:len [find where list=$AddressList and address=194.67.71.71]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.71 }
+:if ([:len [find where list=$AddressList and address=194.67.71.73]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.73 }
+:if ([:len [find where list=$AddressList and address=194.67.71.75]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.75 }
+:if ([:len [find where list=$AddressList and address=194.67.71.77]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.77 }
+:if ([:len [find where list=$AddressList and address=194.67.71.78]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.78 }
+:if ([:len [find where list=$AddressList and address=194.67.71.79]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.79 }
+:if ([:len [find where list=$AddressList and address=194.67.71.8]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.8 }
+:if ([:len [find where list=$AddressList and address=194.67.71.80]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.80 }
+:if ([:len [find where list=$AddressList and address=194.67.71.81]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.81 }
+:if ([:len [find where list=$AddressList and address=194.67.71.82]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.82 }
+:if ([:len [find where list=$AddressList and address=194.67.71.83]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.83 }
+:if ([:len [find where list=$AddressList and address=194.67.71.84]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.84 }
+:if ([:len [find where list=$AddressList and address=194.67.71.87]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.87 }
+:if ([:len [find where list=$AddressList and address=194.67.71.89]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.89 }
+:if ([:len [find where list=$AddressList and address=194.67.71.9]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.9 }
+:if ([:len [find where list=$AddressList and address=194.67.71.92]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.92 }
+:if ([:len [find where list=$AddressList and address=194.67.71.93]] = 0) do={ add list=$AddressList comment=tvrain.ru address=194.67.71.93 }

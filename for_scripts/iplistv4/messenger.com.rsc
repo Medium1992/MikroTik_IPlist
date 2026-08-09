@@ -1,84 +1,87 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=messenger.com address=157.240.0.13} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.0.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.17.17} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.17.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.195.17} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.195.56} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.196.17} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.196.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.200.16} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.200.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.201.17} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.201.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.202.14} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.202.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.203.14} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.203.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.205.1} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.205.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.210.16} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.212.16} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.212.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.214.1} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.214.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.224.12} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.224.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.231.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.234.15} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.234.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.238.14} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.238.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.241.17} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.241.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.247.13} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.247.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.251.6} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.251.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.252.10} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.252.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.253.13} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.253.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.27.18} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.27.54} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.29.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.30.18} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.30.54} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.5.12} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.9.18} on-error {}
-:do {add list=$AddressList comment=messenger.com address=157.240.9.53} on-error {}
-:do {add list=$AddressList comment=messenger.com address=163.70.128.13} on-error {}
-:do {add list=$AddressList comment=messenger.com address=163.70.128.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=163.70.151.23} on-error {}
-:do {add list=$AddressList comment=messenger.com address=163.70.151.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=185.60.218.19} on-error {}
-:do {add list=$AddressList comment=messenger.com address=185.60.218.53} on-error {}
-:do {add list=$AddressList comment=messenger.com address=31.13.69.1} on-error {}
-:do {add list=$AddressList comment=messenger.com address=31.13.69.60} on-error {}
-:do {add list=$AddressList comment=messenger.com address=31.13.72.52} on-error {}
-:do {add list=$AddressList comment=messenger.com address=31.13.72.8} on-error {}
-:do {add list=$AddressList comment=messenger.com address=31.13.83.51} on-error {}
-:do {add list=$AddressList comment=messenger.com address=31.13.83.8} on-error {}
-:do {add list=$AddressList comment=messenger.com address=31.13.84.51} on-error {}
-:do {add list=$AddressList comment=messenger.com address=31.13.84.8} on-error {}
-:do {add list=$AddressList comment=messenger.com address=31.13.86.51} on-error {}
-:do {add list=$AddressList comment=messenger.com address=31.13.86.8} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.110.141} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.111.32} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.120.141} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.121.32} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.126.141} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.149.32} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.222.141} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.223.32} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.244.141} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.245.32} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.248.141} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.249.32} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.254.141} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.255.32} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.144.69.32} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.145.1.32} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.145.4.141} on-error {}
-:do {add list=$AddressList comment=messenger.com address=57.145.5.32} on-error {}
+:if ([:len [find where list=$AddressList and address=157.240.0.13]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.0.13 }
+:if ([:len [find where list=$AddressList and address=157.240.0.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.0.60 }
+:if ([:len [find where list=$AddressList and address=157.240.17.17]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.17.17 }
+:if ([:len [find where list=$AddressList and address=157.240.17.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.17.60 }
+:if ([:len [find where list=$AddressList and address=157.240.195.17]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.195.17 }
+:if ([:len [find where list=$AddressList and address=157.240.195.56]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.195.56 }
+:if ([:len [find where list=$AddressList and address=157.240.196.17]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.196.17 }
+:if ([:len [find where list=$AddressList and address=157.240.196.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.196.60 }
+:if ([:len [find where list=$AddressList and address=157.240.200.16]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.200.16 }
+:if ([:len [find where list=$AddressList and address=157.240.200.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.200.60 }
+:if ([:len [find where list=$AddressList and address=157.240.201.17]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.201.17 }
+:if ([:len [find where list=$AddressList and address=157.240.201.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.201.60 }
+:if ([:len [find where list=$AddressList and address=157.240.202.14]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.202.14 }
+:if ([:len [find where list=$AddressList and address=157.240.202.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.202.60 }
+:if ([:len [find where list=$AddressList and address=157.240.203.14]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.203.14 }
+:if ([:len [find where list=$AddressList and address=157.240.203.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.203.60 }
+:if ([:len [find where list=$AddressList and address=157.240.205.1]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.205.1 }
+:if ([:len [find where list=$AddressList and address=157.240.205.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.205.60 }
+:if ([:len [find where list=$AddressList and address=157.240.210.16]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.210.16 }
+:if ([:len [find where list=$AddressList and address=157.240.212.16]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.212.16 }
+:if ([:len [find where list=$AddressList and address=157.240.212.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.212.60 }
+:if ([:len [find where list=$AddressList and address=157.240.214.1]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.214.1 }
+:if ([:len [find where list=$AddressList and address=157.240.214.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.214.60 }
+:if ([:len [find where list=$AddressList and address=157.240.224.12]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.224.12 }
+:if ([:len [find where list=$AddressList and address=157.240.224.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.224.60 }
+:if ([:len [find where list=$AddressList and address=157.240.231.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.231.60 }
+:if ([:len [find where list=$AddressList and address=157.240.234.15]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.234.15 }
+:if ([:len [find where list=$AddressList and address=157.240.234.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.234.60 }
+:if ([:len [find where list=$AddressList and address=157.240.238.14]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.238.14 }
+:if ([:len [find where list=$AddressList and address=157.240.238.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.238.60 }
+:if ([:len [find where list=$AddressList and address=157.240.241.17]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.241.17 }
+:if ([:len [find where list=$AddressList and address=157.240.241.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.241.60 }
+:if ([:len [find where list=$AddressList and address=157.240.247.13]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.247.13 }
+:if ([:len [find where list=$AddressList and address=157.240.247.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.247.60 }
+:if ([:len [find where list=$AddressList and address=157.240.251.6]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.251.6 }
+:if ([:len [find where list=$AddressList and address=157.240.251.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.251.60 }
+:if ([:len [find where list=$AddressList and address=157.240.252.10]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.252.10 }
+:if ([:len [find where list=$AddressList and address=157.240.252.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.252.60 }
+:if ([:len [find where list=$AddressList and address=157.240.253.13]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.253.13 }
+:if ([:len [find where list=$AddressList and address=157.240.253.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.253.60 }
+:if ([:len [find where list=$AddressList and address=157.240.27.18]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.27.18 }
+:if ([:len [find where list=$AddressList and address=157.240.27.54]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.27.54 }
+:if ([:len [find where list=$AddressList and address=157.240.29.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.29.60 }
+:if ([:len [find where list=$AddressList and address=157.240.30.18]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.30.18 }
+:if ([:len [find where list=$AddressList and address=157.240.30.54]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.30.54 }
+:if ([:len [find where list=$AddressList and address=157.240.5.12]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.5.12 }
+:if ([:len [find where list=$AddressList and address=157.240.9.18]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.9.18 }
+:if ([:len [find where list=$AddressList and address=157.240.9.53]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.9.53 }
+:if ([:len [find where list=$AddressList and address=163.70.128.13]] = 0) do={ add list=$AddressList comment=messenger.com address=163.70.128.13 }
+:if ([:len [find where list=$AddressList and address=163.70.128.60]] = 0) do={ add list=$AddressList comment=messenger.com address=163.70.128.60 }
+:if ([:len [find where list=$AddressList and address=163.70.151.23]] = 0) do={ add list=$AddressList comment=messenger.com address=163.70.151.23 }
+:if ([:len [find where list=$AddressList and address=163.70.151.60]] = 0) do={ add list=$AddressList comment=messenger.com address=163.70.151.60 }
+:if ([:len [find where list=$AddressList and address=185.60.218.19]] = 0) do={ add list=$AddressList comment=messenger.com address=185.60.218.19 }
+:if ([:len [find where list=$AddressList and address=185.60.218.53]] = 0) do={ add list=$AddressList comment=messenger.com address=185.60.218.53 }
+:if ([:len [find where list=$AddressList and address=31.13.69.1]] = 0) do={ add list=$AddressList comment=messenger.com address=31.13.69.1 }
+:if ([:len [find where list=$AddressList and address=31.13.69.60]] = 0) do={ add list=$AddressList comment=messenger.com address=31.13.69.60 }
+:if ([:len [find where list=$AddressList and address=31.13.72.52]] = 0) do={ add list=$AddressList comment=messenger.com address=31.13.72.52 }
+:if ([:len [find where list=$AddressList and address=31.13.72.8]] = 0) do={ add list=$AddressList comment=messenger.com address=31.13.72.8 }
+:if ([:len [find where list=$AddressList and address=31.13.83.51]] = 0) do={ add list=$AddressList comment=messenger.com address=31.13.83.51 }
+:if ([:len [find where list=$AddressList and address=31.13.83.8]] = 0) do={ add list=$AddressList comment=messenger.com address=31.13.83.8 }
+:if ([:len [find where list=$AddressList and address=31.13.84.51]] = 0) do={ add list=$AddressList comment=messenger.com address=31.13.84.51 }
+:if ([:len [find where list=$AddressList and address=31.13.84.8]] = 0) do={ add list=$AddressList comment=messenger.com address=31.13.84.8 }
+:if ([:len [find where list=$AddressList and address=31.13.86.51]] = 0) do={ add list=$AddressList comment=messenger.com address=31.13.86.51 }
+:if ([:len [find where list=$AddressList and address=31.13.86.8]] = 0) do={ add list=$AddressList comment=messenger.com address=31.13.86.8 }
+:if ([:len [find where list=$AddressList and address=57.144.110.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.110.141 }
+:if ([:len [find where list=$AddressList and address=57.144.111.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.111.32 }
+:if ([:len [find where list=$AddressList and address=57.144.120.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.120.141 }
+:if ([:len [find where list=$AddressList and address=57.144.121.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.121.32 }
+:if ([:len [find where list=$AddressList and address=57.144.126.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.126.141 }
+:if ([:len [find where list=$AddressList and address=57.144.149.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.149.32 }
+:if ([:len [find where list=$AddressList and address=57.144.154.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.154.141 }
+:if ([:len [find where list=$AddressList and address=57.144.222.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.222.141 }
+:if ([:len [find where list=$AddressList and address=57.144.223.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.223.32 }
+:if ([:len [find where list=$AddressList and address=57.144.238.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.238.141 }
+:if ([:len [find where list=$AddressList and address=57.144.239.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.239.32 }
+:if ([:len [find where list=$AddressList and address=57.144.244.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.244.141 }
+:if ([:len [find where list=$AddressList and address=57.144.245.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.245.32 }
+:if ([:len [find where list=$AddressList and address=57.144.248.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.248.141 }
+:if ([:len [find where list=$AddressList and address=57.144.249.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.249.32 }
+:if ([:len [find where list=$AddressList and address=57.144.254.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.254.141 }
+:if ([:len [find where list=$AddressList and address=57.144.255.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.255.32 }
+:if ([:len [find where list=$AddressList and address=57.144.69.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.69.32 }
+:if ([:len [find where list=$AddressList and address=57.145.1.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.145.1.32 }
+:if ([:len [find where list=$AddressList and address=57.145.4.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.145.4.141 }
+:if ([:len [find where list=$AddressList and address=57.145.5.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.145.5.32 }

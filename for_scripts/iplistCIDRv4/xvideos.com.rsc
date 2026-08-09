@@ -1,53 +1,53 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=xvideos.com address=104.18.32.43/32} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=109.61.41.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=121.127.45.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=138.199.20.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=138.199.26.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=138.199.37.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=143.244.32.0/19} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=156.146.32.0/19} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=169.150.192.0/18} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=172.64.155.213/32} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=185.102.217.104/31} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=185.102.217.40/31} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=185.180.12.22/31} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=185.180.13.192/27} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=185.246.208.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=185.246.211.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=185.59.222.0/25} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=185.76.9.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=185.88.180.0/22} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=185.93.2.0/25} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=188.114.96.0/22} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=195.181.166.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=195.181.170.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=195.181.174.0/23} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=207.211.208.0/21} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=212.102.54.0/23} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=212.102.56.0/23} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=37.19.194.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=37.19.203.51/32} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=37.19.203.52/32} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=37.19.218.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=45.82.101.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=79.127.133.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=79.127.178.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=79.127.203.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=8.47.0.0/16} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=8.6.0.0/16} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=84.17.50.0/23} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=84.17.56.0/23} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=84.17.59.0/26} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=87.249.131.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=89.187.164.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=89.187.165.0/25} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=89.187.170.0/23} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=89.222.125.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=89.222.127.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=91.206.163.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=92.223.40.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=93.123.11.0/24} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=93.123.17.252/32} on-error {}
-:do {add list=$AddressList comment=xvideos.com address=93.123.17.254/32} on-error {}
+:if ([:len [find where list=$AddressList and address=104.18.32.43/32]] = 0) do={ add list=$AddressList comment=xvideos.com address=104.18.32.43/32 }
+:if ([:len [find where list=$AddressList and address=109.61.41.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=109.61.41.0/24 }
+:if ([:len [find where list=$AddressList and address=121.127.45.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=121.127.45.0/24 }
+:if ([:len [find where list=$AddressList and address=138.199.20.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=138.199.20.0/24 }
+:if ([:len [find where list=$AddressList and address=138.199.26.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=138.199.26.0/24 }
+:if ([:len [find where list=$AddressList and address=138.199.37.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=138.199.37.0/24 }
+:if ([:len [find where list=$AddressList and address=143.244.32.0/19]] = 0) do={ add list=$AddressList comment=xvideos.com address=143.244.32.0/19 }
+:if ([:len [find where list=$AddressList and address=156.146.32.0/19]] = 0) do={ add list=$AddressList comment=xvideos.com address=156.146.32.0/19 }
+:if ([:len [find where list=$AddressList and address=169.150.192.0/18]] = 0) do={ add list=$AddressList comment=xvideos.com address=169.150.192.0/18 }
+:if ([:len [find where list=$AddressList and address=172.64.155.213/32]] = 0) do={ add list=$AddressList comment=xvideos.com address=172.64.155.213/32 }
+:if ([:len [find where list=$AddressList and address=185.102.217.104/31]] = 0) do={ add list=$AddressList comment=xvideos.com address=185.102.217.104/31 }
+:if ([:len [find where list=$AddressList and address=185.102.217.40/31]] = 0) do={ add list=$AddressList comment=xvideos.com address=185.102.217.40/31 }
+:if ([:len [find where list=$AddressList and address=185.180.12.22/31]] = 0) do={ add list=$AddressList comment=xvideos.com address=185.180.12.22/31 }
+:if ([:len [find where list=$AddressList and address=185.180.13.192/27]] = 0) do={ add list=$AddressList comment=xvideos.com address=185.180.13.192/27 }
+:if ([:len [find where list=$AddressList and address=185.246.208.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=185.246.208.0/24 }
+:if ([:len [find where list=$AddressList and address=185.246.211.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=185.246.211.0/24 }
+:if ([:len [find where list=$AddressList and address=185.59.222.0/25]] = 0) do={ add list=$AddressList comment=xvideos.com address=185.59.222.0/25 }
+:if ([:len [find where list=$AddressList and address=185.76.9.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=185.76.9.0/24 }
+:if ([:len [find where list=$AddressList and address=185.88.180.0/22]] = 0) do={ add list=$AddressList comment=xvideos.com address=185.88.180.0/22 }
+:if ([:len [find where list=$AddressList and address=185.93.2.0/25]] = 0) do={ add list=$AddressList comment=xvideos.com address=185.93.2.0/25 }
+:if ([:len [find where list=$AddressList and address=188.114.96.0/22]] = 0) do={ add list=$AddressList comment=xvideos.com address=188.114.96.0/22 }
+:if ([:len [find where list=$AddressList and address=195.181.166.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=195.181.166.0/24 }
+:if ([:len [find where list=$AddressList and address=195.181.170.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=195.181.170.0/24 }
+:if ([:len [find where list=$AddressList and address=195.181.174.0/23]] = 0) do={ add list=$AddressList comment=xvideos.com address=195.181.174.0/23 }
+:if ([:len [find where list=$AddressList and address=207.211.208.0/21]] = 0) do={ add list=$AddressList comment=xvideos.com address=207.211.208.0/21 }
+:if ([:len [find where list=$AddressList and address=212.102.54.0/23]] = 0) do={ add list=$AddressList comment=xvideos.com address=212.102.54.0/23 }
+:if ([:len [find where list=$AddressList and address=212.102.56.0/23]] = 0) do={ add list=$AddressList comment=xvideos.com address=212.102.56.0/23 }
+:if ([:len [find where list=$AddressList and address=37.19.194.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=37.19.194.0/24 }
+:if ([:len [find where list=$AddressList and address=37.19.203.51/32]] = 0) do={ add list=$AddressList comment=xvideos.com address=37.19.203.51/32 }
+:if ([:len [find where list=$AddressList and address=37.19.203.52/32]] = 0) do={ add list=$AddressList comment=xvideos.com address=37.19.203.52/32 }
+:if ([:len [find where list=$AddressList and address=37.19.218.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=37.19.218.0/24 }
+:if ([:len [find where list=$AddressList and address=45.82.101.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=45.82.101.0/24 }
+:if ([:len [find where list=$AddressList and address=79.127.133.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=79.127.133.0/24 }
+:if ([:len [find where list=$AddressList and address=79.127.178.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=79.127.178.0/24 }
+:if ([:len [find where list=$AddressList and address=79.127.203.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=79.127.203.0/24 }
+:if ([:len [find where list=$AddressList and address=8.47.0.0/16]] = 0) do={ add list=$AddressList comment=xvideos.com address=8.47.0.0/16 }
+:if ([:len [find where list=$AddressList and address=8.6.0.0/16]] = 0) do={ add list=$AddressList comment=xvideos.com address=8.6.0.0/16 }
+:if ([:len [find where list=$AddressList and address=84.17.50.0/23]] = 0) do={ add list=$AddressList comment=xvideos.com address=84.17.50.0/23 }
+:if ([:len [find where list=$AddressList and address=84.17.56.0/23]] = 0) do={ add list=$AddressList comment=xvideos.com address=84.17.56.0/23 }
+:if ([:len [find where list=$AddressList and address=84.17.59.0/26]] = 0) do={ add list=$AddressList comment=xvideos.com address=84.17.59.0/26 }
+:if ([:len [find where list=$AddressList and address=87.249.131.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=87.249.131.0/24 }
+:if ([:len [find where list=$AddressList and address=89.187.164.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.187.164.0/24 }
+:if ([:len [find where list=$AddressList and address=89.187.165.0/25]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.187.165.0/25 }
+:if ([:len [find where list=$AddressList and address=89.187.170.0/23]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.187.170.0/23 }
+:if ([:len [find where list=$AddressList and address=89.222.125.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.222.125.0/24 }
+:if ([:len [find where list=$AddressList and address=89.222.127.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.222.127.0/24 }
+:if ([:len [find where list=$AddressList and address=91.206.163.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=91.206.163.0/24 }
+:if ([:len [find where list=$AddressList and address=92.223.40.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=92.223.40.0/24 }
+:if ([:len [find where list=$AddressList and address=93.123.11.0/24]] = 0) do={ add list=$AddressList comment=xvideos.com address=93.123.11.0/24 }
+:if ([:len [find where list=$AddressList and address=93.123.17.252/32]] = 0) do={ add list=$AddressList comment=xvideos.com address=93.123.17.252/32 }
+:if ([:len [find where list=$AddressList and address=93.123.17.254/32]] = 0) do={ add list=$AddressList comment=xvideos.com address=93.123.17.254/32 }

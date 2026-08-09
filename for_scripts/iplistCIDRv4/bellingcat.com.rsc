@@ -1,33 +1,33 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=bellingcat.com address=104.20.30.192/32} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=104.21.80.6/32} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=108.136.0.0/14} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=108.156.0.0/14} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=13.224.0.0/12} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=13.32.0.0/12} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=143.204.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=172.66.172.84/32} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=172.67.172.141/32} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=18.155.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=18.161.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=18.164.0.0/15} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=18.172.0.0/15} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=18.238.0.0/15} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=18.244.0.0/15} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=18.66.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=216.137.32.0/19} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=3.160.0.0/15} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=3.163.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=3.164.0.0/15} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=3.167.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=3.169.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=3.174.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=52.84.0.0/14} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=54.230.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=54.240.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=65.8.0.0/14} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=8.47.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=8.6.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=99.84.0.0/16} on-error {}
-:do {add list=$AddressList comment=bellingcat.com address=99.86.0.0/16} on-error {}
+:if ([:len [find where list=$AddressList and address=104.20.30.192/32]] = 0) do={ add list=$AddressList comment=bellingcat.com address=104.20.30.192/32 }
+:if ([:len [find where list=$AddressList and address=104.21.80.6/32]] = 0) do={ add list=$AddressList comment=bellingcat.com address=104.21.80.6/32 }
+:if ([:len [find where list=$AddressList and address=108.136.0.0/14]] = 0) do={ add list=$AddressList comment=bellingcat.com address=108.136.0.0/14 }
+:if ([:len [find where list=$AddressList and address=108.156.0.0/14]] = 0) do={ add list=$AddressList comment=bellingcat.com address=108.156.0.0/14 }
+:if ([:len [find where list=$AddressList and address=13.224.0.0/12]] = 0) do={ add list=$AddressList comment=bellingcat.com address=13.224.0.0/12 }
+:if ([:len [find where list=$AddressList and address=13.32.0.0/12]] = 0) do={ add list=$AddressList comment=bellingcat.com address=13.32.0.0/12 }
+:if ([:len [find where list=$AddressList and address=143.204.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=143.204.0.0/16 }
+:if ([:len [find where list=$AddressList and address=172.66.172.84/32]] = 0) do={ add list=$AddressList comment=bellingcat.com address=172.66.172.84/32 }
+:if ([:len [find where list=$AddressList and address=172.67.172.141/32]] = 0) do={ add list=$AddressList comment=bellingcat.com address=172.67.172.141/32 }
+:if ([:len [find where list=$AddressList and address=18.155.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=18.155.0.0/16 }
+:if ([:len [find where list=$AddressList and address=18.161.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=18.161.0.0/16 }
+:if ([:len [find where list=$AddressList and address=18.164.0.0/15]] = 0) do={ add list=$AddressList comment=bellingcat.com address=18.164.0.0/15 }
+:if ([:len [find where list=$AddressList and address=18.172.0.0/15]] = 0) do={ add list=$AddressList comment=bellingcat.com address=18.172.0.0/15 }
+:if ([:len [find where list=$AddressList and address=18.238.0.0/15]] = 0) do={ add list=$AddressList comment=bellingcat.com address=18.238.0.0/15 }
+:if ([:len [find where list=$AddressList and address=18.244.0.0/15]] = 0) do={ add list=$AddressList comment=bellingcat.com address=18.244.0.0/15 }
+:if ([:len [find where list=$AddressList and address=18.66.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=18.66.0.0/16 }
+:if ([:len [find where list=$AddressList and address=216.137.32.0/19]] = 0) do={ add list=$AddressList comment=bellingcat.com address=216.137.32.0/19 }
+:if ([:len [find where list=$AddressList and address=3.160.0.0/15]] = 0) do={ add list=$AddressList comment=bellingcat.com address=3.160.0.0/15 }
+:if ([:len [find where list=$AddressList and address=3.163.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=3.163.0.0/16 }
+:if ([:len [find where list=$AddressList and address=3.164.0.0/15]] = 0) do={ add list=$AddressList comment=bellingcat.com address=3.164.0.0/15 }
+:if ([:len [find where list=$AddressList and address=3.167.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=3.167.0.0/16 }
+:if ([:len [find where list=$AddressList and address=3.169.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=3.169.0.0/16 }
+:if ([:len [find where list=$AddressList and address=3.174.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=3.174.0.0/16 }
+:if ([:len [find where list=$AddressList and address=52.84.0.0/14]] = 0) do={ add list=$AddressList comment=bellingcat.com address=52.84.0.0/14 }
+:if ([:len [find where list=$AddressList and address=54.230.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=54.230.0.0/16 }
+:if ([:len [find where list=$AddressList and address=54.240.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=54.240.0.0/16 }
+:if ([:len [find where list=$AddressList and address=65.8.0.0/14]] = 0) do={ add list=$AddressList comment=bellingcat.com address=65.8.0.0/14 }
+:if ([:len [find where list=$AddressList and address=8.47.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=8.47.0.0/16 }
+:if ([:len [find where list=$AddressList and address=8.6.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=8.6.0.0/16 }
+:if ([:len [find where list=$AddressList and address=99.84.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=99.84.0.0/16 }
+:if ([:len [find where list=$AddressList and address=99.86.0.0/16]] = 0) do={ add list=$AddressList comment=bellingcat.com address=99.86.0.0/16 }

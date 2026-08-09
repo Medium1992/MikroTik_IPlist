@@ -1,45 +1,45 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=redgifs.com address=104.18.36.123} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=156.146.61.130} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=156.146.61.131} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=172.64.151.133} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=185.76.9.11} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=185.76.9.12} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=185.76.9.27} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.98.224} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.98.228} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.98.229} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.98.232} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.98.233} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.98.236} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.99.224} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.99.228} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.99.229} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.99.232} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.99.233} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=188.114.99.236} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=195.181.172.2} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=195.181.172.3} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=195.181.172.5} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=195.181.172.6} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=37.19.202.35} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=37.19.202.36} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=37.19.202.38} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=37.19.202.39} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=37.19.202.44} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=37.19.202.45} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=37.19.203.48} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=37.19.203.49} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.47.69.0} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.47.69.4} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.47.69.6} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.47.69.7} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.47.69.8} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.47.69.9} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.6.112.0} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.6.112.4} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.6.112.6} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.6.112.7} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.6.112.8} on-error {}
-:do {add list=$AddressList comment=redgifs.com address=8.6.112.9} on-error {}
+:if ([:len [find where list=$AddressList and address=104.18.36.123]] = 0) do={ add list=$AddressList comment=redgifs.com address=104.18.36.123 }
+:if ([:len [find where list=$AddressList and address=156.146.61.130]] = 0) do={ add list=$AddressList comment=redgifs.com address=156.146.61.130 }
+:if ([:len [find where list=$AddressList and address=156.146.61.131]] = 0) do={ add list=$AddressList comment=redgifs.com address=156.146.61.131 }
+:if ([:len [find where list=$AddressList and address=172.64.151.133]] = 0) do={ add list=$AddressList comment=redgifs.com address=172.64.151.133 }
+:if ([:len [find where list=$AddressList and address=185.76.9.11]] = 0) do={ add list=$AddressList comment=redgifs.com address=185.76.9.11 }
+:if ([:len [find where list=$AddressList and address=185.76.9.12]] = 0) do={ add list=$AddressList comment=redgifs.com address=185.76.9.12 }
+:if ([:len [find where list=$AddressList and address=185.76.9.27]] = 0) do={ add list=$AddressList comment=redgifs.com address=185.76.9.27 }
+:if ([:len [find where list=$AddressList and address=188.114.98.224]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.98.224 }
+:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.98.228 }
+:if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.98.229 }
+:if ([:len [find where list=$AddressList and address=188.114.98.232]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.98.232 }
+:if ([:len [find where list=$AddressList and address=188.114.98.233]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.98.233 }
+:if ([:len [find where list=$AddressList and address=188.114.98.236]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.98.236 }
+:if ([:len [find where list=$AddressList and address=188.114.99.224]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.99.224 }
+:if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.99.228 }
+:if ([:len [find where list=$AddressList and address=188.114.99.229]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.99.229 }
+:if ([:len [find where list=$AddressList and address=188.114.99.232]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.99.232 }
+:if ([:len [find where list=$AddressList and address=188.114.99.233]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.99.233 }
+:if ([:len [find where list=$AddressList and address=188.114.99.236]] = 0) do={ add list=$AddressList comment=redgifs.com address=188.114.99.236 }
+:if ([:len [find where list=$AddressList and address=195.181.172.2]] = 0) do={ add list=$AddressList comment=redgifs.com address=195.181.172.2 }
+:if ([:len [find where list=$AddressList and address=195.181.172.3]] = 0) do={ add list=$AddressList comment=redgifs.com address=195.181.172.3 }
+:if ([:len [find where list=$AddressList and address=195.181.172.5]] = 0) do={ add list=$AddressList comment=redgifs.com address=195.181.172.5 }
+:if ([:len [find where list=$AddressList and address=195.181.172.6]] = 0) do={ add list=$AddressList comment=redgifs.com address=195.181.172.6 }
+:if ([:len [find where list=$AddressList and address=37.19.202.35]] = 0) do={ add list=$AddressList comment=redgifs.com address=37.19.202.35 }
+:if ([:len [find where list=$AddressList and address=37.19.202.36]] = 0) do={ add list=$AddressList comment=redgifs.com address=37.19.202.36 }
+:if ([:len [find where list=$AddressList and address=37.19.202.38]] = 0) do={ add list=$AddressList comment=redgifs.com address=37.19.202.38 }
+:if ([:len [find where list=$AddressList and address=37.19.202.39]] = 0) do={ add list=$AddressList comment=redgifs.com address=37.19.202.39 }
+:if ([:len [find where list=$AddressList and address=37.19.202.44]] = 0) do={ add list=$AddressList comment=redgifs.com address=37.19.202.44 }
+:if ([:len [find where list=$AddressList and address=37.19.202.45]] = 0) do={ add list=$AddressList comment=redgifs.com address=37.19.202.45 }
+:if ([:len [find where list=$AddressList and address=37.19.203.48]] = 0) do={ add list=$AddressList comment=redgifs.com address=37.19.203.48 }
+:if ([:len [find where list=$AddressList and address=37.19.203.49]] = 0) do={ add list=$AddressList comment=redgifs.com address=37.19.203.49 }
+:if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.4]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.47.69.4 }
+:if ([:len [find where list=$AddressList and address=8.47.69.6]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.47.69.6 }
+:if ([:len [find where list=$AddressList and address=8.47.69.7]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.47.69.7 }
+:if ([:len [find where list=$AddressList and address=8.47.69.8]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.47.69.8 }
+:if ([:len [find where list=$AddressList and address=8.47.69.9]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.47.69.9 }
+:if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.4]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.6.112.4 }
+:if ([:len [find where list=$AddressList and address=8.6.112.6]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.6.112.6 }
+:if ([:len [find where list=$AddressList and address=8.6.112.7]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.6.112.7 }
+:if ([:len [find where list=$AddressList and address=8.6.112.8]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.6.112.8 }
+:if ([:len [find where list=$AddressList and address=8.6.112.9]] = 0) do={ add list=$AddressList comment=redgifs.com address=8.6.112.9 }

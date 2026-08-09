@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=spotify.com address=103.23.125.24} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.104} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.49} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.50} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.51} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.56} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.57} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.58} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.59} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.64} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.65} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.66} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.67} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.72} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.73} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.74} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.75} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.80} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.81} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.82} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.83} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.88} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.89} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.90} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.91} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.96} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.97} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.98} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.103.72.99} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.104} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.105} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.11} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.113} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.114} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.115} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.122} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.123} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.128} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.129} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.130} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.131} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.16} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.17} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.18} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.19} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.212} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.24} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.25} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.26} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.27} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.32} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.33} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.34} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.35} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.40} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.41} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.43} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.48} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.49} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.50} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.51} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.57} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.58} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.59} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.65} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.67} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.73} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.75} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.8} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.80} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.81} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.88} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.9} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.90} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.91} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.97} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.98} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.54.99} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.104.55.34} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.109.128.147} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.109.128.161} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.109.128.184} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.109.128.99} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.109.143.23} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.109.143.9} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.172} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.173} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.176} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.177} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.179} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.180} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.187} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.189} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.190} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.192} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.195} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.198} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.201} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.202} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.203} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.191.211} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.240.201} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.110.240.211} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.116.245.16} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.117.76.171} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.117.77.177} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.117.77.185} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.117.77.192} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.117.77.210} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.117.77.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.105} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.114} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.130} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.131} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.155} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.185} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.74} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.75} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.82} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.89} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.96} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.123.68.99} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.124.11.146} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.124.11.202} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.154.127.247} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.104} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.107} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.112} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.113} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.128} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.139} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.19} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.226} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.233} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.24} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.25} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.26} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.27} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.32} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.33} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.34} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.40} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.41} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.43} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.48} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.49} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.50} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.51} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.56} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.57} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.58} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.59} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.64} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.65} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.66} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.72} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.73} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.74} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.75} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.81} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.82} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.83} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.88} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.89} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.90} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.91} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.96} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.76.220.98} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.79.93.219} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.79.93.232} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.79.93.242} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.79.93.243} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.79.93.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.10} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.19} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.25} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.26} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.27} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.33} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.34} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.51} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.57} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.59} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.64} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.66} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.67} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.73} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.74} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.8} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.81.60.82} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.4.137} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.4.138} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.4.139} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.4.144} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.4.145} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.4.146} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.10} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.11} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.16} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.17} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.18} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.19} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.200} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.201} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.202} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.203} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.208} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.209} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.210} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.211} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.216} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.24} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.25} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.26} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.27} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.32} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.33} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.34} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.35} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.40} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.41} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.43} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.48} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.49} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.50} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.51} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.56} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.57} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.58} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.59} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.64} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.65} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.66} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.67} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.72} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.73} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.74} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.75} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.8} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.80} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.81} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.82} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.83.5.9} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.85.249.137} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.85.249.161} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.86.110.10} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.86.110.210} on-error {}
-:do {add list=$AddressList comment=spotify.com address=104.86.110.41} on-error {}
-:do {add list=$AddressList comment=spotify.com address=13.56.94.146} on-error {}
-:do {add list=$AddressList comment=spotify.com address=13.57.106.181} on-error {}
-:do {add list=$AddressList comment=spotify.com address=13.57.54.44} on-error {}
-:do {add list=$AddressList comment=spotify.com address=140.248.134.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=140.248.134.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=140.248.135.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.114.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.118.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.118.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.119.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.122.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.122.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.123.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.2.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.3.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.30.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.30.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.31.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.54.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.54.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.55.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.62.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.62.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=146.75.63.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.10.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.10.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.11.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.122.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.130.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.131.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.134.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.190.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.194.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.195.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.2.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.206.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.206.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.207.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.210.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.211.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.238.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.238.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.242.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.242.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.246.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.246.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.247.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.3.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.38.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.38.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.39.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.46.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.46.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.47.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.6.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.6.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.62.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.66.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.67.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.7.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.86.248} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.86.250} on-error {}
-:do {add list=$AddressList comment=spotify.com address=151.101.87.42} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.107.89} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.107.91} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.107.92} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.154} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.163} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.179} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.194} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.202} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.211} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.218} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.227} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.232} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.234} on-error {}
-:do {add list=$AddressList comment=spotify.com address=173.222.108.240} on-error {}
-:do {add list=$AddressList comment=spotify.com address=18.144.119.190} on-error {}
-:do {add list=$AddressList comment=spotify.com address=18.185.24.46} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.107.146} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.107.211} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.172} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.174} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.177} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.178} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.179} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.180} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.181} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.182} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.183} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.186} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.191} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.192} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.193} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.194} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.195} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.196} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.197} on-error {}
-:do {add list=$AddressList comment=spotify.com address=184.24.77.198} on-error {}
+:if ([:len [find where list=$AddressList and address=103.23.125.24]] = 0) do={ add list=$AddressList comment=spotify.com address=103.23.125.24 }
+:if ([:len [find where list=$AddressList and address=104.103.72.104]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.104 }
+:if ([:len [find where list=$AddressList and address=104.103.72.49]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.49 }
+:if ([:len [find where list=$AddressList and address=104.103.72.50]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.50 }
+:if ([:len [find where list=$AddressList and address=104.103.72.51]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.51 }
+:if ([:len [find where list=$AddressList and address=104.103.72.56]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.56 }
+:if ([:len [find where list=$AddressList and address=104.103.72.57]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.57 }
+:if ([:len [find where list=$AddressList and address=104.103.72.58]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.58 }
+:if ([:len [find where list=$AddressList and address=104.103.72.59]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.59 }
+:if ([:len [find where list=$AddressList and address=104.103.72.64]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.64 }
+:if ([:len [find where list=$AddressList and address=104.103.72.65]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.65 }
+:if ([:len [find where list=$AddressList and address=104.103.72.66]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.66 }
+:if ([:len [find where list=$AddressList and address=104.103.72.67]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.67 }
+:if ([:len [find where list=$AddressList and address=104.103.72.72]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.72 }
+:if ([:len [find where list=$AddressList and address=104.103.72.73]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.73 }
+:if ([:len [find where list=$AddressList and address=104.103.72.74]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.74 }
+:if ([:len [find where list=$AddressList and address=104.103.72.75]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.75 }
+:if ([:len [find where list=$AddressList and address=104.103.72.80]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.80 }
+:if ([:len [find where list=$AddressList and address=104.103.72.81]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.81 }
+:if ([:len [find where list=$AddressList and address=104.103.72.82]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.82 }
+:if ([:len [find where list=$AddressList and address=104.103.72.83]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.83 }
+:if ([:len [find where list=$AddressList and address=104.103.72.88]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.88 }
+:if ([:len [find where list=$AddressList and address=104.103.72.89]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.89 }
+:if ([:len [find where list=$AddressList and address=104.103.72.90]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.90 }
+:if ([:len [find where list=$AddressList and address=104.103.72.91]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.91 }
+:if ([:len [find where list=$AddressList and address=104.103.72.96]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.96 }
+:if ([:len [find where list=$AddressList and address=104.103.72.97]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.97 }
+:if ([:len [find where list=$AddressList and address=104.103.72.98]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.98 }
+:if ([:len [find where list=$AddressList and address=104.103.72.99]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.99 }
+:if ([:len [find where list=$AddressList and address=104.104.54.104]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.104 }
+:if ([:len [find where list=$AddressList and address=104.104.54.105]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.105 }
+:if ([:len [find where list=$AddressList and address=104.104.54.11]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.11 }
+:if ([:len [find where list=$AddressList and address=104.104.54.113]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.113 }
+:if ([:len [find where list=$AddressList and address=104.104.54.114]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.114 }
+:if ([:len [find where list=$AddressList and address=104.104.54.115]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.115 }
+:if ([:len [find where list=$AddressList and address=104.104.54.122]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.122 }
+:if ([:len [find where list=$AddressList and address=104.104.54.123]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.123 }
+:if ([:len [find where list=$AddressList and address=104.104.54.128]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.128 }
+:if ([:len [find where list=$AddressList and address=104.104.54.129]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.129 }
+:if ([:len [find where list=$AddressList and address=104.104.54.130]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.130 }
+:if ([:len [find where list=$AddressList and address=104.104.54.131]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.131 }
+:if ([:len [find where list=$AddressList and address=104.104.54.16]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.16 }
+:if ([:len [find where list=$AddressList and address=104.104.54.17]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.17 }
+:if ([:len [find where list=$AddressList and address=104.104.54.18]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.18 }
+:if ([:len [find where list=$AddressList and address=104.104.54.19]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.19 }
+:if ([:len [find where list=$AddressList and address=104.104.54.212]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.212 }
+:if ([:len [find where list=$AddressList and address=104.104.54.24]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.24 }
+:if ([:len [find where list=$AddressList and address=104.104.54.25]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.25 }
+:if ([:len [find where list=$AddressList and address=104.104.54.26]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.26 }
+:if ([:len [find where list=$AddressList and address=104.104.54.27]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.27 }
+:if ([:len [find where list=$AddressList and address=104.104.54.32]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.32 }
+:if ([:len [find where list=$AddressList and address=104.104.54.33]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.33 }
+:if ([:len [find where list=$AddressList and address=104.104.54.34]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.34 }
+:if ([:len [find where list=$AddressList and address=104.104.54.35]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.35 }
+:if ([:len [find where list=$AddressList and address=104.104.54.40]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.40 }
+:if ([:len [find where list=$AddressList and address=104.104.54.41]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.41 }
+:if ([:len [find where list=$AddressList and address=104.104.54.42]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.42 }
+:if ([:len [find where list=$AddressList and address=104.104.54.43]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.43 }
+:if ([:len [find where list=$AddressList and address=104.104.54.48]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.48 }
+:if ([:len [find where list=$AddressList and address=104.104.54.49]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.49 }
+:if ([:len [find where list=$AddressList and address=104.104.54.50]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.50 }
+:if ([:len [find where list=$AddressList and address=104.104.54.51]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.51 }
+:if ([:len [find where list=$AddressList and address=104.104.54.57]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.57 }
+:if ([:len [find where list=$AddressList and address=104.104.54.58]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.58 }
+:if ([:len [find where list=$AddressList and address=104.104.54.59]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.59 }
+:if ([:len [find where list=$AddressList and address=104.104.54.65]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.65 }
+:if ([:len [find where list=$AddressList and address=104.104.54.67]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.67 }
+:if ([:len [find where list=$AddressList and address=104.104.54.73]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.73 }
+:if ([:len [find where list=$AddressList and address=104.104.54.75]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.75 }
+:if ([:len [find where list=$AddressList and address=104.104.54.8]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.8 }
+:if ([:len [find where list=$AddressList and address=104.104.54.80]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.80 }
+:if ([:len [find where list=$AddressList and address=104.104.54.81]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.81 }
+:if ([:len [find where list=$AddressList and address=104.104.54.88]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.88 }
+:if ([:len [find where list=$AddressList and address=104.104.54.9]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.9 }
+:if ([:len [find where list=$AddressList and address=104.104.54.90]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.90 }
+:if ([:len [find where list=$AddressList and address=104.104.54.91]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.91 }
+:if ([:len [find where list=$AddressList and address=104.104.54.97]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.97 }
+:if ([:len [find where list=$AddressList and address=104.104.54.98]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.98 }
+:if ([:len [find where list=$AddressList and address=104.104.54.99]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.54.99 }
+:if ([:len [find where list=$AddressList and address=104.104.55.34]] = 0) do={ add list=$AddressList comment=spotify.com address=104.104.55.34 }
+:if ([:len [find where list=$AddressList and address=104.109.128.147]] = 0) do={ add list=$AddressList comment=spotify.com address=104.109.128.147 }
+:if ([:len [find where list=$AddressList and address=104.109.128.161]] = 0) do={ add list=$AddressList comment=spotify.com address=104.109.128.161 }
+:if ([:len [find where list=$AddressList and address=104.109.128.184]] = 0) do={ add list=$AddressList comment=spotify.com address=104.109.128.184 }
+:if ([:len [find where list=$AddressList and address=104.109.128.99]] = 0) do={ add list=$AddressList comment=spotify.com address=104.109.128.99 }
+:if ([:len [find where list=$AddressList and address=104.109.143.23]] = 0) do={ add list=$AddressList comment=spotify.com address=104.109.143.23 }
+:if ([:len [find where list=$AddressList and address=104.109.143.9]] = 0) do={ add list=$AddressList comment=spotify.com address=104.109.143.9 }
+:if ([:len [find where list=$AddressList and address=104.110.191.172]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.172 }
+:if ([:len [find where list=$AddressList and address=104.110.191.173]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.173 }
+:if ([:len [find where list=$AddressList and address=104.110.191.176]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.176 }
+:if ([:len [find where list=$AddressList and address=104.110.191.177]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.177 }
+:if ([:len [find where list=$AddressList and address=104.110.191.179]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.179 }
+:if ([:len [find where list=$AddressList and address=104.110.191.180]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.180 }
+:if ([:len [find where list=$AddressList and address=104.110.191.187]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.187 }
+:if ([:len [find where list=$AddressList and address=104.110.191.189]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.189 }
+:if ([:len [find where list=$AddressList and address=104.110.191.190]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.190 }
+:if ([:len [find where list=$AddressList and address=104.110.191.192]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.192 }
+:if ([:len [find where list=$AddressList and address=104.110.191.195]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.195 }
+:if ([:len [find where list=$AddressList and address=104.110.191.198]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.198 }
+:if ([:len [find where list=$AddressList and address=104.110.191.201]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.201 }
+:if ([:len [find where list=$AddressList and address=104.110.191.202]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.202 }
+:if ([:len [find where list=$AddressList and address=104.110.191.203]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.203 }
+:if ([:len [find where list=$AddressList and address=104.110.191.211]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.191.211 }
+:if ([:len [find where list=$AddressList and address=104.110.240.201]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.240.201 }
+:if ([:len [find where list=$AddressList and address=104.110.240.211]] = 0) do={ add list=$AddressList comment=spotify.com address=104.110.240.211 }
+:if ([:len [find where list=$AddressList and address=104.116.245.16]] = 0) do={ add list=$AddressList comment=spotify.com address=104.116.245.16 }
+:if ([:len [find where list=$AddressList and address=104.117.76.171]] = 0) do={ add list=$AddressList comment=spotify.com address=104.117.76.171 }
+:if ([:len [find where list=$AddressList and address=104.117.77.177]] = 0) do={ add list=$AddressList comment=spotify.com address=104.117.77.177 }
+:if ([:len [find where list=$AddressList and address=104.117.77.185]] = 0) do={ add list=$AddressList comment=spotify.com address=104.117.77.185 }
+:if ([:len [find where list=$AddressList and address=104.117.77.192]] = 0) do={ add list=$AddressList comment=spotify.com address=104.117.77.192 }
+:if ([:len [find where list=$AddressList and address=104.117.77.210]] = 0) do={ add list=$AddressList comment=spotify.com address=104.117.77.210 }
+:if ([:len [find where list=$AddressList and address=104.117.77.248]] = 0) do={ add list=$AddressList comment=spotify.com address=104.117.77.248 }
+:if ([:len [find where list=$AddressList and address=104.123.68.105]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.105 }
+:if ([:len [find where list=$AddressList and address=104.123.68.114]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.114 }
+:if ([:len [find where list=$AddressList and address=104.123.68.130]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.130 }
+:if ([:len [find where list=$AddressList and address=104.123.68.131]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.131 }
+:if ([:len [find where list=$AddressList and address=104.123.68.155]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.155 }
+:if ([:len [find where list=$AddressList and address=104.123.68.185]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.185 }
+:if ([:len [find where list=$AddressList and address=104.123.68.74]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.74 }
+:if ([:len [find where list=$AddressList and address=104.123.68.75]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.75 }
+:if ([:len [find where list=$AddressList and address=104.123.68.82]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.82 }
+:if ([:len [find where list=$AddressList and address=104.123.68.89]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.89 }
+:if ([:len [find where list=$AddressList and address=104.123.68.96]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.96 }
+:if ([:len [find where list=$AddressList and address=104.123.68.99]] = 0) do={ add list=$AddressList comment=spotify.com address=104.123.68.99 }
+:if ([:len [find where list=$AddressList and address=104.124.11.146]] = 0) do={ add list=$AddressList comment=spotify.com address=104.124.11.146 }
+:if ([:len [find where list=$AddressList and address=104.124.11.202]] = 0) do={ add list=$AddressList comment=spotify.com address=104.124.11.202 }
+:if ([:len [find where list=$AddressList and address=104.154.127.247]] = 0) do={ add list=$AddressList comment=spotify.com address=104.154.127.247 }
+:if ([:len [find where list=$AddressList and address=104.76.220.104]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.104 }
+:if ([:len [find where list=$AddressList and address=104.76.220.107]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.107 }
+:if ([:len [find where list=$AddressList and address=104.76.220.112]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.112 }
+:if ([:len [find where list=$AddressList and address=104.76.220.113]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.113 }
+:if ([:len [find where list=$AddressList and address=104.76.220.128]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.128 }
+:if ([:len [find where list=$AddressList and address=104.76.220.139]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.139 }
+:if ([:len [find where list=$AddressList and address=104.76.220.19]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.19 }
+:if ([:len [find where list=$AddressList and address=104.76.220.226]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.226 }
+:if ([:len [find where list=$AddressList and address=104.76.220.233]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.233 }
+:if ([:len [find where list=$AddressList and address=104.76.220.24]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.24 }
+:if ([:len [find where list=$AddressList and address=104.76.220.25]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.25 }
+:if ([:len [find where list=$AddressList and address=104.76.220.26]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.26 }
+:if ([:len [find where list=$AddressList and address=104.76.220.27]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.27 }
+:if ([:len [find where list=$AddressList and address=104.76.220.32]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.32 }
+:if ([:len [find where list=$AddressList and address=104.76.220.33]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.33 }
+:if ([:len [find where list=$AddressList and address=104.76.220.34]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.34 }
+:if ([:len [find where list=$AddressList and address=104.76.220.40]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.40 }
+:if ([:len [find where list=$AddressList and address=104.76.220.41]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.41 }
+:if ([:len [find where list=$AddressList and address=104.76.220.42]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.42 }
+:if ([:len [find where list=$AddressList and address=104.76.220.43]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.43 }
+:if ([:len [find where list=$AddressList and address=104.76.220.48]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.48 }
+:if ([:len [find where list=$AddressList and address=104.76.220.49]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.49 }
+:if ([:len [find where list=$AddressList and address=104.76.220.50]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.50 }
+:if ([:len [find where list=$AddressList and address=104.76.220.51]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.51 }
+:if ([:len [find where list=$AddressList and address=104.76.220.56]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.56 }
+:if ([:len [find where list=$AddressList and address=104.76.220.57]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.57 }
+:if ([:len [find where list=$AddressList and address=104.76.220.58]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.58 }
+:if ([:len [find where list=$AddressList and address=104.76.220.59]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.59 }
+:if ([:len [find where list=$AddressList and address=104.76.220.64]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.64 }
+:if ([:len [find where list=$AddressList and address=104.76.220.65]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.65 }
+:if ([:len [find where list=$AddressList and address=104.76.220.66]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.66 }
+:if ([:len [find where list=$AddressList and address=104.76.220.72]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.72 }
+:if ([:len [find where list=$AddressList and address=104.76.220.73]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.73 }
+:if ([:len [find where list=$AddressList and address=104.76.220.74]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.74 }
+:if ([:len [find where list=$AddressList and address=104.76.220.75]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.75 }
+:if ([:len [find where list=$AddressList and address=104.76.220.81]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.81 }
+:if ([:len [find where list=$AddressList and address=104.76.220.82]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.82 }
+:if ([:len [find where list=$AddressList and address=104.76.220.83]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.83 }
+:if ([:len [find where list=$AddressList and address=104.76.220.88]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.88 }
+:if ([:len [find where list=$AddressList and address=104.76.220.89]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.89 }
+:if ([:len [find where list=$AddressList and address=104.76.220.90]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.90 }
+:if ([:len [find where list=$AddressList and address=104.76.220.91]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.91 }
+:if ([:len [find where list=$AddressList and address=104.76.220.96]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.96 }
+:if ([:len [find where list=$AddressList and address=104.76.220.98]] = 0) do={ add list=$AddressList comment=spotify.com address=104.76.220.98 }
+:if ([:len [find where list=$AddressList and address=104.79.93.219]] = 0) do={ add list=$AddressList comment=spotify.com address=104.79.93.219 }
+:if ([:len [find where list=$AddressList and address=104.79.93.232]] = 0) do={ add list=$AddressList comment=spotify.com address=104.79.93.232 }
+:if ([:len [find where list=$AddressList and address=104.79.93.242]] = 0) do={ add list=$AddressList comment=spotify.com address=104.79.93.242 }
+:if ([:len [find where list=$AddressList and address=104.79.93.243]] = 0) do={ add list=$AddressList comment=spotify.com address=104.79.93.243 }
+:if ([:len [find where list=$AddressList and address=104.79.93.248]] = 0) do={ add list=$AddressList comment=spotify.com address=104.79.93.248 }
+:if ([:len [find where list=$AddressList and address=104.81.60.10]] = 0) do={ add list=$AddressList comment=spotify.com address=104.81.60.10 }
+:if ([:len [find where list=$AddressList and address=104.81.60.19]] = 0) do={ add list=$AddressList comment=spotify.com address=104.81.60.19 }
+:if ([:len [find where list=$AddressList and address=104.81.60.25]] = 0) do={ add list=$AddressList comment=spotify.com address=104.81.60.25 }
+:if ([:len [find where list=$AddressList and address=104.81.60.26]] = 0) do={ add list=$AddressList comment=spotify.com address=104.81.60.26 }
+:if ([:len [find where list=$AddressList and address=104.81.60.27]] = 0) do={ add list=$AddressList comment=spotify.com address=104.81.60.27 }

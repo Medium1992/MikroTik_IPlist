@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=thetruestory.news address=104.21.112.1} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=104.21.16.1} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=104.21.32.1} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=104.21.48.1} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=104.21.64.1} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=104.21.80.1} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=104.21.93.3} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=104.21.96.1} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.128.15} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.128.50} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.128.58} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.128.60} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.167.112} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.167.39} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.167.43} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.167.7} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.122} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.23} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.26} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.29} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.38} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.63} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.65} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.71} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.76} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.8} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.92} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.192.98} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.233.27} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.233.79} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.233.81} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.233.83} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.26.100} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.26.18} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.26.19} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.26.63} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.36.114} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.36.116} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.36.12} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.36.16} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.36.18} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.36.68} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.36.71} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.36.95} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.116} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.125} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.127} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.15} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.16} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.26} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.31} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.41} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.46} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.72} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.88} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.51.89} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.64.24} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.64.47} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.64.72} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.64.9} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.7.110} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.7.113} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.7.38} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.7.54} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.7.67} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.7.73} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.7.80} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.138.7.94} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.2.111} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.2.2} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.2.21} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.2.33} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.10} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.102} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.103} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.113} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.122} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.17} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.26} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.27} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.30} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.31} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.38} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.4} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.5} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.58} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.68} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.72} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.73} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.78} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.8} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.81} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.85} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.22.9} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.112} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.117} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.122} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.124} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.18} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.19} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.36} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.42} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.50} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.74} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.60.83} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.83.103} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.83.115} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.83.35} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.156.83.85} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.109.105} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.109.129} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.109.47} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.109.53} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.113.115} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.113.40} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.113.70} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.113.75} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.125.105} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.125.123} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.125.34} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.125.56} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.173.109} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.173.124} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.173.126} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.173.9} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.188.14} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.188.17} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.188.67} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.188.91} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.194.116} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.194.118} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.194.26} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.194.28} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.194.4} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.194.55} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.194.8} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.194.89} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.109} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.11} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.114} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.115} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.121} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.126} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.18} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.19} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.23} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.36} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.39} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.41} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.43} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.54} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.56} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.6} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.61} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.63} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.64} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.7} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.76} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.8} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.84} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.87} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.89} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.214.96} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.100} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.103} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.109} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.111} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.12} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.121} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.20} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.30} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.44} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.6} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.60} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.62} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.68} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.78} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.8} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.82} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.84} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.229.90} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.104} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.123} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.19} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.25} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.32} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.34} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.4} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.40} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.6} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.61} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.78} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.4.87} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.60.109} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.60.41} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.60.51} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.60.88} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.98.3} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.98.41} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.98.44} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.98.70} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.98.82} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.98.86} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.98.90} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.157.98.99} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.137.109} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.137.120} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.137.124} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.137.78} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.173.101} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.173.13} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.173.21} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.173.86} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.194.129} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.194.38} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.194.46} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.194.67} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.46.108} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.46.127} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.46.32} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=108.158.46.60} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.100} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.112} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.114} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.115} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.122} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.125} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.127} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.14} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.24} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.26} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.46} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.48} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.54} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.58} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.78} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.103.9} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.106.125} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.106.41} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.106.9} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.106.96} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.115.110} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.115.25} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.115.34} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.115.53} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.185.129} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.185.25} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.185.63} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.185.87} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.101} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.109} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.112} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.2} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.20} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.32} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.56} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.6} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.69} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.75} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.95} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.186.98} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.189.126} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.189.43} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.189.53} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.189.83} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.68.18} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.68.30} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.68.40} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.68.46} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.68.61} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.68.7} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.68.79} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.68.89} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.108} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.117} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.128} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.14} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.26} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.35} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.60} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.62} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.63} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.76} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.84} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.224.81.95} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.104} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.106} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.11} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.110} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.125} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.15} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.24} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.51} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.55} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.68} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.70} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.76} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.78} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.9} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.93} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.10.97} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.102} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.111} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.119} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.21} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.29} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.35} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.42} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.6} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.62} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.67} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.8} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.239.91} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.35.107} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.35.55} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.35.58} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.35.81} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.63.104} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.63.31} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.63.75} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.225.63.85} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.226.175.116} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.226.175.3} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.226.175.71} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.226.175.97} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.226.94.102} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.226.94.107} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.226.94.119} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.226.94.9} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.104} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.11} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.113} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.116} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.124} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.125} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.18} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.25} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.29} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.31} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.33} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.36} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.39} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.41} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.47} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.48} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.69} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.82} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.83} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.86} on-error {}
-:do {add list=$AddressList comment=thetruestory.news address=13.227.146.98} on-error {}
+:if ([:len [find where list=$AddressList and address=104.21.112.1]] = 0) do={ add list=$AddressList comment=thetruestory.news address=104.21.112.1 }
+:if ([:len [find where list=$AddressList and address=104.21.16.1]] = 0) do={ add list=$AddressList comment=thetruestory.news address=104.21.16.1 }
+:if ([:len [find where list=$AddressList and address=104.21.32.1]] = 0) do={ add list=$AddressList comment=thetruestory.news address=104.21.32.1 }
+:if ([:len [find where list=$AddressList and address=104.21.48.1]] = 0) do={ add list=$AddressList comment=thetruestory.news address=104.21.48.1 }
+:if ([:len [find where list=$AddressList and address=104.21.64.1]] = 0) do={ add list=$AddressList comment=thetruestory.news address=104.21.64.1 }
+:if ([:len [find where list=$AddressList and address=104.21.80.1]] = 0) do={ add list=$AddressList comment=thetruestory.news address=104.21.80.1 }
+:if ([:len [find where list=$AddressList and address=104.21.93.3]] = 0) do={ add list=$AddressList comment=thetruestory.news address=104.21.93.3 }
+:if ([:len [find where list=$AddressList and address=104.21.96.1]] = 0) do={ add list=$AddressList comment=thetruestory.news address=104.21.96.1 }
+:if ([:len [find where list=$AddressList and address=108.138.128.15]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.128.15 }
+:if ([:len [find where list=$AddressList and address=108.138.128.50]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.128.50 }
+:if ([:len [find where list=$AddressList and address=108.138.128.58]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.128.58 }
+:if ([:len [find where list=$AddressList and address=108.138.128.60]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.128.60 }
+:if ([:len [find where list=$AddressList and address=108.138.167.112]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.167.112 }
+:if ([:len [find where list=$AddressList and address=108.138.167.39]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.167.39 }
+:if ([:len [find where list=$AddressList and address=108.138.167.43]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.167.43 }
+:if ([:len [find where list=$AddressList and address=108.138.167.7]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.167.7 }
+:if ([:len [find where list=$AddressList and address=108.138.192.122]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.122 }
+:if ([:len [find where list=$AddressList and address=108.138.192.23]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.23 }
+:if ([:len [find where list=$AddressList and address=108.138.192.26]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.26 }
+:if ([:len [find where list=$AddressList and address=108.138.192.29]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.29 }
+:if ([:len [find where list=$AddressList and address=108.138.192.38]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.38 }
+:if ([:len [find where list=$AddressList and address=108.138.192.63]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.63 }
+:if ([:len [find where list=$AddressList and address=108.138.192.65]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.65 }
+:if ([:len [find where list=$AddressList and address=108.138.192.71]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.71 }
+:if ([:len [find where list=$AddressList and address=108.138.192.76]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.76 }
+:if ([:len [find where list=$AddressList and address=108.138.192.8]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.8 }
+:if ([:len [find where list=$AddressList and address=108.138.192.92]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.92 }
+:if ([:len [find where list=$AddressList and address=108.138.192.98]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.192.98 }
+:if ([:len [find where list=$AddressList and address=108.138.233.27]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.233.27 }
+:if ([:len [find where list=$AddressList and address=108.138.233.79]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.233.79 }
+:if ([:len [find where list=$AddressList and address=108.138.233.81]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.233.81 }
+:if ([:len [find where list=$AddressList and address=108.138.233.83]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.233.83 }
+:if ([:len [find where list=$AddressList and address=108.138.26.100]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.26.100 }
+:if ([:len [find where list=$AddressList and address=108.138.26.18]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.26.18 }
+:if ([:len [find where list=$AddressList and address=108.138.26.19]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.26.19 }
+:if ([:len [find where list=$AddressList and address=108.138.26.63]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.26.63 }
+:if ([:len [find where list=$AddressList and address=108.138.36.114]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.36.114 }
+:if ([:len [find where list=$AddressList and address=108.138.36.116]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.36.116 }
+:if ([:len [find where list=$AddressList and address=108.138.36.12]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.36.12 }
+:if ([:len [find where list=$AddressList and address=108.138.36.16]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.36.16 }
+:if ([:len [find where list=$AddressList and address=108.138.36.18]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.36.18 }
+:if ([:len [find where list=$AddressList and address=108.138.36.68]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.36.68 }
+:if ([:len [find where list=$AddressList and address=108.138.36.71]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.36.71 }
+:if ([:len [find where list=$AddressList and address=108.138.36.95]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.36.95 }
+:if ([:len [find where list=$AddressList and address=108.138.51.116]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.116 }
+:if ([:len [find where list=$AddressList and address=108.138.51.125]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.125 }
+:if ([:len [find where list=$AddressList and address=108.138.51.127]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.127 }
+:if ([:len [find where list=$AddressList and address=108.138.51.15]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.15 }
+:if ([:len [find where list=$AddressList and address=108.138.51.16]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.16 }
+:if ([:len [find where list=$AddressList and address=108.138.51.26]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.26 }
+:if ([:len [find where list=$AddressList and address=108.138.51.31]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.31 }
+:if ([:len [find where list=$AddressList and address=108.138.51.41]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.41 }
+:if ([:len [find where list=$AddressList and address=108.138.51.46]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.46 }
+:if ([:len [find where list=$AddressList and address=108.138.51.72]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.72 }
+:if ([:len [find where list=$AddressList and address=108.138.51.88]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.88 }
+:if ([:len [find where list=$AddressList and address=108.138.51.89]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.51.89 }
+:if ([:len [find where list=$AddressList and address=108.138.64.24]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.64.24 }
+:if ([:len [find where list=$AddressList and address=108.138.64.47]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.64.47 }
+:if ([:len [find where list=$AddressList and address=108.138.64.72]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.64.72 }
+:if ([:len [find where list=$AddressList and address=108.138.64.9]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.64.9 }
+:if ([:len [find where list=$AddressList and address=108.138.7.110]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.7.110 }
+:if ([:len [find where list=$AddressList and address=108.138.7.113]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.7.113 }
+:if ([:len [find where list=$AddressList and address=108.138.7.38]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.7.38 }
+:if ([:len [find where list=$AddressList and address=108.138.7.54]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.7.54 }
+:if ([:len [find where list=$AddressList and address=108.138.7.67]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.7.67 }
+:if ([:len [find where list=$AddressList and address=108.138.7.73]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.7.73 }
+:if ([:len [find where list=$AddressList and address=108.138.7.80]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.7.80 }
+:if ([:len [find where list=$AddressList and address=108.138.7.94]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.138.7.94 }
+:if ([:len [find where list=$AddressList and address=108.156.2.111]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.2.111 }
+:if ([:len [find where list=$AddressList and address=108.156.2.2]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.2.2 }
+:if ([:len [find where list=$AddressList and address=108.156.2.21]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.2.21 }
+:if ([:len [find where list=$AddressList and address=108.156.2.33]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.2.33 }
+:if ([:len [find where list=$AddressList and address=108.156.22.10]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.10 }
+:if ([:len [find where list=$AddressList and address=108.156.22.102]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.102 }
+:if ([:len [find where list=$AddressList and address=108.156.22.103]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.103 }
+:if ([:len [find where list=$AddressList and address=108.156.22.113]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.113 }
+:if ([:len [find where list=$AddressList and address=108.156.22.122]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.122 }
+:if ([:len [find where list=$AddressList and address=108.156.22.17]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.17 }
+:if ([:len [find where list=$AddressList and address=108.156.22.26]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.26 }
+:if ([:len [find where list=$AddressList and address=108.156.22.27]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.27 }
+:if ([:len [find where list=$AddressList and address=108.156.22.30]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.30 }
+:if ([:len [find where list=$AddressList and address=108.156.22.31]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.31 }
+:if ([:len [find where list=$AddressList and address=108.156.22.38]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.38 }
+:if ([:len [find where list=$AddressList and address=108.156.22.4]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.4 }
+:if ([:len [find where list=$AddressList and address=108.156.22.5]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.5 }
+:if ([:len [find where list=$AddressList and address=108.156.22.58]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.58 }
+:if ([:len [find where list=$AddressList and address=108.156.22.68]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.68 }
+:if ([:len [find where list=$AddressList and address=108.156.22.72]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.72 }
+:if ([:len [find where list=$AddressList and address=108.156.22.73]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.73 }
+:if ([:len [find where list=$AddressList and address=108.156.22.78]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.78 }
+:if ([:len [find where list=$AddressList and address=108.156.22.8]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.8 }
+:if ([:len [find where list=$AddressList and address=108.156.22.81]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.81 }
+:if ([:len [find where list=$AddressList and address=108.156.22.85]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.85 }
+:if ([:len [find where list=$AddressList and address=108.156.22.9]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.22.9 }
+:if ([:len [find where list=$AddressList and address=108.156.60.112]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.112 }
+:if ([:len [find where list=$AddressList and address=108.156.60.117]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.117 }
+:if ([:len [find where list=$AddressList and address=108.156.60.122]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.122 }
+:if ([:len [find where list=$AddressList and address=108.156.60.124]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.124 }
+:if ([:len [find where list=$AddressList and address=108.156.60.18]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.18 }
+:if ([:len [find where list=$AddressList and address=108.156.60.19]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.19 }
+:if ([:len [find where list=$AddressList and address=108.156.60.36]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.36 }
+:if ([:len [find where list=$AddressList and address=108.156.60.42]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.42 }
+:if ([:len [find where list=$AddressList and address=108.156.60.50]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.50 }
+:if ([:len [find where list=$AddressList and address=108.156.60.74]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.74 }
+:if ([:len [find where list=$AddressList and address=108.156.60.83]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.60.83 }
+:if ([:len [find where list=$AddressList and address=108.156.83.103]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.83.103 }
+:if ([:len [find where list=$AddressList and address=108.156.83.115]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.83.115 }
+:if ([:len [find where list=$AddressList and address=108.156.83.35]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.83.35 }
+:if ([:len [find where list=$AddressList and address=108.156.83.85]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.156.83.85 }
+:if ([:len [find where list=$AddressList and address=108.157.109.105]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.109.105 }
+:if ([:len [find where list=$AddressList and address=108.157.109.129]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.109.129 }
+:if ([:len [find where list=$AddressList and address=108.157.109.47]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.109.47 }
+:if ([:len [find where list=$AddressList and address=108.157.109.53]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.109.53 }
+:if ([:len [find where list=$AddressList and address=108.157.113.115]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.113.115 }
+:if ([:len [find where list=$AddressList and address=108.157.113.40]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.113.40 }
+:if ([:len [find where list=$AddressList and address=108.157.113.70]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.113.70 }
+:if ([:len [find where list=$AddressList and address=108.157.113.75]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.113.75 }
+:if ([:len [find where list=$AddressList and address=108.157.125.105]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.125.105 }
+:if ([:len [find where list=$AddressList and address=108.157.125.123]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.125.123 }
+:if ([:len [find where list=$AddressList and address=108.157.125.34]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.125.34 }
+:if ([:len [find where list=$AddressList and address=108.157.125.56]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.125.56 }
+:if ([:len [find where list=$AddressList and address=108.157.173.109]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.173.109 }
+:if ([:len [find where list=$AddressList and address=108.157.173.124]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.173.124 }
+:if ([:len [find where list=$AddressList and address=108.157.173.126]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.173.126 }
+:if ([:len [find where list=$AddressList and address=108.157.173.9]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.173.9 }
+:if ([:len [find where list=$AddressList and address=108.157.188.14]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.188.14 }
+:if ([:len [find where list=$AddressList and address=108.157.188.17]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.188.17 }
+:if ([:len [find where list=$AddressList and address=108.157.188.67]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.188.67 }
+:if ([:len [find where list=$AddressList and address=108.157.188.91]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.188.91 }
+:if ([:len [find where list=$AddressList and address=108.157.194.116]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.194.116 }
+:if ([:len [find where list=$AddressList and address=108.157.194.118]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.194.118 }
+:if ([:len [find where list=$AddressList and address=108.157.194.26]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.194.26 }
+:if ([:len [find where list=$AddressList and address=108.157.194.28]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.194.28 }
+:if ([:len [find where list=$AddressList and address=108.157.194.4]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.194.4 }
+:if ([:len [find where list=$AddressList and address=108.157.194.55]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.194.55 }
+:if ([:len [find where list=$AddressList and address=108.157.194.8]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.194.8 }
+:if ([:len [find where list=$AddressList and address=108.157.194.89]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.194.89 }
+:if ([:len [find where list=$AddressList and address=108.157.214.109]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.109 }
+:if ([:len [find where list=$AddressList and address=108.157.214.11]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.11 }
+:if ([:len [find where list=$AddressList and address=108.157.214.114]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.114 }
+:if ([:len [find where list=$AddressList and address=108.157.214.115]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.115 }
+:if ([:len [find where list=$AddressList and address=108.157.214.121]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.121 }
+:if ([:len [find where list=$AddressList and address=108.157.214.126]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.126 }
+:if ([:len [find where list=$AddressList and address=108.157.214.18]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.18 }
+:if ([:len [find where list=$AddressList and address=108.157.214.19]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.19 }
+:if ([:len [find where list=$AddressList and address=108.157.214.23]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.23 }
+:if ([:len [find where list=$AddressList and address=108.157.214.36]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.36 }
+:if ([:len [find where list=$AddressList and address=108.157.214.39]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.39 }
+:if ([:len [find where list=$AddressList and address=108.157.214.41]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.41 }
+:if ([:len [find where list=$AddressList and address=108.157.214.43]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.43 }
+:if ([:len [find where list=$AddressList and address=108.157.214.54]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.54 }
+:if ([:len [find where list=$AddressList and address=108.157.214.56]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.56 }
+:if ([:len [find where list=$AddressList and address=108.157.214.6]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.6 }
+:if ([:len [find where list=$AddressList and address=108.157.214.61]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.61 }
+:if ([:len [find where list=$AddressList and address=108.157.214.63]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.63 }
+:if ([:len [find where list=$AddressList and address=108.157.214.64]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.64 }
+:if ([:len [find where list=$AddressList and address=108.157.214.7]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.7 }
+:if ([:len [find where list=$AddressList and address=108.157.214.76]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.76 }
+:if ([:len [find where list=$AddressList and address=108.157.214.8]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.8 }
+:if ([:len [find where list=$AddressList and address=108.157.214.84]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.84 }
+:if ([:len [find where list=$AddressList and address=108.157.214.87]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.87 }
+:if ([:len [find where list=$AddressList and address=108.157.214.89]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.89 }
+:if ([:len [find where list=$AddressList and address=108.157.214.96]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.214.96 }
+:if ([:len [find where list=$AddressList and address=108.157.229.100]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.100 }
+:if ([:len [find where list=$AddressList and address=108.157.229.103]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.103 }
+:if ([:len [find where list=$AddressList and address=108.157.229.109]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.109 }
+:if ([:len [find where list=$AddressList and address=108.157.229.111]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.111 }
+:if ([:len [find where list=$AddressList and address=108.157.229.12]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.12 }
+:if ([:len [find where list=$AddressList and address=108.157.229.121]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.121 }
+:if ([:len [find where list=$AddressList and address=108.157.229.20]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.20 }
+:if ([:len [find where list=$AddressList and address=108.157.229.30]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.30 }
+:if ([:len [find where list=$AddressList and address=108.157.229.44]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.44 }
+:if ([:len [find where list=$AddressList and address=108.157.229.6]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.6 }
+:if ([:len [find where list=$AddressList and address=108.157.229.60]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.60 }
+:if ([:len [find where list=$AddressList and address=108.157.229.62]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.62 }
+:if ([:len [find where list=$AddressList and address=108.157.229.68]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.68 }
+:if ([:len [find where list=$AddressList and address=108.157.229.78]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.78 }
+:if ([:len [find where list=$AddressList and address=108.157.229.8]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.8 }
+:if ([:len [find where list=$AddressList and address=108.157.229.82]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.82 }
+:if ([:len [find where list=$AddressList and address=108.157.229.84]] = 0) do={ add list=$AddressList comment=thetruestory.news address=108.157.229.84 }

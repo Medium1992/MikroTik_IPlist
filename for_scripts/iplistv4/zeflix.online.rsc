@@ -1,52 +1,52 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=zeflix.online address=104.21.23.33} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=104.21.3.237} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=104.21.36.85} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=104.21.8.251} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=104.21.94.131} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=104.21.96.36} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=139.162.174.209} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=139.162.181.76} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.104.149.86} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.104.203.186} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.104.251.198} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.233.219.123} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.233.219.49} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.233.219.78} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.237.146.25} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.237.146.38} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.237.146.8} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.67.131.85} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.67.136.79} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.67.172.66} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.67.188.219} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.67.190.175} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=172.67.208.163} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=185.53.179.113} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.96.0} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.96.1} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.96.10} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.96.12} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.96.2} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.96.3} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.96.7} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.96.8} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.96.9} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.97.0} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.97.1} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.97.10} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.97.12} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.97.2} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.97.3} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.97.7} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.97.8} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=188.114.97.9} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=192.155.84.236} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=193.176.1.47} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=23.239.3.104} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=23.239.4.93} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=66.175.216.36} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=74.207.241.245} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=75.2.37.224} on-error {}
-:do {add list=$AddressList comment=zeflix.online address=99.83.151.79} on-error {}
+:if ([:len [find where list=$AddressList and address=104.21.23.33]] = 0) do={ add list=$AddressList comment=zeflix.online address=104.21.23.33 }
+:if ([:len [find where list=$AddressList and address=104.21.3.237]] = 0) do={ add list=$AddressList comment=zeflix.online address=104.21.3.237 }
+:if ([:len [find where list=$AddressList and address=104.21.36.85]] = 0) do={ add list=$AddressList comment=zeflix.online address=104.21.36.85 }
+:if ([:len [find where list=$AddressList and address=104.21.8.251]] = 0) do={ add list=$AddressList comment=zeflix.online address=104.21.8.251 }
+:if ([:len [find where list=$AddressList and address=104.21.94.131]] = 0) do={ add list=$AddressList comment=zeflix.online address=104.21.94.131 }
+:if ([:len [find where list=$AddressList and address=104.21.96.36]] = 0) do={ add list=$AddressList comment=zeflix.online address=104.21.96.36 }
+:if ([:len [find where list=$AddressList and address=139.162.174.209]] = 0) do={ add list=$AddressList comment=zeflix.online address=139.162.174.209 }
+:if ([:len [find where list=$AddressList and address=139.162.181.76]] = 0) do={ add list=$AddressList comment=zeflix.online address=139.162.181.76 }
+:if ([:len [find where list=$AddressList and address=172.104.149.86]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.104.149.86 }
+:if ([:len [find where list=$AddressList and address=172.104.203.186]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.104.203.186 }
+:if ([:len [find where list=$AddressList and address=172.104.251.198]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.104.251.198 }
+:if ([:len [find where list=$AddressList and address=172.233.219.123]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.233.219.123 }
+:if ([:len [find where list=$AddressList and address=172.233.219.49]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.233.219.49 }
+:if ([:len [find where list=$AddressList and address=172.233.219.78]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.233.219.78 }
+:if ([:len [find where list=$AddressList and address=172.237.146.25]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.237.146.25 }
+:if ([:len [find where list=$AddressList and address=172.237.146.38]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.237.146.38 }
+:if ([:len [find where list=$AddressList and address=172.237.146.8]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.237.146.8 }
+:if ([:len [find where list=$AddressList and address=172.67.131.85]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.67.131.85 }
+:if ([:len [find where list=$AddressList and address=172.67.136.79]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.67.136.79 }
+:if ([:len [find where list=$AddressList and address=172.67.172.66]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.67.172.66 }
+:if ([:len [find where list=$AddressList and address=172.67.188.219]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.67.188.219 }
+:if ([:len [find where list=$AddressList and address=172.67.190.175]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.67.190.175 }
+:if ([:len [find where list=$AddressList and address=172.67.208.163]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.67.208.163 }
+:if ([:len [find where list=$AddressList and address=185.53.179.113]] = 0) do={ add list=$AddressList comment=zeflix.online address=185.53.179.113 }
+:if ([:len [find where list=$AddressList and address=188.114.96.0]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.96.0 }
+:if ([:len [find where list=$AddressList and address=188.114.96.1]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.96.1 }
+:if ([:len [find where list=$AddressList and address=188.114.96.10]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.96.10 }
+:if ([:len [find where list=$AddressList and address=188.114.96.12]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.96.12 }
+:if ([:len [find where list=$AddressList and address=188.114.96.2]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.96.2 }
+:if ([:len [find where list=$AddressList and address=188.114.96.3]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.96.3 }
+:if ([:len [find where list=$AddressList and address=188.114.96.7]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.96.7 }
+:if ([:len [find where list=$AddressList and address=188.114.96.8]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.96.8 }
+:if ([:len [find where list=$AddressList and address=188.114.96.9]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.96.9 }
+:if ([:len [find where list=$AddressList and address=188.114.97.0]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.97.0 }
+:if ([:len [find where list=$AddressList and address=188.114.97.1]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.97.1 }
+:if ([:len [find where list=$AddressList and address=188.114.97.10]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.97.10 }
+:if ([:len [find where list=$AddressList and address=188.114.97.12]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.97.12 }
+:if ([:len [find where list=$AddressList and address=188.114.97.2]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.97.2 }
+:if ([:len [find where list=$AddressList and address=188.114.97.3]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.97.3 }
+:if ([:len [find where list=$AddressList and address=188.114.97.7]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.97.7 }
+:if ([:len [find where list=$AddressList and address=188.114.97.8]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.97.8 }
+:if ([:len [find where list=$AddressList and address=188.114.97.9]] = 0) do={ add list=$AddressList comment=zeflix.online address=188.114.97.9 }
+:if ([:len [find where list=$AddressList and address=192.155.84.236]] = 0) do={ add list=$AddressList comment=zeflix.online address=192.155.84.236 }
+:if ([:len [find where list=$AddressList and address=193.176.1.47]] = 0) do={ add list=$AddressList comment=zeflix.online address=193.176.1.47 }
+:if ([:len [find where list=$AddressList and address=23.239.3.104]] = 0) do={ add list=$AddressList comment=zeflix.online address=23.239.3.104 }
+:if ([:len [find where list=$AddressList and address=23.239.4.93]] = 0) do={ add list=$AddressList comment=zeflix.online address=23.239.4.93 }
+:if ([:len [find where list=$AddressList and address=66.175.216.36]] = 0) do={ add list=$AddressList comment=zeflix.online address=66.175.216.36 }
+:if ([:len [find where list=$AddressList and address=74.207.241.245]] = 0) do={ add list=$AddressList comment=zeflix.online address=74.207.241.245 }
+:if ([:len [find where list=$AddressList and address=75.2.37.224]] = 0) do={ add list=$AddressList comment=zeflix.online address=75.2.37.224 }
+:if ([:len [find where list=$AddressList and address=99.83.151.79]] = 0) do={ add list=$AddressList comment=zeflix.online address=99.83.151.79 }

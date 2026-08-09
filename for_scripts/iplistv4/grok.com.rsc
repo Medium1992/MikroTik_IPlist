@@ -1,122 +1,124 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=grok.com address=104.18.18.80} on-error {}
-:do {add list=$AddressList comment=grok.com address=104.18.19.80} on-error {}
-:do {add list=$AddressList comment=grok.com address=104.18.26.175} on-error {}
-:do {add list=$AddressList comment=grok.com address=104.18.27.175} on-error {}
-:do {add list=$AddressList comment=grok.com address=104.18.28.234} on-error {}
-:do {add list=$AddressList comment=grok.com address=104.18.29.234} on-error {}
-:do {add list=$AddressList comment=grok.com address=104.20.19.247} on-error {}
-:do {add list=$AddressList comment=grok.com address=13.248.245.245} on-error {}
-:do {add list=$AddressList comment=grok.com address=13.52.0.118} on-error {}
-:do {add list=$AddressList comment=grok.com address=13.52.85.43} on-error {}
-:do {add list=$AddressList comment=grok.com address=13.56.24.14} on-error {}
-:do {add list=$AddressList comment=grok.com address=13.56.29.14} on-error {}
-:do {add list=$AddressList comment=grok.com address=13.56.66.168} on-error {}
-:do {add list=$AddressList comment=grok.com address=13.56.70.3} on-error {}
-:do {add list=$AddressList comment=grok.com address=13.57.123.163} on-error {}
-:do {add list=$AddressList comment=grok.com address=13.57.140.229} on-error {}
-:do {add list=$AddressList comment=grok.com address=13.57.55.83} on-error {}
-:do {add list=$AddressList comment=grok.com address=172.66.169.83} on-error {}
-:do {add list=$AddressList comment=grok.com address=18.144.112.110} on-error {}
-:do {add list=$AddressList comment=grok.com address=184.169.153.194} on-error {}
-:do {add list=$AddressList comment=grok.com address=184.169.167.71} on-error {}
-:do {add list=$AddressList comment=grok.com address=184.169.220.42} on-error {}
-:do {add list=$AddressList comment=grok.com address=184.169.222.235} on-error {}
-:do {add list=$AddressList comment=grok.com address=188.114.98.224} on-error {}
-:do {add list=$AddressList comment=grok.com address=188.114.98.228} on-error {}
-:do {add list=$AddressList comment=grok.com address=188.114.99.224} on-error {}
-:do {add list=$AddressList comment=grok.com address=188.114.99.228} on-error {}
-:do {add list=$AddressList comment=grok.com address=199.16.156.218} on-error {}
-:do {add list=$AddressList comment=grok.com address=199.16.156.221} on-error {}
-:do {add list=$AddressList comment=grok.com address=204.236.168.175} on-error {}
-:do {add list=$AddressList comment=grok.com address=204.236.186.155} on-error {}
-:do {add list=$AddressList comment=grok.com address=204.236.187.121} on-error {}
-:do {add list=$AddressList comment=grok.com address=34.13.75.26} on-error {}
-:do {add list=$AddressList comment=grok.com address=34.48.4.24} on-error {}
-:do {add list=$AddressList comment=grok.com address=35.227.192.44} on-error {}
-:do {add list=$AddressList comment=grok.com address=50.18.193.171} on-error {}
-:do {add list=$AddressList comment=grok.com address=50.18.196.29} on-error {}
-:do {add list=$AddressList comment=grok.com address=50.18.215.34} on-error {}
-:do {add list=$AddressList comment=grok.com address=50.18.217.234} on-error {}
-:do {add list=$AddressList comment=grok.com address=50.18.254.40} on-error {}
-:do {add list=$AddressList comment=grok.com address=50.18.68.87} on-error {}
-:do {add list=$AddressList comment=grok.com address=50.18.72.75} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.52.13.176} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.52.174.195} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.52.175.189} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.52.179.18} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.52.192.17} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.52.87.94} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.52.92.219} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.150.220} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.170.94} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.172.166} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.172.59} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.184.172} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.227.188} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.237.19} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.28.36} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.52.107} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.56.180} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.90.5} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.8.99.157} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.9.222.33} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.9.7.58} on-error {}
-:do {add list=$AddressList comment=grok.com address=52.9.77.181} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.151.114.51} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.151.33.174} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.153.25.81} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.176.184.82} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.176.19.36} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.176.51.31} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.176.87.244} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.176.9.131} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.177.113.237} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.177.17.115} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.177.2.3} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.183.149.46} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.183.206.118} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.183.250.214} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.183.36.2} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.183.39.6} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.183.43.195} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.183.48.135} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.183.8.220} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.193.102.182} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.193.14.119} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.193.159.113} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.193.23.39} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.193.32.209} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.215.109.13} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.215.202.237} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.215.21.45} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.219.109.88} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.219.141.125} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.219.152.218} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.219.21.140} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.219.51.210} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.219.77.165} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.241.10.74} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.241.121.187} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.241.123.189} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.241.148.16} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.241.30.64} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.241.54.19} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.241.62.74} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.67.35.16} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.67.71.36} on-error {}
-:do {add list=$AddressList comment=grok.com address=54.67.93.19} on-error {}
-:do {add list=$AddressList comment=grok.com address=76.223.112.12} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.47.69.0} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.47.69.4} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.47.69.6} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.47.69.7} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.47.69.8} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.47.69.9} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.6.112.0} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.6.112.4} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.6.112.6} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.6.112.7} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.6.112.8} on-error {}
-:do {add list=$AddressList comment=grok.com address=8.6.112.9} on-error {}
+:if ([:len [find where list=$AddressList and address=104.18.18.80]] = 0) do={ add list=$AddressList comment=grok.com address=104.18.18.80 }
+:if ([:len [find where list=$AddressList and address=104.18.19.80]] = 0) do={ add list=$AddressList comment=grok.com address=104.18.19.80 }
+:if ([:len [find where list=$AddressList and address=104.18.26.175]] = 0) do={ add list=$AddressList comment=grok.com address=104.18.26.175 }
+:if ([:len [find where list=$AddressList and address=104.18.27.175]] = 0) do={ add list=$AddressList comment=grok.com address=104.18.27.175 }
+:if ([:len [find where list=$AddressList and address=104.18.28.234]] = 0) do={ add list=$AddressList comment=grok.com address=104.18.28.234 }
+:if ([:len [find where list=$AddressList and address=104.18.29.234]] = 0) do={ add list=$AddressList comment=grok.com address=104.18.29.234 }
+:if ([:len [find where list=$AddressList and address=104.20.19.247]] = 0) do={ add list=$AddressList comment=grok.com address=104.20.19.247 }
+:if ([:len [find where list=$AddressList and address=13.248.245.245]] = 0) do={ add list=$AddressList comment=grok.com address=13.248.245.245 }
+:if ([:len [find where list=$AddressList and address=13.52.0.118]] = 0) do={ add list=$AddressList comment=grok.com address=13.52.0.118 }
+:if ([:len [find where list=$AddressList and address=13.52.85.43]] = 0) do={ add list=$AddressList comment=grok.com address=13.52.85.43 }
+:if ([:len [find where list=$AddressList and address=13.56.24.14]] = 0) do={ add list=$AddressList comment=grok.com address=13.56.24.14 }
+:if ([:len [find where list=$AddressList and address=13.56.29.14]] = 0) do={ add list=$AddressList comment=grok.com address=13.56.29.14 }
+:if ([:len [find where list=$AddressList and address=13.56.66.168]] = 0) do={ add list=$AddressList comment=grok.com address=13.56.66.168 }
+:if ([:len [find where list=$AddressList and address=13.56.70.3]] = 0) do={ add list=$AddressList comment=grok.com address=13.56.70.3 }
+:if ([:len [find where list=$AddressList and address=13.57.123.163]] = 0) do={ add list=$AddressList comment=grok.com address=13.57.123.163 }
+:if ([:len [find where list=$AddressList and address=13.57.140.229]] = 0) do={ add list=$AddressList comment=grok.com address=13.57.140.229 }
+:if ([:len [find where list=$AddressList and address=13.57.55.83]] = 0) do={ add list=$AddressList comment=grok.com address=13.57.55.83 }
+:if ([:len [find where list=$AddressList and address=172.66.169.83]] = 0) do={ add list=$AddressList comment=grok.com address=172.66.169.83 }
+:if ([:len [find where list=$AddressList and address=18.144.112.110]] = 0) do={ add list=$AddressList comment=grok.com address=18.144.112.110 }
+:if ([:len [find where list=$AddressList and address=184.169.153.194]] = 0) do={ add list=$AddressList comment=grok.com address=184.169.153.194 }
+:if ([:len [find where list=$AddressList and address=184.169.167.71]] = 0) do={ add list=$AddressList comment=grok.com address=184.169.167.71 }
+:if ([:len [find where list=$AddressList and address=184.169.220.42]] = 0) do={ add list=$AddressList comment=grok.com address=184.169.220.42 }
+:if ([:len [find where list=$AddressList and address=184.169.222.235]] = 0) do={ add list=$AddressList comment=grok.com address=184.169.222.235 }
+:if ([:len [find where list=$AddressList and address=188.114.98.224]] = 0) do={ add list=$AddressList comment=grok.com address=188.114.98.224 }
+:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=grok.com address=188.114.98.228 }
+:if ([:len [find where list=$AddressList and address=188.114.99.224]] = 0) do={ add list=$AddressList comment=grok.com address=188.114.99.224 }
+:if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=grok.com address=188.114.99.228 }
+:if ([:len [find where list=$AddressList and address=199.16.156.218]] = 0) do={ add list=$AddressList comment=grok.com address=199.16.156.218 }
+:if ([:len [find where list=$AddressList and address=199.16.156.221]] = 0) do={ add list=$AddressList comment=grok.com address=199.16.156.221 }
+:if ([:len [find where list=$AddressList and address=204.236.168.175]] = 0) do={ add list=$AddressList comment=grok.com address=204.236.168.175 }
+:if ([:len [find where list=$AddressList and address=204.236.186.155]] = 0) do={ add list=$AddressList comment=grok.com address=204.236.186.155 }
+:if ([:len [find where list=$AddressList and address=204.236.187.121]] = 0) do={ add list=$AddressList comment=grok.com address=204.236.187.121 }
+:if ([:len [find where list=$AddressList and address=34.13.75.26]] = 0) do={ add list=$AddressList comment=grok.com address=34.13.75.26 }
+:if ([:len [find where list=$AddressList and address=34.48.4.24]] = 0) do={ add list=$AddressList comment=grok.com address=34.48.4.24 }
+:if ([:len [find where list=$AddressList and address=35.227.192.44]] = 0) do={ add list=$AddressList comment=grok.com address=35.227.192.44 }
+:if ([:len [find where list=$AddressList and address=50.18.193.171]] = 0) do={ add list=$AddressList comment=grok.com address=50.18.193.171 }
+:if ([:len [find where list=$AddressList and address=50.18.196.29]] = 0) do={ add list=$AddressList comment=grok.com address=50.18.196.29 }
+:if ([:len [find where list=$AddressList and address=50.18.215.34]] = 0) do={ add list=$AddressList comment=grok.com address=50.18.215.34 }
+:if ([:len [find where list=$AddressList and address=50.18.217.234]] = 0) do={ add list=$AddressList comment=grok.com address=50.18.217.234 }
+:if ([:len [find where list=$AddressList and address=50.18.254.40]] = 0) do={ add list=$AddressList comment=grok.com address=50.18.254.40 }
+:if ([:len [find where list=$AddressList and address=50.18.68.87]] = 0) do={ add list=$AddressList comment=grok.com address=50.18.68.87 }
+:if ([:len [find where list=$AddressList and address=50.18.72.75]] = 0) do={ add list=$AddressList comment=grok.com address=50.18.72.75 }
+:if ([:len [find where list=$AddressList and address=52.52.13.176]] = 0) do={ add list=$AddressList comment=grok.com address=52.52.13.176 }
+:if ([:len [find where list=$AddressList and address=52.52.174.195]] = 0) do={ add list=$AddressList comment=grok.com address=52.52.174.195 }
+:if ([:len [find where list=$AddressList and address=52.52.175.189]] = 0) do={ add list=$AddressList comment=grok.com address=52.52.175.189 }
+:if ([:len [find where list=$AddressList and address=52.52.179.18]] = 0) do={ add list=$AddressList comment=grok.com address=52.52.179.18 }
+:if ([:len [find where list=$AddressList and address=52.52.192.17]] = 0) do={ add list=$AddressList comment=grok.com address=52.52.192.17 }
+:if ([:len [find where list=$AddressList and address=52.52.87.94]] = 0) do={ add list=$AddressList comment=grok.com address=52.52.87.94 }
+:if ([:len [find where list=$AddressList and address=52.52.92.219]] = 0) do={ add list=$AddressList comment=grok.com address=52.52.92.219 }
+:if ([:len [find where list=$AddressList and address=52.8.150.220]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.150.220 }
+:if ([:len [find where list=$AddressList and address=52.8.170.94]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.170.94 }
+:if ([:len [find where list=$AddressList and address=52.8.172.166]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.172.166 }
+:if ([:len [find where list=$AddressList and address=52.8.172.59]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.172.59 }
+:if ([:len [find where list=$AddressList and address=52.8.184.172]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.184.172 }
+:if ([:len [find where list=$AddressList and address=52.8.227.188]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.227.188 }
+:if ([:len [find where list=$AddressList and address=52.8.237.19]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.237.19 }
+:if ([:len [find where list=$AddressList and address=52.8.28.36]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.28.36 }
+:if ([:len [find where list=$AddressList and address=52.8.52.107]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.52.107 }
+:if ([:len [find where list=$AddressList and address=52.8.56.180]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.56.180 }
+:if ([:len [find where list=$AddressList and address=52.8.90.5]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.90.5 }
+:if ([:len [find where list=$AddressList and address=52.8.99.157]] = 0) do={ add list=$AddressList comment=grok.com address=52.8.99.157 }
+:if ([:len [find where list=$AddressList and address=52.9.222.33]] = 0) do={ add list=$AddressList comment=grok.com address=52.9.222.33 }
+:if ([:len [find where list=$AddressList and address=52.9.7.58]] = 0) do={ add list=$AddressList comment=grok.com address=52.9.7.58 }
+:if ([:len [find where list=$AddressList and address=52.9.77.181]] = 0) do={ add list=$AddressList comment=grok.com address=52.9.77.181 }
+:if ([:len [find where list=$AddressList and address=54.151.114.51]] = 0) do={ add list=$AddressList comment=grok.com address=54.151.114.51 }
+:if ([:len [find where list=$AddressList and address=54.151.33.174]] = 0) do={ add list=$AddressList comment=grok.com address=54.151.33.174 }
+:if ([:len [find where list=$AddressList and address=54.151.46.7]] = 0) do={ add list=$AddressList comment=grok.com address=54.151.46.7 }
+:if ([:len [find where list=$AddressList and address=54.151.98.114]] = 0) do={ add list=$AddressList comment=grok.com address=54.151.98.114 }
+:if ([:len [find where list=$AddressList and address=54.153.25.81]] = 0) do={ add list=$AddressList comment=grok.com address=54.153.25.81 }
+:if ([:len [find where list=$AddressList and address=54.176.184.82]] = 0) do={ add list=$AddressList comment=grok.com address=54.176.184.82 }
+:if ([:len [find where list=$AddressList and address=54.176.19.36]] = 0) do={ add list=$AddressList comment=grok.com address=54.176.19.36 }
+:if ([:len [find where list=$AddressList and address=54.176.51.31]] = 0) do={ add list=$AddressList comment=grok.com address=54.176.51.31 }
+:if ([:len [find where list=$AddressList and address=54.176.87.244]] = 0) do={ add list=$AddressList comment=grok.com address=54.176.87.244 }
+:if ([:len [find where list=$AddressList and address=54.176.9.131]] = 0) do={ add list=$AddressList comment=grok.com address=54.176.9.131 }
+:if ([:len [find where list=$AddressList and address=54.177.113.237]] = 0) do={ add list=$AddressList comment=grok.com address=54.177.113.237 }
+:if ([:len [find where list=$AddressList and address=54.177.17.115]] = 0) do={ add list=$AddressList comment=grok.com address=54.177.17.115 }
+:if ([:len [find where list=$AddressList and address=54.177.2.3]] = 0) do={ add list=$AddressList comment=grok.com address=54.177.2.3 }
+:if ([:len [find where list=$AddressList and address=54.183.149.46]] = 0) do={ add list=$AddressList comment=grok.com address=54.183.149.46 }
+:if ([:len [find where list=$AddressList and address=54.183.206.118]] = 0) do={ add list=$AddressList comment=grok.com address=54.183.206.118 }
+:if ([:len [find where list=$AddressList and address=54.183.250.214]] = 0) do={ add list=$AddressList comment=grok.com address=54.183.250.214 }
+:if ([:len [find where list=$AddressList and address=54.183.36.2]] = 0) do={ add list=$AddressList comment=grok.com address=54.183.36.2 }
+:if ([:len [find where list=$AddressList and address=54.183.39.6]] = 0) do={ add list=$AddressList comment=grok.com address=54.183.39.6 }
+:if ([:len [find where list=$AddressList and address=54.183.43.195]] = 0) do={ add list=$AddressList comment=grok.com address=54.183.43.195 }
+:if ([:len [find where list=$AddressList and address=54.183.48.135]] = 0) do={ add list=$AddressList comment=grok.com address=54.183.48.135 }
+:if ([:len [find where list=$AddressList and address=54.183.8.220]] = 0) do={ add list=$AddressList comment=grok.com address=54.183.8.220 }
+:if ([:len [find where list=$AddressList and address=54.193.102.182]] = 0) do={ add list=$AddressList comment=grok.com address=54.193.102.182 }
+:if ([:len [find where list=$AddressList and address=54.193.14.119]] = 0) do={ add list=$AddressList comment=grok.com address=54.193.14.119 }
+:if ([:len [find where list=$AddressList and address=54.193.159.113]] = 0) do={ add list=$AddressList comment=grok.com address=54.193.159.113 }
+:if ([:len [find where list=$AddressList and address=54.193.23.39]] = 0) do={ add list=$AddressList comment=grok.com address=54.193.23.39 }
+:if ([:len [find where list=$AddressList and address=54.193.32.209]] = 0) do={ add list=$AddressList comment=grok.com address=54.193.32.209 }
+:if ([:len [find where list=$AddressList and address=54.215.109.13]] = 0) do={ add list=$AddressList comment=grok.com address=54.215.109.13 }
+:if ([:len [find where list=$AddressList and address=54.215.202.237]] = 0) do={ add list=$AddressList comment=grok.com address=54.215.202.237 }
+:if ([:len [find where list=$AddressList and address=54.215.21.45]] = 0) do={ add list=$AddressList comment=grok.com address=54.215.21.45 }
+:if ([:len [find where list=$AddressList and address=54.219.109.88]] = 0) do={ add list=$AddressList comment=grok.com address=54.219.109.88 }
+:if ([:len [find where list=$AddressList and address=54.219.141.125]] = 0) do={ add list=$AddressList comment=grok.com address=54.219.141.125 }
+:if ([:len [find where list=$AddressList and address=54.219.152.218]] = 0) do={ add list=$AddressList comment=grok.com address=54.219.152.218 }
+:if ([:len [find where list=$AddressList and address=54.219.21.140]] = 0) do={ add list=$AddressList comment=grok.com address=54.219.21.140 }
+:if ([:len [find where list=$AddressList and address=54.219.51.210]] = 0) do={ add list=$AddressList comment=grok.com address=54.219.51.210 }
+:if ([:len [find where list=$AddressList and address=54.219.77.165]] = 0) do={ add list=$AddressList comment=grok.com address=54.219.77.165 }
+:if ([:len [find where list=$AddressList and address=54.241.10.74]] = 0) do={ add list=$AddressList comment=grok.com address=54.241.10.74 }
+:if ([:len [find where list=$AddressList and address=54.241.121.187]] = 0) do={ add list=$AddressList comment=grok.com address=54.241.121.187 }
+:if ([:len [find where list=$AddressList and address=54.241.123.189]] = 0) do={ add list=$AddressList comment=grok.com address=54.241.123.189 }
+:if ([:len [find where list=$AddressList and address=54.241.148.16]] = 0) do={ add list=$AddressList comment=grok.com address=54.241.148.16 }
+:if ([:len [find where list=$AddressList and address=54.241.30.64]] = 0) do={ add list=$AddressList comment=grok.com address=54.241.30.64 }
+:if ([:len [find where list=$AddressList and address=54.241.54.19]] = 0) do={ add list=$AddressList comment=grok.com address=54.241.54.19 }
+:if ([:len [find where list=$AddressList and address=54.241.62.74]] = 0) do={ add list=$AddressList comment=grok.com address=54.241.62.74 }
+:if ([:len [find where list=$AddressList and address=54.67.35.16]] = 0) do={ add list=$AddressList comment=grok.com address=54.67.35.16 }
+:if ([:len [find where list=$AddressList and address=54.67.71.36]] = 0) do={ add list=$AddressList comment=grok.com address=54.67.71.36 }
+:if ([:len [find where list=$AddressList and address=54.67.93.19]] = 0) do={ add list=$AddressList comment=grok.com address=54.67.93.19 }
+:if ([:len [find where list=$AddressList and address=76.223.112.12]] = 0) do={ add list=$AddressList comment=grok.com address=76.223.112.12 }
+:if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=grok.com address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.4]] = 0) do={ add list=$AddressList comment=grok.com address=8.47.69.4 }
+:if ([:len [find where list=$AddressList and address=8.47.69.6]] = 0) do={ add list=$AddressList comment=grok.com address=8.47.69.6 }
+:if ([:len [find where list=$AddressList and address=8.47.69.7]] = 0) do={ add list=$AddressList comment=grok.com address=8.47.69.7 }
+:if ([:len [find where list=$AddressList and address=8.47.69.8]] = 0) do={ add list=$AddressList comment=grok.com address=8.47.69.8 }
+:if ([:len [find where list=$AddressList and address=8.47.69.9]] = 0) do={ add list=$AddressList comment=grok.com address=8.47.69.9 }
+:if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=grok.com address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.4]] = 0) do={ add list=$AddressList comment=grok.com address=8.6.112.4 }
+:if ([:len [find where list=$AddressList and address=8.6.112.6]] = 0) do={ add list=$AddressList comment=grok.com address=8.6.112.6 }
+:if ([:len [find where list=$AddressList and address=8.6.112.7]] = 0) do={ add list=$AddressList comment=grok.com address=8.6.112.7 }
+:if ([:len [find where list=$AddressList and address=8.6.112.8]] = 0) do={ add list=$AddressList comment=grok.com address=8.6.112.8 }
+:if ([:len [find where list=$AddressList and address=8.6.112.9]] = 0) do={ add list=$AddressList comment=grok.com address=8.6.112.9 }

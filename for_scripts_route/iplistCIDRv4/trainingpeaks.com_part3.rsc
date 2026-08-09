@@ -2,8 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=44.220.18.94/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.220.18.94/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=44.221.17.29/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.221.17.29/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=44.221.26.111/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.221.26.111/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=44.221.34.174/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.221.34.174/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=44.222.15.63/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=44.222.15.63/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
@@ -22,19 +20,17 @@
 :if ([:len [/ip/route/find dst-address=52.222.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.222.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.3.12.176/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.3.12.176/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.3.46.113/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.3.46.113/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.4.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.4.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=52.4.0.0/15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.4.0.0/15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.44.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.44.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.45.69.207/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.45.69.207/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.45.7.132/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.45.7.132/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.5.157.6/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.5.157.6/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.5.237.184/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.5.237.184/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
-:if ([:len [/ip/route/find dst-address=52.5.8.8/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.5.8.8/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.54.116.223/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.54.116.223/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.54.98.18/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.54.98.18/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.55.189.99/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.55.189.99/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.55.200.182/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.55.200.182/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.6.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.6.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.64.0.0/12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.64.0.0/12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
+:if ([:len [/ip/route/find dst-address=52.7.16.77/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.7.16.77/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.7.3.193/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.7.3.193/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.7.48.225/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.7.48.225/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }
 :if ([:len [/ip/route/find dst-address=52.84.0.0/14 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.0.0/14 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=trainingpeaks.com }

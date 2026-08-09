@@ -1,29 +1,29 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=connect.garmin.com address=104.16.8.45} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.16.9.45} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.17.150.222} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.17.151.222} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.17.152.222} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.17.153.222} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.17.154.222} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.17.167.14} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.17.168.14} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.17.70.10} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.17.71.10} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=104.18.39.104} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=172.64.148.152} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=188.114.98.224} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=188.114.98.228} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=188.114.98.229} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=188.114.99.224} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=188.114.99.228} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=188.114.99.229} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=8.47.69.0} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=8.47.69.4} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=8.47.69.8} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=8.47.69.9} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=8.6.112.0} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=8.6.112.4} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=8.6.112.8} on-error {}
-:do {add list=$AddressList comment=connect.garmin.com address=8.6.112.9} on-error {}
+:if ([:len [find where list=$AddressList and address=104.16.8.45]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.16.8.45 }
+:if ([:len [find where list=$AddressList and address=104.16.9.45]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.16.9.45 }
+:if ([:len [find where list=$AddressList and address=104.17.150.222]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.17.150.222 }
+:if ([:len [find where list=$AddressList and address=104.17.151.222]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.17.151.222 }
+:if ([:len [find where list=$AddressList and address=104.17.152.222]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.17.152.222 }
+:if ([:len [find where list=$AddressList and address=104.17.153.222]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.17.153.222 }
+:if ([:len [find where list=$AddressList and address=104.17.154.222]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.17.154.222 }
+:if ([:len [find where list=$AddressList and address=104.17.167.14]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.17.167.14 }
+:if ([:len [find where list=$AddressList and address=104.17.168.14]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.17.168.14 }
+:if ([:len [find where list=$AddressList and address=104.17.70.10]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.17.70.10 }
+:if ([:len [find where list=$AddressList and address=104.17.71.10]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.17.71.10 }
+:if ([:len [find where list=$AddressList and address=104.18.39.104]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=104.18.39.104 }
+:if ([:len [find where list=$AddressList and address=172.64.148.152]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=172.64.148.152 }
+:if ([:len [find where list=$AddressList and address=188.114.98.224]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=188.114.98.224 }
+:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=188.114.98.228 }
+:if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=188.114.98.229 }
+:if ([:len [find where list=$AddressList and address=188.114.99.224]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=188.114.99.224 }
+:if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=188.114.99.228 }
+:if ([:len [find where list=$AddressList and address=188.114.99.229]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=188.114.99.229 }
+:if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.4]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=8.47.69.4 }
+:if ([:len [find where list=$AddressList and address=8.47.69.8]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=8.47.69.8 }
+:if ([:len [find where list=$AddressList and address=8.47.69.9]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=8.47.69.9 }
+:if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.4]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=8.6.112.4 }
+:if ([:len [find where list=$AddressList and address=8.6.112.8]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=8.6.112.8 }
+:if ([:len [find where list=$AddressList and address=8.6.112.9]] = 0) do={ add list=$AddressList comment=connect.garmin.com address=8.6.112.9 }

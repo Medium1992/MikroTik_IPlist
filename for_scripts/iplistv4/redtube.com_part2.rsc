@@ -1,0 +1,37 @@
+:global AddressList
+/ip firewall address-list
+:if ([:len [find where list=$AddressList and address=67.22.52.35]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.52.35 }
+:if ([:len [find where list=$AddressList and address=67.22.52.36]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.52.36 }
+:if ([:len [find where list=$AddressList and address=67.22.52.37]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.52.37 }
+:if ([:len [find where list=$AddressList and address=67.22.52.38]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.52.38 }
+:if ([:len [find where list=$AddressList and address=67.22.52.39]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.52.39 }
+:if ([:len [find where list=$AddressList and address=67.22.55.0]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.55.0 }
+:if ([:len [find where list=$AddressList and address=67.22.55.1]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.55.1 }
+:if ([:len [find where list=$AddressList and address=67.22.55.16]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.55.16 }
+:if ([:len [find where list=$AddressList and address=67.22.55.17]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.55.17 }
+:if ([:len [find where list=$AddressList and address=67.22.56.0]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.56.0 }
+:if ([:len [find where list=$AddressList and address=67.22.56.1]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.56.1 }
+:if ([:len [find where list=$AddressList and address=67.22.56.16]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.56.16 }
+:if ([:len [find where list=$AddressList and address=67.22.56.17]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.56.17 }
+:if ([:len [find where list=$AddressList and address=67.22.56.2]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.56.2 }
+:if ([:len [find where list=$AddressList and address=67.22.56.3]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.56.3 }
+:if ([:len [find where list=$AddressList and address=67.22.56.4]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.56.4 }
+:if ([:len [find where list=$AddressList and address=67.22.56.5]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.56.5 }
+:if ([:len [find where list=$AddressList and address=67.22.56.6]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.56.6 }
+:if ([:len [find where list=$AddressList and address=67.22.56.7]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.56.7 }
+:if ([:len [find where list=$AddressList and address=67.22.57.176]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.176 }
+:if ([:len [find where list=$AddressList and address=67.22.57.177]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.177 }
+:if ([:len [find where list=$AddressList and address=67.22.57.178]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.178 }
+:if ([:len [find where list=$AddressList and address=67.22.57.179]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.179 }
+:if ([:len [find where list=$AddressList and address=67.22.57.180]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.180 }
+:if ([:len [find where list=$AddressList and address=67.22.57.181]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.181 }
+:if ([:len [find where list=$AddressList and address=67.22.57.182]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.182 }
+:if ([:len [find where list=$AddressList and address=67.22.57.183]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.183 }
+:if ([:len [find where list=$AddressList and address=67.22.57.192]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.192 }
+:if ([:len [find where list=$AddressList and address=67.22.57.193]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.193 }
+:if ([:len [find where list=$AddressList and address=67.22.57.194]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.194 }
+:if ([:len [find where list=$AddressList and address=67.22.57.195]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.195 }
+:if ([:len [find where list=$AddressList and address=67.22.57.196]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.196 }
+:if ([:len [find where list=$AddressList and address=67.22.57.197]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.197 }
+:if ([:len [find where list=$AddressList and address=67.22.57.198]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.198 }
+:if ([:len [find where list=$AddressList and address=67.22.57.199]] = 0) do={ add list=$AddressList comment=redtube.com address=67.22.57.199 }

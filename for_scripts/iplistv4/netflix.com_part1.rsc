@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=netflix.com address=100.20.29.191} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.26.117.166} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.28.107.182} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.28.13.17} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.82.102.191} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.82.106.206} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.82.180.182} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.82.190.87} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.85.59.120} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.95.7.33} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.97.162.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.97.54.188} on-error {}
-:do {add list=$AddressList comment=netflix.com address=100.97.95.9} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.100.52.179} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.101.246.191} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.102.35.193} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.102.37.82} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.102.9.192} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.103.202.187} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.103.204.4} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.103.81.109} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.104.23.178} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.104.24.80} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.108.226.145} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.108.227.82} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.115.232.205} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.120.118.217} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.120.72.37} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.121.1.114} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.124.161.107} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.127.29.46} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.18.32.137} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.69.151.230} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.71.145.180} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.73.224.191} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.80.242.117} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.81.120.184} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.81.96.136} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.82.116.207} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.82.116.240} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.82.225.187} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.82.74.205} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.83.106.92} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.83.115.85} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.83.47.174} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.85.17.209} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.85.28.164} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.86.33.53} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.87.211.107} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.87.219.47} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.90.65.184} on-error {}
-:do {add list=$AddressList comment=netflix.com address=104.96.131.181} on-error {}
-:do {add list=$AddressList comment=netflix.com address=107.20.160.27} on-error {}
-:do {add list=$AddressList comment=netflix.com address=107.20.175.192} on-error {}
-:do {add list=$AddressList comment=netflix.com address=107.22.243.248} on-error {}
-:do {add list=$AddressList comment=netflix.com address=13.58.158.2} on-error {}
-:do {add list=$AddressList comment=netflix.com address=13.59.136.77} on-error {}
-:do {add list=$AddressList comment=netflix.com address=13.59.143.154} on-error {}
-:do {add list=$AddressList comment=netflix.com address=13.59.33.82} on-error {}
-:do {add list=$AddressList comment=netflix.com address=13.59.96.40} on-error {}
-:do {add list=$AddressList comment=netflix.com address=139.45.192.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=139.45.192.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=139.45.192.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=139.45.193.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=139.45.193.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=139.45.205.11} on-error {}
-:do {add list=$AddressList comment=netflix.com address=139.45.205.13} on-error {}
-:do {add list=$AddressList comment=netflix.com address=139.45.205.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=149.255.128.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=162.159.152.4} on-error {}
-:do {add list=$AddressList comment=netflix.com address=162.159.153.4} on-error {}
-:do {add list=$AddressList comment=netflix.com address=172.22.72.23} on-error {}
-:do {add list=$AddressList comment=netflix.com address=172.22.72.24} on-error {}
-:do {add list=$AddressList comment=netflix.com address=172.64.155.119} on-error {}
-:do {add list=$AddressList comment=netflix.com address=173.223.31.169} on-error {}
-:do {add list=$AddressList comment=netflix.com address=174.129.170.121} on-error {}
-:do {add list=$AddressList comment=netflix.com address=176.34.123.210} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.116.209.101} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.118.127.196} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.119.26.28} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.189.216.73} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.189.65.196} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.191.122.176} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.191.127.89} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.191.6.67} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.200.8.190} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.203.189.247} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.204.146.237} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.209.154.243} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.209.85.220} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.211.239.233} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.216.0.185} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.217.59.9} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.217.83.66} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.217.99.125} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.221.229.140} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.221.239.141} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.223.242.221} on-error {}
-:do {add list=$AddressList comment=netflix.com address=18.236.7.30} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.25.66.202} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.27.1.184} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.27.2.83} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.28.207.19} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.29.161.185} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.29.225.64} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.29.225.67} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.30.214.54} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.30.81.57} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.51.134.103} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.51.225.184} on-error {}
-:do {add list=$AddressList comment=netflix.com address=184.86.162.26} on-error {}
-:do {add list=$AddressList comment=netflix.com address=187.228.6.231} on-error {}
-:do {add list=$AddressList comment=netflix.com address=187.228.6.233} on-error {}
-:do {add list=$AddressList comment=netflix.com address=187.228.6.235} on-error {}
-:do {add list=$AddressList comment=netflix.com address=187.228.6.249} on-error {}
-:do {add list=$AddressList comment=netflix.com address=187.228.6.251} on-error {}
-:do {add list=$AddressList comment=netflix.com address=187.228.6.253} on-error {}
-:do {add list=$AddressList comment=netflix.com address=187.228.8.249} on-error {}
-:do {add list=$AddressList comment=netflix.com address=187.228.8.251} on-error {}
-:do {add list=$AddressList comment=netflix.com address=187.228.8.253} on-error {}
-:do {add list=$AddressList comment=netflix.com address=188.114.98.224} on-error {}
-:do {add list=$AddressList comment=netflix.com address=188.114.98.228} on-error {}
-:do {add list=$AddressList comment=netflix.com address=188.114.98.229} on-error {}
-:do {add list=$AddressList comment=netflix.com address=188.114.99.224} on-error {}
-:do {add list=$AddressList comment=netflix.com address=188.114.99.228} on-error {}
-:do {add list=$AddressList comment=netflix.com address=188.114.99.229} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.149.228.253} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.149.228.255} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.217.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.217.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.217.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.217.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.218.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.218.11} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.218.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.218.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.218.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.218.9} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.219.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.219.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.219.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.220.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.220.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.220.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.220.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.221.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.221.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.221.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.222.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.222.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.222.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.222.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.223.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.223.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.224.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.224.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.224.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.224.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.226.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.226.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.227.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.228.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.228.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.229.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.229.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.229.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.229.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.230.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.230.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.231.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.231.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.236.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.236.9} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.247.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.247.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.247.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.233.247.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.0.43} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.0.45} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.0.47} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.0.49} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.0.51} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.0.61} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.0.63} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.0.73} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.0.75} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.1.21} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.1.23} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.1.25} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.1.27} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.1.29} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.12.15} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.12.21} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.13.11} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.13.13} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.13.15} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.14.11} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.14.17} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.14.19} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.14.21} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.15.15} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.15.17} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.15.19} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.15.21} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.15.23} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.18.21} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.18.23} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.18.29} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.18.31} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.2.45} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.2.47} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.2.49} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.25.17} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.25.19} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.25.21} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.25.23} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.26.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.26.11} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.26.13} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.26.15} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.26.21} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.26.23} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.26.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.26.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.26.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.26.9} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.27.25} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.3.21} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.3.23} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.4.17} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.4.19} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.4.23} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.4.25} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.48.229} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.48.231} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.48.233} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.48.255} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.5.13} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.5.31} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.51.249} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.51.251} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.52.233} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.52.243} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.52.245} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.52.247} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.52.249} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.52.251} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.52.253} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.52.255} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.55.229} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.55.231} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.55.233} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.55.255} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.6.131} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.6.133} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.6.135} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.66.233} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.66.235} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.66.237} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.66.239} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.66.241} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.66.243} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.66.245} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.66.247} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.66.249} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.7.15} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.7.17} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.7.19} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.74.245} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.74.247} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.74.249} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.75.237} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.75.239} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.76.251} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.77.243} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.77.245} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.78.243} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.78.245} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.78.247} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.78.249} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.78.251} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.79.243} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.79.245} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.79.247} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.79.249} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.79.251} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.80.237} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.80.239} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.80.241} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.80.243} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.80.245} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.80.247} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.80.249} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.80.251} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.80.253} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.81.243} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.81.245} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.81.247} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.81.249} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.81.251} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.81.255} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.83.241} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.83.243} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.94.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=189.247.94.7} on-error {}
-:do {add list=$AddressList comment=netflix.com address=193.109.100.131} on-error {}
-:do {add list=$AddressList comment=netflix.com address=198.38.108.143} on-error {}
-:do {add list=$AddressList comment=netflix.com address=198.38.109.219} on-error {}
-:do {add list=$AddressList comment=netflix.com address=2.19.27.143} on-error {}
-:do {add list=$AddressList comment=netflix.com address=2.20.16.142} on-error {}
-:do {add list=$AddressList comment=netflix.com address=2.20.210.231} on-error {}
-:do {add list=$AddressList comment=netflix.com address=2.22.1.45} on-error {}
-:do {add list=$AddressList comment=netflix.com address=2.22.130.168} on-error {}
-:do {add list=$AddressList comment=netflix.com address=2.22.137.129} on-error {}
-:do {add list=$AddressList comment=netflix.com address=202.138.184.10} on-error {}
-:do {add list=$AddressList comment=netflix.com address=202.138.184.134} on-error {}
-:do {add list=$AddressList comment=netflix.com address=202.138.184.138} on-error {}
-:do {add list=$AddressList comment=netflix.com address=202.138.184.14} on-error {}
-:do {add list=$AddressList comment=netflix.com address=202.138.184.142} on-error {}
-:do {add list=$AddressList comment=netflix.com address=202.138.184.22} on-error {}
-:do {add list=$AddressList comment=netflix.com address=202.138.184.26} on-error {}
-:do {add list=$AddressList comment=netflix.com address=204.236.236.127} on-error {}
-:do {add list=$AddressList comment=netflix.com address=207.45.72.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=207.45.72.215} on-error {}
-:do {add list=$AddressList comment=netflix.com address=207.45.73.1} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.0.23.232} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.10.11.98} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.10.78.3} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.12.110.45} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.12.143.201} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.12.97.60} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.197.122.28} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.197.133.66} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.198.177.108} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.199.209.112} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.2.232.165} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.2.233.5} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.207.97.194} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.208.33.196} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.210.113.168} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.211.65.184} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.212.212.37} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.214.133.179} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.214.133.245} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.214.134.54} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.214.225.58} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.214.6.227} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.217.253.72} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.217.253.73} on-error {}
-:do {add list=$AddressList comment=netflix.com address=23.218.165.59} on-error {}
+:if ([:len [find where list=$AddressList and address=100.20.29.191]] = 0) do={ add list=$AddressList comment=netflix.com address=100.20.29.191 }
+:if ([:len [find where list=$AddressList and address=100.26.117.166]] = 0) do={ add list=$AddressList comment=netflix.com address=100.26.117.166 }
+:if ([:len [find where list=$AddressList and address=100.28.107.182]] = 0) do={ add list=$AddressList comment=netflix.com address=100.28.107.182 }
+:if ([:len [find where list=$AddressList and address=100.28.13.17]] = 0) do={ add list=$AddressList comment=netflix.com address=100.28.13.17 }
+:if ([:len [find where list=$AddressList and address=100.82.102.191]] = 0) do={ add list=$AddressList comment=netflix.com address=100.82.102.191 }
+:if ([:len [find where list=$AddressList and address=100.82.106.206]] = 0) do={ add list=$AddressList comment=netflix.com address=100.82.106.206 }
+:if ([:len [find where list=$AddressList and address=100.82.180.182]] = 0) do={ add list=$AddressList comment=netflix.com address=100.82.180.182 }
+:if ([:len [find where list=$AddressList and address=100.82.190.87]] = 0) do={ add list=$AddressList comment=netflix.com address=100.82.190.87 }
+:if ([:len [find where list=$AddressList and address=100.85.59.120]] = 0) do={ add list=$AddressList comment=netflix.com address=100.85.59.120 }
+:if ([:len [find where list=$AddressList and address=100.95.7.33]] = 0) do={ add list=$AddressList comment=netflix.com address=100.95.7.33 }
+:if ([:len [find where list=$AddressList and address=100.97.162.3]] = 0) do={ add list=$AddressList comment=netflix.com address=100.97.162.3 }
+:if ([:len [find where list=$AddressList and address=100.97.54.188]] = 0) do={ add list=$AddressList comment=netflix.com address=100.97.54.188 }
+:if ([:len [find where list=$AddressList and address=100.97.95.9]] = 0) do={ add list=$AddressList comment=netflix.com address=100.97.95.9 }
+:if ([:len [find where list=$AddressList and address=104.100.52.179]] = 0) do={ add list=$AddressList comment=netflix.com address=104.100.52.179 }
+:if ([:len [find where list=$AddressList and address=104.101.246.191]] = 0) do={ add list=$AddressList comment=netflix.com address=104.101.246.191 }
+:if ([:len [find where list=$AddressList and address=104.102.35.193]] = 0) do={ add list=$AddressList comment=netflix.com address=104.102.35.193 }
+:if ([:len [find where list=$AddressList and address=104.102.37.82]] = 0) do={ add list=$AddressList comment=netflix.com address=104.102.37.82 }
+:if ([:len [find where list=$AddressList and address=104.102.9.192]] = 0) do={ add list=$AddressList comment=netflix.com address=104.102.9.192 }
+:if ([:len [find where list=$AddressList and address=104.103.202.187]] = 0) do={ add list=$AddressList comment=netflix.com address=104.103.202.187 }
+:if ([:len [find where list=$AddressList and address=104.103.204.4]] = 0) do={ add list=$AddressList comment=netflix.com address=104.103.204.4 }
+:if ([:len [find where list=$AddressList and address=104.103.81.109]] = 0) do={ add list=$AddressList comment=netflix.com address=104.103.81.109 }
+:if ([:len [find where list=$AddressList and address=104.104.23.178]] = 0) do={ add list=$AddressList comment=netflix.com address=104.104.23.178 }
+:if ([:len [find where list=$AddressList and address=104.104.24.80]] = 0) do={ add list=$AddressList comment=netflix.com address=104.104.24.80 }
+:if ([:len [find where list=$AddressList and address=104.108.226.145]] = 0) do={ add list=$AddressList comment=netflix.com address=104.108.226.145 }
+:if ([:len [find where list=$AddressList and address=104.108.227.82]] = 0) do={ add list=$AddressList comment=netflix.com address=104.108.227.82 }
+:if ([:len [find where list=$AddressList and address=104.115.232.205]] = 0) do={ add list=$AddressList comment=netflix.com address=104.115.232.205 }
+:if ([:len [find where list=$AddressList and address=104.120.118.217]] = 0) do={ add list=$AddressList comment=netflix.com address=104.120.118.217 }
+:if ([:len [find where list=$AddressList and address=104.120.72.37]] = 0) do={ add list=$AddressList comment=netflix.com address=104.120.72.37 }
+:if ([:len [find where list=$AddressList and address=104.121.1.114]] = 0) do={ add list=$AddressList comment=netflix.com address=104.121.1.114 }
+:if ([:len [find where list=$AddressList and address=104.124.161.107]] = 0) do={ add list=$AddressList comment=netflix.com address=104.124.161.107 }
+:if ([:len [find where list=$AddressList and address=104.127.29.46]] = 0) do={ add list=$AddressList comment=netflix.com address=104.127.29.46 }
+:if ([:len [find where list=$AddressList and address=104.18.32.137]] = 0) do={ add list=$AddressList comment=netflix.com address=104.18.32.137 }
+:if ([:len [find where list=$AddressList and address=104.69.151.230]] = 0) do={ add list=$AddressList comment=netflix.com address=104.69.151.230 }
+:if ([:len [find where list=$AddressList and address=104.71.145.180]] = 0) do={ add list=$AddressList comment=netflix.com address=104.71.145.180 }
+:if ([:len [find where list=$AddressList and address=104.73.224.191]] = 0) do={ add list=$AddressList comment=netflix.com address=104.73.224.191 }
+:if ([:len [find where list=$AddressList and address=104.80.242.117]] = 0) do={ add list=$AddressList comment=netflix.com address=104.80.242.117 }
+:if ([:len [find where list=$AddressList and address=104.81.120.184]] = 0) do={ add list=$AddressList comment=netflix.com address=104.81.120.184 }
+:if ([:len [find where list=$AddressList and address=104.81.96.136]] = 0) do={ add list=$AddressList comment=netflix.com address=104.81.96.136 }
+:if ([:len [find where list=$AddressList and address=104.82.116.207]] = 0) do={ add list=$AddressList comment=netflix.com address=104.82.116.207 }
+:if ([:len [find where list=$AddressList and address=104.82.116.240]] = 0) do={ add list=$AddressList comment=netflix.com address=104.82.116.240 }
+:if ([:len [find where list=$AddressList and address=104.82.225.187]] = 0) do={ add list=$AddressList comment=netflix.com address=104.82.225.187 }
+:if ([:len [find where list=$AddressList and address=104.82.74.205]] = 0) do={ add list=$AddressList comment=netflix.com address=104.82.74.205 }
+:if ([:len [find where list=$AddressList and address=104.83.106.92]] = 0) do={ add list=$AddressList comment=netflix.com address=104.83.106.92 }
+:if ([:len [find where list=$AddressList and address=104.83.115.85]] = 0) do={ add list=$AddressList comment=netflix.com address=104.83.115.85 }
+:if ([:len [find where list=$AddressList and address=104.83.47.174]] = 0) do={ add list=$AddressList comment=netflix.com address=104.83.47.174 }
+:if ([:len [find where list=$AddressList and address=104.85.17.209]] = 0) do={ add list=$AddressList comment=netflix.com address=104.85.17.209 }
+:if ([:len [find where list=$AddressList and address=104.85.28.164]] = 0) do={ add list=$AddressList comment=netflix.com address=104.85.28.164 }
+:if ([:len [find where list=$AddressList and address=104.86.33.53]] = 0) do={ add list=$AddressList comment=netflix.com address=104.86.33.53 }
+:if ([:len [find where list=$AddressList and address=104.87.211.107]] = 0) do={ add list=$AddressList comment=netflix.com address=104.87.211.107 }
+:if ([:len [find where list=$AddressList and address=104.87.219.47]] = 0) do={ add list=$AddressList comment=netflix.com address=104.87.219.47 }
+:if ([:len [find where list=$AddressList and address=104.90.65.184]] = 0) do={ add list=$AddressList comment=netflix.com address=104.90.65.184 }
+:if ([:len [find where list=$AddressList and address=104.96.131.181]] = 0) do={ add list=$AddressList comment=netflix.com address=104.96.131.181 }
+:if ([:len [find where list=$AddressList and address=107.20.160.27]] = 0) do={ add list=$AddressList comment=netflix.com address=107.20.160.27 }
+:if ([:len [find where list=$AddressList and address=107.20.175.192]] = 0) do={ add list=$AddressList comment=netflix.com address=107.20.175.192 }
+:if ([:len [find where list=$AddressList and address=107.22.243.248]] = 0) do={ add list=$AddressList comment=netflix.com address=107.22.243.248 }
+:if ([:len [find where list=$AddressList and address=13.58.158.2]] = 0) do={ add list=$AddressList comment=netflix.com address=13.58.158.2 }
+:if ([:len [find where list=$AddressList and address=13.59.136.77]] = 0) do={ add list=$AddressList comment=netflix.com address=13.59.136.77 }
+:if ([:len [find where list=$AddressList and address=13.59.143.154]] = 0) do={ add list=$AddressList comment=netflix.com address=13.59.143.154 }
+:if ([:len [find where list=$AddressList and address=13.59.33.82]] = 0) do={ add list=$AddressList comment=netflix.com address=13.59.33.82 }
+:if ([:len [find where list=$AddressList and address=13.59.96.40]] = 0) do={ add list=$AddressList comment=netflix.com address=13.59.96.40 }
+:if ([:len [find where list=$AddressList and address=139.45.192.1]] = 0) do={ add list=$AddressList comment=netflix.com address=139.45.192.1 }
+:if ([:len [find where list=$AddressList and address=139.45.192.3]] = 0) do={ add list=$AddressList comment=netflix.com address=139.45.192.3 }
+:if ([:len [find where list=$AddressList and address=139.45.192.5]] = 0) do={ add list=$AddressList comment=netflix.com address=139.45.192.5 }
+:if ([:len [find where list=$AddressList and address=139.45.193.1]] = 0) do={ add list=$AddressList comment=netflix.com address=139.45.193.1 }
+:if ([:len [find where list=$AddressList and address=139.45.193.7]] = 0) do={ add list=$AddressList comment=netflix.com address=139.45.193.7 }
+:if ([:len [find where list=$AddressList and address=139.45.205.11]] = 0) do={ add list=$AddressList comment=netflix.com address=139.45.205.11 }
+:if ([:len [find where list=$AddressList and address=139.45.205.13]] = 0) do={ add list=$AddressList comment=netflix.com address=139.45.205.13 }
+:if ([:len [find where list=$AddressList and address=139.45.205.7]] = 0) do={ add list=$AddressList comment=netflix.com address=139.45.205.7 }
+:if ([:len [find where list=$AddressList and address=149.255.128.1]] = 0) do={ add list=$AddressList comment=netflix.com address=149.255.128.1 }
+:if ([:len [find where list=$AddressList and address=162.159.152.4]] = 0) do={ add list=$AddressList comment=netflix.com address=162.159.152.4 }
+:if ([:len [find where list=$AddressList and address=162.159.153.4]] = 0) do={ add list=$AddressList comment=netflix.com address=162.159.153.4 }
+:if ([:len [find where list=$AddressList and address=172.22.72.23]] = 0) do={ add list=$AddressList comment=netflix.com address=172.22.72.23 }
+:if ([:len [find where list=$AddressList and address=172.22.72.24]] = 0) do={ add list=$AddressList comment=netflix.com address=172.22.72.24 }
+:if ([:len [find where list=$AddressList and address=172.64.155.119]] = 0) do={ add list=$AddressList comment=netflix.com address=172.64.155.119 }
+:if ([:len [find where list=$AddressList and address=173.223.31.169]] = 0) do={ add list=$AddressList comment=netflix.com address=173.223.31.169 }
+:if ([:len [find where list=$AddressList and address=174.129.170.121]] = 0) do={ add list=$AddressList comment=netflix.com address=174.129.170.121 }
+:if ([:len [find where list=$AddressList and address=176.34.123.210]] = 0) do={ add list=$AddressList comment=netflix.com address=176.34.123.210 }
+:if ([:len [find where list=$AddressList and address=18.116.209.101]] = 0) do={ add list=$AddressList comment=netflix.com address=18.116.209.101 }
+:if ([:len [find where list=$AddressList and address=18.118.127.196]] = 0) do={ add list=$AddressList comment=netflix.com address=18.118.127.196 }
+:if ([:len [find where list=$AddressList and address=18.119.26.28]] = 0) do={ add list=$AddressList comment=netflix.com address=18.119.26.28 }
+:if ([:len [find where list=$AddressList and address=18.189.216.73]] = 0) do={ add list=$AddressList comment=netflix.com address=18.189.216.73 }
+:if ([:len [find where list=$AddressList and address=18.189.65.196]] = 0) do={ add list=$AddressList comment=netflix.com address=18.189.65.196 }
+:if ([:len [find where list=$AddressList and address=18.191.122.176]] = 0) do={ add list=$AddressList comment=netflix.com address=18.191.122.176 }
+:if ([:len [find where list=$AddressList and address=18.191.127.89]] = 0) do={ add list=$AddressList comment=netflix.com address=18.191.127.89 }
+:if ([:len [find where list=$AddressList and address=18.191.6.67]] = 0) do={ add list=$AddressList comment=netflix.com address=18.191.6.67 }
+:if ([:len [find where list=$AddressList and address=18.200.8.190]] = 0) do={ add list=$AddressList comment=netflix.com address=18.200.8.190 }
+:if ([:len [find where list=$AddressList and address=18.203.189.247]] = 0) do={ add list=$AddressList comment=netflix.com address=18.203.189.247 }
+:if ([:len [find where list=$AddressList and address=18.204.146.237]] = 0) do={ add list=$AddressList comment=netflix.com address=18.204.146.237 }
+:if ([:len [find where list=$AddressList and address=18.209.154.243]] = 0) do={ add list=$AddressList comment=netflix.com address=18.209.154.243 }
+:if ([:len [find where list=$AddressList and address=18.209.85.220]] = 0) do={ add list=$AddressList comment=netflix.com address=18.209.85.220 }
+:if ([:len [find where list=$AddressList and address=18.211.239.233]] = 0) do={ add list=$AddressList comment=netflix.com address=18.211.239.233 }
+:if ([:len [find where list=$AddressList and address=18.216.0.185]] = 0) do={ add list=$AddressList comment=netflix.com address=18.216.0.185 }
+:if ([:len [find where list=$AddressList and address=18.217.59.9]] = 0) do={ add list=$AddressList comment=netflix.com address=18.217.59.9 }
+:if ([:len [find where list=$AddressList and address=18.217.83.66]] = 0) do={ add list=$AddressList comment=netflix.com address=18.217.83.66 }
+:if ([:len [find where list=$AddressList and address=18.217.99.125]] = 0) do={ add list=$AddressList comment=netflix.com address=18.217.99.125 }
+:if ([:len [find where list=$AddressList and address=18.221.229.140]] = 0) do={ add list=$AddressList comment=netflix.com address=18.221.229.140 }
+:if ([:len [find where list=$AddressList and address=18.221.239.141]] = 0) do={ add list=$AddressList comment=netflix.com address=18.221.239.141 }
+:if ([:len [find where list=$AddressList and address=18.223.242.221]] = 0) do={ add list=$AddressList comment=netflix.com address=18.223.242.221 }
+:if ([:len [find where list=$AddressList and address=18.236.7.30]] = 0) do={ add list=$AddressList comment=netflix.com address=18.236.7.30 }
+:if ([:len [find where list=$AddressList and address=184.25.66.202]] = 0) do={ add list=$AddressList comment=netflix.com address=184.25.66.202 }
+:if ([:len [find where list=$AddressList and address=184.27.1.184]] = 0) do={ add list=$AddressList comment=netflix.com address=184.27.1.184 }
+:if ([:len [find where list=$AddressList and address=184.27.2.83]] = 0) do={ add list=$AddressList comment=netflix.com address=184.27.2.83 }
+:if ([:len [find where list=$AddressList and address=184.28.207.19]] = 0) do={ add list=$AddressList comment=netflix.com address=184.28.207.19 }
+:if ([:len [find where list=$AddressList and address=184.29.161.185]] = 0) do={ add list=$AddressList comment=netflix.com address=184.29.161.185 }
+:if ([:len [find where list=$AddressList and address=184.29.225.64]] = 0) do={ add list=$AddressList comment=netflix.com address=184.29.225.64 }
+:if ([:len [find where list=$AddressList and address=184.29.225.67]] = 0) do={ add list=$AddressList comment=netflix.com address=184.29.225.67 }
+:if ([:len [find where list=$AddressList and address=184.30.214.54]] = 0) do={ add list=$AddressList comment=netflix.com address=184.30.214.54 }
+:if ([:len [find where list=$AddressList and address=184.30.81.57]] = 0) do={ add list=$AddressList comment=netflix.com address=184.30.81.57 }
+:if ([:len [find where list=$AddressList and address=184.51.134.103]] = 0) do={ add list=$AddressList comment=netflix.com address=184.51.134.103 }
+:if ([:len [find where list=$AddressList and address=184.51.225.184]] = 0) do={ add list=$AddressList comment=netflix.com address=184.51.225.184 }
+:if ([:len [find where list=$AddressList and address=184.86.162.26]] = 0) do={ add list=$AddressList comment=netflix.com address=184.86.162.26 }
+:if ([:len [find where list=$AddressList and address=187.228.6.231]] = 0) do={ add list=$AddressList comment=netflix.com address=187.228.6.231 }
+:if ([:len [find where list=$AddressList and address=187.228.6.233]] = 0) do={ add list=$AddressList comment=netflix.com address=187.228.6.233 }
+:if ([:len [find where list=$AddressList and address=187.228.6.235]] = 0) do={ add list=$AddressList comment=netflix.com address=187.228.6.235 }
+:if ([:len [find where list=$AddressList and address=187.228.6.249]] = 0) do={ add list=$AddressList comment=netflix.com address=187.228.6.249 }
+:if ([:len [find where list=$AddressList and address=187.228.6.251]] = 0) do={ add list=$AddressList comment=netflix.com address=187.228.6.251 }
+:if ([:len [find where list=$AddressList and address=187.228.6.253]] = 0) do={ add list=$AddressList comment=netflix.com address=187.228.6.253 }
+:if ([:len [find where list=$AddressList and address=187.228.8.249]] = 0) do={ add list=$AddressList comment=netflix.com address=187.228.8.249 }
+:if ([:len [find where list=$AddressList and address=187.228.8.251]] = 0) do={ add list=$AddressList comment=netflix.com address=187.228.8.251 }
+:if ([:len [find where list=$AddressList and address=187.228.8.253]] = 0) do={ add list=$AddressList comment=netflix.com address=187.228.8.253 }
+:if ([:len [find where list=$AddressList and address=188.114.98.224]] = 0) do={ add list=$AddressList comment=netflix.com address=188.114.98.224 }
+:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=netflix.com address=188.114.98.228 }
+:if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=netflix.com address=188.114.98.229 }
+:if ([:len [find where list=$AddressList and address=188.114.99.224]] = 0) do={ add list=$AddressList comment=netflix.com address=188.114.99.224 }
+:if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=netflix.com address=188.114.99.228 }
+:if ([:len [find where list=$AddressList and address=188.114.99.229]] = 0) do={ add list=$AddressList comment=netflix.com address=188.114.99.229 }
+:if ([:len [find where list=$AddressList and address=189.149.228.253]] = 0) do={ add list=$AddressList comment=netflix.com address=189.149.228.253 }
+:if ([:len [find where list=$AddressList and address=189.149.228.255]] = 0) do={ add list=$AddressList comment=netflix.com address=189.149.228.255 }
+:if ([:len [find where list=$AddressList and address=189.233.217.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.217.1 }
+:if ([:len [find where list=$AddressList and address=189.233.217.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.217.3 }
+:if ([:len [find where list=$AddressList and address=189.233.217.5]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.217.5 }
+:if ([:len [find where list=$AddressList and address=189.233.217.7]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.217.7 }
+:if ([:len [find where list=$AddressList and address=189.233.218.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.218.1 }
+:if ([:len [find where list=$AddressList and address=189.233.218.11]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.218.11 }
+:if ([:len [find where list=$AddressList and address=189.233.218.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.218.3 }
+:if ([:len [find where list=$AddressList and address=189.233.218.5]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.218.5 }
+:if ([:len [find where list=$AddressList and address=189.233.218.7]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.218.7 }
+:if ([:len [find where list=$AddressList and address=189.233.218.9]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.218.9 }
+:if ([:len [find where list=$AddressList and address=189.233.219.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.219.1 }
+:if ([:len [find where list=$AddressList and address=189.233.219.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.219.3 }
+:if ([:len [find where list=$AddressList and address=189.233.219.5]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.219.5 }
+:if ([:len [find where list=$AddressList and address=189.233.220.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.220.1 }
+:if ([:len [find where list=$AddressList and address=189.233.220.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.220.3 }
+:if ([:len [find where list=$AddressList and address=189.233.220.5]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.220.5 }
+:if ([:len [find where list=$AddressList and address=189.233.220.7]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.220.7 }
+:if ([:len [find where list=$AddressList and address=189.233.221.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.221.1 }
+:if ([:len [find where list=$AddressList and address=189.233.221.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.221.3 }
+:if ([:len [find where list=$AddressList and address=189.233.221.5]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.221.5 }
+:if ([:len [find where list=$AddressList and address=189.233.222.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.222.1 }
+:if ([:len [find where list=$AddressList and address=189.233.222.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.222.3 }
+:if ([:len [find where list=$AddressList and address=189.233.222.5]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.222.5 }
+:if ([:len [find where list=$AddressList and address=189.233.222.7]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.222.7 }
+:if ([:len [find where list=$AddressList and address=189.233.223.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.223.1 }
+:if ([:len [find where list=$AddressList and address=189.233.223.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.223.3 }
+:if ([:len [find where list=$AddressList and address=189.233.224.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.224.1 }
+:if ([:len [find where list=$AddressList and address=189.233.224.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.224.3 }
+:if ([:len [find where list=$AddressList and address=189.233.224.5]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.224.5 }
+:if ([:len [find where list=$AddressList and address=189.233.224.7]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.224.7 }
+:if ([:len [find where list=$AddressList and address=189.233.226.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.226.1 }
+:if ([:len [find where list=$AddressList and address=189.233.226.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.226.3 }
+:if ([:len [find where list=$AddressList and address=189.233.227.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.227.1 }
+:if ([:len [find where list=$AddressList and address=189.233.228.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.228.1 }
+:if ([:len [find where list=$AddressList and address=189.233.228.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.228.3 }
+:if ([:len [find where list=$AddressList and address=189.233.229.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.229.1 }
+:if ([:len [find where list=$AddressList and address=189.233.229.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.229.3 }
+:if ([:len [find where list=$AddressList and address=189.233.229.5]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.229.5 }
+:if ([:len [find where list=$AddressList and address=189.233.229.7]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.229.7 }
+:if ([:len [find where list=$AddressList and address=189.233.230.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.230.1 }
+:if ([:len [find where list=$AddressList and address=189.233.230.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.230.3 }
+:if ([:len [find where list=$AddressList and address=189.233.231.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.231.1 }
+:if ([:len [find where list=$AddressList and address=189.233.231.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.231.3 }
+:if ([:len [find where list=$AddressList and address=189.233.236.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.236.1 }
+:if ([:len [find where list=$AddressList and address=189.233.236.9]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.236.9 }
+:if ([:len [find where list=$AddressList and address=189.233.247.1]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.247.1 }
+:if ([:len [find where list=$AddressList and address=189.233.247.3]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.247.3 }
+:if ([:len [find where list=$AddressList and address=189.233.247.5]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.247.5 }
+:if ([:len [find where list=$AddressList and address=189.233.247.7]] = 0) do={ add list=$AddressList comment=netflix.com address=189.233.247.7 }
+:if ([:len [find where list=$AddressList and address=189.247.0.43]] = 0) do={ add list=$AddressList comment=netflix.com address=189.247.0.43 }
+:if ([:len [find where list=$AddressList and address=189.247.0.45]] = 0) do={ add list=$AddressList comment=netflix.com address=189.247.0.45 }
+:if ([:len [find where list=$AddressList and address=189.247.0.47]] = 0) do={ add list=$AddressList comment=netflix.com address=189.247.0.47 }

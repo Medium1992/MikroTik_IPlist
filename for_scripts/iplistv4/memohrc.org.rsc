@@ -1,51 +1,51 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=memohrc.org address=104.20.16.227} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.20.20.93} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.20.35.74} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.21.112.1} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.21.16.1} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.21.16.199} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.21.32.1} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.21.43.9} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.21.48.1} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.21.64.1} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.21.80.1} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.21.91.72} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.21.96.1} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.26.0.217} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.26.1.217} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.26.10.34} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.26.11.34} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.26.4.123} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=104.26.5.123} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=172.66.146.196} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=172.66.157.200} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=172.66.160.113} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=172.67.211.97} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=172.67.215.151} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=172.67.215.173} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=172.67.69.211} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=172.67.73.218} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=172.67.74.131} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.96.1} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.96.10} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.96.11} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.96.12} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.96.3} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.96.7} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.96.9} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.97.1} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.97.10} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.97.11} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.97.12} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.97.3} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.97.7} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=188.114.97.9} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=8.47.69.0} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=8.47.69.4} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=8.47.69.6} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=8.6.112.0} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=8.6.112.4} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=8.6.112.6} on-error {}
-:do {add list=$AddressList comment=memohrc.org address=95.216.137.177} on-error {}
+:if ([:len [find where list=$AddressList and address=104.20.16.227]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.20.16.227 }
+:if ([:len [find where list=$AddressList and address=104.20.20.93]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.20.20.93 }
+:if ([:len [find where list=$AddressList and address=104.20.35.74]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.20.35.74 }
+:if ([:len [find where list=$AddressList and address=104.21.112.1]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.21.112.1 }
+:if ([:len [find where list=$AddressList and address=104.21.16.1]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.21.16.1 }
+:if ([:len [find where list=$AddressList and address=104.21.16.199]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.21.16.199 }
+:if ([:len [find where list=$AddressList and address=104.21.32.1]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.21.32.1 }
+:if ([:len [find where list=$AddressList and address=104.21.43.9]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.21.43.9 }
+:if ([:len [find where list=$AddressList and address=104.21.48.1]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.21.48.1 }
+:if ([:len [find where list=$AddressList and address=104.21.64.1]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.21.64.1 }
+:if ([:len [find where list=$AddressList and address=104.21.80.1]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.21.80.1 }
+:if ([:len [find where list=$AddressList and address=104.21.91.72]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.21.91.72 }
+:if ([:len [find where list=$AddressList and address=104.21.96.1]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.21.96.1 }
+:if ([:len [find where list=$AddressList and address=104.26.0.217]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.26.0.217 }
+:if ([:len [find where list=$AddressList and address=104.26.1.217]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.26.1.217 }
+:if ([:len [find where list=$AddressList and address=104.26.10.34]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.26.10.34 }
+:if ([:len [find where list=$AddressList and address=104.26.11.34]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.26.11.34 }
+:if ([:len [find where list=$AddressList and address=104.26.4.123]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.26.4.123 }
+:if ([:len [find where list=$AddressList and address=104.26.5.123]] = 0) do={ add list=$AddressList comment=memohrc.org address=104.26.5.123 }
+:if ([:len [find where list=$AddressList and address=172.66.146.196]] = 0) do={ add list=$AddressList comment=memohrc.org address=172.66.146.196 }
+:if ([:len [find where list=$AddressList and address=172.66.157.200]] = 0) do={ add list=$AddressList comment=memohrc.org address=172.66.157.200 }
+:if ([:len [find where list=$AddressList and address=172.66.160.113]] = 0) do={ add list=$AddressList comment=memohrc.org address=172.66.160.113 }
+:if ([:len [find where list=$AddressList and address=172.67.211.97]] = 0) do={ add list=$AddressList comment=memohrc.org address=172.67.211.97 }
+:if ([:len [find where list=$AddressList and address=172.67.215.151]] = 0) do={ add list=$AddressList comment=memohrc.org address=172.67.215.151 }
+:if ([:len [find where list=$AddressList and address=172.67.215.173]] = 0) do={ add list=$AddressList comment=memohrc.org address=172.67.215.173 }
+:if ([:len [find where list=$AddressList and address=172.67.69.211]] = 0) do={ add list=$AddressList comment=memohrc.org address=172.67.69.211 }
+:if ([:len [find where list=$AddressList and address=172.67.73.218]] = 0) do={ add list=$AddressList comment=memohrc.org address=172.67.73.218 }
+:if ([:len [find where list=$AddressList and address=172.67.74.131]] = 0) do={ add list=$AddressList comment=memohrc.org address=172.67.74.131 }
+:if ([:len [find where list=$AddressList and address=188.114.96.1]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.96.1 }
+:if ([:len [find where list=$AddressList and address=188.114.96.10]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.96.10 }
+:if ([:len [find where list=$AddressList and address=188.114.96.11]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.96.11 }
+:if ([:len [find where list=$AddressList and address=188.114.96.12]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.96.12 }
+:if ([:len [find where list=$AddressList and address=188.114.96.3]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.96.3 }
+:if ([:len [find where list=$AddressList and address=188.114.96.7]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.96.7 }
+:if ([:len [find where list=$AddressList and address=188.114.96.9]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.96.9 }
+:if ([:len [find where list=$AddressList and address=188.114.97.1]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.97.1 }
+:if ([:len [find where list=$AddressList and address=188.114.97.10]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.97.10 }
+:if ([:len [find where list=$AddressList and address=188.114.97.11]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.97.11 }
+:if ([:len [find where list=$AddressList and address=188.114.97.12]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.97.12 }
+:if ([:len [find where list=$AddressList and address=188.114.97.3]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.97.3 }
+:if ([:len [find where list=$AddressList and address=188.114.97.7]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.97.7 }
+:if ([:len [find where list=$AddressList and address=188.114.97.9]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.97.9 }
+:if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.4]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.47.69.4 }
+:if ([:len [find where list=$AddressList and address=8.47.69.6]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.47.69.6 }
+:if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.4]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.6.112.4 }
+:if ([:len [find where list=$AddressList and address=8.6.112.6]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.6.112.6 }
+:if ([:len [find where list=$AddressList and address=95.216.137.177]] = 0) do={ add list=$AddressList comment=memohrc.org address=95.216.137.177 }

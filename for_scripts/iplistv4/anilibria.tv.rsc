@@ -1,51 +1,51 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=anilibria.tv address=103.224.182.238} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=103.224.182.253} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=104.21.112.1} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=104.21.16.1} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=104.21.20.164} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=104.21.235.97} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=104.21.235.98} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=104.21.32.1} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=104.21.48.1} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=104.21.64.1} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=104.21.80.1} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=104.21.96.1} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=116.203.58.148} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=13.229.114.252} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.233.212.129} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.233.212.151} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.233.212.224} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.233.212.90} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.233.219.123} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.233.219.49} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.233.219.55} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.233.219.78} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.234.19.54} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.234.212.122} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.234.31.13} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.236.100.14} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.236.123.101} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.237.146.25} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.237.146.38} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.237.146.49} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.237.146.8} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.238.172.241} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=172.67.193.53} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=18.141.199.30} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=18.141.222.153} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.96.0} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.96.10} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.96.12} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.96.3} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.96.7} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.96.9} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.97.0} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.97.10} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.97.12} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.97.3} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.97.7} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=188.114.97.9} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=199.59.243.228} on-error {}
-:do {add list=$AddressList comment=anilibria.tv address=54.169.253.230} on-error {}
+:if ([:len [find where list=$AddressList and address=103.224.182.238]] = 0) do={ add list=$AddressList comment=anilibria.tv address=103.224.182.238 }
+:if ([:len [find where list=$AddressList and address=103.224.182.253]] = 0) do={ add list=$AddressList comment=anilibria.tv address=103.224.182.253 }
+:if ([:len [find where list=$AddressList and address=104.21.112.1]] = 0) do={ add list=$AddressList comment=anilibria.tv address=104.21.112.1 }
+:if ([:len [find where list=$AddressList and address=104.21.16.1]] = 0) do={ add list=$AddressList comment=anilibria.tv address=104.21.16.1 }
+:if ([:len [find where list=$AddressList and address=104.21.20.164]] = 0) do={ add list=$AddressList comment=anilibria.tv address=104.21.20.164 }
+:if ([:len [find where list=$AddressList and address=104.21.235.97]] = 0) do={ add list=$AddressList comment=anilibria.tv address=104.21.235.97 }
+:if ([:len [find where list=$AddressList and address=104.21.235.98]] = 0) do={ add list=$AddressList comment=anilibria.tv address=104.21.235.98 }
+:if ([:len [find where list=$AddressList and address=104.21.32.1]] = 0) do={ add list=$AddressList comment=anilibria.tv address=104.21.32.1 }
+:if ([:len [find where list=$AddressList and address=104.21.48.1]] = 0) do={ add list=$AddressList comment=anilibria.tv address=104.21.48.1 }
+:if ([:len [find where list=$AddressList and address=104.21.64.1]] = 0) do={ add list=$AddressList comment=anilibria.tv address=104.21.64.1 }
+:if ([:len [find where list=$AddressList and address=104.21.80.1]] = 0) do={ add list=$AddressList comment=anilibria.tv address=104.21.80.1 }
+:if ([:len [find where list=$AddressList and address=104.21.96.1]] = 0) do={ add list=$AddressList comment=anilibria.tv address=104.21.96.1 }
+:if ([:len [find where list=$AddressList and address=116.203.58.148]] = 0) do={ add list=$AddressList comment=anilibria.tv address=116.203.58.148 }
+:if ([:len [find where list=$AddressList and address=13.229.114.252]] = 0) do={ add list=$AddressList comment=anilibria.tv address=13.229.114.252 }
+:if ([:len [find where list=$AddressList and address=172.233.212.129]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.233.212.129 }
+:if ([:len [find where list=$AddressList and address=172.233.212.151]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.233.212.151 }
+:if ([:len [find where list=$AddressList and address=172.233.212.224]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.233.212.224 }
+:if ([:len [find where list=$AddressList and address=172.233.212.90]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.233.212.90 }
+:if ([:len [find where list=$AddressList and address=172.233.219.123]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.233.219.123 }
+:if ([:len [find where list=$AddressList and address=172.233.219.49]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.233.219.49 }
+:if ([:len [find where list=$AddressList and address=172.233.219.55]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.233.219.55 }
+:if ([:len [find where list=$AddressList and address=172.233.219.78]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.233.219.78 }
+:if ([:len [find where list=$AddressList and address=172.234.19.54]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.234.19.54 }
+:if ([:len [find where list=$AddressList and address=172.234.212.122]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.234.212.122 }
+:if ([:len [find where list=$AddressList and address=172.234.31.13]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.234.31.13 }
+:if ([:len [find where list=$AddressList and address=172.236.100.14]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.236.100.14 }
+:if ([:len [find where list=$AddressList and address=172.236.123.101]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.236.123.101 }
+:if ([:len [find where list=$AddressList and address=172.237.146.25]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.237.146.25 }
+:if ([:len [find where list=$AddressList and address=172.237.146.38]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.237.146.38 }
+:if ([:len [find where list=$AddressList and address=172.237.146.49]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.237.146.49 }
+:if ([:len [find where list=$AddressList and address=172.237.146.8]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.237.146.8 }
+:if ([:len [find where list=$AddressList and address=172.238.172.241]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.238.172.241 }
+:if ([:len [find where list=$AddressList and address=172.67.193.53]] = 0) do={ add list=$AddressList comment=anilibria.tv address=172.67.193.53 }
+:if ([:len [find where list=$AddressList and address=18.141.199.30]] = 0) do={ add list=$AddressList comment=anilibria.tv address=18.141.199.30 }
+:if ([:len [find where list=$AddressList and address=18.141.222.153]] = 0) do={ add list=$AddressList comment=anilibria.tv address=18.141.222.153 }
+:if ([:len [find where list=$AddressList and address=188.114.96.0]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.96.0 }
+:if ([:len [find where list=$AddressList and address=188.114.96.10]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.96.10 }
+:if ([:len [find where list=$AddressList and address=188.114.96.12]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.96.12 }
+:if ([:len [find where list=$AddressList and address=188.114.96.3]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.96.3 }
+:if ([:len [find where list=$AddressList and address=188.114.96.7]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.96.7 }
+:if ([:len [find where list=$AddressList and address=188.114.96.9]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.96.9 }
+:if ([:len [find where list=$AddressList and address=188.114.97.0]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.97.0 }
+:if ([:len [find where list=$AddressList and address=188.114.97.10]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.97.10 }
+:if ([:len [find where list=$AddressList and address=188.114.97.12]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.97.12 }
+:if ([:len [find where list=$AddressList and address=188.114.97.3]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.97.3 }
+:if ([:len [find where list=$AddressList and address=188.114.97.7]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.97.7 }
+:if ([:len [find where list=$AddressList and address=188.114.97.9]] = 0) do={ add list=$AddressList comment=anilibria.tv address=188.114.97.9 }
+:if ([:len [find where list=$AddressList and address=199.59.243.228]] = 0) do={ add list=$AddressList comment=anilibria.tv address=199.59.243.228 }
+:if ([:len [find where list=$AddressList and address=54.169.253.230]] = 0) do={ add list=$AddressList comment=anilibria.tv address=54.169.253.230 }

@@ -1,98 +1,104 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=combotech address=104.18.42.52} on-error {}
-:do {add list=$AddressList comment=combotech address=104.18.43.186} on-error {}
-:do {add list=$AddressList comment=combotech address=104.20.17.176} on-error {}
-:do {add list=$AddressList comment=combotech address=104.22.26.197} on-error {}
-:do {add list=$AddressList comment=combotech address=104.22.27.197} on-error {}
-:do {add list=$AddressList comment=combotech address=104.22.30.217} on-error {}
-:do {add list=$AddressList comment=combotech address=104.22.31.217} on-error {}
-:do {add list=$AddressList comment=combotech address=104.22.72.202} on-error {}
-:do {add list=$AddressList comment=combotech address=104.22.73.202} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.113} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.116} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.118} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.12} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.120} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.121} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.122} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.123} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.124} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.125} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.129} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.13} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.130} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.131} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.132} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.133} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.134} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.135} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.136} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.137} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.138} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.139} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.14} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.140} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.141} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.142} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.143} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.144} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.145} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.146} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.147} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.148} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.149} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.150} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.151} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.152} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.153} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.154} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.155} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.156} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.157} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.158} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.159} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.160} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.161} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.162} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.163} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.164} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.165} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.166} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.167} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.87} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.88} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.89} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.96} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.97} on-error {}
-:do {add list=$AddressList comment=combotech address=154.197.65.98} on-error {}
-:do {add list=$AddressList comment=combotech address=172.64.144.70} on-error {}
-:do {add list=$AddressList comment=combotech address=172.64.145.204} on-error {}
-:do {add list=$AddressList comment=combotech address=172.66.154.29} on-error {}
-:do {add list=$AddressList comment=combotech address=172.66.40.138} on-error {}
-:do {add list=$AddressList comment=combotech address=172.66.40.229} on-error {}
-:do {add list=$AddressList comment=combotech address=172.66.41.27} on-error {}
-:do {add list=$AddressList comment=combotech address=172.66.42.229} on-error {}
-:do {add list=$AddressList comment=combotech address=172.66.43.118} on-error {}
-:do {add list=$AddressList comment=combotech address=172.66.43.27} on-error {}
-:do {add list=$AddressList comment=combotech address=172.67.24.96} on-error {}
-:do {add list=$AddressList comment=combotech address=172.67.43.125} on-error {}
-:do {add list=$AddressList comment=combotech address=172.67.5.53} on-error {}
-:do {add list=$AddressList comment=combotech address=188.114.98.224} on-error {}
-:do {add list=$AddressList comment=combotech address=188.114.98.228} on-error {}
-:do {add list=$AddressList comment=combotech address=188.114.98.229} on-error {}
-:do {add list=$AddressList comment=combotech address=188.114.98.232} on-error {}
-:do {add list=$AddressList comment=combotech address=188.114.98.236} on-error {}
-:do {add list=$AddressList comment=combotech address=188.114.99.224} on-error {}
-:do {add list=$AddressList comment=combotech address=188.114.99.228} on-error {}
-:do {add list=$AddressList comment=combotech address=188.114.99.229} on-error {}
-:do {add list=$AddressList comment=combotech address=188.114.99.232} on-error {}
-:do {add list=$AddressList comment=combotech address=188.114.99.236} on-error {}
-:do {add list=$AddressList comment=combotech address=8.47.69.0} on-error {}
-:do {add list=$AddressList comment=combotech address=8.47.69.4} on-error {}
-:do {add list=$AddressList comment=combotech address=8.47.69.8} on-error {}
-:do {add list=$AddressList comment=combotech address=8.47.69.9} on-error {}
-:do {add list=$AddressList comment=combotech address=8.6.112.0} on-error {}
-:do {add list=$AddressList comment=combotech address=8.6.112.4} on-error {}
-:do {add list=$AddressList comment=combotech address=8.6.112.8} on-error {}
-:do {add list=$AddressList comment=combotech address=8.6.112.9} on-error {}
+:if ([:len [find where list=$AddressList and address=104.18.42.52]] = 0) do={ add list=$AddressList comment=combotech address=104.18.42.52 }
+:if ([:len [find where list=$AddressList and address=104.18.43.186]] = 0) do={ add list=$AddressList comment=combotech address=104.18.43.186 }
+:if ([:len [find where list=$AddressList and address=104.20.17.176]] = 0) do={ add list=$AddressList comment=combotech address=104.20.17.176 }
+:if ([:len [find where list=$AddressList and address=104.22.26.197]] = 0) do={ add list=$AddressList comment=combotech address=104.22.26.197 }
+:if ([:len [find where list=$AddressList and address=104.22.27.197]] = 0) do={ add list=$AddressList comment=combotech address=104.22.27.197 }
+:if ([:len [find where list=$AddressList and address=104.22.30.217]] = 0) do={ add list=$AddressList comment=combotech address=104.22.30.217 }
+:if ([:len [find where list=$AddressList and address=104.22.31.217]] = 0) do={ add list=$AddressList comment=combotech address=104.22.31.217 }
+:if ([:len [find where list=$AddressList and address=104.22.72.202]] = 0) do={ add list=$AddressList comment=combotech address=104.22.72.202 }
+:if ([:len [find where list=$AddressList and address=104.22.73.202]] = 0) do={ add list=$AddressList comment=combotech address=104.22.73.202 }
+:if ([:len [find where list=$AddressList and address=154.197.65.113]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.113 }
+:if ([:len [find where list=$AddressList and address=154.197.65.116]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.116 }
+:if ([:len [find where list=$AddressList and address=154.197.65.118]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.118 }
+:if ([:len [find where list=$AddressList and address=154.197.65.12]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.12 }
+:if ([:len [find where list=$AddressList and address=154.197.65.120]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.120 }
+:if ([:len [find where list=$AddressList and address=154.197.65.121]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.121 }
+:if ([:len [find where list=$AddressList and address=154.197.65.122]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.122 }
+:if ([:len [find where list=$AddressList and address=154.197.65.123]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.123 }
+:if ([:len [find where list=$AddressList and address=154.197.65.124]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.124 }
+:if ([:len [find where list=$AddressList and address=154.197.65.125]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.125 }
+:if ([:len [find where list=$AddressList and address=154.197.65.129]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.129 }
+:if ([:len [find where list=$AddressList and address=154.197.65.13]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.13 }
+:if ([:len [find where list=$AddressList and address=154.197.65.130]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.130 }
+:if ([:len [find where list=$AddressList and address=154.197.65.131]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.131 }
+:if ([:len [find where list=$AddressList and address=154.197.65.132]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.132 }
+:if ([:len [find where list=$AddressList and address=154.197.65.133]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.133 }
+:if ([:len [find where list=$AddressList and address=154.197.65.134]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.134 }
+:if ([:len [find where list=$AddressList and address=154.197.65.135]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.135 }
+:if ([:len [find where list=$AddressList and address=154.197.65.136]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.136 }
+:if ([:len [find where list=$AddressList and address=154.197.65.137]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.137 }
+:if ([:len [find where list=$AddressList and address=154.197.65.138]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.138 }
+:if ([:len [find where list=$AddressList and address=154.197.65.139]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.139 }
+:if ([:len [find where list=$AddressList and address=154.197.65.14]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.14 }
+:if ([:len [find where list=$AddressList and address=154.197.65.140]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.140 }
+:if ([:len [find where list=$AddressList and address=154.197.65.141]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.141 }
+:if ([:len [find where list=$AddressList and address=154.197.65.142]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.142 }
+:if ([:len [find where list=$AddressList and address=154.197.65.143]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.143 }
+:if ([:len [find where list=$AddressList and address=154.197.65.144]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.144 }
+:if ([:len [find where list=$AddressList and address=154.197.65.145]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.145 }
+:if ([:len [find where list=$AddressList and address=154.197.65.146]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.146 }
+:if ([:len [find where list=$AddressList and address=154.197.65.147]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.147 }
+:if ([:len [find where list=$AddressList and address=154.197.65.148]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.148 }
+:if ([:len [find where list=$AddressList and address=154.197.65.149]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.149 }
+:if ([:len [find where list=$AddressList and address=154.197.65.150]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.150 }
+:if ([:len [find where list=$AddressList and address=154.197.65.151]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.151 }
+:if ([:len [find where list=$AddressList and address=154.197.65.152]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.152 }
+:if ([:len [find where list=$AddressList and address=154.197.65.153]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.153 }
+:if ([:len [find where list=$AddressList and address=154.197.65.154]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.154 }
+:if ([:len [find where list=$AddressList and address=154.197.65.155]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.155 }
+:if ([:len [find where list=$AddressList and address=154.197.65.156]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.156 }
+:if ([:len [find where list=$AddressList and address=154.197.65.157]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.157 }
+:if ([:len [find where list=$AddressList and address=154.197.65.158]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.158 }
+:if ([:len [find where list=$AddressList and address=154.197.65.159]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.159 }
+:if ([:len [find where list=$AddressList and address=154.197.65.160]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.160 }
+:if ([:len [find where list=$AddressList and address=154.197.65.161]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.161 }
+:if ([:len [find where list=$AddressList and address=154.197.65.162]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.162 }
+:if ([:len [find where list=$AddressList and address=154.197.65.163]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.163 }
+:if ([:len [find where list=$AddressList and address=154.197.65.164]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.164 }
+:if ([:len [find where list=$AddressList and address=154.197.65.165]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.165 }
+:if ([:len [find where list=$AddressList and address=154.197.65.166]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.166 }
+:if ([:len [find where list=$AddressList and address=154.197.65.167]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.167 }
+:if ([:len [find where list=$AddressList and address=154.197.65.168]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.168 }
+:if ([:len [find where list=$AddressList and address=154.197.65.169]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.169 }
+:if ([:len [find where list=$AddressList and address=154.197.65.170]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.170 }
+:if ([:len [find where list=$AddressList and address=154.197.65.171]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.171 }
+:if ([:len [find where list=$AddressList and address=154.197.65.172]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.172 }
+:if ([:len [find where list=$AddressList and address=154.197.65.173]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.173 }
+:if ([:len [find where list=$AddressList and address=154.197.65.87]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.87 }
+:if ([:len [find where list=$AddressList and address=154.197.65.88]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.88 }
+:if ([:len [find where list=$AddressList and address=154.197.65.89]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.89 }
+:if ([:len [find where list=$AddressList and address=154.197.65.96]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.96 }
+:if ([:len [find where list=$AddressList and address=154.197.65.97]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.97 }
+:if ([:len [find where list=$AddressList and address=154.197.65.98]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.98 }
+:if ([:len [find where list=$AddressList and address=172.64.144.70]] = 0) do={ add list=$AddressList comment=combotech address=172.64.144.70 }
+:if ([:len [find where list=$AddressList and address=172.64.145.204]] = 0) do={ add list=$AddressList comment=combotech address=172.64.145.204 }
+:if ([:len [find where list=$AddressList and address=172.66.154.29]] = 0) do={ add list=$AddressList comment=combotech address=172.66.154.29 }
+:if ([:len [find where list=$AddressList and address=172.66.40.138]] = 0) do={ add list=$AddressList comment=combotech address=172.66.40.138 }
+:if ([:len [find where list=$AddressList and address=172.66.40.229]] = 0) do={ add list=$AddressList comment=combotech address=172.66.40.229 }
+:if ([:len [find where list=$AddressList and address=172.66.41.27]] = 0) do={ add list=$AddressList comment=combotech address=172.66.41.27 }
+:if ([:len [find where list=$AddressList and address=172.66.42.229]] = 0) do={ add list=$AddressList comment=combotech address=172.66.42.229 }
+:if ([:len [find where list=$AddressList and address=172.66.43.118]] = 0) do={ add list=$AddressList comment=combotech address=172.66.43.118 }
+:if ([:len [find where list=$AddressList and address=172.66.43.27]] = 0) do={ add list=$AddressList comment=combotech address=172.66.43.27 }
+:if ([:len [find where list=$AddressList and address=172.67.24.96]] = 0) do={ add list=$AddressList comment=combotech address=172.67.24.96 }
+:if ([:len [find where list=$AddressList and address=172.67.43.125]] = 0) do={ add list=$AddressList comment=combotech address=172.67.43.125 }
+:if ([:len [find where list=$AddressList and address=172.67.5.53]] = 0) do={ add list=$AddressList comment=combotech address=172.67.5.53 }
+:if ([:len [find where list=$AddressList and address=188.114.98.224]] = 0) do={ add list=$AddressList comment=combotech address=188.114.98.224 }
+:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=combotech address=188.114.98.228 }
+:if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=combotech address=188.114.98.229 }
+:if ([:len [find where list=$AddressList and address=188.114.98.232]] = 0) do={ add list=$AddressList comment=combotech address=188.114.98.232 }
+:if ([:len [find where list=$AddressList and address=188.114.98.236]] = 0) do={ add list=$AddressList comment=combotech address=188.114.98.236 }
+:if ([:len [find where list=$AddressList and address=188.114.99.224]] = 0) do={ add list=$AddressList comment=combotech address=188.114.99.224 }
+:if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=combotech address=188.114.99.228 }
+:if ([:len [find where list=$AddressList and address=188.114.99.229]] = 0) do={ add list=$AddressList comment=combotech address=188.114.99.229 }
+:if ([:len [find where list=$AddressList and address=188.114.99.232]] = 0) do={ add list=$AddressList comment=combotech address=188.114.99.232 }
+:if ([:len [find where list=$AddressList and address=188.114.99.236]] = 0) do={ add list=$AddressList comment=combotech address=188.114.99.236 }
+:if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=combotech address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.4]] = 0) do={ add list=$AddressList comment=combotech address=8.47.69.4 }
+:if ([:len [find where list=$AddressList and address=8.47.69.8]] = 0) do={ add list=$AddressList comment=combotech address=8.47.69.8 }
+:if ([:len [find where list=$AddressList and address=8.47.69.9]] = 0) do={ add list=$AddressList comment=combotech address=8.47.69.9 }
+:if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=combotech address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.4]] = 0) do={ add list=$AddressList comment=combotech address=8.6.112.4 }
+:if ([:len [find where list=$AddressList and address=8.6.112.8]] = 0) do={ add list=$AddressList comment=combotech address=8.6.112.8 }
+:if ([:len [find where list=$AddressList and address=8.6.112.9]] = 0) do={ add list=$AddressList comment=combotech address=8.6.112.9 }

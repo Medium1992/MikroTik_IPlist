@@ -1,332 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=crunchyroll.com address=3.169.173.126} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.169.173.3} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.169.173.49} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.169.173.52} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.169.173.70} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.169.173.73} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.169.173.76} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.169.173.82} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.169.173.97} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.169.173.98} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.170.19.122} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.170.19.14} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.170.19.83} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.170.19.98} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.171.100.40} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.171.100.43} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.171.100.45} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.171.100.66} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.171.85.121} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.171.85.123} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.171.85.18} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.171.85.55} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.173.182.115} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.173.182.34} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.173.182.37} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.173.182.96} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.141.111} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.141.112} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.141.46} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.141.96} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.18.105} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.18.107} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.18.108} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.18.109} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.18.13} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.18.40} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.18.91} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.18.96} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.230.110} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.230.116} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.230.118} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.230.22} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.230.24} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.230.36} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.230.42} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.230.49} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.230.57} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.230.65} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.255.112} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.255.122} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.255.30} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.255.63} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.98.116} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.98.28} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.98.53} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.174.98.80} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.196.107} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.196.127} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.196.25} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.196.36} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.196.54} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.196.61} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.196.97} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.86.101} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.86.107} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.86.14} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.86.36} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.86.57} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.86.72} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.86.86} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=3.175.86.98} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.106} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.114} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.18} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.39} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.48} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.56} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.68} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.74} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.75} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.79} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.132.85} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.136.24} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.136.45} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.136.88} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.136.98} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.144.115} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.144.39} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.144.43} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.144.80} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.149.108} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.149.2} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.149.22} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.149.32} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.149.75} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.149.93} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.149.98} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.154.121} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.154.44} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.154.72} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.154.73} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.191.14} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.191.7} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.191.85} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.191.98} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.236.105} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.236.20} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.236.25} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.222.236.76} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.119} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.2} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.25} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.50} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.6} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.63} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.65} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.7} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.83} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.87} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.106.94} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.108.25} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.108.7} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.108.71} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.108.95} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.174.100} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.174.13} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.174.15} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.174.22} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.174.7} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.174.9} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.174.95} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.174.96} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.50.34} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.50.60} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.50.82} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.84.50.91} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.129.106} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.129.30} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.129.52} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.129.7} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.185.35} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.185.54} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.185.73} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.185.94} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.213.28} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.213.59} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.213.87} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.213.9} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.10} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.102} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.129} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.22} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.24} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.29} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.43} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.48} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.72} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.92} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.223.93} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.254.29} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.254.50} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.254.52} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.254.85} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.11} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.16} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.23} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.34} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.4} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.41} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.46} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.56} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.69} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.88} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.49.94} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.107} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.111} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.14} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.17} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.20} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.21} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.35} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.40} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.60} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.70} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.83} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=52.85.5.87} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.100.10} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.100.2} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.100.56} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.100.60} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.95.39} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.95.69} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.95.81} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.95.83} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.97.34} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.97.49} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.97.57} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.192.97.58} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.114.106} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.114.107} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.114.38} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.114.5} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.114.7} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.114.71} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.114.79} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.114.87} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.172.3} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.172.4} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.172.44} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.172.82} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.228.103} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.228.112} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.228.117} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.228.124} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.228.128} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.228.15} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.228.66} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.228.88} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.94.105} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.94.124} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.94.47} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.230.94.74} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.240.174.109} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.240.174.120} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.240.174.22} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.240.174.31} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.240.174.35} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.240.174.60} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.240.174.61} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=54.240.174.74} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.8.180.44} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.8.180.50} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.8.180.83} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.8.180.93} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.187.113} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.187.117} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.187.129} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.187.15} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.187.38} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.187.46} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.187.49} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.187.76} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.109} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.110} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.18} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.20} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.22} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.39} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.5} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.52} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.55} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.56} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.58} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.189.67} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.108} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.112} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.21} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.41} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.46} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.47} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.50} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.74} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.79} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.8} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.46.91} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.86.25} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.86.30} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.86.54} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.86.85} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.105} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.120} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.16} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.28} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.32} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.4} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.5} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.67} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.69} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.95} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.96} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=65.9.95.98} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=75.2.43.150} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=76.223.34.124} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=8.47.69.0} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=8.47.69.4} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=8.47.69.8} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=8.6.112.0} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=8.6.112.4} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=8.6.112.8} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.83.186.106} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.9.102} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.9.123} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.9.63} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.9.84} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.91.128} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.91.13} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.91.31} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.91.50} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.91.52} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.91.54} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.91.65} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.84.91.93} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.159.122} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.159.26} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.159.29} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.159.32} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.159.40} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.159.43} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.159.55} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.159.62} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.240.104} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.240.109} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.240.13} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.240.45} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.38.125} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.38.37} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.38.59} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.38.62} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.4.114} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.4.115} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.4.116} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.4.30} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.4.78} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.4.79} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.4.81} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.4.87} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.91.2} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.91.42} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.91.52} on-error {}
-:do {add list=$AddressList comment=crunchyroll.com address=99.86.91.72} on-error {}
+:if ([:len [find where list=$AddressList and address=18.239.208.111]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.111 }
+:if ([:len [find where list=$AddressList and address=18.239.208.120]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.120 }
+:if ([:len [find where list=$AddressList and address=18.239.208.15]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.15 }
+:if ([:len [find where list=$AddressList and address=18.239.208.26]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.26 }
+:if ([:len [find where list=$AddressList and address=18.239.208.37]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.37 }
+:if ([:len [find where list=$AddressList and address=18.239.208.6]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.6 }
+:if ([:len [find where list=$AddressList and address=18.239.208.62]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.62 }
+:if ([:len [find where list=$AddressList and address=18.239.208.68]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.68 }
+:if ([:len [find where list=$AddressList and address=18.239.208.7]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.7 }
+:if ([:len [find where list=$AddressList and address=18.239.208.8]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.8 }
+:if ([:len [find where list=$AddressList and address=18.239.208.98]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.208.98 }
+:if ([:len [find where list=$AddressList and address=18.239.236.13]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.236.13 }
+:if ([:len [find where list=$AddressList and address=18.239.236.52]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.236.52 }
+:if ([:len [find where list=$AddressList and address=18.239.236.60]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.236.60 }
+:if ([:len [find where list=$AddressList and address=18.239.236.87]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.236.87 }
+:if ([:len [find where list=$AddressList and address=18.239.255.110]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.110 }
+:if ([:len [find where list=$AddressList and address=18.239.255.112]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.112 }
+:if ([:len [find where list=$AddressList and address=18.239.255.121]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.121 }
+:if ([:len [find where list=$AddressList and address=18.239.255.128]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.128 }
+:if ([:len [find where list=$AddressList and address=18.239.255.14]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.14 }
+:if ([:len [find where list=$AddressList and address=18.239.255.33]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.33 }
+:if ([:len [find where list=$AddressList and address=18.239.255.59]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.59 }
+:if ([:len [find where list=$AddressList and address=18.239.255.77]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.77 }
+:if ([:len [find where list=$AddressList and address=18.239.255.78]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.78 }
+:if ([:len [find where list=$AddressList and address=18.239.255.8]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.8 }
+:if ([:len [find where list=$AddressList and address=18.239.255.81]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.255.81 }
+:if ([:len [find where list=$AddressList and address=18.239.36.103]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.36.103 }
+:if ([:len [find where list=$AddressList and address=18.239.36.26]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.36.26 }
+:if ([:len [find where list=$AddressList and address=18.239.36.58]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.36.58 }
+:if ([:len [find where list=$AddressList and address=18.239.36.74]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.36.74 }
+:if ([:len [find where list=$AddressList and address=18.239.50.101]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.101 }
+:if ([:len [find where list=$AddressList and address=18.239.50.120]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.120 }
+:if ([:len [find where list=$AddressList and address=18.239.50.23]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.23 }
+:if ([:len [find where list=$AddressList and address=18.239.50.26]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.26 }
+:if ([:len [find where list=$AddressList and address=18.239.50.44]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.44 }
+:if ([:len [find where list=$AddressList and address=18.239.50.47]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.47 }
+:if ([:len [find where list=$AddressList and address=18.239.50.50]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.50 }
+:if ([:len [find where list=$AddressList and address=18.239.50.64]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.64 }
+:if ([:len [find where list=$AddressList and address=18.239.50.67]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.67 }
+:if ([:len [find where list=$AddressList and address=18.239.50.69]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.69 }
+:if ([:len [find where list=$AddressList and address=18.239.50.79]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.79 }
+:if ([:len [find where list=$AddressList and address=18.239.50.82]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.50.82 }
+:if ([:len [find where list=$AddressList and address=18.239.69.24]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.69.24 }
+:if ([:len [find where list=$AddressList and address=18.239.69.3]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.69.3 }
+:if ([:len [find where list=$AddressList and address=18.239.69.35]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.69.35 }
+:if ([:len [find where list=$AddressList and address=18.239.69.91]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.69.91 }
+:if ([:len [find where list=$AddressList and address=18.239.83.113]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.83.113 }
+:if ([:len [find where list=$AddressList and address=18.239.83.19]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.83.19 }
+:if ([:len [find where list=$AddressList and address=18.239.83.7]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.83.7 }
+:if ([:len [find where list=$AddressList and address=18.239.83.85]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.83.85 }
+:if ([:len [find where list=$AddressList and address=18.239.94.110]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.94.110 }
+:if ([:len [find where list=$AddressList and address=18.239.94.33]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.94.33 }
+:if ([:len [find where list=$AddressList and address=18.239.94.40]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.94.40 }
+:if ([:len [find where list=$AddressList and address=18.239.94.61]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.94.61 }
+:if ([:len [find where list=$AddressList and address=18.239.94.73]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.94.73 }
+:if ([:len [find where list=$AddressList and address=18.239.94.74]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.94.74 }
+:if ([:len [find where list=$AddressList and address=18.239.94.77]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.94.77 }
+:if ([:len [find where list=$AddressList and address=18.239.94.87]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.239.94.87 }
+:if ([:len [find where list=$AddressList and address=18.244.102.101]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.101 }
+:if ([:len [find where list=$AddressList and address=18.244.102.105]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.105 }
+:if ([:len [find where list=$AddressList and address=18.244.102.119]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.119 }
+:if ([:len [find where list=$AddressList and address=18.244.102.122]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.122 }
+:if ([:len [find where list=$AddressList and address=18.244.102.14]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.14 }
+:if ([:len [find where list=$AddressList and address=18.244.102.21]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.21 }
+:if ([:len [find where list=$AddressList and address=18.244.102.28]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.28 }
+:if ([:len [find where list=$AddressList and address=18.244.102.5]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.5 }
+:if ([:len [find where list=$AddressList and address=18.244.102.73]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.73 }
+:if ([:len [find where list=$AddressList and address=18.244.102.80]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.80 }
+:if ([:len [find where list=$AddressList and address=18.244.102.99]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.102.99 }
+:if ([:len [find where list=$AddressList and address=18.244.146.114]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.146.114 }
+:if ([:len [find where list=$AddressList and address=18.244.146.127]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.146.127 }
+:if ([:len [find where list=$AddressList and address=18.244.146.128]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.146.128 }
+:if ([:len [find where list=$AddressList and address=18.244.146.8]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.146.8 }
+:if ([:len [find where list=$AddressList and address=18.244.18.125]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.18.125 }
+:if ([:len [find where list=$AddressList and address=18.244.18.5]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.18.5 }
+:if ([:len [find where list=$AddressList and address=18.244.18.53]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.18.53 }
+:if ([:len [find where list=$AddressList and address=18.244.18.94]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.18.94 }
+:if ([:len [find where list=$AddressList and address=18.244.28.110]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.28.110 }
+:if ([:len [find where list=$AddressList and address=18.244.28.121]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.28.121 }
+:if ([:len [find where list=$AddressList and address=18.244.28.33]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.28.33 }
+:if ([:len [find where list=$AddressList and address=18.244.28.5]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.28.5 }
+:if ([:len [find where list=$AddressList and address=18.244.87.100]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.100 }
+:if ([:len [find where list=$AddressList and address=18.244.87.104]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.104 }
+:if ([:len [find where list=$AddressList and address=18.244.87.120]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.120 }
+:if ([:len [find where list=$AddressList and address=18.244.87.122]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.122 }
+:if ([:len [find where list=$AddressList and address=18.244.87.17]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.17 }
+:if ([:len [find where list=$AddressList and address=18.244.87.21]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.21 }
+:if ([:len [find where list=$AddressList and address=18.244.87.58]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.58 }
+:if ([:len [find where list=$AddressList and address=18.244.87.78]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.78 }
+:if ([:len [find where list=$AddressList and address=18.244.87.83]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.83 }
+:if ([:len [find where list=$AddressList and address=18.244.87.88]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.88 }
+:if ([:len [find where list=$AddressList and address=18.244.87.9]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.9 }
+:if ([:len [find where list=$AddressList and address=18.244.87.90]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.244.87.90 }
+:if ([:len [find where list=$AddressList and address=18.245.175.101]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.175.101 }
+:if ([:len [find where list=$AddressList and address=18.245.175.107]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.175.107 }
+:if ([:len [find where list=$AddressList and address=18.245.175.62]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.175.62 }
+:if ([:len [find where list=$AddressList and address=18.245.175.7]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.175.7 }
+:if ([:len [find where list=$AddressList and address=18.245.199.122]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.199.122 }
+:if ([:len [find where list=$AddressList and address=18.245.199.16]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.199.16 }
+:if ([:len [find where list=$AddressList and address=18.245.199.56]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.199.56 }
+:if ([:len [find where list=$AddressList and address=18.245.199.78]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.199.78 }
+:if ([:len [find where list=$AddressList and address=18.245.218.34]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.218.34 }
+:if ([:len [find where list=$AddressList and address=18.245.218.35]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.218.35 }
+:if ([:len [find where list=$AddressList and address=18.245.218.82]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.218.82 }
+:if ([:len [find where list=$AddressList and address=18.245.218.93]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.218.93 }
+:if ([:len [find where list=$AddressList and address=18.245.253.124]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.253.124 }
+:if ([:len [find where list=$AddressList and address=18.245.253.128]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.253.128 }
+:if ([:len [find where list=$AddressList and address=18.245.253.65]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.253.65 }
+:if ([:len [find where list=$AddressList and address=18.245.253.94]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.253.94 }
+:if ([:len [find where list=$AddressList and address=18.245.31.108]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.108 }
+:if ([:len [find where list=$AddressList and address=18.245.31.129]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.129 }
+:if ([:len [find where list=$AddressList and address=18.245.31.31]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.31 }
+:if ([:len [find where list=$AddressList and address=18.245.31.36]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.36 }
+:if ([:len [find where list=$AddressList and address=18.245.31.41]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.41 }
+:if ([:len [find where list=$AddressList and address=18.245.31.50]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.50 }
+:if ([:len [find where list=$AddressList and address=18.245.31.54]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.54 }
+:if ([:len [find where list=$AddressList and address=18.245.31.6]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.6 }
+:if ([:len [find where list=$AddressList and address=18.245.31.66]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.66 }
+:if ([:len [find where list=$AddressList and address=18.245.31.82]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.82 }
+:if ([:len [find where list=$AddressList and address=18.245.31.93]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.93 }
+:if ([:len [find where list=$AddressList and address=18.245.31.97]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.31.97 }
+:if ([:len [find where list=$AddressList and address=18.245.46.14]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.46.14 }
+:if ([:len [find where list=$AddressList and address=18.245.46.6]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.46.6 }
+:if ([:len [find where list=$AddressList and address=18.245.46.81]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.46.81 }
+:if ([:len [find where list=$AddressList and address=18.245.46.88]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.46.88 }
+:if ([:len [find where list=$AddressList and address=18.245.60.100]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.60.100 }
+:if ([:len [find where list=$AddressList and address=18.245.60.119]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.60.119 }
+:if ([:len [find where list=$AddressList and address=18.245.60.19]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.60.19 }
+:if ([:len [find where list=$AddressList and address=18.245.60.30]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.60.30 }
+:if ([:len [find where list=$AddressList and address=18.245.60.52]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.60.52 }
+:if ([:len [find where list=$AddressList and address=18.245.60.58]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.60.58 }
+:if ([:len [find where list=$AddressList and address=18.245.60.60]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.60.60 }
+:if ([:len [find where list=$AddressList and address=18.245.60.67]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.60.67 }
+:if ([:len [find where list=$AddressList and address=18.245.86.102]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.86.102 }
+:if ([:len [find where list=$AddressList and address=18.245.86.29]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.86.29 }
+:if ([:len [find where list=$AddressList and address=18.245.86.34]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.86.34 }
+:if ([:len [find where list=$AddressList and address=18.245.86.74]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.245.86.74 }
+:if ([:len [find where list=$AddressList and address=18.64.103.119]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.64.103.119 }
+:if ([:len [find where list=$AddressList and address=18.64.103.23]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.64.103.23 }
+:if ([:len [find where list=$AddressList and address=18.64.103.25]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.64.103.25 }
+:if ([:len [find where list=$AddressList and address=18.64.103.76]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.64.103.76 }
+:if ([:len [find where list=$AddressList and address=18.64.183.120]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.64.183.120 }
+:if ([:len [find where list=$AddressList and address=18.64.183.37]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.64.183.37 }
+:if ([:len [find where list=$AddressList and address=18.64.183.72]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.64.183.72 }
+:if ([:len [find where list=$AddressList and address=18.64.183.76]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.64.183.76 }
+:if ([:len [find where list=$AddressList and address=18.65.39.103]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.39.103 }
+:if ([:len [find where list=$AddressList and address=18.65.39.120]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.39.120 }
+:if ([:len [find where list=$AddressList and address=18.65.39.42]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.39.42 }
+:if ([:len [find where list=$AddressList and address=18.65.39.68]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.39.68 }
+:if ([:len [find where list=$AddressList and address=18.65.39.74]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.39.74 }
+:if ([:len [find where list=$AddressList and address=18.65.39.82]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.39.82 }
+:if ([:len [find where list=$AddressList and address=18.65.39.83]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.39.83 }
+:if ([:len [find where list=$AddressList and address=18.65.39.86]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.39.86 }
+:if ([:len [find where list=$AddressList and address=18.65.82.101]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.82.101 }
+:if ([:len [find where list=$AddressList and address=18.65.82.120]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.82.120 }
+:if ([:len [find where list=$AddressList and address=18.65.82.38]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.82.38 }
+:if ([:len [find where list=$AddressList and address=18.65.82.76]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.65.82.76 }
+:if ([:len [find where list=$AddressList and address=18.66.102.27]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.102.27 }
+:if ([:len [find where list=$AddressList and address=18.66.102.37]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.102.37 }
+:if ([:len [find where list=$AddressList and address=18.66.102.71]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.102.71 }
+:if ([:len [find where list=$AddressList and address=18.66.102.90]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.102.90 }
+:if ([:len [find where list=$AddressList and address=18.66.122.120]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.122.120 }
+:if ([:len [find where list=$AddressList and address=18.66.122.129]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.122.129 }
+:if ([:len [find where list=$AddressList and address=18.66.122.31]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.122.31 }
+:if ([:len [find where list=$AddressList and address=18.66.122.61]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.122.61 }
+:if ([:len [find where list=$AddressList and address=18.66.147.104]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.147.104 }
+:if ([:len [find where list=$AddressList and address=18.66.147.36]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.147.36 }
+:if ([:len [find where list=$AddressList and address=18.66.147.63]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.147.63 }
+:if ([:len [find where list=$AddressList and address=18.66.147.7]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.147.7 }
+:if ([:len [find where list=$AddressList and address=18.66.171.101]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.171.101 }
+:if ([:len [find where list=$AddressList and address=18.66.171.111]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.171.111 }
+:if ([:len [find where list=$AddressList and address=18.66.171.31]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.171.31 }
+:if ([:len [find where list=$AddressList and address=18.66.171.97]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.171.97 }
+:if ([:len [find where list=$AddressList and address=18.66.192.104]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.192.104 }
+:if ([:len [find where list=$AddressList and address=18.66.192.15]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.192.15 }
+:if ([:len [find where list=$AddressList and address=18.66.192.30]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.192.30 }
+:if ([:len [find where list=$AddressList and address=18.66.192.47]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.192.47 }
+:if ([:len [find where list=$AddressList and address=18.66.195.120]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.195.120 }
+:if ([:len [find where list=$AddressList and address=18.66.195.24]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.195.24 }
+:if ([:len [find where list=$AddressList and address=18.66.195.63]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.195.63 }

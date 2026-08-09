@@ -1,32 +1,32 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=yummyanime.tv address=104.26.10.24} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=104.26.11.24} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=172.233.219.55} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=172.234.212.122} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=172.236.123.101} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=172.67.69.155} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=172.99.188.162} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=176.58.38.147} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=176.58.38.155} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=176.58.38.195} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=176.58.39.171} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=176.58.39.251} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=176.58.39.99} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=176.58.48.48} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=176.58.56.43} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=186.2.165.177} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=188.114.98.229} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=188.114.99.229} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=190.115.16.16} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=199.59.243.228} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=45.95.201.229} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=45.95.201.230} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=50.7.236.154} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=67.159.10.2} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=81.161.99.18} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=85.136.181.10} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=85.136.181.20} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=87.236.177.141} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=95.129.232.42} on-error {}
-:do {add list=$AddressList comment=yummyanime.tv address=95.129.233.15} on-error {}
+:if ([:len [find where list=$AddressList and address=104.26.10.24]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=104.26.10.24 }
+:if ([:len [find where list=$AddressList and address=104.26.11.24]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=104.26.11.24 }
+:if ([:len [find where list=$AddressList and address=172.233.219.55]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=172.233.219.55 }
+:if ([:len [find where list=$AddressList and address=172.234.212.122]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=172.234.212.122 }
+:if ([:len [find where list=$AddressList and address=172.236.123.101]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=172.236.123.101 }
+:if ([:len [find where list=$AddressList and address=172.67.69.155]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=172.67.69.155 }
+:if ([:len [find where list=$AddressList and address=172.99.188.162]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=172.99.188.162 }
+:if ([:len [find where list=$AddressList and address=176.58.38.147]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.38.147 }
+:if ([:len [find where list=$AddressList and address=176.58.38.155]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.38.155 }
+:if ([:len [find where list=$AddressList and address=176.58.38.195]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.38.195 }
+:if ([:len [find where list=$AddressList and address=176.58.39.171]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.39.171 }
+:if ([:len [find where list=$AddressList and address=176.58.39.251]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.39.251 }
+:if ([:len [find where list=$AddressList and address=176.58.39.99]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.39.99 }
+:if ([:len [find where list=$AddressList and address=176.58.48.48]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.48.48 }
+:if ([:len [find where list=$AddressList and address=176.58.56.43]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.56.43 }
+:if ([:len [find where list=$AddressList and address=186.2.165.177]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=186.2.165.177 }
+:if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=188.114.98.229 }
+:if ([:len [find where list=$AddressList and address=188.114.99.229]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=188.114.99.229 }
+:if ([:len [find where list=$AddressList and address=190.115.16.16]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=190.115.16.16 }
+:if ([:len [find where list=$AddressList and address=199.59.243.228]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=199.59.243.228 }
+:if ([:len [find where list=$AddressList and address=45.95.201.229]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=45.95.201.229 }
+:if ([:len [find where list=$AddressList and address=45.95.201.230]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=45.95.201.230 }
+:if ([:len [find where list=$AddressList and address=50.7.236.154]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=50.7.236.154 }
+:if ([:len [find where list=$AddressList and address=67.159.10.2]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=67.159.10.2 }
+:if ([:len [find where list=$AddressList and address=81.161.99.18]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=81.161.99.18 }
+:if ([:len [find where list=$AddressList and address=85.136.181.10]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=85.136.181.10 }
+:if ([:len [find where list=$AddressList and address=85.136.181.20]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=85.136.181.20 }
+:if ([:len [find where list=$AddressList and address=87.236.177.141]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=87.236.177.141 }
+:if ([:len [find where list=$AddressList and address=95.129.232.42]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=95.129.232.42 }
+:if ([:len [find where list=$AddressList and address=95.129.233.15]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=95.129.233.15 }

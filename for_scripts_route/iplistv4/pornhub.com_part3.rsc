@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=67.22.55.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.55.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.55.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.55.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.55.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.56.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
+:if ([:len [/ip/route/find dst-address=67.22.56.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.56.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.56.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }
 :if ([:len [/ip/route/find dst-address=67.22.56.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornhub.com }

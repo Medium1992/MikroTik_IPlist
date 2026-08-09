@@ -1,0 +1,30 @@
+:global AddressList
+/ip firewall address-list
+:if ([:len [find where list=$AddressList and address=194.14.106.0/23]] = 0) do={ add list=$AddressList comment=AS35041 address=194.14.106.0/23 }
+:if ([:len [find where list=$AddressList and address=194.14.108.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.14.108.0/24 }
+:if ([:len [find where list=$AddressList and address=194.14.131.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.14.131.0/24 }
+:if ([:len [find where list=$AddressList and address=194.14.180.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.14.180.0/24 }
+:if ([:len [find where list=$AddressList and address=194.14.52.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.14.52.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.103.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.103.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.156.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.156.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.173.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.173.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.185.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.185.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.188.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.188.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.193.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.193.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.213.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.213.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.239.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.239.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.46.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.46.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.6.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.6.0/24 }
+:if ([:len [find where list=$AddressList and address=194.68.87.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.68.87.0/24 }
+:if ([:len [find where list=$AddressList and address=194.71.183.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.71.183.0/24 }
+:if ([:len [find where list=$AddressList and address=194.71.187.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.71.187.0/24 }
+:if ([:len [find where list=$AddressList and address=194.71.20.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=194.71.20.0/24 }
+:if ([:len [find where list=$AddressList and address=195.43.36.0/22]] = 0) do={ add list=$AddressList comment=AS35041 address=195.43.36.0/22 }
+:if ([:len [find where list=$AddressList and address=209.152.160.0/19]] = 0) do={ add list=$AddressList comment=AS35041 address=209.152.160.0/19 }
+:if ([:len [find where list=$AddressList and address=217.70.32.0/20]] = 0) do={ add list=$AddressList comment=AS35041 address=217.70.32.0/20 }
+:if ([:len [find where list=$AddressList and address=45.134.44.0/24]] = 0) do={ add list=$AddressList comment=AS35041 address=45.134.44.0/24 }
+:if ([:len [find where list=$AddressList and address=45.159.156.0/22]] = 0) do={ add list=$AddressList comment=AS35041 address=45.159.156.0/22 }
+:if ([:len [find where list=$AddressList and address=64.17.32.0/20]] = 0) do={ add list=$AddressList comment=AS35041 address=64.17.32.0/20 }
+:if ([:len [find where list=$AddressList and address=64.88.128.0/19]] = 0) do={ add list=$AddressList comment=AS35041 address=64.88.128.0/19 }
+:if ([:len [find where list=$AddressList and address=66.111.192.0/18]] = 0) do={ add list=$AddressList comment=AS35041 address=66.111.192.0/18 }
+:if ([:len [find where list=$AddressList and address=83.168.192.0/18]] = 0) do={ add list=$AddressList comment=AS35041 address=83.168.192.0/18 }

@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=signal.org address=188.114.98.233} on-error {}
-:do {add list=$AddressList comment=signal.org address=188.114.99.224} on-error {}
-:do {add list=$AddressList comment=signal.org address=188.114.99.228} on-error {}
-:do {add list=$AddressList comment=signal.org address=188.114.99.229} on-error {}
-:do {add list=$AddressList comment=signal.org address=188.114.99.230} on-error {}
-:do {add list=$AddressList comment=signal.org address=188.114.99.231} on-error {}
-:do {add list=$AddressList comment=signal.org address=188.114.99.232} on-error {}
-:do {add list=$AddressList comment=signal.org address=188.114.99.233} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.170.121} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.183.121} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.194.121} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.202.121} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.203.121} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.204.121} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.24.179} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.24.19} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.24.51} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.24.83} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.25.179} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.25.19} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.25.243} on-error {}
-:do {add list=$AddressList comment=signal.org address=192.178.25.83} on-error {}
-:do {add list=$AddressList comment=signal.org address=20.104.52.125} on-error {}
-:do {add list=$AddressList comment=signal.org address=20.119.62.85} on-error {}
-:do {add list=$AddressList comment=signal.org address=20.127.86.118} on-error {}
-:do {add list=$AddressList comment=signal.org address=20.186.175.196} on-error {}
-:do {add list=$AddressList comment=signal.org address=20.236.21.158} on-error {}
-:do {add list=$AddressList comment=signal.org address=20.253.229.239} on-error {}
-:do {add list=$AddressList comment=signal.org address=20.65.43.198} on-error {}
-:do {add list=$AddressList comment=signal.org address=20.66.40.69} on-error {}
-:do {add list=$AddressList comment=signal.org address=20.9.45.98} on-error {}
-:do {add list=$AddressList comment=signal.org address=209.85.233.121} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.198.51.9} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.198.52.9} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.198.53.1} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.198.53.6} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.198.54.1} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.198.54.6} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.239.32.21} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.239.34.21} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.239.36.21} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.239.38.21} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.198.179} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.201.179} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.201.19} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.201.211} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.201.243} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.204.115} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.205.147} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.205.51} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.206.211} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.206.51} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.206.83} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.207.115} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.207.19} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.207.211} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.207.243} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.207.51} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.207.83} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.211.19} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.212.147} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.212.19} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.212.51} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.213.115} on-error {}
-:do {add list=$AddressList comment=signal.org address=216.58.214.147} on-error {}
-:do {add list=$AddressList comment=signal.org address=23.20.17.88} on-error {}
-:do {add list=$AddressList comment=signal.org address=23.20.52.2} on-error {}
-:do {add list=$AddressList comment=signal.org address=23.20.89.45} on-error {}
-:do {add list=$AddressList comment=signal.org address=23.21.182.250} on-error {}
-:do {add list=$AddressList comment=signal.org address=23.21.248.217} on-error {}
-:do {add list=$AddressList comment=signal.org address=23.21.6.142} on-error {}
-:do {add list=$AddressList comment=signal.org address=23.22.130.160} on-error {}
-:do {add list=$AddressList comment=signal.org address=23.227.38.74} on-error {}
-:do {add list=$AddressList comment=signal.org address=23.23.102.149} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.132.129} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.132.34} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.132.36} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.132.63} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.132.69} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.132.72} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.132.77} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.132.8} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.188.2} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.188.23} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.188.43} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.188.69} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.39.126} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.39.4} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.39.50} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.160.39.90} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.119.11} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.119.116} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.119.30} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.119.36} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.119.5} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.119.66} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.119.98} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.119.99} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.82.3} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.82.33} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.82.53} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.161.82.75} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.162.112.16} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.162.112.38} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.162.112.72} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.162.112.89} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.163.24.100} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.163.24.122} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.163.24.20} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.163.24.28} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.230.102} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.230.115} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.230.49} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.230.61} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.230.63} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.230.64} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.230.72} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.240.13} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.240.27} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.240.49} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.240.53} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.240.81} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.240.86} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.240.87} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.240.93} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.68.111} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.68.24} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.68.69} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.164.68.7} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.113.6} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.113.81} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.113.9} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.113.98} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.160.26} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.160.46} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.160.74} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.160.75} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.206.121} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.206.123} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.206.17} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.206.25} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.206.49} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.206.63} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.206.72} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.206.93} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.232.126} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.232.17} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.232.40} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.232.71} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.239.11} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.239.121} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.239.18} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.239.22} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.239.36} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.239.40} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.239.78} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.239.81} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.255.108} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.255.115} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.255.28} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.255.30} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.255.39} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.255.62} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.255.72} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.165.255.82} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.14.58} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.14.7} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.14.72} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.14.85} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.49.102} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.49.105} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.49.20} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.49.79} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.96.22} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.96.29} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.96.38} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.166.96.44} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.169.85.104} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.169.85.113} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.169.85.115} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.169.85.126} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.169.85.14} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.169.85.34} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.169.85.43} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.169.85.61} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.171.22.125} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.171.22.129} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.171.22.48} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.171.22.57} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.173.161.5} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.173.161.69} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.173.161.74} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.173.161.85} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.173.161.89} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.173.161.90} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.173.161.91} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.173.161.99} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.113.56} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.113.57} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.113.66} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.113.8} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.18.110} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.18.122} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.18.34} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.18.82} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.180.128} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.180.3} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.180.39} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.180.6} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.230.102} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.230.120} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.230.126} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.230.66} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.255.112} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.255.43} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.255.54} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.255.96} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.98.104} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.98.37} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.98.48} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.174.98.89} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.175.34.45} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.175.34.47} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.175.34.53} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.175.34.95} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.209.250.148} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.209.47.76} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.210.27.177} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.211.101.236} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.211.217.153} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.212.125.125} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.213.102.207} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.213.118.48} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.213.138.125} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.213.2.88} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.213.99.151} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.214.136.117} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.214.163.129} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.215.106.226} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.215.129.36} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.215.32.58} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.215.87.40} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.216.109.211} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.216.234.68} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.217.136.3} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.217.22.117} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.217.244.248} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.217.47.4} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.217.95.139} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.219.0.53} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.219.228.158} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.220.233.83} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.220.25.138} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.221.117.133} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.221.131.112} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.221.176.124} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.221.186.164} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.221.237.192} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.221.251.143} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.222.140.77} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.222.157.195} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.222.30.209} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.223.112.169} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.223.181.209} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.223.231.70} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.224.188.219} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.225.143.125} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.225.158.44} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.225.24.252} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.225.81.78} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.226.119.153} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.226.172.34} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.226.62.70} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.227.116.133} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.227.157.77} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.228.175.198} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.228.98.165} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.229.15.230} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.229.183.126} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.229.214.179} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.230.34.58} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.230.49.87} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.230.60.126} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.230.77.229} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.232.12.22} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.232.120.52} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.232.127.22} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.232.142.64} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.232.179.185} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.232.234.212} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.232.80.19} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.232.83.149} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.232.97.42} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.233.136.88} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.233.178.239} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.233.190.152} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.233.248.230} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.233.254.55} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.233.6.252} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.234.164.139} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.235.200.3} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.81.199.185} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.86.171.4} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.86.79.97} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.87.230.25} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.88.243.35} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.92.125.175} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.95.140.158} on-error {}
-:do {add list=$AddressList comment=signal.org address=3.95.48.24} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.193.118.83} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.193.168.169} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.193.185.105} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.193.84.203} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.194.104.52} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.194.105.110} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.195.14.32} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.195.94.239} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.196.91.227} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.197.5.247} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.197.67.211} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.197.7.201} on-error {}
-:do {add list=$AddressList comment=signal.org address=32.199.101.82} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.0.251.209} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.102.228.46} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.117.136.13} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.192.112.155} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.192.165.247} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.192.237.5} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.193.118.181} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.193.44.135} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.193.68.17} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.194.136.236} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.194.162.249} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.194.44.162} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.194.54.206} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.194.83.13} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.195.228.163} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.196.143.39} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.196.152.126} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.196.175.99} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.196.39.26} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.196.52.216} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.197.153.237} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.197.154.75} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.198.116.186} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.198.13.193} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.199.231.187} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.199.5.136} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.200.197.171} on-error {}
-:do {add list=$AddressList comment=signal.org address=34.200.209.232} on-error {}
+:if ([:len [find where list=$AddressList and address=143.204.55.94]] = 0) do={ add list=$AddressList comment=signal.org address=143.204.55.94 }
+:if ([:len [find where list=$AddressList and address=143.204.55.98]] = 0) do={ add list=$AddressList comment=signal.org address=143.204.55.98 }
+:if ([:len [find where list=$AddressList and address=172.217.16.147]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.16.147 }
+:if ([:len [find where list=$AddressList and address=172.217.16.179]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.16.179 }
+:if ([:len [find where list=$AddressList and address=172.217.16.211]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.16.211 }
+:if ([:len [find where list=$AddressList and address=172.217.168.115]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.168.115 }
+:if ([:len [find where list=$AddressList and address=172.217.168.147]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.168.147 }
+:if ([:len [find where list=$AddressList and address=172.217.168.19]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.168.19 }
+:if ([:len [find where list=$AddressList and address=172.217.168.51]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.168.51 }
+:if ([:len [find where list=$AddressList and address=172.217.168.83]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.168.83 }
+:if ([:len [find where list=$AddressList and address=172.217.169.115]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.169.115 }
+:if ([:len [find where list=$AddressList and address=172.217.169.147]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.169.147 }
+:if ([:len [find where list=$AddressList and address=172.217.169.179]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.169.179 }
+:if ([:len [find where list=$AddressList and address=172.217.169.211]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.169.211 }
+:if ([:len [find where list=$AddressList and address=172.217.169.243]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.169.243 }
+:if ([:len [find where list=$AddressList and address=172.217.17.115]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.17.115 }
+:if ([:len [find where list=$AddressList and address=172.217.17.147]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.17.147 }
+:if ([:len [find where list=$AddressList and address=172.217.17.243]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.17.243 }
+:if ([:len [find where list=$AddressList and address=172.217.17.83]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.17.83 }
+:if ([:len [find where list=$AddressList and address=172.217.171.179]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.171.179 }
+:if ([:len [find where list=$AddressList and address=172.217.171.83]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.171.83 }
+:if ([:len [find where list=$AddressList and address=172.217.18.179]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.18.179 }
+:if ([:len [find where list=$AddressList and address=172.217.19.115]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.19.115 }
+:if ([:len [find where list=$AddressList and address=172.217.19.179]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.19.179 }
+:if ([:len [find where list=$AddressList and address=172.217.19.243]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.19.243 }
+:if ([:len [find where list=$AddressList and address=172.217.20.179]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.20.179 }
+:if ([:len [find where list=$AddressList and address=172.217.20.19]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.20.19 }
+:if ([:len [find where list=$AddressList and address=172.217.20.211]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.20.211 }
+:if ([:len [find where list=$AddressList and address=172.217.20.51]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.20.51 }
+:if ([:len [find where list=$AddressList and address=172.217.20.83]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.20.83 }
+:if ([:len [find where list=$AddressList and address=172.217.208.121]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.208.121 }
+:if ([:len [find where list=$AddressList and address=172.217.21.179]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.21.179 }
+:if ([:len [find where list=$AddressList and address=172.217.21.211]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.21.211 }
+:if ([:len [find where list=$AddressList and address=172.217.21.243]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.21.243 }
+:if ([:len [find where list=$AddressList and address=172.217.218.121]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.218.121 }
+:if ([:len [find where list=$AddressList and address=172.217.22.115]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.22.115 }
+:if ([:len [find where list=$AddressList and address=172.217.22.19]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.22.19 }
+:if ([:len [find where list=$AddressList and address=172.217.22.211]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.22.211 }
+:if ([:len [find where list=$AddressList and address=172.217.22.243]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.22.243 }
+:if ([:len [find where list=$AddressList and address=172.217.22.83]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.22.83 }
+:if ([:len [find where list=$AddressList and address=172.217.23.115]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.23.115 }
+:if ([:len [find where list=$AddressList and address=172.217.23.147]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.23.147 }
+:if ([:len [find where list=$AddressList and address=172.217.23.179]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.23.179 }
+:if ([:len [find where list=$AddressList and address=172.217.23.19]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.23.19 }
+:if ([:len [find where list=$AddressList and address=172.217.23.51]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.23.51 }
+:if ([:len [find where list=$AddressList and address=172.217.23.83]] = 0) do={ add list=$AddressList comment=signal.org address=172.217.23.83 }
+:if ([:len [find where list=$AddressList and address=172.253.130.121]] = 0) do={ add list=$AddressList comment=signal.org address=172.253.130.121 }
+:if ([:len [find where list=$AddressList and address=172.253.152.121]] = 0) do={ add list=$AddressList comment=signal.org address=172.253.152.121 }
+:if ([:len [find where list=$AddressList and address=172.64.144.159]] = 0) do={ add list=$AddressList comment=signal.org address=172.64.144.159 }
+:if ([:len [find where list=$AddressList and address=172.64.146.117]] = 0) do={ add list=$AddressList comment=signal.org address=172.64.146.117 }
+:if ([:len [find where list=$AddressList and address=172.64.146.6]] = 0) do={ add list=$AddressList comment=signal.org address=172.64.146.6 }
+:if ([:len [find where list=$AddressList and address=172.64.148.154]] = 0) do={ add list=$AddressList comment=signal.org address=172.64.148.154 }
+:if ([:len [find where list=$AddressList and address=172.64.150.108]] = 0) do={ add list=$AddressList comment=signal.org address=172.64.150.108 }
+:if ([:len [find where list=$AddressList and address=172.64.152.137]] = 0) do={ add list=$AddressList comment=signal.org address=172.64.152.137 }
+:if ([:len [find where list=$AddressList and address=172.64.152.147]] = 0) do={ add list=$AddressList comment=signal.org address=172.64.152.147 }
+:if ([:len [find where list=$AddressList and address=172.64.154.60]] = 0) do={ add list=$AddressList comment=signal.org address=172.64.154.60 }
+:if ([:len [find where list=$AddressList and address=172.64.155.138]] = 0) do={ add list=$AddressList comment=signal.org address=172.64.155.138 }
+:if ([:len [find where list=$AddressList and address=172.67.215.248]] = 0) do={ add list=$AddressList comment=signal.org address=172.67.215.248 }
+:if ([:len [find where list=$AddressList and address=173.194.220.121]] = 0) do={ add list=$AddressList comment=signal.org address=173.194.220.121 }
+:if ([:len [find where list=$AddressList and address=173.194.221.121]] = 0) do={ add list=$AddressList comment=signal.org address=173.194.221.121 }
+:if ([:len [find where list=$AddressList and address=173.194.222.121]] = 0) do={ add list=$AddressList comment=signal.org address=173.194.222.121 }
+:if ([:len [find where list=$AddressList and address=173.194.69.121]] = 0) do={ add list=$AddressList comment=signal.org address=173.194.69.121 }
+:if ([:len [find where list=$AddressList and address=173.194.73.121]] = 0) do={ add list=$AddressList comment=signal.org address=173.194.73.121 }
+:if ([:len [find where list=$AddressList and address=173.194.76.121]] = 0) do={ add list=$AddressList comment=signal.org address=173.194.76.121 }
+:if ([:len [find where list=$AddressList and address=174.129.239.129]] = 0) do={ add list=$AddressList comment=signal.org address=174.129.239.129 }
+:if ([:len [find where list=$AddressList and address=174.129.98.122]] = 0) do={ add list=$AddressList comment=signal.org address=174.129.98.122 }
+:if ([:len [find where list=$AddressList and address=18.155.153.104]] = 0) do={ add list=$AddressList comment=signal.org address=18.155.153.104 }
+:if ([:len [find where list=$AddressList and address=18.155.153.115]] = 0) do={ add list=$AddressList comment=signal.org address=18.155.153.115 }
+:if ([:len [find where list=$AddressList and address=18.155.153.129]] = 0) do={ add list=$AddressList comment=signal.org address=18.155.153.129 }
+:if ([:len [find where list=$AddressList and address=18.155.153.17]] = 0) do={ add list=$AddressList comment=signal.org address=18.155.153.17 }
+:if ([:len [find where list=$AddressList and address=18.155.153.30]] = 0) do={ add list=$AddressList comment=signal.org address=18.155.153.30 }
+:if ([:len [find where list=$AddressList and address=18.155.153.41]] = 0) do={ add list=$AddressList comment=signal.org address=18.155.153.41 }
+:if ([:len [find where list=$AddressList and address=18.155.153.7]] = 0) do={ add list=$AddressList comment=signal.org address=18.155.153.7 }
+:if ([:len [find where list=$AddressList and address=18.155.153.76]] = 0) do={ add list=$AddressList comment=signal.org address=18.155.153.76 }
+:if ([:len [find where list=$AddressList and address=18.160.18.106]] = 0) do={ add list=$AddressList comment=signal.org address=18.160.18.106 }
+:if ([:len [find where list=$AddressList and address=18.160.18.114]] = 0) do={ add list=$AddressList comment=signal.org address=18.160.18.114 }
+:if ([:len [find where list=$AddressList and address=18.160.18.42]] = 0) do={ add list=$AddressList comment=signal.org address=18.160.18.42 }
+:if ([:len [find where list=$AddressList and address=18.160.18.45]] = 0) do={ add list=$AddressList comment=signal.org address=18.160.18.45 }
+:if ([:len [find where list=$AddressList and address=18.161.21.122]] = 0) do={ add list=$AddressList comment=signal.org address=18.161.21.122 }
+:if ([:len [find where list=$AddressList and address=18.161.21.4]] = 0) do={ add list=$AddressList comment=signal.org address=18.161.21.4 }
+:if ([:len [find where list=$AddressList and address=18.161.21.66]] = 0) do={ add list=$AddressList comment=signal.org address=18.161.21.66 }
+:if ([:len [find where list=$AddressList and address=18.161.21.70]] = 0) do={ add list=$AddressList comment=signal.org address=18.161.21.70 }
+:if ([:len [find where list=$AddressList and address=18.161.97.108]] = 0) do={ add list=$AddressList comment=signal.org address=18.161.97.108 }
+:if ([:len [find where list=$AddressList and address=18.161.97.17]] = 0) do={ add list=$AddressList comment=signal.org address=18.161.97.17 }
+:if ([:len [find where list=$AddressList and address=18.161.97.66]] = 0) do={ add list=$AddressList comment=signal.org address=18.161.97.66 }
+:if ([:len [find where list=$AddressList and address=18.161.97.88]] = 0) do={ add list=$AddressList comment=signal.org address=18.161.97.88 }
+:if ([:len [find where list=$AddressList and address=18.164.124.11]] = 0) do={ add list=$AddressList comment=signal.org address=18.164.124.11 }
+:if ([:len [find where list=$AddressList and address=18.164.124.29]] = 0) do={ add list=$AddressList comment=signal.org address=18.164.124.29 }
+:if ([:len [find where list=$AddressList and address=18.164.124.78]] = 0) do={ add list=$AddressList comment=signal.org address=18.164.124.78 }
+:if ([:len [find where list=$AddressList and address=18.164.124.93]] = 0) do={ add list=$AddressList comment=signal.org address=18.164.124.93 }
+:if ([:len [find where list=$AddressList and address=18.165.121.112]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.121.112 }
+:if ([:len [find where list=$AddressList and address=18.165.121.126]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.121.126 }
+:if ([:len [find where list=$AddressList and address=18.165.121.19]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.121.19 }
+:if ([:len [find where list=$AddressList and address=18.165.121.86]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.121.86 }
+:if ([:len [find where list=$AddressList and address=18.165.122.126]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.122.126 }
+:if ([:len [find where list=$AddressList and address=18.165.122.30]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.122.30 }
+:if ([:len [find where list=$AddressList and address=18.165.122.44]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.122.44 }
+:if ([:len [find where list=$AddressList and address=18.165.122.99]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.122.99 }
+:if ([:len [find where list=$AddressList and address=18.165.140.102]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.140.102 }
+:if ([:len [find where list=$AddressList and address=18.165.140.105]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.140.105 }
+:if ([:len [find where list=$AddressList and address=18.165.140.125]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.140.125 }
+:if ([:len [find where list=$AddressList and address=18.165.140.28]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.140.28 }
+:if ([:len [find where list=$AddressList and address=18.165.140.57]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.140.57 }
+:if ([:len [find where list=$AddressList and address=18.165.140.75]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.140.75 }
+:if ([:len [find where list=$AddressList and address=18.165.140.84]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.140.84 }
+:if ([:len [find where list=$AddressList and address=18.165.140.93]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.140.93 }
+:if ([:len [find where list=$AddressList and address=18.165.160.11]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.160.11 }
+:if ([:len [find where list=$AddressList and address=18.165.160.14]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.160.14 }
+:if ([:len [find where list=$AddressList and address=18.165.160.15]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.160.15 }
+:if ([:len [find where list=$AddressList and address=18.165.160.25]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.160.25 }
+:if ([:len [find where list=$AddressList and address=18.165.160.38]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.160.38 }
+:if ([:len [find where list=$AddressList and address=18.165.160.44]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.160.44 }
+:if ([:len [find where list=$AddressList and address=18.165.160.58]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.160.58 }
+:if ([:len [find where list=$AddressList and address=18.165.160.6]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.160.6 }
+:if ([:len [find where list=$AddressList and address=18.165.171.100]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.171.100 }
+:if ([:len [find where list=$AddressList and address=18.165.171.29]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.171.29 }
+:if ([:len [find where list=$AddressList and address=18.165.171.48]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.171.48 }
+:if ([:len [find where list=$AddressList and address=18.165.171.70]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.171.70 }
+:if ([:len [find where list=$AddressList and address=18.165.171.72]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.171.72 }
+:if ([:len [find where list=$AddressList and address=18.165.171.73]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.171.73 }
+:if ([:len [find where list=$AddressList and address=18.165.171.92]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.171.92 }
+:if ([:len [find where list=$AddressList and address=18.165.171.93]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.171.93 }
+:if ([:len [find where list=$AddressList and address=18.165.183.101]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.183.101 }
+:if ([:len [find where list=$AddressList and address=18.165.183.109]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.183.109 }
+:if ([:len [find where list=$AddressList and address=18.165.183.125]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.183.125 }
+:if ([:len [find where list=$AddressList and address=18.165.183.17]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.183.17 }
+:if ([:len [find where list=$AddressList and address=18.165.183.31]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.183.31 }
+:if ([:len [find where list=$AddressList and address=18.165.183.45]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.183.45 }
+:if ([:len [find where list=$AddressList and address=18.165.183.50]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.183.50 }
+:if ([:len [find where list=$AddressList and address=18.165.183.56]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.183.56 }
+:if ([:len [find where list=$AddressList and address=18.165.242.127]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.242.127 }
+:if ([:len [find where list=$AddressList and address=18.165.242.13]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.242.13 }
+:if ([:len [find where list=$AddressList and address=18.165.242.30]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.242.30 }
+:if ([:len [find where list=$AddressList and address=18.165.242.69]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.242.69 }
+:if ([:len [find where list=$AddressList and address=18.165.61.102]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.61.102 }
+:if ([:len [find where list=$AddressList and address=18.165.61.50]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.61.50 }
+:if ([:len [find where list=$AddressList and address=18.165.61.79]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.61.79 }
+:if ([:len [find where list=$AddressList and address=18.165.61.82]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.61.82 }
+:if ([:len [find where list=$AddressList and address=18.165.72.105]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.72.105 }
+:if ([:len [find where list=$AddressList and address=18.165.72.119]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.72.119 }
+:if ([:len [find where list=$AddressList and address=18.165.72.123]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.72.123 }
+:if ([:len [find where list=$AddressList and address=18.165.72.14]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.72.14 }
+:if ([:len [find where list=$AddressList and address=18.165.72.51]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.72.51 }
+:if ([:len [find where list=$AddressList and address=18.165.72.75]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.72.75 }
+:if ([:len [find where list=$AddressList and address=18.165.72.8]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.72.8 }
+:if ([:len [find where list=$AddressList and address=18.165.72.98]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.72.98 }
+:if ([:len [find where list=$AddressList and address=18.165.98.128]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.98.128 }
+:if ([:len [find where list=$AddressList and address=18.165.98.21]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.98.21 }
+:if ([:len [find where list=$AddressList and address=18.165.98.58]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.98.58 }
+:if ([:len [find where list=$AddressList and address=18.165.98.85]] = 0) do={ add list=$AddressList comment=signal.org address=18.165.98.85 }
+:if ([:len [find where list=$AddressList and address=18.172.134.122]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.134.122 }
+:if ([:len [find where list=$AddressList and address=18.172.134.3]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.134.3 }
+:if ([:len [find where list=$AddressList and address=18.172.134.33]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.134.33 }
+:if ([:len [find where list=$AddressList and address=18.172.134.64]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.134.64 }
+:if ([:len [find where list=$AddressList and address=18.172.213.111]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.213.111 }
+:if ([:len [find where list=$AddressList and address=18.172.213.27]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.213.27 }
+:if ([:len [find where list=$AddressList and address=18.172.213.41]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.213.41 }
+:if ([:len [find where list=$AddressList and address=18.172.213.92]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.213.92 }
+:if ([:len [find where list=$AddressList and address=18.172.226.116]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.226.116 }
+:if ([:len [find where list=$AddressList and address=18.172.226.22]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.226.22 }
+:if ([:len [find where list=$AddressList and address=18.172.226.25]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.226.25 }
+:if ([:len [find where list=$AddressList and address=18.172.226.6]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.226.6 }
+:if ([:len [find where list=$AddressList and address=18.172.242.114]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.242.114 }
+:if ([:len [find where list=$AddressList and address=18.172.242.13]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.242.13 }
+:if ([:len [find where list=$AddressList and address=18.172.242.3]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.242.3 }
+:if ([:len [find where list=$AddressList and address=18.172.242.35]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.242.35 }
+:if ([:len [find where list=$AddressList and address=18.172.242.59]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.242.59 }
+:if ([:len [find where list=$AddressList and address=18.172.242.72]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.242.72 }
+:if ([:len [find where list=$AddressList and address=18.172.242.75]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.242.75 }
+:if ([:len [find where list=$AddressList and address=18.172.242.82]] = 0) do={ add list=$AddressList comment=signal.org address=18.172.242.82 }
+:if ([:len [find where list=$AddressList and address=18.173.154.10]] = 0) do={ add list=$AddressList comment=signal.org address=18.173.154.10 }
+:if ([:len [find where list=$AddressList and address=18.173.154.102]] = 0) do={ add list=$AddressList comment=signal.org address=18.173.154.102 }
+:if ([:len [find where list=$AddressList and address=18.173.154.7]] = 0) do={ add list=$AddressList comment=signal.org address=18.173.154.7 }
+:if ([:len [find where list=$AddressList and address=18.173.154.82]] = 0) do={ add list=$AddressList comment=signal.org address=18.173.154.82 }
+:if ([:len [find where list=$AddressList and address=18.173.233.111]] = 0) do={ add list=$AddressList comment=signal.org address=18.173.233.111 }
+:if ([:len [find where list=$AddressList and address=18.173.233.18]] = 0) do={ add list=$AddressList comment=signal.org address=18.173.233.18 }
+:if ([:len [find where list=$AddressList and address=18.173.233.23]] = 0) do={ add list=$AddressList comment=signal.org address=18.173.233.23 }
+:if ([:len [find where list=$AddressList and address=18.173.233.37]] = 0) do={ add list=$AddressList comment=signal.org address=18.173.233.37 }
+:if ([:len [find where list=$AddressList and address=18.173.233.4]] = 0) do={ add list=$AddressList comment=signal.org address=18.173.233.4 }
+:if ([:len [find where list=$AddressList and address=18.173.233.77]] = 0) do={ add list=$AddressList comment=signal.org address=18.173.233.77 }

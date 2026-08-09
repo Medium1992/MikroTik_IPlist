@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=tidal.com address=18.173.219.32} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.219.50} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.228.249} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.233.10} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.233.100} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.233.112} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.233.16} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.233.38} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.233.47} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.233.55} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.233.79} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.4.245} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.101} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.102} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.110} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.23} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.24} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.32} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.36} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.37} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.38} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.44} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.45} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.47} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.56} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.59} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.67} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.76} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.77} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.93} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.94} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.173.5.97} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.206.73.180} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.209.143.109} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.211.215.160} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.211.46.25} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.211.82.108} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.233.177.245} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.217.110} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.217.16} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.217.25} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.217.28} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.243.111} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.243.113} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.243.127} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.243.38} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.243.44} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.243.48} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.243.80} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.243.89} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.238.245.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.105.104} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.105.128} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.105.43} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.105.57} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.107} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.117} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.124} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.15} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.46} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.59} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.77} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.83} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.86} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.88} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.92} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.18.97} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.183.28} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.183.48} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.183.77} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.183.96} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.208.126} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.208.26} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.208.46} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.208.74} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.215.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.11} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.112} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.113} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.115} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.116} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.117} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.129} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.13} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.19} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.21} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.24} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.25} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.26} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.27} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.32} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.33} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.36} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.41} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.48} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.49} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.55} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.59} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.60} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.61} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.63} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.66} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.69} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.7} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.81} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.82} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.88} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.96} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.255.99} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.36.11} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.36.19} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.36.32} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.36.37} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.36.39} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.36.40} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.36.5} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.36.66} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.39.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.50.12} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.50.49} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.50.66} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.50.8} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.56.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.69.116} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.69.23} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.69.26} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.69.41} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.69.44} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.69.79} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.69.81} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.69.85} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.10} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.100} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.106} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.119} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.120} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.2} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.20} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.25} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.43} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.76} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.86} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.83.88} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.85.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.94.111} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.94.20} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.94.32} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.239.94.96} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.0.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.100} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.106} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.11} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.113} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.12} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.127} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.129} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.13} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.34} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.37} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.39} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.44} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.48} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.50} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.57} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.60} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.65} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.67} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.71} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.75} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.76} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.102.99} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.103.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.109.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.140.11} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.140.21} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.140.26} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.140.32} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.10} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.109} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.117} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.127} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.17} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.18} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.29} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.32} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.34} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.49} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.59} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.63} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.79} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.81} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.146.83} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.164.117} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.164.17} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.164.38} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.164.93} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.17.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.18.30} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.18.54} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.18.62} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.18.79} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.81.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.10} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.101} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.102} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.106} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.111} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.115} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.121} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.124} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.13} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.14} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.16} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.17} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.18} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.19} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.30} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.42} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.44} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.48} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.57} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.66} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.67} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.68} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.70} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.73} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.74} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.79} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.86} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.91} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.96} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.244.87.97} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.160.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.175.117} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.175.25} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.175.29} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.175.44} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.175.46} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.175.64} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.175.91} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.199.102} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.199.108} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.199.11} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.199.119} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.218.106} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.218.19} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.218.34} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.218.36} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.218.43} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.218.73} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.218.91} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.218.94} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.32.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.46.102} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.46.40} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.46.54} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.46.87} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.60.120} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.60.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.60.30} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.60.92} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.60.96} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.107} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.11} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.21} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.27} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.30} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.37} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.43} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.57} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.58} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.69} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.245.86.73} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.103.12} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.103.29} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.103.37} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.103.92} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.15.243} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.79.101} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.79.117} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.79.122} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.79.48} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.79.59} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.79.63} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.79.8} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.64.79.84} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.113} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.117} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.121} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.125} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.126} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.49} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.52} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.56} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.62} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.7} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.88} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.39.98} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.41.252} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.81.246} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.109} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.116} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.123} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.129} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.13} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.18} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.3} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.45} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.47} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.52} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.55} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.63} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.64} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.69} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.65.82.89} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.102.121} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.102.32} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.102.70} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.102.8} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.112.41} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.112.78} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.112.82} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.112.91} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.130.244} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.145.253} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.147.40} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.147.52} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.147.59} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.147.81} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.169.247} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.171.106} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.171.113} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.171.14} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.171.24} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.171.25} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.171.32} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.171.47} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.171.88} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.183.249} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.192.101} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.192.106} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.192.126} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.192.30} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.192.31} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.192.36} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.192.40} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.192.71} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.195.35} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.195.36} on-error {}
-:do {add list=$AddressList comment=tidal.com address=18.66.195.54} on-error {}
+:if ([:len [find where list=$AddressList and address=143.204.215.125]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.215.125 }
+:if ([:len [find where list=$AddressList and address=143.204.215.128]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.215.128 }
+:if ([:len [find where list=$AddressList and address=143.204.215.13]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.215.13 }
+:if ([:len [find where list=$AddressList and address=143.204.215.7]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.215.7 }
+:if ([:len [find where list=$AddressList and address=143.204.215.73]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.215.73 }
+:if ([:len [find where list=$AddressList and address=143.204.238.106]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.238.106 }
+:if ([:len [find where list=$AddressList and address=143.204.238.122]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.238.122 }
+:if ([:len [find where list=$AddressList and address=143.204.238.48]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.238.48 }
+:if ([:len [find where list=$AddressList and address=143.204.238.53]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.238.53 }
+:if ([:len [find where list=$AddressList and address=143.204.238.56]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.238.56 }
+:if ([:len [find where list=$AddressList and address=143.204.238.74]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.238.74 }
+:if ([:len [find where list=$AddressList and address=143.204.238.75]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.238.75 }
+:if ([:len [find where list=$AddressList and address=143.204.238.92]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.238.92 }
+:if ([:len [find where list=$AddressList and address=143.204.246.244]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.246.244 }
+:if ([:len [find where list=$AddressList and address=143.204.49.249]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.49.249 }
+:if ([:len [find where list=$AddressList and address=143.204.55.100]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.100 }
+:if ([:len [find where list=$AddressList and address=143.204.55.104]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.104 }
+:if ([:len [find where list=$AddressList and address=143.204.55.105]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.105 }
+:if ([:len [find where list=$AddressList and address=143.204.55.110]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.110 }
+:if ([:len [find where list=$AddressList and address=143.204.55.118]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.118 }
+:if ([:len [find where list=$AddressList and address=143.204.55.119]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.119 }
+:if ([:len [find where list=$AddressList and address=143.204.55.122]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.122 }
+:if ([:len [find where list=$AddressList and address=143.204.55.124]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.124 }
+:if ([:len [find where list=$AddressList and address=143.204.55.129]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.129 }
+:if ([:len [find where list=$AddressList and address=143.204.55.23]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.23 }
+:if ([:len [find where list=$AddressList and address=143.204.55.24]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.24 }
+:if ([:len [find where list=$AddressList and address=143.204.55.31]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.31 }
+:if ([:len [find where list=$AddressList and address=143.204.55.36]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.36 }
+:if ([:len [find where list=$AddressList and address=143.204.55.46]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.46 }
+:if ([:len [find where list=$AddressList and address=143.204.55.49]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.49 }
+:if ([:len [find where list=$AddressList and address=143.204.55.51]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.51 }
+:if ([:len [find where list=$AddressList and address=143.204.55.52]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.52 }
+:if ([:len [find where list=$AddressList and address=143.204.55.56]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.56 }
+:if ([:len [find where list=$AddressList and address=143.204.55.67]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.67 }
+:if ([:len [find where list=$AddressList and address=143.204.55.68]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.68 }
+:if ([:len [find where list=$AddressList and address=143.204.55.70]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.70 }
+:if ([:len [find where list=$AddressList and address=143.204.55.78]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.78 }
+:if ([:len [find where list=$AddressList and address=143.204.55.84]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.84 }
+:if ([:len [find where list=$AddressList and address=143.204.55.85]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.85 }
+:if ([:len [find where list=$AddressList and address=143.204.55.92]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.92 }
+:if ([:len [find where list=$AddressList and address=143.204.55.94]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.94 }
+:if ([:len [find where list=$AddressList and address=143.204.55.96]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.55.96 }
+:if ([:len [find where list=$AddressList and address=143.204.68.117]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.68.117 }
+:if ([:len [find where list=$AddressList and address=143.204.68.127]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.68.127 }
+:if ([:len [find where list=$AddressList and address=143.204.68.3]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.68.3 }
+:if ([:len [find where list=$AddressList and address=143.204.68.35]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.68.35 }
+:if ([:len [find where list=$AddressList and address=143.204.98.111]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.98.111 }
+:if ([:len [find where list=$AddressList and address=143.204.98.33]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.98.33 }
+:if ([:len [find where list=$AddressList and address=143.204.98.37]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.98.37 }
+:if ([:len [find where list=$AddressList and address=143.204.98.40]] = 0) do={ add list=$AddressList comment=tidal.com address=143.204.98.40 }
+:if ([:len [find where list=$AddressList and address=146.75.117.51]] = 0) do={ add list=$AddressList comment=tidal.com address=146.75.117.51 }
+:if ([:len [find where list=$AddressList and address=146.75.118.142]] = 0) do={ add list=$AddressList comment=tidal.com address=146.75.118.142 }
+:if ([:len [find where list=$AddressList and address=146.75.121.51]] = 0) do={ add list=$AddressList comment=tidal.com address=146.75.121.51 }
+:if ([:len [find where list=$AddressList and address=146.75.122.142]] = 0) do={ add list=$AddressList comment=tidal.com address=146.75.122.142 }
+:if ([:len [find where list=$AddressList and address=146.75.53.51]] = 0) do={ add list=$AddressList comment=tidal.com address=146.75.53.51 }
+:if ([:len [find where list=$AddressList and address=146.75.54.142]] = 0) do={ add list=$AddressList comment=tidal.com address=146.75.54.142 }
+:if ([:len [find where list=$AddressList and address=151.101.1.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.1.51 }
+:if ([:len [find where list=$AddressList and address=151.101.129.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.129.51 }
+:if ([:len [find where list=$AddressList and address=151.101.130.133]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.130.133 }
+:if ([:len [find where list=$AddressList and address=151.101.130.142]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.130.142 }
+:if ([:len [find where list=$AddressList and address=151.101.133.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.133.51 }
+:if ([:len [find where list=$AddressList and address=151.101.193.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.193.51 }
+:if ([:len [find where list=$AddressList and address=151.101.194.133]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.194.133 }
+:if ([:len [find where list=$AddressList and address=151.101.194.142]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.194.142 }
+:if ([:len [find where list=$AddressList and address=151.101.2.133]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.2.133 }
+:if ([:len [find where list=$AddressList and address=151.101.2.142]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.2.142 }
+:if ([:len [find where list=$AddressList and address=151.101.205.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.205.51 }
+:if ([:len [find where list=$AddressList and address=151.101.206.142]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.206.142 }
+:if ([:len [find where list=$AddressList and address=151.101.209.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.209.51 }
+:if ([:len [find where list=$AddressList and address=151.101.210.142]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.210.142 }
+:if ([:len [find where list=$AddressList and address=151.101.245.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.245.51 }
+:if ([:len [find where list=$AddressList and address=151.101.246.142]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.246.142 }
+:if ([:len [find where list=$AddressList and address=151.101.37.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.37.51 }
+:if ([:len [find where list=$AddressList and address=151.101.38.142]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.38.142 }
+:if ([:len [find where list=$AddressList and address=151.101.45.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.45.51 }
+:if ([:len [find where list=$AddressList and address=151.101.46.142]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.46.142 }
+:if ([:len [find where list=$AddressList and address=151.101.5.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.5.51 }
+:if ([:len [find where list=$AddressList and address=151.101.6.142]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.6.142 }
+:if ([:len [find where list=$AddressList and address=151.101.65.51]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.65.51 }
+:if ([:len [find where list=$AddressList and address=151.101.66.133]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.66.133 }
+:if ([:len [find where list=$AddressList and address=151.101.66.142]] = 0) do={ add list=$AddressList comment=tidal.com address=151.101.66.142 }
+:if ([:len [find where list=$AddressList and address=172.29.208.105]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.105 }
+:if ([:len [find where list=$AddressList and address=172.29.208.119]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.119 }
+:if ([:len [find where list=$AddressList and address=172.29.208.122]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.122 }
+:if ([:len [find where list=$AddressList and address=172.29.208.133]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.133 }
+:if ([:len [find where list=$AddressList and address=172.29.208.137]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.137 }
+:if ([:len [find where list=$AddressList and address=172.29.208.15]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.15 }
+:if ([:len [find where list=$AddressList and address=172.29.208.150]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.150 }
+:if ([:len [find where list=$AddressList and address=172.29.208.157]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.157 }
+:if ([:len [find where list=$AddressList and address=172.29.208.164]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.164 }
+:if ([:len [find where list=$AddressList and address=172.29.208.169]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.169 }
+:if ([:len [find where list=$AddressList and address=172.29.208.176]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.176 }
+:if ([:len [find where list=$AddressList and address=172.29.208.183]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.183 }
+:if ([:len [find where list=$AddressList and address=172.29.208.187]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.187 }
+:if ([:len [find where list=$AddressList and address=172.29.208.190]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.190 }
+:if ([:len [find where list=$AddressList and address=172.29.208.199]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.199 }
+:if ([:len [find where list=$AddressList and address=172.29.208.208]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.208 }
+:if ([:len [find where list=$AddressList and address=172.29.208.212]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.212 }
+:if ([:len [find where list=$AddressList and address=172.29.208.222]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.222 }
+:if ([:len [find where list=$AddressList and address=172.29.208.223]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.223 }
+:if ([:len [find where list=$AddressList and address=172.29.208.224]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.224 }
+:if ([:len [find where list=$AddressList and address=172.29.208.24]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.24 }
+:if ([:len [find where list=$AddressList and address=172.29.208.246]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.246 }
+:if ([:len [find where list=$AddressList and address=172.29.208.34]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.34 }
+:if ([:len [find where list=$AddressList and address=172.29.208.42]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.42 }
+:if ([:len [find where list=$AddressList and address=172.29.208.46]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.46 }
+:if ([:len [find where list=$AddressList and address=172.29.208.58]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.58 }
+:if ([:len [find where list=$AddressList and address=172.29.208.75]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.75 }
+:if ([:len [find where list=$AddressList and address=172.29.208.90]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.90 }
+:if ([:len [find where list=$AddressList and address=172.29.208.98]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.208.98 }
+:if ([:len [find where list=$AddressList and address=172.29.209.101]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.101 }
+:if ([:len [find where list=$AddressList and address=172.29.209.112]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.112 }
+:if ([:len [find where list=$AddressList and address=172.29.209.119]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.119 }
+:if ([:len [find where list=$AddressList and address=172.29.209.123]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.123 }
+:if ([:len [find where list=$AddressList and address=172.29.209.125]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.125 }
+:if ([:len [find where list=$AddressList and address=172.29.209.132]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.132 }
+:if ([:len [find where list=$AddressList and address=172.29.209.133]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.133 }
+:if ([:len [find where list=$AddressList and address=172.29.209.140]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.140 }
+:if ([:len [find where list=$AddressList and address=172.29.209.144]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.144 }
+:if ([:len [find where list=$AddressList and address=172.29.209.149]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.149 }
+:if ([:len [find where list=$AddressList and address=172.29.209.15]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.15 }
+:if ([:len [find where list=$AddressList and address=172.29.209.177]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.177 }
+:if ([:len [find where list=$AddressList and address=172.29.209.18]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.18 }
+:if ([:len [find where list=$AddressList and address=172.29.209.180]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.180 }
+:if ([:len [find where list=$AddressList and address=172.29.209.185]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.185 }
+:if ([:len [find where list=$AddressList and address=172.29.209.186]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.186 }
+:if ([:len [find where list=$AddressList and address=172.29.209.196]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.196 }
+:if ([:len [find where list=$AddressList and address=172.29.209.198]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.198 }
+:if ([:len [find where list=$AddressList and address=172.29.209.205]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.205 }
+:if ([:len [find where list=$AddressList and address=172.29.209.21]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.21 }
+:if ([:len [find where list=$AddressList and address=172.29.209.214]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.214 }
+:if ([:len [find where list=$AddressList and address=172.29.209.217]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.217 }
+:if ([:len [find where list=$AddressList and address=172.29.209.22]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.22 }
+:if ([:len [find where list=$AddressList and address=172.29.209.232]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.232 }
+:if ([:len [find where list=$AddressList and address=172.29.209.233]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.233 }
+:if ([:len [find where list=$AddressList and address=172.29.209.239]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.239 }
+:if ([:len [find where list=$AddressList and address=172.29.209.247]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.247 }
+:if ([:len [find where list=$AddressList and address=172.29.209.254]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.254 }
+:if ([:len [find where list=$AddressList and address=172.29.209.40]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.40 }
+:if ([:len [find where list=$AddressList and address=172.29.209.50]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.50 }
+:if ([:len [find where list=$AddressList and address=172.29.209.57]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.57 }
+:if ([:len [find where list=$AddressList and address=172.29.209.61]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.61 }
+:if ([:len [find where list=$AddressList and address=172.29.209.79]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.79 }
+:if ([:len [find where list=$AddressList and address=172.29.209.80]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.80 }
+:if ([:len [find where list=$AddressList and address=172.29.209.82]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.82 }
+:if ([:len [find where list=$AddressList and address=172.29.209.84]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.84 }
+:if ([:len [find where list=$AddressList and address=172.29.209.90]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.90 }
+:if ([:len [find where list=$AddressList and address=172.29.209.98]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.209.98 }
+:if ([:len [find where list=$AddressList and address=172.29.210.105]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.105 }
+:if ([:len [find where list=$AddressList and address=172.29.210.108]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.108 }
+:if ([:len [find where list=$AddressList and address=172.29.210.128]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.128 }
+:if ([:len [find where list=$AddressList and address=172.29.210.141]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.141 }
+:if ([:len [find where list=$AddressList and address=172.29.210.161]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.161 }
+:if ([:len [find where list=$AddressList and address=172.29.210.181]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.181 }
+:if ([:len [find where list=$AddressList and address=172.29.210.184]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.184 }
+:if ([:len [find where list=$AddressList and address=172.29.210.195]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.195 }
+:if ([:len [find where list=$AddressList and address=172.29.210.198]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.198 }
+:if ([:len [find where list=$AddressList and address=172.29.210.199]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.199 }
+:if ([:len [find where list=$AddressList and address=172.29.210.209]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.209 }
+:if ([:len [find where list=$AddressList and address=172.29.210.226]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.226 }
+:if ([:len [find where list=$AddressList and address=172.29.210.229]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.229 }
+:if ([:len [find where list=$AddressList and address=172.29.210.233]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.233 }
+:if ([:len [find where list=$AddressList and address=172.29.210.238]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.238 }
+:if ([:len [find where list=$AddressList and address=172.29.210.240]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.240 }
+:if ([:len [find where list=$AddressList and address=172.29.210.244]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.244 }
+:if ([:len [find where list=$AddressList and address=172.29.210.255]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.255 }
+:if ([:len [find where list=$AddressList and address=172.29.210.26]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.26 }
+:if ([:len [find where list=$AddressList and address=172.29.210.32]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.32 }
+:if ([:len [find where list=$AddressList and address=172.29.210.39]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.39 }
+:if ([:len [find where list=$AddressList and address=172.29.210.48]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.48 }
+:if ([:len [find where list=$AddressList and address=172.29.210.49]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.49 }
+:if ([:len [find where list=$AddressList and address=172.29.210.55]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.55 }
+:if ([:len [find where list=$AddressList and address=172.29.210.74]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.74 }
+:if ([:len [find where list=$AddressList and address=172.29.210.84]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.84 }
+:if ([:len [find where list=$AddressList and address=172.29.210.94]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.210.94 }
+:if ([:len [find where list=$AddressList and address=172.29.211.10]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.211.10 }
+:if ([:len [find where list=$AddressList and address=172.29.211.103]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.211.103 }
+:if ([:len [find where list=$AddressList and address=172.29.211.117]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.211.117 }
+:if ([:len [find where list=$AddressList and address=172.29.211.126]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.211.126 }
+:if ([:len [find where list=$AddressList and address=172.29.211.136]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.211.136 }

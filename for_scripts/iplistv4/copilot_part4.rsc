@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=copilot address=2.16.19.41} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.42} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.43} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.48} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.49} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.50} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.51} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.56} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.57} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.58} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.59} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.65} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.66} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.67} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.72} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.73} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.74} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.75} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.8} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.80} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.81} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.82} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.89} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.9} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.90} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.91} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.97} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.19.98} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.199.209} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.199.210} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.199.211} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.199.216} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.199.217} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.199.218} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.199.225} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.132} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.133} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.134} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.135} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.136} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.137} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.138} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.139} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.140} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.141} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.142} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.143} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.144} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.145} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.146} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.147} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.148} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.149} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.150} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.151} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.152} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.153} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.154} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.155} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.156} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.157} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.158} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.159} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.160} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.204.161} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.196} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.197} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.198} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.199} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.200} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.201} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.202} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.203} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.204} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.205} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.206} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.207} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.208} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.209} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.210} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.211} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.212} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.213} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.214} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.215} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.216} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.217} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.218} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.219} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.220} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.221} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.222} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.223} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.224} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.225} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.226} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.241.227} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.27.215} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.27.225} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.27.68} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.27.74} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.27.75} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.27.87} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.27.96} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.27.98} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.132} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.133} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.134} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.135} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.137} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.138} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.139} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.140} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.141} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.144} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.145} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.146} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.147} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.148} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.149} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.150} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.151} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.152} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.153} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.154} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.155} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.156} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.157} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.158} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.159} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.160} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.161} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.162} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.56.163} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.6.132} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.6.148} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.10} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.104} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.11} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.16} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.17} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.18} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.19} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.203} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.208} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.209} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.210} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.211} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.217} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.218} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.24} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.25} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.40} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.42} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.43} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.48} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.49} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.50} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.51} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.56} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.57} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.58} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.59} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.64} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.65} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.66} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.67} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.72} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.73} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.74} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.75} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.8} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.80} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.81} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.82} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.83} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.88} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.89} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.9} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.90} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.91} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.96} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.97} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.98} on-error {}
-:do {add list=$AddressList comment=copilot address=2.16.65.99} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.104} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.105} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.107} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.112} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.113} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.114} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.115} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.120} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.121} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.122} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.123} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.128} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.129} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.130} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.131} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.98} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.107.99} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.112.78} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.112.80} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.104} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.105} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.112} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.115} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.136} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.192} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.218} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.72} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.73} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.74} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.75} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.80} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.81} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.82} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.83} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.88} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.89} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.90} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.91} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.96} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.97} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.98} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.113.99} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.107} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.112} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.115} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.120} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.122} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.128} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.129} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.130} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.131} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.136} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.137} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.138} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.144} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.145} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.146} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.147} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.153} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.154} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.155} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.160} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.161} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.162} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.163} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.168} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.169} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.170} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.171} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.177} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.178} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.179} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.184} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.185} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.186} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.187} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.192} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.72} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.73} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.74} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.75} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.80} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.81} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.82} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.83} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.88} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.89} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.90} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.91} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.96} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.97} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.98} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.197.99} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.151} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.152} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.153} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.154} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.160} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.161} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.162} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.167} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.168} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.169} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.170} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.175} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.176} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.177} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.178} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.183} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.184} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.185} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.186} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.191} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.192} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.193} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.199} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.200} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.202} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.207} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.208} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.209} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.210} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.216} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.217} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.211.218} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.11} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.17} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.19} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.24} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.25} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.26} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.27} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.32} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.33} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.34} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.35} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.41} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.42} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.43} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.48} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.51} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.56} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.57} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.58} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.59} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.64} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.65} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.66} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.67} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.8} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.22.9} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.131} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.137} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.138} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.144} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.145} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.146} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.147} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.152} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.153} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.154} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.155} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.160} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.162} on-error {}
-:do {add list=$AddressList comment=copilot address=2.17.35.163} on-error {}
+:if ([:len [find where list=$AddressList and address=140.82.113.18]] = 0) do={ add list=$AddressList comment=copilot address=140.82.113.18 }
+:if ([:len [find where list=$AddressList and address=140.82.113.21]] = 0) do={ add list=$AddressList comment=copilot address=140.82.113.21 }
+:if ([:len [find where list=$AddressList and address=140.82.113.22]] = 0) do={ add list=$AddressList comment=copilot address=140.82.113.22 }
+:if ([:len [find where list=$AddressList and address=140.82.113.5]] = 0) do={ add list=$AddressList comment=copilot address=140.82.113.5 }
+:if ([:len [find where list=$AddressList and address=140.82.113.6]] = 0) do={ add list=$AddressList comment=copilot address=140.82.113.6 }
+:if ([:len [find where list=$AddressList and address=140.82.114.17]] = 0) do={ add list=$AddressList comment=copilot address=140.82.114.17 }
+:if ([:len [find where list=$AddressList and address=140.82.114.18]] = 0) do={ add list=$AddressList comment=copilot address=140.82.114.18 }
+:if ([:len [find where list=$AddressList and address=140.82.114.21]] = 0) do={ add list=$AddressList comment=copilot address=140.82.114.21 }
+:if ([:len [find where list=$AddressList and address=140.82.114.22]] = 0) do={ add list=$AddressList comment=copilot address=140.82.114.22 }
+:if ([:len [find where list=$AddressList and address=140.82.114.5]] = 0) do={ add list=$AddressList comment=copilot address=140.82.114.5 }
+:if ([:len [find where list=$AddressList and address=140.82.114.6]] = 0) do={ add list=$AddressList comment=copilot address=140.82.114.6 }
+:if ([:len [find where list=$AddressList and address=140.82.121.5]] = 0) do={ add list=$AddressList comment=copilot address=140.82.121.5 }
+:if ([:len [find where list=$AddressList and address=140.82.121.6]] = 0) do={ add list=$AddressList comment=copilot address=140.82.121.6 }
+:if ([:len [find where list=$AddressList and address=150.171.109.1]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.1 }
+:if ([:len [find where list=$AddressList and address=150.171.109.100]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.100 }
+:if ([:len [find where list=$AddressList and address=150.171.109.101]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.101 }
+:if ([:len [find where list=$AddressList and address=150.171.109.103]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.103 }
+:if ([:len [find where list=$AddressList and address=150.171.109.161]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.161 }
+:if ([:len [find where list=$AddressList and address=150.171.109.163]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.163 }
+:if ([:len [find where list=$AddressList and address=150.171.109.164]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.164 }
+:if ([:len [find where list=$AddressList and address=150.171.109.165]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.165 }
+:if ([:len [find where list=$AddressList and address=150.171.109.183]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.183 }
+:if ([:len [find where list=$AddressList and address=150.171.109.193]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.193 }
+:if ([:len [find where list=$AddressList and address=150.171.109.194]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.194 }
+:if ([:len [find where list=$AddressList and address=150.171.109.195]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.195 }
+:if ([:len [find where list=$AddressList and address=150.171.109.196]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.196 }
+:if ([:len [find where list=$AddressList and address=150.171.109.197]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.197 }
+:if ([:len [find where list=$AddressList and address=150.171.109.198]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.198 }
+:if ([:len [find where list=$AddressList and address=150.171.109.199]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.199 }
+:if ([:len [find where list=$AddressList and address=150.171.109.2]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.2 }
+:if ([:len [find where list=$AddressList and address=150.171.109.200]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.200 }
+:if ([:len [find where list=$AddressList and address=150.171.109.209]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.209 }
+:if ([:len [find where list=$AddressList and address=150.171.109.210]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.210 }
+:if ([:len [find where list=$AddressList and address=150.171.109.211]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.211 }
+:if ([:len [find where list=$AddressList and address=150.171.109.212]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.212 }
+:if ([:len [find where list=$AddressList and address=150.171.109.213]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.213 }
+:if ([:len [find where list=$AddressList and address=150.171.109.214]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.214 }
+:if ([:len [find where list=$AddressList and address=150.171.109.215]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.215 }
+:if ([:len [find where list=$AddressList and address=150.171.109.216]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.216 }
+:if ([:len [find where list=$AddressList and address=150.171.109.241]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.241 }
+:if ([:len [find where list=$AddressList and address=150.171.109.242]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.242 }
+:if ([:len [find where list=$AddressList and address=150.171.109.244]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.244 }
+:if ([:len [find where list=$AddressList and address=150.171.109.245]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.245 }
+:if ([:len [find where list=$AddressList and address=150.171.109.3]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.3 }
+:if ([:len [find where list=$AddressList and address=150.171.109.33]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.33 }
+:if ([:len [find where list=$AddressList and address=150.171.109.34]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.34 }
+:if ([:len [find where list=$AddressList and address=150.171.109.35]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.35 }
+:if ([:len [find where list=$AddressList and address=150.171.109.36]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.36 }
+:if ([:len [find where list=$AddressList and address=150.171.109.37]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.37 }
+:if ([:len [find where list=$AddressList and address=150.171.109.4]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.4 }
+:if ([:len [find where list=$AddressList and address=150.171.109.50]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.50 }
+:if ([:len [find where list=$AddressList and address=150.171.109.51]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.51 }
+:if ([:len [find where list=$AddressList and address=150.171.109.53]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.53 }
+:if ([:len [find where list=$AddressList and address=150.171.109.81]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.81 }
+:if ([:len [find where list=$AddressList and address=150.171.109.82]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.82 }
+:if ([:len [find where list=$AddressList and address=150.171.109.83]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.83 }
+:if ([:len [find where list=$AddressList and address=150.171.109.98]] = 0) do={ add list=$AddressList comment=copilot address=150.171.109.98 }
+:if ([:len [find where list=$AddressList and address=150.171.110.113]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.113 }
+:if ([:len [find where list=$AddressList and address=150.171.110.114]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.114 }
+:if ([:len [find where list=$AddressList and address=150.171.110.115]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.115 }
+:if ([:len [find where list=$AddressList and address=150.171.110.116]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.116 }
+:if ([:len [find where list=$AddressList and address=150.171.110.117]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.117 }
+:if ([:len [find where list=$AddressList and address=150.171.110.161]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.161 }
+:if ([:len [find where list=$AddressList and address=150.171.110.195]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.195 }
+:if ([:len [find where list=$AddressList and address=150.171.110.49]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.49 }
+:if ([:len [find where list=$AddressList and address=150.171.110.51]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.51 }
+:if ([:len [find where list=$AddressList and address=150.171.110.52]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.52 }
+:if ([:len [find where list=$AddressList and address=150.171.110.53]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.53 }
+:if ([:len [find where list=$AddressList and address=150.171.110.54]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.54 }
+:if ([:len [find where list=$AddressList and address=150.171.110.56]] = 0) do={ add list=$AddressList comment=copilot address=150.171.110.56 }
+:if ([:len [find where list=$AddressList and address=150.171.27.10]] = 0) do={ add list=$AddressList comment=copilot address=150.171.27.10 }
+:if ([:len [find where list=$AddressList and address=150.171.27.11]] = 0) do={ add list=$AddressList comment=copilot address=150.171.27.11 }
+:if ([:len [find where list=$AddressList and address=150.171.28.10]] = 0) do={ add list=$AddressList comment=copilot address=150.171.28.10 }
+:if ([:len [find where list=$AddressList and address=150.171.28.11]] = 0) do={ add list=$AddressList comment=copilot address=150.171.28.11 }
+:if ([:len [find where list=$AddressList and address=150.171.29.10]] = 0) do={ add list=$AddressList comment=copilot address=150.171.29.10 }
+:if ([:len [find where list=$AddressList and address=150.171.29.11]] = 0) do={ add list=$AddressList comment=copilot address=150.171.29.11 }
+:if ([:len [find where list=$AddressList and address=150.171.30.10]] = 0) do={ add list=$AddressList comment=copilot address=150.171.30.10 }
+:if ([:len [find where list=$AddressList and address=150.171.30.11]] = 0) do={ add list=$AddressList comment=copilot address=150.171.30.11 }
+:if ([:len [find where list=$AddressList and address=150.171.73.13]] = 0) do={ add list=$AddressList comment=copilot address=150.171.73.13 }
+:if ([:len [find where list=$AddressList and address=150.171.74.13]] = 0) do={ add list=$AddressList comment=copilot address=150.171.74.13 }
+:if ([:len [find where list=$AddressList and address=150.171.75.13]] = 0) do={ add list=$AddressList comment=copilot address=150.171.75.13 }
+:if ([:len [find where list=$AddressList and address=150.171.76.13]] = 0) do={ add list=$AddressList comment=copilot address=150.171.76.13 }
+:if ([:len [find where list=$AddressList and address=152.199.21.175]] = 0) do={ add list=$AddressList comment=copilot address=152.199.21.175 }
+:if ([:len [find where list=$AddressList and address=173.222.108.42]] = 0) do={ add list=$AddressList comment=copilot address=173.222.108.42 }
+:if ([:len [find where list=$AddressList and address=173.222.108.48]] = 0) do={ add list=$AddressList comment=copilot address=173.222.108.48 }
+:if ([:len [find where list=$AddressList and address=173.222.108.50]] = 0) do={ add list=$AddressList comment=copilot address=173.222.108.50 }
+:if ([:len [find where list=$AddressList and address=173.222.108.57]] = 0) do={ add list=$AddressList comment=copilot address=173.222.108.57 }
+:if ([:len [find where list=$AddressList and address=173.222.249.105]] = 0) do={ add list=$AddressList comment=copilot address=173.222.249.105 }
+:if ([:len [find where list=$AddressList and address=173.222.249.24]] = 0) do={ add list=$AddressList comment=copilot address=173.222.249.24 }
+:if ([:len [find where list=$AddressList and address=173.222.249.26]] = 0) do={ add list=$AddressList comment=copilot address=173.222.249.26 }
+:if ([:len [find where list=$AddressList and address=173.222.249.42]] = 0) do={ add list=$AddressList comment=copilot address=173.222.249.42 }
+:if ([:len [find where list=$AddressList and address=173.222.249.51]] = 0) do={ add list=$AddressList comment=copilot address=173.222.249.51 }
+:if ([:len [find where list=$AddressList and address=184.25.102.10]] = 0) do={ add list=$AddressList comment=copilot address=184.25.102.10 }
+:if ([:len [find where list=$AddressList and address=184.25.102.13]] = 0) do={ add list=$AddressList comment=copilot address=184.25.102.13 }
+:if ([:len [find where list=$AddressList and address=184.25.102.14]] = 0) do={ add list=$AddressList comment=copilot address=184.25.102.14 }
+:if ([:len [find where list=$AddressList and address=184.25.102.19]] = 0) do={ add list=$AddressList comment=copilot address=184.25.102.19 }
+:if ([:len [find where list=$AddressList and address=184.25.102.22]] = 0) do={ add list=$AddressList comment=copilot address=184.25.102.22 }
+:if ([:len [find where list=$AddressList and address=184.25.102.27]] = 0) do={ add list=$AddressList comment=copilot address=184.25.102.27 }
+:if ([:len [find where list=$AddressList and address=184.25.102.33]] = 0) do={ add list=$AddressList comment=copilot address=184.25.102.33 }
+:if ([:len [find where list=$AddressList and address=184.25.102.4]] = 0) do={ add list=$AddressList comment=copilot address=184.25.102.4 }
+:if ([:len [find where list=$AddressList and address=184.25.148.137]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.137 }
+:if ([:len [find where list=$AddressList and address=184.25.148.138]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.138 }
+:if ([:len [find where list=$AddressList and address=184.25.148.144]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.144 }
+:if ([:len [find where list=$AddressList and address=184.25.148.147]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.147 }
+:if ([:len [find where list=$AddressList and address=184.25.148.153]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.153 }
+:if ([:len [find where list=$AddressList and address=184.25.148.154]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.154 }
+:if ([:len [find where list=$AddressList and address=184.25.148.155]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.155 }
+:if ([:len [find where list=$AddressList and address=184.25.148.161]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.161 }
+:if ([:len [find where list=$AddressList and address=184.25.148.162]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.162 }
+:if ([:len [find where list=$AddressList and address=184.25.148.163]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.163 }
+:if ([:len [find where list=$AddressList and address=184.25.148.170]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.170 }
+:if ([:len [find where list=$AddressList and address=184.25.148.171]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.171 }
+:if ([:len [find where list=$AddressList and address=184.25.148.185]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.185 }
+:if ([:len [find where list=$AddressList and address=184.25.148.193]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.193 }
+:if ([:len [find where list=$AddressList and address=184.25.148.194]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.194 }
+:if ([:len [find where list=$AddressList and address=184.25.148.216]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.216 }
+:if ([:len [find where list=$AddressList and address=184.25.148.217]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.217 }
+:if ([:len [find where list=$AddressList and address=184.25.148.218]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.218 }
+:if ([:len [find where list=$AddressList and address=184.25.148.225]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.225 }
+:if ([:len [find where list=$AddressList and address=184.25.148.226]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.226 }
+:if ([:len [find where list=$AddressList and address=184.25.148.232]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.232 }
+:if ([:len [find where list=$AddressList and address=184.25.148.234]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.234 }
+:if ([:len [find where list=$AddressList and address=184.25.148.235]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.235 }
+:if ([:len [find where list=$AddressList and address=184.25.148.240]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.240 }
+:if ([:len [find where list=$AddressList and address=184.25.148.241]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.241 }
+:if ([:len [find where list=$AddressList and address=184.25.148.242]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.242 }
+:if ([:len [find where list=$AddressList and address=184.25.148.243]] = 0) do={ add list=$AddressList comment=copilot address=184.25.148.243 }
+:if ([:len [find where list=$AddressList and address=184.25.239.10]] = 0) do={ add list=$AddressList comment=copilot address=184.25.239.10 }
+:if ([:len [find where list=$AddressList and address=184.25.239.104]] = 0) do={ add list=$AddressList comment=copilot address=184.25.239.104 }
+:if ([:len [find where list=$AddressList and address=184.25.239.105]] = 0) do={ add list=$AddressList comment=copilot address=184.25.239.105 }
+:if ([:len [find where list=$AddressList and address=184.25.239.114]] = 0) do={ add list=$AddressList comment=copilot address=184.25.239.114 }
+:if ([:len [find where list=$AddressList and address=184.25.239.73]] = 0) do={ add list=$AddressList comment=copilot address=184.25.239.73 }
+:if ([:len [find where list=$AddressList and address=184.25.239.74]] = 0) do={ add list=$AddressList comment=copilot address=184.25.239.74 }
+:if ([:len [find where list=$AddressList and address=184.25.239.81]] = 0) do={ add list=$AddressList comment=copilot address=184.25.239.81 }
+:if ([:len [find where list=$AddressList and address=184.25.239.83]] = 0) do={ add list=$AddressList comment=copilot address=184.25.239.83 }
+:if ([:len [find where list=$AddressList and address=184.25.239.9]] = 0) do={ add list=$AddressList comment=copilot address=184.25.239.9 }
+:if ([:len [find where list=$AddressList and address=184.28.198.122]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.122 }
+:if ([:len [find where list=$AddressList and address=184.28.198.123]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.123 }
+:if ([:len [find where list=$AddressList and address=184.28.198.59]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.59 }
+:if ([:len [find where list=$AddressList and address=184.28.198.64]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.64 }
+:if ([:len [find where list=$AddressList and address=184.28.198.65]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.65 }
+:if ([:len [find where list=$AddressList and address=184.28.198.74]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.74 }
+:if ([:len [find where list=$AddressList and address=184.28.198.75]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.75 }
+:if ([:len [find where list=$AddressList and address=184.28.198.80]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.80 }
+:if ([:len [find where list=$AddressList and address=184.28.198.81]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.81 }
+:if ([:len [find where list=$AddressList and address=184.28.198.83]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.83 }
+:if ([:len [find where list=$AddressList and address=184.28.198.88]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.88 }
+:if ([:len [find where list=$AddressList and address=184.28.6.120]] = 0) do={ add list=$AddressList comment=copilot address=184.28.6.120 }
+:if ([:len [find where list=$AddressList and address=184.28.6.121]] = 0) do={ add list=$AddressList comment=copilot address=184.28.6.121 }
+:if ([:len [find where list=$AddressList and address=184.28.6.122]] = 0) do={ add list=$AddressList comment=copilot address=184.28.6.122 }
+:if ([:len [find where list=$AddressList and address=184.28.6.128]] = 0) do={ add list=$AddressList comment=copilot address=184.28.6.128 }
+:if ([:len [find where list=$AddressList and address=184.28.6.43]] = 0) do={ add list=$AddressList comment=copilot address=184.28.6.43 }
+:if ([:len [find where list=$AddressList and address=184.28.6.57]] = 0) do={ add list=$AddressList comment=copilot address=184.28.6.57 }
+:if ([:len [find where list=$AddressList and address=184.28.6.64]] = 0) do={ add list=$AddressList comment=copilot address=184.28.6.64 }
+:if ([:len [find where list=$AddressList and address=184.28.6.73]] = 0) do={ add list=$AddressList comment=copilot address=184.28.6.73 }
+:if ([:len [find where list=$AddressList and address=184.28.6.8]] = 0) do={ add list=$AddressList comment=copilot address=184.28.6.8 }
+:if ([:len [find where list=$AddressList and address=184.30.150.135]] = 0) do={ add list=$AddressList comment=copilot address=184.30.150.135 }
+:if ([:len [find where list=$AddressList and address=184.30.150.136]] = 0) do={ add list=$AddressList comment=copilot address=184.30.150.136 }
+:if ([:len [find where list=$AddressList and address=184.30.150.143]] = 0) do={ add list=$AddressList comment=copilot address=184.30.150.143 }
+:if ([:len [find where list=$AddressList and address=184.30.150.144]] = 0) do={ add list=$AddressList comment=copilot address=184.30.150.144 }
+:if ([:len [find where list=$AddressList and address=184.30.150.151]] = 0) do={ add list=$AddressList comment=copilot address=184.30.150.151 }
+:if ([:len [find where list=$AddressList and address=184.30.150.152]] = 0) do={ add list=$AddressList comment=copilot address=184.30.150.152 }
+:if ([:len [find where list=$AddressList and address=184.30.150.153]] = 0) do={ add list=$AddressList comment=copilot address=184.30.150.153 }
+:if ([:len [find where list=$AddressList and address=184.30.150.154]] = 0) do={ add list=$AddressList comment=copilot address=184.30.150.154 }
+:if ([:len [find where list=$AddressList and address=184.30.150.155]] = 0) do={ add list=$AddressList comment=copilot address=184.30.150.155 }
+:if ([:len [find where list=$AddressList and address=184.31.15.137]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.137 }
+:if ([:len [find where list=$AddressList and address=184.31.15.146]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.146 }
+:if ([:len [find where list=$AddressList and address=184.31.15.154]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.154 }
+:if ([:len [find where list=$AddressList and address=184.31.15.160]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.160 }
+:if ([:len [find where list=$AddressList and address=184.31.15.163]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.163 }
+:if ([:len [find where list=$AddressList and address=184.31.15.169]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.169 }
+:if ([:len [find where list=$AddressList and address=184.31.15.170]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.170 }
+:if ([:len [find where list=$AddressList and address=184.31.15.171]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.171 }
+:if ([:len [find where list=$AddressList and address=184.31.15.176]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.176 }
+:if ([:len [find where list=$AddressList and address=184.31.15.177]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.177 }
+:if ([:len [find where list=$AddressList and address=184.31.15.178]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.178 }
+:if ([:len [find where list=$AddressList and address=184.31.15.184]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.184 }
+:if ([:len [find where list=$AddressList and address=184.31.15.185]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.185 }
+:if ([:len [find where list=$AddressList and address=184.31.15.186]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.186 }
+:if ([:len [find where list=$AddressList and address=184.31.15.187]] = 0) do={ add list=$AddressList comment=copilot address=184.31.15.187 }

@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=krymr.com address=18.239.208.98} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.255.108} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.255.109} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.255.112} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.255.118} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.255.3} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.255.35} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.255.76} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.255.98} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.50.16} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.50.52} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.50.61} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.50.74} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.83.116} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.83.17} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.83.31} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.239.83.80} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.102.105} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.102.111} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.102.65} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.102.84} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.146.128} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.146.30} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.146.37} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.146.44} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.146.65} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.146.67} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.146.91} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.146.95} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.18.44} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.18.45} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.18.82} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.18.89} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.28.103} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.28.116} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.28.49} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.28.99} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.87.107} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.87.109} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.87.125} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.87.22} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.87.46} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.87.72} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.87.80} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.244.87.85} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.245.31.11} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.245.31.30} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.245.31.36} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.245.31.43} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.245.46.103} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.245.46.31} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.245.46.35} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.245.46.59} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.64.67.38} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.64.67.39} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.64.67.74} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.64.67.97} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.159.118} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.159.128} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.159.29} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.159.5} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.229.122} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.229.19} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.229.31} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.229.84} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.25.27} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.25.32} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.25.47} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.65.25.70} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.192.120} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.192.89} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.192.9} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.192.91} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.195.21} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.195.37} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.195.86} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.195.91} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.196.28} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.196.32} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.196.49} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.196.6} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.218.117} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.218.19} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.218.6} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.218.92} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.233.27} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.233.67} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.233.82} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.233.89} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.248.37} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.248.6} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.248.72} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.248.93} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.26.103} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.26.110} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.26.123} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.26.26} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.26.44} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.26.53} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.26.67} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.66.26.84} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.110.16} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.110.72} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.110.84} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.110.90} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.13.115} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.13.20} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.13.27} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.13.89} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.17.23} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.17.44} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.17.53} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.17.68} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.181.108} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.181.126} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.181.19} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.181.60} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.233.123} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.233.128} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.233.58} on-error {}
-:do {add list=$AddressList comment=krymr.com address=18.67.233.94} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.24.18.109} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.24.18.168} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.24.181.132} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.24.183.200} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.24.224.81} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.24.237.106} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.24.4.118} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.24.93.84} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.24.95.117} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.25.18.24} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.25.31.113} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.25.5.127} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.25.7.196} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.26.127.67} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.26.127.80} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.26.14.118} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.27.111.177} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.27.223.168} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.27.53.126} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.27.55.195} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.28.113.22} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.28.113.53} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.28.171.20} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.28.180.27} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.28.6.129} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.28.6.57} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.28.6.82} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.29.181.126} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.29.197.129} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.29.199.198} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.29.244.233} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.29.247.20} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.29.28.37} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.29.57.20} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.29.57.26} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.30.135.192} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.30.150.101} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.30.150.107} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.30.215.174} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.30.223.180} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.50.112.81} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.50.112.91} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.51.101.137} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.51.101.162} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.51.132.47} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.51.149.82} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.51.149.96} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.51.73.20} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.51.88.145} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.51.88.165} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.85.149.126} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.85.151.195} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.85.180.16} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.85.53.41} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.85.55.107} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.85.77.97} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.0.115} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.1.163} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.142} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.150} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.151} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.159} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.16} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.17} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.197} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.199} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.219} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.69} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.89} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.103.92} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.236.205} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.251.10} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.86.251.12} on-error {}
-:do {add list=$AddressList comment=krymr.com address=184.87.40.7} on-error {}
-:do {add list=$AddressList comment=krymr.com address=190.98.160.144} on-error {}
-:do {add list=$AddressList comment=krymr.com address=190.98.160.147} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.1.144} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.1.178} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.1.185} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.110.163} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.110.19} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.110.67} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.110.96} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.147.117} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.158.250} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.16.165} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.16.167} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.16.171} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.16.182} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.16.215} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.16.236} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.165.114} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.165.123} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.170.134} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.170.135} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.170.137} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.170.142} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.172.131} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.183.107} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.183.11} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.183.12} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.183.15} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.183.80} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.183.97} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.19.10} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.19.113} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.19.122} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.19.123} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.19.131} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.19.139} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.19.66} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.19.98} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.204.144} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.204.146} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.204.147} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.204.17} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.204.18} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.204.210} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.204.217} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.204.75} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.204.84} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.204.88} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.27.83} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.27.89} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.6.10} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.6.222} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.6.223} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.6.31} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.65.80} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.65.98} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.88.151} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.16.88.170} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.100.209} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.100.251} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.107.98} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.113.240} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.113.96} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.147.121} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.147.193} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.174.44} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.177.116} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.182.252} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.198.49} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.198.58} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.198.66} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.211.208} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.22.10} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.22.155} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.22.195} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.22.33} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.35.145} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.56.10} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.17.69.87} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.139.30} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.150.57} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.199.250} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.220.104} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.244.15} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.244.23} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.244.74} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.244.82} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.244.96} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.244.97} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.244.99} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.61.143} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.61.186} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.64.17} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.64.22} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.64.5} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.67.152} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.18.67.161} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.120.11} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.120.95} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.120.96} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.124.152} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.124.157} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.124.160} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.124.163} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.173.11} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.173.139} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.173.154} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.173.162} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.173.26} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.173.83} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.176.200} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.176.217} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.176.218} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.183.138} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.183.158} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.183.160} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.183.162} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.183.33} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.183.49} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.183.64} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.183.66} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.193.145} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.193.155} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.193.162} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.193.219} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.193.26} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.193.48} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.193.56} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.193.9} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.197.123} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.197.90} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.197.96} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.248.141} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.248.148} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.248.150} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.250.131} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.250.142} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.251.161} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.251.169} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.51.129} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.51.145} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.51.27} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.51.60} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.51.87} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.54.11} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.54.26} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.67.29} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.80.65} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.80.97} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.96.208} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.19.97.11} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.20.109.114} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.20.109.120} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.20.110.107} on-error {}
-:do {add list=$AddressList comment=krymr.com address=2.20.110.144} on-error {}
+:if ([:len [find where list=$AddressList and address=13.226.2.78]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.2.78 }
+:if ([:len [find where list=$AddressList and address=13.226.2.82]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.2.82 }
+:if ([:len [find where list=$AddressList and address=13.226.2.84]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.2.84 }
+:if ([:len [find where list=$AddressList and address=13.226.244.103]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.244.103 }
+:if ([:len [find where list=$AddressList and address=13.226.244.111]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.244.111 }
+:if ([:len [find where list=$AddressList and address=13.226.244.113]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.244.113 }
+:if ([:len [find where list=$AddressList and address=13.226.244.121]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.244.121 }
+:if ([:len [find where list=$AddressList and address=13.226.59.35]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.59.35 }
+:if ([:len [find where list=$AddressList and address=13.226.59.63]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.59.63 }
+:if ([:len [find where list=$AddressList and address=13.226.59.64]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.59.64 }
+:if ([:len [find where list=$AddressList and address=13.226.59.79]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.59.79 }
+:if ([:len [find where list=$AddressList and address=13.227.146.115]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.146.115 }
+:if ([:len [find where list=$AddressList and address=13.227.146.21]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.146.21 }
+:if ([:len [find where list=$AddressList and address=13.227.146.77]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.146.77 }
+:if ([:len [find where list=$AddressList and address=13.227.146.95]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.146.95 }
+:if ([:len [find where list=$AddressList and address=13.227.192.109]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.192.109 }
+:if ([:len [find where list=$AddressList and address=13.227.192.112]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.192.112 }
+:if ([:len [find where list=$AddressList and address=13.227.192.16]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.192.16 }
+:if ([:len [find where list=$AddressList and address=13.227.192.4]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.192.4 }
+:if ([:len [find where list=$AddressList and address=13.227.192.62]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.192.62 }
+:if ([:len [find where list=$AddressList and address=13.227.192.64]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.192.64 }
+:if ([:len [find where list=$AddressList and address=13.227.192.75]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.192.75 }
+:if ([:len [find where list=$AddressList and address=13.227.192.98]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.192.98 }
+:if ([:len [find where list=$AddressList and address=13.227.249.107]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.249.107 }
+:if ([:len [find where list=$AddressList and address=13.227.249.113]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.249.113 }
+:if ([:len [find where list=$AddressList and address=13.227.249.36]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.249.36 }
+:if ([:len [find where list=$AddressList and address=13.227.249.40]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.249.40 }
+:if ([:len [find where list=$AddressList and address=13.227.249.41]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.249.41 }
+:if ([:len [find where list=$AddressList and address=13.227.249.82]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.249.82 }
+:if ([:len [find where list=$AddressList and address=13.227.249.83]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.249.83 }
+:if ([:len [find where list=$AddressList and address=13.227.249.97]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.249.97 }
+:if ([:len [find where list=$AddressList and address=13.227.62.124]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.62.124 }
+:if ([:len [find where list=$AddressList and address=13.227.62.27]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.62.27 }
+:if ([:len [find where list=$AddressList and address=13.227.62.37]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.62.37 }
+:if ([:len [find where list=$AddressList and address=13.227.62.55]] = 0) do={ add list=$AddressList comment=krymr.com address=13.227.62.55 }
+:if ([:len [find where list=$AddressList and address=13.249.190.25]] = 0) do={ add list=$AddressList comment=krymr.com address=13.249.190.25 }
+:if ([:len [find where list=$AddressList and address=13.249.190.32]] = 0) do={ add list=$AddressList comment=krymr.com address=13.249.190.32 }
+:if ([:len [find where list=$AddressList and address=13.249.190.60]] = 0) do={ add list=$AddressList comment=krymr.com address=13.249.190.60 }
+:if ([:len [find where list=$AddressList and address=13.249.190.69]] = 0) do={ add list=$AddressList comment=krymr.com address=13.249.190.69 }
+:if ([:len [find where list=$AddressList and address=13.32.110.14]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.110.14 }
+:if ([:len [find where list=$AddressList and address=13.32.110.71]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.110.71 }
+:if ([:len [find where list=$AddressList and address=13.32.110.85]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.110.85 }
+:if ([:len [find where list=$AddressList and address=13.32.110.90]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.110.90 }
+:if ([:len [find where list=$AddressList and address=13.32.12.116]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.12.116 }
+:if ([:len [find where list=$AddressList and address=13.32.12.124]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.12.124 }
+:if ([:len [find where list=$AddressList and address=13.32.12.41]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.12.41 }
+:if ([:len [find where list=$AddressList and address=13.32.12.94]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.12.94 }
+:if ([:len [find where list=$AddressList and address=13.32.220.13]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.220.13 }
+:if ([:len [find where list=$AddressList and address=13.32.220.23]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.220.23 }
+:if ([:len [find where list=$AddressList and address=13.32.220.71]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.220.71 }
+:if ([:len [find where list=$AddressList and address=13.32.220.79]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.220.79 }
+:if ([:len [find where list=$AddressList and address=13.32.251.121]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.251.121 }
+:if ([:len [find where list=$AddressList and address=13.32.251.5]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.251.5 }
+:if ([:len [find where list=$AddressList and address=13.32.251.63]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.251.63 }
+:if ([:len [find where list=$AddressList and address=13.32.251.75]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.251.75 }
+:if ([:len [find where list=$AddressList and address=13.32.99.122]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.99.122 }
+:if ([:len [find where list=$AddressList and address=13.32.99.31]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.99.31 }
+:if ([:len [find where list=$AddressList and address=13.32.99.60]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.99.60 }
+:if ([:len [find where list=$AddressList and address=13.32.99.70]] = 0) do={ add list=$AddressList comment=krymr.com address=13.32.99.70 }
+:if ([:len [find where list=$AddressList and address=13.33.109.33]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.109.33 }
+:if ([:len [find where list=$AddressList and address=13.33.109.70]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.109.70 }
+:if ([:len [find where list=$AddressList and address=13.33.109.76]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.109.76 }
+:if ([:len [find where list=$AddressList and address=13.33.109.98]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.109.98 }
+:if ([:len [find where list=$AddressList and address=13.33.141.129]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.141.129 }
+:if ([:len [find where list=$AddressList and address=13.33.141.36]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.141.36 }
+:if ([:len [find where list=$AddressList and address=13.33.141.44]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.141.44 }
+:if ([:len [find where list=$AddressList and address=13.33.141.53]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.141.53 }
+:if ([:len [find where list=$AddressList and address=13.33.151.115]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.151.115 }
+:if ([:len [find where list=$AddressList and address=13.33.151.46]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.151.46 }
+:if ([:len [find where list=$AddressList and address=13.33.151.82]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.151.82 }
+:if ([:len [find where list=$AddressList and address=13.33.151.96]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.151.96 }
+:if ([:len [find where list=$AddressList and address=13.33.235.119]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.235.119 }
+:if ([:len [find where list=$AddressList and address=13.33.235.12]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.235.12 }
+:if ([:len [find where list=$AddressList and address=13.33.235.24]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.235.24 }
+:if ([:len [find where list=$AddressList and address=13.33.235.4]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.235.4 }
+:if ([:len [find where list=$AddressList and address=13.35.107.101]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.107.101 }
+:if ([:len [find where list=$AddressList and address=13.35.107.114]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.107.114 }
+:if ([:len [find where list=$AddressList and address=13.35.107.33]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.107.33 }
+:if ([:len [find where list=$AddressList and address=13.35.107.60]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.107.60 }
+:if ([:len [find where list=$AddressList and address=13.35.238.100]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.238.100 }
+:if ([:len [find where list=$AddressList and address=13.35.238.19]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.238.19 }
+:if ([:len [find where list=$AddressList and address=13.35.238.31]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.238.31 }
+:if ([:len [find where list=$AddressList and address=13.35.238.7]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.238.7 }
+:if ([:len [find where list=$AddressList and address=13.35.93.107]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.93.107 }
+:if ([:len [find where list=$AddressList and address=13.35.93.119]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.93.119 }
+:if ([:len [find where list=$AddressList and address=13.35.93.120]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.93.120 }
+:if ([:len [find where list=$AddressList and address=13.35.93.54]] = 0) do={ add list=$AddressList comment=krymr.com address=13.35.93.54 }
+:if ([:len [find where list=$AddressList and address=143.204.11.52]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.11.52 }
+:if ([:len [find where list=$AddressList and address=143.204.11.61]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.11.61 }
+:if ([:len [find where list=$AddressList and address=143.204.11.90]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.11.90 }
+:if ([:len [find where list=$AddressList and address=143.204.11.91]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.11.91 }
+:if ([:len [find where list=$AddressList and address=143.204.126.44]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.126.44 }
+:if ([:len [find where list=$AddressList and address=143.204.126.5]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.126.5 }
+:if ([:len [find where list=$AddressList and address=143.204.126.53]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.126.53 }
+:if ([:len [find where list=$AddressList and address=143.204.126.84]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.126.84 }
+:if ([:len [find where list=$AddressList and address=143.204.142.41]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.142.41 }
+:if ([:len [find where list=$AddressList and address=143.204.142.79]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.142.79 }
+:if ([:len [find where list=$AddressList and address=143.204.142.82]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.142.82 }
+:if ([:len [find where list=$AddressList and address=143.204.142.9]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.142.9 }
+:if ([:len [find where list=$AddressList and address=143.204.237.114]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.237.114 }
+:if ([:len [find where list=$AddressList and address=143.204.237.128]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.237.128 }
+:if ([:len [find where list=$AddressList and address=143.204.237.34]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.237.34 }
+:if ([:len [find where list=$AddressList and address=143.204.237.41]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.237.41 }
+:if ([:len [find where list=$AddressList and address=143.204.55.107]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.55.107 }
+:if ([:len [find where list=$AddressList and address=143.204.55.109]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.55.109 }
+:if ([:len [find where list=$AddressList and address=143.204.55.110]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.55.110 }
+:if ([:len [find where list=$AddressList and address=143.204.55.119]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.55.119 }
+:if ([:len [find where list=$AddressList and address=143.204.55.12]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.55.12 }
+:if ([:len [find where list=$AddressList and address=143.204.55.60]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.55.60 }
+:if ([:len [find where list=$AddressList and address=143.204.55.7]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.55.7 }
+:if ([:len [find where list=$AddressList and address=143.204.55.95]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.55.95 }
+:if ([:len [find where list=$AddressList and address=143.204.80.100]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.80.100 }
+:if ([:len [find where list=$AddressList and address=143.204.80.22]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.80.22 }
+:if ([:len [find where list=$AddressList and address=143.204.80.66]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.80.66 }
+:if ([:len [find where list=$AddressList and address=143.204.80.81]] = 0) do={ add list=$AddressList comment=krymr.com address=143.204.80.81 }
+:if ([:len [find where list=$AddressList and address=173.222.105.135]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.105.135 }
+:if ([:len [find where list=$AddressList and address=173.222.105.152]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.105.152 }
+:if ([:len [find where list=$AddressList and address=173.222.105.29]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.105.29 }
+:if ([:len [find where list=$AddressList and address=173.222.105.56]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.105.56 }
+:if ([:len [find where list=$AddressList and address=173.222.106.147]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.106.147 }
+:if ([:len [find where list=$AddressList and address=173.222.106.15]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.106.15 }
+:if ([:len [find where list=$AddressList and address=173.222.106.162]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.106.162 }
+:if ([:len [find where list=$AddressList and address=173.222.106.193]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.106.193 }
+:if ([:len [find where list=$AddressList and address=173.222.106.42]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.106.42 }
+:if ([:len [find where list=$AddressList and address=173.222.106.45]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.106.45 }
+:if ([:len [find where list=$AddressList and address=173.222.107.197]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.107.197 }
+:if ([:len [find where list=$AddressList and address=173.222.107.207]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.107.207 }
+:if ([:len [find where list=$AddressList and address=173.222.108.104]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.108.104 }
+:if ([:len [find where list=$AddressList and address=173.222.108.106]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.108.106 }
+:if ([:len [find where list=$AddressList and address=173.222.108.122]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.108.122 }
+:if ([:len [find where list=$AddressList and address=173.222.108.34]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.108.34 }
+:if ([:len [find where list=$AddressList and address=173.222.108.50]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.108.50 }
+:if ([:len [find where list=$AddressList and address=173.222.119.195]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.119.195 }
+:if ([:len [find where list=$AddressList and address=173.222.162.132]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.132 }
+:if ([:len [find where list=$AddressList and address=173.222.162.14]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.14 }
+:if ([:len [find where list=$AddressList and address=173.222.162.155]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.155 }
+:if ([:len [find where list=$AddressList and address=173.222.162.164]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.164 }
+:if ([:len [find where list=$AddressList and address=173.222.162.168]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.168 }
+:if ([:len [find where list=$AddressList and address=173.222.162.173]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.173 }
+:if ([:len [find where list=$AddressList and address=173.222.162.184]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.184 }
+:if ([:len [find where list=$AddressList and address=173.222.162.186]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.186 }
+:if ([:len [find where list=$AddressList and address=173.222.162.189]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.189 }
+:if ([:len [find where list=$AddressList and address=173.222.162.31]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.31 }
+:if ([:len [find where list=$AddressList and address=173.222.162.4]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.162.4 }
+:if ([:len [find where list=$AddressList and address=173.222.249.152]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.249.152 }
+:if ([:len [find where list=$AddressList and address=173.222.249.187]] = 0) do={ add list=$AddressList comment=krymr.com address=173.222.249.187 }
+:if ([:len [find where list=$AddressList and address=173.223.162.122]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.162.122 }
+:if ([:len [find where list=$AddressList and address=173.223.162.145]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.162.145 }
+:if ([:len [find where list=$AddressList and address=173.223.234.10]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.10 }
+:if ([:len [find where list=$AddressList and address=173.223.234.141]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.141 }
+:if ([:len [find where list=$AddressList and address=173.223.234.146]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.146 }
+:if ([:len [find where list=$AddressList and address=173.223.234.150]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.150 }
+:if ([:len [find where list=$AddressList and address=173.223.234.197]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.197 }
+:if ([:len [find where list=$AddressList and address=173.223.234.205]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.205 }
+:if ([:len [find where list=$AddressList and address=173.223.234.207]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.207 }
+:if ([:len [find where list=$AddressList and address=173.223.234.209]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.209 }
+:if ([:len [find where list=$AddressList and address=173.223.234.33]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.33 }
+:if ([:len [find where list=$AddressList and address=18.154.144.105]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.144.105 }
+:if ([:len [find where list=$AddressList and address=18.154.144.26]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.144.26 }
+:if ([:len [find where list=$AddressList and address=18.154.144.6]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.144.6 }
+:if ([:len [find where list=$AddressList and address=18.154.144.66]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.144.66 }
+:if ([:len [find where list=$AddressList and address=18.154.161.120]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.161.120 }
+:if ([:len [find where list=$AddressList and address=18.154.161.15]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.161.15 }
+:if ([:len [find where list=$AddressList and address=18.154.161.32]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.161.32 }
+:if ([:len [find where list=$AddressList and address=18.154.161.99]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.161.99 }
+:if ([:len [find where list=$AddressList and address=18.154.63.16]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.63.16 }
+:if ([:len [find where list=$AddressList and address=18.154.63.19]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.63.19 }
+:if ([:len [find where list=$AddressList and address=18.154.63.22]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.63.22 }
+:if ([:len [find where list=$AddressList and address=18.154.63.41]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.63.41 }
+:if ([:len [find where list=$AddressList and address=18.154.7.16]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.7.16 }
+:if ([:len [find where list=$AddressList and address=18.154.7.50]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.7.50 }
+:if ([:len [find where list=$AddressList and address=18.154.7.53]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.7.53 }
+:if ([:len [find where list=$AddressList and address=18.154.7.81]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.7.81 }
+:if ([:len [find where list=$AddressList and address=18.155.107.16]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.107.16 }
+:if ([:len [find where list=$AddressList and address=18.155.107.34]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.107.34 }
+:if ([:len [find where list=$AddressList and address=18.155.107.63]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.107.63 }
+:if ([:len [find where list=$AddressList and address=18.155.107.71]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.107.71 }
+:if ([:len [find where list=$AddressList and address=18.155.173.16]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.173.16 }
+:if ([:len [find where list=$AddressList and address=18.155.173.32]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.173.32 }
+:if ([:len [find where list=$AddressList and address=18.155.173.55]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.173.55 }

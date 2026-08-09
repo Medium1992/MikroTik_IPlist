@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=strava.com address=13.224.186.16} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.186.18} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.186.22} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.186.27} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.186.44} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.186.53} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.186.72} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.186.73} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.186.82} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.186.89} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.214.28} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.214.40} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.214.46} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.214.74} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.68.100} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.68.109} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.68.110} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.68.25} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.68.66} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.68.7} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.68.74} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.68.99} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.83.104} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.83.3} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.83.35} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.224.83.79} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.196.116} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.196.45} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.196.9} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.196.91} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.107} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.110} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.117} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.125} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.127} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.25} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.29} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.42} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.44} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.49} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.5} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.6} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.78} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.8} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.81} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.239.94} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.101} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.18} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.20} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.35} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.36} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.39} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.40} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.44} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.50} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.51} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.55} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.64} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.69} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.78} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.89} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.92} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.94} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.225.35.98} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.104} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.106} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.109} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.114} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.122} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.125} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.13} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.36} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.37} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.38} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.42} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.58} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.69} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.70} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.72} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.155.73} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.175.35} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.175.43} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.175.80} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.175.83} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.244.104} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.244.37} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.244.7} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.244.75} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.244.77} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.244.90} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.244.92} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.244.96} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.251.109} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.251.127} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.251.21} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.251.30} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.251.51} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.251.6} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.251.82} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.251.84} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.69.112} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.69.45} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.69.97} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.226.69.99} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.10} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.101} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.103} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.112} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.115} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.121} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.16} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.23} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.42} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.51} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.56} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.66} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.67} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.69} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.75} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.82} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.83} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.88} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.93} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.146.97} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.173.22} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.173.33} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.173.36} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.173.93} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.101} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.103} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.106} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.118} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.12} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.125} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.126} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.129} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.25} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.29} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.32} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.44} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.45} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.61} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.68} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.84} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.88} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.89} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.90} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.92} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.97} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.192.98} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.101} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.11} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.115} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.12} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.3} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.44} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.45} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.50} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.68} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.8} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.85} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.227.219.9} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.141.107} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.141.46} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.141.47} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.141.82} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.228.12} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.228.32} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.228.70} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.228.92} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.101} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.111} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.121} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.127} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.129} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.13} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.18} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.2} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.20} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.25} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.27} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.36} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.41} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.59} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.63} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.64} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.66} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.80} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.8.84} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.9.126} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.9.129} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.9.35} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.249.9.41} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.103} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.107} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.114} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.117} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.124} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.19} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.20} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.28} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.3} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.42} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.45} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.47} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.50} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.55} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.57} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.61} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.66} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.70} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.87} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.90} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.92} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.96} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.110.97} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.10} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.101} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.105} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.11} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.112} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.114} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.121} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.16} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.17} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.27} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.36} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.49} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.51} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.54} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.62} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.73} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.78} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.81} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.83} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.86} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.88} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.9} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.90} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.12.99} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.121.100} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.121.17} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.121.38} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.121.42} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.121.48} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.121.75} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.121.82} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.121.98} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.145.120} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.145.28} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.145.5} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.145.87} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.102} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.110} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.121} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.122} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.125} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.129} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.21} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.56} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.62} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.76} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.90} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.32.220.97} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.141.117} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.141.127} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.141.28} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.141.51} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.141.52} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.141.74} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.141.86} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.141.97} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.153.120} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.153.24} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.153.58} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.153.98} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.183.115} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.183.127} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.183.46} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.183.63} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.187.114} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.187.122} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.187.125} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.187.128} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.187.129} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.187.43} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.187.58} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.187.66} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.100} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.101} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.103} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.109} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.113} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.126} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.127} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.128} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.129} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.20} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.22} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.28} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.29} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.32} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.37} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.51} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.52} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.55} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.57} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.58} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.72} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.77} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.80} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.81} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.89} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.235.94} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.252.102} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.252.119} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.252.46} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.252.61} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.45.100} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.45.43} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.45.65} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.33.45.77} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.107.126} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.107.25} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.107.34} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.107.40} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.107.45} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.107.47} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.107.51} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.107.62} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.198.107} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.198.114} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.198.118} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.198.121} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.198.125} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.198.2} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.198.41} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.198.69} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.254.2} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.254.5} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.254.54} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.35.254.58} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.49.111.177} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.50.141.112} on-error {}
-:do {add list=$AddressList comment=strava.com address=13.52.78.49} on-error {}
-:do {add list=$AddressList comment=strava.com address=141.193.213.10} on-error {}
-:do {add list=$AddressList comment=strava.com address=141.193.213.11} on-error {}
-:do {add list=$AddressList comment=strava.com address=143.204.11.10} on-error {}
-:do {add list=$AddressList comment=strava.com address=143.204.11.108} on-error {}
-:do {add list=$AddressList comment=strava.com address=143.204.11.11} on-error {}
+:if ([:len [find where list=$AddressList and address=108.157.113.25]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.113.25 }
+:if ([:len [find where list=$AddressList and address=108.157.113.27]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.113.27 }
+:if ([:len [find where list=$AddressList and address=108.157.113.52]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.113.52 }
+:if ([:len [find where list=$AddressList and address=108.157.113.54]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.113.54 }
+:if ([:len [find where list=$AddressList and address=108.157.113.70]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.113.70 }
+:if ([:len [find where list=$AddressList and address=108.157.113.87]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.113.87 }
+:if ([:len [find where list=$AddressList and address=108.157.128.115]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.128.115 }
+:if ([:len [find where list=$AddressList and address=108.157.128.22]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.128.22 }
+:if ([:len [find where list=$AddressList and address=108.157.128.29]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.128.29 }
+:if ([:len [find where list=$AddressList and address=108.157.128.32]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.128.32 }
+:if ([:len [find where list=$AddressList and address=108.157.142.100]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.142.100 }
+:if ([:len [find where list=$AddressList and address=108.157.142.4]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.142.4 }
+:if ([:len [find where list=$AddressList and address=108.157.142.59]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.142.59 }
+:if ([:len [find where list=$AddressList and address=108.157.142.76]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.142.76 }
+:if ([:len [find where list=$AddressList and address=108.157.150.102]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.102 }
+:if ([:len [find where list=$AddressList and address=108.157.150.129]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.129 }
+:if ([:len [find where list=$AddressList and address=108.157.150.29]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.29 }
+:if ([:len [find where list=$AddressList and address=108.157.150.43]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.43 }
+:if ([:len [find where list=$AddressList and address=108.157.150.51]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.51 }
+:if ([:len [find where list=$AddressList and address=108.157.150.57]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.57 }
+:if ([:len [find where list=$AddressList and address=108.157.150.6]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.6 }
+:if ([:len [find where list=$AddressList and address=108.157.150.63]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.63 }
+:if ([:len [find where list=$AddressList and address=108.157.150.71]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.71 }
+:if ([:len [find where list=$AddressList and address=108.157.150.87]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.87 }
+:if ([:len [find where list=$AddressList and address=108.157.150.94]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.150.94 }
+:if ([:len [find where list=$AddressList and address=108.157.188.106]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.106 }
+:if ([:len [find where list=$AddressList and address=108.157.188.11]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.11 }
+:if ([:len [find where list=$AddressList and address=108.157.188.111]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.111 }
+:if ([:len [find where list=$AddressList and address=108.157.188.117]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.117 }
+:if ([:len [find where list=$AddressList and address=108.157.188.120]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.120 }
+:if ([:len [find where list=$AddressList and address=108.157.188.121]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.121 }
+:if ([:len [find where list=$AddressList and address=108.157.188.128]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.128 }
+:if ([:len [find where list=$AddressList and address=108.157.188.14]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.14 }
+:if ([:len [find where list=$AddressList and address=108.157.188.18]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.18 }
+:if ([:len [find where list=$AddressList and address=108.157.188.20]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.20 }
+:if ([:len [find where list=$AddressList and address=108.157.188.28]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.28 }
+:if ([:len [find where list=$AddressList and address=108.157.188.32]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.32 }
+:if ([:len [find where list=$AddressList and address=108.157.188.35]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.35 }
+:if ([:len [find where list=$AddressList and address=108.157.188.39]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.39 }
+:if ([:len [find where list=$AddressList and address=108.157.188.4]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.4 }
+:if ([:len [find where list=$AddressList and address=108.157.188.43]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.43 }
+:if ([:len [find where list=$AddressList and address=108.157.188.49]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.49 }
+:if ([:len [find where list=$AddressList and address=108.157.188.50]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.50 }
+:if ([:len [find where list=$AddressList and address=108.157.188.56]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.56 }
+:if ([:len [find where list=$AddressList and address=108.157.188.80]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.80 }
+:if ([:len [find where list=$AddressList and address=108.157.188.81]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.81 }
+:if ([:len [find where list=$AddressList and address=108.157.188.89]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.89 }
+:if ([:len [find where list=$AddressList and address=108.157.188.90]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.188.90 }
+:if ([:len [find where list=$AddressList and address=108.157.194.104]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.194.104 }
+:if ([:len [find where list=$AddressList and address=108.157.194.114]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.194.114 }
+:if ([:len [find where list=$AddressList and address=108.157.194.119]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.194.119 }
+:if ([:len [find where list=$AddressList and address=108.157.194.125]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.194.125 }
+:if ([:len [find where list=$AddressList and address=108.157.194.20]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.194.20 }
+:if ([:len [find where list=$AddressList and address=108.157.194.34]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.194.34 }
+:if ([:len [find where list=$AddressList and address=108.157.194.51]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.194.51 }
+:if ([:len [find where list=$AddressList and address=108.157.194.80]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.194.80 }
+:if ([:len [find where list=$AddressList and address=108.157.214.101]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.101 }
+:if ([:len [find where list=$AddressList and address=108.157.214.113]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.113 }
+:if ([:len [find where list=$AddressList and address=108.157.214.116]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.116 }
+:if ([:len [find where list=$AddressList and address=108.157.214.124]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.124 }
+:if ([:len [find where list=$AddressList and address=108.157.214.16]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.16 }
+:if ([:len [find where list=$AddressList and address=108.157.214.33]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.33 }
+:if ([:len [find where list=$AddressList and address=108.157.214.44]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.44 }
+:if ([:len [find where list=$AddressList and address=108.157.214.46]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.46 }
+:if ([:len [find where list=$AddressList and address=108.157.214.48]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.48 }
+:if ([:len [find where list=$AddressList and address=108.157.214.73]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.73 }
+:if ([:len [find where list=$AddressList and address=108.157.214.74]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.214.74 }
+:if ([:len [find where list=$AddressList and address=108.157.229.116]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.116 }
+:if ([:len [find where list=$AddressList and address=108.157.229.125]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.125 }
+:if ([:len [find where list=$AddressList and address=108.157.229.129]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.129 }
+:if ([:len [find where list=$AddressList and address=108.157.229.36]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.36 }
+:if ([:len [find where list=$AddressList and address=108.157.229.45]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.45 }
+:if ([:len [find where list=$AddressList and address=108.157.229.60]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.60 }
+:if ([:len [find where list=$AddressList and address=108.157.229.61]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.61 }
+:if ([:len [find where list=$AddressList and address=108.157.229.63]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.63 }
+:if ([:len [find where list=$AddressList and address=108.157.229.71]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.71 }
+:if ([:len [find where list=$AddressList and address=108.157.229.82]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.82 }
+:if ([:len [find where list=$AddressList and address=108.157.229.86]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.86 }
+:if ([:len [find where list=$AddressList and address=108.157.229.88]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.88 }
+:if ([:len [find where list=$AddressList and address=108.157.229.9]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.9 }
+:if ([:len [find where list=$AddressList and address=108.157.229.92]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.92 }
+:if ([:len [find where list=$AddressList and address=108.157.229.94]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.229.94 }
+:if ([:len [find where list=$AddressList and address=108.157.4.107]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.4.107 }
+:if ([:len [find where list=$AddressList and address=108.157.4.2]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.4.2 }
+:if ([:len [find where list=$AddressList and address=108.157.4.28]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.4.28 }
+:if ([:len [find where list=$AddressList and address=108.157.4.35]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.4.35 }
+:if ([:len [find where list=$AddressList and address=108.157.4.65]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.4.65 }
+:if ([:len [find where list=$AddressList and address=108.157.4.69]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.4.69 }
+:if ([:len [find where list=$AddressList and address=108.157.4.90]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.4.90 }
+:if ([:len [find where list=$AddressList and address=108.157.52.106]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.106 }
+:if ([:len [find where list=$AddressList and address=108.157.52.122]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.122 }
+:if ([:len [find where list=$AddressList and address=108.157.52.14]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.14 }
+:if ([:len [find where list=$AddressList and address=108.157.52.16]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.16 }
+:if ([:len [find where list=$AddressList and address=108.157.52.18]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.18 }
+:if ([:len [find where list=$AddressList and address=108.157.52.45]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.45 }
+:if ([:len [find where list=$AddressList and address=108.157.52.5]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.5 }
+:if ([:len [find where list=$AddressList and address=108.157.52.54]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.54 }
+:if ([:len [find where list=$AddressList and address=108.157.52.69]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.69 }
+:if ([:len [find where list=$AddressList and address=108.157.52.95]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.95 }
+:if ([:len [find where list=$AddressList and address=108.157.52.97]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.97 }
+:if ([:len [find where list=$AddressList and address=108.157.52.98]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.52.98 }
+:if ([:len [find where list=$AddressList and address=108.157.60.107]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.60.107 }
+:if ([:len [find where list=$AddressList and address=108.157.60.12]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.60.12 }
+:if ([:len [find where list=$AddressList and address=108.157.60.68]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.60.68 }
+:if ([:len [find where list=$AddressList and address=108.157.60.89]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.60.89 }
+:if ([:len [find where list=$AddressList and address=108.157.78.43]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.78.43 }
+:if ([:len [find where list=$AddressList and address=108.157.78.49]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.78.49 }
+:if ([:len [find where list=$AddressList and address=108.157.78.63]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.78.63 }
+:if ([:len [find where list=$AddressList and address=108.157.78.89]] = 0) do={ add list=$AddressList comment=strava.com address=108.157.78.89 }
+:if ([:len [find where list=$AddressList and address=108.158.194.7]] = 0) do={ add list=$AddressList comment=strava.com address=108.158.194.7 }
+:if ([:len [find where list=$AddressList and address=108.158.194.70]] = 0) do={ add list=$AddressList comment=strava.com address=108.158.194.70 }
+:if ([:len [find where list=$AddressList and address=108.158.194.88]] = 0) do={ add list=$AddressList comment=strava.com address=108.158.194.88 }
+:if ([:len [find where list=$AddressList and address=108.158.194.94]] = 0) do={ add list=$AddressList comment=strava.com address=108.158.194.94 }
+:if ([:len [find where list=$AddressList and address=108.159.102.104]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.102.104 }
+:if ([:len [find where list=$AddressList and address=108.159.102.106]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.102.106 }
+:if ([:len [find where list=$AddressList and address=108.159.102.117]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.102.117 }
+:if ([:len [find where list=$AddressList and address=108.159.102.121]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.102.121 }
+:if ([:len [find where list=$AddressList and address=108.159.102.24]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.102.24 }
+:if ([:len [find where list=$AddressList and address=108.159.102.28]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.102.28 }
+:if ([:len [find where list=$AddressList and address=108.159.102.30]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.102.30 }
+:if ([:len [find where list=$AddressList and address=108.159.102.77]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.102.77 }
+:if ([:len [find where list=$AddressList and address=108.159.102.96]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.102.96 }
+:if ([:len [find where list=$AddressList and address=108.159.102.97]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.102.97 }
+:if ([:len [find where list=$AddressList and address=108.159.120.13]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.120.13 }
+:if ([:len [find where list=$AddressList and address=108.159.120.39]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.120.39 }
+:if ([:len [find where list=$AddressList and address=108.159.120.41]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.120.41 }
+:if ([:len [find where list=$AddressList and address=108.159.120.47]] = 0) do={ add list=$AddressList comment=strava.com address=108.159.120.47 }
+:if ([:len [find where list=$AddressList and address=13.217.192.112]] = 0) do={ add list=$AddressList comment=strava.com address=13.217.192.112 }
+:if ([:len [find where list=$AddressList and address=13.218.6.48]] = 0) do={ add list=$AddressList comment=strava.com address=13.218.6.48 }
+:if ([:len [find where list=$AddressList and address=13.219.155.44]] = 0) do={ add list=$AddressList comment=strava.com address=13.219.155.44 }
+:if ([:len [find where list=$AddressList and address=13.222.81.255]] = 0) do={ add list=$AddressList comment=strava.com address=13.222.81.255 }
+:if ([:len [find where list=$AddressList and address=13.223.203.89]] = 0) do={ add list=$AddressList comment=strava.com address=13.223.203.89 }
+:if ([:len [find where list=$AddressList and address=13.224.103.29]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.103.29 }
+:if ([:len [find where list=$AddressList and address=13.224.103.53]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.103.53 }
+:if ([:len [find where list=$AddressList and address=13.224.103.62]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.103.62 }
+:if ([:len [find where list=$AddressList and address=13.224.103.63]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.103.63 }
+:if ([:len [find where list=$AddressList and address=13.224.106.105]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.105 }
+:if ([:len [find where list=$AddressList and address=13.224.106.112]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.112 }
+:if ([:len [find where list=$AddressList and address=13.224.106.121]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.121 }
+:if ([:len [find where list=$AddressList and address=13.224.106.14]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.14 }
+:if ([:len [find where list=$AddressList and address=13.224.106.15]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.15 }
+:if ([:len [find where list=$AddressList and address=13.224.106.25]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.25 }
+:if ([:len [find where list=$AddressList and address=13.224.106.4]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.4 }
+:if ([:len [find where list=$AddressList and address=13.224.106.43]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.43 }
+:if ([:len [find where list=$AddressList and address=13.224.106.48]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.48 }
+:if ([:len [find where list=$AddressList and address=13.224.106.76]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.76 }
+:if ([:len [find where list=$AddressList and address=13.224.106.9]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.106.9 }
+:if ([:len [find where list=$AddressList and address=13.224.14.25]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.14.25 }
+:if ([:len [find where list=$AddressList and address=13.224.14.4]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.14.4 }
+:if ([:len [find where list=$AddressList and address=13.224.14.53]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.14.53 }
+:if ([:len [find where list=$AddressList and address=13.224.14.87]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.14.87 }
+:if ([:len [find where list=$AddressList and address=13.224.185.101]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.101 }
+:if ([:len [find where list=$AddressList and address=13.224.185.104]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.104 }
+:if ([:len [find where list=$AddressList and address=13.224.185.113]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.113 }
+:if ([:len [find where list=$AddressList and address=13.224.185.115]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.115 }
+:if ([:len [find where list=$AddressList and address=13.224.185.13]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.13 }
+:if ([:len [find where list=$AddressList and address=13.224.185.34]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.34 }
+:if ([:len [find where list=$AddressList and address=13.224.185.36]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.36 }
+:if ([:len [find where list=$AddressList and address=13.224.185.43]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.43 }
+:if ([:len [find where list=$AddressList and address=13.224.185.61]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.61 }
+:if ([:len [find where list=$AddressList and address=13.224.185.64]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.64 }
+:if ([:len [find where list=$AddressList and address=13.224.185.65]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.65 }
+:if ([:len [find where list=$AddressList and address=13.224.185.71]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.71 }
+:if ([:len [find where list=$AddressList and address=13.224.185.83]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.83 }
+:if ([:len [find where list=$AddressList and address=13.224.185.85]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.85 }
+:if ([:len [find where list=$AddressList and address=13.224.185.98]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.185.98 }
+:if ([:len [find where list=$AddressList and address=13.224.186.102]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.102 }
+:if ([:len [find where list=$AddressList and address=13.224.186.108]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.108 }
+:if ([:len [find where list=$AddressList and address=13.224.186.11]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.11 }
+:if ([:len [find where list=$AddressList and address=13.224.186.113]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.113 }
+:if ([:len [find where list=$AddressList and address=13.224.186.118]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.118 }
+:if ([:len [find where list=$AddressList and address=13.224.186.123]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.123 }
+:if ([:len [find where list=$AddressList and address=13.224.186.124]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.124 }
+:if ([:len [find where list=$AddressList and address=13.224.186.129]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.129 }
+:if ([:len [find where list=$AddressList and address=13.224.186.16]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.16 }
+:if ([:len [find where list=$AddressList and address=13.224.186.18]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.18 }
+:if ([:len [find where list=$AddressList and address=13.224.186.22]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.22 }
+:if ([:len [find where list=$AddressList and address=13.224.186.27]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.27 }
+:if ([:len [find where list=$AddressList and address=13.224.186.44]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.44 }
+:if ([:len [find where list=$AddressList and address=13.224.186.53]] = 0) do={ add list=$AddressList comment=strava.com address=13.224.186.53 }

@@ -1,20 +1,20 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=AS29457 address=168.222.208.0/23} on-error {}
-:do {add list=$AddressList comment=AS29457 address=168.222.212.0/22} on-error {}
-:do {add list=$AddressList comment=AS29457 address=176.106.114.0/23} on-error {}
-:do {add list=$AddressList comment=AS29457 address=176.106.117.0/24} on-error {}
-:do {add list=$AddressList comment=AS29457 address=185.28.32.0/22} on-error {}
-:do {add list=$AddressList comment=AS29457 address=195.167.240.0/21} on-error {}
-:do {add list=$AddressList comment=AS29457 address=195.167.248.0/22} on-error {}
-:do {add list=$AddressList comment=AS29457 address=195.167.252.0/24} on-error {}
-:do {add list=$AddressList comment=AS29457 address=45.144.236.0/23} on-error {}
-:do {add list=$AddressList comment=AS29457 address=46.18.80.0/23} on-error {}
-:do {add list=$AddressList comment=AS29457 address=46.18.82.0/24} on-error {}
-:do {add list=$AddressList comment=AS29457 address=46.18.85.0/24} on-error {}
-:do {add list=$AddressList comment=AS29457 address=46.18.86.0/23} on-error {}
-:do {add list=$AddressList comment=AS29457 address=82.150.104.0/22} on-error {}
-:do {add list=$AddressList comment=AS29457 address=82.150.120.0/24} on-error {}
-:do {add list=$AddressList comment=AS29457 address=82.150.123.0/24} on-error {}
-:do {add list=$AddressList comment=AS29457 address=82.150.127.0/24} on-error {}
-:do {add list=$AddressList comment=AS29457 address=82.150.96.0/21} on-error {}
+:if ([:len [find where list=$AddressList and address=168.222.208.0/23]] = 0) do={ add list=$AddressList comment=AS29457 address=168.222.208.0/23 }
+:if ([:len [find where list=$AddressList and address=168.222.212.0/22]] = 0) do={ add list=$AddressList comment=AS29457 address=168.222.212.0/22 }
+:if ([:len [find where list=$AddressList and address=176.106.114.0/23]] = 0) do={ add list=$AddressList comment=AS29457 address=176.106.114.0/23 }
+:if ([:len [find where list=$AddressList and address=176.106.117.0/24]] = 0) do={ add list=$AddressList comment=AS29457 address=176.106.117.0/24 }
+:if ([:len [find where list=$AddressList and address=185.28.32.0/22]] = 0) do={ add list=$AddressList comment=AS29457 address=185.28.32.0/22 }
+:if ([:len [find where list=$AddressList and address=195.167.240.0/21]] = 0) do={ add list=$AddressList comment=AS29457 address=195.167.240.0/21 }
+:if ([:len [find where list=$AddressList and address=195.167.248.0/22]] = 0) do={ add list=$AddressList comment=AS29457 address=195.167.248.0/22 }
+:if ([:len [find where list=$AddressList and address=195.167.252.0/24]] = 0) do={ add list=$AddressList comment=AS29457 address=195.167.252.0/24 }
+:if ([:len [find where list=$AddressList and address=45.144.236.0/23]] = 0) do={ add list=$AddressList comment=AS29457 address=45.144.236.0/23 }
+:if ([:len [find where list=$AddressList and address=46.18.80.0/23]] = 0) do={ add list=$AddressList comment=AS29457 address=46.18.80.0/23 }
+:if ([:len [find where list=$AddressList and address=46.18.82.0/24]] = 0) do={ add list=$AddressList comment=AS29457 address=46.18.82.0/24 }
+:if ([:len [find where list=$AddressList and address=46.18.85.0/24]] = 0) do={ add list=$AddressList comment=AS29457 address=46.18.85.0/24 }
+:if ([:len [find where list=$AddressList and address=46.18.86.0/23]] = 0) do={ add list=$AddressList comment=AS29457 address=46.18.86.0/23 }
+:if ([:len [find where list=$AddressList and address=82.150.104.0/22]] = 0) do={ add list=$AddressList comment=AS29457 address=82.150.104.0/22 }
+:if ([:len [find where list=$AddressList and address=82.150.120.0/24]] = 0) do={ add list=$AddressList comment=AS29457 address=82.150.120.0/24 }
+:if ([:len [find where list=$AddressList and address=82.150.123.0/24]] = 0) do={ add list=$AddressList comment=AS29457 address=82.150.123.0/24 }
+:if ([:len [find where list=$AddressList and address=82.150.127.0/24]] = 0) do={ add list=$AddressList comment=AS29457 address=82.150.127.0/24 }
+:if ([:len [find where list=$AddressList and address=82.150.96.0/21]] = 0) do={ add list=$AddressList comment=AS29457 address=82.150.96.0/21 }

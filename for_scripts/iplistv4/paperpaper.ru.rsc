@@ -1,39 +1,43 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=paperpaper.ru address=104.21.10.87} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=104.26.2.110} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=104.26.3.110} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=172.67.162.191} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=172.67.75.189} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=185.215.4.19} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=188.114.96.12} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=188.114.96.3} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=188.114.96.4} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=188.114.97.12} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=188.114.97.3} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=188.114.97.4} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.107} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.108} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.152} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.173} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.179} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.188} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.29} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.35} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.40} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.42} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.45} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.48} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.51} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.7} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.84} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.89} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=194.67.71.97} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=35.190.45.78} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=5.45.124.171} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=8.47.69.0} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=8.47.69.8} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=8.47.69.9} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=8.6.112.0} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=8.6.112.8} on-error {}
-:do {add list=$AddressList comment=paperpaper.ru address=8.6.112.9} on-error {}
+:if ([:len [find where list=$AddressList and address=104.21.10.87]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=104.21.10.87 }
+:if ([:len [find where list=$AddressList and address=104.26.2.110]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=104.26.2.110 }
+:if ([:len [find where list=$AddressList and address=104.26.3.110]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=104.26.3.110 }
+:if ([:len [find where list=$AddressList and address=172.67.162.191]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=172.67.162.191 }
+:if ([:len [find where list=$AddressList and address=172.67.75.189]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=172.67.75.189 }
+:if ([:len [find where list=$AddressList and address=185.215.4.19]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=185.215.4.19 }
+:if ([:len [find where list=$AddressList and address=188.114.96.10]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.10 }
+:if ([:len [find where list=$AddressList and address=188.114.96.12]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.12 }
+:if ([:len [find where list=$AddressList and address=188.114.96.2]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.2 }
+:if ([:len [find where list=$AddressList and address=188.114.96.3]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.3 }
+:if ([:len [find where list=$AddressList and address=188.114.96.4]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.4 }
+:if ([:len [find where list=$AddressList and address=188.114.97.10]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.10 }
+:if ([:len [find where list=$AddressList and address=188.114.97.12]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.12 }
+:if ([:len [find where list=$AddressList and address=188.114.97.2]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.2 }
+:if ([:len [find where list=$AddressList and address=188.114.97.3]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.3 }
+:if ([:len [find where list=$AddressList and address=188.114.97.4]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.4 }
+:if ([:len [find where list=$AddressList and address=194.67.71.107]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.107 }
+:if ([:len [find where list=$AddressList and address=194.67.71.108]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.108 }
+:if ([:len [find where list=$AddressList and address=194.67.71.152]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.152 }
+:if ([:len [find where list=$AddressList and address=194.67.71.173]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.173 }
+:if ([:len [find where list=$AddressList and address=194.67.71.179]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.179 }
+:if ([:len [find where list=$AddressList and address=194.67.71.188]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.188 }
+:if ([:len [find where list=$AddressList and address=194.67.71.29]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.29 }
+:if ([:len [find where list=$AddressList and address=194.67.71.35]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.35 }
+:if ([:len [find where list=$AddressList and address=194.67.71.40]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.40 }
+:if ([:len [find where list=$AddressList and address=194.67.71.42]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.42 }
+:if ([:len [find where list=$AddressList and address=194.67.71.45]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.45 }
+:if ([:len [find where list=$AddressList and address=194.67.71.48]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.48 }
+:if ([:len [find where list=$AddressList and address=194.67.71.51]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.51 }
+:if ([:len [find where list=$AddressList and address=194.67.71.7]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.7 }
+:if ([:len [find where list=$AddressList and address=194.67.71.84]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.84 }
+:if ([:len [find where list=$AddressList and address=194.67.71.89]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.89 }
+:if ([:len [find where list=$AddressList and address=194.67.71.97]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.97 }
+:if ([:len [find where list=$AddressList and address=35.190.45.78]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=35.190.45.78 }
+:if ([:len [find where list=$AddressList and address=5.45.124.171]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=5.45.124.171 }
+:if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.8]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=8.47.69.8 }
+:if ([:len [find where list=$AddressList and address=8.47.69.9]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=8.47.69.9 }
+:if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.8]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=8.6.112.8 }
+:if ([:len [find where list=$AddressList and address=8.6.112.9]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=8.6.112.9 }

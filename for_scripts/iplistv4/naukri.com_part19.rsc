@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=naukri.com address=52.98.228.248} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.228.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.228.56} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.228.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.229.104} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.229.120} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.229.136} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.229.152} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.229.168} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.229.184} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.229.216} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.229.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.229.88} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.230.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.230.56} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.230.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.231.248} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.231.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.232.24} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.232.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.232.56} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.232.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.234.232} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.235.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.236.120} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.236.152} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.237.152} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.237.168} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.239.104} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.239.120} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.239.136} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.239.152} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.239.168} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.239.184} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.239.200} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.104} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.120} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.136} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.152} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.24} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.248} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.56} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.72} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.240.88} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.241.168} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.241.184} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.241.200} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.241.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.242.216} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.242.232} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.242.248} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.243.152} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.243.24} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.243.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.243.56} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.243.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.244.104} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.246.56} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.248.136} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.248.200} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.248.216} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.250.136} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.250.168} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.250.184} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.252.104} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.252.120} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.252.136} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.252.232} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.252.248} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.252.72} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.252.88} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.253.104} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.253.152} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.253.168} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.253.184} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.253.24} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.253.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.253.56} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.253.72} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.253.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.253.88} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.32.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.47.136} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.61.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=52.98.95.216} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.129.156} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.153.49} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.156.178} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.157.102} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.175.113} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.204.22} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.211.96} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.220.100} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.230.27} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.237.137} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.151.241.252} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.103.215} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.109.65} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.113.160} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.113.88} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.115.53} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.116.143} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.12.149} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.135.65} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.142.135} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.156.196} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.168.195} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.171.223} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.189.102} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.190.240} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.194.221} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.194.243} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.197.81} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.2.22} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.202.57} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.222.124} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.239.99} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.39.38} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.47.164} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.59.86} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.169.65.61} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.103.246} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.104.9} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.111.88} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.115.187} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.116.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.12.90} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.122.206} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.138.177} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.140.77} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.142.72} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.152.127} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.156.236} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.167.238} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.168.132} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.174.142} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.175.197} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.179.60} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.180.25} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.184.101} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.225.26} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.240.78} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.242.105} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.243.149} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.244.199} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.33.116} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.59.225} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.6.162} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.72.140} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.92.141} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.179.93.236} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.10} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.110} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.119} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.123} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.126} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.30} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.39} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.41} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.47} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.57} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.6} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.60} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.67} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.78} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.81} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.82} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.100.85} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.137.61} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.137.83} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.137.86} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.137.91} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.221.112} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.221.12} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.221.31} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.221.46} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.51.106} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.51.115} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.51.70} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.51.8} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.95.117} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.95.128} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.95.3} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.95.58} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.97.4} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.97.65} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.97.78} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.192.97.9} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.112.121} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.112.123} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.112.13} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.112.78} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.101} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.115} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.119} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.121} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.124} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.125} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.19} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.23} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.25} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.27} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.31} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.32} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.33} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.4} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.46} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.52} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.56} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.60} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.65} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.7} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.73} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.81} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.84} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.97} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.114.99} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.106} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.107} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.114} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.118} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.129} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.24} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.37} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.47} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.5} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.61} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.74} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.172.90} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.183.22} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.183.28} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.183.32} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.183.41} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.183.49} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.183.51} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.183.55} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.183.78} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.206.11} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.206.17} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.206.54} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.206.70} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.12} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.122} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.15} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.19} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.48} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.55} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.79} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.83} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.92} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.228.98} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.70.64} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.70.65} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.70.68} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.230.70.76} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.168.127} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.168.32} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.168.65} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.168.81} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.109} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.120} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.129} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.29} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.35} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.41} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.43} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.49} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.5} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.62} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.65} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.74} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.79} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.82} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.93} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.239.195.94} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.100} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.113} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.12} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.124} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.27} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.34} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.40} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.45} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.46} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.51} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.240.174.60} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.0.221} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.10.2} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.103.25} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.114.135} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.127.134} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.127.222} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.142.64} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.144.176} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.154.63} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.156.53} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.158.237} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.18.137} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.18.7} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.183.118} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.192.26} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.200.171} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.207.254} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.219.102} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.224.242} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.234.79} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.236.242} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.236.75} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.239.155} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.24.78} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.30.218} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.33.103} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.37.244} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.5.244} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.63.123} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.84.250} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.94.35} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.251.99.37} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.105.17} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.11.59} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.118.36} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.129.122} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.133.94} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.135.131} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.137.143} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.141.240} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.148.154} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.173.160} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.203.112} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.207.211} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.210.154} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.224.20} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.226.253} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.234.242} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.235.115} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.236.101} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.239.125} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.242.165} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.41.31} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.45.140} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.50.121} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.61.22} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.86.255} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.254.90.247} on-error {}
-:do {add list=$AddressList comment=naukri.com address=54.255.101.183} on-error {}
+:if ([:len [find where list=$AddressList and address=23.200.13.148]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.13.148 }
+:if ([:len [find where list=$AddressList and address=23.200.147.134]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.147.134 }
+:if ([:len [find where list=$AddressList and address=23.200.147.156]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.147.156 }
+:if ([:len [find where list=$AddressList and address=23.200.147.165]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.147.165 }
+:if ([:len [find where list=$AddressList and address=23.200.160.5]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.160.5 }
+:if ([:len [find where list=$AddressList and address=23.200.188.6]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.188.6 }
+:if ([:len [find where list=$AddressList and address=23.200.189.73]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.189.73 }
+:if ([:len [find where list=$AddressList and address=23.200.209.83]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.209.83 }
+:if ([:len [find where list=$AddressList and address=23.200.212.7]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.212.7 }
+:if ([:len [find where list=$AddressList and address=23.200.214.27]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.214.27 }
+:if ([:len [find where list=$AddressList and address=23.200.83.39]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.83.39 }
+:if ([:len [find where list=$AddressList and address=23.200.83.53]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.83.53 }
+:if ([:len [find where list=$AddressList and address=23.200.87.217]] = 0) do={ add list=$AddressList comment=naukri.com address=23.200.87.217 }
+:if ([:len [find where list=$AddressList and address=23.201.144.7]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.144.7 }
+:if ([:len [find where list=$AddressList and address=23.201.145.149]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.145.149 }
+:if ([:len [find where list=$AddressList and address=23.201.214.140]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.214.140 }
+:if ([:len [find where list=$AddressList and address=23.201.43.101]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.43.101 }
+:if ([:len [find where list=$AddressList and address=23.201.43.204]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.43.204 }
+:if ([:len [find where list=$AddressList and address=23.201.43.208]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.43.208 }
+:if ([:len [find where list=$AddressList and address=23.201.43.210]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.43.210 }
+:if ([:len [find where list=$AddressList and address=23.201.43.211]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.43.211 }
+:if ([:len [find where list=$AddressList and address=23.201.43.238]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.43.238 }
+:if ([:len [find where list=$AddressList and address=23.201.43.42]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.43.42 }
+:if ([:len [find where list=$AddressList and address=23.201.43.48]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.43.48 }
+:if ([:len [find where list=$AddressList and address=23.201.43.69]] = 0) do={ add list=$AddressList comment=naukri.com address=23.201.43.69 }
+:if ([:len [find where list=$AddressList and address=23.202.152.7]] = 0) do={ add list=$AddressList comment=naukri.com address=23.202.152.7 }
+:if ([:len [find where list=$AddressList and address=23.202.153.115]] = 0) do={ add list=$AddressList comment=naukri.com address=23.202.153.115 }
+:if ([:len [find where list=$AddressList and address=23.202.185.78]] = 0) do={ add list=$AddressList comment=naukri.com address=23.202.185.78 }
+:if ([:len [find where list=$AddressList and address=23.202.33.178]] = 0) do={ add list=$AddressList comment=naukri.com address=23.202.33.178 }
+:if ([:len [find where list=$AddressList and address=23.202.33.185]] = 0) do={ add list=$AddressList comment=naukri.com address=23.202.33.185 }
+:if ([:len [find where list=$AddressList and address=23.202.56.5]] = 0) do={ add list=$AddressList comment=naukri.com address=23.202.56.5 }
+:if ([:len [find where list=$AddressList and address=23.203.124.5]] = 0) do={ add list=$AddressList comment=naukri.com address=23.203.124.5 }
+:if ([:len [find where list=$AddressList and address=23.203.126.47]] = 0) do={ add list=$AddressList comment=naukri.com address=23.203.126.47 }
+:if ([:len [find where list=$AddressList and address=23.203.162.69]] = 0) do={ add list=$AddressList comment=naukri.com address=23.203.162.69 }
+:if ([:len [find where list=$AddressList and address=23.203.61.197]] = 0) do={ add list=$AddressList comment=naukri.com address=23.203.61.197 }
+:if ([:len [find where list=$AddressList and address=23.203.61.206]] = 0) do={ add list=$AddressList comment=naukri.com address=23.203.61.206 }
+:if ([:len [find where list=$AddressList and address=23.203.61.211]] = 0) do={ add list=$AddressList comment=naukri.com address=23.203.61.211 }
+:if ([:len [find where list=$AddressList and address=23.204.115.103]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.115.103 }
+:if ([:len [find where list=$AddressList and address=23.204.115.107]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.115.107 }
+:if ([:len [find where list=$AddressList and address=23.204.115.112]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.115.112 }
+:if ([:len [find where list=$AddressList and address=23.204.115.168]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.115.168 }
+:if ([:len [find where list=$AddressList and address=23.204.115.183]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.115.183 }
+:if ([:len [find where list=$AddressList and address=23.204.115.201]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.115.201 }
+:if ([:len [find where list=$AddressList and address=23.204.115.211]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.115.211 }
+:if ([:len [find where list=$AddressList and address=23.204.115.214]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.115.214 }
+:if ([:len [find where list=$AddressList and address=23.204.115.70]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.115.70 }
+:if ([:len [find where list=$AddressList and address=23.204.115.78]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.115.78 }
+:if ([:len [find where list=$AddressList and address=23.204.129.79]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.129.79 }
+:if ([:len [find where list=$AddressList and address=23.204.152.155]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.152.155 }
+:if ([:len [find where list=$AddressList and address=23.204.152.166]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.152.166 }
+:if ([:len [find where list=$AddressList and address=23.204.152.197]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.152.197 }
+:if ([:len [find where list=$AddressList and address=23.204.152.214]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.152.214 }
+:if ([:len [find where list=$AddressList and address=23.204.248.54]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.248.54 }
+:if ([:len [find where list=$AddressList and address=23.204.250.60]] = 0) do={ add list=$AddressList comment=naukri.com address=23.204.250.60 }
+:if ([:len [find where list=$AddressList and address=23.205.104.20]] = 0) do={ add list=$AddressList comment=naukri.com address=23.205.104.20 }
+:if ([:len [find where list=$AddressList and address=23.205.104.4]] = 0) do={ add list=$AddressList comment=naukri.com address=23.205.104.4 }
+:if ([:len [find where list=$AddressList and address=23.205.104.59]] = 0) do={ add list=$AddressList comment=naukri.com address=23.205.104.59 }
+:if ([:len [find where list=$AddressList and address=23.205.162.73]] = 0) do={ add list=$AddressList comment=naukri.com address=23.205.162.73 }
+:if ([:len [find where list=$AddressList and address=23.205.165.78]] = 0) do={ add list=$AddressList comment=naukri.com address=23.205.165.78 }
+:if ([:len [find where list=$AddressList and address=23.205.165.79]] = 0) do={ add list=$AddressList comment=naukri.com address=23.205.165.79 }
+:if ([:len [find where list=$AddressList and address=23.205.46.154]] = 0) do={ add list=$AddressList comment=naukri.com address=23.205.46.154 }
+:if ([:len [find where list=$AddressList and address=23.205.46.176]] = 0) do={ add list=$AddressList comment=naukri.com address=23.205.46.176 }
+:if ([:len [find where list=$AddressList and address=23.205.48.8]] = 0) do={ add list=$AddressList comment=naukri.com address=23.205.48.8 }
+:if ([:len [find where list=$AddressList and address=23.205.50.48]] = 0) do={ add list=$AddressList comment=naukri.com address=23.205.50.48 }
+:if ([:len [find where list=$AddressList and address=23.206.113.65]] = 0) do={ add list=$AddressList comment=naukri.com address=23.206.113.65 }
+:if ([:len [find where list=$AddressList and address=23.206.177.156]] = 0) do={ add list=$AddressList comment=naukri.com address=23.206.177.156 }
+:if ([:len [find where list=$AddressList and address=23.206.210.48]] = 0) do={ add list=$AddressList comment=naukri.com address=23.206.210.48 }
+:if ([:len [find where list=$AddressList and address=23.206.251.107]] = 0) do={ add list=$AddressList comment=naukri.com address=23.206.251.107 }
+:if ([:len [find where list=$AddressList and address=23.206.251.90]] = 0) do={ add list=$AddressList comment=naukri.com address=23.206.251.90 }
+:if ([:len [find where list=$AddressList and address=23.206.8.5]] = 0) do={ add list=$AddressList comment=naukri.com address=23.206.8.5 }
+:if ([:len [find where list=$AddressList and address=23.207.202.47]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.47 }
+:if ([:len [find where list=$AddressList and address=23.207.202.51]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.51 }
+:if ([:len [find where list=$AddressList and address=23.207.202.54]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.54 }
+:if ([:len [find where list=$AddressList and address=23.207.202.55]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.55 }
+:if ([:len [find where list=$AddressList and address=23.207.202.58]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.58 }
+:if ([:len [find where list=$AddressList and address=23.207.202.59]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.59 }
+:if ([:len [find where list=$AddressList and address=23.207.202.61]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.61 }
+:if ([:len [find where list=$AddressList and address=23.207.202.62]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.62 }
+:if ([:len [find where list=$AddressList and address=23.207.202.63]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.63 }
+:if ([:len [find where list=$AddressList and address=23.207.202.64]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.64 }
+:if ([:len [find where list=$AddressList and address=23.207.202.67]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.67 }
+:if ([:len [find where list=$AddressList and address=23.207.202.77]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.77 }
+:if ([:len [find where list=$AddressList and address=23.207.202.80]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.80 }
+:if ([:len [find where list=$AddressList and address=23.207.202.83]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.202.83 }
+:if ([:len [find where list=$AddressList and address=23.207.210.68]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.210.68 }
+:if ([:len [find where list=$AddressList and address=23.207.210.69]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.210.69 }
+:if ([:len [find where list=$AddressList and address=23.207.210.71]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.210.71 }
+:if ([:len [find where list=$AddressList and address=23.207.210.81]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.210.81 }
+:if ([:len [find where list=$AddressList and address=23.207.64.7]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.64.7 }
+:if ([:len [find where list=$AddressList and address=23.207.65.141]] = 0) do={ add list=$AddressList comment=naukri.com address=23.207.65.141 }
+:if ([:len [find where list=$AddressList and address=23.208.105.61]] = 0) do={ add list=$AddressList comment=naukri.com address=23.208.105.61 }
+:if ([:len [find where list=$AddressList and address=23.208.130.119]] = 0) do={ add list=$AddressList comment=naukri.com address=23.208.130.119 }
+:if ([:len [find where list=$AddressList and address=23.208.150.3]] = 0) do={ add list=$AddressList comment=naukri.com address=23.208.150.3 }
+:if ([:len [find where list=$AddressList and address=23.208.169.71]] = 0) do={ add list=$AddressList comment=naukri.com address=23.208.169.71 }
+:if ([:len [find where list=$AddressList and address=23.208.31.157]] = 0) do={ add list=$AddressList comment=naukri.com address=23.208.31.157 }
+:if ([:len [find where list=$AddressList and address=23.208.31.191]] = 0) do={ add list=$AddressList comment=naukri.com address=23.208.31.191 }
+:if ([:len [find where list=$AddressList and address=23.209.125.159]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.125.159 }
+:if ([:len [find where list=$AddressList and address=23.209.125.161]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.125.161 }
+:if ([:len [find where list=$AddressList and address=23.209.125.17]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.125.17 }
+:if ([:len [find where list=$AddressList and address=23.209.125.31]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.125.31 }
+:if ([:len [find where list=$AddressList and address=23.209.125.9]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.125.9 }
+:if ([:len [find where list=$AddressList and address=23.209.204.7]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.204.7 }
+:if ([:len [find where list=$AddressList and address=23.209.205.155]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.205.155 }
+:if ([:len [find where list=$AddressList and address=23.209.208.5]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.208.5 }
+:if ([:len [find where list=$AddressList and address=23.209.209.164]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.209.164 }
+:if ([:len [find where list=$AddressList and address=23.209.212.7]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.212.7 }
+:if ([:len [find where list=$AddressList and address=23.209.46.29]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.46.29 }
+:if ([:len [find where list=$AddressList and address=23.209.46.5]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.46.5 }
+:if ([:len [find where list=$AddressList and address=23.209.46.70]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.46.70 }
+:if ([:len [find where list=$AddressList and address=23.209.46.86]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.46.86 }
+:if ([:len [find where list=$AddressList and address=23.209.57.119]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.57.119 }
+:if ([:len [find where list=$AddressList and address=23.209.76.6]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.76.6 }
+:if ([:len [find where list=$AddressList and address=23.209.77.251]] = 0) do={ add list=$AddressList comment=naukri.com address=23.209.77.251 }
+:if ([:len [find where list=$AddressList and address=23.210.16.7]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.16.7 }
+:if ([:len [find where list=$AddressList and address=23.210.17.160]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.17.160 }
+:if ([:len [find where list=$AddressList and address=23.210.2.128]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.2.128 }
+:if ([:len [find where list=$AddressList and address=23.210.216.73]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.216.73 }
+:if ([:len [find where list=$AddressList and address=23.210.216.95]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.216.95 }
+:if ([:len [find where list=$AddressList and address=23.210.240.7]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.240.7 }
+:if ([:len [find where list=$AddressList and address=23.210.242.114]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.242.114 }
+:if ([:len [find where list=$AddressList and address=23.210.249.137]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.249.137 }
+:if ([:len [find where list=$AddressList and address=23.210.249.96]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.249.96 }
+:if ([:len [find where list=$AddressList and address=23.210.250.59]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.250.59 }
+:if ([:len [find where list=$AddressList and address=23.210.250.88]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.250.88 }
+:if ([:len [find where list=$AddressList and address=23.210.47.236]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.47.236 }
+:if ([:len [find where list=$AddressList and address=23.210.92.104]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.92.104 }
+:if ([:len [find where list=$AddressList and address=23.210.92.106]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.92.106 }
+:if ([:len [find where list=$AddressList and address=23.210.92.116]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.92.116 }
+:if ([:len [find where list=$AddressList and address=23.210.92.133]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.92.133 }
+:if ([:len [find where list=$AddressList and address=23.210.92.134]] = 0) do={ add list=$AddressList comment=naukri.com address=23.210.92.134 }
+:if ([:len [find where list=$AddressList and address=23.211.16.14]] = 0) do={ add list=$AddressList comment=naukri.com address=23.211.16.14 }
+:if ([:len [find where list=$AddressList and address=23.211.173.15]] = 0) do={ add list=$AddressList comment=naukri.com address=23.211.173.15 }
+:if ([:len [find where list=$AddressList and address=23.211.188.7]] = 0) do={ add list=$AddressList comment=naukri.com address=23.211.188.7 }
+:if ([:len [find where list=$AddressList and address=23.211.190.12]] = 0) do={ add list=$AddressList comment=naukri.com address=23.211.190.12 }
+:if ([:len [find where list=$AddressList and address=23.211.221.156]] = 0) do={ add list=$AddressList comment=naukri.com address=23.211.221.156 }
+:if ([:len [find where list=$AddressList and address=23.211.225.156]] = 0) do={ add list=$AddressList comment=naukri.com address=23.211.225.156 }
+:if ([:len [find where list=$AddressList and address=23.211.4.5]] = 0) do={ add list=$AddressList comment=naukri.com address=23.211.4.5 }
+:if ([:len [find where list=$AddressList and address=23.211.5.139]] = 0) do={ add list=$AddressList comment=naukri.com address=23.211.5.139 }
+:if ([:len [find where list=$AddressList and address=23.211.64.172]] = 0) do={ add list=$AddressList comment=naukri.com address=23.211.64.172 }
+:if ([:len [find where list=$AddressList and address=23.212.192.5]] = 0) do={ add list=$AddressList comment=naukri.com address=23.212.192.5 }
+:if ([:len [find where list=$AddressList and address=23.212.193.70]] = 0) do={ add list=$AddressList comment=naukri.com address=23.212.193.70 }
+:if ([:len [find where list=$AddressList and address=23.212.224.96]] = 0) do={ add list=$AddressList comment=naukri.com address=23.212.224.96 }
+:if ([:len [find where list=$AddressList and address=23.212.225.244]] = 0) do={ add list=$AddressList comment=naukri.com address=23.212.225.244 }
+:if ([:len [find where list=$AddressList and address=23.212.52.5]] = 0) do={ add list=$AddressList comment=naukri.com address=23.212.52.5 }
+:if ([:len [find where list=$AddressList and address=23.212.62.73]] = 0) do={ add list=$AddressList comment=naukri.com address=23.212.62.73 }
+:if ([:len [find where list=$AddressList and address=23.212.62.78]] = 0) do={ add list=$AddressList comment=naukri.com address=23.212.62.78 }
+:if ([:len [find where list=$AddressList and address=23.212.62.79]] = 0) do={ add list=$AddressList comment=naukri.com address=23.212.62.79 }
+:if ([:len [find where list=$AddressList and address=23.213.161.130]] = 0) do={ add list=$AddressList comment=naukri.com address=23.213.161.130 }
+:if ([:len [find where list=$AddressList and address=23.213.161.144]] = 0) do={ add list=$AddressList comment=naukri.com address=23.213.161.144 }
+:if ([:len [find where list=$AddressList and address=23.213.161.149]] = 0) do={ add list=$AddressList comment=naukri.com address=23.213.161.149 }
+:if ([:len [find where list=$AddressList and address=23.213.161.150]] = 0) do={ add list=$AddressList comment=naukri.com address=23.213.161.150 }
+:if ([:len [find where list=$AddressList and address=23.213.161.20]] = 0) do={ add list=$AddressList comment=naukri.com address=23.213.161.20 }
+:if ([:len [find where list=$AddressList and address=23.213.161.26]] = 0) do={ add list=$AddressList comment=naukri.com address=23.213.161.26 }
+:if ([:len [find where list=$AddressList and address=23.213.166.46]] = 0) do={ add list=$AddressList comment=naukri.com address=23.213.166.46 }
+:if ([:len [find where list=$AddressList and address=23.213.40.197]] = 0) do={ add list=$AddressList comment=naukri.com address=23.213.40.197 }
+:if ([:len [find where list=$AddressList and address=23.213.40.200]] = 0) do={ add list=$AddressList comment=naukri.com address=23.213.40.200 }
+:if ([:len [find where list=$AddressList and address=23.214.116.18]] = 0) do={ add list=$AddressList comment=naukri.com address=23.214.116.18 }
+:if ([:len [find where list=$AddressList and address=23.214.209.145]] = 0) do={ add list=$AddressList comment=naukri.com address=23.214.209.145 }
+:if ([:len [find where list=$AddressList and address=23.214.95.196]] = 0) do={ add list=$AddressList comment=naukri.com address=23.214.95.196 }
+:if ([:len [find where list=$AddressList and address=23.214.95.205]] = 0) do={ add list=$AddressList comment=naukri.com address=23.214.95.205 }
+:if ([:len [find where list=$AddressList and address=23.215.0.11]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.0.11 }
+:if ([:len [find where list=$AddressList and address=23.215.0.15]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.0.15 }
+:if ([:len [find where list=$AddressList and address=23.215.0.164]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.0.164 }
+:if ([:len [find where list=$AddressList and address=23.215.0.165]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.0.165 }
+:if ([:len [find where list=$AddressList and address=23.215.0.166]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.0.166 }
+:if ([:len [find where list=$AddressList and address=23.215.0.169]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.0.169 }
+:if ([:len [find where list=$AddressList and address=23.215.0.175]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.0.175 }
+:if ([:len [find where list=$AddressList and address=23.215.0.234]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.0.234 }
+:if ([:len [find where list=$AddressList and address=23.215.0.236]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.0.236 }
+:if ([:len [find where list=$AddressList and address=23.215.0.237]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.0.237 }
+:if ([:len [find where list=$AddressList and address=23.215.120.5]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.120.5 }
+:if ([:len [find where list=$AddressList and address=23.215.120.7]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.120.7 }
+:if ([:len [find where list=$AddressList and address=23.215.121.170]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.121.170 }
+:if ([:len [find where list=$AddressList and address=23.215.122.47]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.122.47 }
+:if ([:len [find where list=$AddressList and address=23.215.177.11]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.177.11 }
+:if ([:len [find where list=$AddressList and address=23.215.177.4]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.177.4 }
+:if ([:len [find where list=$AddressList and address=23.215.2.100]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.2.100 }
+:if ([:len [find where list=$AddressList and address=23.215.2.108]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.2.108 }
+:if ([:len [find where list=$AddressList and address=23.215.2.111]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.2.111 }
+:if ([:len [find where list=$AddressList and address=23.215.2.112]] = 0) do={ add list=$AddressList comment=naukri.com address=23.215.2.112 }

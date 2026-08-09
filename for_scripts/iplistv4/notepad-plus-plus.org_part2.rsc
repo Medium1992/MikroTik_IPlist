@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.121} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.146} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.15} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.175} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.190} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.193} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.194} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.196} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.198} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.220} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.222} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.236} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.7} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.77} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.8} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.80} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.83} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.124.137.117} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.124.137.150} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.0} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.1} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.10} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.100} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.101} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.102} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.103} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.104} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.105} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.106} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.107} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.108} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.109} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.11} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.110} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.111} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.112} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.113} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.114} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.115} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.116} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.117} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.118} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.119} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.12} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.120} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.121} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.122} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.123} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.124} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.125} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.126} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.127} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.128} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.129} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.13} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.130} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.131} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.132} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.133} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.134} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.135} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.136} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.137} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.138} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.139} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.14} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.140} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.141} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.142} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.143} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.144} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.145} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.146} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.147} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.148} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.149} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.15} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.150} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.152} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.153} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.154} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.155} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.156} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.157} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.158} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.159} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.16} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.160} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.161} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.162} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.163} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.164} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.165} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.166} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.167} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.168} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.169} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.17} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.170} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.171} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.172} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.173} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.174} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.175} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.176} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.177} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.178} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.179} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.18} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.180} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.181} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.182} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.183} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.184} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.185} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.186} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.187} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.188} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.189} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.19} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.190} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.191} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.192} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.193} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.194} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.195} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.197} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.198} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.199} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.2} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.20} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.200} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.201} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.202} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.203} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.204} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.205} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.206} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.207} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.208} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.209} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.21} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.210} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.211} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.212} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.213} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.214} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.215} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.216} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.217} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.218} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.219} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.22} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.220} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.222} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.223} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.224} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.225} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.226} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.227} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.228} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.229} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.23} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.230} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.231} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.233} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.234} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.235} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.236} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.237} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.238} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.239} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.24} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.240} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.241} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.242} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.243} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.244} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.245} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.246} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.247} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.248} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.249} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.25} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.250} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.251} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.252} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.253} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.254} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.255} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.26} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.27} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.28} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.29} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.3} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.30} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.31} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.32} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.33} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.34} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.35} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.36} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.37} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.38} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.39} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.4} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.40} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.41} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.42} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.43} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.44} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.45} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.46} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.47} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.48} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.49} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.5} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.50} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.51} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.52} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.53} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.54} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.55} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.56} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.57} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.58} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.59} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.6} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.60} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.61} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.62} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.63} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.64} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.65} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.66} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.67} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.68} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.69} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.7} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.70} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.71} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.72} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.73} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.74} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.75} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.76} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.77} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.78} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.79} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.8} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.80} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.81} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.82} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.83} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.84} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.85} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.86} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.88} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.89} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.9} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.90} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.91} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.92} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.93} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.94} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.95} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.96} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.97} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.98} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.170.199.99} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.134} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.146} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.149} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.158} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.191} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.195} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.214} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.25} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.59} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.6} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.86} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.89} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=185.77.97.9} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.102} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.124} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.14} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.167} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.169} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.176} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.19} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.196} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.228} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.243} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.244} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.27} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.39} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.101.104.60} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.96.144.146} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.96.144.162} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.96.144.195} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.96.144.200} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.96.144.237} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.96.144.29} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=191.96.144.3} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.0} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.1} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.10} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.100} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.102} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.103} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.104} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.105} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.107} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.11} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.110} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.112} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.115} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.116} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.117} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.118} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.12} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.120} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.121} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.123} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.127} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.128} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.130} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.137} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.14} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.140} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.141} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.142} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.143} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.144} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.145} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.146} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.147} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.148} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.15} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.153} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.157} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.158} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.159} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.16} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.160} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.161} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.162} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.168} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.169} on-error {}
-:do {add list=$AddressList comment=notepad-plus-plus.org address=193.58.105.17} on-error {}
+:if ([:len [find where list=$AddressList and address=147.79.119.11]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.11 }
+:if ([:len [find where list=$AddressList and address=147.79.119.110]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.110 }
+:if ([:len [find where list=$AddressList and address=147.79.119.113]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.113 }
+:if ([:len [find where list=$AddressList and address=147.79.119.115]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.115 }
+:if ([:len [find where list=$AddressList and address=147.79.119.117]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.117 }
+:if ([:len [find where list=$AddressList and address=147.79.119.118]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.118 }
+:if ([:len [find where list=$AddressList and address=147.79.119.119]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.119 }
+:if ([:len [find where list=$AddressList and address=147.79.119.12]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.12 }
+:if ([:len [find where list=$AddressList and address=147.79.119.122]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.122 }
+:if ([:len [find where list=$AddressList and address=147.79.119.123]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.123 }
+:if ([:len [find where list=$AddressList and address=147.79.119.125]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.125 }
+:if ([:len [find where list=$AddressList and address=147.79.119.126]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.126 }
+:if ([:len [find where list=$AddressList and address=147.79.119.13]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.13 }
+:if ([:len [find where list=$AddressList and address=147.79.119.133]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.133 }
+:if ([:len [find where list=$AddressList and address=147.79.119.134]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.134 }
+:if ([:len [find where list=$AddressList and address=147.79.119.135]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.135 }
+:if ([:len [find where list=$AddressList and address=147.79.119.136]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.136 }
+:if ([:len [find where list=$AddressList and address=147.79.119.138]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.138 }
+:if ([:len [find where list=$AddressList and address=147.79.119.139]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.139 }
+:if ([:len [find where list=$AddressList and address=147.79.119.14]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.14 }
+:if ([:len [find where list=$AddressList and address=147.79.119.140]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.140 }
+:if ([:len [find where list=$AddressList and address=147.79.119.142]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.142 }
+:if ([:len [find where list=$AddressList and address=147.79.119.146]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.146 }
+:if ([:len [find where list=$AddressList and address=147.79.119.147]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.147 }
+:if ([:len [find where list=$AddressList and address=147.79.119.149]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.149 }
+:if ([:len [find where list=$AddressList and address=147.79.119.151]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.151 }
+:if ([:len [find where list=$AddressList and address=147.79.119.152]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.152 }
+:if ([:len [find where list=$AddressList and address=147.79.119.153]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.153 }
+:if ([:len [find where list=$AddressList and address=147.79.119.154]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.154 }
+:if ([:len [find where list=$AddressList and address=147.79.119.157]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.157 }
+:if ([:len [find where list=$AddressList and address=147.79.119.158]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.158 }
+:if ([:len [find where list=$AddressList and address=147.79.119.16]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.16 }
+:if ([:len [find where list=$AddressList and address=147.79.119.160]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.160 }
+:if ([:len [find where list=$AddressList and address=147.79.119.161]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.161 }
+:if ([:len [find where list=$AddressList and address=147.79.119.163]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.163 }
+:if ([:len [find where list=$AddressList and address=147.79.119.164]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.164 }
+:if ([:len [find where list=$AddressList and address=147.79.119.166]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.166 }
+:if ([:len [find where list=$AddressList and address=147.79.119.168]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.168 }
+:if ([:len [find where list=$AddressList and address=147.79.119.170]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.170 }
+:if ([:len [find where list=$AddressList and address=147.79.119.171]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.171 }
+:if ([:len [find where list=$AddressList and address=147.79.119.173]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.173 }
+:if ([:len [find where list=$AddressList and address=147.79.119.176]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.176 }
+:if ([:len [find where list=$AddressList and address=147.79.119.178]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.178 }
+:if ([:len [find where list=$AddressList and address=147.79.119.179]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.179 }
+:if ([:len [find where list=$AddressList and address=147.79.119.18]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.18 }
+:if ([:len [find where list=$AddressList and address=147.79.119.180]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.180 }
+:if ([:len [find where list=$AddressList and address=147.79.119.181]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.181 }
+:if ([:len [find where list=$AddressList and address=147.79.119.182]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.182 }
+:if ([:len [find where list=$AddressList and address=147.79.119.183]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.183 }
+:if ([:len [find where list=$AddressList and address=147.79.119.184]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.184 }
+:if ([:len [find where list=$AddressList and address=147.79.119.185]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.185 }
+:if ([:len [find where list=$AddressList and address=147.79.119.186]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.186 }
+:if ([:len [find where list=$AddressList and address=147.79.119.187]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.187 }
+:if ([:len [find where list=$AddressList and address=147.79.119.188]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.188 }
+:if ([:len [find where list=$AddressList and address=147.79.119.189]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.189 }
+:if ([:len [find where list=$AddressList and address=147.79.119.19]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.19 }
+:if ([:len [find where list=$AddressList and address=147.79.119.190]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.190 }
+:if ([:len [find where list=$AddressList and address=147.79.119.191]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.191 }
+:if ([:len [find where list=$AddressList and address=147.79.119.193]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.193 }
+:if ([:len [find where list=$AddressList and address=147.79.119.194]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.194 }
+:if ([:len [find where list=$AddressList and address=147.79.119.195]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.195 }
+:if ([:len [find where list=$AddressList and address=147.79.119.196]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.196 }
+:if ([:len [find where list=$AddressList and address=147.79.119.198]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.198 }
+:if ([:len [find where list=$AddressList and address=147.79.119.200]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.200 }
+:if ([:len [find where list=$AddressList and address=147.79.119.202]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.202 }
+:if ([:len [find where list=$AddressList and address=147.79.119.204]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.204 }
+:if ([:len [find where list=$AddressList and address=147.79.119.206]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.206 }
+:if ([:len [find where list=$AddressList and address=147.79.119.207]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.207 }
+:if ([:len [find where list=$AddressList and address=147.79.119.21]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.21 }
+:if ([:len [find where list=$AddressList and address=147.79.119.211]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.211 }
+:if ([:len [find where list=$AddressList and address=147.79.119.212]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.212 }
+:if ([:len [find where list=$AddressList and address=147.79.119.213]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.213 }
+:if ([:len [find where list=$AddressList and address=147.79.119.214]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.214 }
+:if ([:len [find where list=$AddressList and address=147.79.119.216]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.216 }
+:if ([:len [find where list=$AddressList and address=147.79.119.217]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.217 }
+:if ([:len [find where list=$AddressList and address=147.79.119.218]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.218 }
+:if ([:len [find where list=$AddressList and address=147.79.119.219]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.219 }
+:if ([:len [find where list=$AddressList and address=147.79.119.22]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.22 }
+:if ([:len [find where list=$AddressList and address=147.79.119.220]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.220 }
+:if ([:len [find where list=$AddressList and address=147.79.119.221]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.221 }
+:if ([:len [find where list=$AddressList and address=147.79.119.224]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.224 }
+:if ([:len [find where list=$AddressList and address=147.79.119.225]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.225 }
+:if ([:len [find where list=$AddressList and address=147.79.119.227]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.227 }
+:if ([:len [find where list=$AddressList and address=147.79.119.228]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.228 }
+:if ([:len [find where list=$AddressList and address=147.79.119.229]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.229 }
+:if ([:len [find where list=$AddressList and address=147.79.119.23]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.23 }
+:if ([:len [find where list=$AddressList and address=147.79.119.231]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.231 }
+:if ([:len [find where list=$AddressList and address=147.79.119.232]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.232 }
+:if ([:len [find where list=$AddressList and address=147.79.119.233]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.233 }
+:if ([:len [find where list=$AddressList and address=147.79.119.234]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.234 }
+:if ([:len [find where list=$AddressList and address=147.79.119.237]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.237 }
+:if ([:len [find where list=$AddressList and address=147.79.119.238]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.238 }
+:if ([:len [find where list=$AddressList and address=147.79.119.239]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.239 }
+:if ([:len [find where list=$AddressList and address=147.79.119.241]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.241 }
+:if ([:len [find where list=$AddressList and address=147.79.119.243]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.243 }
+:if ([:len [find where list=$AddressList and address=147.79.119.244]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.244 }
+:if ([:len [find where list=$AddressList and address=147.79.119.246]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.246 }
+:if ([:len [find where list=$AddressList and address=147.79.119.247]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.247 }
+:if ([:len [find where list=$AddressList and address=147.79.119.248]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.248 }
+:if ([:len [find where list=$AddressList and address=147.79.119.249]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.249 }
+:if ([:len [find where list=$AddressList and address=147.79.119.25]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.25 }
+:if ([:len [find where list=$AddressList and address=147.79.119.250]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.250 }
+:if ([:len [find where list=$AddressList and address=147.79.119.251]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.251 }
+:if ([:len [find where list=$AddressList and address=147.79.119.252]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.252 }
+:if ([:len [find where list=$AddressList and address=147.79.119.253]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.253 }
+:if ([:len [find where list=$AddressList and address=147.79.119.255]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.255 }
+:if ([:len [find where list=$AddressList and address=147.79.119.26]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.26 }
+:if ([:len [find where list=$AddressList and address=147.79.119.28]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.28 }
+:if ([:len [find where list=$AddressList and address=147.79.119.29]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.29 }
+:if ([:len [find where list=$AddressList and address=147.79.119.30]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.30 }
+:if ([:len [find where list=$AddressList and address=147.79.119.31]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.31 }
+:if ([:len [find where list=$AddressList and address=147.79.119.33]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.33 }
+:if ([:len [find where list=$AddressList and address=147.79.119.35]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.35 }
+:if ([:len [find where list=$AddressList and address=147.79.119.36]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.36 }
+:if ([:len [find where list=$AddressList and address=147.79.119.38]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.38 }
+:if ([:len [find where list=$AddressList and address=147.79.119.4]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.4 }
+:if ([:len [find where list=$AddressList and address=147.79.119.40]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.40 }
+:if ([:len [find where list=$AddressList and address=147.79.119.46]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.46 }
+:if ([:len [find where list=$AddressList and address=147.79.119.48]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.48 }
+:if ([:len [find where list=$AddressList and address=147.79.119.49]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.49 }
+:if ([:len [find where list=$AddressList and address=147.79.119.5]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.5 }
+:if ([:len [find where list=$AddressList and address=147.79.119.50]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.50 }
+:if ([:len [find where list=$AddressList and address=147.79.119.54]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.54 }
+:if ([:len [find where list=$AddressList and address=147.79.119.57]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.57 }
+:if ([:len [find where list=$AddressList and address=147.79.119.58]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.58 }
+:if ([:len [find where list=$AddressList and address=147.79.119.59]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.59 }
+:if ([:len [find where list=$AddressList and address=147.79.119.6]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.6 }
+:if ([:len [find where list=$AddressList and address=147.79.119.64]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.64 }
+:if ([:len [find where list=$AddressList and address=147.79.119.65]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.65 }
+:if ([:len [find where list=$AddressList and address=147.79.119.66]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.66 }
+:if ([:len [find where list=$AddressList and address=147.79.119.67]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.67 }
+:if ([:len [find where list=$AddressList and address=147.79.119.68]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.68 }
+:if ([:len [find where list=$AddressList and address=147.79.119.7]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.7 }
+:if ([:len [find where list=$AddressList and address=147.79.119.72]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.72 }
+:if ([:len [find where list=$AddressList and address=147.79.119.74]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.74 }
+:if ([:len [find where list=$AddressList and address=147.79.119.75]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.75 }
+:if ([:len [find where list=$AddressList and address=147.79.119.79]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.79 }
+:if ([:len [find where list=$AddressList and address=147.79.119.8]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.8 }
+:if ([:len [find where list=$AddressList and address=147.79.119.80]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.80 }
+:if ([:len [find where list=$AddressList and address=147.79.119.82]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.82 }
+:if ([:len [find where list=$AddressList and address=147.79.119.83]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.83 }
+:if ([:len [find where list=$AddressList and address=147.79.119.84]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.84 }
+:if ([:len [find where list=$AddressList and address=147.79.119.85]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.85 }
+:if ([:len [find where list=$AddressList and address=147.79.119.87]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.87 }
+:if ([:len [find where list=$AddressList and address=147.79.119.89]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.89 }
+:if ([:len [find where list=$AddressList and address=147.79.119.90]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.90 }
+:if ([:len [find where list=$AddressList and address=147.79.119.92]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.92 }
+:if ([:len [find where list=$AddressList and address=147.79.119.93]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.93 }
+:if ([:len [find where list=$AddressList and address=147.79.119.94]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.94 }
+:if ([:len [find where list=$AddressList and address=147.79.119.96]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.96 }
+:if ([:len [find where list=$AddressList and address=147.79.119.99]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.119.99 }
+:if ([:len [find where list=$AddressList and address=147.79.120.252]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.120.252 }
+:if ([:len [find where list=$AddressList and address=147.79.69.142]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.69.142 }
+:if ([:len [find where list=$AddressList and address=147.79.69.168]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.69.168 }
+:if ([:len [find where list=$AddressList and address=147.79.72.164]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.72.164 }
+:if ([:len [find where list=$AddressList and address=147.79.72.211]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.72.211 }
+:if ([:len [find where list=$AddressList and address=147.79.72.214]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.72.214 }
+:if ([:len [find where list=$AddressList and address=147.79.72.223]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.72.223 }
+:if ([:len [find where list=$AddressList and address=147.79.72.235]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.72.235 }
+:if ([:len [find where list=$AddressList and address=147.79.72.247]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.72.247 }
+:if ([:len [find where list=$AddressList and address=147.79.72.28]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.72.28 }
+:if ([:len [find where list=$AddressList and address=147.79.72.42]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.72.42 }
+:if ([:len [find where list=$AddressList and address=147.79.72.8]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.72.8 }
+:if ([:len [find where list=$AddressList and address=147.79.79.105]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.105 }
+:if ([:len [find where list=$AddressList and address=147.79.79.127]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.127 }
+:if ([:len [find where list=$AddressList and address=147.79.79.16]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.16 }
+:if ([:len [find where list=$AddressList and address=147.79.79.165]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.165 }
+:if ([:len [find where list=$AddressList and address=147.79.79.190]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.190 }
+:if ([:len [find where list=$AddressList and address=147.79.79.60]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.60 }
+:if ([:len [find where list=$AddressList and address=147.79.79.82]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.79.79.82 }
+:if ([:len [find where list=$AddressList and address=147.93.77.121]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.121 }
+:if ([:len [find where list=$AddressList and address=147.93.77.146]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.146 }
+:if ([:len [find where list=$AddressList and address=147.93.77.15]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.15 }
+:if ([:len [find where list=$AddressList and address=147.93.77.175]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.175 }
+:if ([:len [find where list=$AddressList and address=147.93.77.190]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.190 }
+:if ([:len [find where list=$AddressList and address=147.93.77.193]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.193 }
+:if ([:len [find where list=$AddressList and address=147.93.77.194]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.194 }
+:if ([:len [find where list=$AddressList and address=147.93.77.196]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.196 }
+:if ([:len [find where list=$AddressList and address=147.93.77.198]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.198 }
+:if ([:len [find where list=$AddressList and address=147.93.77.220]] = 0) do={ add list=$AddressList comment=notepad-plus-plus.org address=147.93.77.220 }

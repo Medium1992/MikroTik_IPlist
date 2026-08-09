@@ -1,40 +1,40 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=canva.com address=103.168.0.0/13} on-error {}
-:do {add list=$AddressList comment=canva.com address=104.16.102.112/32} on-error {}
-:do {add list=$AddressList comment=canva.com address=104.16.103.112/32} on-error {}
-:do {add list=$AddressList comment=canva.com address=104.18.37.68/32} on-error {}
-:do {add list=$AddressList comment=canva.com address=108.136.0.0/14} on-error {}
-:do {add list=$AddressList comment=canva.com address=108.156.0.0/14} on-error {}
-:do {add list=$AddressList comment=canva.com address=13.224.0.0/12} on-error {}
-:do {add list=$AddressList comment=canva.com address=13.249.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=13.32.0.0/12} on-error {}
-:do {add list=$AddressList comment=canva.com address=143.204.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=151.101.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=172.64.150.188/32} on-error {}
-:do {add list=$AddressList comment=canva.com address=18.154.0.0/15} on-error {}
-:do {add list=$AddressList comment=canva.com address=18.165.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=18.172.0.0/15} on-error {}
-:do {add list=$AddressList comment=canva.com address=18.239.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=18.244.0.0/15} on-error {}
-:do {add list=$AddressList comment=canva.com address=18.66.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=188.114.96.0/22} on-error {}
-:do {add list=$AddressList comment=canva.com address=216.239.32.21/32} on-error {}
-:do {add list=$AddressList comment=canva.com address=216.239.34.21/32} on-error {}
-:do {add list=$AddressList comment=canva.com address=216.239.36.21/32} on-error {}
-:do {add list=$AddressList comment=canva.com address=216.239.38.21/32} on-error {}
-:do {add list=$AddressList comment=canva.com address=3.160.0.0/15} on-error {}
-:do {add list=$AddressList comment=canva.com address=3.162.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=3.164.0.0/15} on-error {}
-:do {add list=$AddressList comment=canva.com address=3.166.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=3.169.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=3.174.0.0/15} on-error {}
-:do {add list=$AddressList comment=canva.com address=52.222.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=52.84.0.0/14} on-error {}
-:do {add list=$AddressList comment=canva.com address=54.192.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=54.230.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=65.8.0.0/14} on-error {}
-:do {add list=$AddressList comment=canva.com address=8.47.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=8.6.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=99.84.0.0/16} on-error {}
-:do {add list=$AddressList comment=canva.com address=99.86.0.0/16} on-error {}
+:if ([:len [find where list=$AddressList and address=103.168.0.0/13]] = 0) do={ add list=$AddressList comment=canva.com address=103.168.0.0/13 }
+:if ([:len [find where list=$AddressList and address=104.16.102.112/32]] = 0) do={ add list=$AddressList comment=canva.com address=104.16.102.112/32 }
+:if ([:len [find where list=$AddressList and address=104.16.103.112/32]] = 0) do={ add list=$AddressList comment=canva.com address=104.16.103.112/32 }
+:if ([:len [find where list=$AddressList and address=104.18.37.68/32]] = 0) do={ add list=$AddressList comment=canva.com address=104.18.37.68/32 }
+:if ([:len [find where list=$AddressList and address=108.136.0.0/14]] = 0) do={ add list=$AddressList comment=canva.com address=108.136.0.0/14 }
+:if ([:len [find where list=$AddressList and address=108.156.0.0/14]] = 0) do={ add list=$AddressList comment=canva.com address=108.156.0.0/14 }
+:if ([:len [find where list=$AddressList and address=13.224.0.0/12]] = 0) do={ add list=$AddressList comment=canva.com address=13.224.0.0/12 }
+:if ([:len [find where list=$AddressList and address=13.249.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=13.249.0.0/16 }
+:if ([:len [find where list=$AddressList and address=13.32.0.0/12]] = 0) do={ add list=$AddressList comment=canva.com address=13.32.0.0/12 }
+:if ([:len [find where list=$AddressList and address=143.204.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=143.204.0.0/16 }
+:if ([:len [find where list=$AddressList and address=151.101.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=151.101.0.0/16 }
+:if ([:len [find where list=$AddressList and address=172.64.150.188/32]] = 0) do={ add list=$AddressList comment=canva.com address=172.64.150.188/32 }
+:if ([:len [find where list=$AddressList and address=18.154.0.0/15]] = 0) do={ add list=$AddressList comment=canva.com address=18.154.0.0/15 }
+:if ([:len [find where list=$AddressList and address=18.165.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=18.165.0.0/16 }
+:if ([:len [find where list=$AddressList and address=18.172.0.0/15]] = 0) do={ add list=$AddressList comment=canva.com address=18.172.0.0/15 }
+:if ([:len [find where list=$AddressList and address=18.239.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=18.239.0.0/16 }
+:if ([:len [find where list=$AddressList and address=18.244.0.0/15]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.0.0/15 }
+:if ([:len [find where list=$AddressList and address=18.66.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=18.66.0.0/16 }
+:if ([:len [find where list=$AddressList and address=188.114.96.0/22]] = 0) do={ add list=$AddressList comment=canva.com address=188.114.96.0/22 }
+:if ([:len [find where list=$AddressList and address=216.239.32.21/32]] = 0) do={ add list=$AddressList comment=canva.com address=216.239.32.21/32 }
+:if ([:len [find where list=$AddressList and address=216.239.34.21/32]] = 0) do={ add list=$AddressList comment=canva.com address=216.239.34.21/32 }
+:if ([:len [find where list=$AddressList and address=216.239.36.21/32]] = 0) do={ add list=$AddressList comment=canva.com address=216.239.36.21/32 }
+:if ([:len [find where list=$AddressList and address=216.239.38.21/32]] = 0) do={ add list=$AddressList comment=canva.com address=216.239.38.21/32 }
+:if ([:len [find where list=$AddressList and address=3.160.0.0/15]] = 0) do={ add list=$AddressList comment=canva.com address=3.160.0.0/15 }
+:if ([:len [find where list=$AddressList and address=3.162.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=3.162.0.0/16 }
+:if ([:len [find where list=$AddressList and address=3.164.0.0/15]] = 0) do={ add list=$AddressList comment=canva.com address=3.164.0.0/15 }
+:if ([:len [find where list=$AddressList and address=3.166.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=3.166.0.0/16 }
+:if ([:len [find where list=$AddressList and address=3.169.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=3.169.0.0/16 }
+:if ([:len [find where list=$AddressList and address=3.174.0.0/15]] = 0) do={ add list=$AddressList comment=canva.com address=3.174.0.0/15 }
+:if ([:len [find where list=$AddressList and address=52.222.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=52.222.0.0/16 }
+:if ([:len [find where list=$AddressList and address=52.84.0.0/14]] = 0) do={ add list=$AddressList comment=canva.com address=52.84.0.0/14 }
+:if ([:len [find where list=$AddressList and address=54.192.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=54.192.0.0/16 }
+:if ([:len [find where list=$AddressList and address=54.230.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=54.230.0.0/16 }
+:if ([:len [find where list=$AddressList and address=65.8.0.0/14]] = 0) do={ add list=$AddressList comment=canva.com address=65.8.0.0/14 }
+:if ([:len [find where list=$AddressList and address=8.47.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=8.47.0.0/16 }
+:if ([:len [find where list=$AddressList and address=8.6.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=8.6.0.0/16 }
+:if ([:len [find where list=$AddressList and address=99.84.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=99.84.0.0/16 }
+:if ([:len [find where list=$AddressList and address=99.86.0.0/16]] = 0) do={ add list=$AddressList comment=canva.com address=99.86.0.0/16 }

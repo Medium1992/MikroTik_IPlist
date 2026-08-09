@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.122} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.123} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.128} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.129} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.130} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.131} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.136} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.137} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.138} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.139} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.144} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.145} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.146} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.147} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.152} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.153} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.154} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.155} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.160} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.161} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.162} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.163} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.168} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.169} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.177} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.178} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.179} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.184} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.185} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.186} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.187} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.192} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.193} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.194} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.195} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.200} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.201} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.202} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.203} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.208} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.209} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.210} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.211} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.216} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.217} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.218} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.219} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.224} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.225} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.226} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.56} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.57} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.58} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.59} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.64} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.65} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.66} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.67} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.72} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.73} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.74} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.75} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.80} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.81} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.82} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.83} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.88} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.89} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.90} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.91} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.96} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.97} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.98} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.198.99} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.224.16} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.224.27} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.224.43} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.224.9} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.42} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.48} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.49} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.50} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.51} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.56} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.58} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.59} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.64} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.66} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.67} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.72} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.235.75} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.174} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.175} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.176} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.178} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.179} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.180} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.181} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.182} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.185} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.187} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.188} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.189} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.190} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.191} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.192} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.193} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.194} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.197} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.198} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.199} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.200} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.201} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.202} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.203} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.205} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.206} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.207} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.208} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.209} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.29.210} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.132} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.135} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.136} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.140} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.141} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.144} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.145} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.146} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.148} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.149} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.15} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.151} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.152} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.154} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.155} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.156} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.22} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.47} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.7} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.74} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.77} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.79} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.41.90} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.107} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.113} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.115} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.121} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.122} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.123} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.128} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.42} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.43} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.48} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.50} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.56} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.59} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.65} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.67} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.72} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.74} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.75} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.80} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.82} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.88} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.89} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.9} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.90} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.91} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.96} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.28.6.99} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.10} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.11} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.16} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.17} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.18} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.19} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.24} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.25} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.26} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.27} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.32} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.33} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.34} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.35} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.40} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.41} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.42} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.43} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.48} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.49} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.50} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.51} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.56} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.57} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.58} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.59} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.64} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.65} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.66} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.67} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.72} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.73} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.75} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.8} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.80} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.81} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.82} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.83} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.88} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.89} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.9} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.90} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.29.38.91} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.10} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.100} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.101} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.102} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.103} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.104} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.105} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.106} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.107} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.108} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.109} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.11} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.110} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.111} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.112} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.113} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.114} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.115} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.116} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.117} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.118} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.119} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.12} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.13} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.132} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.133} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.135} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.136} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.137} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.138} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.139} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.14} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.140} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.141} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.142} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.143} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.144} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.145} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.146} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.147} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.148} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.149} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.15} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.150} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.151} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.152} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.153} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.154} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.155} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.16} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.17} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.18} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.19} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.198} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.199} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.200} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.202} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.203} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.206} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.207} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.209} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.210} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.211} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.213} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.214} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.217} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.218} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.219} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.5} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.6} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.7} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.8} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.30.150.9} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.114} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.115} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.120} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.121} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.122} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.123} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.128} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.129} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.130} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.136} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.137} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.138} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.139} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.144} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.145} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.146} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.147} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.152} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.153} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.154} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.155} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.160} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.161} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.162} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.163} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.168} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.169} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.170} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.171} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.176} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.177} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.178} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.179} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.184} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.185} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.186} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.187} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.192} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.193} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.194} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.195} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.200} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.201} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.202} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.203} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.208} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.209} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.210} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.211} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.218} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.219} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.224} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.225} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.226} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.227} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.232} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.233} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.234} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.235} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.240} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.241} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.242} on-error {}
-:do {add list=$AddressList comment=tiktok.com address=184.31.15.243} on-error {}
+:if ([:len [find where list=$AddressList and address=138.113.27.161]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.161 }
+:if ([:len [find where list=$AddressList and address=138.113.27.162]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.162 }
+:if ([:len [find where list=$AddressList and address=138.113.27.163]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.163 }
+:if ([:len [find where list=$AddressList and address=138.113.27.164]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.164 }
+:if ([:len [find where list=$AddressList and address=138.113.27.176]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.176 }
+:if ([:len [find where list=$AddressList and address=138.113.27.177]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.177 }
+:if ([:len [find where list=$AddressList and address=138.113.27.178]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.178 }
+:if ([:len [find where list=$AddressList and address=138.113.27.182]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.182 }
+:if ([:len [find where list=$AddressList and address=138.113.27.183]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.183 }
+:if ([:len [find where list=$AddressList and address=138.113.27.27]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.27 }
+:if ([:len [find where list=$AddressList and address=138.113.27.28]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.28 }
+:if ([:len [find where list=$AddressList and address=138.113.27.30]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.30 }
+:if ([:len [find where list=$AddressList and address=138.113.27.48]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.48 }
+:if ([:len [find where list=$AddressList and address=138.113.27.53]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.53 }
+:if ([:len [find where list=$AddressList and address=138.113.27.54]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.54 }
+:if ([:len [find where list=$AddressList and address=138.113.27.55]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.55 }
+:if ([:len [find where list=$AddressList and address=138.113.27.66]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.66 }
+:if ([:len [find where list=$AddressList and address=138.113.27.84]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.84 }
+:if ([:len [find where list=$AddressList and address=138.113.27.86]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.86 }
+:if ([:len [find where list=$AddressList and address=138.113.27.87]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.87 }
+:if ([:len [find where list=$AddressList and address=138.113.27.88]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.88 }
+:if ([:len [find where list=$AddressList and address=138.113.27.89]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.89 }
+:if ([:len [find where list=$AddressList and address=138.113.27.9]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.9 }
+:if ([:len [find where list=$AddressList and address=138.113.27.90]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.90 }
+:if ([:len [find where list=$AddressList and address=138.113.27.91]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.91 }
+:if ([:len [find where list=$AddressList and address=138.113.27.96]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.27.96 }
+:if ([:len [find where list=$AddressList and address=138.113.29.67]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.29.67 }
+:if ([:len [find where list=$AddressList and address=138.113.36.160]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.36.160 }
+:if ([:len [find where list=$AddressList and address=138.113.69.112]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.69.112 }
+:if ([:len [find where list=$AddressList and address=138.113.69.114]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.69.114 }
+:if ([:len [find where list=$AddressList and address=138.113.69.131]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.69.131 }
+:if ([:len [find where list=$AddressList and address=138.113.69.134]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.69.134 }
+:if ([:len [find where list=$AddressList and address=138.113.69.21]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.69.21 }
+:if ([:len [find where list=$AddressList and address=138.113.8.108]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.108 }
+:if ([:len [find where list=$AddressList and address=138.113.8.109]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.109 }
+:if ([:len [find where list=$AddressList and address=138.113.8.127]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.127 }
+:if ([:len [find where list=$AddressList and address=138.113.8.129]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.129 }
+:if ([:len [find where list=$AddressList and address=138.113.8.132]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.132 }
+:if ([:len [find where list=$AddressList and address=138.113.8.139]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.139 }
+:if ([:len [find where list=$AddressList and address=138.113.8.159]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.159 }
+:if ([:len [find where list=$AddressList and address=138.113.8.160]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.160 }
+:if ([:len [find where list=$AddressList and address=138.113.8.201]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.201 }
+:if ([:len [find where list=$AddressList and address=138.113.8.202]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.202 }
+:if ([:len [find where list=$AddressList and address=138.113.8.220]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.220 }
+:if ([:len [find where list=$AddressList and address=138.113.8.25]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.25 }
+:if ([:len [find where list=$AddressList and address=138.113.8.37]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.37 }
+:if ([:len [find where list=$AddressList and address=138.113.8.38]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.38 }
+:if ([:len [find where list=$AddressList and address=138.113.8.47]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.47 }
+:if ([:len [find where list=$AddressList and address=138.113.8.50]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.50 }
+:if ([:len [find where list=$AddressList and address=138.113.8.51]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.51 }
+:if ([:len [find where list=$AddressList and address=138.113.8.52]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.52 }
+:if ([:len [find where list=$AddressList and address=138.113.8.53]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.53 }
+:if ([:len [find where list=$AddressList and address=138.113.8.54]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.54 }
+:if ([:len [find where list=$AddressList and address=138.113.8.56]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.56 }
+:if ([:len [find where list=$AddressList and address=138.113.8.57]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.57 }
+:if ([:len [find where list=$AddressList and address=138.113.8.58]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.58 }
+:if ([:len [find where list=$AddressList and address=138.113.8.60]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.60 }
+:if ([:len [find where list=$AddressList and address=138.113.8.61]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.8.61 }
+:if ([:len [find where list=$AddressList and address=138.113.81.14]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.81.14 }
+:if ([:len [find where list=$AddressList and address=138.113.81.195]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.81.195 }
+:if ([:len [find where list=$AddressList and address=138.113.81.20]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.81.20 }
+:if ([:len [find where list=$AddressList and address=138.113.81.225]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.81.225 }
+:if ([:len [find where list=$AddressList and address=138.113.81.242]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.81.242 }
+:if ([:len [find where list=$AddressList and address=138.113.81.6]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.81.6 }
+:if ([:len [find where list=$AddressList and address=138.113.81.8]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.81.8 }
+:if ([:len [find where list=$AddressList and address=138.113.86.32]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.86.32 }
+:if ([:len [find where list=$AddressList and address=138.113.91.117]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.91.117 }
+:if ([:len [find where list=$AddressList and address=138.113.91.17]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.91.17 }
+:if ([:len [find where list=$AddressList and address=138.113.91.18]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.91.18 }
+:if ([:len [find where list=$AddressList and address=138.113.91.24]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.91.24 }
+:if ([:len [find where list=$AddressList and address=138.113.91.25]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.91.25 }
+:if ([:len [find where list=$AddressList and address=138.113.91.32]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.91.32 }
+:if ([:len [find where list=$AddressList and address=138.113.91.33]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.91.33 }
+:if ([:len [find where list=$AddressList and address=138.113.91.97]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.91.97 }
+:if ([:len [find where list=$AddressList and address=138.113.92.19]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.19 }
+:if ([:len [find where list=$AddressList and address=138.113.92.199]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.199 }
+:if ([:len [find where list=$AddressList and address=138.113.92.212]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.212 }
+:if ([:len [find where list=$AddressList and address=138.113.92.215]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.215 }
+:if ([:len [find where list=$AddressList and address=138.113.92.216]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.216 }
+:if ([:len [find where list=$AddressList and address=138.113.92.22]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.22 }
+:if ([:len [find where list=$AddressList and address=138.113.92.220]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.220 }
+:if ([:len [find where list=$AddressList and address=138.113.92.221]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.221 }
+:if ([:len [find where list=$AddressList and address=138.113.92.223]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.223 }
+:if ([:len [find where list=$AddressList and address=138.113.92.24]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.24 }
+:if ([:len [find where list=$AddressList and address=138.113.92.31]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.31 }
+:if ([:len [find where list=$AddressList and address=138.113.92.32]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.32 }
+:if ([:len [find where list=$AddressList and address=138.113.92.33]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.33 }
+:if ([:len [find where list=$AddressList and address=138.113.92.34]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.34 }
+:if ([:len [find where list=$AddressList and address=138.113.92.36]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.92.36 }
+:if ([:len [find where list=$AddressList and address=138.113.95.14]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.14 }
+:if ([:len [find where list=$AddressList and address=138.113.95.16]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.16 }
+:if ([:len [find where list=$AddressList and address=138.113.95.17]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.17 }
+:if ([:len [find where list=$AddressList and address=138.113.95.22]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.22 }
+:if ([:len [find where list=$AddressList and address=138.113.95.23]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.23 }
+:if ([:len [find where list=$AddressList and address=138.113.95.32]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.32 }
+:if ([:len [find where list=$AddressList and address=138.113.95.33]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.33 }
+:if ([:len [find where list=$AddressList and address=138.113.95.34]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.34 }
+:if ([:len [find where list=$AddressList and address=138.113.95.35]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.35 }
+:if ([:len [find where list=$AddressList and address=138.113.95.36]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.36 }
+:if ([:len [find where list=$AddressList and address=138.113.95.37]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.37 }
+:if ([:len [find where list=$AddressList and address=138.113.95.75]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.113.95.75 }
+:if ([:len [find where list=$AddressList and address=138.124.157.219]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.124.157.219 }
+:if ([:len [find where list=$AddressList and address=138.199.14.108]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.108 }
+:if ([:len [find where list=$AddressList and address=138.199.14.119]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.119 }
+:if ([:len [find where list=$AddressList and address=138.199.14.12]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.12 }
+:if ([:len [find where list=$AddressList and address=138.199.14.13]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.13 }
+:if ([:len [find where list=$AddressList and address=138.199.14.19]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.19 }
+:if ([:len [find where list=$AddressList and address=138.199.14.30]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.30 }
+:if ([:len [find where list=$AddressList and address=138.199.14.39]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.39 }
+:if ([:len [find where list=$AddressList and address=138.199.14.40]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.40 }
+:if ([:len [find where list=$AddressList and address=138.199.14.45]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.45 }
+:if ([:len [find where list=$AddressList and address=138.199.14.46]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.46 }
+:if ([:len [find where list=$AddressList and address=138.199.14.51]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.51 }
+:if ([:len [find where list=$AddressList and address=138.199.14.52]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.14.52 }
+:if ([:len [find where list=$AddressList and address=138.199.15.17]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.17 }
+:if ([:len [find where list=$AddressList and address=138.199.15.18]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.18 }
+:if ([:len [find where list=$AddressList and address=138.199.15.20]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.20 }
+:if ([:len [find where list=$AddressList and address=138.199.15.21]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.21 }
+:if ([:len [find where list=$AddressList and address=138.199.15.44]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.44 }
+:if ([:len [find where list=$AddressList and address=138.199.15.45]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.45 }
+:if ([:len [find where list=$AddressList and address=138.199.15.50]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.50 }
+:if ([:len [find where list=$AddressList and address=138.199.15.51]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.51 }
+:if ([:len [find where list=$AddressList and address=138.199.15.53]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.53 }
+:if ([:len [find where list=$AddressList and address=138.199.15.54]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.54 }
+:if ([:len [find where list=$AddressList and address=138.199.15.56]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.56 }
+:if ([:len [find where list=$AddressList and address=138.199.15.57]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.15.57 }
+:if ([:len [find where list=$AddressList and address=138.199.17.179]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.17.179 }
+:if ([:len [find where list=$AddressList and address=138.199.17.180]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.17.180 }
+:if ([:len [find where list=$AddressList and address=138.199.17.181]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.17.181 }
+:if ([:len [find where list=$AddressList and address=138.199.20.250]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.20.250 }
+:if ([:len [find where list=$AddressList and address=138.199.20.251]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.20.251 }
+:if ([:len [find where list=$AddressList and address=138.199.26.11]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.11 }
+:if ([:len [find where list=$AddressList and address=138.199.26.29]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.29 }
+:if ([:len [find where list=$AddressList and address=138.199.26.32]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.32 }
+:if ([:len [find where list=$AddressList and address=138.199.26.43]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.43 }
+:if ([:len [find where list=$AddressList and address=138.199.26.44]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.44 }
+:if ([:len [find where list=$AddressList and address=138.199.26.45]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.45 }
+:if ([:len [find where list=$AddressList and address=138.199.26.46]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.46 }
+:if ([:len [find where list=$AddressList and address=138.199.26.47]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.47 }
+:if ([:len [find where list=$AddressList and address=138.199.26.50]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.50 }
+:if ([:len [find where list=$AddressList and address=138.199.26.52]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.52 }
+:if ([:len [find where list=$AddressList and address=138.199.26.53]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.26.53 }
+:if ([:len [find where list=$AddressList and address=138.199.37.11]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.11 }
+:if ([:len [find where list=$AddressList and address=138.199.37.12]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.12 }
+:if ([:len [find where list=$AddressList and address=138.199.37.2]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.2 }
+:if ([:len [find where list=$AddressList and address=138.199.37.23]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.23 }
+:if ([:len [find where list=$AddressList and address=138.199.37.24]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.24 }
+:if ([:len [find where list=$AddressList and address=138.199.37.3]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.3 }
+:if ([:len [find where list=$AddressList and address=138.199.37.37]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.37 }
+:if ([:len [find where list=$AddressList and address=138.199.37.38]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.38 }
+:if ([:len [find where list=$AddressList and address=138.199.37.40]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.40 }
+:if ([:len [find where list=$AddressList and address=138.199.37.41]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.41 }
+:if ([:len [find where list=$AddressList and address=138.199.37.53]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.53 }
+:if ([:len [find where list=$AddressList and address=138.199.37.54]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.54 }
+:if ([:len [find where list=$AddressList and address=138.199.37.8]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.8 }
+:if ([:len [find where list=$AddressList and address=138.199.37.9]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.37.9 }
+:if ([:len [find where list=$AddressList and address=138.199.4.27]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.27 }
+:if ([:len [find where list=$AddressList and address=138.199.4.29]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.29 }
+:if ([:len [find where list=$AddressList and address=138.199.4.42]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.42 }
+:if ([:len [find where list=$AddressList and address=138.199.4.43]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.43 }
+:if ([:len [find where list=$AddressList and address=138.199.4.45]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.45 }
+:if ([:len [find where list=$AddressList and address=138.199.4.46]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.46 }
+:if ([:len [find where list=$AddressList and address=138.199.4.48]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.48 }
+:if ([:len [find where list=$AddressList and address=138.199.4.55]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.55 }
+:if ([:len [find where list=$AddressList and address=138.199.4.57]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.57 }
+:if ([:len [find where list=$AddressList and address=138.199.4.58]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.58 }
+:if ([:len [find where list=$AddressList and address=138.199.4.87]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.4.87 }
+:if ([:len [find where list=$AddressList and address=138.199.45.38]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.45.38 }
+:if ([:len [find where list=$AddressList and address=138.199.45.40]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.45.40 }
+:if ([:len [find where list=$AddressList and address=138.199.45.41]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.45.41 }
+:if ([:len [find where list=$AddressList and address=138.199.5.105]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.5.105 }
+:if ([:len [find where list=$AddressList and address=138.199.5.106]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.5.106 }
+:if ([:len [find where list=$AddressList and address=138.199.5.26]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.5.26 }
+:if ([:len [find where list=$AddressList and address=138.199.5.66]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.5.66 }
+:if ([:len [find where list=$AddressList and address=138.199.5.99]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.5.99 }
+:if ([:len [find where list=$AddressList and address=138.199.57.75]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.57.75 }
+:if ([:len [find where list=$AddressList and address=138.199.57.76]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.57.76 }
+:if ([:len [find where list=$AddressList and address=138.199.57.89]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.57.89 }
+:if ([:len [find where list=$AddressList and address=138.199.57.96]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.57.96 }
+:if ([:len [find where list=$AddressList and address=138.199.57.97]] = 0) do={ add list=$AddressList comment=tiktok.com address=138.199.57.97 }

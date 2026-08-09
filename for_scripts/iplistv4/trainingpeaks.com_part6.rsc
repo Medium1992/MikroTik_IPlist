@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=trainingpeaks.com address=3.164.68.93} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.164.92.101} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.164.92.21} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.164.92.52} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.164.92.6} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.136.107} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.136.11} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.136.12} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.136.67} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.136.7} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.136.71} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.136.81} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.148.116} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.148.24} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.148.62} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.148.75} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.10} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.103} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.105} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.110} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.111} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.113} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.119} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.123} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.128} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.15} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.28} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.33} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.47} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.48} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.5} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.53} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.57} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.59} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.63} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.73} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.9} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.92} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.190.93} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.108} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.11} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.111} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.119} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.125} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.127} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.15} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.16} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.19} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.2} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.20} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.21} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.31} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.32} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.34} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.37} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.53} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.54} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.59} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.7} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.71} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.72} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.74} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.206.9} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.118} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.18} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.2} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.27} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.31} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.43} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.52} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.59} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.67} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.71} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.8} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.232.84} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.239.27} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.239.34} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.239.69} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.239.88} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.255.101} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.255.27} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.255.56} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.255.77} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.50.104} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.50.28} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.50.50} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.50.99} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.63.35} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.63.4} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.63.5} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.165.63.7} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.14.119} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.14.12} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.14.26} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.14.31} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.14.45} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.14.84} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.14.90} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.14.97} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.49.118} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.49.129} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.49.28} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.49.97} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.65.105} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.65.11} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.65.20} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.65.30} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.81.107} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.81.117} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.81.46} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.81.99} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.96.109} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.96.123} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.96.15} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.96.70} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.96.83} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.96.89} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.96.93} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.166.96.96} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.19.100} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.19.39} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.19.68} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.19.73} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.2.115} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.2.124} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.2.14} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.2.46} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.2.73} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.2.75} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.2.76} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.2.89} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.227.10} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.227.5} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.227.55} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.227.73} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.88.102} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.88.23} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.88.24} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.167.88.7} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.2.112} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.2.114} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.2.124} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.2.3} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.217.102} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.217.127} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.217.14} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.217.3} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.217.36} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.217.63} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.217.79} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.217.81} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.236.25} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.236.34} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.236.88} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.168.236.90} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.107.25} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.107.6} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.107.86} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.107.88} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.10} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.110} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.116} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.118} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.120} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.42} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.5} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.54} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.59} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.72} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.90} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.173.96} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.71.108} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.71.15} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.71.21} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.71.50} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.71.53} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.71.89} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.71.90} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.71.91} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.85.51} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.85.52} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.85.79} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.169.85.91} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.131.120} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.131.22} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.131.43} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.131.46} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.131.51} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.131.7} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.131.79} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.131.97} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.152.107} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.152.30} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.152.46} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.170.152.7} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.171.214.12} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.171.214.21} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.171.214.36} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.171.214.60} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.171.85.43} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.171.85.80} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.171.85.92} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.171.85.98} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.161.126} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.161.3} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.161.52} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.161.64} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.161.71} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.161.85} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.161.86} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.161.92} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.182.27} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.182.33} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.182.35} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.182.46} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.219.110} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.219.128} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.219.36} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.173.219.54} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.113.108} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.113.16} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.113.28} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.113.29} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.113.30} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.113.46} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.113.56} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.113.60} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.18.114} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.18.19} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.18.52} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.18.54} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.18.68} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.18.71} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.18.87} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.18.95} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.107} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.115} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.123} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.26} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.27} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.50} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.54} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.57} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.64} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.68} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.77} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.180.85} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.193.109} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.193.110} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.193.113} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.193.4} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.193.55} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.193.82} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.193.92} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.193.96} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.104} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.110} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.112} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.113} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.124} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.125} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.126} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.127} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.13} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.17} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.18} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.33} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.40} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.51} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.52} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.62} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.63} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.75} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.77} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.8} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.80} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.89} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.230.93} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.101} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.109} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.114} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.125} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.13} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.23} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.29} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.33} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.47} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.53} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.58} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.6} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.66} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.67} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.69} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.75} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.87} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.9} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.95} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.255.97} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.26.15} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.26.26} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.26.32} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.26.83} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.29.118} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.29.18} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.29.6} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.29.65} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.102} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.125} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.35} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.47} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.59} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.61} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.73} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.76} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.78} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.85} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.86} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.46.92} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.111} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.129} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.34} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.57} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.62} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.75} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.76} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.77} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.80} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.81} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.83} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.174.98.84} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.115.16} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.115.67} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.115.7} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.115.95} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.130.105} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.130.27} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.130.51} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.130.65} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.164.47} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.164.58} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.164.76} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.164.84} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.179.107} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.179.16} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.179.88} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.179.93} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.196.12} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.196.44} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.196.70} on-error {}
-:do {add list=$AddressList comment=trainingpeaks.com address=3.175.196.88} on-error {}
+:if ([:len [find where list=$AddressList and address=18.165.160.59]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.160.59 }
+:if ([:len [find where list=$AddressList and address=18.165.160.79]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.160.79 }
+:if ([:len [find where list=$AddressList and address=18.165.171.101]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.101 }
+:if ([:len [find where list=$AddressList and address=18.165.171.105]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.105 }
+:if ([:len [find where list=$AddressList and address=18.165.171.107]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.107 }
+:if ([:len [find where list=$AddressList and address=18.165.171.109]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.109 }
+:if ([:len [find where list=$AddressList and address=18.165.171.112]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.112 }
+:if ([:len [find where list=$AddressList and address=18.165.171.120]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.120 }
+:if ([:len [find where list=$AddressList and address=18.165.171.121]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.121 }
+:if ([:len [find where list=$AddressList and address=18.165.171.127]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.127 }
+:if ([:len [find where list=$AddressList and address=18.165.171.15]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.15 }
+:if ([:len [find where list=$AddressList and address=18.165.171.31]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.31 }
+:if ([:len [find where list=$AddressList and address=18.165.171.43]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.43 }
+:if ([:len [find where list=$AddressList and address=18.165.171.49]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.49 }
+:if ([:len [find where list=$AddressList and address=18.165.171.57]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.57 }
+:if ([:len [find where list=$AddressList and address=18.165.171.59]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.59 }
+:if ([:len [find where list=$AddressList and address=18.165.171.69]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.69 }
+:if ([:len [find where list=$AddressList and address=18.165.171.70]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.70 }
+:if ([:len [find where list=$AddressList and address=18.165.171.85]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.85 }
+:if ([:len [find where list=$AddressList and address=18.165.171.99]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.171.99 }
+:if ([:len [find where list=$AddressList and address=18.165.183.106]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.106 }
+:if ([:len [find where list=$AddressList and address=18.165.183.108]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.108 }
+:if ([:len [find where list=$AddressList and address=18.165.183.112]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.112 }
+:if ([:len [find where list=$AddressList and address=18.165.183.117]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.117 }
+:if ([:len [find where list=$AddressList and address=18.165.183.127]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.127 }
+:if ([:len [find where list=$AddressList and address=18.165.183.31]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.31 }
+:if ([:len [find where list=$AddressList and address=18.165.183.33]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.33 }
+:if ([:len [find where list=$AddressList and address=18.165.183.43]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.43 }
+:if ([:len [find where list=$AddressList and address=18.165.183.53]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.53 }
+:if ([:len [find where list=$AddressList and address=18.165.183.57]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.57 }
+:if ([:len [find where list=$AddressList and address=18.165.183.91]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.183.91 }
+:if ([:len [find where list=$AddressList and address=18.165.242.17]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.242.17 }
+:if ([:len [find where list=$AddressList and address=18.165.242.21]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.242.21 }
+:if ([:len [find where list=$AddressList and address=18.165.242.32]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.242.32 }
+:if ([:len [find where list=$AddressList and address=18.165.242.71]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.242.71 }
+:if ([:len [find where list=$AddressList and address=18.165.25.128]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.25.128 }
+:if ([:len [find where list=$AddressList and address=18.165.25.53]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.25.53 }
+:if ([:len [find where list=$AddressList and address=18.165.25.90]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.25.90 }
+:if ([:len [find where list=$AddressList and address=18.165.25.97]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.25.97 }
+:if ([:len [find where list=$AddressList and address=18.165.53.15]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.53.15 }
+:if ([:len [find where list=$AddressList and address=18.165.53.52]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.53.52 }
+:if ([:len [find where list=$AddressList and address=18.165.53.75]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.53.75 }
+:if ([:len [find where list=$AddressList and address=18.165.53.92]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.53.92 }
+:if ([:len [find where list=$AddressList and address=18.165.61.104]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.61.104 }
+:if ([:len [find where list=$AddressList and address=18.165.61.112]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.61.112 }
+:if ([:len [find where list=$AddressList and address=18.165.61.126]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.61.126 }
+:if ([:len [find where list=$AddressList and address=18.165.61.39]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.61.39 }
+:if ([:len [find where list=$AddressList and address=18.165.61.47]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.61.47 }
+:if ([:len [find where list=$AddressList and address=18.165.61.6]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.61.6 }
+:if ([:len [find where list=$AddressList and address=18.165.61.69]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.61.69 }
+:if ([:len [find where list=$AddressList and address=18.165.61.76]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.61.76 }
+:if ([:len [find where list=$AddressList and address=18.165.72.101]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.101 }
+:if ([:len [find where list=$AddressList and address=18.165.72.109]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.109 }
+:if ([:len [find where list=$AddressList and address=18.165.72.117]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.117 }
+:if ([:len [find where list=$AddressList and address=18.165.72.119]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.119 }
+:if ([:len [find where list=$AddressList and address=18.165.72.121]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.121 }
+:if ([:len [find where list=$AddressList and address=18.165.72.15]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.15 }
+:if ([:len [find where list=$AddressList and address=18.165.72.19]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.19 }
+:if ([:len [find where list=$AddressList and address=18.165.72.20]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.20 }
+:if ([:len [find where list=$AddressList and address=18.165.72.38]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.38 }
+:if ([:len [find where list=$AddressList and address=18.165.72.43]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.43 }
+:if ([:len [find where list=$AddressList and address=18.165.72.5]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.5 }
+:if ([:len [find where list=$AddressList and address=18.165.72.57]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.57 }
+:if ([:len [find where list=$AddressList and address=18.165.72.58]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.58 }
+:if ([:len [find where list=$AddressList and address=18.165.72.6]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.6 }
+:if ([:len [find where list=$AddressList and address=18.165.72.61]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.61 }
+:if ([:len [find where list=$AddressList and address=18.165.72.64]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.64 }
+:if ([:len [find where list=$AddressList and address=18.165.72.68]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.68 }
+:if ([:len [find where list=$AddressList and address=18.165.72.7]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.7 }
+:if ([:len [find where list=$AddressList and address=18.165.72.76]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.76 }
+:if ([:len [find where list=$AddressList and address=18.165.72.90]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.90 }
+:if ([:len [find where list=$AddressList and address=18.165.72.91]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.72.91 }
+:if ([:len [find where list=$AddressList and address=18.165.9.128]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.9.128 }
+:if ([:len [find where list=$AddressList and address=18.165.9.25]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.9.25 }
+:if ([:len [find where list=$AddressList and address=18.165.9.88]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.9.88 }
+:if ([:len [find where list=$AddressList and address=18.165.9.91]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.165.9.91 }
+:if ([:len [find where list=$AddressList and address=18.172.112.108]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.108 }
+:if ([:len [find where list=$AddressList and address=18.172.112.124]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.124 }
+:if ([:len [find where list=$AddressList and address=18.172.112.13]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.13 }
+:if ([:len [find where list=$AddressList and address=18.172.112.19]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.19 }
+:if ([:len [find where list=$AddressList and address=18.172.112.25]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.25 }
+:if ([:len [find where list=$AddressList and address=18.172.112.42]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.42 }
+:if ([:len [find where list=$AddressList and address=18.172.112.43]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.43 }
+:if ([:len [find where list=$AddressList and address=18.172.112.66]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.66 }
+:if ([:len [find where list=$AddressList and address=18.172.112.72]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.72 }
+:if ([:len [find where list=$AddressList and address=18.172.112.79]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.79 }
+:if ([:len [find where list=$AddressList and address=18.172.112.84]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.84 }
+:if ([:len [find where list=$AddressList and address=18.172.112.89]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.112.89 }
+:if ([:len [find where list=$AddressList and address=18.172.153.100]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.153.100 }
+:if ([:len [find where list=$AddressList and address=18.172.153.73]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.153.73 }
+:if ([:len [find where list=$AddressList and address=18.172.153.78]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.153.78 }
+:if ([:len [find where list=$AddressList and address=18.172.153.99]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.153.99 }
+:if ([:len [find where list=$AddressList and address=18.172.213.104]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.104 }
+:if ([:len [find where list=$AddressList and address=18.172.213.106]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.106 }
+:if ([:len [find where list=$AddressList and address=18.172.213.107]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.107 }
+:if ([:len [find where list=$AddressList and address=18.172.213.109]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.109 }
+:if ([:len [find where list=$AddressList and address=18.172.213.110]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.110 }
+:if ([:len [find where list=$AddressList and address=18.172.213.12]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.12 }
+:if ([:len [find where list=$AddressList and address=18.172.213.26]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.26 }
+:if ([:len [find where list=$AddressList and address=18.172.213.38]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.38 }
+:if ([:len [find where list=$AddressList and address=18.172.213.42]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.42 }
+:if ([:len [find where list=$AddressList and address=18.172.213.45]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.45 }
+:if ([:len [find where list=$AddressList and address=18.172.213.55]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.55 }
+:if ([:len [find where list=$AddressList and address=18.172.213.68]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.213.68 }
+:if ([:len [find where list=$AddressList and address=18.172.226.2]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.2 }
+:if ([:len [find where list=$AddressList and address=18.172.226.21]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.21 }
+:if ([:len [find where list=$AddressList and address=18.172.226.30]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.30 }
+:if ([:len [find where list=$AddressList and address=18.172.226.41]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.41 }
+:if ([:len [find where list=$AddressList and address=18.172.226.44]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.44 }
+:if ([:len [find where list=$AddressList and address=18.172.226.47]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.47 }
+:if ([:len [find where list=$AddressList and address=18.172.226.67]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.67 }
+:if ([:len [find where list=$AddressList and address=18.172.226.77]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.77 }
+:if ([:len [find where list=$AddressList and address=18.172.226.79]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.79 }
+:if ([:len [find where list=$AddressList and address=18.172.226.80]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.80 }
+:if ([:len [find where list=$AddressList and address=18.172.226.84]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.84 }
+:if ([:len [find where list=$AddressList and address=18.172.226.96]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.226.96 }
+:if ([:len [find where list=$AddressList and address=18.172.242.10]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.10 }
+:if ([:len [find where list=$AddressList and address=18.172.242.106]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.106 }
+:if ([:len [find where list=$AddressList and address=18.172.242.112]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.112 }
+:if ([:len [find where list=$AddressList and address=18.172.242.115]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.115 }
+:if ([:len [find where list=$AddressList and address=18.172.242.117]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.117 }
+:if ([:len [find where list=$AddressList and address=18.172.242.122]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.122 }
+:if ([:len [find where list=$AddressList and address=18.172.242.127]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.127 }
+:if ([:len [find where list=$AddressList and address=18.172.242.22]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.22 }
+:if ([:len [find where list=$AddressList and address=18.172.242.27]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.27 }
+:if ([:len [find where list=$AddressList and address=18.172.242.31]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.31 }
+:if ([:len [find where list=$AddressList and address=18.172.242.44]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.44 }
+:if ([:len [find where list=$AddressList and address=18.172.242.56]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.56 }
+:if ([:len [find where list=$AddressList and address=18.172.242.57]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.57 }
+:if ([:len [find where list=$AddressList and address=18.172.242.6]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.6 }
+:if ([:len [find where list=$AddressList and address=18.172.242.63]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.63 }
+:if ([:len [find where list=$AddressList and address=18.172.242.66]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.66 }
+:if ([:len [find where list=$AddressList and address=18.172.242.73]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.73 }
+:if ([:len [find where list=$AddressList and address=18.172.242.75]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.75 }
+:if ([:len [find where list=$AddressList and address=18.172.242.8]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.8 }
+:if ([:len [find where list=$AddressList and address=18.172.242.86]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.86 }
+:if ([:len [find where list=$AddressList and address=18.172.242.9]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.9 }
+:if ([:len [find where list=$AddressList and address=18.172.242.94]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.94 }
+:if ([:len [find where list=$AddressList and address=18.172.242.98]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.172.242.98 }
+:if ([:len [find where list=$AddressList and address=18.173.154.109]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.154.109 }
+:if ([:len [find where list=$AddressList and address=18.173.154.19]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.154.19 }
+:if ([:len [find where list=$AddressList and address=18.173.154.50]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.154.50 }
+:if ([:len [find where list=$AddressList and address=18.173.154.74]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.154.74 }
+:if ([:len [find where list=$AddressList and address=18.173.187.112]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.187.112 }
+:if ([:len [find where list=$AddressList and address=18.173.187.120]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.187.120 }
+:if ([:len [find where list=$AddressList and address=18.173.187.125]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.187.125 }
+:if ([:len [find where list=$AddressList and address=18.173.187.15]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.187.15 }
+:if ([:len [find where list=$AddressList and address=18.173.187.25]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.187.25 }
+:if ([:len [find where list=$AddressList and address=18.173.187.26]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.187.26 }
+:if ([:len [find where list=$AddressList and address=18.173.187.35]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.187.35 }
+:if ([:len [find where list=$AddressList and address=18.173.187.39]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.187.39 }
+:if ([:len [find where list=$AddressList and address=18.173.187.40]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.187.40 }
+:if ([:len [find where list=$AddressList and address=18.173.187.52]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.187.52 }
+:if ([:len [find where list=$AddressList and address=18.173.205.100]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.205.100 }
+:if ([:len [find where list=$AddressList and address=18.173.205.116]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.205.116 }
+:if ([:len [find where list=$AddressList and address=18.173.205.13]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.205.13 }
+:if ([:len [find where list=$AddressList and address=18.173.205.15]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.205.15 }
+:if ([:len [find where list=$AddressList and address=18.173.205.48]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.205.48 }
+:if ([:len [find where list=$AddressList and address=18.173.205.6]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.205.6 }
+:if ([:len [find where list=$AddressList and address=18.173.205.67]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.205.67 }
+:if ([:len [find where list=$AddressList and address=18.173.205.79]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.205.79 }
+:if ([:len [find where list=$AddressList and address=18.173.5.117]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.117 }
+:if ([:len [find where list=$AddressList and address=18.173.5.32]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.32 }
+:if ([:len [find where list=$AddressList and address=18.173.5.50]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.50 }
+:if ([:len [find where list=$AddressList and address=18.173.5.52]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.52 }
+:if ([:len [find where list=$AddressList and address=18.173.5.55]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.55 }
+:if ([:len [find where list=$AddressList and address=18.173.5.6]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.6 }
+:if ([:len [find where list=$AddressList and address=18.173.5.82]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.82 }
+:if ([:len [find where list=$AddressList and address=18.173.5.84]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.84 }
+:if ([:len [find where list=$AddressList and address=18.173.5.88]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.88 }
+:if ([:len [find where list=$AddressList and address=18.173.5.9]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.9 }
+:if ([:len [find where list=$AddressList and address=18.173.5.91]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.91 }
+:if ([:len [find where list=$AddressList and address=18.173.5.98]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.173.5.98 }
+:if ([:len [find where list=$AddressList and address=18.204.108.237]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.204.108.237 }
+:if ([:len [find where list=$AddressList and address=18.204.251.29]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.204.251.29 }
+:if ([:len [find where list=$AddressList and address=18.204.84.119]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.204.84.119 }
+:if ([:len [find where list=$AddressList and address=18.206.68.186]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.206.68.186 }
+:if ([:len [find where list=$AddressList and address=18.208.58.49]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.208.58.49 }
+:if ([:len [find where list=$AddressList and address=18.209.126.42]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.209.126.42 }
+:if ([:len [find where list=$AddressList and address=18.209.218.204]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=18.209.218.204 }

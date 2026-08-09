@@ -1,49 +1,50 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=xhamster.com address=104.16.3.81/32} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=104.16.4.81/32} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=104.17.34.109/32} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=104.17.35.109/32} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=104.18.146.40/32} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=104.18.147.40/32} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=109.61.88.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=109.61.92.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=138.199.14.0/23} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=138.199.20.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=138.199.57.82/32} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=143.244.32.0/19} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=156.146.32.0/19} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=169.150.192.0/18} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=185.102.217.104/31} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=185.102.217.37/32} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=185.207.236.0/22} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=185.59.222.0/25} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=185.76.9.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=185.93.2.0/25} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=195.181.162.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=195.181.174.0/23} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=207.211.208.0/21} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=208.99.64.0/19} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=212.102.54.0/23} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=212.102.56.0/23} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=216.18.160.0/19} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=37.19.203.26/31} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=45.133.44.0/22} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=46.151.194.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=64.210.128.0/19} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=64.88.240.0/20} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=66.254.96.0/19} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=67.22.48.0/21} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=67.22.56.0/22} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=79.127.178.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=79.127.203.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=79.127.216.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=84.17.50.0/23} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=84.17.56.0/23} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=88.208.0.0/18} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=89.187.162.0/25} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=89.187.162.128/26} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=89.187.163.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=89.187.164.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=89.222.125.0/24} on-error {}
-:do {add list=$AddressList comment=xhamster.com address=92.246.92.0/22} on-error {}
+:if ([:len [find where list=$AddressList and address=104.16.3.81/32]] = 0) do={ add list=$AddressList comment=xhamster.com address=104.16.3.81/32 }
+:if ([:len [find where list=$AddressList and address=104.16.4.81/32]] = 0) do={ add list=$AddressList comment=xhamster.com address=104.16.4.81/32 }
+:if ([:len [find where list=$AddressList and address=104.17.34.109/32]] = 0) do={ add list=$AddressList comment=xhamster.com address=104.17.34.109/32 }
+:if ([:len [find where list=$AddressList and address=104.17.35.109/32]] = 0) do={ add list=$AddressList comment=xhamster.com address=104.17.35.109/32 }
+:if ([:len [find where list=$AddressList and address=104.18.146.40/32]] = 0) do={ add list=$AddressList comment=xhamster.com address=104.18.146.40/32 }
+:if ([:len [find where list=$AddressList and address=104.18.147.40/32]] = 0) do={ add list=$AddressList comment=xhamster.com address=104.18.147.40/32 }
+:if ([:len [find where list=$AddressList and address=109.61.88.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=109.61.88.0/24 }
+:if ([:len [find where list=$AddressList and address=109.61.92.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=109.61.92.0/24 }
+:if ([:len [find where list=$AddressList and address=138.199.14.0/23]] = 0) do={ add list=$AddressList comment=xhamster.com address=138.199.14.0/23 }
+:if ([:len [find where list=$AddressList and address=138.199.20.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=138.199.20.0/24 }
+:if ([:len [find where list=$AddressList and address=138.199.57.82/32]] = 0) do={ add list=$AddressList comment=xhamster.com address=138.199.57.82/32 }
+:if ([:len [find where list=$AddressList and address=143.244.32.0/19]] = 0) do={ add list=$AddressList comment=xhamster.com address=143.244.32.0/19 }
+:if ([:len [find where list=$AddressList and address=156.146.32.0/19]] = 0) do={ add list=$AddressList comment=xhamster.com address=156.146.32.0/19 }
+:if ([:len [find where list=$AddressList and address=169.150.192.0/18]] = 0) do={ add list=$AddressList comment=xhamster.com address=169.150.192.0/18 }
+:if ([:len [find where list=$AddressList and address=185.102.217.104/31]] = 0) do={ add list=$AddressList comment=xhamster.com address=185.102.217.104/31 }
+:if ([:len [find where list=$AddressList and address=185.102.217.37/32]] = 0) do={ add list=$AddressList comment=xhamster.com address=185.102.217.37/32 }
+:if ([:len [find where list=$AddressList and address=185.207.236.0/22]] = 0) do={ add list=$AddressList comment=xhamster.com address=185.207.236.0/22 }
+:if ([:len [find where list=$AddressList and address=185.59.222.0/25]] = 0) do={ add list=$AddressList comment=xhamster.com address=185.59.222.0/25 }
+:if ([:len [find where list=$AddressList and address=185.76.9.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=185.76.9.0/24 }
+:if ([:len [find where list=$AddressList and address=185.93.2.0/25]] = 0) do={ add list=$AddressList comment=xhamster.com address=185.93.2.0/25 }
+:if ([:len [find where list=$AddressList and address=195.181.162.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=195.181.162.0/24 }
+:if ([:len [find where list=$AddressList and address=195.181.174.0/23]] = 0) do={ add list=$AddressList comment=xhamster.com address=195.181.174.0/23 }
+:if ([:len [find where list=$AddressList and address=207.211.208.0/21]] = 0) do={ add list=$AddressList comment=xhamster.com address=207.211.208.0/21 }
+:if ([:len [find where list=$AddressList and address=208.99.64.0/19]] = 0) do={ add list=$AddressList comment=xhamster.com address=208.99.64.0/19 }
+:if ([:len [find where list=$AddressList and address=212.102.54.0/23]] = 0) do={ add list=$AddressList comment=xhamster.com address=212.102.54.0/23 }
+:if ([:len [find where list=$AddressList and address=212.102.56.0/23]] = 0) do={ add list=$AddressList comment=xhamster.com address=212.102.56.0/23 }
+:if ([:len [find where list=$AddressList and address=216.18.160.0/19]] = 0) do={ add list=$AddressList comment=xhamster.com address=216.18.160.0/19 }
+:if ([:len [find where list=$AddressList and address=37.19.203.26/31]] = 0) do={ add list=$AddressList comment=xhamster.com address=37.19.203.26/31 }
+:if ([:len [find where list=$AddressList and address=45.133.44.0/22]] = 0) do={ add list=$AddressList comment=xhamster.com address=45.133.44.0/22 }
+:if ([:len [find where list=$AddressList and address=46.151.194.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=46.151.194.0/24 }
+:if ([:len [find where list=$AddressList and address=64.210.128.0/19]] = 0) do={ add list=$AddressList comment=xhamster.com address=64.210.128.0/19 }
+:if ([:len [find where list=$AddressList and address=64.88.240.0/20]] = 0) do={ add list=$AddressList comment=xhamster.com address=64.88.240.0/20 }
+:if ([:len [find where list=$AddressList and address=66.254.96.0/19]] = 0) do={ add list=$AddressList comment=xhamster.com address=66.254.96.0/19 }
+:if ([:len [find where list=$AddressList and address=67.22.48.0/21]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.48.0/21 }
+:if ([:len [find where list=$AddressList and address=67.22.56.0/22]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.56.0/22 }
+:if ([:len [find where list=$AddressList and address=79.127.178.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=79.127.178.0/24 }
+:if ([:len [find where list=$AddressList and address=79.127.203.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=79.127.203.0/24 }
+:if ([:len [find where list=$AddressList and address=79.127.216.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=79.127.216.0/24 }
+:if ([:len [find where list=$AddressList and address=84.17.50.0/23]] = 0) do={ add list=$AddressList comment=xhamster.com address=84.17.50.0/23 }
+:if ([:len [find where list=$AddressList and address=84.17.56.0/23]] = 0) do={ add list=$AddressList comment=xhamster.com address=84.17.56.0/23 }
+:if ([:len [find where list=$AddressList and address=88.208.0.0/18]] = 0) do={ add list=$AddressList comment=xhamster.com address=88.208.0.0/18 }
+:if ([:len [find where list=$AddressList and address=89.187.162.0/25]] = 0) do={ add list=$AddressList comment=xhamster.com address=89.187.162.0/25 }
+:if ([:len [find where list=$AddressList and address=89.187.162.128/26]] = 0) do={ add list=$AddressList comment=xhamster.com address=89.187.162.128/26 }
+:if ([:len [find where list=$AddressList and address=89.187.163.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=89.187.163.0/24 }
+:if ([:len [find where list=$AddressList and address=89.187.164.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=89.187.164.0/24 }
+:if ([:len [find where list=$AddressList and address=89.187.166.0/23]] = 0) do={ add list=$AddressList comment=xhamster.com address=89.187.166.0/23 }
+:if ([:len [find where list=$AddressList and address=89.222.125.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=89.222.125.0/24 }
+:if ([:len [find where list=$AddressList and address=92.246.92.0/22]] = 0) do={ add list=$AddressList comment=xhamster.com address=92.246.92.0/22 }

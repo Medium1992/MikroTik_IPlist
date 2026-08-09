@@ -1,51 +1,53 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=holod.media address=104.21.112.1} on-error {}
-:do {add list=$AddressList comment=holod.media address=104.21.16.1} on-error {}
-:do {add list=$AddressList comment=holod.media address=104.21.32.1} on-error {}
-:do {add list=$AddressList comment=holod.media address=104.21.48.1} on-error {}
-:do {add list=$AddressList comment=holod.media address=104.21.5.248} on-error {}
-:do {add list=$AddressList comment=holod.media address=104.21.64.1} on-error {}
-:do {add list=$AddressList comment=holod.media address=104.21.80.1} on-error {}
-:do {add list=$AddressList comment=holod.media address=104.21.96.1} on-error {}
-:do {add list=$AddressList comment=holod.media address=146.75.117.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=146.75.121.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=146.75.29.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=146.75.53.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=146.75.61.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.1.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.129.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.193.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.205.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.209.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.245.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.37.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.45.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.5.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.61.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.65.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.85.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=151.101.9.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=165.22.91.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=172.67.134.19} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.96.0} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.96.10} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.96.12} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.96.3} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.96.7} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.96.9} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.97.0} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.97.10} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.97.12} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.97.3} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.97.7} on-error {}
-:do {add list=$AddressList comment=holod.media address=188.114.97.9} on-error {}
-:do {add list=$AddressList comment=holod.media address=199.232.169.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=199.232.173.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=199.232.189.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=199.232.37.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=199.232.41.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=199.232.81.194} on-error {}
-:do {add list=$AddressList comment=holod.media address=51.15.27.51} on-error {}
-:do {add list=$AddressList comment=holod.media address=51.15.27.55} on-error {}
-:do {add list=$AddressList comment=holod.media address=65.109.52.31} on-error {}
+:if ([:len [find where list=$AddressList and address=104.21.112.1]] = 0) do={ add list=$AddressList comment=holod.media address=104.21.112.1 }
+:if ([:len [find where list=$AddressList and address=104.21.16.1]] = 0) do={ add list=$AddressList comment=holod.media address=104.21.16.1 }
+:if ([:len [find where list=$AddressList and address=104.21.32.1]] = 0) do={ add list=$AddressList comment=holod.media address=104.21.32.1 }
+:if ([:len [find where list=$AddressList and address=104.21.48.1]] = 0) do={ add list=$AddressList comment=holod.media address=104.21.48.1 }
+:if ([:len [find where list=$AddressList and address=104.21.5.248]] = 0) do={ add list=$AddressList comment=holod.media address=104.21.5.248 }
+:if ([:len [find where list=$AddressList and address=104.21.64.1]] = 0) do={ add list=$AddressList comment=holod.media address=104.21.64.1 }
+:if ([:len [find where list=$AddressList and address=104.21.80.1]] = 0) do={ add list=$AddressList comment=holod.media address=104.21.80.1 }
+:if ([:len [find where list=$AddressList and address=104.21.96.1]] = 0) do={ add list=$AddressList comment=holod.media address=104.21.96.1 }
+:if ([:len [find where list=$AddressList and address=146.75.117.194]] = 0) do={ add list=$AddressList comment=holod.media address=146.75.117.194 }
+:if ([:len [find where list=$AddressList and address=146.75.121.194]] = 0) do={ add list=$AddressList comment=holod.media address=146.75.121.194 }
+:if ([:len [find where list=$AddressList and address=146.75.29.194]] = 0) do={ add list=$AddressList comment=holod.media address=146.75.29.194 }
+:if ([:len [find where list=$AddressList and address=146.75.53.194]] = 0) do={ add list=$AddressList comment=holod.media address=146.75.53.194 }
+:if ([:len [find where list=$AddressList and address=146.75.61.194]] = 0) do={ add list=$AddressList comment=holod.media address=146.75.61.194 }
+:if ([:len [find where list=$AddressList and address=151.101.1.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.1.194 }
+:if ([:len [find where list=$AddressList and address=151.101.129.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.129.194 }
+:if ([:len [find where list=$AddressList and address=151.101.193.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.193.194 }
+:if ([:len [find where list=$AddressList and address=151.101.205.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.205.194 }
+:if ([:len [find where list=$AddressList and address=151.101.209.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.209.194 }
+:if ([:len [find where list=$AddressList and address=151.101.245.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.245.194 }
+:if ([:len [find where list=$AddressList and address=151.101.37.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.37.194 }
+:if ([:len [find where list=$AddressList and address=151.101.45.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.45.194 }
+:if ([:len [find where list=$AddressList and address=151.101.5.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.5.194 }
+:if ([:len [find where list=$AddressList and address=151.101.61.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.61.194 }
+:if ([:len [find where list=$AddressList and address=151.101.65.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.65.194 }
+:if ([:len [find where list=$AddressList and address=151.101.85.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.85.194 }
+:if ([:len [find where list=$AddressList and address=151.101.9.194]] = 0) do={ add list=$AddressList comment=holod.media address=151.101.9.194 }
+:if ([:len [find where list=$AddressList and address=165.22.91.194]] = 0) do={ add list=$AddressList comment=holod.media address=165.22.91.194 }
+:if ([:len [find where list=$AddressList and address=172.67.134.19]] = 0) do={ add list=$AddressList comment=holod.media address=172.67.134.19 }
+:if ([:len [find where list=$AddressList and address=188.114.96.0]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.96.0 }
+:if ([:len [find where list=$AddressList and address=188.114.96.10]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.96.10 }
+:if ([:len [find where list=$AddressList and address=188.114.96.12]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.96.12 }
+:if ([:len [find where list=$AddressList and address=188.114.96.2]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.96.2 }
+:if ([:len [find where list=$AddressList and address=188.114.96.3]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.96.3 }
+:if ([:len [find where list=$AddressList and address=188.114.96.7]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.96.7 }
+:if ([:len [find where list=$AddressList and address=188.114.96.9]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.96.9 }
+:if ([:len [find where list=$AddressList and address=188.114.97.0]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.97.0 }
+:if ([:len [find where list=$AddressList and address=188.114.97.10]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.97.10 }
+:if ([:len [find where list=$AddressList and address=188.114.97.12]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.97.12 }
+:if ([:len [find where list=$AddressList and address=188.114.97.2]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.97.2 }
+:if ([:len [find where list=$AddressList and address=188.114.97.3]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.97.3 }
+:if ([:len [find where list=$AddressList and address=188.114.97.7]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.97.7 }
+:if ([:len [find where list=$AddressList and address=188.114.97.9]] = 0) do={ add list=$AddressList comment=holod.media address=188.114.97.9 }
+:if ([:len [find where list=$AddressList and address=199.232.169.194]] = 0) do={ add list=$AddressList comment=holod.media address=199.232.169.194 }
+:if ([:len [find where list=$AddressList and address=199.232.173.194]] = 0) do={ add list=$AddressList comment=holod.media address=199.232.173.194 }
+:if ([:len [find where list=$AddressList and address=199.232.189.194]] = 0) do={ add list=$AddressList comment=holod.media address=199.232.189.194 }
+:if ([:len [find where list=$AddressList and address=199.232.37.194]] = 0) do={ add list=$AddressList comment=holod.media address=199.232.37.194 }
+:if ([:len [find where list=$AddressList and address=199.232.41.194]] = 0) do={ add list=$AddressList comment=holod.media address=199.232.41.194 }
+:if ([:len [find where list=$AddressList and address=199.232.81.194]] = 0) do={ add list=$AddressList comment=holod.media address=199.232.81.194 }
+:if ([:len [find where list=$AddressList and address=51.15.27.51]] = 0) do={ add list=$AddressList comment=holod.media address=51.15.27.51 }
+:if ([:len [find where list=$AddressList and address=51.15.27.55]] = 0) do={ add list=$AddressList comment=holod.media address=51.15.27.55 }
+:if ([:len [find where list=$AddressList and address=65.109.52.31]] = 0) do={ add list=$AddressList comment=holod.media address=65.109.52.31 }

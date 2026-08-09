@@ -1,38 +1,40 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=beeg.com address=104.17.117.12} on-error {}
-:do {add list=$AddressList comment=beeg.com address=104.17.118.12} on-error {}
-:do {add list=$AddressList comment=beeg.com address=104.21.112.1} on-error {}
-:do {add list=$AddressList comment=beeg.com address=104.21.16.1} on-error {}
-:do {add list=$AddressList comment=beeg.com address=104.21.32.1} on-error {}
-:do {add list=$AddressList comment=beeg.com address=104.21.48.1} on-error {}
-:do {add list=$AddressList comment=beeg.com address=104.21.56.86} on-error {}
-:do {add list=$AddressList comment=beeg.com address=104.21.64.1} on-error {}
-:do {add list=$AddressList comment=beeg.com address=104.21.79.118} on-error {}
-:do {add list=$AddressList comment=beeg.com address=104.21.80.1} on-error {}
-:do {add list=$AddressList comment=beeg.com address=104.21.96.1} on-error {}
-:do {add list=$AddressList comment=beeg.com address=172.67.170.134} on-error {}
-:do {add list=$AddressList comment=beeg.com address=172.67.181.179} on-error {}
-:do {add list=$AddressList comment=beeg.com address=185.185.15.5} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.96.0} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.96.1} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.96.10} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.96.12} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.96.2} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.96.3} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.96.4} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.96.7} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.96.9} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.97.0} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.97.1} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.97.10} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.97.12} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.97.2} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.97.3} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.97.4} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.97.7} on-error {}
-:do {add list=$AddressList comment=beeg.com address=188.114.97.9} on-error {}
-:do {add list=$AddressList comment=beeg.com address=45.133.44.26} on-error {}
-:do {add list=$AddressList comment=beeg.com address=45.133.44.27} on-error {}
-:do {add list=$AddressList comment=beeg.com address=45.133.45.26} on-error {}
-:do {add list=$AddressList comment=beeg.com address=45.133.45.27} on-error {}
+:if ([:len [find where list=$AddressList and address=104.17.117.12]] = 0) do={ add list=$AddressList comment=beeg.com address=104.17.117.12 }
+:if ([:len [find where list=$AddressList and address=104.17.118.12]] = 0) do={ add list=$AddressList comment=beeg.com address=104.17.118.12 }
+:if ([:len [find where list=$AddressList and address=104.21.112.1]] = 0) do={ add list=$AddressList comment=beeg.com address=104.21.112.1 }
+:if ([:len [find where list=$AddressList and address=104.21.16.1]] = 0) do={ add list=$AddressList comment=beeg.com address=104.21.16.1 }
+:if ([:len [find where list=$AddressList and address=104.21.32.1]] = 0) do={ add list=$AddressList comment=beeg.com address=104.21.32.1 }
+:if ([:len [find where list=$AddressList and address=104.21.48.1]] = 0) do={ add list=$AddressList comment=beeg.com address=104.21.48.1 }
+:if ([:len [find where list=$AddressList and address=104.21.56.86]] = 0) do={ add list=$AddressList comment=beeg.com address=104.21.56.86 }
+:if ([:len [find where list=$AddressList and address=104.21.64.1]] = 0) do={ add list=$AddressList comment=beeg.com address=104.21.64.1 }
+:if ([:len [find where list=$AddressList and address=104.21.79.118]] = 0) do={ add list=$AddressList comment=beeg.com address=104.21.79.118 }
+:if ([:len [find where list=$AddressList and address=104.21.80.1]] = 0) do={ add list=$AddressList comment=beeg.com address=104.21.80.1 }
+:if ([:len [find where list=$AddressList and address=104.21.96.1]] = 0) do={ add list=$AddressList comment=beeg.com address=104.21.96.1 }
+:if ([:len [find where list=$AddressList and address=172.67.170.134]] = 0) do={ add list=$AddressList comment=beeg.com address=172.67.170.134 }
+:if ([:len [find where list=$AddressList and address=172.67.181.179]] = 0) do={ add list=$AddressList comment=beeg.com address=172.67.181.179 }
+:if ([:len [find where list=$AddressList and address=185.185.15.5]] = 0) do={ add list=$AddressList comment=beeg.com address=185.185.15.5 }
+:if ([:len [find where list=$AddressList and address=188.114.96.0]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.96.0 }
+:if ([:len [find where list=$AddressList and address=188.114.96.1]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.96.1 }
+:if ([:len [find where list=$AddressList and address=188.114.96.10]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.96.10 }
+:if ([:len [find where list=$AddressList and address=188.114.96.12]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.96.12 }
+:if ([:len [find where list=$AddressList and address=188.114.96.2]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.96.2 }
+:if ([:len [find where list=$AddressList and address=188.114.96.3]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.96.3 }
+:if ([:len [find where list=$AddressList and address=188.114.96.4]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.96.4 }
+:if ([:len [find where list=$AddressList and address=188.114.96.7]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.96.7 }
+:if ([:len [find where list=$AddressList and address=188.114.96.9]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.96.9 }
+:if ([:len [find where list=$AddressList and address=188.114.97.0]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.97.0 }
+:if ([:len [find where list=$AddressList and address=188.114.97.1]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.97.1 }
+:if ([:len [find where list=$AddressList and address=188.114.97.10]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.97.10 }
+:if ([:len [find where list=$AddressList and address=188.114.97.12]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.97.12 }
+:if ([:len [find where list=$AddressList and address=188.114.97.2]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.97.2 }
+:if ([:len [find where list=$AddressList and address=188.114.97.3]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.97.3 }
+:if ([:len [find where list=$AddressList and address=188.114.97.4]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.97.4 }
+:if ([:len [find where list=$AddressList and address=188.114.97.7]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.97.7 }
+:if ([:len [find where list=$AddressList and address=188.114.97.9]] = 0) do={ add list=$AddressList comment=beeg.com address=188.114.97.9 }
+:if ([:len [find where list=$AddressList and address=45.133.44.26]] = 0) do={ add list=$AddressList comment=beeg.com address=45.133.44.26 }
+:if ([:len [find where list=$AddressList and address=45.133.44.27]] = 0) do={ add list=$AddressList comment=beeg.com address=45.133.44.27 }
+:if ([:len [find where list=$AddressList and address=45.133.45.26]] = 0) do={ add list=$AddressList comment=beeg.com address=45.133.45.26 }
+:if ([:len [find where list=$AddressList and address=45.133.45.27]] = 0) do={ add list=$AddressList comment=beeg.com address=45.133.45.27 }
+:if ([:len [find where list=$AddressList and address=92.246.95.227]] = 0) do={ add list=$AddressList comment=beeg.com address=92.246.95.227 }
+:if ([:len [find where list=$AddressList and address=92.246.95.228]] = 0) do={ add list=$AddressList comment=beeg.com address=92.246.95.228 }

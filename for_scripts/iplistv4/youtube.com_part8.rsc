@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=youtube.com address=120.28.26.206} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.28.26.207} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.28.26.209} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.28.26.210} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.28.26.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.28.26.80} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.28.26.81} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.28.26.82} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.72.31.237} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.89.6.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.89.97.143} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.89.97.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.89.97.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.89.97.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.89.97.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=120.89.97.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=121.46.70.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=121.46.70.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=121.78.42.79} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.10.85.4} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.144.2.204} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.144.2.205} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.152.51.205} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.152.53.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.154.76.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.152.209} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.108} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.140} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.142} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.17} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.172} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.174} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.18} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.19} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.204} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.208} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.44} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.45} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.46} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.49} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.81} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.82} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.214.83} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.108} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.111} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.112} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.114} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.115} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.143} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.145} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.147} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.17} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.174} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.175} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.176} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.177} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.179} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.18} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.19} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.205} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.207} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.209} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.210} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.45} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.47} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.49} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.50} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.80} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.82} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.2.215.83} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.201.16.140} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.201.16.142} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.248.226.57} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.252.245.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=122.252.245.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.140} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.144} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.146} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.147} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.44} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.45} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.47} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.48} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.243.79} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.247.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.247.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.108.247.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.105.204} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.105.205} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.105.206} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.105.210} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.105.44} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.105.46} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.105.47} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.114.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.114.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.114.142} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.114.143} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.114.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.114.18} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.114.19} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.121.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.121.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.136.121.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.176.32.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.176.32.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.176.32.79} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.176.33.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.176.33.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.176.33.79} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.176.33.83} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.208.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.208.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.208.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.208.80} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.25.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.25.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.25.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.25.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.25.44} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.25.46} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.212.25.49} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.241.255.108} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.241.255.109} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.241.255.111} on-error {}
-:do {add list=$AddressList comment=youtube.com address=123.253.39.8} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.108.16.140} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.108.16.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.108.16.142} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.108.16.143} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.108.16.144} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.108.16.145} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.108.16.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.109.34.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.109.34.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.11.210.175} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.121.163.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.121.163.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.217.179.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.217.179.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.217.179.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.248.162.205} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.29.193.173} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.40.244.44} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.6.133.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.6.133.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.6.133.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=124.6.133.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.214.167.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.214.167.140} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.214.167.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.214.167.143} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.214.167.145} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.214.167.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.214.167.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.214.167.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.48.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.48.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.48.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.48.18} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.48.46} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.48.51} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.49.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.49.44} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.49.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.50.140} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.50.142} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.50.143} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.50.146} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.50.147} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.51.207} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.51.209} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.51.210} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.51.211} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.51.236} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.51.237} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.55.205} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.234.55.209} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.17.140} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.17.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.17.142} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.17.144} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.17.145} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.17.146} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.31.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.31.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.31.79} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.31.81} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.31.83} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.36.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.36.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.36.17} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.36.19} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.36.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.36.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.36.79} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.36.80} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.235.36.82} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.99.88.205} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.99.88.207} on-error {}
-:do {add list=$AddressList comment=youtube.com address=125.99.88.209} on-error {}
-:do {add list=$AddressList comment=youtube.com address=126.209.113.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=126.209.113.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=126.209.113.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.0.169.204} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.146.101} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.146.109} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.146.228} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.146.235} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.243.106} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.243.107} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.243.228} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.243.235} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.243.75} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.243.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.121.243.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.117} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.125} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.149} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.155} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.157} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.180} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.189} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.20} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.212} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.218} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.221} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.244} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.253} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.29} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.59} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.61} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.85} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.91} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.240.93} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.125} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.157} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.180} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.189} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.212} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.221} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.244} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.253} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.29} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.43} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.245.93} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.250.148} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.250.155} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.242.250.157} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.235.236} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.235.237} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.235.238} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.235.240} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.235.241} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.236.108} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.236.109} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.236.110} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.236.172} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.236.205} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.236.206} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.236.207} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.236.208} on-error {}
-:do {add list=$AddressList comment=youtube.com address=128.75.236.209} on-error {}
-:do {add list=$AddressList comment=youtube.com address=130.211.15.150} on-error {}
-:do {add list=$AddressList comment=youtube.com address=136.22.136.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=136.22.137.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=137.59.122.109} on-error {}
-:do {add list=$AddressList comment=youtube.com address=137.59.26.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=137.59.26.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=137.59.33.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=137.59.33.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=137.59.33.79} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.108} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.142} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.143} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.145} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.172} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.174} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.18} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.19} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.211} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.213} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.214} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.215} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.216} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.218} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.220} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.221} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.222} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.44} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.47} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.79} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.69.80} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.70.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.70.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.70.141} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.70.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=139.5.70.17} on-error {}
-:do {add list=$AddressList comment=youtube.com address=14.102.170.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=14.102.171.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=14.102.171.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=14.192.150.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.108} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.136} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.137} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.16} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.17} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.44} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.47} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.48} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.77} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=140.213.63.79} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.161.0.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.161.0.13} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.161.0.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.161.0.15} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.161.132.12} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.161.132.14} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.161.132.76} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.161.132.78} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.161.132.81} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.0.100} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.0.101} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.0.102} on-error {}
-:do {add list=$AddressList comment=youtube.com address=142.250.0.103} on-error {}
+:if ([:len [find where list=$AddressList and address=112.79.42.209]] = 0) do={ add list=$AddressList comment=youtube.com address=112.79.42.209 }
+:if ([:len [find where list=$AddressList and address=112.79.43.77]] = 0) do={ add list=$AddressList comment=youtube.com address=112.79.43.77 }
+:if ([:len [find where list=$AddressList and address=112.79.43.79]] = 0) do={ add list=$AddressList comment=youtube.com address=112.79.43.79 }
+:if ([:len [find where list=$AddressList and address=112.79.43.82]] = 0) do={ add list=$AddressList comment=youtube.com address=112.79.43.82 }
+:if ([:len [find where list=$AddressList and address=113.108.239.161]] = 0) do={ add list=$AddressList comment=youtube.com address=113.108.239.161 }
+:if ([:len [find where list=$AddressList and address=113.108.239.194]] = 0) do={ add list=$AddressList comment=youtube.com address=113.108.239.194 }
+:if ([:len [find where list=$AddressList and address=113.108.239.225]] = 0) do={ add list=$AddressList comment=youtube.com address=113.108.239.225 }
+:if ([:len [find where list=$AddressList and address=113.171.192.14]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.14 }
+:if ([:len [find where list=$AddressList and address=113.171.192.140]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.140 }
+:if ([:len [find where list=$AddressList and address=113.171.192.142]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.142 }
+:if ([:len [find where list=$AddressList and address=113.171.192.15]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.15 }
+:if ([:len [find where list=$AddressList and address=113.171.192.16]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.16 }
+:if ([:len [find where list=$AddressList and address=113.171.192.17]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.17 }
+:if ([:len [find where list=$AddressList and address=113.171.192.172]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.172 }
+:if ([:len [find where list=$AddressList and address=113.171.192.174]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.174 }
+:if ([:len [find where list=$AddressList and address=113.171.192.18]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.18 }
+:if ([:len [find where list=$AddressList and address=113.171.192.19]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.19 }
+:if ([:len [find where list=$AddressList and address=113.171.192.204]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.204 }
+:if ([:len [find where list=$AddressList and address=113.171.192.205]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.205 }
+:if ([:len [find where list=$AddressList and address=113.171.192.236]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.236 }
+:if ([:len [find where list=$AddressList and address=113.171.192.237]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.237 }
+:if ([:len [find where list=$AddressList and address=113.171.192.76]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.76 }
+:if ([:len [find where list=$AddressList and address=113.171.192.78]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.78 }
+:if ([:len [find where list=$AddressList and address=113.171.192.79]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.79 }
+:if ([:len [find where list=$AddressList and address=113.171.192.80]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.80 }
+:if ([:len [find where list=$AddressList and address=113.171.192.82]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.82 }
+:if ([:len [find where list=$AddressList and address=113.171.192.83]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.192.83 }
+:if ([:len [find where list=$AddressList and address=113.171.193.108]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.108 }
+:if ([:len [find where list=$AddressList and address=113.171.193.109]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.109 }
+:if ([:len [find where list=$AddressList and address=113.171.193.13]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.13 }
+:if ([:len [find where list=$AddressList and address=113.171.193.143]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.143 }
+:if ([:len [find where list=$AddressList and address=113.171.193.16]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.16 }
+:if ([:len [find where list=$AddressList and address=113.171.193.206]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.206 }
+:if ([:len [find where list=$AddressList and address=113.171.193.208]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.208 }
+:if ([:len [find where list=$AddressList and address=113.171.193.44]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.44 }
+:if ([:len [find where list=$AddressList and address=113.171.193.77]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.77 }
+:if ([:len [find where list=$AddressList and address=113.171.193.78]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.78 }
+:if ([:len [find where list=$AddressList and address=113.171.193.79]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.79 }
+:if ([:len [find where list=$AddressList and address=113.171.193.80]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.80 }
+:if ([:len [find where list=$AddressList and address=113.171.193.81]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.193.81 }
+:if ([:len [find where list=$AddressList and address=113.171.195.108]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.195.108 }
+:if ([:len [find where list=$AddressList and address=113.171.195.110]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.195.110 }
+:if ([:len [find where list=$AddressList and address=113.171.195.111]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.195.111 }
+:if ([:len [find where list=$AddressList and address=113.171.195.140]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.195.140 }
+:if ([:len [find where list=$AddressList and address=113.171.195.141]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.195.141 }
+:if ([:len [find where list=$AddressList and address=113.171.195.173]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.195.173 }
+:if ([:len [find where list=$AddressList and address=113.171.195.174]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.195.174 }
+:if ([:len [find where list=$AddressList and address=113.171.195.175]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.195.175 }
+:if ([:len [find where list=$AddressList and address=113.171.195.46]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.195.46 }
+:if ([:len [find where list=$AddressList and address=113.171.195.79]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.195.79 }
+:if ([:len [find where list=$AddressList and address=113.171.196.14]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.196.14 }
+:if ([:len [find where list=$AddressList and address=113.171.196.15]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.196.15 }
+:if ([:len [find where list=$AddressList and address=113.171.196.44]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.196.44 }
+:if ([:len [find where list=$AddressList and address=113.171.196.45]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.196.45 }
+:if ([:len [find where list=$AddressList and address=113.171.198.110]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.110 }
+:if ([:len [find where list=$AddressList and address=113.171.198.111]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.111 }
+:if ([:len [find where list=$AddressList and address=113.171.198.12]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.12 }
+:if ([:len [find where list=$AddressList and address=113.171.198.14]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.14 }
+:if ([:len [find where list=$AddressList and address=113.171.198.141]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.141 }
+:if ([:len [find where list=$AddressList and address=113.171.198.142]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.142 }
+:if ([:len [find where list=$AddressList and address=113.171.198.15]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.15 }
+:if ([:len [find where list=$AddressList and address=113.171.198.16]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.16 }
+:if ([:len [find where list=$AddressList and address=113.171.198.17]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.17 }
+:if ([:len [find where list=$AddressList and address=113.171.198.173]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.173 }
+:if ([:len [find where list=$AddressList and address=113.171.198.175]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.175 }
+:if ([:len [find where list=$AddressList and address=113.171.198.18]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.18 }
+:if ([:len [find where list=$AddressList and address=113.171.198.19]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.19 }
+:if ([:len [find where list=$AddressList and address=113.171.198.204]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.204 }
+:if ([:len [find where list=$AddressList and address=113.171.198.205]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.205 }
+:if ([:len [find where list=$AddressList and address=113.171.198.207]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.207 }
+:if ([:len [find where list=$AddressList and address=113.171.198.208]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.208 }
+:if ([:len [find where list=$AddressList and address=113.171.198.236]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.236 }
+:if ([:len [find where list=$AddressList and address=113.171.198.238]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.238 }
+:if ([:len [find where list=$AddressList and address=113.171.198.76]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.76 }
+:if ([:len [find where list=$AddressList and address=113.171.198.77]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.77 }
+:if ([:len [find where list=$AddressList and address=113.171.198.78]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.78 }
+:if ([:len [find where list=$AddressList and address=113.171.198.80]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.80 }
+:if ([:len [find where list=$AddressList and address=113.171.198.81]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.81 }
+:if ([:len [find where list=$AddressList and address=113.171.198.82]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.198.82 }
+:if ([:len [find where list=$AddressList and address=113.171.200.140]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.140 }
+:if ([:len [find where list=$AddressList and address=113.171.200.142]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.142 }
+:if ([:len [find where list=$AddressList and address=113.171.200.204]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.204 }
+:if ([:len [find where list=$AddressList and address=113.171.200.205]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.205 }
+:if ([:len [find where list=$AddressList and address=113.171.200.206]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.206 }
+:if ([:len [find where list=$AddressList and address=113.171.200.207]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.207 }
+:if ([:len [find where list=$AddressList and address=113.171.200.44]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.44 }
+:if ([:len [find where list=$AddressList and address=113.171.200.45]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.45 }
+:if ([:len [find where list=$AddressList and address=113.171.200.47]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.47 }
+:if ([:len [find where list=$AddressList and address=113.171.200.77]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.77 }
+:if ([:len [find where list=$AddressList and address=113.171.200.78]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.78 }
+:if ([:len [find where list=$AddressList and address=113.171.200.79]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.200.79 }
+:if ([:len [find where list=$AddressList and address=113.171.202.109]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.109 }
+:if ([:len [find where list=$AddressList and address=113.171.202.111]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.111 }
+:if ([:len [find where list=$AddressList and address=113.171.202.13]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.13 }
+:if ([:len [find where list=$AddressList and address=113.171.202.14]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.14 }
+:if ([:len [find where list=$AddressList and address=113.171.202.141]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.141 }
+:if ([:len [find where list=$AddressList and address=113.171.202.15]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.15 }
+:if ([:len [find where list=$AddressList and address=113.171.202.16]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.16 }
+:if ([:len [find where list=$AddressList and address=113.171.202.17]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.17 }
+:if ([:len [find where list=$AddressList and address=113.171.202.172]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.172 }
+:if ([:len [find where list=$AddressList and address=113.171.202.174]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.174 }
+:if ([:len [find where list=$AddressList and address=113.171.202.175]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.175 }
+:if ([:len [find where list=$AddressList and address=113.171.202.18]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.18 }
+:if ([:len [find where list=$AddressList and address=113.171.202.19]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.19 }
+:if ([:len [find where list=$AddressList and address=113.171.202.204]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.204 }
+:if ([:len [find where list=$AddressList and address=113.171.202.205]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.205 }
+:if ([:len [find where list=$AddressList and address=113.171.202.206]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.206 }
+:if ([:len [find where list=$AddressList and address=113.171.202.237]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.237 }
+:if ([:len [find where list=$AddressList and address=113.171.202.238]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.238 }
+:if ([:len [find where list=$AddressList and address=113.171.202.76]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.76 }
+:if ([:len [find where list=$AddressList and address=113.171.202.78]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.78 }
+:if ([:len [find where list=$AddressList and address=113.171.202.81]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.202.81 }
+:if ([:len [find where list=$AddressList and address=113.171.203.12]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.12 }
+:if ([:len [find where list=$AddressList and address=113.171.203.14]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.14 }
+:if ([:len [find where list=$AddressList and address=113.171.203.141]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.141 }
+:if ([:len [find where list=$AddressList and address=113.171.203.145]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.145 }
+:if ([:len [find where list=$AddressList and address=113.171.203.146]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.146 }
+:if ([:len [find where list=$AddressList and address=113.171.203.147]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.147 }
+:if ([:len [find where list=$AddressList and address=113.171.203.204]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.204 }
+:if ([:len [find where list=$AddressList and address=113.171.203.209]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.209 }
+:if ([:len [find where list=$AddressList and address=113.171.203.236]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.236 }
+:if ([:len [find where list=$AddressList and address=113.171.203.239]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.239 }
+:if ([:len [find where list=$AddressList and address=113.171.203.240]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.240 }
+:if ([:len [find where list=$AddressList and address=113.171.203.44]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.44 }
+:if ([:len [find where list=$AddressList and address=113.171.203.76]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.76 }
+:if ([:len [find where list=$AddressList and address=113.171.203.77]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.77 }
+:if ([:len [find where list=$AddressList and address=113.171.203.78]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.78 }
+:if ([:len [find where list=$AddressList and address=113.171.203.80]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.203.80 }
+:if ([:len [find where list=$AddressList and address=113.171.204.110]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.110 }
+:if ([:len [find where list=$AddressList and address=113.171.204.111]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.111 }
+:if ([:len [find where list=$AddressList and address=113.171.204.14]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.14 }
+:if ([:len [find where list=$AddressList and address=113.171.204.142]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.142 }
+:if ([:len [find where list=$AddressList and address=113.171.204.143]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.143 }
+:if ([:len [find where list=$AddressList and address=113.171.204.15]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.15 }
+:if ([:len [find where list=$AddressList and address=113.171.204.173]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.173 }
+:if ([:len [find where list=$AddressList and address=113.171.204.175]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.175 }
+:if ([:len [find where list=$AddressList and address=113.171.204.206]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.206 }
+:if ([:len [find where list=$AddressList and address=113.171.204.236]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.236 }
+:if ([:len [find where list=$AddressList and address=113.171.204.237]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.237 }
+:if ([:len [find where list=$AddressList and address=113.171.204.238]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.238 }
+:if ([:len [find where list=$AddressList and address=113.171.204.45]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.45 }
+:if ([:len [find where list=$AddressList and address=113.171.204.77]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.77 }
+:if ([:len [find where list=$AddressList and address=113.171.204.78]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.204.78 }
+:if ([:len [find where list=$AddressList and address=113.171.206.12]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.12 }
+:if ([:len [find where list=$AddressList and address=113.171.206.13]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.13 }
+:if ([:len [find where list=$AddressList and address=113.171.206.14]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.14 }
+:if ([:len [find where list=$AddressList and address=113.171.206.143]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.143 }
+:if ([:len [find where list=$AddressList and address=113.171.206.144]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.144 }
+:if ([:len [find where list=$AddressList and address=113.171.206.145]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.145 }
+:if ([:len [find where list=$AddressList and address=113.171.206.147]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.147 }
+:if ([:len [find where list=$AddressList and address=113.171.206.15]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.15 }
+:if ([:len [find where list=$AddressList and address=113.171.206.18]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.18 }
+:if ([:len [find where list=$AddressList and address=113.171.206.19]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.19 }
+:if ([:len [find where list=$AddressList and address=113.171.206.206]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.206 }
+:if ([:len [find where list=$AddressList and address=113.171.206.236]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.236 }
+:if ([:len [find where list=$AddressList and address=113.171.206.238]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.238 }
+:if ([:len [find where list=$AddressList and address=113.171.206.76]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.76 }
+:if ([:len [find where list=$AddressList and address=113.171.206.77]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.77 }
+:if ([:len [find where list=$AddressList and address=113.171.206.79]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.79 }
+:if ([:len [find where list=$AddressList and address=113.171.206.80]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.80 }
+:if ([:len [find where list=$AddressList and address=113.171.206.82]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.82 }
+:if ([:len [find where list=$AddressList and address=113.171.206.83]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.206.83 }
+:if ([:len [find where list=$AddressList and address=113.171.207.110]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.110 }
+:if ([:len [find where list=$AddressList and address=113.171.207.111]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.111 }
+:if ([:len [find where list=$AddressList and address=113.171.207.13]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.13 }
+:if ([:len [find where list=$AddressList and address=113.171.207.14]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.14 }
+:if ([:len [find where list=$AddressList and address=113.171.207.143]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.143 }
+:if ([:len [find where list=$AddressList and address=113.171.207.207]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.207 }
+:if ([:len [find where list=$AddressList and address=113.171.207.45]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.45 }
+:if ([:len [find where list=$AddressList and address=113.171.207.46]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.46 }
+:if ([:len [find where list=$AddressList and address=113.171.207.47]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.47 }
+:if ([:len [find where list=$AddressList and address=113.171.207.77]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.77 }
+:if ([:len [find where list=$AddressList and address=113.171.207.78]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.78 }
+:if ([:len [find where list=$AddressList and address=113.171.207.79]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.207.79 }
+:if ([:len [find where list=$AddressList and address=113.171.212.108]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.212.108 }
+:if ([:len [find where list=$AddressList and address=113.171.212.111]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.212.111 }
+:if ([:len [find where list=$AddressList and address=113.171.212.113]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.212.113 }
+:if ([:len [find where list=$AddressList and address=113.171.212.13]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.212.13 }
+:if ([:len [find where list=$AddressList and address=113.171.212.141]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.212.141 }
+:if ([:len [find where list=$AddressList and address=113.171.212.142]] = 0) do={ add list=$AddressList comment=youtube.com address=113.171.212.142 }

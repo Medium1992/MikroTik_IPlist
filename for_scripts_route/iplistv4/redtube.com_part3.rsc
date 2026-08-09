@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=67.22.57.177 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.177 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
+:if ([:len [/ip/route/find dst-address=67.22.57.178 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.178 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
+:if ([:len [/ip/route/find dst-address=67.22.57.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
+:if ([:len [/ip/route/find dst-address=67.22.57.180 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.180 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
+:if ([:len [/ip/route/find dst-address=67.22.57.181 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.181 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
+:if ([:len [/ip/route/find dst-address=67.22.57.182 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.182 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
 :if ([:len [/ip/route/find dst-address=67.22.57.183 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.183 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
 :if ([:len [/ip/route/find dst-address=67.22.57.192 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.192 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
 :if ([:len [/ip/route/find dst-address=67.22.57.193 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.193 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }

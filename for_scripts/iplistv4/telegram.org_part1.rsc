@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=telegram.org address=100.27.77.180} on-error {}
-:do {add list=$AddressList comment=telegram.org address=104.17.70.206} on-error {}
-:do {add list=$AddressList comment=telegram.org address=104.17.71.206} on-error {}
-:do {add list=$AddressList comment=telegram.org address=104.17.72.206} on-error {}
-:do {add list=$AddressList comment=telegram.org address=104.17.73.206} on-error {}
-:do {add list=$AddressList comment=telegram.org address=104.17.74.206} on-error {}
-:do {add list=$AddressList comment=telegram.org address=104.20.26.203} on-error {}
-:do {add list=$AddressList comment=telegram.org address=108.177.127.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=108.177.14.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=108.177.15.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.1} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.10} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.15} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.17} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.21} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.22} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.24} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.29} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.36} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.44} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.50} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.230.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.231.14} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.231.31} on-error {}
-:do {add list=$AddressList comment=telegram.org address=132.245.231.9} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.102.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.110.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.150.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.178.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.178.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.180.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.180.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.180.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.180.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.181.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.181.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.181.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.184.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.184.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.185.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.185.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.186.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.186.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.186.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.187.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.187.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.187.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.200.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.201.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.201.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.201.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.203.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.203.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.203.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.203.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.27.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.74.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.74.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.74.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.74.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.74.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.250.74.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.1.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.140.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.140.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.140.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.140.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.141.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.141.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.141.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.141.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.142.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.142.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.142.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.143.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.143.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.143.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.143.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.143.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.143.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.143.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.143.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.173.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.18.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.208.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.208.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.208.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.209.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.31.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.36.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.36.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.36.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.36.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.36.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.36.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.37.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.37.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.37.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.38.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.38.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.38.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.38.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.39.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.39.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.39.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.39.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=142.251.39.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=146.75.118.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=146.75.118.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=146.75.122.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=146.75.122.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=146.75.54.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=146.75.54.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.162.203} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.162.204} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.162.247} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.164.13} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.164.24} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.164.25} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.164.3} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.165.111} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.165.133} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.165.137} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.166.110} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.167.220} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.167.222} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.167.41} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.167.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.167.80} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.167.99} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.171.236} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.171.237} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.175.204} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.175.205} on-error {}
-:do {add list=$AddressList comment=telegram.org address=149.154.175.54} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.122.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.122.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.130.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.130.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.194.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.194.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.2.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.2.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.206.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.206.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.238.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.246.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.246.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.38.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.38.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.6.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.6.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.66.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=151.101.66.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=170.149.97.42} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.16.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.16.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.16.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.168.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.168.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.168.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.169.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.169.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.169.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.169.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.17.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.17.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.17.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.17.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.171.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.171.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.171.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.18.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.18.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.19.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.19.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.19.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.20.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.20.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.20.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.20.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.20.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.208.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.21.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.21.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.21.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.22.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.22.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.22.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.22.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.23.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.23.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.23.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.23.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.23.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.217.23.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.253.130.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.253.152.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=172.66.170.24} on-error {}
-:do {add list=$AddressList comment=telegram.org address=173.194.220.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=173.194.221.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=173.194.222.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=173.194.73.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=174.143.223.9} on-error {}
-:do {add list=$AddressList comment=telegram.org address=178.128.255.27} on-error {}
-:do {add list=$AddressList comment=telegram.org address=18.184.99.30} on-error {}
-:do {add list=$AddressList comment=telegram.org address=188.166.3.205} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.170.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.202.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.203.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.204.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.24.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.24.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.24.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.24.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.25.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.25.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=192.178.25.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=199.232.170.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=199.232.170.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=199.232.174.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=199.232.174.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=199.232.190.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=199.232.190.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=199.232.42.189} on-error {}
-:do {add list=$AddressList comment=telegram.org address=199.232.42.62} on-error {}
-:do {add list=$AddressList comment=telegram.org address=204.213.247.14} on-error {}
-:do {add list=$AddressList comment=telegram.org address=209.85.233.121} on-error {}
-:do {add list=$AddressList comment=telegram.org address=209.97.63.214} on-error {}
-:do {add list=$AddressList comment=telegram.org address=209.97.63.215} on-error {}
-:do {add list=$AddressList comment=telegram.org address=213.180.193.250} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.201.179} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.201.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.201.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.204.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.205.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.206.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.206.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.206.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.207.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.207.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.207.243} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.207.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.207.83} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.211.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.211.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.212.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.212.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.212.51} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.213.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=216.58.214.147} on-error {}
-:do {add list=$AddressList comment=telegram.org address=34.111.108.175} on-error {}
-:do {add list=$AddressList comment=telegram.org address=34.111.15.3} on-error {}
-:do {add list=$AddressList comment=telegram.org address=34.111.35.152} on-error {}
-:do {add list=$AddressList comment=telegram.org address=34.199.246.37} on-error {}
-:do {add list=$AddressList comment=telegram.org address=34.200.115.19} on-error {}
-:do {add list=$AddressList comment=telegram.org address=35.190.91.31} on-error {}
-:do {add list=$AddressList comment=telegram.org address=35.231.247.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=35.247.22.77} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.174.200} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.174.216} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.174.232} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.174.24} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.174.40} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.174.8} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.175.152} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.4.162} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.4.166} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.4.170} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.4.174} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.4.193} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.4.197} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.4.201} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.5.1} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.5.5} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.100.5.9} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.1.115} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.1.116} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.1.120} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.1.22} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.1.35} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.1.44} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.1.46} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.1.93} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.112.129} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.112.194} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.112.73} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.113.129} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.113.5} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.113.66} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.113.70} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.121.24} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.121.40} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.121.8} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.124.200} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.126.200} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.126.216} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.126.232} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.22.193} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.22.197} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.22.201} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.22.205} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.137} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.141} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.160} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.166} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.194} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.199} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.205} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.206} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.211} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.212} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.215} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.219} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.223} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.227} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.69} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.71} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.80} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.81} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.27.87} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.65.152} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.65.200} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.65.216} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.65.232} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.69.200} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.69.216} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.69.232} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.69.24} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.69.40} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.69.8} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.70.184} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.70.200} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.70.24} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.70.8} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.71.104} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.76.152} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.76.168} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.76.184} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.78.104} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.78.120} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.78.136} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.80.184} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.80.200} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.80.24} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.80.8} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.81.136} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.81.152} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.81.168} on-error {}
-:do {add list=$AddressList comment=telegram.org address=40.101.82.72} on-error {}
+:if ([:len [find where list=$AddressList and address=104.17.94.19]] = 0) do={ add list=$AddressList comment=telegram.org address=104.17.94.19 }
+:if ([:len [find where list=$AddressList and address=104.17.95.19]] = 0) do={ add list=$AddressList comment=telegram.org address=104.17.95.19 }
+:if ([:len [find where list=$AddressList and address=104.18.32.94]] = 0) do={ add list=$AddressList comment=telegram.org address=104.18.32.94 }
+:if ([:len [find where list=$AddressList and address=104.20.26.203]] = 0) do={ add list=$AddressList comment=telegram.org address=104.20.26.203 }
+:if ([:len [find where list=$AddressList and address=104.21.70.22]] = 0) do={ add list=$AddressList comment=telegram.org address=104.21.70.22 }
+:if ([:len [find where list=$AddressList and address=104.26.14.213]] = 0) do={ add list=$AddressList comment=telegram.org address=104.26.14.213 }
+:if ([:len [find where list=$AddressList and address=104.26.15.213]] = 0) do={ add list=$AddressList comment=telegram.org address=104.26.15.213 }
+:if ([:len [find where list=$AddressList and address=108.157.194.103]] = 0) do={ add list=$AddressList comment=telegram.org address=108.157.194.103 }
+:if ([:len [find where list=$AddressList and address=108.157.194.105]] = 0) do={ add list=$AddressList comment=telegram.org address=108.157.194.105 }
+:if ([:len [find where list=$AddressList and address=108.157.194.118]] = 0) do={ add list=$AddressList comment=telegram.org address=108.157.194.118 }
+:if ([:len [find where list=$AddressList and address=108.157.194.59]] = 0) do={ add list=$AddressList comment=telegram.org address=108.157.194.59 }
+:if ([:len [find where list=$AddressList and address=108.177.14.121]] = 0) do={ add list=$AddressList comment=telegram.org address=108.177.14.121 }
+:if ([:len [find where list=$AddressList and address=13.225.239.115]] = 0) do={ add list=$AddressList comment=telegram.org address=13.225.239.115 }
+:if ([:len [find where list=$AddressList and address=13.225.239.119]] = 0) do={ add list=$AddressList comment=telegram.org address=13.225.239.119 }
+:if ([:len [find where list=$AddressList and address=13.225.239.83]] = 0) do={ add list=$AddressList comment=telegram.org address=13.225.239.83 }
+:if ([:len [find where list=$AddressList and address=13.225.239.9]] = 0) do={ add list=$AddressList comment=telegram.org address=13.225.239.9 }
+:if ([:len [find where list=$AddressList and address=13.226.244.100]] = 0) do={ add list=$AddressList comment=telegram.org address=13.226.244.100 }
+:if ([:len [find where list=$AddressList and address=13.226.244.103]] = 0) do={ add list=$AddressList comment=telegram.org address=13.226.244.103 }
+:if ([:len [find where list=$AddressList and address=13.226.244.125]] = 0) do={ add list=$AddressList comment=telegram.org address=13.226.244.125 }
+:if ([:len [find where list=$AddressList and address=13.226.244.74]] = 0) do={ add list=$AddressList comment=telegram.org address=13.226.244.74 }
+:if ([:len [find where list=$AddressList and address=13.227.192.125]] = 0) do={ add list=$AddressList comment=telegram.org address=13.227.192.125 }
+:if ([:len [find where list=$AddressList and address=13.227.192.126]] = 0) do={ add list=$AddressList comment=telegram.org address=13.227.192.126 }
+:if ([:len [find where list=$AddressList and address=13.227.192.63]] = 0) do={ add list=$AddressList comment=telegram.org address=13.227.192.63 }
+:if ([:len [find where list=$AddressList and address=13.227.192.77]] = 0) do={ add list=$AddressList comment=telegram.org address=13.227.192.77 }
+:if ([:len [find where list=$AddressList and address=13.249.228.121]] = 0) do={ add list=$AddressList comment=telegram.org address=13.249.228.121 }
+:if ([:len [find where list=$AddressList and address=13.249.228.44]] = 0) do={ add list=$AddressList comment=telegram.org address=13.249.228.44 }
+:if ([:len [find where list=$AddressList and address=13.249.228.70]] = 0) do={ add list=$AddressList comment=telegram.org address=13.249.228.70 }
+:if ([:len [find where list=$AddressList and address=13.249.228.9]] = 0) do={ add list=$AddressList comment=telegram.org address=13.249.228.9 }
+:if ([:len [find where list=$AddressList and address=13.249.8.128]] = 0) do={ add list=$AddressList comment=telegram.org address=13.249.8.128 }
+:if ([:len [find where list=$AddressList and address=13.249.8.17]] = 0) do={ add list=$AddressList comment=telegram.org address=13.249.8.17 }
+:if ([:len [find where list=$AddressList and address=13.249.8.27]] = 0) do={ add list=$AddressList comment=telegram.org address=13.249.8.27 }
+:if ([:len [find where list=$AddressList and address=13.249.8.54]] = 0) do={ add list=$AddressList comment=telegram.org address=13.249.8.54 }
+:if ([:len [find where list=$AddressList and address=13.33.235.101]] = 0) do={ add list=$AddressList comment=telegram.org address=13.33.235.101 }
+:if ([:len [find where list=$AddressList and address=13.33.235.125]] = 0) do={ add list=$AddressList comment=telegram.org address=13.33.235.125 }
+:if ([:len [find where list=$AddressList and address=13.33.235.43]] = 0) do={ add list=$AddressList comment=telegram.org address=13.33.235.43 }
+:if ([:len [find where list=$AddressList and address=13.33.235.71]] = 0) do={ add list=$AddressList comment=telegram.org address=13.33.235.71 }
+:if ([:len [find where list=$AddressList and address=142.250.150.121]] = 0) do={ add list=$AddressList comment=telegram.org address=142.250.150.121 }
+:if ([:len [find where list=$AddressList and address=142.250.154.121]] = 0) do={ add list=$AddressList comment=telegram.org address=142.250.154.121 }
+:if ([:len [find where list=$AddressList and address=142.250.181.179]] = 0) do={ add list=$AddressList comment=telegram.org address=142.250.181.179 }
+:if ([:len [find where list=$AddressList and address=142.250.181.243]] = 0) do={ add list=$AddressList comment=telegram.org address=142.250.181.243 }
+:if ([:len [find where list=$AddressList and address=142.250.74.19]] = 0) do={ add list=$AddressList comment=telegram.org address=142.250.74.19 }
+:if ([:len [find where list=$AddressList and address=142.251.1.121]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.1.121 }
+:if ([:len [find where list=$AddressList and address=142.251.110.121]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.110.121 }
+:if ([:len [find where list=$AddressList and address=142.251.127.121]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.127.121 }
+:if ([:len [find where list=$AddressList and address=142.251.13.121]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.13.121 }
+:if ([:len [find where list=$AddressList and address=142.251.14.121]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.14.121 }
+:if ([:len [find where list=$AddressList and address=142.251.140.115]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.140.115 }
+:if ([:len [find where list=$AddressList and address=142.251.141.243]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.141.243 }
+:if ([:len [find where list=$AddressList and address=142.251.142.115]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.142.115 }
+:if ([:len [find where list=$AddressList and address=142.251.142.243]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.142.243 }
+:if ([:len [find where list=$AddressList and address=142.251.143.147]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.143.147 }
+:if ([:len [find where list=$AddressList and address=142.251.143.243]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.143.243 }
+:if ([:len [find where list=$AddressList and address=142.251.20.121]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.20.121 }
+:if ([:len [find where list=$AddressList and address=142.251.208.115]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.208.115 }
+:if ([:len [find where list=$AddressList and address=142.251.209.51]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.209.51 }
+:if ([:len [find where list=$AddressList and address=142.251.27.121]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.27.121 }
+:if ([:len [find where list=$AddressList and address=142.251.38.115]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.38.115 }
+:if ([:len [find where list=$AddressList and address=142.251.38.211]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.38.211 }
+:if ([:len [find where list=$AddressList and address=142.251.38.243]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.38.243 }
+:if ([:len [find where list=$AddressList and address=142.251.38.83]] = 0) do={ add list=$AddressList comment=telegram.org address=142.251.38.83 }
+:if ([:len [find where list=$AddressList and address=143.204.55.100]] = 0) do={ add list=$AddressList comment=telegram.org address=143.204.55.100 }
+:if ([:len [find where list=$AddressList and address=143.204.55.107]] = 0) do={ add list=$AddressList comment=telegram.org address=143.204.55.107 }
+:if ([:len [find where list=$AddressList and address=143.204.55.116]] = 0) do={ add list=$AddressList comment=telegram.org address=143.204.55.116 }
+:if ([:len [find where list=$AddressList and address=143.204.55.119]] = 0) do={ add list=$AddressList comment=telegram.org address=143.204.55.119 }
+:if ([:len [find where list=$AddressList and address=143.204.55.57]] = 0) do={ add list=$AddressList comment=telegram.org address=143.204.55.57 }
+:if ([:len [find where list=$AddressList and address=143.204.55.6]] = 0) do={ add list=$AddressList comment=telegram.org address=143.204.55.6 }
+:if ([:len [find where list=$AddressList and address=143.204.55.73]] = 0) do={ add list=$AddressList comment=telegram.org address=143.204.55.73 }
+:if ([:len [find where list=$AddressList and address=143.204.55.95]] = 0) do={ add list=$AddressList comment=telegram.org address=143.204.55.95 }
+:if ([:len [find where list=$AddressList and address=149.154.162.203]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.162.203 }
+:if ([:len [find where list=$AddressList and address=149.154.162.204]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.162.204 }
+:if ([:len [find where list=$AddressList and address=149.154.162.247]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.162.247 }
+:if ([:len [find where list=$AddressList and address=149.154.164.13]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.164.13 }
+:if ([:len [find where list=$AddressList and address=149.154.164.24]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.164.24 }
+:if ([:len [find where list=$AddressList and address=149.154.164.25]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.164.25 }
+:if ([:len [find where list=$AddressList and address=149.154.164.3]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.164.3 }
+:if ([:len [find where list=$AddressList and address=149.154.165.133]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.165.133 }
+:if ([:len [find where list=$AddressList and address=149.154.165.137]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.165.137 }
+:if ([:len [find where list=$AddressList and address=149.154.166.110]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.166.110 }
+:if ([:len [find where list=$AddressList and address=149.154.167.220]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.167.220 }
+:if ([:len [find where list=$AddressList and address=149.154.167.80]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.167.80 }
+:if ([:len [find where list=$AddressList and address=149.154.167.99]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.167.99 }
+:if ([:len [find where list=$AddressList and address=149.154.171.236]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.171.236 }
+:if ([:len [find where list=$AddressList and address=149.154.171.237]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.171.237 }
+:if ([:len [find where list=$AddressList and address=149.154.175.204]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.175.204 }
+:if ([:len [find where list=$AddressList and address=149.154.175.205]] = 0) do={ add list=$AddressList comment=telegram.org address=149.154.175.205 }
+:if ([:len [find where list=$AddressList and address=15.197.195.200]] = 0) do={ add list=$AddressList comment=telegram.org address=15.197.195.200 }
+:if ([:len [find where list=$AddressList and address=172.217.16.147]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.16.147 }
+:if ([:len [find where list=$AddressList and address=172.217.168.115]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.168.115 }
+:if ([:len [find where list=$AddressList and address=172.217.168.147]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.168.147 }
+:if ([:len [find where list=$AddressList and address=172.217.169.243]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.169.243 }
+:if ([:len [find where list=$AddressList and address=172.217.171.179]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.171.179 }
+:if ([:len [find where list=$AddressList and address=172.217.171.83]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.171.83 }
+:if ([:len [find where list=$AddressList and address=172.217.18.179]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.18.179 }
+:if ([:len [find where list=$AddressList and address=172.217.19.243]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.19.243 }
+:if ([:len [find where list=$AddressList and address=172.217.20.179]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.20.179 }
+:if ([:len [find where list=$AddressList and address=172.217.20.211]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.20.211 }
+:if ([:len [find where list=$AddressList and address=172.217.20.83]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.20.83 }
+:if ([:len [find where list=$AddressList and address=172.217.208.121]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.208.121 }
+:if ([:len [find where list=$AddressList and address=172.217.21.211]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.21.211 }
+:if ([:len [find where list=$AddressList and address=172.217.21.243]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.21.243 }
+:if ([:len [find where list=$AddressList and address=172.217.22.243]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.22.243 }
+:if ([:len [find where list=$AddressList and address=172.217.23.147]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.23.147 }
+:if ([:len [find where list=$AddressList and address=172.217.23.179]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.23.179 }
+:if ([:len [find where list=$AddressList and address=172.217.23.19]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.23.19 }
+:if ([:len [find where list=$AddressList and address=172.217.23.51]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.23.51 }
+:if ([:len [find where list=$AddressList and address=172.217.23.83]] = 0) do={ add list=$AddressList comment=telegram.org address=172.217.23.83 }
+:if ([:len [find where list=$AddressList and address=172.253.130.121]] = 0) do={ add list=$AddressList comment=telegram.org address=172.253.130.121 }
+:if ([:len [find where list=$AddressList and address=172.253.152.121]] = 0) do={ add list=$AddressList comment=telegram.org address=172.253.152.121 }
+:if ([:len [find where list=$AddressList and address=172.64.155.162]] = 0) do={ add list=$AddressList comment=telegram.org address=172.64.155.162 }
+:if ([:len [find where list=$AddressList and address=172.66.170.24]] = 0) do={ add list=$AddressList comment=telegram.org address=172.66.170.24 }
+:if ([:len [find where list=$AddressList and address=172.67.217.241]] = 0) do={ add list=$AddressList comment=telegram.org address=172.67.217.241 }
+:if ([:len [find where list=$AddressList and address=172.67.71.168]] = 0) do={ add list=$AddressList comment=telegram.org address=172.67.71.168 }
+:if ([:len [find where list=$AddressList and address=173.194.220.121]] = 0) do={ add list=$AddressList comment=telegram.org address=173.194.220.121 }
+:if ([:len [find where list=$AddressList and address=173.194.221.121]] = 0) do={ add list=$AddressList comment=telegram.org address=173.194.221.121 }
+:if ([:len [find where list=$AddressList and address=173.194.222.121]] = 0) do={ add list=$AddressList comment=telegram.org address=173.194.222.121 }
+:if ([:len [find where list=$AddressList and address=173.194.73.121]] = 0) do={ add list=$AddressList comment=telegram.org address=173.194.73.121 }
+:if ([:len [find where list=$AddressList and address=178.128.255.27]] = 0) do={ add list=$AddressList comment=telegram.org address=178.128.255.27 }
+:if ([:len [find where list=$AddressList and address=18.164.52.102]] = 0) do={ add list=$AddressList comment=telegram.org address=18.164.52.102 }
+:if ([:len [find where list=$AddressList and address=18.164.52.112]] = 0) do={ add list=$AddressList comment=telegram.org address=18.164.52.112 }
+:if ([:len [find where list=$AddressList and address=18.164.52.6]] = 0) do={ add list=$AddressList comment=telegram.org address=18.164.52.6 }
+:if ([:len [find where list=$AddressList and address=18.164.52.78]] = 0) do={ add list=$AddressList comment=telegram.org address=18.164.52.78 }
+:if ([:len [find where list=$AddressList and address=18.165.72.115]] = 0) do={ add list=$AddressList comment=telegram.org address=18.165.72.115 }
+:if ([:len [find where list=$AddressList and address=18.165.72.27]] = 0) do={ add list=$AddressList comment=telegram.org address=18.165.72.27 }
+:if ([:len [find where list=$AddressList and address=18.165.72.4]] = 0) do={ add list=$AddressList comment=telegram.org address=18.165.72.4 }
+:if ([:len [find where list=$AddressList and address=18.165.72.61]] = 0) do={ add list=$AddressList comment=telegram.org address=18.165.72.61 }
+:if ([:len [find where list=$AddressList and address=18.173.233.103]] = 0) do={ add list=$AddressList comment=telegram.org address=18.173.233.103 }
+:if ([:len [find where list=$AddressList and address=18.173.233.25]] = 0) do={ add list=$AddressList comment=telegram.org address=18.173.233.25 }
+:if ([:len [find where list=$AddressList and address=18.173.233.30]] = 0) do={ add list=$AddressList comment=telegram.org address=18.173.233.30 }
+:if ([:len [find where list=$AddressList and address=18.173.233.89]] = 0) do={ add list=$AddressList comment=telegram.org address=18.173.233.89 }
+:if ([:len [find where list=$AddressList and address=18.184.243.31]] = 0) do={ add list=$AddressList comment=telegram.org address=18.184.243.31 }
+:if ([:len [find where list=$AddressList and address=18.184.48.115]] = 0) do={ add list=$AddressList comment=telegram.org address=18.184.48.115 }
+:if ([:len [find where list=$AddressList and address=18.184.85.112]] = 0) do={ add list=$AddressList comment=telegram.org address=18.184.85.112 }
+:if ([:len [find where list=$AddressList and address=18.184.99.30]] = 0) do={ add list=$AddressList comment=telegram.org address=18.184.99.30 }
+:if ([:len [find where list=$AddressList and address=18.185.199.31]] = 0) do={ add list=$AddressList comment=telegram.org address=18.185.199.31 }
+:if ([:len [find where list=$AddressList and address=18.193.171.24]] = 0) do={ add list=$AddressList comment=telegram.org address=18.193.171.24 }
+:if ([:len [find where list=$AddressList and address=18.197.213.146]] = 0) do={ add list=$AddressList comment=telegram.org address=18.197.213.146 }
+:if ([:len [find where list=$AddressList and address=18.199.117.139]] = 0) do={ add list=$AddressList comment=telegram.org address=18.199.117.139 }
+:if ([:len [find where list=$AddressList and address=18.239.105.128]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.105.128 }
+:if ([:len [find where list=$AddressList and address=18.239.105.6]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.105.6 }
+:if ([:len [find where list=$AddressList and address=18.239.105.74]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.105.74 }
+:if ([:len [find where list=$AddressList and address=18.239.105.85]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.105.85 }
+:if ([:len [find where list=$AddressList and address=18.239.18.115]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.18.115 }
+:if ([:len [find where list=$AddressList and address=18.239.18.125]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.18.125 }
+:if ([:len [find where list=$AddressList and address=18.239.18.5]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.18.5 }
+:if ([:len [find where list=$AddressList and address=18.239.18.66]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.18.66 }
+:if ([:len [find where list=$AddressList and address=18.239.208.112]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.208.112 }
+:if ([:len [find where list=$AddressList and address=18.239.208.30]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.208.30 }
+:if ([:len [find where list=$AddressList and address=18.239.208.41]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.208.41 }
+:if ([:len [find where list=$AddressList and address=18.239.208.61]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.208.61 }
+:if ([:len [find where list=$AddressList and address=18.239.208.63]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.208.63 }
+:if ([:len [find where list=$AddressList and address=18.239.208.64]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.208.64 }
+:if ([:len [find where list=$AddressList and address=18.239.208.66]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.208.66 }
+:if ([:len [find where list=$AddressList and address=18.239.208.76]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.208.76 }
+:if ([:len [find where list=$AddressList and address=18.239.255.111]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.255.111 }
+:if ([:len [find where list=$AddressList and address=18.239.255.118]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.255.118 }
+:if ([:len [find where list=$AddressList and address=18.239.255.120]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.255.120 }
+:if ([:len [find where list=$AddressList and address=18.239.255.20]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.255.20 }
+:if ([:len [find where list=$AddressList and address=18.239.255.31]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.255.31 }
+:if ([:len [find where list=$AddressList and address=18.239.255.53]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.255.53 }
+:if ([:len [find where list=$AddressList and address=18.239.255.70]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.255.70 }
+:if ([:len [find where list=$AddressList and address=18.239.255.9]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.255.9 }
+:if ([:len [find where list=$AddressList and address=18.239.83.126]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.83.126 }
+:if ([:len [find where list=$AddressList and address=18.239.83.75]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.83.75 }
+:if ([:len [find where list=$AddressList and address=18.239.83.82]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.83.82 }
+:if ([:len [find where list=$AddressList and address=18.239.83.94]] = 0) do={ add list=$AddressList comment=telegram.org address=18.239.83.94 }
+:if ([:len [find where list=$AddressList and address=18.244.87.111]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.111 }
+:if ([:len [find where list=$AddressList and address=18.244.87.116]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.116 }
+:if ([:len [find where list=$AddressList and address=18.244.87.4]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.4 }
+:if ([:len [find where list=$AddressList and address=18.244.87.55]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.55 }
+:if ([:len [find where list=$AddressList and address=18.244.87.73]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.73 }
+:if ([:len [find where list=$AddressList and address=18.244.87.86]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.86 }
+:if ([:len [find where list=$AddressList and address=18.244.87.91]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.91 }
+:if ([:len [find where list=$AddressList and address=18.244.87.93]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.93 }
+:if ([:len [find where list=$AddressList and address=18.66.195.107]] = 0) do={ add list=$AddressList comment=telegram.org address=18.66.195.107 }
+:if ([:len [find where list=$AddressList and address=18.66.195.113]] = 0) do={ add list=$AddressList comment=telegram.org address=18.66.195.113 }
+:if ([:len [find where list=$AddressList and address=18.66.195.121]] = 0) do={ add list=$AddressList comment=telegram.org address=18.66.195.121 }
+:if ([:len [find where list=$AddressList and address=18.66.195.39]] = 0) do={ add list=$AddressList comment=telegram.org address=18.66.195.39 }
+:if ([:len [find where list=$AddressList and address=18.66.196.124]] = 0) do={ add list=$AddressList comment=telegram.org address=18.66.196.124 }
+:if ([:len [find where list=$AddressList and address=18.66.196.17]] = 0) do={ add list=$AddressList comment=telegram.org address=18.66.196.17 }
+:if ([:len [find where list=$AddressList and address=18.66.196.40]] = 0) do={ add list=$AddressList comment=telegram.org address=18.66.196.40 }

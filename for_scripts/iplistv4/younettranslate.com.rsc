@@ -1,29 +1,29 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=younettranslate.com address=100.29.24.1} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.233.212.129} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.233.212.151} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.233.212.224} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.233.212.90} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.233.219.123} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.233.219.49} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.233.219.78} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.234.27.37} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.234.27.71} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.234.31.13} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.237.146.25} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.237.146.38} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.237.146.49} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.237.146.8} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=172.239.193.161} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=3.222.75.253} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=35.173.156.155} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=44.193.132.243} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=44.194.53.121} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=44.210.0.117} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=44.216.116.224} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=52.86.0.87} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=69.16.230.165} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=69.16.231.60} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=75.2.37.224} on-error {}
-:do {add list=$AddressList comment=younettranslate.com address=91.228.152.66} on-error {}
+:if ([:len [find where list=$AddressList and address=100.29.24.1]] = 0) do={ add list=$AddressList comment=younettranslate.com address=100.29.24.1 }
+:if ([:len [find where list=$AddressList and address=172.233.212.129]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.233.212.129 }
+:if ([:len [find where list=$AddressList and address=172.233.212.151]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.233.212.151 }
+:if ([:len [find where list=$AddressList and address=172.233.212.224]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.233.212.224 }
+:if ([:len [find where list=$AddressList and address=172.233.212.90]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.233.212.90 }
+:if ([:len [find where list=$AddressList and address=172.233.219.123]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.233.219.123 }
+:if ([:len [find where list=$AddressList and address=172.233.219.49]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.233.219.49 }
+:if ([:len [find where list=$AddressList and address=172.233.219.78]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.233.219.78 }
+:if ([:len [find where list=$AddressList and address=172.234.27.37]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.234.27.37 }
+:if ([:len [find where list=$AddressList and address=172.234.27.71]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.234.27.71 }
+:if ([:len [find where list=$AddressList and address=172.234.31.13]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.234.31.13 }
+:if ([:len [find where list=$AddressList and address=172.237.146.25]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.237.146.25 }
+:if ([:len [find where list=$AddressList and address=172.237.146.38]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.237.146.38 }
+:if ([:len [find where list=$AddressList and address=172.237.146.49]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.237.146.49 }
+:if ([:len [find where list=$AddressList and address=172.237.146.8]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.237.146.8 }
+:if ([:len [find where list=$AddressList and address=172.239.193.161]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.239.193.161 }
+:if ([:len [find where list=$AddressList and address=3.222.75.253]] = 0) do={ add list=$AddressList comment=younettranslate.com address=3.222.75.253 }
+:if ([:len [find where list=$AddressList and address=35.173.156.155]] = 0) do={ add list=$AddressList comment=younettranslate.com address=35.173.156.155 }
+:if ([:len [find where list=$AddressList and address=44.193.132.243]] = 0) do={ add list=$AddressList comment=younettranslate.com address=44.193.132.243 }
+:if ([:len [find where list=$AddressList and address=44.194.53.121]] = 0) do={ add list=$AddressList comment=younettranslate.com address=44.194.53.121 }
+:if ([:len [find where list=$AddressList and address=44.210.0.117]] = 0) do={ add list=$AddressList comment=younettranslate.com address=44.210.0.117 }
+:if ([:len [find where list=$AddressList and address=44.216.116.224]] = 0) do={ add list=$AddressList comment=younettranslate.com address=44.216.116.224 }
+:if ([:len [find where list=$AddressList and address=52.86.0.87]] = 0) do={ add list=$AddressList comment=younettranslate.com address=52.86.0.87 }
+:if ([:len [find where list=$AddressList and address=69.16.230.165]] = 0) do={ add list=$AddressList comment=younettranslate.com address=69.16.230.165 }
+:if ([:len [find where list=$AddressList and address=69.16.231.60]] = 0) do={ add list=$AddressList comment=younettranslate.com address=69.16.231.60 }
+:if ([:len [find where list=$AddressList and address=75.2.37.224]] = 0) do={ add list=$AddressList comment=younettranslate.com address=75.2.37.224 }
+:if ([:len [find where list=$AddressList and address=91.228.152.66]] = 0) do={ add list=$AddressList comment=younettranslate.com address=91.228.152.66 }

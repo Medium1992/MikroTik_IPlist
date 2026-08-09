@@ -1,30 +1,30 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=basecamp.com address=104.18.0.135} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=104.18.1.135} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=104.18.14.58} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=104.18.15.58} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=104.18.22.60} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=104.18.23.60} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=104.18.26.46} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=104.18.27.46} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=188.114.98.224} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=188.114.98.228} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=188.114.98.229} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=188.114.98.236} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=188.114.99.224} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=188.114.99.228} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=188.114.99.229} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=188.114.99.236} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.47.69.0} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.47.69.4} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.47.69.6} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.47.69.7} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.47.69.8} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.47.69.9} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.6.112.0} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.6.112.4} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.6.112.6} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.6.112.7} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.6.112.8} on-error {}
-:do {add list=$AddressList comment=basecamp.com address=8.6.112.9} on-error {}
+:if ([:len [find where list=$AddressList and address=104.18.0.135]] = 0) do={ add list=$AddressList comment=basecamp.com address=104.18.0.135 }
+:if ([:len [find where list=$AddressList and address=104.18.1.135]] = 0) do={ add list=$AddressList comment=basecamp.com address=104.18.1.135 }
+:if ([:len [find where list=$AddressList and address=104.18.14.58]] = 0) do={ add list=$AddressList comment=basecamp.com address=104.18.14.58 }
+:if ([:len [find where list=$AddressList and address=104.18.15.58]] = 0) do={ add list=$AddressList comment=basecamp.com address=104.18.15.58 }
+:if ([:len [find where list=$AddressList and address=104.18.22.60]] = 0) do={ add list=$AddressList comment=basecamp.com address=104.18.22.60 }
+:if ([:len [find where list=$AddressList and address=104.18.23.60]] = 0) do={ add list=$AddressList comment=basecamp.com address=104.18.23.60 }
+:if ([:len [find where list=$AddressList and address=104.18.26.46]] = 0) do={ add list=$AddressList comment=basecamp.com address=104.18.26.46 }
+:if ([:len [find where list=$AddressList and address=104.18.27.46]] = 0) do={ add list=$AddressList comment=basecamp.com address=104.18.27.46 }
+:if ([:len [find where list=$AddressList and address=188.114.98.224]] = 0) do={ add list=$AddressList comment=basecamp.com address=188.114.98.224 }
+:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=basecamp.com address=188.114.98.228 }
+:if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=basecamp.com address=188.114.98.229 }
+:if ([:len [find where list=$AddressList and address=188.114.98.236]] = 0) do={ add list=$AddressList comment=basecamp.com address=188.114.98.236 }
+:if ([:len [find where list=$AddressList and address=188.114.99.224]] = 0) do={ add list=$AddressList comment=basecamp.com address=188.114.99.224 }
+:if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=basecamp.com address=188.114.99.228 }
+:if ([:len [find where list=$AddressList and address=188.114.99.229]] = 0) do={ add list=$AddressList comment=basecamp.com address=188.114.99.229 }
+:if ([:len [find where list=$AddressList and address=188.114.99.236]] = 0) do={ add list=$AddressList comment=basecamp.com address=188.114.99.236 }
+:if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.4]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.47.69.4 }
+:if ([:len [find where list=$AddressList and address=8.47.69.6]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.47.69.6 }
+:if ([:len [find where list=$AddressList and address=8.47.69.7]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.47.69.7 }
+:if ([:len [find where list=$AddressList and address=8.47.69.8]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.47.69.8 }
+:if ([:len [find where list=$AddressList and address=8.47.69.9]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.47.69.9 }
+:if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.4]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.6.112.4 }
+:if ([:len [find where list=$AddressList and address=8.6.112.6]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.6.112.6 }
+:if ([:len [find where list=$AddressList and address=8.6.112.7]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.6.112.7 }
+:if ([:len [find where list=$AddressList and address=8.6.112.8]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.6.112.8 }
+:if ([:len [find where list=$AddressList and address=8.6.112.9]] = 0) do={ add list=$AddressList comment=basecamp.com address=8.6.112.9 }

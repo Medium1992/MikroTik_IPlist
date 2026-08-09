@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=facebook.com address=23.55.104.188} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.104.192} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.104.193} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.110.45} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.110.46} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.110.62} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.110.69} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.110.77} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.110.78} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.132} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.134} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.136} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.137} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.138} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.142} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.146} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.149} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.150} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.151} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.152} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.153} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.156} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.157} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.159} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.160} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.162} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.164} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.165} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.167} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.175} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.178} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.190} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.161.202} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.163.13} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.163.26} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.163.52} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.163.56} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.176.228} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.176.237} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.236.132} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.236.135} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.236.138} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.236.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.236.66} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.236.67} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.236.68} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.236.74} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.236.77} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.154} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.162} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.163} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.168} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.177} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.18} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.202} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.42} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.48} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.59} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.55.48.66} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.73.2.77} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.73.2.87} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.73.2.89} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.75.20.104} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.75.20.32} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.75.20.41} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.75.20.73} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.76.204.139} on-error {}
-:do {add list=$AddressList comment=facebook.com address=23.76.204.147} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.106.4} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.112.4} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.112.9} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.64.37} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.64.7} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.65.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.65.7} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.66.19} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.66.38} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.67.17} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.67.19} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.67.20} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.67.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.67.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.67.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.67.41} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.67.49} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.68.169} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.68.39} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.11} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.13} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.16} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.169} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.175} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.20} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.21} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.214} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.22} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.245} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.39} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.69.40} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.70.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.70.13} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.70.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.70.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.70.9} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.71.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.71.14} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.71.19} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.71.3} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.71.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.71.36} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.71.51} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.71.7} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.12} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.14} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.16} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.175} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.199} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.36} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.4} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.51} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.6} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.72.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.73.169} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.73.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.73.9} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.75.12} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.76.14} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.76.38} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.76.65} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.76.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.76.99} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.78.38} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.79.20} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.79.26} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.79.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.79.49} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.80.12} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.80.169} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.80.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.80.37} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.80.49} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.80.54} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.80.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.80.9} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.81.4} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.82.15} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.82.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.82.7} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.16} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.17} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.175} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.199} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.2} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.36} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.4} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.6} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.83.9} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.15} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.17} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.175} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.2} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.214} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.36} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.4} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.50} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.6} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.84.9} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.85.15} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.85.169} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.85.2} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.85.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.85.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.85.4} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.85.53} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.15} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.17} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.175} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.199} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.2} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.21} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.36} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.4} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.50} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.6} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.86.9} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.87.15} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.87.19} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.87.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.87.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.87.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.87.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.87.9} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.88.169} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.88.26} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.88.39} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.89.26} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.89.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.90.19} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.90.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.90.38} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.91.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.91.40} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.91.6} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.92.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.93.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.94.10} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.94.20} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.94.23} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.94.24} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.94.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.94.36} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.94.37} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.94.41} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.94.49} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.94.7} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.95.169} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.95.17} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.95.18} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.95.33} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.95.34} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.95.35} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.95.37} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.95.38} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.95.39} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.95.48} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.96.192} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.96.193} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.96.194} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.96.195} on-error {}
-:do {add list=$AddressList comment=facebook.com address=31.13.96.208} on-error {}
-:do {add list=$AddressList comment=facebook.com address=38.121.72.166} on-error {}
-:do {add list=$AddressList comment=facebook.com address=39.109.122.128} on-error {}
-:do {add list=$AddressList comment=facebook.com address=4.78.139.50} on-error {}
-:do {add list=$AddressList comment=facebook.com address=4.78.139.54} on-error {}
-:do {add list=$AddressList comment=facebook.com address=43.226.16.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=45.114.11.238} on-error {}
-:do {add list=$AddressList comment=facebook.com address=45.114.11.25} on-error {}
-:do {add list=$AddressList comment=facebook.com address=45.77.186.255} on-error {}
-:do {add list=$AddressList comment=facebook.com address=47.88.58.234} on-error {}
-:do {add list=$AddressList comment=facebook.com address=5.178.42.155} on-error {}
-:do {add list=$AddressList comment=facebook.com address=5.178.42.161} on-error {}
-:do {add list=$AddressList comment=facebook.com address=5.178.42.168} on-error {}
-:do {add list=$AddressList comment=facebook.com address=5.178.42.177} on-error {}
-:do {add list=$AddressList comment=facebook.com address=5.178.43.104} on-error {}
-:do {add list=$AddressList comment=facebook.com address=5.178.43.106} on-error {}
-:do {add list=$AddressList comment=facebook.com address=5.178.43.107} on-error {}
-:do {add list=$AddressList comment=facebook.com address=5.178.43.90} on-error {}
-:do {add list=$AddressList comment=facebook.com address=50.117.117.42} on-error {}
-:do {add list=$AddressList comment=facebook.com address=50.23.209.199} on-error {}
-:do {add list=$AddressList comment=facebook.com address=50.87.93.246} on-error {}
-:do {add list=$AddressList comment=facebook.com address=52.175.9.80} on-error {}
-:do {add list=$AddressList comment=facebook.com address=52.58.1.161} on-error {}
-:do {add list=$AddressList comment=facebook.com address=54.234.18.200} on-error {}
-:do {add list=$AddressList comment=facebook.com address=54.89.135.129} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.100.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.104.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.104.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.104.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.108.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.128} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.129} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.136} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.139} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.144} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.145} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.36} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.110.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.111.149} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.112.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.112.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.112.144} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.112.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.114.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.116.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.128} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.129} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.136} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.139} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.144} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.145} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.36} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.120.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.121.149} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.122.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.124.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.126.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.126.128} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.126.129} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.126.136} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.126.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.126.144} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.126.145} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.126.36} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.126.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.126.8} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.127.149} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.128.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.132.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.132.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.134.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.136.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.138.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.14.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.140.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.142.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.144.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.144.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.146.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.148.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.148.128} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.148.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.148.36} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.148.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.150.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.152.1} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.152.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.154.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.154.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.156.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.158.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.160.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.160.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.162.128} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.162.129} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.162.141} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.162.5} on-error {}
-:do {add list=$AddressList comment=facebook.com address=57.144.164.5} on-error {}
+:if ([:len [find where list=$AddressList and address=163.70.128.208]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.128.208 }
+:if ([:len [find where list=$AddressList and address=163.70.128.23]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.128.23 }
+:if ([:len [find where list=$AddressList and address=163.70.128.3]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.128.3 }
+:if ([:len [find where list=$AddressList and address=163.70.128.32]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.128.32 }
+:if ([:len [find where list=$AddressList and address=163.70.128.35]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.128.35 }
+:if ([:len [find where list=$AddressList and address=163.70.128.37]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.128.37 }
+:if ([:len [find where list=$AddressList and address=163.70.128.4]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.128.4 }
+:if ([:len [find where list=$AddressList and address=163.70.128.6]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.128.6 }
+:if ([:len [find where list=$AddressList and address=163.70.128.9]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.128.9 }
+:if ([:len [find where list=$AddressList and address=163.70.130.36]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.130.36 }
+:if ([:len [find where list=$AddressList and address=163.70.131.40]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.131.40 }
+:if ([:len [find where list=$AddressList and address=163.70.132.1]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.132.1 }
+:if ([:len [find where list=$AddressList and address=163.70.132.40]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.132.40 }
+:if ([:len [find where list=$AddressList and address=163.70.137.37]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.137.37 }
+:if ([:len [find where list=$AddressList and address=163.70.138.41]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.138.41 }
+:if ([:len [find where list=$AddressList and address=163.70.139.39]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.139.39 }
+:if ([:len [find where list=$AddressList and address=163.70.140.38]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.140.38 }
+:if ([:len [find where list=$AddressList and address=163.70.143.33]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.143.33 }
+:if ([:len [find where list=$AddressList and address=163.70.144.32]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.144.32 }
+:if ([:len [find where list=$AddressList and address=163.70.145.42]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.145.42 }
+:if ([:len [find where list=$AddressList and address=163.70.146.23]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.146.23 }
+:if ([:len [find where list=$AddressList and address=163.70.146.36]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.146.36 }
+:if ([:len [find where list=$AddressList and address=163.70.147.23]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.147.23 }
+:if ([:len [find where list=$AddressList and address=163.70.147.40]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.147.40 }
+:if ([:len [find where list=$AddressList and address=163.70.148.40]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.148.40 }
+:if ([:len [find where list=$AddressList and address=163.70.149.40]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.149.40 }
+:if ([:len [find where list=$AddressList and address=163.70.151.12]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.12 }
+:if ([:len [find where list=$AddressList and address=163.70.151.14]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.14 }
+:if ([:len [find where list=$AddressList and address=163.70.151.175]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.175 }
+:if ([:len [find where list=$AddressList and address=163.70.151.21]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.21 }
+:if ([:len [find where list=$AddressList and address=163.70.151.216]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.216 }
+:if ([:len [find where list=$AddressList and address=163.70.151.23]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.23 }
+:if ([:len [find where list=$AddressList and address=163.70.151.35]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.35 }
+:if ([:len [find where list=$AddressList and address=163.70.151.36]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.36 }
+:if ([:len [find where list=$AddressList and address=163.70.151.4]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.4 }
+:if ([:len [find where list=$AddressList and address=163.70.151.41]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.41 }
+:if ([:len [find where list=$AddressList and address=163.70.151.5]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.5 }
+:if ([:len [find where list=$AddressList and address=163.70.151.6]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.151.6 }
+:if ([:len [find where list=$AddressList and address=163.70.152.36]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.152.36 }
+:if ([:len [find where list=$AddressList and address=163.70.158.40]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.158.40 }
+:if ([:len [find where list=$AddressList and address=163.70.159.33]] = 0) do={ add list=$AddressList comment=facebook.com address=163.70.159.33 }
+:if ([:len [find where list=$AddressList and address=168.143.162.42]] = 0) do={ add list=$AddressList comment=facebook.com address=168.143.162.42 }
+:if ([:len [find where list=$AddressList and address=168.143.162.58]] = 0) do={ add list=$AddressList comment=facebook.com address=168.143.162.58 }
+:if ([:len [find where list=$AddressList and address=168.143.171.154]] = 0) do={ add list=$AddressList comment=facebook.com address=168.143.171.154 }
+:if ([:len [find where list=$AddressList and address=168.143.171.186]] = 0) do={ add list=$AddressList comment=facebook.com address=168.143.171.186 }
+:if ([:len [find where list=$AddressList and address=168.143.171.93]] = 0) do={ add list=$AddressList comment=facebook.com address=168.143.171.93 }
+:if ([:len [find where list=$AddressList and address=173.208.182.68]] = 0) do={ add list=$AddressList comment=facebook.com address=173.208.182.68 }
+:if ([:len [find where list=$AddressList and address=173.231.12.107]] = 0) do={ add list=$AddressList comment=facebook.com address=173.231.12.107 }
+:if ([:len [find where list=$AddressList and address=173.236.182.137]] = 0) do={ add list=$AddressList comment=facebook.com address=173.236.182.137 }
+:if ([:len [find where list=$AddressList and address=173.236.212.42]] = 0) do={ add list=$AddressList comment=facebook.com address=173.236.212.42 }
+:if ([:len [find where list=$AddressList and address=173.244.209.150]] = 0) do={ add list=$AddressList comment=facebook.com address=173.244.209.150 }
+:if ([:len [find where list=$AddressList and address=173.244.217.42]] = 0) do={ add list=$AddressList comment=facebook.com address=173.244.217.42 }
+:if ([:len [find where list=$AddressList and address=173.252.105.21]] = 0) do={ add list=$AddressList comment=facebook.com address=173.252.105.21 }
+:if ([:len [find where list=$AddressList and address=173.252.108.21]] = 0) do={ add list=$AddressList comment=facebook.com address=173.252.108.21 }
+:if ([:len [find where list=$AddressList and address=173.252.108.3]] = 0) do={ add list=$AddressList comment=facebook.com address=173.252.108.3 }
+:if ([:len [find where list=$AddressList and address=173.252.248.244]] = 0) do={ add list=$AddressList comment=facebook.com address=173.252.248.244 }
+:if ([:len [find where list=$AddressList and address=173.252.88.133]] = 0) do={ add list=$AddressList comment=facebook.com address=173.252.88.133 }
+:if ([:len [find where list=$AddressList and address=173.252.88.67]] = 0) do={ add list=$AddressList comment=facebook.com address=173.252.88.67 }
+:if ([:len [find where list=$AddressList and address=173.255.209.47]] = 0) do={ add list=$AddressList comment=facebook.com address=173.255.209.47 }
+:if ([:len [find where list=$AddressList and address=173.255.213.90]] = 0) do={ add list=$AddressList comment=facebook.com address=173.255.213.90 }
+:if ([:len [find where list=$AddressList and address=174.36.196.242]] = 0) do={ add list=$AddressList comment=facebook.com address=174.36.196.242 }
+:if ([:len [find where list=$AddressList and address=174.36.228.136]] = 0) do={ add list=$AddressList comment=facebook.com address=174.36.228.136 }
+:if ([:len [find where list=$AddressList and address=174.37.243.85]] = 0) do={ add list=$AddressList comment=facebook.com address=174.37.243.85 }
+:if ([:len [find where list=$AddressList and address=174.37.54.20]] = 0) do={ add list=$AddressList comment=facebook.com address=174.37.54.20 }
+:if ([:len [find where list=$AddressList and address=179.60.193.16]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.193.16 }
+:if ([:len [find where list=$AddressList and address=179.60.193.9]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.193.9 }
+:if ([:len [find where list=$AddressList and address=179.60.195.12]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.195.12 }
+:if ([:len [find where list=$AddressList and address=179.60.195.15]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.195.15 }
+:if ([:len [find where list=$AddressList and address=179.60.195.175]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.195.175 }
+:if ([:len [find where list=$AddressList and address=179.60.195.33]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.195.33 }
+:if ([:len [find where list=$AddressList and address=179.60.195.35]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.195.35 }
+:if ([:len [find where list=$AddressList and address=179.60.195.36]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.195.36 }
+:if ([:len [find where list=$AddressList and address=179.60.195.4]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.195.4 }
+:if ([:len [find where list=$AddressList and address=179.60.195.5]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.195.5 }
+:if ([:len [find where list=$AddressList and address=179.60.195.6]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.195.6 }
+:if ([:len [find where list=$AddressList and address=179.60.195.7]] = 0) do={ add list=$AddressList comment=facebook.com address=179.60.195.7 }
+:if ([:len [find where list=$AddressList and address=182.50.139.56]] = 0) do={ add list=$AddressList comment=facebook.com address=182.50.139.56 }
+:if ([:len [find where list=$AddressList and address=184.173.136.86]] = 0) do={ add list=$AddressList comment=facebook.com address=184.173.136.86 }
+:if ([:len [find where list=$AddressList and address=184.24.77.10]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.10 }
+:if ([:len [find where list=$AddressList and address=184.24.77.11]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.11 }
+:if ([:len [find where list=$AddressList and address=184.24.77.12]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.12 }
+:if ([:len [find where list=$AddressList and address=184.24.77.13]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.13 }
+:if ([:len [find where list=$AddressList and address=184.24.77.138]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.138 }
+:if ([:len [find where list=$AddressList and address=184.24.77.14]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.14 }
+:if ([:len [find where list=$AddressList and address=184.24.77.151]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.151 }
+:if ([:len [find where list=$AddressList and address=184.24.77.153]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.153 }
+:if ([:len [find where list=$AddressList and address=184.24.77.16]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.16 }
+:if ([:len [find where list=$AddressList and address=184.24.77.18]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.18 }
+:if ([:len [find where list=$AddressList and address=184.24.77.19]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.19 }
+:if ([:len [find where list=$AddressList and address=184.24.77.20]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.20 }
+:if ([:len [find where list=$AddressList and address=184.24.77.21]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.21 }
+:if ([:len [find where list=$AddressList and address=184.24.77.22]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.22 }
+:if ([:len [find where list=$AddressList and address=184.24.77.23]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.23 }
+:if ([:len [find where list=$AddressList and address=184.24.77.24]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.24 }
+:if ([:len [find where list=$AddressList and address=184.24.77.26]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.26 }
+:if ([:len [find where list=$AddressList and address=184.24.77.27]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.27 }
+:if ([:len [find where list=$AddressList and address=184.24.77.28]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.28 }
+:if ([:len [find where list=$AddressList and address=184.24.77.29]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.29 }
+:if ([:len [find where list=$AddressList and address=184.24.77.30]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.30 }
+:if ([:len [find where list=$AddressList and address=184.24.77.31]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.31 }
+:if ([:len [find where list=$AddressList and address=184.24.77.32]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.32 }
+:if ([:len [find where list=$AddressList and address=184.24.77.34]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.34 }
+:if ([:len [find where list=$AddressList and address=184.24.77.37]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.37 }
+:if ([:len [find where list=$AddressList and address=184.24.77.39]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.39 }
+:if ([:len [find where list=$AddressList and address=184.24.77.4]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.4 }
+:if ([:len [find where list=$AddressList and address=184.24.77.40]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.40 }
+:if ([:len [find where list=$AddressList and address=184.24.77.43]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.43 }
+:if ([:len [find where list=$AddressList and address=184.24.77.64]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.64 }
+:if ([:len [find where list=$AddressList and address=184.24.77.69]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.69 }
+:if ([:len [find where list=$AddressList and address=184.24.77.7]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.7 }
+:if ([:len [find where list=$AddressList and address=184.24.77.73]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.73 }
+:if ([:len [find where list=$AddressList and address=184.24.77.74]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.74 }
+:if ([:len [find where list=$AddressList and address=184.24.77.76]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.76 }
+:if ([:len [find where list=$AddressList and address=184.24.77.81]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.81 }
+:if ([:len [find where list=$AddressList and address=184.24.77.83]] = 0) do={ add list=$AddressList comment=facebook.com address=184.24.77.83 }
+:if ([:len [find where list=$AddressList and address=184.25.102.142]] = 0) do={ add list=$AddressList comment=facebook.com address=184.25.102.142 }
+:if ([:len [find where list=$AddressList and address=184.25.102.144]] = 0) do={ add list=$AddressList comment=facebook.com address=184.25.102.144 }
+:if ([:len [find where list=$AddressList and address=184.25.102.86]] = 0) do={ add list=$AddressList comment=facebook.com address=184.25.102.86 }
+:if ([:len [find where list=$AddressList and address=184.25.102.95]] = 0) do={ add list=$AddressList comment=facebook.com address=184.25.102.95 }
+:if ([:len [find where list=$AddressList and address=184.25.50.115]] = 0) do={ add list=$AddressList comment=facebook.com address=184.25.50.115 }
+:if ([:len [find where list=$AddressList and address=184.25.50.168]] = 0) do={ add list=$AddressList comment=facebook.com address=184.25.50.168 }
+:if ([:len [find where list=$AddressList and address=184.25.50.203]] = 0) do={ add list=$AddressList comment=facebook.com address=184.25.50.203 }
+:if ([:len [find where list=$AddressList and address=184.25.50.65]] = 0) do={ add list=$AddressList comment=facebook.com address=184.25.50.65 }
+:if ([:len [find where list=$AddressList and address=184.51.252.140]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.140 }
+:if ([:len [find where list=$AddressList and address=184.51.252.141]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.141 }
+:if ([:len [find where list=$AddressList and address=184.51.252.142]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.142 }
+:if ([:len [find where list=$AddressList and address=184.51.252.143]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.143 }
+:if ([:len [find where list=$AddressList and address=184.51.252.144]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.144 }
+:if ([:len [find where list=$AddressList and address=184.51.252.145]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.145 }
+:if ([:len [find where list=$AddressList and address=184.51.252.149]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.149 }
+:if ([:len [find where list=$AddressList and address=184.51.252.153]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.153 }
+:if ([:len [find where list=$AddressList and address=184.51.252.156]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.156 }
+:if ([:len [find where list=$AddressList and address=184.51.252.157]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.157 }
+:if ([:len [find where list=$AddressList and address=184.51.252.160]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.160 }
+:if ([:len [find where list=$AddressList and address=184.51.252.161]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.161 }
+:if ([:len [find where list=$AddressList and address=184.51.252.165]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.165 }
+:if ([:len [find where list=$AddressList and address=184.51.252.171]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.171 }
+:if ([:len [find where list=$AddressList and address=184.51.252.178]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.178 }
+:if ([:len [find where list=$AddressList and address=184.51.252.187]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.187 }
+:if ([:len [find where list=$AddressList and address=184.51.252.191]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.252.191 }
+:if ([:len [find where list=$AddressList and address=184.51.88.37]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.88.37 }
+:if ([:len [find where list=$AddressList and address=184.51.88.39]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.88.39 }
+:if ([:len [find where list=$AddressList and address=184.51.88.47]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.88.47 }
+:if ([:len [find where list=$AddressList and address=184.51.88.72]] = 0) do={ add list=$AddressList comment=facebook.com address=184.51.88.72 }
+:if ([:len [find where list=$AddressList and address=184.72.1.148]] = 0) do={ add list=$AddressList comment=facebook.com address=184.72.1.148 }
+:if ([:len [find where list=$AddressList and address=185.45.6.57]] = 0) do={ add list=$AddressList comment=facebook.com address=185.45.6.57 }
+:if ([:len [find where list=$AddressList and address=185.45.7.165]] = 0) do={ add list=$AddressList comment=facebook.com address=185.45.7.165 }
+:if ([:len [find where list=$AddressList and address=185.45.7.185]] = 0) do={ add list=$AddressList comment=facebook.com address=185.45.7.185 }
+:if ([:len [find where list=$AddressList and address=185.45.7.189]] = 0) do={ add list=$AddressList comment=facebook.com address=185.45.7.189 }
+:if ([:len [find where list=$AddressList and address=185.45.7.97]] = 0) do={ add list=$AddressList comment=facebook.com address=185.45.7.97 }
+:if ([:len [find where list=$AddressList and address=185.60.216.11]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.216.11 }
+:if ([:len [find where list=$AddressList and address=185.60.216.169]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.216.169 }
+:if ([:len [find where list=$AddressList and address=185.60.216.36]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.216.36 }
+:if ([:len [find where list=$AddressList and address=185.60.216.50]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.216.50 }
+:if ([:len [find where list=$AddressList and address=185.60.217.20]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.217.20 }
+:if ([:len [find where list=$AddressList and address=185.60.217.22]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.217.22 }
+:if ([:len [find where list=$AddressList and address=185.60.217.28]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.217.28 }
+:if ([:len [find where list=$AddressList and address=185.60.217.34]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.217.34 }
+:if ([:len [find where list=$AddressList and address=185.60.218.15]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.15 }
+:if ([:len [find where list=$AddressList and address=185.60.218.16]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.16 }
+:if ([:len [find where list=$AddressList and address=185.60.218.175]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.175 }
+:if ([:len [find where list=$AddressList and address=185.60.218.19]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.19 }
+:if ([:len [find where list=$AddressList and address=185.60.218.199]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.199 }
+:if ([:len [find where list=$AddressList and address=185.60.218.2]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.2 }
+:if ([:len [find where list=$AddressList and address=185.60.218.20]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.20 }
+:if ([:len [find where list=$AddressList and address=185.60.218.24]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.24 }
+:if ([:len [find where list=$AddressList and address=185.60.218.33]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.33 }
+:if ([:len [find where list=$AddressList and address=185.60.218.34]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.34 }
+:if ([:len [find where list=$AddressList and address=185.60.218.35]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.35 }
+:if ([:len [find where list=$AddressList and address=185.60.218.50]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.50 }
+:if ([:len [find where list=$AddressList and address=185.60.218.8]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.218.8 }
+:if ([:len [find where list=$AddressList and address=185.60.219.175]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.219.175 }
+:if ([:len [find where list=$AddressList and address=185.60.219.18]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.219.18 }
+:if ([:len [find where list=$AddressList and address=185.60.219.2]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.219.2 }
+:if ([:len [find where list=$AddressList and address=185.60.219.202]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.219.202 }
+:if ([:len [find where list=$AddressList and address=185.60.219.23]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.219.23 }
+:if ([:len [find where list=$AddressList and address=185.60.219.3]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.219.3 }
+:if ([:len [find where list=$AddressList and address=185.60.219.32]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.219.32 }
+:if ([:len [find where list=$AddressList and address=185.60.219.35]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.219.35 }
+:if ([:len [find where list=$AddressList and address=185.60.219.36]] = 0) do={ add list=$AddressList comment=facebook.com address=185.60.219.36 }

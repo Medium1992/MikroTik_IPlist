@@ -1,30 +1,32 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=rutor.info address=104.21.112.1} on-error {}
-:do {add list=$AddressList comment=rutor.info address=104.21.12.243} on-error {}
-:do {add list=$AddressList comment=rutor.info address=104.21.16.1} on-error {}
-:do {add list=$AddressList comment=rutor.info address=104.21.32.1} on-error {}
-:do {add list=$AddressList comment=rutor.info address=104.21.48.1} on-error {}
-:do {add list=$AddressList comment=rutor.info address=104.21.64.1} on-error {}
-:do {add list=$AddressList comment=rutor.info address=104.21.80.1} on-error {}
-:do {add list=$AddressList comment=rutor.info address=104.21.96.1} on-error {}
-:do {add list=$AddressList comment=rutor.info address=172.67.153.242} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.96.0} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.96.1} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.96.10} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.96.11} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.96.12} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.96.3} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.96.7} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.96.9} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.97.0} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.97.1} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.97.10} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.97.11} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.97.12} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.97.3} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.97.7} on-error {}
-:do {add list=$AddressList comment=rutor.info address=188.114.97.9} on-error {}
-:do {add list=$AddressList comment=rutor.info address=193.46.255.26} on-error {}
-:do {add list=$AddressList comment=rutor.info address=193.46.255.29} on-error {}
-:do {add list=$AddressList comment=rutor.info address=75.2.37.224} on-error {}
+:if ([:len [find where list=$AddressList and address=104.21.112.1]] = 0) do={ add list=$AddressList comment=rutor.info address=104.21.112.1 }
+:if ([:len [find where list=$AddressList and address=104.21.12.243]] = 0) do={ add list=$AddressList comment=rutor.info address=104.21.12.243 }
+:if ([:len [find where list=$AddressList and address=104.21.16.1]] = 0) do={ add list=$AddressList comment=rutor.info address=104.21.16.1 }
+:if ([:len [find where list=$AddressList and address=104.21.32.1]] = 0) do={ add list=$AddressList comment=rutor.info address=104.21.32.1 }
+:if ([:len [find where list=$AddressList and address=104.21.48.1]] = 0) do={ add list=$AddressList comment=rutor.info address=104.21.48.1 }
+:if ([:len [find where list=$AddressList and address=104.21.64.1]] = 0) do={ add list=$AddressList comment=rutor.info address=104.21.64.1 }
+:if ([:len [find where list=$AddressList and address=104.21.80.1]] = 0) do={ add list=$AddressList comment=rutor.info address=104.21.80.1 }
+:if ([:len [find where list=$AddressList and address=104.21.96.1]] = 0) do={ add list=$AddressList comment=rutor.info address=104.21.96.1 }
+:if ([:len [find where list=$AddressList and address=172.67.153.242]] = 0) do={ add list=$AddressList comment=rutor.info address=172.67.153.242 }
+:if ([:len [find where list=$AddressList and address=188.114.96.0]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.96.0 }
+:if ([:len [find where list=$AddressList and address=188.114.96.1]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.96.1 }
+:if ([:len [find where list=$AddressList and address=188.114.96.10]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.96.10 }
+:if ([:len [find where list=$AddressList and address=188.114.96.11]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.96.11 }
+:if ([:len [find where list=$AddressList and address=188.114.96.12]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.96.12 }
+:if ([:len [find where list=$AddressList and address=188.114.96.2]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.96.2 }
+:if ([:len [find where list=$AddressList and address=188.114.96.3]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.96.3 }
+:if ([:len [find where list=$AddressList and address=188.114.96.7]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.96.7 }
+:if ([:len [find where list=$AddressList and address=188.114.96.9]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.96.9 }
+:if ([:len [find where list=$AddressList and address=188.114.97.0]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.97.0 }
+:if ([:len [find where list=$AddressList and address=188.114.97.1]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.97.1 }
+:if ([:len [find where list=$AddressList and address=188.114.97.10]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.97.10 }
+:if ([:len [find where list=$AddressList and address=188.114.97.11]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.97.11 }
+:if ([:len [find where list=$AddressList and address=188.114.97.12]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.97.12 }
+:if ([:len [find where list=$AddressList and address=188.114.97.2]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.97.2 }
+:if ([:len [find where list=$AddressList and address=188.114.97.3]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.97.3 }
+:if ([:len [find where list=$AddressList and address=188.114.97.7]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.97.7 }
+:if ([:len [find where list=$AddressList and address=188.114.97.9]] = 0) do={ add list=$AddressList comment=rutor.info address=188.114.97.9 }
+:if ([:len [find where list=$AddressList and address=193.46.255.26]] = 0) do={ add list=$AddressList comment=rutor.info address=193.46.255.26 }
+:if ([:len [find where list=$AddressList and address=193.46.255.29]] = 0) do={ add list=$AddressList comment=rutor.info address=193.46.255.29 }
+:if ([:len [find where list=$AddressList and address=75.2.37.224]] = 0) do={ add list=$AddressList comment=rutor.info address=75.2.37.224 }

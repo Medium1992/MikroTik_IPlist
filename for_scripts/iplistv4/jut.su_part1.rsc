@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=jut.su address=104.26.6.135} on-error {}
-:do {add list=$AddressList comment=jut.su address=104.26.7.135} on-error {}
-:do {add list=$AddressList comment=jut.su address=116.202.10.173} on-error {}
-:do {add list=$AddressList comment=jut.su address=116.202.108.124} on-error {}
-:do {add list=$AddressList comment=jut.su address=116.202.11.33} on-error {}
-:do {add list=$AddressList comment=jut.su address=116.203.253.210} on-error {}
-:do {add list=$AddressList comment=jut.su address=128.140.115.27} on-error {}
-:do {add list=$AddressList comment=jut.su address=136.243.68.218} on-error {}
-:do {add list=$AddressList comment=jut.su address=138.199.152.115} on-error {}
-:do {add list=$AddressList comment=jut.su address=138.199.170.78} on-error {}
-:do {add list=$AddressList comment=jut.su address=138.201.123.185} on-error {}
-:do {add list=$AddressList comment=jut.su address=138.201.132.247} on-error {}
-:do {add list=$AddressList comment=jut.su address=138.201.219.176} on-error {}
-:do {add list=$AddressList comment=jut.su address=138.201.247.251} on-error {}
-:do {add list=$AddressList comment=jut.su address=138.201.251.250} on-error {}
-:do {add list=$AddressList comment=jut.su address=138.201.92.9} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.107.109} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.107.117} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.107.25} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.110.55} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.117.98} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.118.178} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.118.71} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.119.15} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.12.21} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.12.81} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.136.118} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.138.197} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.138.199} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.139.22} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.15.102} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.15.181} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.153.80} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.154.196} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.154.197} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.154.38} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.156.245} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.157.98} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.159.108} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.16.238} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.16.94} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.163.138} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.163.251} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.163.73} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.164.106} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.164.58} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.165.248} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.165.36} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.166.132} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.17.35} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.173.119} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.173.121} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.174.24} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.175.131} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.176.24} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.176.60} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.176.70} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.176.72} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.18.182} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.18.50} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.18.77} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.185.121} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.194.66} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.196.187} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.198.200} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.200.173} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.201.56} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.202.218} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.203.156} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.203.186} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.203.58} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.203.62} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.218.166} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.219.24} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.237.111} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.26.206} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.26.211} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.27.27} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.27.4} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.28.4} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.29.119} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.29.40} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.3.7} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.31.228} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.36.188} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.37.108} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.39.164} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.39.208} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.39.50} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.39.52} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.4.169} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.41.82} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.42.176} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.45.62} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.6.195} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.60.218} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.62.25} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.62.29} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.65.157} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.67.207} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.68.26} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.69.246} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.69.247} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.69.80} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.71.136} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.71.55} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.78.198} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.78.81} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.78.86} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.78.87} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.80.139} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.80.40} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.84.9} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.85.139} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.85.196} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.85.244} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.86.14} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.86.24} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.87.121} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.91.18} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.91.5} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.98.175} on-error {}
-:do {add list=$AddressList comment=jut.su address=144.76.98.38} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.121.93} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.152.87} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.177.160} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.192.159} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.237.147} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.77.79} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.79.109} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.79.144} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.81.80} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.83.21} on-error {}
-:do {add list=$AddressList comment=jut.su address=148.251.83.89} on-error {}
-:do {add list=$AddressList comment=jut.su address=157.90.148.31} on-error {}
-:do {add list=$AddressList comment=jut.su address=157.90.252.166} on-error {}
-:do {add list=$AddressList comment=jut.su address=159.69.122.95} on-error {}
-:do {add list=$AddressList comment=jut.su address=159.69.191.64} on-error {}
-:do {add list=$AddressList comment=jut.su address=159.69.243.127} on-error {}
-:do {add list=$AddressList comment=jut.su address=159.69.48.6} on-error {}
-:do {add list=$AddressList comment=jut.su address=168.119.253.177} on-error {}
-:do {add list=$AddressList comment=jut.su address=168.119.9.51} on-error {}
-:do {add list=$AddressList comment=jut.su address=172.67.72.179} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.1.252} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.106.12} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.114.106} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.114.140} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.114.151} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.125.196} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.125.51} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.138.137} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.139.72} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.142.143} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.145.158} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.145.46} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.149.175} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.158.35} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.17.30} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.18.209} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.18.251} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.23.125} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.24.45} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.29.104} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.3.80} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.31.81} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.44.114} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.44.214} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.44.246} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.44.27} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.44.51} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.45.151} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.45.6} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.46.19} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.46.69} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.46.76} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.46.77} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.46.84} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.51.252} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.54.209} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.62.247} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.65.104} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.70.141} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.70.158} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.71.155} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.76.79} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.77.222} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.79.99} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.82.117} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.82.181} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.82.84} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.84.30} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.90.230} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.92.21} on-error {}
-:do {add list=$AddressList comment=jut.su address=176.9.93.226} on-error {}
-:do {add list=$AddressList comment=jut.su address=178.63.23.156} on-error {}
-:do {add list=$AddressList comment=jut.su address=178.63.40.100} on-error {}
-:do {add list=$AddressList comment=jut.su address=178.63.8.102} on-error {}
-:do {add list=$AddressList comment=jut.su address=178.63.93.231} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.114.98.224} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.114.98.228} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.114.98.229} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.114.99.224} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.114.99.228} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.114.99.229} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.245.236.15} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.34.189.168} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.40.103.200} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.40.138.204} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.40.41.187} on-error {}
-:do {add list=$AddressList comment=jut.su address=188.40.73.92} on-error {}
-:do {add list=$AddressList comment=jut.su address=194.49.53.21} on-error {}
-:do {add list=$AddressList comment=jut.su address=198.16.110.154} on-error {}
-:do {add list=$AddressList comment=jut.su address=213.239.200.209} on-error {}
-:do {add list=$AddressList comment=jut.su address=23.88.116.174} on-error {}
-:do {add list=$AddressList comment=jut.su address=23.88.116.175} on-error {}
-:do {add list=$AddressList comment=jut.su address=23.88.117.36} on-error {}
-:do {add list=$AddressList comment=jut.su address=23.88.117.37} on-error {}
-:do {add list=$AddressList comment=jut.su address=46.4.100.84} on-error {}
-:do {add list=$AddressList comment=jut.su address=46.4.103.136} on-error {}
-:do {add list=$AddressList comment=jut.su address=46.4.103.140} on-error {}
-:do {add list=$AddressList comment=jut.su address=46.4.104.236} on-error {}
-:do {add list=$AddressList comment=jut.su address=46.4.114.93} on-error {}
-:do {add list=$AddressList comment=jut.su address=46.4.119.126} on-error {}
-:do {add list=$AddressList comment=jut.su address=46.4.13.86} on-error {}
-:do {add list=$AddressList comment=jut.su address=46.4.69.14} on-error {}
-:do {add list=$AddressList comment=jut.su address=46.4.71.177} on-error {}
-:do {add list=$AddressList comment=jut.su address=46.4.78.156} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.12.107.107} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.12.191.217} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.12.211.134} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.12.211.135} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.12.214.161} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.12.214.57} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.12.221.18} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.12.221.19} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.12.33.0} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.12.41.157} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.13.19.44} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.13.5.155} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.13.55.153} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.13.73.81} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.13.88.67} on-error {}
-:do {add list=$AddressList comment=jut.su address=49.13.94.138} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.75.243.110} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.100.138} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.100.190} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.100.38} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.102.54} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.104.37} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.105.36} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.107.177} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.108.217} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.111.180} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.113.124} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.117.12} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.121.245} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.121.68} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.122.21} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.123.83} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.124.37} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.13.47} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.136.52} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.137.239} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.138.165} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.138.232} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.138.242} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.138.49} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.139.253} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.140.145} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.140.42} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.141.182} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.144.240} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.145.104} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.145.244} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.145.7} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.147.245} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.148.52} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.149.187} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.149.240} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.149.56} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.150.6} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.151.115} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.151.172} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.154.67} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.155.183} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.156.140} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.156.16} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.17.102} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.18.216} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.207.171} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.21.82} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.25.209} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.28.88} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.38.190} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.51.146} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.52.10} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.52.125} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.54.29} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.54.54} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.57.101} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.57.143} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.61.89} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.63.72} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.67.236} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.67.244} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.7.174} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.7.28} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.72.88} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.74.110} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.74.68} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.77.228} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.78.94} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.79.221} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.81.109} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.83.150} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.85.171} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.85.51} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.86.6} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.89.105} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.89.108} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.93.2} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.94.186} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.95.11} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.95.25} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.99.109} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.99.196} on-error {}
-:do {add list=$AddressList comment=jut.su address=5.9.99.213} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.108.89} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.174.152} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.18.17} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.181.167} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.205.49} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.214.143} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.214.170} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.38.40} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.45.208} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.63.100} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.64.69} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.73.71} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.75.187} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.76.239} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.46.85.12} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.47.74.175} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.47.80.83} on-error {}
-:do {add list=$AddressList comment=jut.su address=78.47.81.177} on-error {}
-:do {add list=$AddressList comment=jut.su address=8.47.69.0} on-error {}
-:do {add list=$AddressList comment=jut.su address=8.47.69.4} on-error {}
-:do {add list=$AddressList comment=jut.su address=8.47.69.8} on-error {}
-:do {add list=$AddressList comment=jut.su address=8.47.69.9} on-error {}
-:do {add list=$AddressList comment=jut.su address=8.6.112.0} on-error {}
+:if ([:len [find where list=$AddressList and address=104.26.6.135]] = 0) do={ add list=$AddressList comment=jut.su address=104.26.6.135 }
+:if ([:len [find where list=$AddressList and address=104.26.7.135]] = 0) do={ add list=$AddressList comment=jut.su address=104.26.7.135 }
+:if ([:len [find where list=$AddressList and address=116.202.10.173]] = 0) do={ add list=$AddressList comment=jut.su address=116.202.10.173 }
+:if ([:len [find where list=$AddressList and address=116.202.108.124]] = 0) do={ add list=$AddressList comment=jut.su address=116.202.108.124 }
+:if ([:len [find where list=$AddressList and address=116.202.11.33]] = 0) do={ add list=$AddressList comment=jut.su address=116.202.11.33 }
+:if ([:len [find where list=$AddressList and address=116.203.253.210]] = 0) do={ add list=$AddressList comment=jut.su address=116.203.253.210 }
+:if ([:len [find where list=$AddressList and address=128.140.115.27]] = 0) do={ add list=$AddressList comment=jut.su address=128.140.115.27 }
+:if ([:len [find where list=$AddressList and address=136.243.68.218]] = 0) do={ add list=$AddressList comment=jut.su address=136.243.68.218 }
+:if ([:len [find where list=$AddressList and address=138.199.152.115]] = 0) do={ add list=$AddressList comment=jut.su address=138.199.152.115 }
+:if ([:len [find where list=$AddressList and address=138.199.170.78]] = 0) do={ add list=$AddressList comment=jut.su address=138.199.170.78 }
+:if ([:len [find where list=$AddressList and address=138.201.123.185]] = 0) do={ add list=$AddressList comment=jut.su address=138.201.123.185 }
+:if ([:len [find where list=$AddressList and address=138.201.132.247]] = 0) do={ add list=$AddressList comment=jut.su address=138.201.132.247 }
+:if ([:len [find where list=$AddressList and address=138.201.219.176]] = 0) do={ add list=$AddressList comment=jut.su address=138.201.219.176 }
+:if ([:len [find where list=$AddressList and address=138.201.247.251]] = 0) do={ add list=$AddressList comment=jut.su address=138.201.247.251 }
+:if ([:len [find where list=$AddressList and address=138.201.251.250]] = 0) do={ add list=$AddressList comment=jut.su address=138.201.251.250 }
+:if ([:len [find where list=$AddressList and address=138.201.92.9]] = 0) do={ add list=$AddressList comment=jut.su address=138.201.92.9 }
+:if ([:len [find where list=$AddressList and address=144.76.107.109]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.107.109 }
+:if ([:len [find where list=$AddressList and address=144.76.107.117]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.107.117 }
+:if ([:len [find where list=$AddressList and address=144.76.107.25]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.107.25 }
+:if ([:len [find where list=$AddressList and address=144.76.110.55]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.110.55 }
+:if ([:len [find where list=$AddressList and address=144.76.117.98]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.117.98 }
+:if ([:len [find where list=$AddressList and address=144.76.118.178]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.118.178 }
+:if ([:len [find where list=$AddressList and address=144.76.118.71]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.118.71 }
+:if ([:len [find where list=$AddressList and address=144.76.119.15]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.119.15 }
+:if ([:len [find where list=$AddressList and address=144.76.12.21]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.12.21 }
+:if ([:len [find where list=$AddressList and address=144.76.12.81]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.12.81 }
+:if ([:len [find where list=$AddressList and address=144.76.136.118]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.136.118 }
+:if ([:len [find where list=$AddressList and address=144.76.138.197]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.138.197 }
+:if ([:len [find where list=$AddressList and address=144.76.138.199]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.138.199 }
+:if ([:len [find where list=$AddressList and address=144.76.139.22]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.139.22 }
+:if ([:len [find where list=$AddressList and address=144.76.15.102]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.15.102 }
+:if ([:len [find where list=$AddressList and address=144.76.15.181]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.15.181 }
+:if ([:len [find where list=$AddressList and address=144.76.153.80]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.153.80 }
+:if ([:len [find where list=$AddressList and address=144.76.154.196]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.154.196 }
+:if ([:len [find where list=$AddressList and address=144.76.154.197]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.154.197 }
+:if ([:len [find where list=$AddressList and address=144.76.154.38]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.154.38 }
+:if ([:len [find where list=$AddressList and address=144.76.156.245]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.156.245 }
+:if ([:len [find where list=$AddressList and address=144.76.157.98]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.157.98 }
+:if ([:len [find where list=$AddressList and address=144.76.159.108]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.159.108 }
+:if ([:len [find where list=$AddressList and address=144.76.16.238]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.16.238 }
+:if ([:len [find where list=$AddressList and address=144.76.16.94]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.16.94 }
+:if ([:len [find where list=$AddressList and address=144.76.163.138]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.163.138 }
+:if ([:len [find where list=$AddressList and address=144.76.163.251]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.163.251 }
+:if ([:len [find where list=$AddressList and address=144.76.163.73]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.163.73 }
+:if ([:len [find where list=$AddressList and address=144.76.164.106]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.164.106 }
+:if ([:len [find where list=$AddressList and address=144.76.164.58]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.164.58 }
+:if ([:len [find where list=$AddressList and address=144.76.165.248]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.165.248 }
+:if ([:len [find where list=$AddressList and address=144.76.165.36]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.165.36 }
+:if ([:len [find where list=$AddressList and address=144.76.166.132]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.166.132 }
+:if ([:len [find where list=$AddressList and address=144.76.17.35]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.17.35 }
+:if ([:len [find where list=$AddressList and address=144.76.173.119]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.173.119 }
+:if ([:len [find where list=$AddressList and address=144.76.173.121]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.173.121 }
+:if ([:len [find where list=$AddressList and address=144.76.174.24]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.174.24 }
+:if ([:len [find where list=$AddressList and address=144.76.175.131]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.175.131 }
+:if ([:len [find where list=$AddressList and address=144.76.176.24]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.176.24 }
+:if ([:len [find where list=$AddressList and address=144.76.176.60]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.176.60 }
+:if ([:len [find where list=$AddressList and address=144.76.176.70]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.176.70 }
+:if ([:len [find where list=$AddressList and address=144.76.176.72]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.176.72 }
+:if ([:len [find where list=$AddressList and address=144.76.18.182]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.18.182 }
+:if ([:len [find where list=$AddressList and address=144.76.18.50]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.18.50 }
+:if ([:len [find where list=$AddressList and address=144.76.18.77]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.18.77 }
+:if ([:len [find where list=$AddressList and address=144.76.185.121]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.185.121 }
+:if ([:len [find where list=$AddressList and address=144.76.194.66]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.194.66 }
+:if ([:len [find where list=$AddressList and address=144.76.196.187]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.196.187 }
+:if ([:len [find where list=$AddressList and address=144.76.198.200]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.198.200 }
+:if ([:len [find where list=$AddressList and address=144.76.200.173]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.200.173 }
+:if ([:len [find where list=$AddressList and address=144.76.201.56]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.201.56 }
+:if ([:len [find where list=$AddressList and address=144.76.202.218]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.202.218 }
+:if ([:len [find where list=$AddressList and address=144.76.203.156]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.203.156 }
+:if ([:len [find where list=$AddressList and address=144.76.203.186]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.203.186 }
+:if ([:len [find where list=$AddressList and address=144.76.203.58]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.203.58 }
+:if ([:len [find where list=$AddressList and address=144.76.203.62]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.203.62 }
+:if ([:len [find where list=$AddressList and address=144.76.218.166]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.218.166 }
+:if ([:len [find where list=$AddressList and address=144.76.219.24]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.219.24 }
+:if ([:len [find where list=$AddressList and address=144.76.237.111]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.237.111 }
+:if ([:len [find where list=$AddressList and address=144.76.26.206]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.26.206 }
+:if ([:len [find where list=$AddressList and address=144.76.26.211]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.26.211 }
+:if ([:len [find where list=$AddressList and address=144.76.27.27]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.27.27 }
+:if ([:len [find where list=$AddressList and address=144.76.27.4]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.27.4 }
+:if ([:len [find where list=$AddressList and address=144.76.28.4]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.28.4 }
+:if ([:len [find where list=$AddressList and address=144.76.29.119]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.29.119 }
+:if ([:len [find where list=$AddressList and address=144.76.29.40]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.29.40 }
+:if ([:len [find where list=$AddressList and address=144.76.3.7]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.3.7 }
+:if ([:len [find where list=$AddressList and address=144.76.31.228]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.31.228 }
+:if ([:len [find where list=$AddressList and address=144.76.36.188]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.36.188 }
+:if ([:len [find where list=$AddressList and address=144.76.37.108]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.37.108 }
+:if ([:len [find where list=$AddressList and address=144.76.39.164]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.39.164 }
+:if ([:len [find where list=$AddressList and address=144.76.39.208]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.39.208 }
+:if ([:len [find where list=$AddressList and address=144.76.39.50]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.39.50 }
+:if ([:len [find where list=$AddressList and address=144.76.39.52]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.39.52 }
+:if ([:len [find where list=$AddressList and address=144.76.4.169]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.4.169 }
+:if ([:len [find where list=$AddressList and address=144.76.41.82]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.41.82 }
+:if ([:len [find where list=$AddressList and address=144.76.42.176]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.42.176 }
+:if ([:len [find where list=$AddressList and address=144.76.45.62]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.45.62 }
+:if ([:len [find where list=$AddressList and address=144.76.6.195]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.6.195 }
+:if ([:len [find where list=$AddressList and address=144.76.60.218]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.60.218 }
+:if ([:len [find where list=$AddressList and address=144.76.62.25]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.62.25 }
+:if ([:len [find where list=$AddressList and address=144.76.62.29]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.62.29 }
+:if ([:len [find where list=$AddressList and address=144.76.65.157]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.65.157 }
+:if ([:len [find where list=$AddressList and address=144.76.67.207]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.67.207 }
+:if ([:len [find where list=$AddressList and address=144.76.68.26]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.68.26 }
+:if ([:len [find where list=$AddressList and address=144.76.69.246]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.69.246 }
+:if ([:len [find where list=$AddressList and address=144.76.69.247]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.69.247 }
+:if ([:len [find where list=$AddressList and address=144.76.69.80]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.69.80 }
+:if ([:len [find where list=$AddressList and address=144.76.71.136]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.71.136 }
+:if ([:len [find where list=$AddressList and address=144.76.71.55]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.71.55 }
+:if ([:len [find where list=$AddressList and address=144.76.78.198]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.78.198 }
+:if ([:len [find where list=$AddressList and address=144.76.78.81]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.78.81 }
+:if ([:len [find where list=$AddressList and address=144.76.78.86]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.78.86 }
+:if ([:len [find where list=$AddressList and address=144.76.78.87]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.78.87 }
+:if ([:len [find where list=$AddressList and address=144.76.80.139]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.80.139 }
+:if ([:len [find where list=$AddressList and address=144.76.80.40]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.80.40 }
+:if ([:len [find where list=$AddressList and address=144.76.84.9]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.84.9 }
+:if ([:len [find where list=$AddressList and address=144.76.85.139]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.85.139 }
+:if ([:len [find where list=$AddressList and address=144.76.85.196]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.85.196 }
+:if ([:len [find where list=$AddressList and address=144.76.85.244]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.85.244 }
+:if ([:len [find where list=$AddressList and address=144.76.86.14]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.86.14 }
+:if ([:len [find where list=$AddressList and address=144.76.86.24]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.86.24 }
+:if ([:len [find where list=$AddressList and address=144.76.87.121]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.87.121 }
+:if ([:len [find where list=$AddressList and address=144.76.91.18]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.91.18 }
+:if ([:len [find where list=$AddressList and address=144.76.91.5]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.91.5 }
+:if ([:len [find where list=$AddressList and address=144.76.98.175]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.98.175 }
+:if ([:len [find where list=$AddressList and address=144.76.98.38]] = 0) do={ add list=$AddressList comment=jut.su address=144.76.98.38 }
+:if ([:len [find where list=$AddressList and address=148.251.121.93]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.121.93 }
+:if ([:len [find where list=$AddressList and address=148.251.152.87]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.152.87 }
+:if ([:len [find where list=$AddressList and address=148.251.177.160]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.177.160 }
+:if ([:len [find where list=$AddressList and address=148.251.192.159]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.192.159 }
+:if ([:len [find where list=$AddressList and address=148.251.237.147]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.237.147 }
+:if ([:len [find where list=$AddressList and address=148.251.77.79]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.77.79 }
+:if ([:len [find where list=$AddressList and address=148.251.79.109]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.79.109 }
+:if ([:len [find where list=$AddressList and address=148.251.79.144]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.79.144 }
+:if ([:len [find where list=$AddressList and address=148.251.81.80]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.81.80 }
+:if ([:len [find where list=$AddressList and address=148.251.83.21]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.83.21 }
+:if ([:len [find where list=$AddressList and address=148.251.83.89]] = 0) do={ add list=$AddressList comment=jut.su address=148.251.83.89 }
+:if ([:len [find where list=$AddressList and address=157.90.148.31]] = 0) do={ add list=$AddressList comment=jut.su address=157.90.148.31 }
+:if ([:len [find where list=$AddressList and address=157.90.252.166]] = 0) do={ add list=$AddressList comment=jut.su address=157.90.252.166 }
+:if ([:len [find where list=$AddressList and address=159.69.122.95]] = 0) do={ add list=$AddressList comment=jut.su address=159.69.122.95 }
+:if ([:len [find where list=$AddressList and address=159.69.191.64]] = 0) do={ add list=$AddressList comment=jut.su address=159.69.191.64 }
+:if ([:len [find where list=$AddressList and address=159.69.243.127]] = 0) do={ add list=$AddressList comment=jut.su address=159.69.243.127 }
+:if ([:len [find where list=$AddressList and address=159.69.48.6]] = 0) do={ add list=$AddressList comment=jut.su address=159.69.48.6 }
+:if ([:len [find where list=$AddressList and address=168.119.253.177]] = 0) do={ add list=$AddressList comment=jut.su address=168.119.253.177 }
+:if ([:len [find where list=$AddressList and address=168.119.9.51]] = 0) do={ add list=$AddressList comment=jut.su address=168.119.9.51 }
+:if ([:len [find where list=$AddressList and address=172.67.72.179]] = 0) do={ add list=$AddressList comment=jut.su address=172.67.72.179 }
+:if ([:len [find where list=$AddressList and address=176.9.1.252]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.1.252 }
+:if ([:len [find where list=$AddressList and address=176.9.106.12]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.106.12 }
+:if ([:len [find where list=$AddressList and address=176.9.114.106]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.114.106 }
+:if ([:len [find where list=$AddressList and address=176.9.114.140]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.114.140 }
+:if ([:len [find where list=$AddressList and address=176.9.114.151]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.114.151 }
+:if ([:len [find where list=$AddressList and address=176.9.125.196]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.125.196 }
+:if ([:len [find where list=$AddressList and address=176.9.125.51]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.125.51 }
+:if ([:len [find where list=$AddressList and address=176.9.138.137]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.138.137 }
+:if ([:len [find where list=$AddressList and address=176.9.139.72]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.139.72 }
+:if ([:len [find where list=$AddressList and address=176.9.142.143]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.142.143 }
+:if ([:len [find where list=$AddressList and address=176.9.145.158]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.145.158 }
+:if ([:len [find where list=$AddressList and address=176.9.145.46]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.145.46 }
+:if ([:len [find where list=$AddressList and address=176.9.149.175]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.149.175 }
+:if ([:len [find where list=$AddressList and address=176.9.158.35]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.158.35 }
+:if ([:len [find where list=$AddressList and address=176.9.17.30]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.17.30 }
+:if ([:len [find where list=$AddressList and address=176.9.18.209]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.18.209 }
+:if ([:len [find where list=$AddressList and address=176.9.18.251]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.18.251 }
+:if ([:len [find where list=$AddressList and address=176.9.23.125]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.23.125 }
+:if ([:len [find where list=$AddressList and address=176.9.24.45]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.24.45 }
+:if ([:len [find where list=$AddressList and address=176.9.29.104]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.29.104 }
+:if ([:len [find where list=$AddressList and address=176.9.3.80]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.3.80 }
+:if ([:len [find where list=$AddressList and address=176.9.31.81]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.31.81 }
+:if ([:len [find where list=$AddressList and address=176.9.44.114]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.44.114 }
+:if ([:len [find where list=$AddressList and address=176.9.44.214]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.44.214 }
+:if ([:len [find where list=$AddressList and address=176.9.44.246]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.44.246 }
+:if ([:len [find where list=$AddressList and address=176.9.44.27]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.44.27 }
+:if ([:len [find where list=$AddressList and address=176.9.44.51]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.44.51 }
+:if ([:len [find where list=$AddressList and address=176.9.45.151]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.45.151 }
+:if ([:len [find where list=$AddressList and address=176.9.45.6]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.45.6 }
+:if ([:len [find where list=$AddressList and address=176.9.46.19]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.46.19 }
+:if ([:len [find where list=$AddressList and address=176.9.46.69]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.46.69 }
+:if ([:len [find where list=$AddressList and address=176.9.46.76]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.46.76 }
+:if ([:len [find where list=$AddressList and address=176.9.46.77]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.46.77 }
+:if ([:len [find where list=$AddressList and address=176.9.46.84]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.46.84 }
+:if ([:len [find where list=$AddressList and address=176.9.51.252]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.51.252 }
+:if ([:len [find where list=$AddressList and address=176.9.54.209]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.54.209 }
+:if ([:len [find where list=$AddressList and address=176.9.62.247]] = 0) do={ add list=$AddressList comment=jut.su address=176.9.62.247 }

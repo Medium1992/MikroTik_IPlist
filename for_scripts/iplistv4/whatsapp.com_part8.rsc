@@ -1,68 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=whatsapp.com address=82.199.196.97} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=82.76.231.161} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=82.76.231.225} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=82.78.186.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=82.78.186.225} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=82.78.68.33} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=82.78.68.98} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=82.85.13.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=82.85.19.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=82.85.43.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=83.119.28.161} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=83.174.11.225} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=83.255.231.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=83.255.231.225} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=84.15.65.161} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=84.15.66.33} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=84.208.7.226} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=84.22.34.97} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=84.91.172.97} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=85.114.126.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=85.114.48.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=86.110.224.97} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=86.127.118.33} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=86.56.128.98} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=87.201.174.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=87.201.175.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=87.235.220.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=88.212.9.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=88.216.174.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=89.108.140.33} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=89.45.2.98} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=90.244.158.100} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=90.244.158.36} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=91.185.14.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=91.225.202.98} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=92.63.15.226} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=92.87.174.33} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=92.87.174.97} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=92.87.211.33} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=93.103.10.225} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=93.191.8.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=93.57.114.97} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=93.57.122.226} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=93.57.122.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=93.57.123.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=93.62.101.96} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=93.91.193.225} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.153.206.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.153.206.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.153.207.96} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.198.177.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.76.108.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.79.192.97} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.97.224.226} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.97.224.98} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.97.225.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.97.225.98} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.97.236.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=94.97.236.226} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=95.107.145.226} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=95.209.203.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=95.209.203.226} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=95.209.203.34} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=95.209.203.98} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=95.95.252.162} on-error {}
-:do {add list=$AddressList comment=whatsapp.com address=95.95.252.226} on-error {}
+:if ([:len [find where list=$AddressList and address=31.13.66.56]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.66.56 }
+:if ([:len [find where list=$AddressList and address=31.13.67.52]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.67.52 }
+:if ([:len [find where list=$AddressList and address=31.13.69.1]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.69.1 }
+:if ([:len [find where list=$AddressList and address=31.13.69.13]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.69.13 }
+:if ([:len [find where list=$AddressList and address=31.13.69.207]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.69.207 }
+:if ([:len [find where list=$AddressList and address=31.13.69.214]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.69.214 }
+:if ([:len [find where list=$AddressList and address=31.13.69.3]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.69.3 }
+:if ([:len [find where list=$AddressList and address=31.13.69.60]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.69.60 }
+:if ([:len [find where list=$AddressList and address=31.13.69.61]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.69.61 }
+:if ([:len [find where list=$AddressList and address=31.13.70.30]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.70.30 }
+:if ([:len [find where list=$AddressList and address=31.13.70.49]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.70.49 }
+:if ([:len [find where list=$AddressList and address=31.13.70.50]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.70.50 }
+:if ([:len [find where list=$AddressList and address=31.13.71.18]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.71.18 }
+:if ([:len [find where list=$AddressList and address=31.13.71.49]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.71.49 }
+:if ([:len [find where list=$AddressList and address=31.13.71.50]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.71.50 }
+:if ([:len [find where list=$AddressList and address=31.13.72.12]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.72.12 }
+:if ([:len [find where list=$AddressList and address=31.13.72.199]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.72.199 }
+:if ([:len [find where list=$AddressList and address=31.13.72.205]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.72.205 }
+:if ([:len [find where list=$AddressList and address=31.13.72.48]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.72.48 }
+:if ([:len [find where list=$AddressList and address=31.13.72.52]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.72.52 }
+:if ([:len [find where list=$AddressList and address=31.13.72.64]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.72.64 }
+:if ([:len [find where list=$AddressList and address=31.13.72.8]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.72.8 }
+:if ([:len [find where list=$AddressList and address=31.13.73.31]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.73.31 }
+:if ([:len [find where list=$AddressList and address=31.13.73.52]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.73.52 }
+:if ([:len [find where list=$AddressList and address=31.13.73.53]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.73.53 }
+:if ([:len [find where list=$AddressList and address=31.13.76.29]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.76.29 }
+:if ([:len [find where list=$AddressList and address=31.13.76.60]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.76.60 }
+:if ([:len [find where list=$AddressList and address=31.13.76.61]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.76.61 }
+:if ([:len [find where list=$AddressList and address=31.13.78.5]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.78.5 }
+:if ([:len [find where list=$AddressList and address=31.13.78.60]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.78.60 }
+:if ([:len [find where list=$AddressList and address=31.13.78.61]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.78.61 }
+:if ([:len [find where list=$AddressList and address=31.13.79.53]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.79.53 }
+:if ([:len [find where list=$AddressList and address=31.13.80.31]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.80.31 }
+:if ([:len [find where list=$AddressList and address=31.13.80.48]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.80.48 }
+:if ([:len [find where list=$AddressList and address=31.13.80.53]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.80.53 }
+:if ([:len [find where list=$AddressList and address=31.13.82.16]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.82.16 }
+:if ([:len [find where list=$AddressList and address=31.13.82.51]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.82.51 }
+:if ([:len [find where list=$AddressList and address=31.13.82.55]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.82.55 }
+:if ([:len [find where list=$AddressList and address=31.13.83.199]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.83.199 }
+:if ([:len [find where list=$AddressList and address=31.13.83.205]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.83.205 }
+:if ([:len [find where list=$AddressList and address=31.13.83.30]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.83.30 }
+:if ([:len [find where list=$AddressList and address=31.13.83.4]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.83.4 }
+:if ([:len [find where list=$AddressList and address=31.13.83.49]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.83.49 }
+:if ([:len [find where list=$AddressList and address=31.13.83.51]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.83.51 }
+:if ([:len [find where list=$AddressList and address=31.13.83.8]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.83.8 }
+:if ([:len [find where list=$AddressList and address=31.13.84.205]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.84.205 }
+:if ([:len [find where list=$AddressList and address=31.13.84.214]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.84.214 }
+:if ([:len [find where list=$AddressList and address=31.13.84.30]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.84.30 }
+:if ([:len [find where list=$AddressList and address=31.13.84.36]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.84.36 }
+:if ([:len [find where list=$AddressList and address=31.13.84.4]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.84.4 }
+:if ([:len [find where list=$AddressList and address=31.13.84.49]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.84.49 }
+:if ([:len [find where list=$AddressList and address=31.13.84.51]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.84.51 }
+:if ([:len [find where list=$AddressList and address=31.13.84.8]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.84.8 }
+:if ([:len [find where list=$AddressList and address=31.13.85.31]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.85.31 }
+:if ([:len [find where list=$AddressList and address=31.13.85.49]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.85.49 }
+:if ([:len [find where list=$AddressList and address=31.13.85.51]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.85.51 }
+:if ([:len [find where list=$AddressList and address=31.13.86.199]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.86.199 }
+:if ([:len [find where list=$AddressList and address=31.13.86.205]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.86.205 }
+:if ([:len [find where list=$AddressList and address=31.13.86.31]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.86.31 }
+:if ([:len [find where list=$AddressList and address=31.13.86.4]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.86.4 }
+:if ([:len [find where list=$AddressList and address=31.13.86.49]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.86.49 }
+:if ([:len [find where list=$AddressList and address=31.13.86.51]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.86.51 }
+:if ([:len [find where list=$AddressList and address=31.13.86.8]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.86.8 }
+:if ([:len [find where list=$AddressList and address=31.13.87.30]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.87.30 }
+:if ([:len [find where list=$AddressList and address=31.13.87.48]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.87.48 }
+:if ([:len [find where list=$AddressList and address=31.13.87.51]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.87.51 }
+:if ([:len [find where list=$AddressList and address=31.13.88.3]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.88.3 }
+:if ([:len [find where list=$AddressList and address=31.13.88.60]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.88.60 }
+:if ([:len [find where list=$AddressList and address=31.13.88.61]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.88.61 }
+:if ([:len [find where list=$AddressList and address=31.13.89.30]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.89.30 }
+:if ([:len [find where list=$AddressList and address=31.13.89.53]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.89.53 }
+:if ([:len [find where list=$AddressList and address=31.13.89.54]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.89.54 }
+:if ([:len [find where list=$AddressList and address=31.13.90.60]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.90.60 }
+:if ([:len [find where list=$AddressList and address=31.13.91.60]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.91.60 }
+:if ([:len [find where list=$AddressList and address=31.13.93.31]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.93.31 }
+:if ([:len [find where list=$AddressList and address=31.13.93.53]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.93.53 }
+:if ([:len [find where list=$AddressList and address=31.13.93.54]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.93.54 }
+:if ([:len [find where list=$AddressList and address=31.13.94.28]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.94.28 }
+:if ([:len [find where list=$AddressList and address=31.13.94.52]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.94.52 }
+:if ([:len [find where list=$AddressList and address=31.13.94.54]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.94.54 }
+:if ([:len [find where list=$AddressList and address=31.13.95.60]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.13.95.60 }
+:if ([:len [find where list=$AddressList and address=31.145.65.162]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.145.65.162 }
+:if ([:len [find where list=$AddressList and address=31.145.65.34]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.145.65.34 }
+:if ([:len [find where list=$AddressList and address=31.145.65.98]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.145.65.98 }
+:if ([:len [find where list=$AddressList and address=31.145.66.96]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.145.66.96 }
+:if ([:len [find where list=$AddressList and address=31.3.93.162]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.3.93.162 }
+:if ([:len [find where list=$AddressList and address=31.3.93.226]] = 0) do={ add list=$AddressList comment=whatsapp.com address=31.3.93.226 }
+:if ([:len [find where list=$AddressList and address=36.50.150.100]] = 0) do={ add list=$AddressList comment=whatsapp.com address=36.50.150.100 }
+:if ([:len [find where list=$AddressList and address=36.50.150.162]] = 0) do={ add list=$AddressList comment=whatsapp.com address=36.50.150.162 }
+:if ([:len [find where list=$AddressList and address=36.91.202.225]] = 0) do={ add list=$AddressList comment=whatsapp.com address=36.91.202.225 }
+:if ([:len [find where list=$AddressList and address=36.91.202.36]] = 0) do={ add list=$AddressList comment=whatsapp.com address=36.91.202.36 }
+:if ([:len [find where list=$AddressList and address=36.91.231.164]] = 0) do={ add list=$AddressList comment=whatsapp.com address=36.91.231.164 }
+:if ([:len [find where list=$AddressList and address=36.91.231.228]] = 0) do={ add list=$AddressList comment=whatsapp.com address=36.91.231.228 }
+:if ([:len [find where list=$AddressList and address=36.91.231.96]] = 0) do={ add list=$AddressList comment=whatsapp.com address=36.91.231.96 }
+:if ([:len [find where list=$AddressList and address=36.91.232.160]] = 0) do={ add list=$AddressList comment=whatsapp.com address=36.91.232.160 }
+:if ([:len [find where list=$AddressList and address=36.91.232.225]] = 0) do={ add list=$AddressList comment=whatsapp.com address=36.91.232.225 }
+:if ([:len [find where list=$AddressList and address=37.152.3.162]] = 0) do={ add list=$AddressList comment=whatsapp.com address=37.152.3.162 }
+:if ([:len [find where list=$AddressList and address=37.238.70.226]] = 0) do={ add list=$AddressList comment=whatsapp.com address=37.238.70.226 }
+:if ([:len [find where list=$AddressList and address=37.26.80.226]] = 0) do={ add list=$AddressList comment=whatsapp.com address=37.26.80.226 }
+:if ([:len [find where list=$AddressList and address=40.100.174.200]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.174.200 }
+:if ([:len [find where list=$AddressList and address=40.100.174.216]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.174.216 }
+:if ([:len [find where list=$AddressList and address=40.100.174.232]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.174.232 }
+:if ([:len [find where list=$AddressList and address=40.100.174.24]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.174.24 }
+:if ([:len [find where list=$AddressList and address=40.100.174.40]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.174.40 }
+:if ([:len [find where list=$AddressList and address=40.100.174.8]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.174.8 }
+:if ([:len [find where list=$AddressList and address=40.100.175.152]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.175.152 }
+:if ([:len [find where list=$AddressList and address=40.100.4.162]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.4.162 }
+:if ([:len [find where list=$AddressList and address=40.100.4.166]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.4.166 }
+:if ([:len [find where list=$AddressList and address=40.100.4.170]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.4.170 }
+:if ([:len [find where list=$AddressList and address=40.100.4.174]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.4.174 }
+:if ([:len [find where list=$AddressList and address=40.100.4.193]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.4.193 }
+:if ([:len [find where list=$AddressList and address=40.100.4.197]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.4.197 }
+:if ([:len [find where list=$AddressList and address=40.100.4.201]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.4.201 }
+:if ([:len [find where list=$AddressList and address=40.100.5.1]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.5.1 }
+:if ([:len [find where list=$AddressList and address=40.100.5.5]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.5.5 }
+:if ([:len [find where list=$AddressList and address=40.100.5.9]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.100.5.9 }
+:if ([:len [find where list=$AddressList and address=40.101.1.115]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.1.115 }
+:if ([:len [find where list=$AddressList and address=40.101.1.116]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.1.116 }
+:if ([:len [find where list=$AddressList and address=40.101.1.120]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.1.120 }
+:if ([:len [find where list=$AddressList and address=40.101.1.22]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.1.22 }
+:if ([:len [find where list=$AddressList and address=40.101.1.35]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.1.35 }
+:if ([:len [find where list=$AddressList and address=40.101.1.41]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.1.41 }
+:if ([:len [find where list=$AddressList and address=40.101.1.44]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.1.44 }
+:if ([:len [find where list=$AddressList and address=40.101.1.46]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.1.46 }
+:if ([:len [find where list=$AddressList and address=40.101.1.93]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.1.93 }
+:if ([:len [find where list=$AddressList and address=40.101.112.129]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.112.129 }
+:if ([:len [find where list=$AddressList and address=40.101.112.194]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.112.194 }
+:if ([:len [find where list=$AddressList and address=40.101.112.73]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.112.73 }
+:if ([:len [find where list=$AddressList and address=40.101.113.129]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.113.129 }
+:if ([:len [find where list=$AddressList and address=40.101.113.5]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.113.5 }
+:if ([:len [find where list=$AddressList and address=40.101.113.66]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.113.66 }
+:if ([:len [find where list=$AddressList and address=40.101.113.70]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.113.70 }
+:if ([:len [find where list=$AddressList and address=40.101.113.9]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.113.9 }
+:if ([:len [find where list=$AddressList and address=40.101.121.24]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.121.24 }
+:if ([:len [find where list=$AddressList and address=40.101.121.40]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.121.40 }
+:if ([:len [find where list=$AddressList and address=40.101.121.8]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.121.8 }
+:if ([:len [find where list=$AddressList and address=40.101.124.24]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.124.24 }
+:if ([:len [find where list=$AddressList and address=40.101.126.200]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.126.200 }
+:if ([:len [find where list=$AddressList and address=40.101.126.216]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.126.216 }
+:if ([:len [find where list=$AddressList and address=40.101.126.232]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.126.232 }
+:if ([:len [find where list=$AddressList and address=40.101.136.8]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.136.8 }
+:if ([:len [find where list=$AddressList and address=40.101.137.104]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.137.104 }
+:if ([:len [find where list=$AddressList and address=40.101.137.24]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.137.24 }
+:if ([:len [find where list=$AddressList and address=40.101.137.40]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.137.40 }
+:if ([:len [find where list=$AddressList and address=40.101.137.8]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.137.8 }
+:if ([:len [find where list=$AddressList and address=40.101.138.24]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.138.24 }
+:if ([:len [find where list=$AddressList and address=40.101.138.8]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.138.8 }
+:if ([:len [find where list=$AddressList and address=40.101.22.193]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.22.193 }
+:if ([:len [find where list=$AddressList and address=40.101.22.197]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.22.197 }
+:if ([:len [find where list=$AddressList and address=40.101.22.201]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.22.201 }
+:if ([:len [find where list=$AddressList and address=40.101.22.205]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.22.205 }
+:if ([:len [find where list=$AddressList and address=40.101.27.137]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.137 }
+:if ([:len [find where list=$AddressList and address=40.101.27.141]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.141 }
+:if ([:len [find where list=$AddressList and address=40.101.27.166]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.166 }
+:if ([:len [find where list=$AddressList and address=40.101.27.199]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.199 }
+:if ([:len [find where list=$AddressList and address=40.101.27.202]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.202 }
+:if ([:len [find where list=$AddressList and address=40.101.27.205]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.205 }
+:if ([:len [find where list=$AddressList and address=40.101.27.211]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.211 }
+:if ([:len [find where list=$AddressList and address=40.101.27.212]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.212 }
+:if ([:len [find where list=$AddressList and address=40.101.27.215]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.215 }
+:if ([:len [find where list=$AddressList and address=40.101.27.219]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.219 }
+:if ([:len [find where list=$AddressList and address=40.101.27.223]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.223 }
+:if ([:len [find where list=$AddressList and address=40.101.27.227]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.227 }
+:if ([:len [find where list=$AddressList and address=40.101.27.80]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.80 }
+:if ([:len [find where list=$AddressList and address=40.101.27.81]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.81 }
+:if ([:len [find where list=$AddressList and address=40.101.27.87]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.27.87 }
+:if ([:len [find where list=$AddressList and address=40.101.65.152]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.65.152 }
+:if ([:len [find where list=$AddressList and address=40.101.65.168]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.65.168 }
+:if ([:len [find where list=$AddressList and address=40.101.65.200]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.65.200 }
+:if ([:len [find where list=$AddressList and address=40.101.65.216]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.65.216 }
+:if ([:len [find where list=$AddressList and address=40.101.65.232]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.65.232 }
+:if ([:len [find where list=$AddressList and address=40.101.69.200]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.69.200 }
+:if ([:len [find where list=$AddressList and address=40.101.69.216]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.69.216 }
+:if ([:len [find where list=$AddressList and address=40.101.69.232]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.69.232 }
+:if ([:len [find where list=$AddressList and address=40.101.69.24]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.69.24 }
+:if ([:len [find where list=$AddressList and address=40.101.69.40]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.69.40 }
+:if ([:len [find where list=$AddressList and address=40.101.69.8]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.69.8 }
+:if ([:len [find where list=$AddressList and address=40.101.70.184]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.70.184 }
+:if ([:len [find where list=$AddressList and address=40.101.70.200]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.70.200 }
+:if ([:len [find where list=$AddressList and address=40.101.70.24]] = 0) do={ add list=$AddressList comment=whatsapp.com address=40.101.70.24 }

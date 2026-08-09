@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=bbc.com address=18.202.145.173} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.146.245} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.154.79} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.156.245} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.181.50} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.199.178} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.49.26} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.49.3} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.66.133} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.86.74} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.9.216} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.202.90.167} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.112.244} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.116.23} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.120.110} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.131.121} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.152.127} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.170.215} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.170.63} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.183.140} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.191.106} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.192.99} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.193.58} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.196.103} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.201.159} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.204.71} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.217.54} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.239.116} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.38.1} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.41.168} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.77.101} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.86.183} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.203.90.224} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.238.238.105} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.238.238.44} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.238.238.54} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.238.238.88} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.101.15} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.105.33} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.105.42} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.105.48} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.105.65} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.14.106} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.16.43} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.199.103} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.199.119} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.199.31} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.199.78} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.206.91} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.208.106} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.208.17} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.208.18} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.208.32} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.208.39} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.208.4} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.208.54} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.208.96} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.210.161} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.211.183} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.22.219} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.239.172} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.242.145} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.255.10} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.255.121} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.255.29} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.255.47} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.255.52} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.255.8} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.255.83} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.255.88} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.3.80} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.35.102} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.36.40} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.36.44} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.36.54} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.36.74} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.36.77} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.36.80} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.36.83} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.36.88} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.37.125} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.50.10} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.50.101} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.50.35} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.50.69} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.52.188} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.55.118} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.6.117} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.6.18} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.6.52} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.6.66} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.64.144} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.65.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.65.239} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.66.191} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.69.110} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.69.21} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.69.59} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.69.63} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.79.77} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.94.17} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.94.34} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.94.70} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.94.85} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.95.164} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.239.97.125} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.1.35} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.102.12} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.102.40} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.102.46} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.102.97} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.103.58} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.146.123} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.146.33} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.146.76} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.146.91} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.148.214} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.18.116} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.18.120} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.18.17} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.18.26} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.18.42} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.18.79} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.18.81} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.18.92} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.3.219} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.7.229} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.77.21} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.79.64} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.82.70} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.86.74} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.87.108} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.87.113} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.87.129} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.87.20} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.87.32} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.87.65} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.87.77} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.87.97} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.244.99.193} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.139.91} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.161.42} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.162.109} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.162.114} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.162.123} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.162.34} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.162.37} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.162.67} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.162.94} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.162.96} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.185.230} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.209.122} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.253.123} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.253.13} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.253.71} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.253.94} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.29.169} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.31.100} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.31.13} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.31.65} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.31.67} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.34.218} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.35.64} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.38.178} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.245.79.139} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.64.99.172} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.65.229.102} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.65.229.126} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.65.229.28} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.65.229.9} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.65.82.38} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.65.82.56} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.65.82.68} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.65.82.98} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.122.107} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.122.17} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.122.3} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.122.37} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.125.233} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.171.123} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.171.15} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.171.85} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.171.86} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.173.9} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.18.188} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.195.123} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.195.4} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.195.40} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.195.79} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.195.80} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.195.87} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.195.89} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.196.102} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.196.106} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.196.87} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.196.92} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.206.110} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.21.164} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.210.142} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.22.216} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.229.79} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.230.200} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.233.111} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.233.113} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.233.47} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.233.5} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.24.55} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.248.42} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.248.6} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.248.65} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.248.9} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.251.147} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.26.128} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.26.14} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.26.18} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.26.38} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.26.4} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.26.45} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.26.53} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.26.87} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.27.121} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.27.35} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.27.37} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.27.51} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.27.66} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.27.84} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.27.88} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.66.27.96} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.67.240.27} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.67.240.36} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.67.240.44} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.67.240.91} on-error {}
-:do {add list=$AddressList comment=bbc.com address=18.67.43.183} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.24.144.174} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.24.166.204} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.24.166.244} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.24.196.152} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.24.196.31} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.24.200.28} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.24.44.117} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.24.44.28} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.25.172.155} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.25.192.155} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.25.212.119} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.25.27.127} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.25.27.129} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.25.52.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.26.128.171} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.26.128.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.26.132.31} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.26.56.155} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.26.80.155} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.26.80.31} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.27.107.193} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.27.136.35} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.27.200.171} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.27.24.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.27.96.32} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.28.120.34} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.28.148.150} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.28.152.173} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.28.181.164} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.28.252.75} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.28.64.34} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.28.88.155} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.29.128.122} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.29.136.35} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.29.44.147} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.29.80.173} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.30.131.223} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.30.152.120} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.30.156.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.30.16.117} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.30.16.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.30.20.117} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.30.20.56} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.30.24.117} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.30.24.56} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.30.248.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.31.112.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.31.124.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.50.192.133} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.50.192.26} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.50.200.175} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.50.200.26} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.50.244.177} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.51.104.122} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.51.104.57} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.51.227.134} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.51.96.175} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.86.5.243} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.87.212.122} on-error {}
-:do {add list=$AddressList comment=bbc.com address=184.87.212.60} on-error {}
-:do {add list=$AddressList comment=bbc.com address=199.232.172.81} on-error {}
-:do {add list=$AddressList comment=bbc.com address=199.232.188.81} on-error {}
-:do {add list=$AddressList comment=bbc.com address=199.232.208.81} on-error {}
-:do {add list=$AddressList comment=bbc.com address=199.232.212.81} on-error {}
-:do {add list=$AddressList comment=bbc.com address=199.232.36.81} on-error {}
-:do {add list=$AddressList comment=bbc.com address=199.232.40.81} on-error {}
-:do {add list=$AddressList comment=bbc.com address=199.232.80.81} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.104.113} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.184.112} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.188.31} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.192.118} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.192.161} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.192.27} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.208.155} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.208.68} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.220.40} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.220.94} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.224.25} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.228.113} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.228.23} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.232.132} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.248.145} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.248.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.248.51} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.252.133} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.252.26} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.32.63} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.16.96.23} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.0.220} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.0.46} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.140.123} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.140.188} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.140.61} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.152.217} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.152.44} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.156.28} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.16.149} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.168.146} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.169.11} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.240.112} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.240.25} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.244.112} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.244.25} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.65.185} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.96.135} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.17.96.28} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.0.158} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.0.42} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.108.114} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.108.176} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.108.23} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.12.153} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.168.120} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.168.57} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.172.119} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.172.170} on-error {}
-:do {add list=$AddressList comment=bbc.com address=2.18.172.26} on-error {}
+:if ([:len [find where list=$AddressList and address=13.249.5.48]] = 0) do={ add list=$AddressList comment=bbc.com address=13.249.5.48 }
+:if ([:len [find where list=$AddressList and address=13.249.8.4]] = 0) do={ add list=$AddressList comment=bbc.com address=13.249.8.4 }
+:if ([:len [find where list=$AddressList and address=13.249.8.42]] = 0) do={ add list=$AddressList comment=bbc.com address=13.249.8.42 }
+:if ([:len [find where list=$AddressList and address=13.249.8.57]] = 0) do={ add list=$AddressList comment=bbc.com address=13.249.8.57 }
+:if ([:len [find where list=$AddressList and address=13.249.8.8]] = 0) do={ add list=$AddressList comment=bbc.com address=13.249.8.8 }
+:if ([:len [find where list=$AddressList and address=13.249.9.141]] = 0) do={ add list=$AddressList comment=bbc.com address=13.249.9.141 }
+:if ([:len [find where list=$AddressList and address=13.32.1.185]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.1.185 }
+:if ([:len [find where list=$AddressList and address=13.32.110.127]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.110.127 }
+:if ([:len [find where list=$AddressList and address=13.32.110.35]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.110.35 }
+:if ([:len [find where list=$AddressList and address=13.32.110.36]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.110.36 }
+:if ([:len [find where list=$AddressList and address=13.32.110.50]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.110.50 }
+:if ([:len [find where list=$AddressList and address=13.32.110.53]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.110.53 }
+:if ([:len [find where list=$AddressList and address=13.32.110.55]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.110.55 }
+:if ([:len [find where list=$AddressList and address=13.32.110.7]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.110.7 }
+:if ([:len [find where list=$AddressList and address=13.32.110.73]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.110.73 }
+:if ([:len [find where list=$AddressList and address=13.32.110.92]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.110.92 }
+:if ([:len [find where list=$AddressList and address=13.32.113.150]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.113.150 }
+:if ([:len [find where list=$AddressList and address=13.32.113.78]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.113.78 }
+:if ([:len [find where list=$AddressList and address=13.32.119.113]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.119.113 }
+:if ([:len [find where list=$AddressList and address=13.32.12.120]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.12.120 }
+:if ([:len [find where list=$AddressList and address=13.32.12.121]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.12.121 }
+:if ([:len [find where list=$AddressList and address=13.32.12.28]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.12.28 }
+:if ([:len [find where list=$AddressList and address=13.32.12.42]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.12.42 }
+:if ([:len [find where list=$AddressList and address=13.32.12.48]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.12.48 }
+:if ([:len [find where list=$AddressList and address=13.32.12.49]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.12.49 }
+:if ([:len [find where list=$AddressList and address=13.32.12.65]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.12.65 }
+:if ([:len [find where list=$AddressList and address=13.32.12.87]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.12.87 }
+:if ([:len [find where list=$AddressList and address=13.32.12.92]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.12.92 }
+:if ([:len [find where list=$AddressList and address=13.32.13.76]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.13.76 }
+:if ([:len [find where list=$AddressList and address=13.32.132.38]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.132.38 }
+:if ([:len [find where list=$AddressList and address=13.32.144.217]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.144.217 }
+:if ([:len [find where list=$AddressList and address=13.32.217.80]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.217.80 }
+:if ([:len [find where list=$AddressList and address=13.32.220.41]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.220.41 }
+:if ([:len [find where list=$AddressList and address=13.32.220.75]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.220.75 }
+:if ([:len [find where list=$AddressList and address=13.32.220.83]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.220.83 }
+:if ([:len [find where list=$AddressList and address=13.32.220.99]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.220.99 }
+:if ([:len [find where list=$AddressList and address=13.32.27.115]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.27.115 }
+:if ([:len [find where list=$AddressList and address=13.32.27.61]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.27.61 }
+:if ([:len [find where list=$AddressList and address=13.32.27.64]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.27.64 }
+:if ([:len [find where list=$AddressList and address=13.32.27.74]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.27.74 }
+:if ([:len [find where list=$AddressList and address=13.32.6.159]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.6.159 }
+:if ([:len [find where list=$AddressList and address=13.32.69.80]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.69.80 }
+:if ([:len [find where list=$AddressList and address=13.32.91.55]] = 0) do={ add list=$AddressList comment=bbc.com address=13.32.91.55 }
+:if ([:len [find where list=$AddressList and address=13.33.109.46]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.109.46 }
+:if ([:len [find where list=$AddressList and address=13.33.109.60]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.109.60 }
+:if ([:len [find where list=$AddressList and address=13.33.109.71]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.109.71 }
+:if ([:len [find where list=$AddressList and address=13.33.109.81]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.109.81 }
+:if ([:len [find where list=$AddressList and address=13.33.139.74]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.139.74 }
+:if ([:len [find where list=$AddressList and address=13.33.141.111]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.141.111 }
+:if ([:len [find where list=$AddressList and address=13.33.141.124]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.141.124 }
+:if ([:len [find where list=$AddressList and address=13.33.141.47]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.141.47 }
+:if ([:len [find where list=$AddressList and address=13.33.141.69]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.141.69 }
+:if ([:len [find where list=$AddressList and address=13.33.15.83]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.15.83 }
+:if ([:len [find where list=$AddressList and address=13.33.153.102]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.153.102 }
+:if ([:len [find where list=$AddressList and address=13.33.153.104]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.153.104 }
+:if ([:len [find where list=$AddressList and address=13.33.153.41]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.153.41 }
+:if ([:len [find where list=$AddressList and address=13.33.153.61]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.153.61 }
+:if ([:len [find where list=$AddressList and address=13.33.173.27]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.173.27 }
+:if ([:len [find where list=$AddressList and address=13.33.175.210]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.175.210 }
+:if ([:len [find where list=$AddressList and address=13.33.192.82]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.192.82 }
+:if ([:len [find where list=$AddressList and address=13.33.199.56]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.199.56 }
+:if ([:len [find where list=$AddressList and address=13.33.233.154]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.233.154 }
+:if ([:len [find where list=$AddressList and address=13.33.235.45]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.235.45 }
+:if ([:len [find where list=$AddressList and address=13.33.235.57]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.235.57 }
+:if ([:len [find where list=$AddressList and address=13.33.235.65]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.235.65 }
+:if ([:len [find where list=$AddressList and address=13.33.235.72]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.235.72 }
+:if ([:len [find where list=$AddressList and address=13.33.239.81]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.239.81 }
+:if ([:len [find where list=$AddressList and address=13.33.241.202]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.241.202 }
+:if ([:len [find where list=$AddressList and address=13.33.247.56]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.247.56 }
+:if ([:len [find where list=$AddressList and address=13.33.60.82]] = 0) do={ add list=$AddressList comment=bbc.com address=13.33.60.82 }
+:if ([:len [find where list=$AddressList and address=13.35.194.227]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.194.227 }
+:if ([:len [find where list=$AddressList and address=13.35.220.34]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.220.34 }
+:if ([:len [find where list=$AddressList and address=13.35.58.118]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.58.118 }
+:if ([:len [find where list=$AddressList and address=13.35.58.16]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.58.16 }
+:if ([:len [find where list=$AddressList and address=13.35.58.28]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.58.28 }
+:if ([:len [find where list=$AddressList and address=13.35.58.76]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.58.76 }
+:if ([:len [find where list=$AddressList and address=13.35.78.43]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.78.43 }
+:if ([:len [find where list=$AddressList and address=13.35.78.55]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.78.55 }
+:if ([:len [find where list=$AddressList and address=13.35.78.57]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.78.57 }
+:if ([:len [find where list=$AddressList and address=13.35.78.77]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.78.77 }
+:if ([:len [find where list=$AddressList and address=140.248.132.81]] = 0) do={ add list=$AddressList comment=bbc.com address=140.248.132.81 }
+:if ([:len [find where list=$AddressList and address=143.204.142.12]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.142.12 }
+:if ([:len [find where list=$AddressList and address=143.204.142.124]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.142.124 }
+:if ([:len [find where list=$AddressList and address=143.204.142.39]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.142.39 }
+:if ([:len [find where list=$AddressList and address=143.204.142.92]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.142.92 }
+:if ([:len [find where list=$AddressList and address=143.204.176.13]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.176.13 }
+:if ([:len [find where list=$AddressList and address=143.204.176.19]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.176.19 }
+:if ([:len [find where list=$AddressList and address=143.204.176.55]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.176.55 }
+:if ([:len [find where list=$AddressList and address=143.204.176.83]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.176.83 }
+:if ([:len [find where list=$AddressList and address=143.204.186.126]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.186.126 }
+:if ([:len [find where list=$AddressList and address=143.204.194.129]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.194.129 }
+:if ([:len [find where list=$AddressList and address=143.204.194.15]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.194.15 }
+:if ([:len [find where list=$AddressList and address=143.204.194.78]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.194.78 }
+:if ([:len [find where list=$AddressList and address=143.204.194.93]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.194.93 }
+:if ([:len [find where list=$AddressList and address=143.204.202.171]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.202.171 }
+:if ([:len [find where list=$AddressList and address=143.204.238.33]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.238.33 }
+:if ([:len [find where list=$AddressList and address=143.204.238.43]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.238.43 }
+:if ([:len [find where list=$AddressList and address=143.204.238.45]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.238.45 }
+:if ([:len [find where list=$AddressList and address=143.204.238.60]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.238.60 }
+:if ([:len [find where list=$AddressList and address=143.204.242.56]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.242.56 }
+:if ([:len [find where list=$AddressList and address=143.204.246.192]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.246.192 }
+:if ([:len [find where list=$AddressList and address=143.204.45.81]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.45.81 }
+:if ([:len [find where list=$AddressList and address=143.204.46.117]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.46.117 }
+:if ([:len [find where list=$AddressList and address=143.204.46.56]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.46.56 }
+:if ([:len [find where list=$AddressList and address=143.204.48.144]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.48.144 }
+:if ([:len [find where list=$AddressList and address=143.204.55.10]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.55.10 }
+:if ([:len [find where list=$AddressList and address=143.204.55.37]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.55.37 }
+:if ([:len [find where list=$AddressList and address=143.204.55.38]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.55.38 }
+:if ([:len [find where list=$AddressList and address=143.204.55.6]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.55.6 }
+:if ([:len [find where list=$AddressList and address=143.204.55.60]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.55.60 }
+:if ([:len [find where list=$AddressList and address=143.204.55.61]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.55.61 }
+:if ([:len [find where list=$AddressList and address=143.204.55.71]] = 0) do={ add list=$AddressList comment=bbc.com address=143.204.55.71 }
+:if ([:len [find where list=$AddressList and address=146.75.116.81]] = 0) do={ add list=$AddressList comment=bbc.com address=146.75.116.81 }
+:if ([:len [find where list=$AddressList and address=146.75.120.81]] = 0) do={ add list=$AddressList comment=bbc.com address=146.75.120.81 }
+:if ([:len [find where list=$AddressList and address=146.75.28.81]] = 0) do={ add list=$AddressList comment=bbc.com address=146.75.28.81 }
+:if ([:len [find where list=$AddressList and address=146.75.52.81]] = 0) do={ add list=$AddressList comment=bbc.com address=146.75.52.81 }
+:if ([:len [find where list=$AddressList and address=146.75.60.81]] = 0) do={ add list=$AddressList comment=bbc.com address=146.75.60.81 }
+:if ([:len [find where list=$AddressList and address=151.101.0.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.0.81 }
+:if ([:len [find where list=$AddressList and address=151.101.120.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.120.81 }
+:if ([:len [find where list=$AddressList and address=151.101.128.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.128.81 }
+:if ([:len [find where list=$AddressList and address=151.101.192.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.192.81 }
+:if ([:len [find where list=$AddressList and address=151.101.204.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.204.81 }
+:if ([:len [find where list=$AddressList and address=151.101.208.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.208.81 }
+:if ([:len [find where list=$AddressList and address=151.101.236.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.236.81 }
+:if ([:len [find where list=$AddressList and address=151.101.244.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.244.81 }
+:if ([:len [find where list=$AddressList and address=151.101.36.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.36.81 }
+:if ([:len [find where list=$AddressList and address=151.101.4.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.4.81 }
+:if ([:len [find where list=$AddressList and address=151.101.44.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.44.81 }
+:if ([:len [find where list=$AddressList and address=151.101.64.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.64.81 }
+:if ([:len [find where list=$AddressList and address=151.101.8.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.8.81 }
+:if ([:len [find where list=$AddressList and address=151.101.84.81]] = 0) do={ add list=$AddressList comment=bbc.com address=151.101.84.81 }
+:if ([:len [find where list=$AddressList and address=173.222.112.115]] = 0) do={ add list=$AddressList comment=bbc.com address=173.222.112.115 }
+:if ([:len [find where list=$AddressList and address=173.222.168.249]] = 0) do={ add list=$AddressList comment=bbc.com address=173.222.168.249 }
+:if ([:len [find where list=$AddressList and address=173.222.200.147]] = 0) do={ add list=$AddressList comment=bbc.com address=173.222.200.147 }
+:if ([:len [find where list=$AddressList and address=173.222.200.28]] = 0) do={ add list=$AddressList comment=bbc.com address=173.222.200.28 }
+:if ([:len [find where list=$AddressList and address=173.223.116.115]] = 0) do={ add list=$AddressList comment=bbc.com address=173.223.116.115 }
+:if ([:len [find where list=$AddressList and address=176.34.103.158]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.103.158 }
+:if ([:len [find where list=$AddressList and address=176.34.106.97]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.106.97 }
+:if ([:len [find where list=$AddressList and address=176.34.123.132]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.123.132 }
+:if ([:len [find where list=$AddressList and address=176.34.125.159]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.125.159 }
+:if ([:len [find where list=$AddressList and address=176.34.129.115]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.129.115 }
+:if ([:len [find where list=$AddressList and address=176.34.132.69]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.132.69 }
+:if ([:len [find where list=$AddressList and address=176.34.142.55]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.142.55 }
+:if ([:len [find where list=$AddressList and address=176.34.145.55]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.145.55 }
+:if ([:len [find where list=$AddressList and address=176.34.147.44]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.147.44 }
+:if ([:len [find where list=$AddressList and address=176.34.149.133]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.149.133 }
+:if ([:len [find where list=$AddressList and address=176.34.169.218]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.169.218 }
+:if ([:len [find where list=$AddressList and address=176.34.203.136]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.203.136 }
+:if ([:len [find where list=$AddressList and address=176.34.225.98]] = 0) do={ add list=$AddressList comment=bbc.com address=176.34.225.98 }
+:if ([:len [find where list=$AddressList and address=18.154.162.121]] = 0) do={ add list=$AddressList comment=bbc.com address=18.154.162.121 }
+:if ([:len [find where list=$AddressList and address=18.154.17.234]] = 0) do={ add list=$AddressList comment=bbc.com address=18.154.17.234 }
+:if ([:len [find where list=$AddressList and address=18.154.18.234]] = 0) do={ add list=$AddressList comment=bbc.com address=18.154.18.234 }
+:if ([:len [find where list=$AddressList and address=18.154.27.182]] = 0) do={ add list=$AddressList comment=bbc.com address=18.154.27.182 }
+:if ([:len [find where list=$AddressList and address=18.154.27.206]] = 0) do={ add list=$AddressList comment=bbc.com address=18.154.27.206 }
+:if ([:len [find where list=$AddressList and address=18.154.51.140]] = 0) do={ add list=$AddressList comment=bbc.com address=18.154.51.140 }
+:if ([:len [find where list=$AddressList and address=18.154.81.223]] = 0) do={ add list=$AddressList comment=bbc.com address=18.154.81.223 }
+:if ([:len [find where list=$AddressList and address=18.154.85.164]] = 0) do={ add list=$AddressList comment=bbc.com address=18.154.85.164 }
+:if ([:len [find where list=$AddressList and address=18.155.138.111]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.138.111 }
+:if ([:len [find where list=$AddressList and address=18.155.145.127]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.145.127 }
+:if ([:len [find where list=$AddressList and address=18.155.145.129]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.145.129 }
+:if ([:len [find where list=$AddressList and address=18.155.145.26]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.145.26 }
+:if ([:len [find where list=$AddressList and address=18.155.145.35]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.145.35 }
+:if ([:len [find where list=$AddressList and address=18.155.153.11]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.153.11 }
+:if ([:len [find where list=$AddressList and address=18.155.153.112]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.153.112 }
+:if ([:len [find where list=$AddressList and address=18.155.153.69]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.153.69 }
+:if ([:len [find where list=$AddressList and address=18.155.153.7]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.153.7 }
+:if ([:len [find where list=$AddressList and address=18.155.205.80]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.205.80 }
+:if ([:len [find where list=$AddressList and address=18.155.99.112]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.99.112 }
+:if ([:len [find where list=$AddressList and address=18.155.99.21]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.99.21 }
+:if ([:len [find where list=$AddressList and address=18.155.99.35]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.99.35 }
+:if ([:len [find where list=$AddressList and address=18.155.99.42]] = 0) do={ add list=$AddressList comment=bbc.com address=18.155.99.42 }
+:if ([:len [find where list=$AddressList and address=18.160.6.227]] = 0) do={ add list=$AddressList comment=bbc.com address=18.160.6.227 }
+:if ([:len [find where list=$AddressList and address=18.161.111.39]] = 0) do={ add list=$AddressList comment=bbc.com address=18.161.111.39 }
+:if ([:len [find where list=$AddressList and address=18.161.111.55]] = 0) do={ add list=$AddressList comment=bbc.com address=18.161.111.55 }
+:if ([:len [find where list=$AddressList and address=18.161.111.9]] = 0) do={ add list=$AddressList comment=bbc.com address=18.161.111.9 }
+:if ([:len [find where list=$AddressList and address=18.161.111.96]] = 0) do={ add list=$AddressList comment=bbc.com address=18.161.111.96 }
+:if ([:len [find where list=$AddressList and address=18.161.114.115]] = 0) do={ add list=$AddressList comment=bbc.com address=18.161.114.115 }
+:if ([:len [find where list=$AddressList and address=18.161.34.113]] = 0) do={ add list=$AddressList comment=bbc.com address=18.161.34.113 }
+:if ([:len [find where list=$AddressList and address=18.161.34.5]] = 0) do={ add list=$AddressList comment=bbc.com address=18.161.34.5 }
+:if ([:len [find where list=$AddressList and address=18.161.34.93]] = 0) do={ add list=$AddressList comment=bbc.com address=18.161.34.93 }

@@ -1,67 +1,67 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=hentaichan.live address=103.200.30.0/24} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=103.230.0.0/17} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=103.240.180.0/22} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=103.246.240.0/21} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=103.252.96.0/19} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=103.39.64.0/18} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=103.42.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=103.97.128.0/18} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=104.16.251.55/32} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=104.16.252.55/32} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=104.23.124.189/32} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=104.23.125.189/32} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=104.244.40.0/21} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=108.160.160.0/20} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=118.107.180.0/22} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=118.128.0.0/9} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=122.248.0.0/14} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=124.0.0.0/9} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=128.121.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=128.242.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=148.163.0.0/17} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=154.64.0.0/10} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=157.240.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=159.138.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=162.125.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=162.220.8.0/21} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=168.143.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=173.244.192.0/19} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=173.252.64.0/18} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=173.255.192.0/18} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=174.36.0.0/15} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=184.172.0.0/15} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=185.45.4.0/22} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=185.60.216.0/22} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=192.133.76.0/22} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=198.44.160.0/19} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=199.16.156.0/22} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=199.193.112.0/21} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=199.59.148.0/22} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=199.96.56.0/21} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=202.160.0.0/15} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=203.110.0.0/15} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=204.79.196.0/23} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=208.43.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=208.77.40.0/21} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=212.83.128.0/20} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=212.83.144.0/20} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=31.13.64.0/18} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=38.0.0.0/7} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=45.114.8.0/21} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=54.234.18.200/32} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=59.160.0.0/11} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=64.13.192.0/18} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=65.49.0.0/17} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=66.220.144.0/20} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=67.15.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=67.228.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=69.171.224.0/19} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=69.197.128.0/18} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=69.30.0.0/18} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=69.50.192.0/19} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=69.63.176.0/20} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=74.86.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=75.126.0.0/16} on-error {}
-:do {add list=$AddressList comment=hentaichan.live address=88.191.249.0/24} on-error {}
+:if ([:len [find where list=$AddressList and address=103.200.30.0/24]] = 0) do={ add list=$AddressList comment=hentaichan.live address=103.200.30.0/24 }
+:if ([:len [find where list=$AddressList and address=103.230.0.0/17]] = 0) do={ add list=$AddressList comment=hentaichan.live address=103.230.0.0/17 }
+:if ([:len [find where list=$AddressList and address=103.240.180.0/22]] = 0) do={ add list=$AddressList comment=hentaichan.live address=103.240.180.0/22 }
+:if ([:len [find where list=$AddressList and address=103.246.240.0/21]] = 0) do={ add list=$AddressList comment=hentaichan.live address=103.246.240.0/21 }
+:if ([:len [find where list=$AddressList and address=103.252.96.0/19]] = 0) do={ add list=$AddressList comment=hentaichan.live address=103.252.96.0/19 }
+:if ([:len [find where list=$AddressList and address=103.39.64.0/18]] = 0) do={ add list=$AddressList comment=hentaichan.live address=103.39.64.0/18 }
+:if ([:len [find where list=$AddressList and address=103.42.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=103.42.0.0/16 }
+:if ([:len [find where list=$AddressList and address=103.97.128.0/18]] = 0) do={ add list=$AddressList comment=hentaichan.live address=103.97.128.0/18 }
+:if ([:len [find where list=$AddressList and address=104.16.251.55/32]] = 0) do={ add list=$AddressList comment=hentaichan.live address=104.16.251.55/32 }
+:if ([:len [find where list=$AddressList and address=104.16.252.55/32]] = 0) do={ add list=$AddressList comment=hentaichan.live address=104.16.252.55/32 }
+:if ([:len [find where list=$AddressList and address=104.23.124.189/32]] = 0) do={ add list=$AddressList comment=hentaichan.live address=104.23.124.189/32 }
+:if ([:len [find where list=$AddressList and address=104.23.125.189/32]] = 0) do={ add list=$AddressList comment=hentaichan.live address=104.23.125.189/32 }
+:if ([:len [find where list=$AddressList and address=104.244.40.0/21]] = 0) do={ add list=$AddressList comment=hentaichan.live address=104.244.40.0/21 }
+:if ([:len [find where list=$AddressList and address=108.160.160.0/20]] = 0) do={ add list=$AddressList comment=hentaichan.live address=108.160.160.0/20 }
+:if ([:len [find where list=$AddressList and address=118.107.180.0/22]] = 0) do={ add list=$AddressList comment=hentaichan.live address=118.107.180.0/22 }
+:if ([:len [find where list=$AddressList and address=118.128.0.0/9]] = 0) do={ add list=$AddressList comment=hentaichan.live address=118.128.0.0/9 }
+:if ([:len [find where list=$AddressList and address=122.248.0.0/14]] = 0) do={ add list=$AddressList comment=hentaichan.live address=122.248.0.0/14 }
+:if ([:len [find where list=$AddressList and address=124.0.0.0/9]] = 0) do={ add list=$AddressList comment=hentaichan.live address=124.0.0.0/9 }
+:if ([:len [find where list=$AddressList and address=128.121.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=128.121.0.0/16 }
+:if ([:len [find where list=$AddressList and address=128.242.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=128.242.0.0/16 }
+:if ([:len [find where list=$AddressList and address=148.163.0.0/17]] = 0) do={ add list=$AddressList comment=hentaichan.live address=148.163.0.0/17 }
+:if ([:len [find where list=$AddressList and address=154.64.0.0/10]] = 0) do={ add list=$AddressList comment=hentaichan.live address=154.64.0.0/10 }
+:if ([:len [find where list=$AddressList and address=157.240.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=157.240.0.0/16 }
+:if ([:len [find where list=$AddressList and address=159.138.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=159.138.0.0/16 }
+:if ([:len [find where list=$AddressList and address=162.125.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=162.125.0.0/16 }
+:if ([:len [find where list=$AddressList and address=162.220.8.0/21]] = 0) do={ add list=$AddressList comment=hentaichan.live address=162.220.8.0/21 }
+:if ([:len [find where list=$AddressList and address=168.143.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=168.143.0.0/16 }
+:if ([:len [find where list=$AddressList and address=173.244.192.0/19]] = 0) do={ add list=$AddressList comment=hentaichan.live address=173.244.192.0/19 }
+:if ([:len [find where list=$AddressList and address=173.252.64.0/18]] = 0) do={ add list=$AddressList comment=hentaichan.live address=173.252.64.0/18 }
+:if ([:len [find where list=$AddressList and address=173.255.192.0/18]] = 0) do={ add list=$AddressList comment=hentaichan.live address=173.255.192.0/18 }
+:if ([:len [find where list=$AddressList and address=174.36.0.0/15]] = 0) do={ add list=$AddressList comment=hentaichan.live address=174.36.0.0/15 }
+:if ([:len [find where list=$AddressList and address=184.172.0.0/15]] = 0) do={ add list=$AddressList comment=hentaichan.live address=184.172.0.0/15 }
+:if ([:len [find where list=$AddressList and address=185.45.4.0/22]] = 0) do={ add list=$AddressList comment=hentaichan.live address=185.45.4.0/22 }
+:if ([:len [find where list=$AddressList and address=185.60.216.0/22]] = 0) do={ add list=$AddressList comment=hentaichan.live address=185.60.216.0/22 }
+:if ([:len [find where list=$AddressList and address=192.133.76.0/22]] = 0) do={ add list=$AddressList comment=hentaichan.live address=192.133.76.0/22 }
+:if ([:len [find where list=$AddressList and address=198.44.160.0/19]] = 0) do={ add list=$AddressList comment=hentaichan.live address=198.44.160.0/19 }
+:if ([:len [find where list=$AddressList and address=199.16.156.0/22]] = 0) do={ add list=$AddressList comment=hentaichan.live address=199.16.156.0/22 }
+:if ([:len [find where list=$AddressList and address=199.193.112.0/21]] = 0) do={ add list=$AddressList comment=hentaichan.live address=199.193.112.0/21 }
+:if ([:len [find where list=$AddressList and address=199.59.148.0/22]] = 0) do={ add list=$AddressList comment=hentaichan.live address=199.59.148.0/22 }
+:if ([:len [find where list=$AddressList and address=199.96.56.0/21]] = 0) do={ add list=$AddressList comment=hentaichan.live address=199.96.56.0/21 }
+:if ([:len [find where list=$AddressList and address=202.160.0.0/15]] = 0) do={ add list=$AddressList comment=hentaichan.live address=202.160.0.0/15 }
+:if ([:len [find where list=$AddressList and address=203.110.0.0/15]] = 0) do={ add list=$AddressList comment=hentaichan.live address=203.110.0.0/15 }
+:if ([:len [find where list=$AddressList and address=204.79.196.0/23]] = 0) do={ add list=$AddressList comment=hentaichan.live address=204.79.196.0/23 }
+:if ([:len [find where list=$AddressList and address=208.43.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=208.43.0.0/16 }
+:if ([:len [find where list=$AddressList and address=208.77.40.0/21]] = 0) do={ add list=$AddressList comment=hentaichan.live address=208.77.40.0/21 }
+:if ([:len [find where list=$AddressList and address=212.83.128.0/20]] = 0) do={ add list=$AddressList comment=hentaichan.live address=212.83.128.0/20 }
+:if ([:len [find where list=$AddressList and address=212.83.144.0/20]] = 0) do={ add list=$AddressList comment=hentaichan.live address=212.83.144.0/20 }
+:if ([:len [find where list=$AddressList and address=31.13.64.0/18]] = 0) do={ add list=$AddressList comment=hentaichan.live address=31.13.64.0/18 }
+:if ([:len [find where list=$AddressList and address=38.0.0.0/7]] = 0) do={ add list=$AddressList comment=hentaichan.live address=38.0.0.0/7 }
+:if ([:len [find where list=$AddressList and address=45.114.8.0/21]] = 0) do={ add list=$AddressList comment=hentaichan.live address=45.114.8.0/21 }
+:if ([:len [find where list=$AddressList and address=54.234.18.200/32]] = 0) do={ add list=$AddressList comment=hentaichan.live address=54.234.18.200/32 }
+:if ([:len [find where list=$AddressList and address=59.160.0.0/11]] = 0) do={ add list=$AddressList comment=hentaichan.live address=59.160.0.0/11 }
+:if ([:len [find where list=$AddressList and address=64.13.192.0/18]] = 0) do={ add list=$AddressList comment=hentaichan.live address=64.13.192.0/18 }
+:if ([:len [find where list=$AddressList and address=65.49.0.0/17]] = 0) do={ add list=$AddressList comment=hentaichan.live address=65.49.0.0/17 }
+:if ([:len [find where list=$AddressList and address=66.220.144.0/20]] = 0) do={ add list=$AddressList comment=hentaichan.live address=66.220.144.0/20 }
+:if ([:len [find where list=$AddressList and address=67.15.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=67.15.0.0/16 }
+:if ([:len [find where list=$AddressList and address=67.228.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=67.228.0.0/16 }
+:if ([:len [find where list=$AddressList and address=69.171.224.0/19]] = 0) do={ add list=$AddressList comment=hentaichan.live address=69.171.224.0/19 }
+:if ([:len [find where list=$AddressList and address=69.197.128.0/18]] = 0) do={ add list=$AddressList comment=hentaichan.live address=69.197.128.0/18 }
+:if ([:len [find where list=$AddressList and address=69.30.0.0/18]] = 0) do={ add list=$AddressList comment=hentaichan.live address=69.30.0.0/18 }
+:if ([:len [find where list=$AddressList and address=69.50.192.0/19]] = 0) do={ add list=$AddressList comment=hentaichan.live address=69.50.192.0/19 }
+:if ([:len [find where list=$AddressList and address=69.63.176.0/20]] = 0) do={ add list=$AddressList comment=hentaichan.live address=69.63.176.0/20 }
+:if ([:len [find where list=$AddressList and address=74.86.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=74.86.0.0/16 }
+:if ([:len [find where list=$AddressList and address=75.126.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=75.126.0.0/16 }
+:if ([:len [find where list=$AddressList and address=88.191.249.0/24]] = 0) do={ add list=$AddressList comment=hentaichan.live address=88.191.249.0/24 }

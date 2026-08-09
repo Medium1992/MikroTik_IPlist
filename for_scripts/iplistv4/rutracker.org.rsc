@@ -1,44 +1,46 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=rutracker.org address=104.21.0.111} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.1.151} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.112.1} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.16.1} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.32.1} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.32.127} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.32.39} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.48.1} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.50.150} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.64.1} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.7.164} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.80.1} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=104.21.96.1} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=162.159.140.104} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=162.159.140.160} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=172.66.0.102} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=172.66.0.158} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=172.67.128.13} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=172.67.136.246} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=172.67.151.249} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=172.67.163.237} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=172.67.182.196} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=172.67.185.253} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=185.81.128.108} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.96.0} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.96.1} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.96.10} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.96.11} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.96.12} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.96.3} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.96.7} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.96.8} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.96.9} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.97.0} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.97.1} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.97.10} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.97.11} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.97.12} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.97.3} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.97.7} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.97.8} on-error {}
-:do {add list=$AddressList comment=rutracker.org address=188.114.97.9} on-error {}
+:if ([:len [find where list=$AddressList and address=104.21.0.111]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.0.111 }
+:if ([:len [find where list=$AddressList and address=104.21.1.151]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.1.151 }
+:if ([:len [find where list=$AddressList and address=104.21.112.1]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.112.1 }
+:if ([:len [find where list=$AddressList and address=104.21.16.1]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.16.1 }
+:if ([:len [find where list=$AddressList and address=104.21.32.1]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.32.1 }
+:if ([:len [find where list=$AddressList and address=104.21.32.127]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.32.127 }
+:if ([:len [find where list=$AddressList and address=104.21.32.39]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.32.39 }
+:if ([:len [find where list=$AddressList and address=104.21.48.1]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.48.1 }
+:if ([:len [find where list=$AddressList and address=104.21.50.150]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.50.150 }
+:if ([:len [find where list=$AddressList and address=104.21.64.1]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.64.1 }
+:if ([:len [find where list=$AddressList and address=104.21.7.164]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.7.164 }
+:if ([:len [find where list=$AddressList and address=104.21.80.1]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.80.1 }
+:if ([:len [find where list=$AddressList and address=104.21.96.1]] = 0) do={ add list=$AddressList comment=rutracker.org address=104.21.96.1 }
+:if ([:len [find where list=$AddressList and address=162.159.140.104]] = 0) do={ add list=$AddressList comment=rutracker.org address=162.159.140.104 }
+:if ([:len [find where list=$AddressList and address=162.159.140.160]] = 0) do={ add list=$AddressList comment=rutracker.org address=162.159.140.160 }
+:if ([:len [find where list=$AddressList and address=172.66.0.102]] = 0) do={ add list=$AddressList comment=rutracker.org address=172.66.0.102 }
+:if ([:len [find where list=$AddressList and address=172.66.0.158]] = 0) do={ add list=$AddressList comment=rutracker.org address=172.66.0.158 }
+:if ([:len [find where list=$AddressList and address=172.67.128.13]] = 0) do={ add list=$AddressList comment=rutracker.org address=172.67.128.13 }
+:if ([:len [find where list=$AddressList and address=172.67.136.246]] = 0) do={ add list=$AddressList comment=rutracker.org address=172.67.136.246 }
+:if ([:len [find where list=$AddressList and address=172.67.151.249]] = 0) do={ add list=$AddressList comment=rutracker.org address=172.67.151.249 }
+:if ([:len [find where list=$AddressList and address=172.67.163.237]] = 0) do={ add list=$AddressList comment=rutracker.org address=172.67.163.237 }
+:if ([:len [find where list=$AddressList and address=172.67.182.196]] = 0) do={ add list=$AddressList comment=rutracker.org address=172.67.182.196 }
+:if ([:len [find where list=$AddressList and address=172.67.185.253]] = 0) do={ add list=$AddressList comment=rutracker.org address=172.67.185.253 }
+:if ([:len [find where list=$AddressList and address=185.81.128.108]] = 0) do={ add list=$AddressList comment=rutracker.org address=185.81.128.108 }
+:if ([:len [find where list=$AddressList and address=188.114.96.0]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.96.0 }
+:if ([:len [find where list=$AddressList and address=188.114.96.1]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.96.1 }
+:if ([:len [find where list=$AddressList and address=188.114.96.10]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.96.10 }
+:if ([:len [find where list=$AddressList and address=188.114.96.11]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.96.11 }
+:if ([:len [find where list=$AddressList and address=188.114.96.12]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.96.12 }
+:if ([:len [find where list=$AddressList and address=188.114.96.2]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.96.2 }
+:if ([:len [find where list=$AddressList and address=188.114.96.3]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.96.3 }
+:if ([:len [find where list=$AddressList and address=188.114.96.7]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.96.7 }
+:if ([:len [find where list=$AddressList and address=188.114.96.8]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.96.8 }
+:if ([:len [find where list=$AddressList and address=188.114.96.9]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.96.9 }
+:if ([:len [find where list=$AddressList and address=188.114.97.0]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.97.0 }
+:if ([:len [find where list=$AddressList and address=188.114.97.1]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.97.1 }
+:if ([:len [find where list=$AddressList and address=188.114.97.10]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.97.10 }
+:if ([:len [find where list=$AddressList and address=188.114.97.11]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.97.11 }
+:if ([:len [find where list=$AddressList and address=188.114.97.12]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.97.12 }
+:if ([:len [find where list=$AddressList and address=188.114.97.2]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.97.2 }
+:if ([:len [find where list=$AddressList and address=188.114.97.3]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.97.3 }
+:if ([:len [find where list=$AddressList and address=188.114.97.7]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.97.7 }
+:if ([:len [find where list=$AddressList and address=188.114.97.8]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.97.8 }
+:if ([:len [find where list=$AddressList and address=188.114.97.9]] = 0) do={ add list=$AddressList comment=rutracker.org address=188.114.97.9 }

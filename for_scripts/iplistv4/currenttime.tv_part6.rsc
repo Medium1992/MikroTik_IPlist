@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=currenttime.tv address=23.10.249.114} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.10.249.80} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.10.249.96} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.11.206.114} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.11.206.24} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.11.206.43} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.11.206.96} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.11.215.137} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.11.215.155} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.12.144.203} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.12.145.142} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.12.145.147} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.12.146.21} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.12.146.30} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.12.147.175} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.12.147.180} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.12.147.74} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.12.147.93} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.13.218.207} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.13.218.213} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.14.129.160} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.14.129.163} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.178.145} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.178.168} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.178.67} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.240.186} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.240.219} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.241.27} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.241.40} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.241.43} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.241.49} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.241.58} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.15.241.81} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.192.36.36} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.192.36.37} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.192.36.42} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.192.36.51} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.192.45.233} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.192.46.50} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.192.47.80} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.192.47.81} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.192.47.90} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.114.65} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.114.75} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.116.155} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.116.233} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.116.96} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.119.201} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.119.209} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.170.16} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.170.66} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.42.206} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.42.214} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.97.10} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.193.97.16} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.194.127.55} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.194.127.69} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.195.81.136} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.195.81.186} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.198.6.17} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.198.6.29} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.198.6.32} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.198.6.53} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.232.68} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.232.69} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.232.84} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.47.68} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.47.82} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.47.83} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.47.84} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.47.87} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.47.89} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.47.90} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.75.114} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.75.120} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.75.121} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.75.145} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.75.34} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.199.75.88} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.156.24} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.156.4} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.105} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.133} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.174} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.177} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.198} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.204} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.207} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.225} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.234} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.235} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.70} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.80} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.91} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.24.92} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.40.133} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.40.134} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.40.135} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.40.136} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.66.134} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.66.145} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.200.87.130} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.201.43.138} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.202.230.208} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.202.230.220} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.203.134.234} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.203.134.236} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.203.134.237} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.203.134.239} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.203.134.241} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.203.134.243} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.203.61.132} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.203.61.139} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.203.61.140} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.132.207} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.132.210} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.132.212} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.132.219} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.132.220} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.132.227} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.132.246} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.136.166} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.136.173} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.136.176} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.139.73} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.204.139.91} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.205.255.147} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.205.255.175} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.205.47.38} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.205.47.60} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.205.47.68} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.205.47.77} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.205.47.86} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.188.132} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.188.136} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.188.167} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.188.172} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.195.122} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.195.131} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.195.139} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.195.178} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.197.120} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.197.129} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.197.24} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.197.32} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.197.50} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.197.9} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.229.204} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.229.227} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.229.228} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.229.235} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.206.229.236} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.208.28.135} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.208.28.148} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.208.28.17} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.208.28.53} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.210.216.132} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.210.216.141} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.210.216.145} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.210.216.154} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.210.216.160} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.210.26.149} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.210.26.171} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.108.105} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.108.123} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.108.128} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.108.163} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.108.90} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.118.195} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.118.48} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.118.56} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.118.59} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.118.8} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.15.139} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.15.143} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.15.149} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.211.15.154} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.0.105} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.0.110} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.0.111} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.0.119} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.110.11} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.110.179} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.110.201} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.110.33} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.110.56} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.110.57} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.110.65} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.110.73} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.110.82} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.110.9} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.164.210} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.164.217} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.249.206} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.249.215} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.249.218} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.250.16} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.250.26} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.251.133} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.251.147} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.251.19} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.251.26} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.251.69} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.251.89} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.62.202} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.62.204} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.62.213} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.62.214} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.62.217} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.212.62.219} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.161.196} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.161.197} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.161.200} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.161.206} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.161.212} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.161.213} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.161.216} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.161.218} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.161.226} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.186.199} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.213.186.211} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.214.170.16} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.214.170.27} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.214.170.42} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.214.170.65} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.214.170.75} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.214.22.132} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.214.22.136} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.214.22.145} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.214.95.142} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.214.95.161} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.215.2.213} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.215.2.227} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.215.5.71} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.215.5.84} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.215.5.91} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.215.5.93} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.136} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.145} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.149} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.199} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.201} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.202} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.204} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.205} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.206} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.212} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.217} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.134.218} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.154.216} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.154.240} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.154.241} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.155.170} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.216.155.176} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.217.104.133} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.217.104.138} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.218.225.16} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.218.225.8} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.218.92.121} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.218.92.97} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.218.92.99} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.218.93.80} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.218.93.83} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.218.94.203} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.218.94.246} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.0.31} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.0.52} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.12} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.14} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.15} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.164} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.165} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.166} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.169} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.17} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.173} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.174} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.177} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.205} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.207} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.5} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.160.9} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.2.133} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.2.148} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.2.155} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.219.2.156} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.220.251.231} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.220.251.236} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.220.251.238} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.220.251.240} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.220.71.42} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.220.71.46} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.220.75.167} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.220.75.175} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.212.75} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.212.82} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.225.145} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.225.185} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.225.194} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.225.235} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.227.218} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.227.224} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.24.12} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.24.21} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.24.28} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.221.24.8} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.16.112} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.16.139} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.16.169} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.16.43} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.16.59} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.16.64} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.16.65} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.16.99} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.17.13} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.17.15} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.17.166} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.17.171} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.17.172} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.17.173} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.17.74} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.17.78} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.17.79} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.237.208} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.222.237.211} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.194.141} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.194.147} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.104} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.111} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.135} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.136} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.145} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.148} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.167} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.168} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.177} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.179} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.182} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.36} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.47} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.53} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.245.54} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.26.168} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.26.169} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.26.176} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.223.26.179} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.3.68.132} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.3.68.134} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.3.68.137} on-error {}
-:do {add list=$AddressList comment=currenttime.tv address=23.3.68.143} on-error {}
+:if ([:len [find where list=$AddressList and address=18.66.26.67]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.66.26.67 }
+:if ([:len [find where list=$AddressList and address=18.66.26.84]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.66.26.84 }
+:if ([:len [find where list=$AddressList and address=18.67.110.16]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.110.16 }
+:if ([:len [find where list=$AddressList and address=18.67.110.72]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.110.72 }
+:if ([:len [find where list=$AddressList and address=18.67.110.84]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.110.84 }
+:if ([:len [find where list=$AddressList and address=18.67.110.90]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.110.90 }
+:if ([:len [find where list=$AddressList and address=18.67.13.115]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.13.115 }
+:if ([:len [find where list=$AddressList and address=18.67.13.20]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.13.20 }
+:if ([:len [find where list=$AddressList and address=18.67.13.27]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.13.27 }
+:if ([:len [find where list=$AddressList and address=18.67.13.89]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.13.89 }
+:if ([:len [find where list=$AddressList and address=18.67.181.45]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.181.45 }
+:if ([:len [find where list=$AddressList and address=18.67.181.49]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.181.49 }
+:if ([:len [find where list=$AddressList and address=18.67.181.9]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.181.9 }
+:if ([:len [find where list=$AddressList and address=18.67.181.95]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.181.95 }
+:if ([:len [find where list=$AddressList and address=18.67.233.123]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.233.123 }
+:if ([:len [find where list=$AddressList and address=18.67.233.128]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.233.128 }
+:if ([:len [find where list=$AddressList and address=18.67.233.58]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.233.58 }
+:if ([:len [find where list=$AddressList and address=18.67.233.94]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.67.233.94 }
+:if ([:len [find where list=$AddressList and address=184.25.102.34]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.102.34 }
+:if ([:len [find where list=$AddressList and address=184.25.102.35]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.102.35 }
+:if ([:len [find where list=$AddressList and address=184.25.102.4]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.102.4 }
+:if ([:len [find where list=$AddressList and address=184.25.102.8]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.102.8 }
+:if ([:len [find where list=$AddressList and address=184.25.117.184]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.117.184 }
+:if ([:len [find where list=$AddressList and address=184.25.117.185]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.117.185 }
+:if ([:len [find where list=$AddressList and address=184.25.148.178]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.148.178 }
+:if ([:len [find where list=$AddressList and address=184.25.148.210]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.148.210 }
+:if ([:len [find where list=$AddressList and address=184.25.148.218]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.148.218 }
+:if ([:len [find where list=$AddressList and address=184.25.148.233]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.148.233 }
+:if ([:len [find where list=$AddressList and address=184.25.239.131]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.239.131 }
+:if ([:len [find where list=$AddressList and address=184.25.239.146]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.239.146 }
+:if ([:len [find where list=$AddressList and address=184.25.239.18]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.239.18 }
+:if ([:len [find where list=$AddressList and address=184.25.239.19]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.239.19 }
+:if ([:len [find where list=$AddressList and address=184.25.239.218]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.239.218 }
+:if ([:len [find where list=$AddressList and address=184.25.239.226]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.239.226 }
+:if ([:len [find where list=$AddressList and address=184.25.239.42]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.239.42 }
+:if ([:len [find where list=$AddressList and address=184.25.239.48]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.239.48 }
+:if ([:len [find where list=$AddressList and address=184.25.239.59]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.25.239.59 }
+:if ([:len [find where list=$AddressList and address=184.28.146.139]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.146.139 }
+:if ([:len [find where list=$AddressList and address=184.28.198.107]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.198.107 }
+:if ([:len [find where list=$AddressList and address=184.28.198.113]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.198.113 }
+:if ([:len [find where list=$AddressList and address=184.28.198.193]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.198.193 }
+:if ([:len [find where list=$AddressList and address=184.28.198.202]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.198.202 }
+:if ([:len [find where list=$AddressList and address=184.28.198.209]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.198.209 }
+:if ([:len [find where list=$AddressList and address=184.28.198.226]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.198.226 }
+:if ([:len [find where list=$AddressList and address=184.28.235.65]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.235.65 }
+:if ([:len [find where list=$AddressList and address=184.28.235.66]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.235.66 }
+:if ([:len [find where list=$AddressList and address=184.28.235.73]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.235.73 }
+:if ([:len [find where list=$AddressList and address=184.28.29.157]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.29.157 }
+:if ([:len [find where list=$AddressList and address=184.28.29.158]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.29.158 }
+:if ([:len [find where list=$AddressList and address=184.28.29.188]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.29.188 }
+:if ([:len [find where list=$AddressList and address=184.28.29.201]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.29.201 }
+:if ([:len [find where list=$AddressList and address=184.28.29.53]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.29.53 }
+:if ([:len [find where list=$AddressList and address=184.28.29.67]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.29.67 }
+:if ([:len [find where list=$AddressList and address=184.28.29.68]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.29.68 }
+:if ([:len [find where list=$AddressList and address=184.28.29.76]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.29.76 }
+:if ([:len [find where list=$AddressList and address=184.28.6.82]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.6.82 }
+:if ([:len [find where list=$AddressList and address=184.28.6.89]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.28.6.89 }
+:if ([:len [find where list=$AddressList and address=184.29.57.19]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.29.57.19 }
+:if ([:len [find where list=$AddressList and address=184.29.57.21]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.29.57.21 }
+:if ([:len [find where list=$AddressList and address=184.30.150.132]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.30.150.132 }
+:if ([:len [find where list=$AddressList and address=184.30.150.153]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.30.150.153 }
+:if ([:len [find where list=$AddressList and address=184.31.15.184]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.31.15.184 }
+:if ([:len [find where list=$AddressList and address=184.31.15.187]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.31.15.187 }
+:if ([:len [find where list=$AddressList and address=184.31.15.235]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.31.15.235 }
+:if ([:len [find where list=$AddressList and address=184.50.112.16]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.50.112.16 }
+:if ([:len [find where list=$AddressList and address=184.50.112.24]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.50.112.24 }
+:if ([:len [find where list=$AddressList and address=184.50.112.32]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.50.112.32 }
+:if ([:len [find where list=$AddressList and address=184.50.112.40]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.50.112.40 }
+:if ([:len [find where list=$AddressList and address=184.50.112.49]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.50.112.49 }
+:if ([:len [find where list=$AddressList and address=184.50.112.74]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.50.112.74 }
+:if ([:len [find where list=$AddressList and address=184.50.113.194]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.50.113.194 }
+:if ([:len [find where list=$AddressList and address=184.50.113.233]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.50.113.233 }
+:if ([:len [find where list=$AddressList and address=184.50.113.251]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.50.113.251 }
+:if ([:len [find where list=$AddressList and address=184.50.114.42]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.50.114.42 }
+:if ([:len [find where list=$AddressList and address=184.51.148.162]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.148.162 }
+:if ([:len [find where list=$AddressList and address=184.51.148.211]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.148.211 }
+:if ([:len [find where list=$AddressList and address=184.51.149.25]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.149.25 }
+:if ([:len [find where list=$AddressList and address=184.51.149.27]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.149.27 }
+:if ([:len [find where list=$AddressList and address=184.51.149.33]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.149.33 }
+:if ([:len [find where list=$AddressList and address=184.51.149.83]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.149.83 }
+:if ([:len [find where list=$AddressList and address=184.51.88.137]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.137 }
+:if ([:len [find where list=$AddressList and address=184.51.88.144]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.144 }
+:if ([:len [find where list=$AddressList and address=184.51.88.146]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.146 }
+:if ([:len [find where list=$AddressList and address=184.51.88.147]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.147 }
+:if ([:len [find where list=$AddressList and address=184.51.88.154]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.154 }
+:if ([:len [find where list=$AddressList and address=184.51.88.161]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.161 }
+:if ([:len [find where list=$AddressList and address=184.51.88.162]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.162 }
+:if ([:len [find where list=$AddressList and address=184.51.88.163]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.163 }
+:if ([:len [find where list=$AddressList and address=184.51.88.168]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.168 }
+:if ([:len [find where list=$AddressList and address=184.51.88.177]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.177 }
+:if ([:len [find where list=$AddressList and address=184.51.88.182]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.182 }
+:if ([:len [find where list=$AddressList and address=184.51.88.183]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.183 }
+:if ([:len [find where list=$AddressList and address=184.51.88.186]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.51.88.186 }
+:if ([:len [find where list=$AddressList and address=184.86.103.12]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.12 }
+:if ([:len [find where list=$AddressList and address=184.86.103.13]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.13 }
+:if ([:len [find where list=$AddressList and address=184.86.103.135]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.135 }
+:if ([:len [find where list=$AddressList and address=184.86.103.139]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.139 }
+:if ([:len [find where list=$AddressList and address=184.86.103.145]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.145 }
+:if ([:len [find where list=$AddressList and address=184.86.103.146]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.146 }
+:if ([:len [find where list=$AddressList and address=184.86.103.17]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.17 }
+:if ([:len [find where list=$AddressList and address=184.86.103.196]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.196 }
+:if ([:len [find where list=$AddressList and address=184.86.103.198]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.198 }
+:if ([:len [find where list=$AddressList and address=184.86.103.200]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.200 }
+:if ([:len [find where list=$AddressList and address=184.86.103.205]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.205 }
+:if ([:len [find where list=$AddressList and address=184.86.103.209]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.209 }
+:if ([:len [find where list=$AddressList and address=184.86.103.214]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.214 }
+:if ([:len [find where list=$AddressList and address=184.86.103.216]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.216 }
+:if ([:len [find where list=$AddressList and address=184.86.103.219]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.219 }
+:if ([:len [find where list=$AddressList and address=184.86.103.220]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.220 }
+:if ([:len [find where list=$AddressList and address=184.86.103.74]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.74 }
+:if ([:len [find where list=$AddressList and address=184.86.103.84]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.84 }
+:if ([:len [find where list=$AddressList and address=184.86.103.87]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.87 }
+:if ([:len [find where list=$AddressList and address=184.86.103.91]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.103.91 }
+:if ([:len [find where list=$AddressList and address=184.86.251.23]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.251.23 }
+:if ([:len [find where list=$AddressList and address=184.86.251.28]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.251.28 }
+:if ([:len [find where list=$AddressList and address=184.86.251.5]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.251.5 }
+:if ([:len [find where list=$AddressList and address=184.86.251.7]] = 0) do={ add list=$AddressList comment=currenttime.tv address=184.86.251.7 }
+:if ([:len [find where list=$AddressList and address=190.98.160.144]] = 0) do={ add list=$AddressList comment=currenttime.tv address=190.98.160.144 }
+:if ([:len [find where list=$AddressList and address=190.98.160.147]] = 0) do={ add list=$AddressList comment=currenttime.tv address=190.98.160.147 }
+:if ([:len [find where list=$AddressList and address=190.98.160.153]] = 0) do={ add list=$AddressList comment=currenttime.tv address=190.98.160.153 }
+:if ([:len [find where list=$AddressList and address=190.98.160.161]] = 0) do={ add list=$AddressList comment=currenttime.tv address=190.98.160.161 }
+:if ([:len [find where list=$AddressList and address=2.16.1.136]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.136 }
+:if ([:len [find where list=$AddressList and address=2.16.1.137]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.137 }
+:if ([:len [find where list=$AddressList and address=2.16.1.161]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.161 }
+:if ([:len [find where list=$AddressList and address=2.16.1.171]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.171 }
+:if ([:len [find where list=$AddressList and address=2.16.1.193]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.193 }
+:if ([:len [find where list=$AddressList and address=2.16.1.217]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.217 }
+:if ([:len [find where list=$AddressList and address=2.16.100.147]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.100.147 }
+:if ([:len [find where list=$AddressList and address=2.16.100.58]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.100.58 }
+:if ([:len [find where list=$AddressList and address=2.16.101.26]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.101.26 }
+:if ([:len [find where list=$AddressList and address=2.16.11.64]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.11.64 }
+:if ([:len [find where list=$AddressList and address=2.16.11.72]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.11.72 }
+:if ([:len [find where list=$AddressList and address=2.16.110.32]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.110.32 }
+:if ([:len [find where list=$AddressList and address=2.16.110.51]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.110.51 }
+:if ([:len [find where list=$AddressList and address=2.16.158.176]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.158.176 }
+:if ([:len [find where list=$AddressList and address=2.16.158.184]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.158.184 }
+:if ([:len [find where list=$AddressList and address=2.16.158.186]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.158.186 }
+:if ([:len [find where list=$AddressList and address=2.16.158.80]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.158.80 }
+:if ([:len [find where list=$AddressList and address=2.16.158.96]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.158.96 }
+:if ([:len [find where list=$AddressList and address=2.16.16.162]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.162 }
+:if ([:len [find where list=$AddressList and address=2.16.16.163]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.163 }
+:if ([:len [find where list=$AddressList and address=2.16.16.165]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.165 }
+:if ([:len [find where list=$AddressList and address=2.16.16.168]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.168 }
+:if ([:len [find where list=$AddressList and address=2.16.16.169]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.169 }
+:if ([:len [find where list=$AddressList and address=2.16.16.173]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.173 }
+:if ([:len [find where list=$AddressList and address=2.16.16.175]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.175 }
+:if ([:len [find where list=$AddressList and address=2.16.16.176]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.176 }
+:if ([:len [find where list=$AddressList and address=2.16.16.179]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.179 }
+:if ([:len [find where list=$AddressList and address=2.16.16.180]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.180 }
+:if ([:len [find where list=$AddressList and address=2.16.16.184]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.184 }
+:if ([:len [find where list=$AddressList and address=2.16.16.186]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.186 }
+:if ([:len [find where list=$AddressList and address=2.16.16.206]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.206 }
+:if ([:len [find where list=$AddressList and address=2.16.16.222]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.222 }
+:if ([:len [find where list=$AddressList and address=2.16.16.234]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.234 }
+:if ([:len [find where list=$AddressList and address=2.16.16.236]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.16.236 }
+:if ([:len [find where list=$AddressList and address=2.16.165.107]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.165.107 }
+:if ([:len [find where list=$AddressList and address=2.16.165.186]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.165.186 }
+:if ([:len [find where list=$AddressList and address=2.16.165.195]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.165.195 }
+:if ([:len [find where list=$AddressList and address=2.16.165.210]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.165.210 }
+:if ([:len [find where list=$AddressList and address=2.16.170.136]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.170.136 }
+:if ([:len [find where list=$AddressList and address=2.16.170.142]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.170.142 }
+:if ([:len [find where list=$AddressList and address=2.16.170.143]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.170.143 }
+:if ([:len [find where list=$AddressList and address=2.16.172.106]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.106 }
+:if ([:len [find where list=$AddressList and address=2.16.172.112]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.112 }
+:if ([:len [find where list=$AddressList and address=2.16.172.113]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.113 }
+:if ([:len [find where list=$AddressList and address=2.16.172.123]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.123 }
+:if ([:len [find where list=$AddressList and address=2.16.172.128]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.128 }
+:if ([:len [find where list=$AddressList and address=2.16.172.131]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.131 }
+:if ([:len [find where list=$AddressList and address=2.16.172.139]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.139 }
+:if ([:len [find where list=$AddressList and address=2.16.172.144]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.144 }
+:if ([:len [find where list=$AddressList and address=2.16.172.147]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.147 }
+:if ([:len [find where list=$AddressList and address=2.16.172.153]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.153 }
+:if ([:len [find where list=$AddressList and address=2.16.183.10]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.10 }
+:if ([:len [find where list=$AddressList and address=2.16.183.108]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.108 }
+:if ([:len [find where list=$AddressList and address=2.16.183.14]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.14 }
+:if ([:len [find where list=$AddressList and address=2.16.183.143]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.143 }
+:if ([:len [find where list=$AddressList and address=2.16.183.156]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.156 }
+:if ([:len [find where list=$AddressList and address=2.16.183.159]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.159 }
+:if ([:len [find where list=$AddressList and address=2.16.183.16]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.16 }
+:if ([:len [find where list=$AddressList and address=2.16.183.160]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.160 }

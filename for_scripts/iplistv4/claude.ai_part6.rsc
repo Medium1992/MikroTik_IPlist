@@ -1,352 +1,182 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=claude.ai address=3.160.246.8} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.160.246.80} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.160.246.87} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.160.246.89} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.160.246.9} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.10} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.100} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.102} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.114} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.128} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.129} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.13} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.16} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.23} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.25} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.27} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.36} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.5} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.53} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.64} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.65} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.66} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.75} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.87} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.119.94} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.102} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.104} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.123} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.124} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.13} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.23} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.4} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.40} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.47} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.49} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.64} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.161.82.77} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.140.100} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.140.108} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.140.33} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.140.4} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.140.46} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.140.57} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.140.62} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.140.78} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.20.122} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.20.16} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.20.34} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.20.51} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.3.108} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.3.15} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.3.42} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.3.6} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.38.19} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.38.35} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.38.70} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.162.38.85} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.10.10} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.10.101} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.10.102} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.10.103} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.10.127} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.10.16} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.10.76} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.10.79} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.24.115} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.24.116} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.24.120} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.24.33} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.24.61} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.24.65} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.24.69} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.163.24.72} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.163.19} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.163.23} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.163.57} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.163.86} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.100} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.107} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.120} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.13} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.29} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.30} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.37} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.5} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.53} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.73} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.74} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.206.88} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.101} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.102} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.112} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.116} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.120} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.126} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.128} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.13} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.2} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.22} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.27} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.29} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.30} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.49} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.52} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.77} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.82} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.87} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.230.88} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.11} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.111} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.116} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.120} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.121} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.14} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.39} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.40} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.46} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.48} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.49} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.51} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.53} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.56} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.58} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.66} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.68} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.87} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.9} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.240.96} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.25.120} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.25.24} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.25.44} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.25.65} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.10} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.109} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.116} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.28} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.37} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.53} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.64} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.71} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.81} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.89} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.68.92} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.85.106} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.85.35} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.85.38} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.164.85.41} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.113.116} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.113.15} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.113.31} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.113.74} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.148.19} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.148.35} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.148.62} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.148.93} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.110} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.113} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.116} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.120} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.128} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.18} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.38} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.44} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.49} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.52} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.53} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.55} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.56} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.71} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.74} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.190.88} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.100} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.102} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.107} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.109} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.116} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.117} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.119} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.12} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.24} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.25} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.28} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.36} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.4} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.40} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.49} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.5} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.54} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.59} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.64} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.7} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.73} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.81} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.206.99} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.232.102} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.232.111} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.232.124} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.232.2} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.239.11} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.239.23} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.239.26} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.239.49} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.239.52} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.239.86} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.239.95} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.239.96} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.255.41} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.255.52} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.255.58} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.165.255.67} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.124} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.2} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.26} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.27} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.34} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.41} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.52} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.60} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.68} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.7} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.73} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.77} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.78} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.84} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.85} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.14.98} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.81.36} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.81.59} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.81.7} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.166.81.84} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.167.19.102} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.167.19.103} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.167.19.12} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.167.19.60} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.167.227.114} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.167.227.31} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.167.227.42} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.167.227.60} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.217.109} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.217.115} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.217.6} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.217.80} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.236.111} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.236.2} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.236.22} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.236.24} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.236.63} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.236.67} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.168.236.82} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.169.107.118} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.169.107.16} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.169.107.39} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.169.107.47} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.169.173.57} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.169.173.73} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.169.173.74} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.169.173.83} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.170.19.103} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.170.19.108} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.170.19.45} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.170.19.65} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.171.139.108} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.171.139.15} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.171.139.27} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.171.139.6} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.173.161.115} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.173.161.18} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.173.161.22} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.173.161.77} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.113.120} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.113.125} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.113.126} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.113.2} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.113.51} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.113.52} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.113.69} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.113.79} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.102} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.113} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.120} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.2} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.24} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.44} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.50} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.61} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.64} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.72} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.89} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.18.9} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.180.16} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.180.44} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.180.68} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.180.80} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.193.114} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.193.13} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.193.4} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.193.55} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.193.6} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.193.79} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.193.83} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.193.98} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.111} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.126} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.13} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.32} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.47} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.49} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.58} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.59} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.60} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.85} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.230.86} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.255.113} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.255.120} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.255.121} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.255.34} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.255.59} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.255.95} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.255.99} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.46.20} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.46.47} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.46.72} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.46.92} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.98.118} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.98.126} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.98.18} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.98.33} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.98.50} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.98.57} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.98.60} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.174.98.76} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.34.110} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.34.121} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.34.13} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.34.49} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.86.2} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.86.20} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.86.26} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.86.29} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.86.35} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.86.40} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.86.63} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.175.86.70} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.208.69.167} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.208.99.69} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.209.156.233} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.209.164.82} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.209.37.64} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.209.47.223} on-error {}
-:do {add list=$AddressList comment=claude.ai address=3.209.89.46} on-error {}
+:if ([:len [find where list=$AddressList and address=18.161.111.109]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.111.109 }
+:if ([:len [find where list=$AddressList and address=18.161.111.12]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.111.12 }
+:if ([:len [find where list=$AddressList and address=18.161.111.60]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.111.60 }
+:if ([:len [find where list=$AddressList and address=18.161.205.57]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.205.57 }
+:if ([:len [find where list=$AddressList and address=18.161.205.62]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.205.62 }
+:if ([:len [find where list=$AddressList and address=18.161.205.72]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.205.72 }
+:if ([:len [find where list=$AddressList and address=18.161.205.96]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.205.96 }
+:if ([:len [find where list=$AddressList and address=18.161.6.15]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.6.15 }
+:if ([:len [find where list=$AddressList and address=18.161.6.25]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.6.25 }
+:if ([:len [find where list=$AddressList and address=18.161.6.84]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.6.84 }
+:if ([:len [find where list=$AddressList and address=18.161.6.85]] = 0) do={ add list=$AddressList comment=claude.ai address=18.161.6.85 }
+:if ([:len [find where list=$AddressList and address=18.165.121.116]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.116 }
+:if ([:len [find where list=$AddressList and address=18.165.121.123]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.123 }
+:if ([:len [find where list=$AddressList and address=18.165.121.22]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.22 }
+:if ([:len [find where list=$AddressList and address=18.165.121.32]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.32 }
+:if ([:len [find where list=$AddressList and address=18.165.121.50]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.50 }
+:if ([:len [find where list=$AddressList and address=18.165.121.53]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.53 }
+:if ([:len [find where list=$AddressList and address=18.165.121.7]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.7 }
+:if ([:len [find where list=$AddressList and address=18.165.121.73]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.73 }
+:if ([:len [find where list=$AddressList and address=18.165.121.79]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.79 }
+:if ([:len [find where list=$AddressList and address=18.165.121.82]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.82 }
+:if ([:len [find where list=$AddressList and address=18.165.121.86]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.121.86 }
+:if ([:len [find where list=$AddressList and address=18.165.122.104]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.104 }
+:if ([:len [find where list=$AddressList and address=18.165.122.106]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.106 }
+:if ([:len [find where list=$AddressList and address=18.165.122.112]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.112 }
+:if ([:len [find where list=$AddressList and address=18.165.122.113]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.113 }
+:if ([:len [find where list=$AddressList and address=18.165.122.123]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.123 }
+:if ([:len [find where list=$AddressList and address=18.165.122.14]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.14 }
+:if ([:len [find where list=$AddressList and address=18.165.122.19]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.19 }
+:if ([:len [find where list=$AddressList and address=18.165.122.21]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.21 }
+:if ([:len [find where list=$AddressList and address=18.165.122.24]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.24 }
+:if ([:len [find where list=$AddressList and address=18.165.122.27]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.27 }
+:if ([:len [find where list=$AddressList and address=18.165.122.38]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.38 }
+:if ([:len [find where list=$AddressList and address=18.165.122.39]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.39 }
+:if ([:len [find where list=$AddressList and address=18.165.122.63]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.63 }
+:if ([:len [find where list=$AddressList and address=18.165.122.73]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.73 }
+:if ([:len [find where list=$AddressList and address=18.165.122.75]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.75 }
+:if ([:len [find where list=$AddressList and address=18.165.122.88]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.88 }
+:if ([:len [find where list=$AddressList and address=18.165.122.94]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.94 }
+:if ([:len [find where list=$AddressList and address=18.165.122.98]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.98 }
+:if ([:len [find where list=$AddressList and address=18.165.122.99]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.122.99 }
+:if ([:len [find where list=$AddressList and address=18.165.140.112]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.112 }
+:if ([:len [find where list=$AddressList and address=18.165.140.12]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.12 }
+:if ([:len [find where list=$AddressList and address=18.165.140.17]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.17 }
+:if ([:len [find where list=$AddressList and address=18.165.140.19]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.19 }
+:if ([:len [find where list=$AddressList and address=18.165.140.23]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.23 }
+:if ([:len [find where list=$AddressList and address=18.165.140.3]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.3 }
+:if ([:len [find where list=$AddressList and address=18.165.140.46]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.46 }
+:if ([:len [find where list=$AddressList and address=18.165.140.52]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.52 }
+:if ([:len [find where list=$AddressList and address=18.165.140.59]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.59 }
+:if ([:len [find where list=$AddressList and address=18.165.140.6]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.6 }
+:if ([:len [find where list=$AddressList and address=18.165.140.64]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.64 }
+:if ([:len [find where list=$AddressList and address=18.165.140.76]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.76 }
+:if ([:len [find where list=$AddressList and address=18.165.140.94]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.140.94 }
+:if ([:len [find where list=$AddressList and address=18.165.160.104]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.160.104 }
+:if ([:len [find where list=$AddressList and address=18.165.160.35]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.160.35 }
+:if ([:len [find where list=$AddressList and address=18.165.160.88]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.160.88 }
+:if ([:len [find where list=$AddressList and address=18.165.160.94]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.160.94 }
+:if ([:len [find where list=$AddressList and address=18.165.171.109]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.171.109 }
+:if ([:len [find where list=$AddressList and address=18.165.171.119]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.171.119 }
+:if ([:len [find where list=$AddressList and address=18.165.171.46]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.171.46 }
+:if ([:len [find where list=$AddressList and address=18.165.171.5]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.171.5 }
+:if ([:len [find where list=$AddressList and address=18.165.171.55]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.171.55 }
+:if ([:len [find where list=$AddressList and address=18.165.171.66]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.171.66 }
+:if ([:len [find where list=$AddressList and address=18.165.171.76]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.171.76 }
+:if ([:len [find where list=$AddressList and address=18.165.171.91]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.171.91 }
+:if ([:len [find where list=$AddressList and address=18.165.183.101]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.101 }
+:if ([:len [find where list=$AddressList and address=18.165.183.102]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.102 }
+:if ([:len [find where list=$AddressList and address=18.165.183.103]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.103 }
+:if ([:len [find where list=$AddressList and address=18.165.183.12]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.12 }
+:if ([:len [find where list=$AddressList and address=18.165.183.129]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.129 }
+:if ([:len [find where list=$AddressList and address=18.165.183.39]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.39 }
+:if ([:len [find where list=$AddressList and address=18.165.183.43]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.43 }
+:if ([:len [find where list=$AddressList and address=18.165.183.44]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.44 }
+:if ([:len [find where list=$AddressList and address=18.165.183.49]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.49 }
+:if ([:len [find where list=$AddressList and address=18.165.183.50]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.50 }
+:if ([:len [find where list=$AddressList and address=18.165.183.58]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.58 }
+:if ([:len [find where list=$AddressList and address=18.165.183.59]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.59 }
+:if ([:len [find where list=$AddressList and address=18.165.183.67]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.67 }
+:if ([:len [find where list=$AddressList and address=18.165.183.68]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.68 }
+:if ([:len [find where list=$AddressList and address=18.165.183.72]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.72 }
+:if ([:len [find where list=$AddressList and address=18.165.183.91]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.183.91 }
+:if ([:len [find where list=$AddressList and address=18.165.227.11]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.227.11 }
+:if ([:len [find where list=$AddressList and address=18.165.227.4]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.227.4 }
+:if ([:len [find where list=$AddressList and address=18.165.227.65]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.227.65 }
+:if ([:len [find where list=$AddressList and address=18.165.227.95]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.227.95 }
+:if ([:len [find where list=$AddressList and address=18.165.25.114]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.114 }
+:if ([:len [find where list=$AddressList and address=18.165.25.17]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.17 }
+:if ([:len [find where list=$AddressList and address=18.165.25.19]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.19 }
+:if ([:len [find where list=$AddressList and address=18.165.25.2]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.2 }
+:if ([:len [find where list=$AddressList and address=18.165.25.3]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.3 }
+:if ([:len [find where list=$AddressList and address=18.165.25.35]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.35 }
+:if ([:len [find where list=$AddressList and address=18.165.25.48]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.48 }
+:if ([:len [find where list=$AddressList and address=18.165.25.51]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.51 }
+:if ([:len [find where list=$AddressList and address=18.165.25.63]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.63 }
+:if ([:len [find where list=$AddressList and address=18.165.25.76]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.76 }
+:if ([:len [find where list=$AddressList and address=18.165.25.87]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.87 }
+:if ([:len [find where list=$AddressList and address=18.165.25.9]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.25.9 }
+:if ([:len [find where list=$AddressList and address=18.165.61.11]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.11 }
+:if ([:len [find where list=$AddressList and address=18.165.61.124]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.124 }
+:if ([:len [find where list=$AddressList and address=18.165.61.129]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.129 }
+:if ([:len [find where list=$AddressList and address=18.165.61.20]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.20 }
+:if ([:len [find where list=$AddressList and address=18.165.61.25]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.25 }
+:if ([:len [find where list=$AddressList and address=18.165.61.26]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.26 }
+:if ([:len [find where list=$AddressList and address=18.165.61.27]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.27 }
+:if ([:len [find where list=$AddressList and address=18.165.61.32]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.32 }
+:if ([:len [find where list=$AddressList and address=18.165.61.4]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.4 }
+:if ([:len [find where list=$AddressList and address=18.165.61.53]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.53 }
+:if ([:len [find where list=$AddressList and address=18.165.61.71]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.71 }
+:if ([:len [find where list=$AddressList and address=18.165.61.78]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.78 }
+:if ([:len [find where list=$AddressList and address=18.165.61.95]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.95 }
+:if ([:len [find where list=$AddressList and address=18.165.61.97]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.97 }
+:if ([:len [find where list=$AddressList and address=18.165.72.102]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.102 }
+:if ([:len [find where list=$AddressList and address=18.165.72.118]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.118 }
+:if ([:len [find where list=$AddressList and address=18.165.72.120]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.120 }
+:if ([:len [find where list=$AddressList and address=18.165.72.19]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.19 }
+:if ([:len [find where list=$AddressList and address=18.165.72.20]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.20 }
+:if ([:len [find where list=$AddressList and address=18.165.72.29]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.29 }
+:if ([:len [find where list=$AddressList and address=18.165.72.49]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.49 }
+:if ([:len [find where list=$AddressList and address=18.165.72.5]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.5 }
+:if ([:len [find where list=$AddressList and address=18.165.72.50]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.50 }
+:if ([:len [find where list=$AddressList and address=18.165.72.54]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.54 }
+:if ([:len [find where list=$AddressList and address=18.165.72.61]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.61 }
+:if ([:len [find where list=$AddressList and address=18.165.72.62]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.62 }
+:if ([:len [find where list=$AddressList and address=18.165.72.75]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.75 }
+:if ([:len [find where list=$AddressList and address=18.165.72.79]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.79 }
+:if ([:len [find where list=$AddressList and address=18.165.72.90]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.90 }
+:if ([:len [find where list=$AddressList and address=18.165.72.92]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.92 }
+:if ([:len [find where list=$AddressList and address=18.165.72.93]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.93 }
+:if ([:len [find where list=$AddressList and address=18.165.72.95]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.95 }
+:if ([:len [find where list=$AddressList and address=18.165.72.99]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.99 }
+:if ([:len [find where list=$AddressList and address=18.165.9.111]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.9.111 }
+:if ([:len [find where list=$AddressList and address=18.165.9.112]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.9.112 }
+:if ([:len [find where list=$AddressList and address=18.165.9.118]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.9.118 }
+:if ([:len [find where list=$AddressList and address=18.165.9.125]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.9.125 }
+:if ([:len [find where list=$AddressList and address=18.165.9.13]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.9.13 }
+:if ([:len [find where list=$AddressList and address=18.165.9.15]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.9.15 }
+:if ([:len [find where list=$AddressList and address=18.165.9.51]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.9.51 }
+:if ([:len [find where list=$AddressList and address=18.165.9.8]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.9.8 }
+:if ([:len [find where list=$AddressList and address=18.172.185.102]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.102 }
+:if ([:len [find where list=$AddressList and address=18.172.185.129]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.129 }
+:if ([:len [find where list=$AddressList and address=18.172.185.16]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.16 }
+:if ([:len [find where list=$AddressList and address=18.172.185.33]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.33 }
+:if ([:len [find where list=$AddressList and address=18.172.185.39]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.39 }
+:if ([:len [find where list=$AddressList and address=18.172.185.42]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.42 }
+:if ([:len [find where list=$AddressList and address=18.172.185.80]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.80 }
+:if ([:len [find where list=$AddressList and address=18.172.213.109]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.109 }
+:if ([:len [find where list=$AddressList and address=18.172.213.12]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.12 }
+:if ([:len [find where list=$AddressList and address=18.172.213.17]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.17 }
+:if ([:len [find where list=$AddressList and address=18.172.213.18]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.18 }
+:if ([:len [find where list=$AddressList and address=18.172.213.30]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.30 }
+:if ([:len [find where list=$AddressList and address=18.172.213.44]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.44 }
+:if ([:len [find where list=$AddressList and address=18.172.213.54]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.54 }
+:if ([:len [find where list=$AddressList and address=18.172.213.67]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.67 }
+:if ([:len [find where list=$AddressList and address=18.172.213.73]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.73 }
+:if ([:len [find where list=$AddressList and address=18.172.213.74]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.74 }
+:if ([:len [find where list=$AddressList and address=18.172.213.75]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.75 }
+:if ([:len [find where list=$AddressList and address=18.172.213.88]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.88 }
+:if ([:len [find where list=$AddressList and address=18.172.226.107]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.107 }
+:if ([:len [find where list=$AddressList and address=18.172.226.11]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.11 }
+:if ([:len [find where list=$AddressList and address=18.172.226.111]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.111 }
+:if ([:len [find where list=$AddressList and address=18.172.226.116]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.116 }
+:if ([:len [find where list=$AddressList and address=18.172.226.29]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.29 }
+:if ([:len [find where list=$AddressList and address=18.172.226.36]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.36 }
+:if ([:len [find where list=$AddressList and address=18.172.226.4]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.4 }
+:if ([:len [find where list=$AddressList and address=18.172.226.42]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.42 }
+:if ([:len [find where list=$AddressList and address=18.172.226.47]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.47 }
+:if ([:len [find where list=$AddressList and address=18.172.226.59]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.59 }
+:if ([:len [find where list=$AddressList and address=18.172.226.67]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.67 }
+:if ([:len [find where list=$AddressList and address=18.172.226.88]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.226.88 }
+:if ([:len [find where list=$AddressList and address=18.172.242.109]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.242.109 }
+:if ([:len [find where list=$AddressList and address=18.172.242.122]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.242.122 }
+:if ([:len [find where list=$AddressList and address=18.172.242.128]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.242.128 }
+:if ([:len [find where list=$AddressList and address=18.172.242.18]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.242.18 }
+:if ([:len [find where list=$AddressList and address=18.172.242.26]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.242.26 }
+:if ([:len [find where list=$AddressList and address=18.172.242.28]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.242.28 }
+:if ([:len [find where list=$AddressList and address=18.172.242.33]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.242.33 }
+:if ([:len [find where list=$AddressList and address=18.172.242.36]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.242.36 }
+:if ([:len [find where list=$AddressList and address=18.172.242.38]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.242.38 }
+:if ([:len [find where list=$AddressList and address=18.172.242.4]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.242.4 }

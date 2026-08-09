@@ -1,34 +1,34 @@
 :global AddressList
 /ip firewall address-list
-:do {add list=$AddressList comment=vavada.com address=104.21.8.240} on-error {}
-:do {add list=$AddressList comment=vavada.com address=109.61.19.19} on-error {}
-:do {add list=$AddressList comment=vavada.com address=109.61.41.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=151.248.104.91} on-error {}
-:do {add list=$AddressList comment=vavada.com address=172.67.158.32} on-error {}
-:do {add list=$AddressList comment=vavada.com address=185.104.211.35} on-error {}
-:do {add list=$AddressList comment=vavada.com address=185.188.144.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=185.249.133.4} on-error {}
-:do {add list=$AddressList comment=vavada.com address=185.76.48.122} on-error {}
-:do {add list=$AddressList comment=vavada.com address=193.169.250.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=193.169.251.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=202.78.162.61} on-error {}
-:do {add list=$AddressList comment=vavada.com address=202.78.162.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=31.184.207.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=37.239.145.14} on-error {}
-:do {add list=$AddressList comment=vavada.com address=41.226.6.202} on-error {}
-:do {add list=$AddressList comment=vavada.com address=45.82.100.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=45.82.101.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=5.101.217.4} on-error {}
-:do {add list=$AddressList comment=vavada.com address=5.101.219.14} on-error {}
-:do {add list=$AddressList comment=vavada.com address=5.188.94.5} on-error {}
-:do {add list=$AddressList comment=vavada.com address=89.223.90.5} on-error {}
-:do {add list=$AddressList comment=vavada.com address=92.223.124.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=92.223.50.33} on-error {}
-:do {add list=$AddressList comment=vavada.com address=92.223.55.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=92.223.84.79} on-error {}
-:do {add list=$AddressList comment=vavada.com address=92.223.84.84} on-error {}
-:do {add list=$AddressList comment=vavada.com address=92.223.97.97} on-error {}
-:do {add list=$AddressList comment=vavada.com address=92.38.145.145} on-error {}
-:do {add list=$AddressList comment=vavada.com address=93.123.11.62} on-error {}
-:do {add list=$AddressList comment=vavada.com address=93.123.17.254} on-error {}
-:do {add list=$AddressList comment=vavada.com address=95.85.69.62} on-error {}
+:if ([:len [find where list=$AddressList and address=104.21.8.240]] = 0) do={ add list=$AddressList comment=vavada.com address=104.21.8.240 }
+:if ([:len [find where list=$AddressList and address=109.61.19.19]] = 0) do={ add list=$AddressList comment=vavada.com address=109.61.19.19 }
+:if ([:len [find where list=$AddressList and address=109.61.41.62]] = 0) do={ add list=$AddressList comment=vavada.com address=109.61.41.62 }
+:if ([:len [find where list=$AddressList and address=151.248.104.91]] = 0) do={ add list=$AddressList comment=vavada.com address=151.248.104.91 }
+:if ([:len [find where list=$AddressList and address=172.67.158.32]] = 0) do={ add list=$AddressList comment=vavada.com address=172.67.158.32 }
+:if ([:len [find where list=$AddressList and address=185.104.211.35]] = 0) do={ add list=$AddressList comment=vavada.com address=185.104.211.35 }
+:if ([:len [find where list=$AddressList and address=185.188.144.62]] = 0) do={ add list=$AddressList comment=vavada.com address=185.188.144.62 }
+:if ([:len [find where list=$AddressList and address=185.249.133.4]] = 0) do={ add list=$AddressList comment=vavada.com address=185.249.133.4 }
+:if ([:len [find where list=$AddressList and address=185.76.48.122]] = 0) do={ add list=$AddressList comment=vavada.com address=185.76.48.122 }
+:if ([:len [find where list=$AddressList and address=193.169.250.62]] = 0) do={ add list=$AddressList comment=vavada.com address=193.169.250.62 }
+:if ([:len [find where list=$AddressList and address=193.169.251.62]] = 0) do={ add list=$AddressList comment=vavada.com address=193.169.251.62 }
+:if ([:len [find where list=$AddressList and address=202.78.162.61]] = 0) do={ add list=$AddressList comment=vavada.com address=202.78.162.61 }
+:if ([:len [find where list=$AddressList and address=202.78.162.62]] = 0) do={ add list=$AddressList comment=vavada.com address=202.78.162.62 }
+:if ([:len [find where list=$AddressList and address=31.184.207.62]] = 0) do={ add list=$AddressList comment=vavada.com address=31.184.207.62 }
+:if ([:len [find where list=$AddressList and address=37.239.145.14]] = 0) do={ add list=$AddressList comment=vavada.com address=37.239.145.14 }
+:if ([:len [find where list=$AddressList and address=41.226.6.202]] = 0) do={ add list=$AddressList comment=vavada.com address=41.226.6.202 }
+:if ([:len [find where list=$AddressList and address=45.82.100.62]] = 0) do={ add list=$AddressList comment=vavada.com address=45.82.100.62 }
+:if ([:len [find where list=$AddressList and address=45.82.101.62]] = 0) do={ add list=$AddressList comment=vavada.com address=45.82.101.62 }
+:if ([:len [find where list=$AddressList and address=5.101.217.4]] = 0) do={ add list=$AddressList comment=vavada.com address=5.101.217.4 }
+:if ([:len [find where list=$AddressList and address=5.101.219.14]] = 0) do={ add list=$AddressList comment=vavada.com address=5.101.219.14 }
+:if ([:len [find where list=$AddressList and address=5.188.94.5]] = 0) do={ add list=$AddressList comment=vavada.com address=5.188.94.5 }
+:if ([:len [find where list=$AddressList and address=89.223.90.5]] = 0) do={ add list=$AddressList comment=vavada.com address=89.223.90.5 }
+:if ([:len [find where list=$AddressList and address=92.223.124.62]] = 0) do={ add list=$AddressList comment=vavada.com address=92.223.124.62 }
+:if ([:len [find where list=$AddressList and address=92.223.50.33]] = 0) do={ add list=$AddressList comment=vavada.com address=92.223.50.33 }
+:if ([:len [find where list=$AddressList and address=92.223.55.62]] = 0) do={ add list=$AddressList comment=vavada.com address=92.223.55.62 }
+:if ([:len [find where list=$AddressList and address=92.223.84.79]] = 0) do={ add list=$AddressList comment=vavada.com address=92.223.84.79 }
+:if ([:len [find where list=$AddressList and address=92.223.84.84]] = 0) do={ add list=$AddressList comment=vavada.com address=92.223.84.84 }
+:if ([:len [find where list=$AddressList and address=92.223.97.97]] = 0) do={ add list=$AddressList comment=vavada.com address=92.223.97.97 }
+:if ([:len [find where list=$AddressList and address=92.38.145.145]] = 0) do={ add list=$AddressList comment=vavada.com address=92.38.145.145 }
+:if ([:len [find where list=$AddressList and address=93.123.11.62]] = 0) do={ add list=$AddressList comment=vavada.com address=93.123.11.62 }
+:if ([:len [find where list=$AddressList and address=93.123.17.254]] = 0) do={ add list=$AddressList comment=vavada.com address=93.123.17.254 }
+:if ([:len [find where list=$AddressList and address=95.85.69.62]] = 0) do={ add list=$AddressList comment=vavada.com address=95.85.69.62 }

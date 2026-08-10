@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.86.126.165]] = 0) do={ add list=$AddressList comment=grammarly.com address=52.86.126.165 }
 :if ([:len [find where list=$AddressList and address=52.86.128.14]] = 0) do={ add list=$AddressList comment=grammarly.com address=52.86.128.14 }
 :if ([:len [find where list=$AddressList and address=52.86.132.62]] = 0) do={ add list=$AddressList comment=grammarly.com address=52.86.132.62 }
 :if ([:len [find where list=$AddressList and address=52.86.137.254]] = 0) do={ add list=$AddressList comment=grammarly.com address=52.86.137.254 }
@@ -179,4 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.87.74.188]] = 0) do={ add list=$AddressList comment=grammarly.com address=52.87.74.188 }
 :if ([:len [find where list=$AddressList and address=52.87.74.223]] = 0) do={ add list=$AddressList comment=grammarly.com address=52.87.74.223 }
 :if ([:len [find where list=$AddressList and address=52.87.75.92]] = 0) do={ add list=$AddressList comment=grammarly.com address=52.87.75.92 }
-:if ([:len [find where list=$AddressList and address=52.87.76.67]] = 0) do={ add list=$AddressList comment=grammarly.com address=52.87.76.67 }

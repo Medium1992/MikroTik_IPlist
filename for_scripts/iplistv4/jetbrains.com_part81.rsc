@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=65.9.86.128]] = 0) do={ add list=$AddressList comment=jetbrains.com address=65.9.86.128 }
+:if ([:len [find where list=$AddressList and address=65.9.86.14]] = 0) do={ add list=$AddressList comment=jetbrains.com address=65.9.86.14 }
+:if ([:len [find where list=$AddressList and address=65.9.86.17]] = 0) do={ add list=$AddressList comment=jetbrains.com address=65.9.86.17 }
+:if ([:len [find where list=$AddressList and address=65.9.86.19]] = 0) do={ add list=$AddressList comment=jetbrains.com address=65.9.86.19 }
 :if ([:len [find where list=$AddressList and address=65.9.86.22]] = 0) do={ add list=$AddressList comment=jetbrains.com address=65.9.86.22 }
 :if ([:len [find where list=$AddressList and address=65.9.86.23]] = 0) do={ add list=$AddressList comment=jetbrains.com address=65.9.86.23 }
 :if ([:len [find where list=$AddressList and address=65.9.86.25]] = 0) do={ add list=$AddressList comment=jetbrains.com address=65.9.86.25 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=99.81.43.22]] = 0) do={ add list=$AddressList comment=jetbrains.com address=99.81.43.22 }
 :if ([:len [find where list=$AddressList and address=99.81.58.163]] = 0) do={ add list=$AddressList comment=jetbrains.com address=99.81.58.163 }
 :if ([:len [find where list=$AddressList and address=99.81.60.114]] = 0) do={ add list=$AddressList comment=jetbrains.com address=99.81.60.114 }
-:if ([:len [find where list=$AddressList and address=99.81.64.36]] = 0) do={ add list=$AddressList comment=jetbrains.com address=99.81.64.36 }
-:if ([:len [find where list=$AddressList and address=99.81.89.198]] = 0) do={ add list=$AddressList comment=jetbrains.com address=99.81.89.198 }
-:if ([:len [find where list=$AddressList and address=99.81.97.224]] = 0) do={ add list=$AddressList comment=jetbrains.com address=99.81.97.224 }
-:if ([:len [find where list=$AddressList and address=99.84.132.22]] = 0) do={ add list=$AddressList comment=jetbrains.com address=99.84.132.22 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.25.24]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.164.25.24 }
+:if ([:len [find where list=$AddressList and address=3.164.25.3]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.164.25.3 }
+:if ([:len [find where list=$AddressList and address=3.164.25.33]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.164.25.33 }
+:if ([:len [find where list=$AddressList and address=3.164.25.43]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.164.25.43 }
 :if ([:len [find where list=$AddressList and address=3.164.25.45]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.164.25.45 }
 :if ([:len [find where list=$AddressList and address=3.164.25.67]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.164.25.67 }
 :if ([:len [find where list=$AddressList and address=3.164.25.72]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.164.25.72 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.165.148.29]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.165.148.29 }
 :if ([:len [find where list=$AddressList and address=3.165.148.31]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.165.148.31 }
 :if ([:len [find where list=$AddressList and address=3.165.148.35]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.165.148.35 }
-:if ([:len [find where list=$AddressList and address=3.165.148.42]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.165.148.42 }
-:if ([:len [find where list=$AddressList and address=3.165.148.58]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.165.148.58 }
-:if ([:len [find where list=$AddressList and address=3.165.148.61]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.165.148.61 }
-:if ([:len [find where list=$AddressList and address=3.165.148.65]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.165.148.65 }

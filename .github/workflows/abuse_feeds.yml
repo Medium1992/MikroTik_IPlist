@@ -17,8 +17,6 @@ permissions:
 env:
   # RouterOS fetch output is parsed from a variable; keep parts below 30 KiB.
   MAX_ABUSE_ENTRIES_PER_FILE: 300
-  # Dynamic records live in RAM. Two days tolerates one failed daily refresh.
-  ABUSE_ENTRY_TIMEOUT: 2d
 
 jobs:
   generate-abuse-rsc:
@@ -31,7 +29,6 @@ jobs:
         run: |
           set -euo pipefail
           MAX="${{ env.MAX_ABUSE_ENTRIES_PER_FILE }}"
-          TIMEOUT="${{ env.ABUSE_ENTRY_TIMEOUT }}"
           OUTPUT_DIR="for_scripts/abusev4"
           mkdir -p "$OUTPUT_DIR"
 
@@ -42,7 +39,7 @@ jobs:
               echo ":global AddressList"
               echo "/ip firewall address-list"
               for addr in "$@"; do
-                echo ":do { add list=\$AddressList comment=$comment address=$addr timeout=$TIMEOUT } on-error={}"
+                echo ":do { add dynamic=yes list=\$AddressList comment=$comment address=$addr } on-error={}"
               done
             } > "$out"
           }

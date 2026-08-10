@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=184.51.101.40]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.40 }
+:if ([:len [find where list=$AddressList and address=184.51.101.80]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.80 }
+:if ([:len [find where list=$AddressList and address=184.51.101.81]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.81 }
+:if ([:len [find where list=$AddressList and address=184.51.101.82]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.82 }
+:if ([:len [find where list=$AddressList and address=184.51.101.83]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.83 }
+:if ([:len [find where list=$AddressList and address=184.51.101.88]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.88 }
+:if ([:len [find where list=$AddressList and address=184.51.101.90]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.90 }
+:if ([:len [find where list=$AddressList and address=184.51.101.91]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.91 }
 :if ([:len [find where list=$AddressList and address=184.51.101.92]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.92 }
 :if ([:len [find where list=$AddressList and address=184.51.101.93]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.93 }
 :if ([:len [find where list=$AddressList and address=184.51.101.94]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.101.94 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=184.51.252.179]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.179 }
 :if ([:len [find where list=$AddressList and address=184.51.252.18]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.18 }
 :if ([:len [find where list=$AddressList and address=184.51.252.180]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.180 }
-:if ([:len [find where list=$AddressList and address=184.51.252.181]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.181 }
-:if ([:len [find where list=$AddressList and address=184.51.252.182]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.182 }
-:if ([:len [find where list=$AddressList and address=184.51.252.184]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.184 }
-:if ([:len [find where list=$AddressList and address=184.51.252.185]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.185 }
-:if ([:len [find where list=$AddressList and address=184.51.252.186]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.186 }
-:if ([:len [find where list=$AddressList and address=184.51.252.187]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.187 }
-:if ([:len [find where list=$AddressList and address=184.51.252.188]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.188 }
-:if ([:len [find where list=$AddressList and address=184.51.252.189]] = 0) do={ add list=$AddressList comment=tiktok.com address=184.51.252.189 }

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=34.196.225.97]] = 0) do={ add list=$AddressList comment=viber.com address=34.196.225.97 }
 :if ([:len [find where list=$AddressList and address=34.196.229.5]] = 0) do={ add list=$AddressList comment=viber.com address=34.196.229.5 }
 :if ([:len [find where list=$AddressList and address=34.196.24.235]] = 0) do={ add list=$AddressList comment=viber.com address=34.196.24.235 }
 :if ([:len [find where list=$AddressList and address=34.196.244.13]] = 0) do={ add list=$AddressList comment=viber.com address=34.196.244.13 }
@@ -179,4 +180,3 @@
 :if ([:len [find where list=$AddressList and address=34.201.90.216]] = 0) do={ add list=$AddressList comment=viber.com address=34.201.90.216 }
 :if ([:len [find where list=$AddressList and address=34.202.10.87]] = 0) do={ add list=$AddressList comment=viber.com address=34.202.10.87 }
 :if ([:len [find where list=$AddressList and address=34.202.102.10]] = 0) do={ add list=$AddressList comment=viber.com address=34.202.102.10 }
-:if ([:len [find where list=$AddressList and address=34.202.128.173]] = 0) do={ add list=$AddressList comment=viber.com address=34.202.128.173 }

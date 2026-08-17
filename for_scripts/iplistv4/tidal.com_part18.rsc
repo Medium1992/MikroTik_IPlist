@@ -1,5 +1,17 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=65.9.87.243]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.87.243 }
+:if ([:len [find where list=$AddressList and address=65.9.94.242]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.94.242 }
+:if ([:len [find where list=$AddressList and address=65.9.95.100]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.100 }
+:if ([:len [find where list=$AddressList and address=65.9.95.104]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.104 }
+:if ([:len [find where list=$AddressList and address=65.9.95.106]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.106 }
+:if ([:len [find where list=$AddressList and address=65.9.95.107]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.107 }
+:if ([:len [find where list=$AddressList and address=65.9.95.111]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.111 }
+:if ([:len [find where list=$AddressList and address=65.9.95.113]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.113 }
+:if ([:len [find where list=$AddressList and address=65.9.95.114]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.114 }
+:if ([:len [find where list=$AddressList and address=65.9.95.115]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.115 }
+:if ([:len [find where list=$AddressList and address=65.9.95.116]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.116 }
+:if ([:len [find where list=$AddressList and address=65.9.95.121]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.121 }
 :if ([:len [find where list=$AddressList and address=65.9.95.122]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.122 }
 :if ([:len [find where list=$AddressList and address=65.9.95.125]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.125 }
 :if ([:len [find where list=$AddressList and address=65.9.95.129]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.95.129 }

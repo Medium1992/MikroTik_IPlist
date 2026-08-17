@@ -59,6 +59,7 @@
 :if ([:len [find where list=$AddressList and address=104.81.30.166]] = 0) do={ add list=$AddressList comment=dw.com address=104.81.30.166 }
 :if ([:len [find where list=$AddressList and address=104.81.96.90]] = 0) do={ add list=$AddressList comment=dw.com address=104.81.96.90 }
 :if ([:len [find where list=$AddressList and address=104.82.139.203]] = 0) do={ add list=$AddressList comment=dw.com address=104.82.139.203 }
+:if ([:len [find where list=$AddressList and address=104.82.234.30]] = 0) do={ add list=$AddressList comment=dw.com address=104.82.234.30 }
 :if ([:len [find where list=$AddressList and address=104.83.102.241]] = 0) do={ add list=$AddressList comment=dw.com address=104.83.102.241 }
 :if ([:len [find where list=$AddressList and address=104.83.106.244]] = 0) do={ add list=$AddressList comment=dw.com address=104.83.106.244 }
 :if ([:len [find where list=$AddressList and address=104.83.151.46]] = 0) do={ add list=$AddressList comment=dw.com address=104.83.151.46 }
@@ -108,6 +109,8 @@
 :if ([:len [find where list=$AddressList and address=184.25.198.13]] = 0) do={ add list=$AddressList comment=dw.com address=184.25.198.13 }
 :if ([:len [find where list=$AddressList and address=184.25.50.162]] = 0) do={ add list=$AddressList comment=dw.com address=184.25.50.162 }
 :if ([:len [find where list=$AddressList and address=184.25.50.193]] = 0) do={ add list=$AddressList comment=dw.com address=184.25.50.193 }
+:if ([:len [find where list=$AddressList and address=184.25.51.25]] = 0) do={ add list=$AddressList comment=dw.com address=184.25.51.25 }
+:if ([:len [find where list=$AddressList and address=184.25.51.43]] = 0) do={ add list=$AddressList comment=dw.com address=184.25.51.43 }
 :if ([:len [find where list=$AddressList and address=184.25.53.97]] = 0) do={ add list=$AddressList comment=dw.com address=184.25.53.97 }
 :if ([:len [find where list=$AddressList and address=184.25.67.162]] = 0) do={ add list=$AddressList comment=dw.com address=184.25.67.162 }
 :if ([:len [find where list=$AddressList and address=184.26.129.251]] = 0) do={ add list=$AddressList comment=dw.com address=184.26.129.251 }
@@ -138,6 +141,7 @@
 :if ([:len [find where list=$AddressList and address=184.51.252.192]] = 0) do={ add list=$AddressList comment=dw.com address=184.51.252.192 }
 :if ([:len [find where list=$AddressList and address=184.51.252.194]] = 0) do={ add list=$AddressList comment=dw.com address=184.51.252.194 }
 :if ([:len [find where list=$AddressList and address=184.85.181.3]] = 0) do={ add list=$AddressList comment=dw.com address=184.85.181.3 }
+:if ([:len [find where list=$AddressList and address=184.86.166.2]] = 0) do={ add list=$AddressList comment=dw.com address=184.86.166.2 }
 :if ([:len [find where list=$AddressList and address=184.86.251.70]] = 0) do={ add list=$AddressList comment=dw.com address=184.86.251.70 }
 :if ([:len [find where list=$AddressList and address=184.86.251.78]] = 0) do={ add list=$AddressList comment=dw.com address=184.86.251.78 }
 :if ([:len [find where list=$AddressList and address=184.86.251.79]] = 0) do={ add list=$AddressList comment=dw.com address=184.86.251.79 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.16.171.82]] = 0) do={ add list=$AddressList comment=dw.com address=2.16.171.82 }
 :if ([:len [find where list=$AddressList and address=2.16.174.125]] = 0) do={ add list=$AddressList comment=dw.com address=2.16.174.125 }
 :if ([:len [find where list=$AddressList and address=2.16.183.204]] = 0) do={ add list=$AddressList comment=dw.com address=2.16.183.204 }
-:if ([:len [find where list=$AddressList and address=2.16.183.224]] = 0) do={ add list=$AddressList comment=dw.com address=2.16.183.224 }
-:if ([:len [find where list=$AddressList and address=2.16.189.90]] = 0) do={ add list=$AddressList comment=dw.com address=2.16.189.90 }
-:if ([:len [find where list=$AddressList and address=2.16.193.43]] = 0) do={ add list=$AddressList comment=dw.com address=2.16.193.43 }
-:if ([:len [find where list=$AddressList and address=2.16.209.38]] = 0) do={ add list=$AddressList comment=dw.com address=2.16.209.38 }

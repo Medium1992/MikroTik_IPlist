@@ -1,7 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=23.200.40.209]] = 0) do={ add list=$AddressList comment=whoop.com address=23.200.40.209 }
+:if ([:len [find where list=$AddressList and address=23.200.66.135]] = 0) do={ add list=$AddressList comment=whoop.com address=23.200.66.135 }
 :if ([:len [find where list=$AddressList and address=23.200.66.139]] = 0) do={ add list=$AddressList comment=whoop.com address=23.200.66.139 }
 :if ([:len [find where list=$AddressList and address=23.201.29.25]] = 0) do={ add list=$AddressList comment=whoop.com address=23.201.29.25 }
+:if ([:len [find where list=$AddressList and address=23.201.29.41]] = 0) do={ add list=$AddressList comment=whoop.com address=23.201.29.41 }
 :if ([:len [find where list=$AddressList and address=23.201.29.58]] = 0) do={ add list=$AddressList comment=whoop.com address=23.201.29.58 }
 :if ([:len [find where list=$AddressList and address=23.203.48.151]] = 0) do={ add list=$AddressList comment=whoop.com address=23.203.48.151 }
 :if ([:len [find where list=$AddressList and address=23.203.48.157]] = 0) do={ add list=$AddressList comment=whoop.com address=23.203.48.157 }
@@ -177,6 +180,3 @@
 :if ([:len [find where list=$AddressList and address=23.3.90.50]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.90.50 }
 :if ([:len [find where list=$AddressList and address=23.3.90.8]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.90.8 }
 :if ([:len [find where list=$AddressList and address=23.3.90.9]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.90.9 }
-:if ([:len [find where list=$AddressList and address=23.3.91.155]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.91.155 }
-:if ([:len [find where list=$AddressList and address=23.3.91.163]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.91.163 }
-:if ([:len [find where list=$AddressList and address=23.33.119.33]] = 0) do={ add list=$AddressList comment=whoop.com address=23.33.119.33 }

@@ -22,6 +22,7 @@
 :if ([:len [find where list=$AddressList and address=163.5.81.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=163.5.81.0/24 }
 :if ([:len [find where list=$AddressList and address=163.8.194.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=163.8.194.0/24 }
 :if ([:len [find where list=$AddressList and address=163.8.196.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=163.8.196.0/24 }
+:if ([:len [find where list=$AddressList and address=163.8.32.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=163.8.32.0/24 }
 :if ([:len [find where list=$AddressList and address=165.49.226.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=165.49.226.0/24 }
 :if ([:len [find where list=$AddressList and address=165.49.230.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=165.49.230.0/24 }
 :if ([:len [find where list=$AddressList and address=168.222.181.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=168.222.181.0/24 }
@@ -29,6 +30,7 @@
 :if ([:len [find where list=$AddressList and address=178.95.200.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=178.95.200.0/24 }
 :if ([:len [find where list=$AddressList and address=178.95.237.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=178.95.237.0/24 }
 :if ([:len [find where list=$AddressList and address=185.14.237.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=185.14.237.0/24 }
+:if ([:len [find where list=$AddressList and address=185.48.195.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=185.48.195.0/24 }
 :if ([:len [find where list=$AddressList and address=194.15.99.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=194.15.99.0/24 }
 :if ([:len [find where list=$AddressList and address=195.216.180.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=195.216.180.0/24 }
 :if ([:len [find where list=$AddressList and address=203.168.239.0/24]] = 0) do={ add list=$AddressList comment=AS213607 address=203.168.239.0/24 }

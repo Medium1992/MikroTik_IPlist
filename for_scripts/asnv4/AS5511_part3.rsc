@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=45.145.249.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=45.145.249.0/24 }
+:if ([:len [find where list=$AddressList and address=45.145.46.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=45.145.46.0/24 }
+:if ([:len [find where list=$AddressList and address=45.146.187.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=45.146.187.0/24 }
+:if ([:len [find where list=$AddressList and address=45.149.26.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=45.149.26.0/24 }
 :if ([:len [find where list=$AddressList and address=45.151.252.0/22]] = 0) do={ add list=$AddressList comment=AS5511 address=45.151.252.0/22 }
 :if ([:len [find where list=$AddressList and address=45.154.104.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=45.154.104.0/24 }
 :if ([:len [find where list=$AddressList and address=45.155.242.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=45.155.242.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=82.27.20.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=82.27.20.0/24 }
 :if ([:len [find where list=$AddressList and address=83.137.156.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=83.137.156.0/24 }
 :if ([:len [find where list=$AddressList and address=84.55.1.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=84.55.1.0/24 }
-:if ([:len [find where list=$AddressList and address=84.55.18.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=84.55.18.0/24 }
-:if ([:len [find where list=$AddressList and address=84.55.3.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=84.55.3.0/24 }
-:if ([:len [find where list=$AddressList and address=84.55.9.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=84.55.9.0/24 }
-:if ([:len [find where list=$AddressList and address=84.75.0.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=84.75.0.0/24 }

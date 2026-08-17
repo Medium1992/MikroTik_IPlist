@@ -14,6 +14,8 @@
 :if ([:len [find where list=$AddressList and address=176.58.39.251]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.39.251 }
 :if ([:len [find where list=$AddressList and address=176.58.39.99]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.39.99 }
 :if ([:len [find where list=$AddressList and address=176.58.48.48]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.48.48 }
+:if ([:len [find where list=$AddressList and address=176.58.48.50]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.48.50 }
+:if ([:len [find where list=$AddressList and address=176.58.48.8]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.48.8 }
 :if ([:len [find where list=$AddressList and address=176.58.56.43]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=176.58.56.43 }
 :if ([:len [find where list=$AddressList and address=186.2.165.177]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=186.2.165.177 }
 :if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=yummyanime.tv address=188.114.98.229 }

@@ -1,17 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=89.44.10.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.44.10.0/24 }
-:if ([:len [find where list=$AddressList and address=89.44.100.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=89.44.100.0/23 }
-:if ([:len [find where list=$AddressList and address=89.44.201.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.44.201.0/24 }
-:if ([:len [find where list=$AddressList and address=89.44.9.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.44.9.0/24 }
-:if ([:len [find where list=$AddressList and address=89.45.10.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.45.10.0/24 }
-:if ([:len [find where list=$AddressList and address=89.45.224.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.45.224.0/24 }
-:if ([:len [find where list=$AddressList and address=89.45.4.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=89.45.4.0/22 }
-:if ([:len [find where list=$AddressList and address=89.45.90.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.45.90.0/24 }
-:if ([:len [find where list=$AddressList and address=89.46.100.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=89.46.100.0/22 }
-:if ([:len [find where list=$AddressList and address=89.46.114.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.46.114.0/24 }
-:if ([:len [find where list=$AddressList and address=89.46.232.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=89.46.232.0/23 }
-:if ([:len [find where list=$AddressList and address=89.46.234.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.46.234.0/24 }
 :if ([:len [find where list=$AddressList and address=89.46.236.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.46.236.0/24 }
 :if ([:len [find where list=$AddressList and address=89.46.246.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.46.246.0/24 }
 :if ([:len [find where list=$AddressList and address=89.46.62.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=89.46.62.0/24 }
@@ -87,6 +75,7 @@
 :if ([:len [find where list=$AddressList and address=92.112.2.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=92.112.2.0/23 }
 :if ([:len [find where list=$AddressList and address=92.112.214.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=92.112.214.0/24 }
 :if ([:len [find where list=$AddressList and address=92.112.221.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=92.112.221.0/24 }
+:if ([:len [find where list=$AddressList and address=92.112.226.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=92.112.226.0/24 }
 :if ([:len [find where list=$AddressList and address=92.112.234.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=92.112.234.0/24 }
 :if ([:len [find where list=$AddressList and address=92.112.237.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=92.112.237.0/24 }
 :if ([:len [find where list=$AddressList and address=92.112.59.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=92.112.59.0/24 }
@@ -166,6 +155,7 @@
 :if ([:len [find where list=$AddressList and address=93.152.92.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=93.152.92.0/24 }
 :if ([:len [find where list=$AddressList and address=93.177.112.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=93.177.112.0/23 }
 :if ([:len [find where list=$AddressList and address=93.177.72.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=93.177.72.0/22 }
+:if ([:len [find where list=$AddressList and address=93.92.18.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=93.92.18.0/24 }
 :if ([:len [find where list=$AddressList and address=94.154.140.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=94.154.140.0/22 }
 :if ([:len [find where list=$AddressList and address=94.154.171.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=94.154.171.0/24 }
 :if ([:len [find where list=$AddressList and address=94.154.36.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=94.154.36.0/24 }
@@ -180,3 +170,13 @@
 :if ([:len [find where list=$AddressList and address=94.185.172.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.172.0/23 }
 :if ([:len [find where list=$AddressList and address=94.185.180.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.180.0/23 }
 :if ([:len [find where list=$AddressList and address=94.185.186.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.186.0/23 }
+:if ([:len [find where list=$AddressList and address=94.185.192.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.192.0/22 }
+:if ([:len [find where list=$AddressList and address=94.185.196.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.196.0/23 }
+:if ([:len [find where list=$AddressList and address=94.185.200.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.200.0/22 }
+:if ([:len [find where list=$AddressList and address=94.185.204.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.204.0/23 }
+:if ([:len [find where list=$AddressList and address=94.185.214.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.214.0/23 }
+:if ([:len [find where list=$AddressList and address=94.185.216.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.216.0/23 }
+:if ([:len [find where list=$AddressList and address=94.185.220.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.220.0/22 }
+:if ([:len [find where list=$AddressList and address=94.185.230.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.230.0/23 }
+:if ([:len [find where list=$AddressList and address=94.185.232.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=94.185.232.0/23 }
+:if ([:len [find where list=$AddressList and address=94.198.40.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=94.198.40.0/22 }

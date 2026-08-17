@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=63.185.225.49 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.185.225.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
+:if ([:len [/ip/route/find dst-address=63.185.241.184 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.185.241.184 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=63.185.52.216 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.185.52.216 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=63.186.110.139 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.186.110.139 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=63.186.122.108 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=63.186.122.108 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=143.204.194.29]] = 0) do={ add list=$AddressList comment=make.com address=143.204.194.29 }
+:if ([:len [find where list=$AddressList and address=143.204.194.70]] = 0) do={ add list=$AddressList comment=make.com address=143.204.194.70 }
+:if ([:len [find where list=$AddressList and address=143.204.194.95]] = 0) do={ add list=$AddressList comment=make.com address=143.204.194.95 }
+:if ([:len [find where list=$AddressList and address=143.204.215.11]] = 0) do={ add list=$AddressList comment=make.com address=143.204.215.11 }
 :if ([:len [find where list=$AddressList and address=143.204.215.24]] = 0) do={ add list=$AddressList comment=make.com address=143.204.215.24 }
 :if ([:len [find where list=$AddressList and address=143.204.215.4]] = 0) do={ add list=$AddressList comment=make.com address=143.204.215.4 }
 :if ([:len [find where list=$AddressList and address=143.204.215.60]] = 0) do={ add list=$AddressList comment=make.com address=143.204.215.60 }
@@ -92,6 +96,10 @@
 :if ([:len [find where list=$AddressList and address=18.160.10.77]] = 0) do={ add list=$AddressList comment=make.com address=18.160.10.77 }
 :if ([:len [find where list=$AddressList and address=18.160.10.94]] = 0) do={ add list=$AddressList comment=make.com address=18.160.10.94 }
 :if ([:len [find where list=$AddressList and address=18.160.10.96]] = 0) do={ add list=$AddressList comment=make.com address=18.160.10.96 }
+:if ([:len [find where list=$AddressList and address=18.160.213.118]] = 0) do={ add list=$AddressList comment=make.com address=18.160.213.118 }
+:if ([:len [find where list=$AddressList and address=18.160.213.53]] = 0) do={ add list=$AddressList comment=make.com address=18.160.213.53 }
+:if ([:len [find where list=$AddressList and address=18.160.213.55]] = 0) do={ add list=$AddressList comment=make.com address=18.160.213.55 }
+:if ([:len [find where list=$AddressList and address=18.160.213.73]] = 0) do={ add list=$AddressList comment=make.com address=18.160.213.73 }
 :if ([:len [find where list=$AddressList and address=18.161.111.109]] = 0) do={ add list=$AddressList comment=make.com address=18.161.111.109 }
 :if ([:len [find where list=$AddressList and address=18.161.111.117]] = 0) do={ add list=$AddressList comment=make.com address=18.161.111.117 }
 :if ([:len [find where list=$AddressList and address=18.161.111.29]] = 0) do={ add list=$AddressList comment=make.com address=18.161.111.29 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.165.140.36]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.36 }
 :if ([:len [find where list=$AddressList and address=18.165.140.38]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.38 }
 :if ([:len [find where list=$AddressList and address=18.165.140.56]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.56 }
-:if ([:len [find where list=$AddressList and address=18.165.140.72]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.72 }
-:if ([:len [find where list=$AddressList and address=18.165.140.73]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.73 }
-:if ([:len [find where list=$AddressList and address=18.165.140.9]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.9 }
-:if ([:len [find where list=$AddressList and address=18.165.160.105]] = 0) do={ add list=$AddressList comment=make.com address=18.165.160.105 }
-:if ([:len [find where list=$AddressList and address=18.165.160.112]] = 0) do={ add list=$AddressList comment=make.com address=18.165.160.112 }
-:if ([:len [find where list=$AddressList and address=18.165.160.31]] = 0) do={ add list=$AddressList comment=make.com address=18.165.160.31 }
-:if ([:len [find where list=$AddressList and address=18.165.160.45]] = 0) do={ add list=$AddressList comment=make.com address=18.165.160.45 }
-:if ([:len [find where list=$AddressList and address=18.165.160.71]] = 0) do={ add list=$AddressList comment=make.com address=18.165.160.71 }

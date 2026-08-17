@@ -24,7 +24,6 @@
 :if ([:len [find where list=$AddressList and address=172.93.162.0/24]] = 0) do={ add list=$AddressList comment=AS27176 address=172.93.162.0/24 }
 :if ([:len [find where list=$AddressList and address=172.93.180.0/22]] = 0) do={ add list=$AddressList comment=AS27176 address=172.93.180.0/22 }
 :if ([:len [find where list=$AddressList and address=172.93.190.0/23]] = 0) do={ add list=$AddressList comment=AS27176 address=172.93.190.0/23 }
-:if ([:len [find where list=$AddressList and address=172.93.193.0/24]] = 0) do={ add list=$AddressList comment=AS27176 address=172.93.193.0/24 }
 :if ([:len [find where list=$AddressList and address=172.93.212.0/23]] = 0) do={ add list=$AddressList comment=AS27176 address=172.93.212.0/23 }
 :if ([:len [find where list=$AddressList and address=172.93.215.0/24]] = 0) do={ add list=$AddressList comment=AS27176 address=172.93.215.0/24 }
 :if ([:len [find where list=$AddressList and address=173.44.35.0/24]] = 0) do={ add list=$AddressList comment=AS27176 address=173.44.35.0/24 }
@@ -60,6 +59,7 @@
 :if ([:len [find where list=$AddressList and address=64.81.164.0/24]] = 0) do={ add list=$AddressList comment=AS27176 address=64.81.164.0/24 }
 :if ([:len [find where list=$AddressList and address=74.1.100.0/24]] = 0) do={ add list=$AddressList comment=AS27176 address=74.1.100.0/24 }
 :if ([:len [find where list=$AddressList and address=74.1.141.0/24]] = 0) do={ add list=$AddressList comment=AS27176 address=74.1.141.0/24 }
+:if ([:len [find where list=$AddressList and address=78.110.168.0/24]] = 0) do={ add list=$AddressList comment=AS27176 address=78.110.168.0/24 }
 :if ([:len [find where list=$AddressList and address=81.92.219.0/24]] = 0) do={ add list=$AddressList comment=AS27176 address=81.92.219.0/24 }
 :if ([:len [find where list=$AddressList and address=82.21.185.0/24]] = 0) do={ add list=$AddressList comment=AS27176 address=82.21.185.0/24 }
 :if ([:len [find where list=$AddressList and address=84.54.8.0/22]] = 0) do={ add list=$AddressList comment=AS27176 address=84.54.8.0/22 }

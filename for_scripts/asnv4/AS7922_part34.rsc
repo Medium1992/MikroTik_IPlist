@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=66.41.40.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.40.0/23 }
-:if ([:len [find where list=$AddressList and address=66.41.42.0/25]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.42.0/25 }
-:if ([:len [find where list=$AddressList and address=66.41.42.128/26]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.42.128/26 }
-:if ([:len [find where list=$AddressList and address=66.41.42.192/27]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.42.192/27 }
-:if ([:len [find where list=$AddressList and address=66.41.42.224/28]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.42.224/28 }
-:if ([:len [find where list=$AddressList and address=66.41.42.240/29]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.42.240/29 }
-:if ([:len [find where list=$AddressList and address=66.41.42.248/31]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.42.248/31 }
-:if ([:len [find where list=$AddressList and address=66.41.42.250/32]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.42.250/32 }
-:if ([:len [find where list=$AddressList and address=66.41.42.252/30]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.42.252/30 }
-:if ([:len [find where list=$AddressList and address=66.41.43.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.43.0/24 }
-:if ([:len [find where list=$AddressList and address=66.41.44.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.44.0/22 }
 :if ([:len [find where list=$AddressList and address=66.41.48.0/20]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.48.0/20 }
 :if ([:len [find where list=$AddressList and address=66.41.64.0/20]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.64.0/20 }
 :if ([:len [find where list=$AddressList and address=66.41.80.0/27]] = 0) do={ add list=$AddressList comment=AS7922 address=66.41.80.0/27 }
@@ -180,3 +169,14 @@
 :if ([:len [find where list=$AddressList and address=67.162.160.0/19]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.160.0/19 }
 :if ([:len [find where list=$AddressList and address=67.162.192.0/19]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.192.0/19 }
 :if ([:len [find where list=$AddressList and address=67.162.224.0/20]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.224.0/20 }
+:if ([:len [find where list=$AddressList and address=67.162.240.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.240.0/23 }
+:if ([:len [find where list=$AddressList and address=67.162.242.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.242.0/24 }
+:if ([:len [find where list=$AddressList and address=67.162.243.0/27]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.243.0/27 }
+:if ([:len [find where list=$AddressList and address=67.162.243.128/25]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.243.128/25 }
+:if ([:len [find where list=$AddressList and address=67.162.243.32/29]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.243.32/29 }
+:if ([:len [find where list=$AddressList and address=67.162.243.40/31]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.243.40/31 }
+:if ([:len [find where list=$AddressList and address=67.162.243.43/32]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.243.43/32 }
+:if ([:len [find where list=$AddressList and address=67.162.243.44/30]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.243.44/30 }
+:if ([:len [find where list=$AddressList and address=67.162.243.48/28]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.243.48/28 }
+:if ([:len [find where list=$AddressList and address=67.162.243.64/26]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.243.64/26 }
+:if ([:len [find where list=$AddressList and address=67.162.244.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=67.162.244.0/22 }

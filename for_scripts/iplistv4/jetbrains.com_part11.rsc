@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.225.239.33]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.225.239.33 }
+:if ([:len [find where list=$AddressList and address=13.225.239.34]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.225.239.34 }
+:if ([:len [find where list=$AddressList and address=13.225.239.35]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.225.239.35 }
+:if ([:len [find where list=$AddressList and address=13.225.239.37]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.225.239.37 }
 :if ([:len [find where list=$AddressList and address=13.225.239.38]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.225.239.38 }
 :if ([:len [find where list=$AddressList and address=13.225.239.40]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.225.239.40 }
 :if ([:len [find where list=$AddressList and address=13.225.239.42]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.225.239.42 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.226.175.48]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.226.175.48 }
 :if ([:len [find where list=$AddressList and address=13.226.175.49]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.226.175.49 }
 :if ([:len [find where list=$AddressList and address=13.226.175.52]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.226.175.52 }
-:if ([:len [find where list=$AddressList and address=13.226.175.55]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.226.175.55 }
-:if ([:len [find where list=$AddressList and address=13.226.175.56]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.226.175.56 }
-:if ([:len [find where list=$AddressList and address=13.226.175.75]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.226.175.75 }
-:if ([:len [find where list=$AddressList and address=13.226.175.8]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.226.175.8 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.227.146.14]] = 0) do={ add list=$AddressList comment=make.com address=13.227.146.14 }
+:if ([:len [find where list=$AddressList and address=13.227.146.2]] = 0) do={ add list=$AddressList comment=make.com address=13.227.146.2 }
+:if ([:len [find where list=$AddressList and address=13.227.146.27]] = 0) do={ add list=$AddressList comment=make.com address=13.227.146.27 }
+:if ([:len [find where list=$AddressList and address=13.227.146.29]] = 0) do={ add list=$AddressList comment=make.com address=13.227.146.29 }
 :if ([:len [find where list=$AddressList and address=13.227.146.38]] = 0) do={ add list=$AddressList comment=make.com address=13.227.146.38 }
 :if ([:len [find where list=$AddressList and address=13.227.146.44]] = 0) do={ add list=$AddressList comment=make.com address=13.227.146.44 }
 :if ([:len [find where list=$AddressList and address=13.227.146.51]] = 0) do={ add list=$AddressList comment=make.com address=13.227.146.51 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=143.204.160.45]] = 0) do={ add list=$AddressList comment=make.com address=143.204.160.45 }
 :if ([:len [find where list=$AddressList and address=143.204.160.66]] = 0) do={ add list=$AddressList comment=make.com address=143.204.160.66 }
 :if ([:len [find where list=$AddressList and address=143.204.194.111]] = 0) do={ add list=$AddressList comment=make.com address=143.204.194.111 }
-:if ([:len [find where list=$AddressList and address=143.204.194.29]] = 0) do={ add list=$AddressList comment=make.com address=143.204.194.29 }
-:if ([:len [find where list=$AddressList and address=143.204.194.70]] = 0) do={ add list=$AddressList comment=make.com address=143.204.194.70 }
-:if ([:len [find where list=$AddressList and address=143.204.194.95]] = 0) do={ add list=$AddressList comment=make.com address=143.204.194.95 }
-:if ([:len [find where list=$AddressList and address=143.204.215.11]] = 0) do={ add list=$AddressList comment=make.com address=143.204.215.11 }

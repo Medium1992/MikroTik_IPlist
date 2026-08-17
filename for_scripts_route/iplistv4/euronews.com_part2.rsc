@@ -64,6 +64,7 @@
 :if ([:len [/ip/route/find dst-address=54.171.68.161 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.171.68.161 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=54.194.239.229 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.194.239.229 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=54.194.9.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.194.9.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
+:if ([:len [/ip/route/find dst-address=54.216.175.86 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.216.175.86 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=54.217.157.127 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.217.157.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=54.217.192.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.217.192.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=54.217.202.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.217.202.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
@@ -101,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=54.76.89.217 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.76.89.217 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=54.77.33.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.77.33.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
 :if ([:len [/ip/route/find dst-address=54.77.60.167 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.77.60.167 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }
-:if ([:len [/ip/route/find dst-address=54.77.98.216 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.77.98.216 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=euronews.com }

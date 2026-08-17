@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.226.175.90]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.175.90 }
+:if ([:len [find where list=$AddressList and address=13.226.2.36]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.2.36 }
+:if ([:len [find where list=$AddressList and address=13.226.2.5]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.2.5 }
+:if ([:len [find where list=$AddressList and address=13.226.2.64]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.2.64 }
 :if ([:len [find where list=$AddressList and address=13.226.2.78]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.2.78 }
 :if ([:len [find where list=$AddressList and address=13.226.2.82]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.2.82 }
 :if ([:len [find where list=$AddressList and address=13.226.2.84]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.2.84 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.155.107.16]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.107.16 }
 :if ([:len [find where list=$AddressList and address=18.155.107.34]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.107.34 }
 :if ([:len [find where list=$AddressList and address=18.155.107.63]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.107.63 }
-:if ([:len [find where list=$AddressList and address=18.155.107.71]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.107.71 }
-:if ([:len [find where list=$AddressList and address=18.155.173.16]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.173.16 }
-:if ([:len [find where list=$AddressList and address=18.155.173.32]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.173.32 }
-:if ([:len [find where list=$AddressList and address=18.155.173.55]] = 0) do={ add list=$AddressList comment=krymr.com address=18.155.173.55 }

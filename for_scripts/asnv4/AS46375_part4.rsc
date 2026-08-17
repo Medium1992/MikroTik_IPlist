@@ -5,7 +5,13 @@
 :if ([:len [find where list=$AddressList and address=23.93.231.62/31]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.231.62/31 }
 :if ([:len [find where list=$AddressList and address=23.93.231.64/26]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.231.64/26 }
 :if ([:len [find where list=$AddressList and address=23.93.232.0/27]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.0/27 }
-:if ([:len [find where list=$AddressList and address=23.93.232.128/25]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.128/25 }
+:if ([:len [find where list=$AddressList and address=23.93.232.128/27]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.128/27 }
+:if ([:len [find where list=$AddressList and address=23.93.232.160/28]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.160/28 }
+:if ([:len [find where list=$AddressList and address=23.93.232.176/30]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.176/30 }
+:if ([:len [find where list=$AddressList and address=23.93.232.180/31]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.180/31 }
+:if ([:len [find where list=$AddressList and address=23.93.232.183/32]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.183/32 }
+:if ([:len [find where list=$AddressList and address=23.93.232.184/29]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.184/29 }
+:if ([:len [find where list=$AddressList and address=23.93.232.192/26]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.192/26 }
 :if ([:len [find where list=$AddressList and address=23.93.232.32/28]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.32/28 }
 :if ([:len [find where list=$AddressList and address=23.93.232.48/29]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.48/29 }
 :if ([:len [find where list=$AddressList and address=23.93.232.56/30]] = 0) do={ add list=$AddressList comment=AS46375 address=23.93.232.56/30 }

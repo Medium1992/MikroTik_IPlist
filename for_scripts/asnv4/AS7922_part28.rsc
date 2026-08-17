@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=50.223.83.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.223.83.0/24 }
-:if ([:len [find where list=$AddressList and address=50.223.84.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.223.84.0/22 }
-:if ([:len [find where list=$AddressList and address=50.223.88.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.223.88.0/21 }
-:if ([:len [find where list=$AddressList and address=50.223.96.0/19]] = 0) do={ add list=$AddressList comment=AS7922 address=50.223.96.0/19 }
-:if ([:len [find where list=$AddressList and address=50.224.0.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.224.0.0/23 }
-:if ([:len [find where list=$AddressList and address=50.224.10.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.224.10.0/24 }
-:if ([:len [find where list=$AddressList and address=50.224.104.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.224.104.0/24 }
-:if ([:len [find where list=$AddressList and address=50.224.106.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.224.106.0/23 }
-:if ([:len [find where list=$AddressList and address=50.224.108.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.224.108.0/22 }
-:if ([:len [find where list=$AddressList and address=50.224.112.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.224.112.0/21 }
-:if ([:len [find where list=$AddressList and address=50.224.12.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.224.12.0/22 }
 :if ([:len [find where list=$AddressList and address=50.224.121.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.224.121.0/24 }
 :if ([:len [find where list=$AddressList and address=50.224.122.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.224.122.0/23 }
 :if ([:len [find where list=$AddressList and address=50.224.124.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.224.124.0/23 }
@@ -180,3 +169,14 @@
 :if ([:len [find where list=$AddressList and address=50.226.64.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.226.64.0/22 }
 :if ([:len [find where list=$AddressList and address=50.226.68.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.226.68.0/23 }
 :if ([:len [find where list=$AddressList and address=50.226.71.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.226.71.0/24 }
+:if ([:len [find where list=$AddressList and address=50.226.72.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.226.72.0/22 }
+:if ([:len [find where list=$AddressList and address=50.226.78.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.226.78.0/23 }
+:if ([:len [find where list=$AddressList and address=50.226.8.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.226.8.0/21 }
+:if ([:len [find where list=$AddressList and address=50.226.80.0/20]] = 0) do={ add list=$AddressList comment=AS7922 address=50.226.80.0/20 }
+:if ([:len [find where list=$AddressList and address=50.226.97.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.226.97.0/24 }
+:if ([:len [find where list=$AddressList and address=50.226.99.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.226.99.0/24 }
+:if ([:len [find where list=$AddressList and address=50.227.0.0/20]] = 0) do={ add list=$AddressList comment=AS7922 address=50.227.0.0/20 }
+:if ([:len [find where list=$AddressList and address=50.227.100.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.227.100.0/22 }
+:if ([:len [find where list=$AddressList and address=50.227.105.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.227.105.0/24 }
+:if ([:len [find where list=$AddressList and address=50.227.106.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.227.106.0/23 }
+:if ([:len [find where list=$AddressList and address=50.227.108.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.227.108.0/23 }

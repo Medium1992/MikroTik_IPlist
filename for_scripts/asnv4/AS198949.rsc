@@ -81,7 +81,6 @@
 :if ([:len [find where list=$AddressList and address=199.65.208.0/21]] = 0) do={ add list=$AddressList comment=AS198949 address=199.65.208.0/21 }
 :if ([:len [find where list=$AddressList and address=200.0.63.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=200.0.63.0/24 }
 :if ([:len [find where list=$AddressList and address=200.10.209.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=200.10.209.0/24 }
-:if ([:len [find where list=$AddressList and address=201.55.65.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=201.55.65.0/24 }
 :if ([:len [find where list=$AddressList and address=203.25.136.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=203.25.136.0/24 }
 :if ([:len [find where list=$AddressList and address=203.96.100.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=203.96.100.0/24 }
 :if ([:len [find where list=$AddressList and address=208.88.12.0/22]] = 0) do={ add list=$AddressList comment=AS198949 address=208.88.12.0/22 }
@@ -115,7 +114,6 @@
 :if ([:len [find where list=$AddressList and address=66.22.120.0/21]] = 0) do={ add list=$AddressList comment=AS198949 address=66.22.120.0/21 }
 :if ([:len [find where list=$AddressList and address=66.22.41.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=66.22.41.0/24 }
 :if ([:len [find where list=$AddressList and address=66.22.47.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=66.22.47.0/24 }
-:if ([:len [find where list=$AddressList and address=66.22.70.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=66.22.70.0/24 }
 :if ([:len [find where list=$AddressList and address=66.22.87.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=66.22.87.0/24 }
 :if ([:len [find where list=$AddressList and address=66.33.88.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=66.33.88.0/24 }
 :if ([:len [find where list=$AddressList and address=66.6.19.0/24]] = 0) do={ add list=$AddressList comment=AS198949 address=66.6.19.0/24 }

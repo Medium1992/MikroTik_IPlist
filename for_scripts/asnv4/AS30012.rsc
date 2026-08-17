@@ -15,7 +15,6 @@
 :if ([:len [find where list=$AddressList and address=167.167.16.0/23]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.16.0/23 }
 :if ([:len [find where list=$AddressList and address=167.167.161.0/24]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.161.0/24 }
 :if ([:len [find where list=$AddressList and address=167.167.162.0/23]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.162.0/23 }
-:if ([:len [find where list=$AddressList and address=167.167.167.0/24]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.167.0/24 }
 :if ([:len [find where list=$AddressList and address=167.167.170.0/24]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.170.0/24 }
 :if ([:len [find where list=$AddressList and address=167.167.175.0/24]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.175.0/24 }
 :if ([:len [find where list=$AddressList and address=167.167.183.0/24]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.183.0/24 }
@@ -35,6 +34,7 @@
 :if ([:len [find where list=$AddressList and address=167.167.46.0/24]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.46.0/24 }
 :if ([:len [find where list=$AddressList and address=167.167.54.0/24]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.54.0/24 }
 :if ([:len [find where list=$AddressList and address=167.167.67.0/24]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.67.0/24 }
+:if ([:len [find where list=$AddressList and address=167.167.68.0/23]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.68.0/23 }
 :if ([:len [find where list=$AddressList and address=167.167.73.0/24]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.73.0/24 }
 :if ([:len [find where list=$AddressList and address=167.167.78.0/24]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.78.0/24 }
 :if ([:len [find where list=$AddressList and address=167.167.8.0/21]] = 0) do={ add list=$AddressList comment=AS30012 address=167.167.8.0/21 }

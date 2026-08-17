@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=95.100.248.224]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.248.224 }
+:if ([:len [find where list=$AddressList and address=95.100.248.32]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.248.32 }
+:if ([:len [find where list=$AddressList and address=95.100.248.41]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.248.41 }
+:if ([:len [find where list=$AddressList and address=95.100.248.54]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.248.54 }
 :if ([:len [find where list=$AddressList and address=95.100.252.104]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.252.104 }
 :if ([:len [find where list=$AddressList and address=95.100.252.144]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.252.144 }
 :if ([:len [find where list=$AddressList and address=95.100.252.152]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.252.152 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=98.87.144.66]] = 0) do={ add list=$AddressList comment=whoop.com address=98.87.144.66 }
 :if ([:len [find where list=$AddressList and address=98.88.97.57]] = 0) do={ add list=$AddressList comment=whoop.com address=98.88.97.57 }
 :if ([:len [find where list=$AddressList and address=98.89.107.126]] = 0) do={ add list=$AddressList comment=whoop.com address=98.89.107.126 }
-:if ([:len [find where list=$AddressList and address=98.89.145.214]] = 0) do={ add list=$AddressList comment=whoop.com address=98.89.145.214 }
-:if ([:len [find where list=$AddressList and address=98.90.146.83]] = 0) do={ add list=$AddressList comment=whoop.com address=98.90.146.83 }
-:if ([:len [find where list=$AddressList and address=98.90.227.157]] = 0) do={ add list=$AddressList comment=whoop.com address=98.90.227.157 }
-:if ([:len [find where list=$AddressList and address=98.91.37.63]] = 0) do={ add list=$AddressList comment=whoop.com address=98.91.37.63 }

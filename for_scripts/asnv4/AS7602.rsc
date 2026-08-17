@@ -1,15 +1,11 @@
 :global AddressList
 /ip firewall address-list
 :if ([:len [find where list=$AddressList and address=103.200.60.0/22]] = 0) do={ add list=$AddressList comment=AS7602 address=103.200.60.0/22 }
-:if ([:len [find where list=$AddressList and address=116.118.0.0/23]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.0.0/23 }
-:if ([:len [find where list=$AddressList and address=116.118.16.0/20]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.16.0/20 }
-:if ([:len [find where list=$AddressList and address=116.118.2.0/24]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.2.0/24 }
+:if ([:len [find where list=$AddressList and address=116.118.0.0/19]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.0.0/19 }
 :if ([:len [find where list=$AddressList and address=116.118.32.0/21]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.32.0/21 }
-:if ([:len [find where list=$AddressList and address=116.118.4.0/22]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.4.0/22 }
 :if ([:len [find where list=$AddressList and address=116.118.40.0/22]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.40.0/22 }
 :if ([:len [find where list=$AddressList and address=116.118.52.0/22]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.52.0/22 }
 :if ([:len [find where list=$AddressList and address=116.118.72.0/21]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.72.0/21 }
-:if ([:len [find where list=$AddressList and address=116.118.8.0/21]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.8.0/21 }
 :if ([:len [find where list=$AddressList and address=116.118.80.0/21]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.80.0/21 }
 :if ([:len [find where list=$AddressList and address=116.118.96.0/19]] = 0) do={ add list=$AddressList comment=AS7602 address=116.118.96.0/19 }
 :if ([:len [find where list=$AddressList and address=180.93.0.0/20]] = 0) do={ add list=$AddressList comment=AS7602 address=180.93.0.0/20 }

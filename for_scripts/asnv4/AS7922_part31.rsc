@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=50.233.145.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.145.0/24 }
-:if ([:len [find where list=$AddressList and address=50.233.146.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.146.0/23 }
-:if ([:len [find where list=$AddressList and address=50.233.148.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.148.0/22 }
-:if ([:len [find where list=$AddressList and address=50.233.152.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.152.0/21 }
-:if ([:len [find where list=$AddressList and address=50.233.161.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.161.0/24 }
-:if ([:len [find where list=$AddressList and address=50.233.162.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.162.0/23 }
-:if ([:len [find where list=$AddressList and address=50.233.164.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.164.0/22 }
-:if ([:len [find where list=$AddressList and address=50.233.168.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.168.0/23 }
-:if ([:len [find where list=$AddressList and address=50.233.170.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.170.0/24 }
-:if ([:len [find where list=$AddressList and address=50.233.172.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.172.0/22 }
-:if ([:len [find where list=$AddressList and address=50.233.176.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.176.0/23 }
 :if ([:len [find where list=$AddressList and address=50.233.178.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.178.0/24 }
 :if ([:len [find where list=$AddressList and address=50.233.180.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.180.0/22 }
 :if ([:len [find where list=$AddressList and address=50.233.184.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.233.184.0/22 }
@@ -180,3 +169,14 @@
 :if ([:len [find where list=$AddressList and address=50.235.64.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.235.64.0/23 }
 :if ([:len [find where list=$AddressList and address=50.235.66.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.235.66.0/24 }
 :if ([:len [find where list=$AddressList and address=50.235.68.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.235.68.0/22 }
+:if ([:len [find where list=$AddressList and address=50.235.72.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.235.72.0/21 }
+:if ([:len [find where list=$AddressList and address=50.235.8.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.235.8.0/22 }
+:if ([:len [find where list=$AddressList and address=50.235.80.0/20]] = 0) do={ add list=$AddressList comment=AS7922 address=50.235.80.0/20 }
+:if ([:len [find where list=$AddressList and address=50.235.96.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.235.96.0/23 }
+:if ([:len [find where list=$AddressList and address=50.235.99.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.235.99.0/24 }
+:if ([:len [find where list=$AddressList and address=50.236.0.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.236.0.0/21 }
+:if ([:len [find where list=$AddressList and address=50.236.10.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.236.10.0/24 }
+:if ([:len [find where list=$AddressList and address=50.236.100.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.236.100.0/22 }
+:if ([:len [find where list=$AddressList and address=50.236.104.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.236.104.0/22 }
+:if ([:len [find where list=$AddressList and address=50.236.109.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.236.109.0/24 }
+:if ([:len [find where list=$AddressList and address=50.236.111.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.236.111.0/24 }

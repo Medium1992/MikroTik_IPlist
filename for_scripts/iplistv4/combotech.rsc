@@ -66,6 +66,10 @@
 :if ([:len [find where list=$AddressList and address=154.197.65.171]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.171 }
 :if ([:len [find where list=$AddressList and address=154.197.65.172]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.172 }
 :if ([:len [find where list=$AddressList and address=154.197.65.173]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.173 }
+:if ([:len [find where list=$AddressList and address=154.197.65.174]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.174 }
+:if ([:len [find where list=$AddressList and address=154.197.65.175]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.175 }
+:if ([:len [find where list=$AddressList and address=154.197.65.176]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.176 }
+:if ([:len [find where list=$AddressList and address=154.197.65.177]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.177 }
 :if ([:len [find where list=$AddressList and address=154.197.65.87]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.87 }
 :if ([:len [find where list=$AddressList and address=154.197.65.88]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.88 }
 :if ([:len [find where list=$AddressList and address=154.197.65.89]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.89 }

@@ -20,3 +20,4 @@
 :if ([:len [find where list=$AddressList and address=209.102.207.0/24]] = 0) do={ add list=$AddressList comment=AS30219 address=209.102.207.0/24 }
 :if ([:len [find where list=$AddressList and address=209.102.213.0/24]] = 0) do={ add list=$AddressList comment=AS30219 address=209.102.213.0/24 }
 :if ([:len [find where list=$AddressList and address=209.133.61.0/24]] = 0) do={ add list=$AddressList comment=AS30219 address=209.133.61.0/24 }
+:if ([:len [find where list=$AddressList and address=209.249.55.0/24]] = 0) do={ add list=$AddressList comment=AS30219 address=209.249.55.0/24 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=34.192.29.29]] = 0) do={ add list=$AddressList comment=tidal.com address=34.192.29.29 }
+:if ([:len [find where list=$AddressList and address=34.193.190.167]] = 0) do={ add list=$AddressList comment=tidal.com address=34.193.190.167 }
+:if ([:len [find where list=$AddressList and address=34.194.238.30]] = 0) do={ add list=$AddressList comment=tidal.com address=34.194.238.30 }
+:if ([:len [find where list=$AddressList and address=34.196.168.142]] = 0) do={ add list=$AddressList comment=tidal.com address=34.196.168.142 }
 :if ([:len [find where list=$AddressList and address=34.196.254.7]] = 0) do={ add list=$AddressList comment=tidal.com address=34.196.254.7 }
 :if ([:len [find where list=$AddressList and address=34.198.188.178]] = 0) do={ add list=$AddressList comment=tidal.com address=34.198.188.178 }
 :if ([:len [find where list=$AddressList and address=34.198.248.149]] = 0) do={ add list=$AddressList comment=tidal.com address=34.198.248.149 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.84.45.7]] = 0) do={ add list=$AddressList comment=tidal.com address=52.84.45.7 }
 :if ([:len [find where list=$AddressList and address=52.84.45.81]] = 0) do={ add list=$AddressList comment=tidal.com address=52.84.45.81 }
 :if ([:len [find where list=$AddressList and address=52.84.45.95]] = 0) do={ add list=$AddressList comment=tidal.com address=52.84.45.95 }
-:if ([:len [find where list=$AddressList and address=52.84.47.251]] = 0) do={ add list=$AddressList comment=tidal.com address=52.84.47.251 }
-:if ([:len [find where list=$AddressList and address=52.84.50.120]] = 0) do={ add list=$AddressList comment=tidal.com address=52.84.50.120 }
-:if ([:len [find where list=$AddressList and address=52.84.50.123]] = 0) do={ add list=$AddressList comment=tidal.com address=52.84.50.123 }
-:if ([:len [find where list=$AddressList and address=52.84.50.22]] = 0) do={ add list=$AddressList comment=tidal.com address=52.84.50.22 }

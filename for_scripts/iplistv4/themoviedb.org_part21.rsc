@@ -1,5 +1,29 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=99.86.171.38]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.171.38 }
+:if ([:len [find where list=$AddressList and address=99.86.171.39]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.171.39 }
+:if ([:len [find where list=$AddressList and address=99.86.171.42]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.171.42 }
+:if ([:len [find where list=$AddressList and address=99.86.171.46]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.171.46 }
+:if ([:len [find where list=$AddressList and address=99.86.171.5]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.171.5 }
+:if ([:len [find where list=$AddressList and address=99.86.171.64]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.171.64 }
+:if ([:len [find where list=$AddressList and address=99.86.171.67]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.171.67 }
+:if ([:len [find where list=$AddressList and address=99.86.171.77]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.171.77 }
+:if ([:len [find where list=$AddressList and address=99.86.171.79]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.171.79 }
+:if ([:len [find where list=$AddressList and address=99.86.171.97]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.171.97 }
+:if ([:len [find where list=$AddressList and address=99.86.20.108]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.20.108 }
+:if ([:len [find where list=$AddressList and address=99.86.20.14]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.20.14 }
+:if ([:len [find where list=$AddressList and address=99.86.20.87]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.20.87 }
+:if ([:len [find where list=$AddressList and address=99.86.20.99]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.20.99 }
+:if ([:len [find where list=$AddressList and address=99.86.240.11]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.11 }
+:if ([:len [find where list=$AddressList and address=99.86.240.118]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.118 }
+:if ([:len [find where list=$AddressList and address=99.86.240.12]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.12 }
+:if ([:len [find where list=$AddressList and address=99.86.240.123]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.123 }
+:if ([:len [find where list=$AddressList and address=99.86.240.129]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.129 }
+:if ([:len [find where list=$AddressList and address=99.86.240.27]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.27 }
+:if ([:len [find where list=$AddressList and address=99.86.240.28]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.28 }
+:if ([:len [find where list=$AddressList and address=99.86.240.35]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.35 }
+:if ([:len [find where list=$AddressList and address=99.86.240.38]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.38 }
+:if ([:len [find where list=$AddressList and address=99.86.240.39]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.39 }
 :if ([:len [find where list=$AddressList and address=99.86.240.50]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.50 }
 :if ([:len [find where list=$AddressList and address=99.86.240.54]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.54 }
 :if ([:len [find where list=$AddressList and address=99.86.240.6]] = 0) do={ add list=$AddressList comment=themoviedb.org address=99.86.240.6 }

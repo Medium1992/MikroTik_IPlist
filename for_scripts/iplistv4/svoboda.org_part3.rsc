@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.226.144.39]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.226.144.39 }
+:if ([:len [find where list=$AddressList and address=13.226.144.70]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.226.144.70 }
 :if ([:len [find where list=$AddressList and address=13.226.144.91]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.226.144.91 }
 :if ([:len [find where list=$AddressList and address=13.226.175.101]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.226.175.101 }
 :if ([:len [find where list=$AddressList and address=13.226.175.4]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.226.175.4 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=173.222.106.174]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.174 }
 :if ([:len [find where list=$AddressList and address=173.222.106.175]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.175 }
 :if ([:len [find where list=$AddressList and address=173.222.106.176]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.176 }
-:if ([:len [find where list=$AddressList and address=173.222.106.177]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.177 }
-:if ([:len [find where list=$AddressList and address=173.222.106.178]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.178 }

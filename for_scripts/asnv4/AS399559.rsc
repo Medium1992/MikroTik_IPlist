@@ -71,13 +71,6 @@
 :if ([:len [find where list=$AddressList and address=216.51.235.0/24]] = 0) do={ add list=$AddressList comment=AS399559 address=216.51.235.0/24 }
 :if ([:len [find where list=$AddressList and address=67.55.135.0/24]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.135.0/24 }
 :if ([:len [find where list=$AddressList and address=67.55.232.0/24]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.232.0/24 }
-:if ([:len [find where list=$AddressList and address=67.55.255.0/25]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.255.0/25 }
-:if ([:len [find where list=$AddressList and address=67.55.255.128/28]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.255.128/28 }
-:if ([:len [find where list=$AddressList and address=67.55.255.144/29]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.255.144/29 }
-:if ([:len [find where list=$AddressList and address=67.55.255.153/32]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.255.153/32 }
-:if ([:len [find where list=$AddressList and address=67.55.255.154/31]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.255.154/31 }
-:if ([:len [find where list=$AddressList and address=67.55.255.156/30]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.255.156/30 }
-:if ([:len [find where list=$AddressList and address=67.55.255.160/27]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.255.160/27 }
-:if ([:len [find where list=$AddressList and address=67.55.255.192/26]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.255.192/26 }
+:if ([:len [find where list=$AddressList and address=67.55.255.0/24]] = 0) do={ add list=$AddressList comment=AS399559 address=67.55.255.0/24 }
 :if ([:len [find where list=$AddressList and address=69.63.18.0/23]] = 0) do={ add list=$AddressList comment=AS399559 address=69.63.18.0/23 }
 :if ([:len [find where list=$AddressList and address=70.39.24.0/23]] = 0) do={ add list=$AddressList comment=AS399559 address=70.39.24.0/23 }

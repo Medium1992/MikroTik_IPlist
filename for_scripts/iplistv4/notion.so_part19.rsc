@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.218.235.9]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.235.9 }
 :if ([:len [find where list=$AddressList and address=52.218.236.1]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.236.1 }
 :if ([:len [find where list=$AddressList and address=52.218.236.105]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.236.105 }
 :if ([:len [find where list=$AddressList and address=52.218.236.113]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.236.113 }
@@ -179,4 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.218.250.129]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.250.129 }
 :if ([:len [find where list=$AddressList and address=52.218.250.137]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.250.137 }
 :if ([:len [find where list=$AddressList and address=52.218.250.145]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.250.145 }
-:if ([:len [find where list=$AddressList and address=52.218.250.153]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.250.153 }

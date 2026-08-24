@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.206.18]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.206.18 }
+:if ([:len [find where list=$AddressList and address=3.164.206.62]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.206.62 }
+:if ([:len [find where list=$AddressList and address=3.164.206.81]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.206.81 }
+:if ([:len [find where list=$AddressList and address=3.164.230.46]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.230.46 }
+:if ([:len [find where list=$AddressList and address=3.164.230.58]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.230.58 }
+:if ([:len [find where list=$AddressList and address=3.164.230.92]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.230.92 }
+:if ([:len [find where list=$AddressList and address=3.164.230.97]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.230.97 }
+:if ([:len [find where list=$AddressList and address=3.164.240.120]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.240.120 }
+:if ([:len [find where list=$AddressList and address=3.164.240.27]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.240.27 }
+:if ([:len [find where list=$AddressList and address=3.164.240.40]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.240.40 }
+:if ([:len [find where list=$AddressList and address=3.164.240.71]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.240.71 }
+:if ([:len [find where list=$AddressList and address=3.165.160.3]] = 0) do={ add list=$AddressList comment=discord.com address=3.165.160.3 }
+:if ([:len [find where list=$AddressList and address=3.165.160.31]] = 0) do={ add list=$AddressList comment=discord.com address=3.165.160.31 }
 :if ([:len [find where list=$AddressList and address=3.165.160.73]] = 0) do={ add list=$AddressList comment=discord.com address=3.165.160.73 }
 :if ([:len [find where list=$AddressList and address=3.165.160.88]] = 0) do={ add list=$AddressList comment=discord.com address=3.165.160.88 }
 :if ([:len [find where list=$AddressList and address=3.165.206.75]] = 0) do={ add list=$AddressList comment=discord.com address=3.165.206.75 }
@@ -139,6 +152,8 @@
 :if ([:len [find where list=$AddressList and address=64.233.163.207]] = 0) do={ add list=$AddressList comment=discord.com address=64.233.163.207 }
 :if ([:len [find where list=$AddressList and address=64.233.164.207]] = 0) do={ add list=$AddressList comment=discord.com address=64.233.164.207 }
 :if ([:len [find where list=$AddressList and address=64.233.165.207]] = 0) do={ add list=$AddressList comment=discord.com address=64.233.165.207 }
+:if ([:len [find where list=$AddressList and address=64.31.3.226]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.226 }
+:if ([:len [find where list=$AddressList and address=64.31.3.227]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.227 }
 :if ([:len [find where list=$AddressList and address=64.31.3.229]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.229 }
 :if ([:len [find where list=$AddressList and address=64.31.3.230]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.230 }
 :if ([:len [find where list=$AddressList and address=64.31.3.234]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.234 }
@@ -165,18 +180,3 @@
 :if ([:len [find where list=$AddressList and address=69.162.80.54]] = 0) do={ add list=$AddressList comment=discord.com address=69.162.80.54 }
 :if ([:len [find where list=$AddressList and address=69.162.80.61]] = 0) do={ add list=$AddressList comment=discord.com address=69.162.80.61 }
 :if ([:len [find where list=$AddressList and address=69.162.95.2]] = 0) do={ add list=$AddressList comment=discord.com address=69.162.95.2 }
-:if ([:len [find where list=$AddressList and address=69.162.95.3]] = 0) do={ add list=$AddressList comment=discord.com address=69.162.95.3 }
-:if ([:len [find where list=$AddressList and address=69.162.95.4]] = 0) do={ add list=$AddressList comment=discord.com address=69.162.95.4 }
-:if ([:len [find where list=$AddressList and address=69.162.95.5]] = 0) do={ add list=$AddressList comment=discord.com address=69.162.95.5 }
-:if ([:len [find where list=$AddressList and address=69.162.95.6]] = 0) do={ add list=$AddressList comment=discord.com address=69.162.95.6 }
-:if ([:len [find where list=$AddressList and address=70.32.1.32]] = 0) do={ add list=$AddressList comment=discord.com address=70.32.1.32 }
-:if ([:len [find where list=$AddressList and address=74.125.131.207]] = 0) do={ add list=$AddressList comment=discord.com address=74.125.131.207 }
-:if ([:len [find where list=$AddressList and address=74.125.205.207]] = 0) do={ add list=$AddressList comment=discord.com address=74.125.205.207 }
-:if ([:len [find where list=$AddressList and address=74.125.29.207]] = 0) do={ add list=$AddressList comment=discord.com address=74.125.29.207 }
-:if ([:len [find where list=$AddressList and address=74.63.241.19]] = 0) do={ add list=$AddressList comment=discord.com address=74.63.241.19 }
-:if ([:len [find where list=$AddressList and address=74.63.241.20]] = 0) do={ add list=$AddressList comment=discord.com address=74.63.241.20 }
-:if ([:len [find where list=$AddressList and address=74.63.241.21]] = 0) do={ add list=$AddressList comment=discord.com address=74.63.241.21 }
-:if ([:len [find where list=$AddressList and address=74.63.241.22]] = 0) do={ add list=$AddressList comment=discord.com address=74.63.241.22 }
-:if ([:len [find where list=$AddressList and address=74.63.241.23]] = 0) do={ add list=$AddressList comment=discord.com address=74.63.241.23 }
-:if ([:len [find where list=$AddressList and address=74.63.241.24]] = 0) do={ add list=$AddressList comment=discord.com address=74.63.241.24 }
-:if ([:len [find where list=$AddressList and address=74.63.241.25]] = 0) do={ add list=$AddressList comment=discord.com address=74.63.241.25 }

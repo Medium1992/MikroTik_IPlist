@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=2.18.190.214 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.190.214 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
+:if ([:len [/ip/route/find dst-address=2.18.190.218 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.190.218 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
+:if ([:len [/ip/route/find dst-address=2.18.24.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.24.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
+:if ([:len [/ip/route/find dst-address=2.18.24.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.24.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
+:if ([:len [/ip/route/find dst-address=2.18.24.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.24.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
+:if ([:len [/ip/route/find dst-address=2.18.244.219 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.244.219 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.18.244.227 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.244.227 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.18.31.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.31.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.18.31.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.31.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=2.19.126.201 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.201 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.19.126.202 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.202 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.19.126.204 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.204 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.212 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.212 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.215 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.215 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.216 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.216 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.225 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.225 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }

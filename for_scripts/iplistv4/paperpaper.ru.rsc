@@ -6,11 +6,13 @@
 :if ([:len [find where list=$AddressList and address=172.67.162.191]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=172.67.162.191 }
 :if ([:len [find where list=$AddressList and address=172.67.75.189]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=172.67.75.189 }
 :if ([:len [find where list=$AddressList and address=185.215.4.19]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=185.215.4.19 }
+:if ([:len [find where list=$AddressList and address=188.114.96.0]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.0 }
 :if ([:len [find where list=$AddressList and address=188.114.96.10]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.10 }
 :if ([:len [find where list=$AddressList and address=188.114.96.12]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.12 }
 :if ([:len [find where list=$AddressList and address=188.114.96.2]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.2 }
 :if ([:len [find where list=$AddressList and address=188.114.96.3]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.3 }
 :if ([:len [find where list=$AddressList and address=188.114.96.4]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.4 }
+:if ([:len [find where list=$AddressList and address=188.114.97.0]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.0 }
 :if ([:len [find where list=$AddressList and address=188.114.97.10]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.10 }
 :if ([:len [find where list=$AddressList and address=188.114.97.12]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.12 }
 :if ([:len [find where list=$AddressList and address=188.114.97.2]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.2 }

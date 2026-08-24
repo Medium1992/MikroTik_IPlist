@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=108.167.168.0/22]] = 0) do={ add list=$AddressList comment=br address=108.167.168.0/22 }
-:if ([:len [find where list=$AddressList and address=108.167.188.0/23]] = 0) do={ add list=$AddressList comment=br address=108.167.188.0/23 }
-:if ([:len [find where list=$AddressList and address=108.174.144.0/21]] = 0) do={ add list=$AddressList comment=br address=108.174.144.0/21 }
-:if ([:len [find where list=$AddressList and address=108.179.192.0/23]] = 0) do={ add list=$AddressList comment=br address=108.179.192.0/23 }
 :if ([:len [find where list=$AddressList and address=108.179.240.0/23]] = 0) do={ add list=$AddressList comment=br address=108.179.240.0/23 }
 :if ([:len [find where list=$AddressList and address=108.179.252.0/23]] = 0) do={ add list=$AddressList comment=br address=108.179.252.0/23 }
 :if ([:len [find where list=$AddressList and address=108.181.136.0/22]] = 0) do={ add list=$AddressList comment=br address=108.181.136.0/22 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=130.41.189.64/26]] = 0) do={ add list=$AddressList comment=br address=130.41.189.64/26 }
 :if ([:len [find where list=$AddressList and address=130.41.213.0/25]] = 0) do={ add list=$AddressList comment=br address=130.41.213.0/25 }
 :if ([:len [find where list=$AddressList and address=130.41.68.64/26]] = 0) do={ add list=$AddressList comment=br address=130.41.68.64/26 }
+:if ([:len [find where list=$AddressList and address=130.41.69.128/26]] = 0) do={ add list=$AddressList comment=br address=130.41.69.128/26 }
+:if ([:len [find where list=$AddressList and address=130.41.69.192/27]] = 0) do={ add list=$AddressList comment=br address=130.41.69.192/27 }
+:if ([:len [find where list=$AddressList and address=130.41.92.0/24]] = 0) do={ add list=$AddressList comment=br address=130.41.92.0/24 }
+:if ([:len [find where list=$AddressList and address=130.44.203.0/24]] = 0) do={ add list=$AddressList comment=br address=130.44.203.0/24 }

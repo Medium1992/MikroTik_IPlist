@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.65.39.77]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.39.77 }
+:if ([:len [find where list=$AddressList and address=18.65.39.90]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.39.90 }
+:if ([:len [find where list=$AddressList and address=18.65.39.94]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.39.94 }
+:if ([:len [find where list=$AddressList and address=18.65.82.10]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.82.10 }
+:if ([:len [find where list=$AddressList and address=18.65.82.100]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.82.100 }
+:if ([:len [find where list=$AddressList and address=18.65.82.105]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.82.105 }
+:if ([:len [find where list=$AddressList and address=18.65.82.107]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.82.107 }
+:if ([:len [find where list=$AddressList and address=18.65.82.11]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.82.11 }
+:if ([:len [find where list=$AddressList and address=18.65.82.119]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.82.119 }
+:if ([:len [find where list=$AddressList and address=18.65.82.121]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.82.121 }
 :if ([:len [find where list=$AddressList and address=18.65.82.13]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.82.13 }
 :if ([:len [find where list=$AddressList and address=18.65.82.16]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.82.16 }
 :if ([:len [find where list=$AddressList and address=18.65.82.2]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.65.82.2 }
@@ -170,13 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.66.27.22]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.22 }
 :if ([:len [find where list=$AddressList and address=18.66.27.3]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.3 }
 :if ([:len [find where list=$AddressList and address=18.66.27.31]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.31 }
-:if ([:len [find where list=$AddressList and address=18.66.27.34]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.34 }
-:if ([:len [find where list=$AddressList and address=18.66.27.35]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.35 }
-:if ([:len [find where list=$AddressList and address=18.66.27.44]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.44 }
-:if ([:len [find where list=$AddressList and address=18.66.27.68]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.68 }
-:if ([:len [find where list=$AddressList and address=18.66.27.69]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.69 }
-:if ([:len [find where list=$AddressList and address=18.66.27.72]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.72 }
-:if ([:len [find where list=$AddressList and address=18.66.27.74]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.74 }
-:if ([:len [find where list=$AddressList and address=18.66.27.91]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.91 }
-:if ([:len [find where list=$AddressList and address=18.66.27.96]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.66.27.96 }
-:if ([:len [find where list=$AddressList and address=18.67.13.10]] = 0) do={ add list=$AddressList comment=duolingo.com address=18.67.13.10 }

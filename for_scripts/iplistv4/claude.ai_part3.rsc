@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=108.158.137.19]] = 0) do={ add list=$AddressList comment=claude.ai address=108.158.137.19 }
+:if ([:len [find where list=$AddressList and address=108.158.137.22]] = 0) do={ add list=$AddressList comment=claude.ai address=108.158.137.22 }
+:if ([:len [find where list=$AddressList and address=108.158.137.25]] = 0) do={ add list=$AddressList comment=claude.ai address=108.158.137.25 }
+:if ([:len [find where list=$AddressList and address=108.158.137.30]] = 0) do={ add list=$AddressList comment=claude.ai address=108.158.137.30 }
 :if ([:len [find where list=$AddressList and address=108.158.137.53]] = 0) do={ add list=$AddressList comment=claude.ai address=108.158.137.53 }
 :if ([:len [find where list=$AddressList and address=108.158.137.74]] = 0) do={ add list=$AddressList comment=claude.ai address=108.158.137.74 }
 :if ([:len [find where list=$AddressList and address=108.177.14.121]] = 0) do={ add list=$AddressList comment=claude.ai address=108.177.14.121 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.226.244.17]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.244.17 }
 :if ([:len [find where list=$AddressList and address=13.226.244.23]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.244.23 }
 :if ([:len [find where list=$AddressList and address=13.226.244.27]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.244.27 }
-:if ([:len [find where list=$AddressList and address=13.226.244.30]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.244.30 }
-:if ([:len [find where list=$AddressList and address=13.226.244.31]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.244.31 }
-:if ([:len [find where list=$AddressList and address=13.226.244.55]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.244.55 }
-:if ([:len [find where list=$AddressList and address=13.226.244.68]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.244.68 }

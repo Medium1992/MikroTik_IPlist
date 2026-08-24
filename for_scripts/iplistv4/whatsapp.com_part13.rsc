@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.98.236.152]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.236.152 }
+:if ([:len [find where list=$AddressList and address=52.98.237.152]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.237.152 }
+:if ([:len [find where list=$AddressList and address=52.98.237.168]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.237.168 }
+:if ([:len [find where list=$AddressList and address=52.98.239.104]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.239.104 }
+:if ([:len [find where list=$AddressList and address=52.98.239.120]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.239.120 }
+:if ([:len [find where list=$AddressList and address=52.98.239.136]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.239.136 }
+:if ([:len [find where list=$AddressList and address=52.98.239.152]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.239.152 }
+:if ([:len [find where list=$AddressList and address=52.98.239.168]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.239.168 }
+:if ([:len [find where list=$AddressList and address=52.98.239.184]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.239.184 }
 :if ([:len [find where list=$AddressList and address=52.98.239.200]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.239.200 }
 :if ([:len [find where list=$AddressList and address=52.98.240.104]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.240.104 }
 :if ([:len [find where list=$AddressList and address=52.98.240.120]] = 0) do={ add list=$AddressList comment=whatsapp.com address=52.98.240.120 }
@@ -132,11 +141,14 @@
 :if ([:len [find where list=$AddressList and address=57.144.195.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.195.32 }
 :if ([:len [find where list=$AddressList and address=57.144.197.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.197.32 }
 :if ([:len [find where list=$AddressList and address=57.144.199.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.199.32 }
+:if ([:len [find where list=$AddressList and address=57.144.20.155]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.20.155 }
 :if ([:len [find where list=$AddressList and address=57.144.201.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.201.32 }
 :if ([:len [find where list=$AddressList and address=57.144.203.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.203.32 }
 :if ([:len [find where list=$AddressList and address=57.144.205.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.205.32 }
 :if ([:len [find where list=$AddressList and address=57.144.207.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.207.32 }
 :if ([:len [find where list=$AddressList and address=57.144.209.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.209.32 }
+:if ([:len [find where list=$AddressList and address=57.144.21.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.21.32 }
+:if ([:len [find where list=$AddressList and address=57.144.21.33]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.21.33 }
 :if ([:len [find where list=$AddressList and address=57.144.211.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.211.32 }
 :if ([:len [find where list=$AddressList and address=57.144.213.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.213.32 }
 :if ([:len [find where list=$AddressList and address=57.144.215.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.215.32 }
@@ -168,15 +180,3 @@
 :if ([:len [find where list=$AddressList and address=57.144.235.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.235.32 }
 :if ([:len [find where list=$AddressList and address=57.144.237.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.237.32 }
 :if ([:len [find where list=$AddressList and address=57.144.238.1]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.238.1 }
-:if ([:len [find where list=$AddressList and address=57.144.238.128]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.238.128 }
-:if ([:len [find where list=$AddressList and address=57.144.238.141]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.238.141 }
-:if ([:len [find where list=$AddressList and address=57.144.239.149]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.239.149 }
-:if ([:len [find where list=$AddressList and address=57.144.239.150]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.239.150 }
-:if ([:len [find where list=$AddressList and address=57.144.239.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.239.32 }
-:if ([:len [find where list=$AddressList and address=57.144.239.33]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.239.33 }
-:if ([:len [find where list=$AddressList and address=57.144.240.128]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.240.128 }
-:if ([:len [find where list=$AddressList and address=57.144.240.141]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.240.141 }
-:if ([:len [find where list=$AddressList and address=57.144.240.155]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.240.155 }
-:if ([:len [find where list=$AddressList and address=57.144.241.149]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.241.149 }
-:if ([:len [find where list=$AddressList and address=57.144.241.150]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.241.150 }
-:if ([:len [find where list=$AddressList and address=57.144.241.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.241.32 }

@@ -23,7 +23,7 @@
 :if ([:len [find where list=$AddressList and address=148.163.0.0/17]] = 0) do={ add list=$AddressList comment=hentaichan.live address=148.163.0.0/17 }
 :if ([:len [find where list=$AddressList and address=154.64.0.0/10]] = 0) do={ add list=$AddressList comment=hentaichan.live address=154.64.0.0/10 }
 :if ([:len [find where list=$AddressList and address=157.240.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=157.240.0.0/16 }
-:if ([:len [find where list=$AddressList and address=159.138.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=159.138.0.0/16 }
+:if ([:len [find where list=$AddressList and address=159.138.20.20/32]] = 0) do={ add list=$AddressList comment=hentaichan.live address=159.138.20.20/32 }
 :if ([:len [find where list=$AddressList and address=162.125.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=162.125.0.0/16 }
 :if ([:len [find where list=$AddressList and address=162.220.8.0/21]] = 0) do={ add list=$AddressList comment=hentaichan.live address=162.220.8.0/21 }
 :if ([:len [find where list=$AddressList and address=168.143.0.0/16]] = 0) do={ add list=$AddressList comment=hentaichan.live address=168.143.0.0/16 }

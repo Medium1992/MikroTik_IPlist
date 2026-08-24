@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=131.229.146.21/32]] = 0) do={ add list=$AddressList comment=br address=131.229.146.21/32 }
-:if ([:len [find where list=$AddressList and address=131.229.146.24/32]] = 0) do={ add list=$AddressList comment=br address=131.229.146.24/32 }
-:if ([:len [find where list=$AddressList and address=131.229.146.31/32]] = 0) do={ add list=$AddressList comment=br address=131.229.146.31/32 }
-:if ([:len [find where list=$AddressList and address=131.229.146.32/32]] = 0) do={ add list=$AddressList comment=br address=131.229.146.32/32 }
 :if ([:len [find where list=$AddressList and address=131.229.146.37/32]] = 0) do={ add list=$AddressList comment=br address=131.229.146.37/32 }
 :if ([:len [find where list=$AddressList and address=131.229.146.51/32]] = 0) do={ add list=$AddressList comment=br address=131.229.146.51/32 }
 :if ([:len [find where list=$AddressList and address=131.229.146.52/30]] = 0) do={ add list=$AddressList comment=br address=131.229.146.52/30 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=132.255.24.0/21]] = 0) do={ add list=$AddressList comment=br address=132.255.24.0/21 }
 :if ([:len [find where list=$AddressList and address=132.255.240.0/20]] = 0) do={ add list=$AddressList comment=br address=132.255.240.0/20 }
 :if ([:len [find where list=$AddressList and address=132.255.32.0/19]] = 0) do={ add list=$AddressList comment=br address=132.255.32.0/19 }
+:if ([:len [find where list=$AddressList and address=132.255.64.0/22]] = 0) do={ add list=$AddressList comment=br address=132.255.64.0/22 }
+:if ([:len [find where list=$AddressList and address=132.255.72.0/21]] = 0) do={ add list=$AddressList comment=br address=132.255.72.0/21 }
+:if ([:len [find where list=$AddressList and address=132.255.80.0/20]] = 0) do={ add list=$AddressList comment=br address=132.255.80.0/20 }
+:if ([:len [find where list=$AddressList and address=132.255.96.0/20]] = 0) do={ add list=$AddressList comment=br address=132.255.96.0/20 }

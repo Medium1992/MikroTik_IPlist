@@ -24,6 +24,7 @@
 :if ([:len [find where list=$AddressList and address=191.44.123.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=191.44.123.0/24 }
 :if ([:len [find where list=$AddressList and address=191.96.100.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=191.96.100.0/24 }
 :if ([:len [find where list=$AddressList and address=193.124.6.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=193.124.6.0/24 }
+:if ([:len [find where list=$AddressList and address=222.167.242.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=222.167.242.0/24 }
 :if ([:len [find where list=$AddressList and address=37.98.148.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=37.98.148.0/24 }
 :if ([:len [find where list=$AddressList and address=45.12.32.0/23]] = 0) do={ add list=$AddressList comment=AS215224 address=45.12.32.0/23 }
 :if ([:len [find where list=$AddressList and address=45.142.0.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=45.142.0.0/24 }
@@ -32,6 +33,7 @@
 :if ([:len [find where list=$AddressList and address=45.151.59.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=45.151.59.0/24 }
 :if ([:len [find where list=$AddressList and address=45.8.178.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=45.8.178.0/24 }
 :if ([:len [find where list=$AddressList and address=46.29.25.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=46.29.25.0/24 }
+:if ([:len [find where list=$AddressList and address=80.86.216.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=80.86.216.0/24 }
 :if ([:len [find where list=$AddressList and address=82.24.122.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=82.24.122.0/24 }
 :if ([:len [find where list=$AddressList and address=82.39.175.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=82.39.175.0/24 }
 :if ([:len [find where list=$AddressList and address=84.75.207.0/24]] = 0) do={ add list=$AddressList comment=AS215224 address=84.75.207.0/24 }

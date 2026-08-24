@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=23.27.27.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=23.27.27.0/24 }
+:if ([:len [find where list=$AddressList and address=23.27.4.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=23.27.4.0/24 }
+:if ([:len [find where list=$AddressList and address=23.27.62.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=23.27.62.0/24 }
+:if ([:len [find where list=$AddressList and address=23.27.79.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=23.27.79.0/24 }
 :if ([:len [find where list=$AddressList and address=31.14.66.0/23]] = 0) do={ add list=$AddressList comment=AS212238 address=31.14.66.0/23 }
 :if ([:len [find where list=$AddressList and address=31.222.216.0/22]] = 0) do={ add list=$AddressList comment=AS212238 address=31.222.216.0/22 }
 :if ([:len [find where list=$AddressList and address=31.42.124.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=31.42.124.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=45.39.59.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=45.39.59.0/24 }
 :if ([:len [find where list=$AddressList and address=45.39.63.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=45.39.63.0/24 }
 :if ([:len [find where list=$AddressList and address=45.39.81.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=45.39.81.0/24 }
-:if ([:len [find where list=$AddressList and address=45.39.85.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=45.39.85.0/24 }
-:if ([:len [find where list=$AddressList and address=45.39.94.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=45.39.94.0/24 }
-:if ([:len [find where list=$AddressList and address=45.40.116.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=45.40.116.0/24 }
-:if ([:len [find where list=$AddressList and address=45.42.40.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=45.42.40.0/24 }

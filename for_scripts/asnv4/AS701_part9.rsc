@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=108.28.56.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.56.0/21 }
-:if ([:len [find where list=$AddressList and address=108.28.64.0/22]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.64.0/22 }
-:if ([:len [find where list=$AddressList and address=108.28.68.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.68.0/23 }
-:if ([:len [find where list=$AddressList and address=108.28.70.0/26]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.70.0/26 }
-:if ([:len [find where list=$AddressList and address=108.28.70.112/30]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.70.112/30 }
-:if ([:len [find where list=$AddressList and address=108.28.70.116/32]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.70.116/32 }
-:if ([:len [find where list=$AddressList and address=108.28.70.118/31]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.70.118/31 }
-:if ([:len [find where list=$AddressList and address=108.28.70.120/29]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.70.120/29 }
-:if ([:len [find where list=$AddressList and address=108.28.70.128/25]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.70.128/25 }
-:if ([:len [find where list=$AddressList and address=108.28.70.64/27]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.70.64/27 }
-:if ([:len [find where list=$AddressList and address=108.28.70.96/28]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.70.96/28 }
 :if ([:len [find where list=$AddressList and address=108.28.71.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.71.0/24 }
 :if ([:len [find where list=$AddressList and address=108.28.72.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.72.0/24 }
 :if ([:len [find where list=$AddressList and address=108.28.73.0/25]] = 0) do={ add list=$AddressList comment=AS701 address=108.28.73.0/25 }
@@ -180,3 +169,14 @@
 :if ([:len [find where list=$AddressList and address=108.31.73.180/30]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.73.180/30 }
 :if ([:len [find where list=$AddressList and address=108.31.73.184/29]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.73.184/29 }
 :if ([:len [find where list=$AddressList and address=108.31.73.192/26]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.73.192/26 }
+:if ([:len [find where list=$AddressList and address=108.31.74.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.74.0/23 }
+:if ([:len [find where list=$AddressList and address=108.31.76.0/22]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.76.0/22 }
+:if ([:len [find where list=$AddressList and address=108.31.8.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.8.0/23 }
+:if ([:len [find where list=$AddressList and address=108.31.80.0/20]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.80.0/20 }
+:if ([:len [find where list=$AddressList and address=108.31.96.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.96.0/23 }
+:if ([:len [find where list=$AddressList and address=108.31.98.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.98.0/24 }
+:if ([:len [find where list=$AddressList and address=108.31.99.0/25]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.99.0/25 }
+:if ([:len [find where list=$AddressList and address=108.31.99.128/27]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.99.128/27 }
+:if ([:len [find where list=$AddressList and address=108.31.99.160/28]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.99.160/28 }
+:if ([:len [find where list=$AddressList and address=108.31.99.176/29]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.99.176/29 }
+:if ([:len [find where list=$AddressList and address=108.31.99.184/30]] = 0) do={ add list=$AddressList comment=AS701 address=108.31.99.184/30 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=108.56.184.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=108.56.184.0/21 }
+:if ([:len [find where list=$AddressList and address=108.56.19.0/31]] = 0) do={ add list=$AddressList comment=AS701 address=108.56.19.0/31 }
+:if ([:len [find where list=$AddressList and address=108.56.19.128/25]] = 0) do={ add list=$AddressList comment=AS701 address=108.56.19.128/25 }
+:if ([:len [find where list=$AddressList and address=108.56.19.16/28]] = 0) do={ add list=$AddressList comment=AS701 address=108.56.19.16/28 }
 :if ([:len [find where list=$AddressList and address=108.56.19.2/32]] = 0) do={ add list=$AddressList comment=AS701 address=108.56.19.2/32 }
 :if ([:len [find where list=$AddressList and address=108.56.19.32/27]] = 0) do={ add list=$AddressList comment=AS701 address=108.56.19.32/27 }
 :if ([:len [find where list=$AddressList and address=108.56.19.4/30]] = 0) do={ add list=$AddressList comment=AS701 address=108.56.19.4/30 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=138.89.158.32/27]] = 0) do={ add list=$AddressList comment=AS701 address=138.89.158.32/27 }
 :if ([:len [find where list=$AddressList and address=138.89.158.64/26]] = 0) do={ add list=$AddressList comment=AS701 address=138.89.158.64/26 }
 :if ([:len [find where list=$AddressList and address=138.89.159.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=138.89.159.0/24 }
-:if ([:len [find where list=$AddressList and address=138.89.160.0/19]] = 0) do={ add list=$AddressList comment=AS701 address=138.89.160.0/19 }
-:if ([:len [find where list=$AddressList and address=138.89.192.0/18]] = 0) do={ add list=$AddressList comment=AS701 address=138.89.192.0/18 }
-:if ([:len [find where list=$AddressList and address=140.223.0.0/16]] = 0) do={ add list=$AddressList comment=AS701 address=140.223.0.0/16 }
-:if ([:len [find where list=$AddressList and address=141.149.128.0/17]] = 0) do={ add list=$AddressList comment=AS701 address=141.149.128.0/17 }

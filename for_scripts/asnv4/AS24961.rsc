@@ -17,6 +17,7 @@
 :if ([:len [find where list=$AddressList and address=194.107.129.0/24]] = 0) do={ add list=$AddressList comment=AS24961 address=194.107.129.0/24 }
 :if ([:len [find where list=$AddressList and address=194.87.4.0/24]] = 0) do={ add list=$AddressList comment=AS24961 address=194.87.4.0/24 }
 :if ([:len [find where list=$AddressList and address=194.9.182.0/23]] = 0) do={ add list=$AddressList comment=AS24961 address=194.9.182.0/23 }
+:if ([:len [find where list=$AddressList and address=194.93.103.0/24]] = 0) do={ add list=$AddressList comment=AS24961 address=194.93.103.0/24 }
 :if ([:len [find where list=$AddressList and address=213.202.192.0/18]] = 0) do={ add list=$AddressList comment=AS24961 address=213.202.192.0/18 }
 :if ([:len [find where list=$AddressList and address=217.79.176.0/20]] = 0) do={ add list=$AddressList comment=AS24961 address=217.79.176.0/20 }
 :if ([:len [find where list=$AddressList and address=37.157.248.0/21]] = 0) do={ add list=$AddressList comment=AS24961 address=37.157.248.0/21 }
@@ -27,6 +28,7 @@
 :if ([:len [find where list=$AddressList and address=46.20.32.0/20]] = 0) do={ add list=$AddressList comment=AS24961 address=46.20.32.0/20 }
 :if ([:len [find where list=$AddressList and address=46.228.192.0/20]] = 0) do={ add list=$AddressList comment=AS24961 address=46.228.192.0/20 }
 :if ([:len [find where list=$AddressList and address=5.104.104.0/21]] = 0) do={ add list=$AddressList comment=AS24961 address=5.104.104.0/21 }
+:if ([:len [find where list=$AddressList and address=5.175.165.0/24]] = 0) do={ add list=$AddressList comment=AS24961 address=5.175.165.0/24 }
 :if ([:len [find where list=$AddressList and address=5.199.128.0/20]] = 0) do={ add list=$AddressList comment=AS24961 address=5.199.128.0/20 }
 :if ([:len [find where list=$AddressList and address=62.141.32.0/20]] = 0) do={ add list=$AddressList comment=AS24961 address=62.141.32.0/20 }
 :if ([:len [find where list=$AddressList and address=78.31.64.0/21]] = 0) do={ add list=$AddressList comment=AS24961 address=78.31.64.0/21 }

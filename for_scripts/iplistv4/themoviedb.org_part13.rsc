@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.171.214.106]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.171.214.106 }
+:if ([:len [find where list=$AddressList and address=3.171.214.118]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.171.214.118 }
+:if ([:len [find where list=$AddressList and address=3.171.214.27]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.171.214.27 }
+:if ([:len [find where list=$AddressList and address=3.171.214.47]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.171.214.47 }
 :if ([:len [find where list=$AddressList and address=3.171.214.50]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.171.214.50 }
 :if ([:len [find where list=$AddressList and address=3.171.214.52]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.171.214.52 }
 :if ([:len [find where list=$AddressList and address=3.171.214.91]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.171.214.91 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=40.101.112.129]] = 0) do={ add list=$AddressList comment=themoviedb.org address=40.101.112.129 }
 :if ([:len [find where list=$AddressList and address=40.101.112.194]] = 0) do={ add list=$AddressList comment=themoviedb.org address=40.101.112.194 }
 :if ([:len [find where list=$AddressList and address=40.101.112.73]] = 0) do={ add list=$AddressList comment=themoviedb.org address=40.101.112.73 }
-:if ([:len [find where list=$AddressList and address=40.101.113.129]] = 0) do={ add list=$AddressList comment=themoviedb.org address=40.101.113.129 }
-:if ([:len [find where list=$AddressList and address=40.101.113.5]] = 0) do={ add list=$AddressList comment=themoviedb.org address=40.101.113.5 }
-:if ([:len [find where list=$AddressList and address=40.101.113.66]] = 0) do={ add list=$AddressList comment=themoviedb.org address=40.101.113.66 }
-:if ([:len [find where list=$AddressList and address=40.101.113.70]] = 0) do={ add list=$AddressList comment=themoviedb.org address=40.101.113.70 }

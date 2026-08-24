@@ -60,6 +60,7 @@
 :if ([:len [/ip/route/find dst-address=185.70.42.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.70.42.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }
 :if ([:len [/ip/route/find dst-address=185.70.42.42 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.70.42.42 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }
 :if ([:len [/ip/route/find dst-address=185.70.42.45 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.70.42.45 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }
+:if ([:len [/ip/route/find dst-address=199.232.170.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=199.232.170.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }
 :if ([:len [/ip/route/find dst-address=199.232.174.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=199.232.174.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }
 :if ([:len [/ip/route/find dst-address=199.232.190.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=199.232.190.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }
 :if ([:len [/ip/route/find dst-address=199.232.38.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=199.232.38.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }
@@ -101,4 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.162.3.96 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.162.3.96 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }
 :if ([:len [/ip/route/find dst-address=3.163.10.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.163.10.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }
 :if ([:len [/ip/route/find dst-address=3.163.10.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.163.10.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }
-:if ([:len [/ip/route/find dst-address=3.163.10.77 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.163.10.77 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=proton.me }

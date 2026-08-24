@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=54.230.10.33]] = 0) do={ add list=$AddressList comment=tidal.com address=54.230.10.33 }
+:if ([:len [find where list=$AddressList and address=54.230.10.69]] = 0) do={ add list=$AddressList comment=tidal.com address=54.230.10.69 }
+:if ([:len [find where list=$AddressList and address=54.230.114.103]] = 0) do={ add list=$AddressList comment=tidal.com address=54.230.114.103 }
+:if ([:len [find where list=$AddressList and address=54.230.114.105]] = 0) do={ add list=$AddressList comment=tidal.com address=54.230.114.105 }
 :if ([:len [find where list=$AddressList and address=54.230.114.11]] = 0) do={ add list=$AddressList comment=tidal.com address=54.230.114.11 }
 :if ([:len [find where list=$AddressList and address=54.230.114.118]] = 0) do={ add list=$AddressList comment=tidal.com address=54.230.114.118 }
 :if ([:len [find where list=$AddressList and address=54.230.114.126]] = 0) do={ add list=$AddressList comment=tidal.com address=54.230.114.126 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.9.66.85]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.66.85 }
 :if ([:len [find where list=$AddressList and address=65.9.66.87]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.66.87 }
 :if ([:len [find where list=$AddressList and address=65.9.66.98]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.66.98 }
-:if ([:len [find where list=$AddressList and address=65.9.86.31]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.86.31 }
-:if ([:len [find where list=$AddressList and address=65.9.86.75]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.86.75 }
-:if ([:len [find where list=$AddressList and address=65.9.86.93]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.86.93 }
-:if ([:len [find where list=$AddressList and address=65.9.86.96]] = 0) do={ add list=$AddressList comment=tidal.com address=65.9.86.96 }

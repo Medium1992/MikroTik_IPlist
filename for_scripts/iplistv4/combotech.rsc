@@ -70,6 +70,12 @@
 :if ([:len [find where list=$AddressList and address=154.197.65.175]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.175 }
 :if ([:len [find where list=$AddressList and address=154.197.65.176]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.176 }
 :if ([:len [find where list=$AddressList and address=154.197.65.177]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.177 }
+:if ([:len [find where list=$AddressList and address=154.197.65.178]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.178 }
+:if ([:len [find where list=$AddressList and address=154.197.65.179]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.179 }
+:if ([:len [find where list=$AddressList and address=154.197.65.180]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.180 }
+:if ([:len [find where list=$AddressList and address=154.197.65.181]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.181 }
+:if ([:len [find where list=$AddressList and address=154.197.65.182]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.182 }
+:if ([:len [find where list=$AddressList and address=154.197.65.183]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.183 }
 :if ([:len [find where list=$AddressList and address=154.197.65.87]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.87 }
 :if ([:len [find where list=$AddressList and address=154.197.65.88]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.88 }
 :if ([:len [find where list=$AddressList and address=154.197.65.89]] = 0) do={ add list=$AddressList comment=combotech address=154.197.65.89 }

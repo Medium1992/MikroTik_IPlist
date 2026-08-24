@@ -130,6 +130,7 @@
 :if ([:len [find where list=$AddressList and address=44.220.103.178/32]] = 0) do={ add list=$AddressList comment=quora.com address=44.220.103.178/32 }
 :if ([:len [find where list=$AddressList and address=44.220.104.120/32]] = 0) do={ add list=$AddressList comment=quora.com address=44.220.104.120/32 }
 :if ([:len [find where list=$AddressList and address=44.220.120.53/32]] = 0) do={ add list=$AddressList comment=quora.com address=44.220.120.53/32 }
+:if ([:len [find where list=$AddressList and address=44.221.10.245/32]] = 0) do={ add list=$AddressList comment=quora.com address=44.221.10.245/32 }
 :if ([:len [find where list=$AddressList and address=44.221.189.16/32]] = 0) do={ add list=$AddressList comment=quora.com address=44.221.189.16/32 }
 :if ([:len [find where list=$AddressList and address=44.221.36.238/32]] = 0) do={ add list=$AddressList comment=quora.com address=44.221.36.238/32 }
 :if ([:len [find where list=$AddressList and address=44.222.44.177/32]] = 0) do={ add list=$AddressList comment=quora.com address=44.222.44.177/32 }
@@ -177,6 +178,5 @@
 :if ([:len [find where list=$AddressList and address=54.235.124.159/32]] = 0) do={ add list=$AddressList comment=quora.com address=54.235.124.159/32 }
 :if ([:len [find where list=$AddressList and address=54.235.182.169/32]] = 0) do={ add list=$AddressList comment=quora.com address=54.235.182.169/32 }
 :if ([:len [find where list=$AddressList and address=54.236.0.0/15]] = 0) do={ add list=$AddressList comment=quora.com address=54.236.0.0/15 }
+:if ([:len [find where list=$AddressList and address=54.242.119.124/32]] = 0) do={ add list=$AddressList comment=quora.com address=54.242.119.124/32 }
 :if ([:len [find where list=$AddressList and address=54.242.72.177/32]] = 0) do={ add list=$AddressList comment=quora.com address=54.242.72.177/32 }
-:if ([:len [find where list=$AddressList and address=54.243.0.0/16]] = 0) do={ add list=$AddressList comment=quora.com address=54.243.0.0/16 }
-:if ([:len [find where list=$AddressList and address=54.64.0.0/11]] = 0) do={ add list=$AddressList comment=quora.com address=54.64.0.0/11 }

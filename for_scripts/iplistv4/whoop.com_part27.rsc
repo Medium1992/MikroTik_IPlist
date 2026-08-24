@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=54.192.97.45]] = 0) do={ add list=$AddressList comment=whoop.com address=54.192.97.45 }
+:if ([:len [find where list=$AddressList and address=54.192.97.5]] = 0) do={ add list=$AddressList comment=whoop.com address=54.192.97.5 }
+:if ([:len [find where list=$AddressList and address=54.192.97.73]] = 0) do={ add list=$AddressList comment=whoop.com address=54.192.97.73 }
+:if ([:len [find where list=$AddressList and address=54.192.97.82]] = 0) do={ add list=$AddressList comment=whoop.com address=54.192.97.82 }
 :if ([:len [find where list=$AddressList and address=54.192.97.97]] = 0) do={ add list=$AddressList comment=whoop.com address=54.192.97.97 }
 :if ([:len [find where list=$AddressList and address=54.194.41.141]] = 0) do={ add list=$AddressList comment=whoop.com address=54.194.41.141 }
 :if ([:len [find where list=$AddressList and address=54.196.167.97]] = 0) do={ add list=$AddressList comment=whoop.com address=54.196.167.97 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.9.187.114]] = 0) do={ add list=$AddressList comment=whoop.com address=65.9.187.114 }
 :if ([:len [find where list=$AddressList and address=65.9.187.120]] = 0) do={ add list=$AddressList comment=whoop.com address=65.9.187.120 }
 :if ([:len [find where list=$AddressList and address=65.9.187.129]] = 0) do={ add list=$AddressList comment=whoop.com address=65.9.187.129 }
-:if ([:len [find where list=$AddressList and address=65.9.187.3]] = 0) do={ add list=$AddressList comment=whoop.com address=65.9.187.3 }
-:if ([:len [find where list=$AddressList and address=65.9.187.32]] = 0) do={ add list=$AddressList comment=whoop.com address=65.9.187.32 }
-:if ([:len [find where list=$AddressList and address=65.9.187.33]] = 0) do={ add list=$AddressList comment=whoop.com address=65.9.187.33 }
-:if ([:len [find where list=$AddressList and address=65.9.187.51]] = 0) do={ add list=$AddressList comment=whoop.com address=65.9.187.51 }

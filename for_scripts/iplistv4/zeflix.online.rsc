@@ -8,6 +8,9 @@
 :if ([:len [find where list=$AddressList and address=104.21.96.36]] = 0) do={ add list=$AddressList comment=zeflix.online address=104.21.96.36 }
 :if ([:len [find where list=$AddressList and address=139.162.174.209]] = 0) do={ add list=$AddressList comment=zeflix.online address=139.162.174.209 }
 :if ([:len [find where list=$AddressList and address=139.162.181.76]] = 0) do={ add list=$AddressList comment=zeflix.online address=139.162.181.76 }
+:if ([:len [find where list=$AddressList and address=159.69.186.9]] = 0) do={ add list=$AddressList comment=zeflix.online address=159.69.186.9 }
+:if ([:len [find where list=$AddressList and address=159.69.42.212]] = 0) do={ add list=$AddressList comment=zeflix.online address=159.69.42.212 }
+:if ([:len [find where list=$AddressList and address=159.69.83.207]] = 0) do={ add list=$AddressList comment=zeflix.online address=159.69.83.207 }
 :if ([:len [find where list=$AddressList and address=172.104.149.86]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.104.149.86 }
 :if ([:len [find where list=$AddressList and address=172.104.203.186]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.104.203.186 }
 :if ([:len [find where list=$AddressList and address=172.104.251.198]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.104.251.198 }
@@ -49,4 +52,5 @@
 :if ([:len [find where list=$AddressList and address=66.175.216.36]] = 0) do={ add list=$AddressList comment=zeflix.online address=66.175.216.36 }
 :if ([:len [find where list=$AddressList and address=74.207.241.245]] = 0) do={ add list=$AddressList comment=zeflix.online address=74.207.241.245 }
 :if ([:len [find where list=$AddressList and address=75.2.37.224]] = 0) do={ add list=$AddressList comment=zeflix.online address=75.2.37.224 }
+:if ([:len [find where list=$AddressList and address=95.216.161.60]] = 0) do={ add list=$AddressList comment=zeflix.online address=95.216.161.60 }
 :if ([:len [find where list=$AddressList and address=99.83.151.79]] = 0) do={ add list=$AddressList comment=zeflix.online address=99.83.151.79 }

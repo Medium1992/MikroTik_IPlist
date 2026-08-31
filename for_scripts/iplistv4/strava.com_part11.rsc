@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.162.125.54]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.125.54 }
+:if ([:len [find where list=$AddressList and address=3.162.125.62]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.125.62 }
+:if ([:len [find where list=$AddressList and address=3.162.125.83]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.125.83 }
+:if ([:len [find where list=$AddressList and address=3.162.125.89]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.125.89 }
 :if ([:len [find where list=$AddressList and address=3.162.140.11]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.140.11 }
 :if ([:len [find where list=$AddressList and address=3.162.140.117]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.140.117 }
 :if ([:len [find where list=$AddressList and address=3.162.140.39]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.140.39 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.165.190.24]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.24 }
 :if ([:len [find where list=$AddressList and address=3.165.190.29]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.29 }
 :if ([:len [find where list=$AddressList and address=3.165.190.46]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.46 }
-:if ([:len [find where list=$AddressList and address=3.165.190.48]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.48 }
-:if ([:len [find where list=$AddressList and address=3.165.190.67]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.67 }
-:if ([:len [find where list=$AddressList and address=3.165.190.69]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.69 }
-:if ([:len [find where list=$AddressList and address=3.165.190.70]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.70 }

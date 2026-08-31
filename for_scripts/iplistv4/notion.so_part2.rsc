@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.249.8.97]] = 0) do={ add list=$AddressList comment=notion.so address=13.249.8.97 }
+:if ([:len [find where list=$AddressList and address=13.249.91.102]] = 0) do={ add list=$AddressList comment=notion.so address=13.249.91.102 }
+:if ([:len [find where list=$AddressList and address=13.249.91.21]] = 0) do={ add list=$AddressList comment=notion.so address=13.249.91.21 }
+:if ([:len [find where list=$AddressList and address=13.249.91.30]] = 0) do={ add list=$AddressList comment=notion.so address=13.249.91.30 }
 :if ([:len [find where list=$AddressList and address=13.249.91.67]] = 0) do={ add list=$AddressList comment=notion.so address=13.249.91.67 }
 :if ([:len [find where list=$AddressList and address=13.32.110.110]] = 0) do={ add list=$AddressList comment=notion.so address=13.32.110.110 }
 :if ([:len [find where list=$AddressList and address=13.32.110.113]] = 0) do={ add list=$AddressList comment=notion.so address=13.32.110.113 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=16.12.96.10]] = 0) do={ add list=$AddressList comment=notion.so address=16.12.96.10 }
 :if ([:len [find where list=$AddressList and address=16.12.96.106]] = 0) do={ add list=$AddressList comment=notion.so address=16.12.96.106 }
 :if ([:len [find where list=$AddressList and address=16.12.96.114]] = 0) do={ add list=$AddressList comment=notion.so address=16.12.96.114 }
-:if ([:len [find where list=$AddressList and address=16.12.96.122]] = 0) do={ add list=$AddressList comment=notion.so address=16.12.96.122 }
-:if ([:len [find where list=$AddressList and address=16.12.96.130]] = 0) do={ add list=$AddressList comment=notion.so address=16.12.96.130 }
-:if ([:len [find where list=$AddressList and address=16.12.96.138]] = 0) do={ add list=$AddressList comment=notion.so address=16.12.96.138 }
-:if ([:len [find where list=$AddressList and address=16.12.96.146]] = 0) do={ add list=$AddressList comment=notion.so address=16.12.96.146 }

@@ -1,5 +1,23 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.218.176.241]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.241 }
+:if ([:len [find where list=$AddressList and address=52.218.176.249]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.249 }
+:if ([:len [find where list=$AddressList and address=52.218.176.25]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.25 }
+:if ([:len [find where list=$AddressList and address=52.218.176.33]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.33 }
+:if ([:len [find where list=$AddressList and address=52.218.176.41]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.41 }
+:if ([:len [find where list=$AddressList and address=52.218.176.49]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.49 }
+:if ([:len [find where list=$AddressList and address=52.218.176.57]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.57 }
+:if ([:len [find where list=$AddressList and address=52.218.176.65]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.65 }
+:if ([:len [find where list=$AddressList and address=52.218.176.73]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.73 }
+:if ([:len [find where list=$AddressList and address=52.218.176.81]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.81 }
+:if ([:len [find where list=$AddressList and address=52.218.176.89]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.89 }
+:if ([:len [find where list=$AddressList and address=52.218.176.9]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.9 }
+:if ([:len [find where list=$AddressList and address=52.218.176.97]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.176.97 }
+:if ([:len [find where list=$AddressList and address=52.218.177.1]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.177.1 }
+:if ([:len [find where list=$AddressList and address=52.218.177.105]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.177.105 }
+:if ([:len [find where list=$AddressList and address=52.218.177.113]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.177.113 }
+:if ([:len [find where list=$AddressList and address=52.218.177.121]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.177.121 }
+:if ([:len [find where list=$AddressList and address=52.218.177.129]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.177.129 }
 :if ([:len [find where list=$AddressList and address=52.218.177.137]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.177.137 }
 :if ([:len [find where list=$AddressList and address=52.218.177.145]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.177.145 }
 :if ([:len [find where list=$AddressList and address=52.218.177.153]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.177.153 }
@@ -162,21 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.218.182.185]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.185 }
 :if ([:len [find where list=$AddressList and address=52.218.182.193]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.193 }
 :if ([:len [find where list=$AddressList and address=52.218.182.201]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.201 }
-:if ([:len [find where list=$AddressList and address=52.218.182.210]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.210 }
-:if ([:len [find where list=$AddressList and address=52.218.182.218]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.218 }
-:if ([:len [find where list=$AddressList and address=52.218.182.226]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.226 }
-:if ([:len [find where list=$AddressList and address=52.218.182.234]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.234 }
-:if ([:len [find where list=$AddressList and address=52.218.182.242]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.242 }
-:if ([:len [find where list=$AddressList and address=52.218.182.25]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.25 }
-:if ([:len [find where list=$AddressList and address=52.218.182.250]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.250 }
-:if ([:len [find where list=$AddressList and address=52.218.182.33]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.33 }
-:if ([:len [find where list=$AddressList and address=52.218.182.41]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.41 }
-:if ([:len [find where list=$AddressList and address=52.218.182.49]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.49 }
-:if ([:len [find where list=$AddressList and address=52.218.182.57]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.57 }
-:if ([:len [find where list=$AddressList and address=52.218.182.65]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.65 }
-:if ([:len [find where list=$AddressList and address=52.218.182.73]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.73 }
-:if ([:len [find where list=$AddressList and address=52.218.182.81]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.81 }
-:if ([:len [find where list=$AddressList and address=52.218.182.89]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.89 }
-:if ([:len [find where list=$AddressList and address=52.218.182.9]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.9 }
-:if ([:len [find where list=$AddressList and address=52.218.182.97]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.182.97 }
-:if ([:len [find where list=$AddressList and address=52.218.183.10]] = 0) do={ add list=$AddressList comment=notion.so address=52.218.183.10 }

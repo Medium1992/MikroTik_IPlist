@@ -5,7 +5,6 @@
 :if ([:len [find where list=$AddressList and address=120.58.64.0/18]] = 0) do={ add list=$AddressList comment=AS17813 address=120.58.64.0/18 }
 :if ([:len [find where list=$AddressList and address=120.59.0.0/17]] = 0) do={ add list=$AddressList comment=AS17813 address=120.59.0.0/17 }
 :if ([:len [find where list=$AddressList and address=120.63.128.0/17]] = 0) do={ add list=$AddressList comment=AS17813 address=120.63.128.0/17 }
-:if ([:len [find where list=$AddressList and address=120.63.16.0/20]] = 0) do={ add list=$AddressList comment=AS17813 address=120.63.16.0/20 }
 :if ([:len [find where list=$AddressList and address=120.63.32.0/19]] = 0) do={ add list=$AddressList comment=AS17813 address=120.63.32.0/19 }
 :if ([:len [find where list=$AddressList and address=120.63.64.0/18]] = 0) do={ add list=$AddressList comment=AS17813 address=120.63.64.0/18 }
 :if ([:len [find where list=$AddressList and address=182.56.0.0/16]] = 0) do={ add list=$AddressList comment=AS17813 address=182.56.0.0/16 }
@@ -15,7 +14,6 @@
 :if ([:len [find where list=$AddressList and address=182.57.96.0/19]] = 0) do={ add list=$AddressList comment=AS17813 address=182.57.96.0/19 }
 :if ([:len [find where list=$AddressList and address=182.58.0.0/16]] = 0) do={ add list=$AddressList comment=AS17813 address=182.58.0.0/16 }
 :if ([:len [find where list=$AddressList and address=182.59.0.0/18]] = 0) do={ add list=$AddressList comment=AS17813 address=182.59.0.0/18 }
-:if ([:len [find where list=$AddressList and address=182.59.112.0/20]] = 0) do={ add list=$AddressList comment=AS17813 address=182.59.112.0/20 }
 :if ([:len [find where list=$AddressList and address=182.59.128.0/18]] = 0) do={ add list=$AddressList comment=AS17813 address=182.59.128.0/18 }
 :if ([:len [find where list=$AddressList and address=202.159.192.0/18]] = 0) do={ add list=$AddressList comment=AS17813 address=202.159.192.0/18 }
 :if ([:len [find where list=$AddressList and address=203.94.192.0/18]] = 0) do={ add list=$AddressList comment=AS17813 address=203.94.192.0/18 }

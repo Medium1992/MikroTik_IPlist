@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.244.102.34]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.102.34 }
+:if ([:len [find where list=$AddressList and address=18.244.102.66]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.102.66 }
+:if ([:len [find where list=$AddressList and address=18.244.87.106]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.87.106 }
+:if ([:len [find where list=$AddressList and address=18.244.87.65]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.87.65 }
 :if ([:len [find where list=$AddressList and address=18.244.87.86]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.87.86 }
 :if ([:len [find where list=$AddressList and address=18.244.87.96]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.87.96 }
 :if ([:len [find where list=$AddressList and address=18.245.31.105]] = 0) do={ add list=$AddressList comment=canva.com address=18.245.31.105 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.9.46.57]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.46.57 }
 :if ([:len [find where list=$AddressList and address=65.9.46.71]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.46.71 }
 :if ([:len [find where list=$AddressList and address=65.9.46.95]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.46.95 }
-:if ([:len [find where list=$AddressList and address=65.9.62.122]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.62.122 }
-:if ([:len [find where list=$AddressList and address=65.9.62.129]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.62.129 }
-:if ([:len [find where list=$AddressList and address=65.9.62.50]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.62.50 }
-:if ([:len [find where list=$AddressList and address=65.9.62.60]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.62.60 }

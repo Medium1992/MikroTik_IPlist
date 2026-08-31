@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.172.226.98]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.226.98 }
+:if ([:len [find where list=$AddressList and address=18.172.242.100]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.242.100 }
+:if ([:len [find where list=$AddressList and address=18.172.242.103]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.242.103 }
+:if ([:len [find where list=$AddressList and address=18.172.242.104]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.242.104 }
 :if ([:len [find where list=$AddressList and address=18.172.242.106]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.242.106 }
 :if ([:len [find where list=$AddressList and address=18.172.242.109]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.242.109 }
 :if ([:len [find where list=$AddressList and address=18.172.242.110]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.242.110 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.239.208.102]] = 0) do={ add list=$AddressList comment=strava.com address=18.239.208.102 }
 :if ([:len [find where list=$AddressList and address=18.239.208.103]] = 0) do={ add list=$AddressList comment=strava.com address=18.239.208.103 }
 :if ([:len [find where list=$AddressList and address=18.239.208.115]] = 0) do={ add list=$AddressList comment=strava.com address=18.239.208.115 }
-:if ([:len [find where list=$AddressList and address=18.239.208.123]] = 0) do={ add list=$AddressList comment=strava.com address=18.239.208.123 }
-:if ([:len [find where list=$AddressList and address=18.239.208.127]] = 0) do={ add list=$AddressList comment=strava.com address=18.239.208.127 }
-:if ([:len [find where list=$AddressList and address=18.239.208.15]] = 0) do={ add list=$AddressList comment=strava.com address=18.239.208.15 }
-:if ([:len [find where list=$AddressList and address=18.239.208.20]] = 0) do={ add list=$AddressList comment=strava.com address=18.239.208.20 }

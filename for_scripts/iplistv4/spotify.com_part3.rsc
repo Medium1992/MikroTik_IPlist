@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=184.24.77.203]] = 0) do={ add list=$AddressList comment=spotify.com address=184.24.77.203 }
+:if ([:len [find where list=$AddressList and address=184.24.77.204]] = 0) do={ add list=$AddressList comment=spotify.com address=184.24.77.204 }
+:if ([:len [find where list=$AddressList and address=184.24.77.205]] = 0) do={ add list=$AddressList comment=spotify.com address=184.24.77.205 }
+:if ([:len [find where list=$AddressList and address=184.24.77.207]] = 0) do={ add list=$AddressList comment=spotify.com address=184.24.77.207 }
 :if ([:len [find where list=$AddressList and address=184.24.77.208]] = 0) do={ add list=$AddressList comment=spotify.com address=184.24.77.208 }
 :if ([:len [find where list=$AddressList and address=184.24.77.209]] = 0) do={ add list=$AddressList comment=spotify.com address=184.24.77.209 }
 :if ([:len [find where list=$AddressList and address=184.24.77.210]] = 0) do={ add list=$AddressList comment=spotify.com address=184.24.77.210 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.16.10.68]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.68 }
 :if ([:len [find where list=$AddressList and address=2.16.10.69]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.69 }
 :if ([:len [find where list=$AddressList and address=2.16.10.70]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.70 }
-:if ([:len [find where list=$AddressList and address=2.16.10.71]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.71 }
-:if ([:len [find where list=$AddressList and address=2.16.10.72]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.72 }
-:if ([:len [find where list=$AddressList and address=2.16.10.73]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.73 }
-:if ([:len [find where list=$AddressList and address=2.16.10.74]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.74 }

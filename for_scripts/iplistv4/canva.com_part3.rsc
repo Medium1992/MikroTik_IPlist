@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=65.9.62.122]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.62.122 }
+:if ([:len [find where list=$AddressList and address=65.9.62.129]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.62.129 }
+:if ([:len [find where list=$AddressList and address=65.9.62.50]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.62.50 }
+:if ([:len [find where list=$AddressList and address=65.9.62.60]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.62.60 }
 :if ([:len [find where list=$AddressList and address=65.9.95.35]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.95.35 }
 :if ([:len [find where list=$AddressList and address=65.9.95.67]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.95.67 }
 :if ([:len [find where list=$AddressList and address=65.9.95.88]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.95.88 }

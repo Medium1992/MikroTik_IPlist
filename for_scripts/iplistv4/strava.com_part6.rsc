@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.161.6.55]] = 0) do={ add list=$AddressList comment=strava.com address=18.161.6.55 }
+:if ([:len [find where list=$AddressList and address=18.161.6.63]] = 0) do={ add list=$AddressList comment=strava.com address=18.161.6.63 }
+:if ([:len [find where list=$AddressList and address=18.161.6.75]] = 0) do={ add list=$AddressList comment=strava.com address=18.161.6.75 }
+:if ([:len [find where list=$AddressList and address=18.164.96.122]] = 0) do={ add list=$AddressList comment=strava.com address=18.164.96.122 }
 :if ([:len [find where list=$AddressList and address=18.164.96.38]] = 0) do={ add list=$AddressList comment=strava.com address=18.164.96.38 }
 :if ([:len [find where list=$AddressList and address=18.164.96.68]] = 0) do={ add list=$AddressList comment=strava.com address=18.164.96.68 }
 :if ([:len [find where list=$AddressList and address=18.164.96.83]] = 0) do={ add list=$AddressList comment=strava.com address=18.164.96.83 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.172.226.43]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.226.43 }
 :if ([:len [find where list=$AddressList and address=18.172.226.65]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.226.65 }
 :if ([:len [find where list=$AddressList and address=18.172.226.74]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.226.74 }
-:if ([:len [find where list=$AddressList and address=18.172.226.98]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.226.98 }
-:if ([:len [find where list=$AddressList and address=18.172.242.100]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.242.100 }
-:if ([:len [find where list=$AddressList and address=18.172.242.103]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.242.103 }
-:if ([:len [find where list=$AddressList and address=18.172.242.104]] = 0) do={ add list=$AddressList comment=strava.com address=18.172.242.104 }

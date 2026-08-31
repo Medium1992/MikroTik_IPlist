@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=108.156.184.4]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.184.4 }
+:if ([:len [find where list=$AddressList and address=108.156.184.40]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.184.40 }
+:if ([:len [find where list=$AddressList and address=108.156.184.85]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.184.85 }
+:if ([:len [find where list=$AddressList and address=108.156.2.102]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.102 }
+:if ([:len [find where list=$AddressList and address=108.156.2.108]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.108 }
+:if ([:len [find where list=$AddressList and address=108.156.2.111]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.111 }
+:if ([:len [find where list=$AddressList and address=108.156.2.112]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.112 }
+:if ([:len [find where list=$AddressList and address=108.156.2.115]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.115 }
+:if ([:len [find where list=$AddressList and address=108.156.2.117]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.117 }
+:if ([:len [find where list=$AddressList and address=108.156.2.125]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.125 }
+:if ([:len [find where list=$AddressList and address=108.156.2.128]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.128 }
 :if ([:len [find where list=$AddressList and address=108.156.2.14]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.14 }
 :if ([:len [find where list=$AddressList and address=108.156.2.17]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.17 }
 :if ([:len [find where list=$AddressList and address=108.156.2.19]] = 0) do={ add list=$AddressList comment=viber.com address=108.156.2.19 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=108.157.113.50]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.113.50 }
 :if ([:len [find where list=$AddressList and address=108.157.125.11]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.11 }
 :if ([:len [find where list=$AddressList and address=108.157.125.110]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.110 }
-:if ([:len [find where list=$AddressList and address=108.157.125.12]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.12 }
-:if ([:len [find where list=$AddressList and address=108.157.125.125]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.125 }
-:if ([:len [find where list=$AddressList and address=108.157.125.17]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.17 }
-:if ([:len [find where list=$AddressList and address=108.157.125.31]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.31 }
-:if ([:len [find where list=$AddressList and address=108.157.125.45]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.45 }
-:if ([:len [find where list=$AddressList and address=108.157.125.59]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.59 }
-:if ([:len [find where list=$AddressList and address=108.157.125.68]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.68 }
-:if ([:len [find where list=$AddressList and address=108.157.125.69]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.69 }
-:if ([:len [find where list=$AddressList and address=108.157.125.83]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.83 }
-:if ([:len [find where list=$AddressList and address=108.157.125.86]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.86 }
-:if ([:len [find where list=$AddressList and address=108.157.125.92]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.125.92 }

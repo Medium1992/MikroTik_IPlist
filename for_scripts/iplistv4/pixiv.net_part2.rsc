@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=142.251.36.211]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.36.211 }
+:if ([:len [find where list=$AddressList and address=142.251.36.243]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.36.243 }
+:if ([:len [find where list=$AddressList and address=142.251.37.115]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.37.115 }
+:if ([:len [find where list=$AddressList and address=142.251.37.19]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.37.19 }
 :if ([:len [find where list=$AddressList and address=142.251.38.115]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.38.115 }
 :if ([:len [find where list=$AddressList and address=142.251.38.211]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.38.211 }
 :if ([:len [find where list=$AddressList and address=142.251.38.243]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.38.243 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.66.233.68]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.233.68 }
 :if ([:len [find where list=$AddressList and address=18.66.233.76]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.233.76 }
 :if ([:len [find where list=$AddressList and address=18.66.26.112]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.26.112 }
-:if ([:len [find where list=$AddressList and address=18.66.26.2]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.26.2 }
-:if ([:len [find where list=$AddressList and address=18.66.26.21]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.26.21 }
-:if ([:len [find where list=$AddressList and address=18.66.26.62]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.26.62 }
-:if ([:len [find where list=$AddressList and address=18.66.27.124]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.27.124 }

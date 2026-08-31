@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=108.157.98.106]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.106 }
+:if ([:len [find where list=$AddressList and address=108.157.98.124]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.124 }
+:if ([:len [find where list=$AddressList and address=108.157.98.125]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.125 }
+:if ([:len [find where list=$AddressList and address=108.157.98.128]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.128 }
+:if ([:len [find where list=$AddressList and address=108.157.98.15]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.15 }
+:if ([:len [find where list=$AddressList and address=108.157.98.24]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.24 }
+:if ([:len [find where list=$AddressList and address=108.157.98.36]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.36 }
+:if ([:len [find where list=$AddressList and address=108.157.98.4]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.4 }
+:if ([:len [find where list=$AddressList and address=108.157.98.40]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.40 }
+:if ([:len [find where list=$AddressList and address=108.157.98.50]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.50 }
+:if ([:len [find where list=$AddressList and address=108.157.98.59]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.59 }
 :if ([:len [find where list=$AddressList and address=108.157.98.60]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.60 }
 :if ([:len [find where list=$AddressList and address=108.157.98.66]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.66 }
 :if ([:len [find where list=$AddressList and address=108.157.98.76]] = 0) do={ add list=$AddressList comment=viber.com address=108.157.98.76 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.224.103.6]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.6 }
 :if ([:len [find where list=$AddressList and address=13.224.103.60]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.60 }
 :if ([:len [find where list=$AddressList and address=13.224.103.62]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.62 }
-:if ([:len [find where list=$AddressList and address=13.224.103.65]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.65 }
-:if ([:len [find where list=$AddressList and address=13.224.103.67]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.67 }
-:if ([:len [find where list=$AddressList and address=13.224.103.69]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.69 }
-:if ([:len [find where list=$AddressList and address=13.224.103.70]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.70 }
-:if ([:len [find where list=$AddressList and address=13.224.103.71]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.71 }
-:if ([:len [find where list=$AddressList and address=13.224.103.78]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.78 }
-:if ([:len [find where list=$AddressList and address=13.224.103.79]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.79 }
-:if ([:len [find where list=$AddressList and address=13.224.103.8]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.8 }
-:if ([:len [find where list=$AddressList and address=13.224.103.82]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.82 }
-:if ([:len [find where list=$AddressList and address=13.224.103.83]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.83 }
-:if ([:len [find where list=$AddressList and address=13.224.103.94]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.103.94 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.169.173.81]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.81 }
+:if ([:len [find where list=$AddressList and address=3.169.173.92]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.92 }
+:if ([:len [find where list=$AddressList and address=3.169.173.94]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.94 }
+:if ([:len [find where list=$AddressList and address=3.169.173.95]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.95 }
 :if ([:len [find where list=$AddressList and address=3.170.103.100]] = 0) do={ add list=$AddressList comment=make.com address=3.170.103.100 }
 :if ([:len [find where list=$AddressList and address=3.170.103.22]] = 0) do={ add list=$AddressList comment=make.com address=3.170.103.22 }
 :if ([:len [find where list=$AddressList and address=3.170.103.68]] = 0) do={ add list=$AddressList comment=make.com address=3.170.103.68 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.19.81.144]] = 0) do={ add list=$AddressList comment=make.com address=52.19.81.144 }
 :if ([:len [find where list=$AddressList and address=52.208.130.229]] = 0) do={ add list=$AddressList comment=make.com address=52.208.130.229 }
 :if ([:len [find where list=$AddressList and address=52.208.185.44]] = 0) do={ add list=$AddressList comment=make.com address=52.208.185.44 }
-:if ([:len [find where list=$AddressList and address=52.208.83.207]] = 0) do={ add list=$AddressList comment=make.com address=52.208.83.207 }
-:if ([:len [find where list=$AddressList and address=52.209.121.99]] = 0) do={ add list=$AddressList comment=make.com address=52.209.121.99 }
-:if ([:len [find where list=$AddressList and address=52.209.138.69]] = 0) do={ add list=$AddressList comment=make.com address=52.209.138.69 }
-:if ([:len [find where list=$AddressList and address=52.209.166.49]] = 0) do={ add list=$AddressList comment=make.com address=52.209.166.49 }

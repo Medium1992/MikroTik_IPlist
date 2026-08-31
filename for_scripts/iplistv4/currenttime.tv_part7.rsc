@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=2.16.172.128]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.128 }
+:if ([:len [find where list=$AddressList and address=2.16.172.131]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.131 }
+:if ([:len [find where list=$AddressList and address=2.16.172.139]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.139 }
+:if ([:len [find where list=$AddressList and address=2.16.172.144]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.144 }
+:if ([:len [find where list=$AddressList and address=2.16.172.147]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.147 }
+:if ([:len [find where list=$AddressList and address=2.16.172.153]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.172.153 }
+:if ([:len [find where list=$AddressList and address=2.16.183.10]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.10 }
 :if ([:len [find where list=$AddressList and address=2.16.183.108]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.108 }
 :if ([:len [find where list=$AddressList and address=2.16.183.14]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.14 }
 :if ([:len [find where list=$AddressList and address=2.16.183.143]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.183.143 }
@@ -68,6 +75,7 @@
 :if ([:len [find where list=$AddressList and address=2.16.6.13]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.6.13 }
 :if ([:len [find where list=$AddressList and address=2.16.6.137]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.6.137 }
 :if ([:len [find where list=$AddressList and address=2.16.6.146]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.6.146 }
+:if ([:len [find where list=$AddressList and address=2.16.6.159]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.6.159 }
 :if ([:len [find where list=$AddressList and address=2.16.6.16]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.6.16 }
 :if ([:len [find where list=$AddressList and address=2.16.6.201]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.6.201 }
 :if ([:len [find where list=$AddressList and address=2.16.6.203]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.6.203 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.18.255.93]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.255.93 }
 :if ([:len [find where list=$AddressList and address=2.18.27.13]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.27.13 }
 :if ([:len [find where list=$AddressList and address=2.18.27.29]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.27.29 }
-:if ([:len [find where list=$AddressList and address=2.18.61.137]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.61.137 }
-:if ([:len [find where list=$AddressList and address=2.18.61.166]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.61.166 }
-:if ([:len [find where list=$AddressList and address=2.18.64.13]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.64.13 }
-:if ([:len [find where list=$AddressList and address=2.18.64.20]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.64.20 }
-:if ([:len [find where list=$AddressList and address=2.18.64.26]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.64.26 }
-:if ([:len [find where list=$AddressList and address=2.18.64.28]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.64.28 }
-:if ([:len [find where list=$AddressList and address=2.18.64.30]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.64.30 }
-:if ([:len [find where list=$AddressList and address=2.18.64.35]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.18.64.35 }

@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.121.117]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.117 }
+:if ([:len [find where list=$AddressList and address=18.165.121.123]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.123 }
+:if ([:len [find where list=$AddressList and address=18.165.121.31]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.31 }
+:if ([:len [find where list=$AddressList and address=18.165.121.84]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.84 }
+:if ([:len [find where list=$AddressList and address=18.165.121.97]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.97 }
+:if ([:len [find where list=$AddressList and address=18.165.122.101]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.122.101 }
+:if ([:len [find where list=$AddressList and address=18.165.122.116]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.122.116 }
+:if ([:len [find where list=$AddressList and address=18.165.122.120]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.122.120 }
+:if ([:len [find where list=$AddressList and address=18.165.122.121]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.122.121 }
+:if ([:len [find where list=$AddressList and address=18.165.122.127]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.122.127 }
+:if ([:len [find where list=$AddressList and address=18.165.122.14]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.122.14 }
 :if ([:len [find where list=$AddressList and address=18.165.122.15]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.122.15 }
 :if ([:len [find where list=$AddressList and address=18.165.122.18]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.122.18 }
 :if ([:len [find where list=$AddressList and address=18.165.122.22]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.122.22 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.172.242.27]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.27 }
 :if ([:len [find where list=$AddressList and address=18.172.242.29]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.29 }
 :if ([:len [find where list=$AddressList and address=18.172.242.31]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.31 }
-:if ([:len [find where list=$AddressList and address=18.172.242.38]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.38 }
-:if ([:len [find where list=$AddressList and address=18.172.242.4]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.4 }
-:if ([:len [find where list=$AddressList and address=18.172.242.40]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.40 }
-:if ([:len [find where list=$AddressList and address=18.172.242.52]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.52 }
-:if ([:len [find where list=$AddressList and address=18.172.242.53]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.53 }
-:if ([:len [find where list=$AddressList and address=18.172.242.54]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.54 }
-:if ([:len [find where list=$AddressList and address=18.172.242.56]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.56 }
-:if ([:len [find where list=$AddressList and address=18.172.242.60]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.60 }
-:if ([:len [find where list=$AddressList and address=18.172.242.69]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.69 }
-:if ([:len [find where list=$AddressList and address=18.172.242.7]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.7 }
-:if ([:len [find where list=$AddressList and address=18.172.242.70]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.70 }

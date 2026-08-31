@@ -20,6 +20,10 @@
 :if ([:len [find where list=$AddressList and address=150.171.109.100]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.100 }
 :if ([:len [find where list=$AddressList and address=150.171.109.101]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.101 }
 :if ([:len [find where list=$AddressList and address=150.171.109.103]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.103 }
+:if ([:len [find where list=$AddressList and address=150.171.109.104]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.104 }
+:if ([:len [find where list=$AddressList and address=150.171.109.105]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.105 }
+:if ([:len [find where list=$AddressList and address=150.171.109.106]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.106 }
+:if ([:len [find where list=$AddressList and address=150.171.109.107]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.107 }
 :if ([:len [find where list=$AddressList and address=150.171.109.145]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.145 }
 :if ([:len [find where list=$AddressList and address=150.171.109.146]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.146 }
 :if ([:len [find where list=$AddressList and address=150.171.109.148]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.148 }
@@ -60,11 +64,13 @@
 :if ([:len [find where list=$AddressList and address=150.171.109.82]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.82 }
 :if ([:len [find where list=$AddressList and address=150.171.109.83]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.83 }
 :if ([:len [find where list=$AddressList and address=150.171.109.98]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.98 }
+:if ([:len [find where list=$AddressList and address=150.171.109.99]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.109.99 }
 :if ([:len [find where list=$AddressList and address=150.171.110.113]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.113 }
 :if ([:len [find where list=$AddressList and address=150.171.110.114]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.114 }
 :if ([:len [find where list=$AddressList and address=150.171.110.115]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.115 }
 :if ([:len [find where list=$AddressList and address=150.171.110.116]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.116 }
 :if ([:len [find where list=$AddressList and address=150.171.110.117]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.117 }
+:if ([:len [find where list=$AddressList and address=150.171.110.120]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.120 }
 :if ([:len [find where list=$AddressList and address=150.171.110.161]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.161 }
 :if ([:len [find where list=$AddressList and address=150.171.110.195]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.195 }
 :if ([:len [find where list=$AddressList and address=150.171.110.49]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.49 }
@@ -72,6 +78,7 @@
 :if ([:len [find where list=$AddressList and address=150.171.110.52]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.52 }
 :if ([:len [find where list=$AddressList and address=150.171.110.53]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.53 }
 :if ([:len [find where list=$AddressList and address=150.171.110.54]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.54 }
+:if ([:len [find where list=$AddressList and address=150.171.110.55]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.55 }
 :if ([:len [find where list=$AddressList and address=150.171.110.56]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.110.56 }
 :if ([:len [find where list=$AddressList and address=150.171.22.11]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.22.11 }
 :if ([:len [find where list=$AddressList and address=150.171.23.11]] = 0) do={ add list=$AddressList comment=chatgpt.com address=150.171.23.11 }
@@ -173,10 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.66.27.91]] = 0) do={ add list=$AddressList comment=chatgpt.com address=18.66.27.91 }
 :if ([:len [find where list=$AddressList and address=184.105.99.79]] = 0) do={ add list=$AddressList comment=chatgpt.com address=184.105.99.79 }
 :if ([:len [find where list=$AddressList and address=188.114.98.224]] = 0) do={ add list=$AddressList comment=chatgpt.com address=188.114.98.224 }
-:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=chatgpt.com address=188.114.98.228 }
-:if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=chatgpt.com address=188.114.98.229 }
-:if ([:len [find where list=$AddressList and address=188.114.98.232]] = 0) do={ add list=$AddressList comment=chatgpt.com address=188.114.98.232 }
-:if ([:len [find where list=$AddressList and address=188.114.98.233]] = 0) do={ add list=$AddressList comment=chatgpt.com address=188.114.98.233 }
-:if ([:len [find where list=$AddressList and address=188.114.98.236]] = 0) do={ add list=$AddressList comment=chatgpt.com address=188.114.98.236 }
-:if ([:len [find where list=$AddressList and address=188.114.99.224]] = 0) do={ add list=$AddressList comment=chatgpt.com address=188.114.99.224 }
-:if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=chatgpt.com address=188.114.99.228 }

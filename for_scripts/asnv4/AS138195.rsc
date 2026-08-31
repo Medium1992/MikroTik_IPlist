@@ -34,7 +34,6 @@
 :if ([:len [find where list=$AddressList and address=156.234.95.0/24]] = 0) do={ add list=$AddressList comment=AS138195 address=156.234.95.0/24 }
 :if ([:len [find where list=$AddressList and address=162.141.84.0/24]] = 0) do={ add list=$AddressList comment=AS138195 address=162.141.84.0/24 }
 :if ([:len [find where list=$AddressList and address=162.141.86.0/23]] = 0) do={ add list=$AddressList comment=AS138195 address=162.141.86.0/23 }
-:if ([:len [find where list=$AddressList and address=172.94.64.0/24]] = 0) do={ add list=$AddressList comment=AS138195 address=172.94.64.0/24 }
 :if ([:len [find where list=$AddressList and address=180.210.224.0/19]] = 0) do={ add list=$AddressList comment=AS138195 address=180.210.224.0/19 }
 :if ([:len [find where list=$AddressList and address=185.214.103.0/24]] = 0) do={ add list=$AddressList comment=AS138195 address=185.214.103.0/24 }
 :if ([:len [find where list=$AddressList and address=193.142.6.0/24]] = 0) do={ add list=$AddressList comment=AS138195 address=193.142.6.0/24 }
@@ -62,6 +61,7 @@
 :if ([:len [find where list=$AddressList and address=49.4.136.0/21]] = 0) do={ add list=$AddressList comment=AS138195 address=49.4.136.0/21 }
 :if ([:len [find where list=$AddressList and address=49.4.144.0/20]] = 0) do={ add list=$AddressList comment=AS138195 address=49.4.144.0/20 }
 :if ([:len [find where list=$AddressList and address=49.4.176.0/23]] = 0) do={ add list=$AddressList comment=AS138195 address=49.4.176.0/23 }
+:if ([:len [find where list=$AddressList and address=50.114.232.0/24]] = 0) do={ add list=$AddressList comment=AS138195 address=50.114.232.0/24 }
 :if ([:len [find where list=$AddressList and address=58.14.8.0/21]] = 0) do={ add list=$AddressList comment=AS138195 address=58.14.8.0/21 }
 :if ([:len [find where list=$AddressList and address=61.110.23.0/24]] = 0) do={ add list=$AddressList comment=AS138195 address=61.110.23.0/24 }
 :if ([:len [find where list=$AddressList and address=61.110.27.0/24]] = 0) do={ add list=$AddressList comment=AS138195 address=61.110.27.0/24 }

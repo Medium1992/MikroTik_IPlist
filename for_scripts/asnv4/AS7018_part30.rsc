@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=12.107.176.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.107.176.0/23 }
+:if ([:len [find where list=$AddressList and address=12.107.179.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.107.179.0/24 }
+:if ([:len [find where list=$AddressList and address=12.107.180.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.107.180.0/22 }
+:if ([:len [find where list=$AddressList and address=12.107.184.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.107.184.0/23 }
 :if ([:len [find where list=$AddressList and address=12.107.186.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.107.186.0/24 }
 :if ([:len [find where list=$AddressList and address=12.107.189.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.107.189.0/24 }
 :if ([:len [find where list=$AddressList and address=12.107.190.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.107.190.0/23 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=12.12.160.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=12.12.160.0/19 }
 :if ([:len [find where list=$AddressList and address=12.12.192.0/18]] = 0) do={ add list=$AddressList comment=AS7018 address=12.12.192.0/18 }
 :if ([:len [find where list=$AddressList and address=12.12.32.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=12.12.32.0/20 }
-:if ([:len [find where list=$AddressList and address=12.12.4.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.12.4.0/22 }
-:if ([:len [find where list=$AddressList and address=12.12.48.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.12.48.0/21 }
-:if ([:len [find where list=$AddressList and address=12.12.56.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.12.56.0/22 }
-:if ([:len [find where list=$AddressList and address=12.12.60.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.12.60.0/24 }

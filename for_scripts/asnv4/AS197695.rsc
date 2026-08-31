@@ -3,7 +3,8 @@
 :if ([:len [find where list=$AddressList and address=130.49.148.0/22]] = 0) do={ add list=$AddressList comment=AS197695 address=130.49.148.0/22 }
 :if ([:len [find where list=$AddressList and address=134.0.113.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=134.0.113.0/24 }
 :if ([:len [find where list=$AddressList and address=134.0.114.0/23]] = 0) do={ add list=$AddressList comment=AS197695 address=134.0.114.0/23 }
-:if ([:len [find where list=$AddressList and address=134.0.116.0/22]] = 0) do={ add list=$AddressList comment=AS197695 address=134.0.116.0/22 }
+:if ([:len [find where list=$AddressList and address=134.0.116.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=134.0.116.0/24 }
+:if ([:len [find where list=$AddressList and address=134.0.118.0/23]] = 0) do={ add list=$AddressList comment=AS197695 address=134.0.118.0/23 }
 :if ([:len [find where list=$AddressList and address=151.248.112.0/20]] = 0) do={ add list=$AddressList comment=AS197695 address=151.248.112.0/20 }
 :if ([:len [find where list=$AddressList and address=161.104.16.0/22]] = 0) do={ add list=$AddressList comment=AS197695 address=161.104.16.0/22 }
 :if ([:len [find where list=$AddressList and address=168.222.142.0/23]] = 0) do={ add list=$AddressList comment=AS197695 address=168.222.142.0/23 }
@@ -36,10 +37,7 @@
 :if ([:len [find where list=$AddressList and address=194.58.100.0/23]] = 0) do={ add list=$AddressList comment=AS197695 address=194.58.100.0/23 }
 :if ([:len [find where list=$AddressList and address=194.58.103.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=194.58.103.0/24 }
 :if ([:len [find where list=$AddressList and address=194.58.104.0/21]] = 0) do={ add list=$AddressList comment=AS197695 address=194.58.104.0/21 }
-:if ([:len [find where list=$AddressList and address=194.58.112.0/22]] = 0) do={ add list=$AddressList comment=AS197695 address=194.58.112.0/22 }
-:if ([:len [find where list=$AddressList and address=194.58.116.0/23]] = 0) do={ add list=$AddressList comment=AS197695 address=194.58.116.0/23 }
-:if ([:len [find where list=$AddressList and address=194.58.119.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=194.58.119.0/24 }
-:if ([:len [find where list=$AddressList and address=194.58.120.0/21]] = 0) do={ add list=$AddressList comment=AS197695 address=194.58.120.0/21 }
+:if ([:len [find where list=$AddressList and address=194.58.112.0/20]] = 0) do={ add list=$AddressList comment=AS197695 address=194.58.112.0/20 }
 :if ([:len [find where list=$AddressList and address=194.58.88.0/21]] = 0) do={ add list=$AddressList comment=AS197695 address=194.58.88.0/21 }
 :if ([:len [find where list=$AddressList and address=194.58.96.0/22]] = 0) do={ add list=$AddressList comment=AS197695 address=194.58.96.0/22 }
 :if ([:len [find where list=$AddressList and address=194.67.104.0/23]] = 0) do={ add list=$AddressList comment=AS197695 address=194.67.104.0/23 }
@@ -61,6 +59,8 @@
 :if ([:len [find where list=$AddressList and address=195.19.0.0/23]] = 0) do={ add list=$AddressList comment=AS197695 address=195.19.0.0/23 }
 :if ([:len [find where list=$AddressList and address=195.19.12.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=195.19.12.0/24 }
 :if ([:len [find where list=$AddressList and address=195.19.144.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=195.19.144.0/24 }
+:if ([:len [find where list=$AddressList and address=195.19.195.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=195.19.195.0/24 }
+:if ([:len [find where list=$AddressList and address=195.19.199.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=195.19.199.0/24 }
 :if ([:len [find where list=$AddressList and address=195.19.2.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=195.19.2.0/24 }
 :if ([:len [find where list=$AddressList and address=195.19.20.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=195.19.20.0/24 }
 :if ([:len [find where list=$AddressList and address=195.19.209.0/24]] = 0) do={ add list=$AddressList comment=AS197695 address=195.19.209.0/24 }

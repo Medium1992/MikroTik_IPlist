@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.224.186.79]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.79 }
+:if ([:len [find where list=$AddressList and address=13.224.186.81]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.81 }
+:if ([:len [find where list=$AddressList and address=13.224.186.88]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.88 }
+:if ([:len [find where list=$AddressList and address=13.224.186.89]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.89 }
+:if ([:len [find where list=$AddressList and address=13.224.186.9]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.9 }
+:if ([:len [find where list=$AddressList and address=13.224.186.92]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.92 }
+:if ([:len [find where list=$AddressList and address=13.224.186.93]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.93 }
+:if ([:len [find where list=$AddressList and address=13.224.186.95]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.95 }
+:if ([:len [find where list=$AddressList and address=13.224.186.96]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.96 }
+:if ([:len [find where list=$AddressList and address=13.224.186.97]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.97 }
+:if ([:len [find where list=$AddressList and address=13.224.186.98]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.186.98 }
 :if ([:len [find where list=$AddressList and address=13.224.214.106]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.214.106 }
 :if ([:len [find where list=$AddressList and address=13.224.214.110]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.214.110 }
 :if ([:len [find where list=$AddressList and address=13.224.214.111]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.214.111 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.225.239.127]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.127 }
 :if ([:len [find where list=$AddressList and address=13.225.239.128]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.128 }
 :if ([:len [find where list=$AddressList and address=13.225.239.129]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.129 }
-:if ([:len [find where list=$AddressList and address=13.225.239.13]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.13 }
-:if ([:len [find where list=$AddressList and address=13.225.239.14]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.14 }
-:if ([:len [find where list=$AddressList and address=13.225.239.17]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.17 }
-:if ([:len [find where list=$AddressList and address=13.225.239.20]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.20 }
-:if ([:len [find where list=$AddressList and address=13.225.239.22]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.22 }
-:if ([:len [find where list=$AddressList and address=13.225.239.27]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.27 }
-:if ([:len [find where list=$AddressList and address=13.225.239.28]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.28 }
-:if ([:len [find where list=$AddressList and address=13.225.239.29]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.29 }
-:if ([:len [find where list=$AddressList and address=13.225.239.33]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.33 }
-:if ([:len [find where list=$AddressList and address=13.225.239.34]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.34 }
-:if ([:len [find where list=$AddressList and address=13.225.239.37]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.37 }

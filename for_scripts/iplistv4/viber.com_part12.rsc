@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.225.239.13]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.13 }
+:if ([:len [find where list=$AddressList and address=13.225.239.14]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.14 }
+:if ([:len [find where list=$AddressList and address=13.225.239.17]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.17 }
+:if ([:len [find where list=$AddressList and address=13.225.239.20]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.20 }
+:if ([:len [find where list=$AddressList and address=13.225.239.22]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.22 }
+:if ([:len [find where list=$AddressList and address=13.225.239.27]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.27 }
+:if ([:len [find where list=$AddressList and address=13.225.239.28]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.28 }
+:if ([:len [find where list=$AddressList and address=13.225.239.29]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.29 }
+:if ([:len [find where list=$AddressList and address=13.225.239.33]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.33 }
+:if ([:len [find where list=$AddressList and address=13.225.239.34]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.34 }
+:if ([:len [find where list=$AddressList and address=13.225.239.37]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.37 }
 :if ([:len [find where list=$AddressList and address=13.225.239.4]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.4 }
 :if ([:len [find where list=$AddressList and address=13.225.239.46]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.46 }
 :if ([:len [find where list=$AddressList and address=13.225.239.49]] = 0) do={ add list=$AddressList comment=viber.com address=13.225.239.49 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.226.175.91]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.175.91 }
 :if ([:len [find where list=$AddressList and address=13.226.175.95]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.175.95 }
 :if ([:len [find where list=$AddressList and address=13.226.175.96]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.175.96 }
-:if ([:len [find where list=$AddressList and address=13.226.2.128]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.2.128 }
-:if ([:len [find where list=$AddressList and address=13.226.2.30]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.2.30 }
-:if ([:len [find where list=$AddressList and address=13.226.2.73]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.2.73 }
-:if ([:len [find where list=$AddressList and address=13.226.2.95]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.2.95 }
-:if ([:len [find where list=$AddressList and address=13.226.209.10]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.209.10 }
-:if ([:len [find where list=$AddressList and address=13.226.209.129]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.209.129 }
-:if ([:len [find where list=$AddressList and address=13.226.209.32]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.209.32 }
-:if ([:len [find where list=$AddressList and address=13.226.209.94]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.209.94 }
-:if ([:len [find where list=$AddressList and address=13.226.238.106]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.238.106 }
-:if ([:len [find where list=$AddressList and address=13.226.238.30]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.238.30 }
-:if ([:len [find where list=$AddressList and address=13.226.238.54]] = 0) do={ add list=$AddressList comment=viber.com address=13.226.238.54 }

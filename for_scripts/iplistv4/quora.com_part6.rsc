@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=44.218.183.127]] = 0) do={ add list=$AddressList comment=quora.com address=44.218.183.127 }
+:if ([:len [find where list=$AddressList and address=44.218.30.37]] = 0) do={ add list=$AddressList comment=quora.com address=44.218.30.37 }
+:if ([:len [find where list=$AddressList and address=44.218.55.174]] = 0) do={ add list=$AddressList comment=quora.com address=44.218.55.174 }
+:if ([:len [find where list=$AddressList and address=44.219.111.48]] = 0) do={ add list=$AddressList comment=quora.com address=44.219.111.48 }
 :if ([:len [find where list=$AddressList and address=44.219.134.247]] = 0) do={ add list=$AddressList comment=quora.com address=44.219.134.247 }
 :if ([:len [find where list=$AddressList and address=44.219.149.128]] = 0) do={ add list=$AddressList comment=quora.com address=44.219.149.128 }
 :if ([:len [find where list=$AddressList and address=44.219.234.212]] = 0) do={ add list=$AddressList comment=quora.com address=44.219.234.212 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.54.78.240]] = 0) do={ add list=$AddressList comment=quora.com address=52.54.78.240 }
 :if ([:len [find where list=$AddressList and address=52.55.15.33]] = 0) do={ add list=$AddressList comment=quora.com address=52.55.15.33 }
 :if ([:len [find where list=$AddressList and address=52.55.178.220]] = 0) do={ add list=$AddressList comment=quora.com address=52.55.178.220 }
-:if ([:len [find where list=$AddressList and address=52.55.199.118]] = 0) do={ add list=$AddressList comment=quora.com address=52.55.199.118 }
-:if ([:len [find where list=$AddressList and address=52.55.223.194]] = 0) do={ add list=$AddressList comment=quora.com address=52.55.223.194 }
-:if ([:len [find where list=$AddressList and address=52.55.5.158]] = 0) do={ add list=$AddressList comment=quora.com address=52.55.5.158 }
-:if ([:len [find where list=$AddressList and address=52.55.74.193]] = 0) do={ add list=$AddressList comment=quora.com address=52.55.74.193 }

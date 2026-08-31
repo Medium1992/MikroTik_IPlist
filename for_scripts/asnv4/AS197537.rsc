@@ -6,6 +6,7 @@
 :if ([:len [find where list=$AddressList and address=103.159.80.0/23]] = 0) do={ add list=$AddressList comment=AS197537 address=103.159.80.0/23 }
 :if ([:len [find where list=$AddressList and address=103.168.154.0/23]] = 0) do={ add list=$AddressList comment=AS197537 address=103.168.154.0/23 }
 :if ([:len [find where list=$AddressList and address=103.3.167.0/24]] = 0) do={ add list=$AddressList comment=AS197537 address=103.3.167.0/24 }
+:if ([:len [find where list=$AddressList and address=103.51.88.0/23]] = 0) do={ add list=$AddressList comment=AS197537 address=103.51.88.0/23 }
 :if ([:len [find where list=$AddressList and address=103.69.2.0/24]] = 0) do={ add list=$AddressList comment=AS197537 address=103.69.2.0/24 }
 :if ([:len [find where list=$AddressList and address=103.72.195.0/24]] = 0) do={ add list=$AddressList comment=AS197537 address=103.72.195.0/24 }
 :if ([:len [find where list=$AddressList and address=109.176.203.0/24]] = 0) do={ add list=$AddressList comment=AS197537 address=109.176.203.0/24 }
@@ -96,6 +97,7 @@
 :if ([:len [find where list=$AddressList and address=45.141.130.0/24]] = 0) do={ add list=$AddressList comment=AS197537 address=45.141.130.0/24 }
 :if ([:len [find where list=$AddressList and address=45.152.178.0/23]] = 0) do={ add list=$AddressList comment=AS197537 address=45.152.178.0/23 }
 :if ([:len [find where list=$AddressList and address=46.236.240.0/24]] = 0) do={ add list=$AddressList comment=AS197537 address=46.236.240.0/24 }
+:if ([:len [find where list=$AddressList and address=61.16.40.0/21]] = 0) do={ add list=$AddressList comment=AS197537 address=61.16.40.0/21 }
 :if ([:len [find where list=$AddressList and address=64.81.162.0/24]] = 0) do={ add list=$AddressList comment=AS197537 address=64.81.162.0/24 }
 :if ([:len [find where list=$AddressList and address=77.93.88.0/24]] = 0) do={ add list=$AddressList comment=AS197537 address=77.93.88.0/24 }
 :if ([:len [find where list=$AddressList and address=82.139.226.0/24]] = 0) do={ add list=$AddressList comment=AS197537 address=82.139.226.0/24 }

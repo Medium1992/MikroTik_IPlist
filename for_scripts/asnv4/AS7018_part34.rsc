@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=12.152.106.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.152.106.0/24 }
+:if ([:len [find where list=$AddressList and address=12.152.108.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.152.108.0/22 }
+:if ([:len [find where list=$AddressList and address=12.152.112.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.152.112.0/21 }
+:if ([:len [find where list=$AddressList and address=12.152.120.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.152.120.0/22 }
 :if ([:len [find where list=$AddressList and address=12.152.124.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.152.124.0/23 }
 :if ([:len [find where list=$AddressList and address=12.152.127.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.152.127.0/24 }
 :if ([:len [find where list=$AddressList and address=12.152.128.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=12.152.128.0/19 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=12.159.56.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.56.0/21 }
 :if ([:len [find where list=$AddressList and address=12.159.64.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.64.0/20 }
 :if ([:len [find where list=$AddressList and address=12.159.8.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.8.0/22 }
-:if ([:len [find where list=$AddressList and address=12.159.80.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.80.0/24 }
-:if ([:len [find where list=$AddressList and address=12.159.82.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.82.0/23 }
-:if ([:len [find where list=$AddressList and address=12.159.84.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.84.0/22 }
-:if ([:len [find where list=$AddressList and address=12.159.88.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.88.0/21 }

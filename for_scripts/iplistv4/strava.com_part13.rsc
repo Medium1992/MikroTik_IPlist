@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.169.85.34]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.34 }
+:if ([:len [find where list=$AddressList and address=3.169.85.62]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.62 }
+:if ([:len [find where list=$AddressList and address=3.169.85.63]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.63 }
+:if ([:len [find where list=$AddressList and address=3.169.85.66]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.66 }
 :if ([:len [find where list=$AddressList and address=3.169.85.67]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.67 }
 :if ([:len [find where list=$AddressList and address=3.170.42.117]] = 0) do={ add list=$AddressList comment=strava.com address=3.170.42.117 }
 :if ([:len [find where list=$AddressList and address=3.170.42.36]] = 0) do={ add list=$AddressList comment=strava.com address=3.170.42.36 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.175.86.32]] = 0) do={ add list=$AddressList comment=strava.com address=3.175.86.32 }
 :if ([:len [find where list=$AddressList and address=3.175.86.34]] = 0) do={ add list=$AddressList comment=strava.com address=3.175.86.34 }
 :if ([:len [find where list=$AddressList and address=3.175.86.37]] = 0) do={ add list=$AddressList comment=strava.com address=3.175.86.37 }
-:if ([:len [find where list=$AddressList and address=3.175.86.64]] = 0) do={ add list=$AddressList comment=strava.com address=3.175.86.64 }
-:if ([:len [find where list=$AddressList and address=3.175.86.68]] = 0) do={ add list=$AddressList comment=strava.com address=3.175.86.68 }
-:if ([:len [find where list=$AddressList and address=3.175.86.81]] = 0) do={ add list=$AddressList comment=strava.com address=3.175.86.81 }
-:if ([:len [find where list=$AddressList and address=3.208.102.128]] = 0) do={ add list=$AddressList comment=strava.com address=3.208.102.128 }

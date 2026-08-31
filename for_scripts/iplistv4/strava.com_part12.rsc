@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.165.190.48]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.48 }
+:if ([:len [find where list=$AddressList and address=3.165.190.67]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.67 }
+:if ([:len [find where list=$AddressList and address=3.165.190.69]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.69 }
+:if ([:len [find where list=$AddressList and address=3.165.190.70]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.70 }
 :if ([:len [find where list=$AddressList and address=3.165.190.76]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.76 }
 :if ([:len [find where list=$AddressList and address=3.165.190.8]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.8 }
 :if ([:len [find where list=$AddressList and address=3.165.190.89]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.89 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.169.85.101]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.101 }
 :if ([:len [find where list=$AddressList and address=3.169.85.128]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.128 }
 :if ([:len [find where list=$AddressList and address=3.169.85.18]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.18 }
-:if ([:len [find where list=$AddressList and address=3.169.85.34]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.34 }
-:if ([:len [find where list=$AddressList and address=3.169.85.62]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.62 }
-:if ([:len [find where list=$AddressList and address=3.169.85.63]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.63 }
-:if ([:len [find where list=$AddressList and address=3.169.85.66]] = 0) do={ add list=$AddressList comment=strava.com address=3.169.85.66 }

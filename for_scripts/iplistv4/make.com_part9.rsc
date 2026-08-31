@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.230.74]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.74 }
+:if ([:len [find where list=$AddressList and address=3.164.230.81]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.81 }
+:if ([:len [find where list=$AddressList and address=3.164.230.95]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.95 }
+:if ([:len [find where list=$AddressList and address=3.164.240.101]] = 0) do={ add list=$AddressList comment=make.com address=3.164.240.101 }
 :if ([:len [find where list=$AddressList and address=3.164.240.117]] = 0) do={ add list=$AddressList comment=make.com address=3.164.240.117 }
 :if ([:len [find where list=$AddressList and address=3.164.240.120]] = 0) do={ add list=$AddressList comment=make.com address=3.164.240.120 }
 :if ([:len [find where list=$AddressList and address=3.164.240.122]] = 0) do={ add list=$AddressList comment=make.com address=3.164.240.122 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.169.173.49]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.49 }
 :if ([:len [find where list=$AddressList and address=3.169.173.64]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.64 }
 :if ([:len [find where list=$AddressList and address=3.169.173.79]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.79 }
-:if ([:len [find where list=$AddressList and address=3.169.173.81]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.81 }
-:if ([:len [find where list=$AddressList and address=3.169.173.92]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.92 }
-:if ([:len [find where list=$AddressList and address=3.169.173.94]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.94 }
-:if ([:len [find where list=$AddressList and address=3.169.173.95]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.95 }

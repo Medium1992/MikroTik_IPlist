@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.208.83.207]] = 0) do={ add list=$AddressList comment=make.com address=52.208.83.207 }
+:if ([:len [find where list=$AddressList and address=52.209.121.99]] = 0) do={ add list=$AddressList comment=make.com address=52.209.121.99 }
+:if ([:len [find where list=$AddressList and address=52.209.138.69]] = 0) do={ add list=$AddressList comment=make.com address=52.209.138.69 }
+:if ([:len [find where list=$AddressList and address=52.209.166.49]] = 0) do={ add list=$AddressList comment=make.com address=52.209.166.49 }
 :if ([:len [find where list=$AddressList and address=52.209.44.206]] = 0) do={ add list=$AddressList comment=make.com address=52.209.44.206 }
 :if ([:len [find where list=$AddressList and address=52.209.75.70]] = 0) do={ add list=$AddressList comment=make.com address=52.209.75.70 }
 :if ([:len [find where list=$AddressList and address=52.210.18.109]] = 0) do={ add list=$AddressList comment=make.com address=52.210.18.109 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.85.49.128]] = 0) do={ add list=$AddressList comment=make.com address=52.85.49.128 }
 :if ([:len [find where list=$AddressList and address=52.85.49.13]] = 0) do={ add list=$AddressList comment=make.com address=52.85.49.13 }
 :if ([:len [find where list=$AddressList and address=52.85.49.17]] = 0) do={ add list=$AddressList comment=make.com address=52.85.49.17 }
-:if ([:len [find where list=$AddressList and address=52.85.49.18]] = 0) do={ add list=$AddressList comment=make.com address=52.85.49.18 }
-:if ([:len [find where list=$AddressList and address=52.85.49.36]] = 0) do={ add list=$AddressList comment=make.com address=52.85.49.36 }
-:if ([:len [find where list=$AddressList and address=52.85.49.42]] = 0) do={ add list=$AddressList comment=make.com address=52.85.49.42 }
-:if ([:len [find where list=$AddressList and address=52.85.49.48]] = 0) do={ add list=$AddressList comment=make.com address=52.85.49.48 }

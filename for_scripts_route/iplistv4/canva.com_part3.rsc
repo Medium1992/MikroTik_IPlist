@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=18.66.102.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.102.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
+:if ([:len [/ip/route/find dst-address=18.66.102.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.102.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
+:if ([:len [/ip/route/find dst-address=18.66.147.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.147.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
+:if ([:len [/ip/route/find dst-address=18.66.147.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.147.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
 :if ([:len [/ip/route/find dst-address=18.66.147.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.147.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
 :if ([:len [/ip/route/find dst-address=18.66.147.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.147.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
 :if ([:len [/ip/route/find dst-address=18.66.171.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.171.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=3.174.46.126 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.46.126 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
 :if ([:len [/ip/route/find dst-address=3.174.46.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.46.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
 :if ([:len [/ip/route/find dst-address=3.174.46.35 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.174.46.35 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
-:if ([:len [/ip/route/find dst-address=3.175.86.124 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.175.86.124 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
-:if ([:len [/ip/route/find dst-address=3.175.86.20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.175.86.20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
-:if ([:len [/ip/route/find dst-address=3.175.86.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.175.86.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }
-:if ([:len [/ip/route/find dst-address=3.175.86.93 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.175.86.93 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=canva.com }

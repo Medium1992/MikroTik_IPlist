@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=157.240.196.16]] = 0) do={ add list=$AddressList comment=facebook.com address=157.240.196.16 }
+:if ([:len [find where list=$AddressList and address=157.240.196.17]] = 0) do={ add list=$AddressList comment=facebook.com address=157.240.196.17 }
 :if ([:len [find where list=$AddressList and address=157.240.196.175]] = 0) do={ add list=$AddressList comment=facebook.com address=157.240.196.175 }
 :if ([:len [find where list=$AddressList and address=157.240.196.2]] = 0) do={ add list=$AddressList comment=facebook.com address=157.240.196.2 }
 :if ([:len [find where list=$AddressList and address=157.240.196.200]] = 0) do={ add list=$AddressList comment=facebook.com address=157.240.196.200 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=157.240.234.2]] = 0) do={ add list=$AddressList comment=facebook.com address=157.240.234.2 }
 :if ([:len [find where list=$AddressList and address=157.240.234.35]] = 0) do={ add list=$AddressList comment=facebook.com address=157.240.234.35 }
 :if ([:len [find where list=$AddressList and address=157.240.234.37]] = 0) do={ add list=$AddressList comment=facebook.com address=157.240.234.37 }
-:if ([:len [find where list=$AddressList and address=157.240.234.39]] = 0) do={ add list=$AddressList comment=facebook.com address=157.240.234.39 }
-:if ([:len [find where list=$AddressList and address=157.240.235.39]] = 0) do={ add list=$AddressList comment=facebook.com address=157.240.235.39 }

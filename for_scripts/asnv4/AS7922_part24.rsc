@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=50.202.72.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.202.72.0/24 }
-:if ([:len [find where list=$AddressList and address=50.202.74.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.202.74.0/23 }
-:if ([:len [find where list=$AddressList and address=50.202.77.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.202.77.0/24 }
-:if ([:len [find where list=$AddressList and address=50.202.78.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.202.78.0/23 }
-:if ([:len [find where list=$AddressList and address=50.202.8.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.202.8.0/22 }
-:if ([:len [find where list=$AddressList and address=50.202.80.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.202.80.0/21 }
-:if ([:len [find where list=$AddressList and address=50.202.88.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.202.88.0/22 }
-:if ([:len [find where list=$AddressList and address=50.202.92.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.202.92.0/23 }
-:if ([:len [find where list=$AddressList and address=50.202.94.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.202.94.0/24 }
-:if ([:len [find where list=$AddressList and address=50.202.96.0/20]] = 0) do={ add list=$AddressList comment=AS7922 address=50.202.96.0/20 }
-:if ([:len [find where list=$AddressList and address=50.203.0.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.203.0.0/23 }
 :if ([:len [find where list=$AddressList and address=50.203.104.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.203.104.0/22 }
 :if ([:len [find where list=$AddressList and address=50.203.109.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.203.109.0/24 }
 :if ([:len [find where list=$AddressList and address=50.203.110.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.203.110.0/23 }
@@ -180,3 +169,14 @@
 :if ([:len [find where list=$AddressList and address=50.205.176.0/20]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.176.0/20 }
 :if ([:len [find where list=$AddressList and address=50.205.192.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.192.0/23 }
 :if ([:len [find where list=$AddressList and address=50.205.194.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.194.0/24 }
+:if ([:len [find where list=$AddressList and address=50.205.196.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.196.0/22 }
+:if ([:len [find where list=$AddressList and address=50.205.200.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.200.0/21 }
+:if ([:len [find where list=$AddressList and address=50.205.208.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.208.0/23 }
+:if ([:len [find where list=$AddressList and address=50.205.211.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.211.0/24 }
+:if ([:len [find where list=$AddressList and address=50.205.212.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.212.0/22 }
+:if ([:len [find where list=$AddressList and address=50.205.216.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.216.0/24 }
+:if ([:len [find where list=$AddressList and address=50.205.218.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.218.0/23 }
+:if ([:len [find where list=$AddressList and address=50.205.220.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.220.0/22 }
+:if ([:len [find where list=$AddressList and address=50.205.224.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.224.0/23 }
+:if ([:len [find where list=$AddressList and address=50.205.227.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.227.0/24 }
+:if ([:len [find where list=$AddressList and address=50.205.232.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.205.232.0/21 }

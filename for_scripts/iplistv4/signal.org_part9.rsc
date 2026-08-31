@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=54.192.100.89]] = 0) do={ add list=$AddressList comment=signal.org address=54.192.100.89 }
+:if ([:len [find where list=$AddressList and address=54.197.122.43]] = 0) do={ add list=$AddressList comment=signal.org address=54.197.122.43 }
+:if ([:len [find where list=$AddressList and address=54.197.76.145]] = 0) do={ add list=$AddressList comment=signal.org address=54.197.76.145 }
+:if ([:len [find where list=$AddressList and address=54.198.174.70]] = 0) do={ add list=$AddressList comment=signal.org address=54.198.174.70 }
 :if ([:len [find where list=$AddressList and address=54.205.204.165]] = 0) do={ add list=$AddressList comment=signal.org address=54.205.204.165 }
 :if ([:len [find where list=$AddressList and address=54.205.92.116]] = 0) do={ add list=$AddressList comment=signal.org address=54.205.92.116 }
 :if ([:len [find where list=$AddressList and address=54.208.101.11]] = 0) do={ add list=$AddressList comment=signal.org address=54.208.101.11 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=99.84.9.49]] = 0) do={ add list=$AddressList comment=signal.org address=99.84.9.49 }
 :if ([:len [find where list=$AddressList and address=99.84.9.99]] = 0) do={ add list=$AddressList comment=signal.org address=99.84.9.99 }
 :if ([:len [find where list=$AddressList and address=99.84.91.101]] = 0) do={ add list=$AddressList comment=signal.org address=99.84.91.101 }
-:if ([:len [find where list=$AddressList and address=99.84.91.115]] = 0) do={ add list=$AddressList comment=signal.org address=99.84.91.115 }
-:if ([:len [find where list=$AddressList and address=99.84.91.14]] = 0) do={ add list=$AddressList comment=signal.org address=99.84.91.14 }
-:if ([:len [find where list=$AddressList and address=99.84.91.2]] = 0) do={ add list=$AddressList comment=signal.org address=99.84.91.2 }
-:if ([:len [find where list=$AddressList and address=99.84.91.26]] = 0) do={ add list=$AddressList comment=signal.org address=99.84.91.26 }

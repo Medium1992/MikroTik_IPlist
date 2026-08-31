@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=95.100.111.98]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.111.98 }
+:if ([:len [find where list=$AddressList and address=95.100.111.99]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.111.99 }
+:if ([:len [find where list=$AddressList and address=95.100.133.14]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.133.14 }
+:if ([:len [find where list=$AddressList and address=95.100.133.33]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.133.33 }
+:if ([:len [find where list=$AddressList and address=95.100.146.17]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.146.17 }
+:if ([:len [find where list=$AddressList and address=95.100.146.35]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.146.35 }
+:if ([:len [find where list=$AddressList and address=95.100.158.106]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.158.106 }
+:if ([:len [find where list=$AddressList and address=95.100.158.112]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.158.112 }
+:if ([:len [find where list=$AddressList and address=95.100.158.113]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.158.113 }
+:if ([:len [find where list=$AddressList and address=95.100.158.122]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.158.122 }
+:if ([:len [find where list=$AddressList and address=95.100.195.151]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.195.151 }
 :if ([:len [find where list=$AddressList and address=95.100.195.174]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.195.174 }
 :if ([:len [find where list=$AddressList and address=95.100.195.179]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.195.179 }
 :if ([:len [find where list=$AddressList and address=95.100.200.112]] = 0) do={ add list=$AddressList comment=whoop.com address=95.100.200.112 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=96.16.88.168]] = 0) do={ add list=$AddressList comment=whoop.com address=96.16.88.168 }
 :if ([:len [find where list=$AddressList and address=96.16.88.170]] = 0) do={ add list=$AddressList comment=whoop.com address=96.16.88.170 }
 :if ([:len [find where list=$AddressList and address=96.16.88.171]] = 0) do={ add list=$AddressList comment=whoop.com address=96.16.88.171 }
-:if ([:len [find where list=$AddressList and address=96.16.88.173]] = 0) do={ add list=$AddressList comment=whoop.com address=96.16.88.173 }
-:if ([:len [find where list=$AddressList and address=96.16.88.174]] = 0) do={ add list=$AddressList comment=whoop.com address=96.16.88.174 }
-:if ([:len [find where list=$AddressList and address=96.16.88.175]] = 0) do={ add list=$AddressList comment=whoop.com address=96.16.88.175 }
-:if ([:len [find where list=$AddressList and address=96.16.88.177]] = 0) do={ add list=$AddressList comment=whoop.com address=96.16.88.177 }
-:if ([:len [find where list=$AddressList and address=96.16.88.182]] = 0) do={ add list=$AddressList comment=whoop.com address=96.16.88.182 }
-:if ([:len [find where list=$AddressList and address=98.80.61.189]] = 0) do={ add list=$AddressList comment=whoop.com address=98.80.61.189 }
-:if ([:len [find where list=$AddressList and address=98.82.84.51]] = 0) do={ add list=$AddressList comment=whoop.com address=98.82.84.51 }
-:if ([:len [find where list=$AddressList and address=98.83.100.121]] = 0) do={ add list=$AddressList comment=whoop.com address=98.83.100.121 }
-:if ([:len [find where list=$AddressList and address=98.83.169.168]] = 0) do={ add list=$AddressList comment=whoop.com address=98.83.169.168 }
-:if ([:len [find where list=$AddressList and address=98.83.238.130]] = 0) do={ add list=$AddressList comment=whoop.com address=98.83.238.130 }
-:if ([:len [find where list=$AddressList and address=98.83.61.17]] = 0) do={ add list=$AddressList comment=whoop.com address=98.83.61.17 }

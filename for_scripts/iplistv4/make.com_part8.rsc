@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.160.132.3]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.3 }
+:if ([:len [find where list=$AddressList and address=3.160.132.30]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.30 }
+:if ([:len [find where list=$AddressList and address=3.160.132.40]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.40 }
+:if ([:len [find where list=$AddressList and address=3.160.132.44]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.44 }
 :if ([:len [find where list=$AddressList and address=3.160.132.5]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.5 }
 :if ([:len [find where list=$AddressList and address=3.160.132.54]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.54 }
 :if ([:len [find where list=$AddressList and address=3.160.132.56]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.56 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.164.230.60]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.60 }
 :if ([:len [find where list=$AddressList and address=3.164.230.63]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.63 }
 :if ([:len [find where list=$AddressList and address=3.164.230.71]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.71 }
-:if ([:len [find where list=$AddressList and address=3.164.230.74]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.74 }
-:if ([:len [find where list=$AddressList and address=3.164.230.81]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.81 }
-:if ([:len [find where list=$AddressList and address=3.164.230.95]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.95 }
-:if ([:len [find where list=$AddressList and address=3.164.240.101]] = 0) do={ add list=$AddressList comment=make.com address=3.164.240.101 }

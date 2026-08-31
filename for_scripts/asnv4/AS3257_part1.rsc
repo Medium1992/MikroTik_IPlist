@@ -81,6 +81,7 @@
 :if ([:len [find where list=$AddressList and address=109.204.94.0/24]] = 0) do={ add list=$AddressList comment=AS3257 address=109.204.94.0/24 }
 :if ([:len [find where list=$AddressList and address=109.71.168.0/21]] = 0) do={ add list=$AddressList comment=AS3257 address=109.71.168.0/21 }
 :if ([:len [find where list=$AddressList and address=128.177.95.0/24]] = 0) do={ add list=$AddressList comment=AS3257 address=128.177.95.0/24 }
+:if ([:len [find where list=$AddressList and address=128.254.205.0/24]] = 0) do={ add list=$AddressList comment=AS3257 address=128.254.205.0/24 }
 :if ([:len [find where list=$AddressList and address=13.143.232.0/24]] = 0) do={ add list=$AddressList comment=AS3257 address=13.143.232.0/24 }
 :if ([:len [find where list=$AddressList and address=131.125.16.0/22]] = 0) do={ add list=$AddressList comment=AS3257 address=131.125.16.0/22 }
 :if ([:len [find where list=$AddressList and address=131.176.196.0/23]] = 0) do={ add list=$AddressList comment=AS3257 address=131.176.196.0/23 }
@@ -158,7 +159,6 @@
 :if ([:len [find where list=$AddressList and address=136.0.48.0/24]] = 0) do={ add list=$AddressList comment=AS3257 address=136.0.48.0/24 }
 :if ([:len [find where list=$AddressList and address=137.44.124.0/23]] = 0) do={ add list=$AddressList comment=AS3257 address=137.44.124.0/23 }
 :if ([:len [find where list=$AddressList and address=141.0.192.0/22]] = 0) do={ add list=$AddressList comment=AS3257 address=141.0.192.0/22 }
-:if ([:len [find where list=$AddressList and address=141.0.198.0/23]] = 0) do={ add list=$AddressList comment=AS3257 address=141.0.198.0/23 }
 :if ([:len [find where list=$AddressList and address=141.0.32.0/19]] = 0) do={ add list=$AddressList comment=AS3257 address=141.0.32.0/19 }
 :if ([:len [find where list=$AddressList and address=141.136.96.0/20]] = 0) do={ add list=$AddressList comment=AS3257 address=141.136.96.0/20 }
 :if ([:len [find where list=$AddressList and address=142.111.132.0/24]] = 0) do={ add list=$AddressList comment=AS3257 address=142.111.132.0/24 }

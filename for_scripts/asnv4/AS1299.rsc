@@ -70,7 +70,6 @@
 :if ([:len [find where list=$AddressList and address=217.74.19.0/24]] = 0) do={ add list=$AddressList comment=AS1299 address=217.74.19.0/24 }
 :if ([:len [find where list=$AddressList and address=23.234.152.0/22]] = 0) do={ add list=$AddressList comment=AS1299 address=23.234.152.0/22 }
 :if ([:len [find where list=$AddressList and address=43.228.184.0/22]] = 0) do={ add list=$AddressList comment=AS1299 address=43.228.184.0/22 }
-:if ([:len [find where list=$AddressList and address=45.13.126.0/24]] = 0) do={ add list=$AddressList comment=AS1299 address=45.13.126.0/24 }
 :if ([:len [find where list=$AddressList and address=45.134.220.0/23]] = 0) do={ add list=$AddressList comment=AS1299 address=45.134.220.0/23 }
 :if ([:len [find where list=$AddressList and address=45.145.38.0/24]] = 0) do={ add list=$AddressList comment=AS1299 address=45.145.38.0/24 }
 :if ([:len [find where list=$AddressList and address=45.148.97.0/24]] = 0) do={ add list=$AddressList comment=AS1299 address=45.148.97.0/24 }
@@ -89,7 +88,6 @@
 :if ([:len [find where list=$AddressList and address=62.115.246.0/23]] = 0) do={ add list=$AddressList comment=AS1299 address=62.115.246.0/23 }
 :if ([:len [find where list=$AddressList and address=62.115.248.0/21]] = 0) do={ add list=$AddressList comment=AS1299 address=62.115.248.0/21 }
 :if ([:len [find where list=$AddressList and address=80.239.128.0/17]] = 0) do={ add list=$AddressList comment=AS1299 address=80.239.128.0/17 }
-:if ([:len [find where list=$AddressList and address=80.91.240.0/20]] = 0) do={ add list=$AddressList comment=AS1299 address=80.91.240.0/20 }
 :if ([:len [find where list=$AddressList and address=83.168.124.0/24]] = 0) do={ add list=$AddressList comment=AS1299 address=83.168.124.0/24 }
 :if ([:len [find where list=$AddressList and address=84.245.48.0/21]] = 0) do={ add list=$AddressList comment=AS1299 address=84.245.48.0/21 }
 :if ([:len [find where list=$AddressList and address=84.245.56.0/24]] = 0) do={ add list=$AddressList comment=AS1299 address=84.245.56.0/24 }

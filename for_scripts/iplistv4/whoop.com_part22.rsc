@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.219.115.81]] = 0) do={ add list=$AddressList comment=whoop.com address=3.219.115.81 }
+:if ([:len [find where list=$AddressList and address=3.219.126.129]] = 0) do={ add list=$AddressList comment=whoop.com address=3.219.126.129 }
+:if ([:len [find where list=$AddressList and address=3.219.127.23]] = 0) do={ add list=$AddressList comment=whoop.com address=3.219.127.23 }
+:if ([:len [find where list=$AddressList and address=3.219.129.211]] = 0) do={ add list=$AddressList comment=whoop.com address=3.219.129.211 }
+:if ([:len [find where list=$AddressList and address=3.219.213.42]] = 0) do={ add list=$AddressList comment=whoop.com address=3.219.213.42 }
+:if ([:len [find where list=$AddressList and address=3.219.238.65]] = 0) do={ add list=$AddressList comment=whoop.com address=3.219.238.65 }
+:if ([:len [find where list=$AddressList and address=3.219.246.84]] = 0) do={ add list=$AddressList comment=whoop.com address=3.219.246.84 }
+:if ([:len [find where list=$AddressList and address=3.219.69.67]] = 0) do={ add list=$AddressList comment=whoop.com address=3.219.69.67 }
+:if ([:len [find where list=$AddressList and address=3.220.1.62]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.1.62 }
+:if ([:len [find where list=$AddressList and address=3.220.118.104]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.118.104 }
+:if ([:len [find where list=$AddressList and address=3.220.156.109]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.156.109 }
 :if ([:len [find where list=$AddressList and address=3.220.159.247]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.159.247 }
 :if ([:len [find where list=$AddressList and address=3.220.165.48]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.165.48 }
 :if ([:len [find where list=$AddressList and address=3.220.195.104]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.195.104 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=34.202.214.109]] = 0) do={ add list=$AddressList comment=whoop.com address=34.202.214.109 }
 :if ([:len [find where list=$AddressList and address=34.202.94.30]] = 0) do={ add list=$AddressList comment=whoop.com address=34.202.94.30 }
 :if ([:len [find where list=$AddressList and address=34.203.183.214]] = 0) do={ add list=$AddressList comment=whoop.com address=34.203.183.214 }
-:if ([:len [find where list=$AddressList and address=34.203.47.238]] = 0) do={ add list=$AddressList comment=whoop.com address=34.203.47.238 }
-:if ([:len [find where list=$AddressList and address=34.203.53.202]] = 0) do={ add list=$AddressList comment=whoop.com address=34.203.53.202 }
-:if ([:len [find where list=$AddressList and address=34.203.95.70]] = 0) do={ add list=$AddressList comment=whoop.com address=34.203.95.70 }
-:if ([:len [find where list=$AddressList and address=34.203.98.160]] = 0) do={ add list=$AddressList comment=whoop.com address=34.203.98.160 }
-:if ([:len [find where list=$AddressList and address=34.204.211.90]] = 0) do={ add list=$AddressList comment=whoop.com address=34.204.211.90 }
-:if ([:len [find where list=$AddressList and address=34.205.109.7]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.109.7 }
-:if ([:len [find where list=$AddressList and address=34.205.112.27]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.112.27 }
-:if ([:len [find where list=$AddressList and address=34.205.121.113]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.121.113 }
-:if ([:len [find where list=$AddressList and address=34.205.132.103]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.132.103 }
-:if ([:len [find where list=$AddressList and address=34.205.132.121]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.132.121 }
-:if ([:len [find where list=$AddressList and address=34.205.212.143]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.212.143 }

@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=13.35.198.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.198.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
+:if ([:len [/ip/route/find dst-address=13.35.198.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.198.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
+:if ([:len [/ip/route/find dst-address=13.35.198.30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.198.30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
+:if ([:len [/ip/route/find dst-address=13.35.198.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.198.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
+:if ([:len [/ip/route/find dst-address=13.35.198.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.198.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
+:if ([:len [/ip/route/find dst-address=13.35.198.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.35.198.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=143.204.11.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=143.204.11.100 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.100 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=143.204.11.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=143.204.11.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=176.34.229.159 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=176.34.229.159 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=176.34.247.103 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=176.34.247.103 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
 :if ([:len [/ip/route/find dst-address=176.34.67.189 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=176.34.67.189 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
-:if ([:len [/ip/route/find dst-address=176.34.69.12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=176.34.69.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
-:if ([:len [/ip/route/find dst-address=176.34.70.103 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=176.34.70.103 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
-:if ([:len [/ip/route/find dst-address=176.34.72.60 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=176.34.72.60 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
-:if ([:len [/ip/route/find dst-address=176.34.91.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=176.34.91.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
-:if ([:len [/ip/route/find dst-address=18.154.161.127 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.154.161.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }
-:if ([:len [/ip/route/find dst-address=18.154.161.128 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.154.161.128 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=miro.com }

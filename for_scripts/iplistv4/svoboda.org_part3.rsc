@@ -52,6 +52,10 @@
 :if ([:len [find where list=$AddressList and address=13.227.249.82]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.227.249.82 }
 :if ([:len [find where list=$AddressList and address=13.227.249.83]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.227.249.83 }
 :if ([:len [find where list=$AddressList and address=13.227.249.97]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.227.249.97 }
+:if ([:len [find where list=$AddressList and address=13.227.47.119]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.227.47.119 }
+:if ([:len [find where list=$AddressList and address=13.227.47.32]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.227.47.32 }
+:if ([:len [find where list=$AddressList and address=13.227.47.62]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.227.47.62 }
+:if ([:len [find where list=$AddressList and address=13.227.47.96]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.227.47.96 }
 :if ([:len [find where list=$AddressList and address=13.227.62.124]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.227.62.124 }
 :if ([:len [find where list=$AddressList and address=13.227.62.27]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.227.62.27 }
 :if ([:len [find where list=$AddressList and address=13.227.62.37]] = 0) do={ add list=$AddressList comment=svoboda.org address=13.227.62.37 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=173.222.106.165]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.165 }
 :if ([:len [find where list=$AddressList and address=173.222.106.167]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.167 }
 :if ([:len [find where list=$AddressList and address=173.222.106.168]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.168 }
-:if ([:len [find where list=$AddressList and address=173.222.106.170]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.170 }
-:if ([:len [find where list=$AddressList and address=173.222.106.171]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.171 }
-:if ([:len [find where list=$AddressList and address=173.222.106.172]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.172 }
-:if ([:len [find where list=$AddressList and address=173.222.106.173]] = 0) do={ add list=$AddressList comment=svoboda.org address=173.222.106.173 }

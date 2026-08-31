@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.1.115.66]] = 0) do={ add list=$AddressList comment=signal.org address=52.1.115.66 }
+:if ([:len [find where list=$AddressList and address=52.1.194.236]] = 0) do={ add list=$AddressList comment=signal.org address=52.1.194.236 }
+:if ([:len [find where list=$AddressList and address=52.1.34.234]] = 0) do={ add list=$AddressList comment=signal.org address=52.1.34.234 }
+:if ([:len [find where list=$AddressList and address=52.2.1.121]] = 0) do={ add list=$AddressList comment=signal.org address=52.2.1.121 }
 :if ([:len [find where list=$AddressList and address=52.2.17.120]] = 0) do={ add list=$AddressList comment=signal.org address=52.2.17.120 }
 :if ([:len [find where list=$AddressList and address=52.2.190.16]] = 0) do={ add list=$AddressList comment=signal.org address=52.2.190.16 }
 :if ([:len [find where list=$AddressList and address=52.2.206.1]] = 0) do={ add list=$AddressList comment=signal.org address=52.2.206.1 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=54.192.100.110]] = 0) do={ add list=$AddressList comment=signal.org address=54.192.100.110 }
 :if ([:len [find where list=$AddressList and address=54.192.100.12]] = 0) do={ add list=$AddressList comment=signal.org address=54.192.100.12 }
 :if ([:len [find where list=$AddressList and address=54.192.100.87]] = 0) do={ add list=$AddressList comment=signal.org address=54.192.100.87 }
-:if ([:len [find where list=$AddressList and address=54.192.100.89]] = 0) do={ add list=$AddressList comment=signal.org address=54.192.100.89 }
-:if ([:len [find where list=$AddressList and address=54.197.122.43]] = 0) do={ add list=$AddressList comment=signal.org address=54.197.122.43 }
-:if ([:len [find where list=$AddressList and address=54.197.76.145]] = 0) do={ add list=$AddressList comment=signal.org address=54.197.76.145 }
-:if ([:len [find where list=$AddressList and address=54.198.174.70]] = 0) do={ add list=$AddressList comment=signal.org address=54.198.174.70 }

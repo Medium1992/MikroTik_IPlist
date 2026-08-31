@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=50.216.230.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.230.0/23 }
-:if ([:len [find where list=$AddressList and address=50.216.232.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.232.0/22 }
-:if ([:len [find where list=$AddressList and address=50.216.236.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.236.0/24 }
-:if ([:len [find where list=$AddressList and address=50.216.239.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.239.0/24 }
-:if ([:len [find where list=$AddressList and address=50.216.24.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.24.0/21 }
-:if ([:len [find where list=$AddressList and address=50.216.240.0/20]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.240.0/20 }
-:if ([:len [find where list=$AddressList and address=50.216.32.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.32.0/22 }
-:if ([:len [find where list=$AddressList and address=50.216.37.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.37.0/24 }
-:if ([:len [find where list=$AddressList and address=50.216.38.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.38.0/23 }
-:if ([:len [find where list=$AddressList and address=50.216.40.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.40.0/24 }
-:if ([:len [find where list=$AddressList and address=50.216.42.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.42.0/23 }
 :if ([:len [find where list=$AddressList and address=50.216.44.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.44.0/22 }
 :if ([:len [find where list=$AddressList and address=50.216.48.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.48.0/24 }
 :if ([:len [find where list=$AddressList and address=50.216.50.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.216.50.0/23 }
@@ -180,3 +169,14 @@
 :if ([:len [find where list=$AddressList and address=50.220.160.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.160.0/21 }
 :if ([:len [find where list=$AddressList and address=50.220.168.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.168.0/23 }
 :if ([:len [find where list=$AddressList and address=50.220.171.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.171.0/24 }
+:if ([:len [find where list=$AddressList and address=50.220.172.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.172.0/22 }
+:if ([:len [find where list=$AddressList and address=50.220.176.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.176.0/21 }
+:if ([:len [find where list=$AddressList and address=50.220.184.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.184.0/22 }
+:if ([:len [find where list=$AddressList and address=50.220.189.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.189.0/24 }
+:if ([:len [find where list=$AddressList and address=50.220.190.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.190.0/23 }
+:if ([:len [find where list=$AddressList and address=50.220.192.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.192.0/23 }
+:if ([:len [find where list=$AddressList and address=50.220.196.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.196.0/22 }
+:if ([:len [find where list=$AddressList and address=50.220.200.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.200.0/21 }
+:if ([:len [find where list=$AddressList and address=50.220.208.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.208.0/21 }
+:if ([:len [find where list=$AddressList and address=50.220.21.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.21.0/24 }
+:if ([:len [find where list=$AddressList and address=50.220.217.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.220.217.0/24 }

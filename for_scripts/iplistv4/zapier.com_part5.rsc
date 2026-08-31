@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.61.101]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.61.101 }
+:if ([:len [find where list=$AddressList and address=18.165.61.104]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.61.104 }
+:if ([:len [find where list=$AddressList and address=18.165.61.110]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.61.110 }
+:if ([:len [find where list=$AddressList and address=18.165.61.34]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.61.34 }
 :if ([:len [find where list=$AddressList and address=18.165.61.36]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.61.36 }
 :if ([:len [find where list=$AddressList and address=18.165.61.39]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.61.39 }
 :if ([:len [find where list=$AddressList and address=18.165.61.52]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.61.52 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.239.69.116]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.69.116 }
 :if ([:len [find where list=$AddressList and address=18.239.69.4]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.69.4 }
 :if ([:len [find where list=$AddressList and address=18.239.69.45]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.69.45 }
-:if ([:len [find where list=$AddressList and address=18.239.83.100]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.83.100 }
-:if ([:len [find where list=$AddressList and address=18.239.83.17]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.83.17 }
-:if ([:len [find where list=$AddressList and address=18.239.83.31]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.83.31 }
-:if ([:len [find where list=$AddressList and address=18.239.83.92]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.83.92 }

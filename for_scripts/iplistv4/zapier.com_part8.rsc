@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.163.10.46]] = 0) do={ add list=$AddressList comment=zapier.com address=3.163.10.46 }
+:if ([:len [find where list=$AddressList and address=3.164.182.114]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.182.114 }
+:if ([:len [find where list=$AddressList and address=3.164.182.13]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.182.13 }
+:if ([:len [find where list=$AddressList and address=3.164.182.34]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.182.34 }
 :if ([:len [find where list=$AddressList and address=3.164.182.43]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.182.43 }
 :if ([:len [find where list=$AddressList and address=3.164.182.7]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.182.7 }
 :if ([:len [find where list=$AddressList and address=3.164.182.89]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.182.89 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.167.2.71]] = 0) do={ add list=$AddressList comment=zapier.com address=3.167.2.71 }
 :if ([:len [find where list=$AddressList and address=3.167.99.29]] = 0) do={ add list=$AddressList comment=zapier.com address=3.167.99.29 }
 :if ([:len [find where list=$AddressList and address=3.167.99.69]] = 0) do={ add list=$AddressList comment=zapier.com address=3.167.99.69 }
-:if ([:len [find where list=$AddressList and address=3.167.99.92]] = 0) do={ add list=$AddressList comment=zapier.com address=3.167.99.92 }
-:if ([:len [find where list=$AddressList and address=3.167.99.96]] = 0) do={ add list=$AddressList comment=zapier.com address=3.167.99.96 }
-:if ([:len [find where list=$AddressList and address=3.168.236.112]] = 0) do={ add list=$AddressList comment=zapier.com address=3.168.236.112 }
-:if ([:len [find where list=$AddressList and address=3.168.236.13]] = 0) do={ add list=$AddressList comment=zapier.com address=3.168.236.13 }

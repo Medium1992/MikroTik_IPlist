@@ -1,23 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=47.141.4.160/32]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.4.160/32 }
-:if ([:len [find where list=$AddressList and address=47.141.4.162/31]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.4.162/31 }
-:if ([:len [find where list=$AddressList and address=47.141.4.164/30]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.4.164/30 }
-:if ([:len [find where list=$AddressList and address=47.141.4.168/29]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.4.168/29 }
-:if ([:len [find where list=$AddressList and address=47.141.4.176/28]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.4.176/28 }
-:if ([:len [find where list=$AddressList and address=47.141.4.192/26]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.4.192/26 }
-:if ([:len [find where list=$AddressList and address=47.141.40.0/23]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.40.0/23 }
-:if ([:len [find where list=$AddressList and address=47.141.42.0/25]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.42.0/25 }
-:if ([:len [find where list=$AddressList and address=47.141.42.128/26]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.42.128/26 }
-:if ([:len [find where list=$AddressList and address=47.141.42.192/31]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.42.192/31 }
-:if ([:len [find where list=$AddressList and address=47.141.42.195/32]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.42.195/32 }
-:if ([:len [find where list=$AddressList and address=47.141.42.196/30]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.42.196/30 }
-:if ([:len [find where list=$AddressList and address=47.141.42.200/29]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.42.200/29 }
-:if ([:len [find where list=$AddressList and address=47.141.42.208/28]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.42.208/28 }
-:if ([:len [find where list=$AddressList and address=47.141.42.224/27]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.42.224/27 }
-:if ([:len [find where list=$AddressList and address=47.141.43.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.43.0/24 }
-:if ([:len [find where list=$AddressList and address=47.141.44.0/23]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.44.0/23 }
-:if ([:len [find where list=$AddressList and address=47.141.46.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.46.0/24 }
 :if ([:len [find where list=$AddressList and address=47.141.47.0/26]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.47.0/26 }
 :if ([:len [find where list=$AddressList and address=47.141.47.128/25]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.47.128/25 }
 :if ([:len [find where list=$AddressList and address=47.141.47.64/28]] = 0) do={ add list=$AddressList comment=AS5650 address=47.141.47.64/28 }
@@ -180,3 +162,21 @@
 :if ([:len [find where list=$AddressList and address=47.143.48.192/26]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.48.192/26 }
 :if ([:len [find where list=$AddressList and address=47.143.49.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.49.0/24 }
 :if ([:len [find where list=$AddressList and address=47.143.50.0/23]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.50.0/23 }
+:if ([:len [find where list=$AddressList and address=47.143.52.0/22]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.52.0/22 }
+:if ([:len [find where list=$AddressList and address=47.143.56.0/22]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.56.0/22 }
+:if ([:len [find where list=$AddressList and address=47.143.60.0/28]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.60.0/28 }
+:if ([:len [find where list=$AddressList and address=47.143.60.128/25]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.60.128/25 }
+:if ([:len [find where list=$AddressList and address=47.143.60.16/29]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.60.16/29 }
+:if ([:len [find where list=$AddressList and address=47.143.60.24/30]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.60.24/30 }
+:if ([:len [find where list=$AddressList and address=47.143.60.28/31]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.60.28/31 }
+:if ([:len [find where list=$AddressList and address=47.143.60.31/32]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.60.31/32 }
+:if ([:len [find where list=$AddressList and address=47.143.60.32/27]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.60.32/27 }
+:if ([:len [find where list=$AddressList and address=47.143.60.64/26]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.60.64/26 }
+:if ([:len [find where list=$AddressList and address=47.143.61.0/25]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.61.0/25 }
+:if ([:len [find where list=$AddressList and address=47.143.61.128/26]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.61.128/26 }
+:if ([:len [find where list=$AddressList and address=47.143.61.192/27]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.61.192/27 }
+:if ([:len [find where list=$AddressList and address=47.143.61.224/28]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.61.224/28 }
+:if ([:len [find where list=$AddressList and address=47.143.61.240/29]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.61.240/29 }
+:if ([:len [find where list=$AddressList and address=47.143.61.248/30]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.61.248/30 }
+:if ([:len [find where list=$AddressList and address=47.143.61.252/32]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.61.252/32 }
+:if ([:len [find where list=$AddressList and address=47.143.61.254/31]] = 0) do={ add list=$AddressList comment=AS5650 address=47.143.61.254/31 }

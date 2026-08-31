@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=143.204.160.113]] = 0) do={ add list=$AddressList comment=make.com address=143.204.160.113 }
+:if ([:len [find where list=$AddressList and address=143.204.160.12]] = 0) do={ add list=$AddressList comment=make.com address=143.204.160.12 }
+:if ([:len [find where list=$AddressList and address=143.204.160.45]] = 0) do={ add list=$AddressList comment=make.com address=143.204.160.45 }
+:if ([:len [find where list=$AddressList and address=143.204.160.66]] = 0) do={ add list=$AddressList comment=make.com address=143.204.160.66 }
 :if ([:len [find where list=$AddressList and address=143.204.194.111]] = 0) do={ add list=$AddressList comment=make.com address=143.204.194.111 }
 :if ([:len [find where list=$AddressList and address=143.204.194.29]] = 0) do={ add list=$AddressList comment=make.com address=143.204.194.29 }
 :if ([:len [find where list=$AddressList and address=143.204.194.70]] = 0) do={ add list=$AddressList comment=make.com address=143.204.194.70 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.165.140.21]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.21 }
 :if ([:len [find where list=$AddressList and address=18.165.140.22]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.22 }
 :if ([:len [find where list=$AddressList and address=18.165.140.23]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.23 }
-:if ([:len [find where list=$AddressList and address=18.165.140.26]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.26 }
-:if ([:len [find where list=$AddressList and address=18.165.140.28]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.28 }
-:if ([:len [find where list=$AddressList and address=18.165.140.36]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.36 }
-:if ([:len [find where list=$AddressList and address=18.165.140.38]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.38 }

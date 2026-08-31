@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=34.203.47.238]] = 0) do={ add list=$AddressList comment=whoop.com address=34.203.47.238 }
+:if ([:len [find where list=$AddressList and address=34.203.53.202]] = 0) do={ add list=$AddressList comment=whoop.com address=34.203.53.202 }
+:if ([:len [find where list=$AddressList and address=34.203.95.70]] = 0) do={ add list=$AddressList comment=whoop.com address=34.203.95.70 }
+:if ([:len [find where list=$AddressList and address=34.203.98.160]] = 0) do={ add list=$AddressList comment=whoop.com address=34.203.98.160 }
+:if ([:len [find where list=$AddressList and address=34.204.211.90]] = 0) do={ add list=$AddressList comment=whoop.com address=34.204.211.90 }
+:if ([:len [find where list=$AddressList and address=34.205.109.7]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.109.7 }
+:if ([:len [find where list=$AddressList and address=34.205.112.27]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.112.27 }
+:if ([:len [find where list=$AddressList and address=34.205.121.113]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.121.113 }
+:if ([:len [find where list=$AddressList and address=34.205.132.103]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.132.103 }
+:if ([:len [find where list=$AddressList and address=34.205.132.121]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.132.121 }
+:if ([:len [find where list=$AddressList and address=34.205.212.143]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.212.143 }
 :if ([:len [find where list=$AddressList and address=34.205.253.24]] = 0) do={ add list=$AddressList comment=whoop.com address=34.205.253.24 }
 :if ([:len [find where list=$AddressList and address=34.206.127.25]] = 0) do={ add list=$AddressList comment=whoop.com address=34.206.127.25 }
 :if ([:len [find where list=$AddressList and address=34.206.152.202]] = 0) do={ add list=$AddressList comment=whoop.com address=34.206.152.202 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=44.196.97.154]] = 0) do={ add list=$AddressList comment=whoop.com address=44.196.97.154 }
 :if ([:len [find where list=$AddressList and address=44.197.227.13]] = 0) do={ add list=$AddressList comment=whoop.com address=44.197.227.13 }
 :if ([:len [find where list=$AddressList and address=44.197.45.123]] = 0) do={ add list=$AddressList comment=whoop.com address=44.197.45.123 }
-:if ([:len [find where list=$AddressList and address=44.197.6.221]] = 0) do={ add list=$AddressList comment=whoop.com address=44.197.6.221 }
-:if ([:len [find where list=$AddressList and address=44.197.97.147]] = 0) do={ add list=$AddressList comment=whoop.com address=44.197.97.147 }
-:if ([:len [find where list=$AddressList and address=44.198.105.165]] = 0) do={ add list=$AddressList comment=whoop.com address=44.198.105.165 }
-:if ([:len [find where list=$AddressList and address=44.198.153.27]] = 0) do={ add list=$AddressList comment=whoop.com address=44.198.153.27 }
-:if ([:len [find where list=$AddressList and address=44.198.195.57]] = 0) do={ add list=$AddressList comment=whoop.com address=44.198.195.57 }
-:if ([:len [find where list=$AddressList and address=44.198.63.211]] = 0) do={ add list=$AddressList comment=whoop.com address=44.198.63.211 }
-:if ([:len [find where list=$AddressList and address=44.199.170.105]] = 0) do={ add list=$AddressList comment=whoop.com address=44.199.170.105 }
-:if ([:len [find where list=$AddressList and address=44.199.71.28]] = 0) do={ add list=$AddressList comment=whoop.com address=44.199.71.28 }
-:if ([:len [find where list=$AddressList and address=44.199.97.239]] = 0) do={ add list=$AddressList comment=whoop.com address=44.199.97.239 }
-:if ([:len [find where list=$AddressList and address=44.205.231.35]] = 0) do={ add list=$AddressList comment=whoop.com address=44.205.231.35 }
-:if ([:len [find where list=$AddressList and address=44.205.45.224]] = 0) do={ add list=$AddressList comment=whoop.com address=44.205.45.224 }

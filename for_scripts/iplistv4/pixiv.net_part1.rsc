@@ -80,6 +80,10 @@
 :if ([:len [find where list=$AddressList and address=13.227.219.16]] = 0) do={ add list=$AddressList comment=pixiv.net address=13.227.219.16 }
 :if ([:len [find where list=$AddressList and address=13.227.219.26]] = 0) do={ add list=$AddressList comment=pixiv.net address=13.227.219.26 }
 :if ([:len [find where list=$AddressList and address=13.227.219.56]] = 0) do={ add list=$AddressList comment=pixiv.net address=13.227.219.56 }
+:if ([:len [find where list=$AddressList and address=13.227.47.101]] = 0) do={ add list=$AddressList comment=pixiv.net address=13.227.47.101 }
+:if ([:len [find where list=$AddressList and address=13.227.47.12]] = 0) do={ add list=$AddressList comment=pixiv.net address=13.227.47.12 }
+:if ([:len [find where list=$AddressList and address=13.227.47.30]] = 0) do={ add list=$AddressList comment=pixiv.net address=13.227.47.30 }
+:if ([:len [find where list=$AddressList and address=13.227.47.37]] = 0) do={ add list=$AddressList comment=pixiv.net address=13.227.47.37 }
 :if ([:len [find where list=$AddressList and address=13.249.8.48]] = 0) do={ add list=$AddressList comment=pixiv.net address=13.249.8.48 }
 :if ([:len [find where list=$AddressList and address=13.249.8.52]] = 0) do={ add list=$AddressList comment=pixiv.net address=13.249.8.52 }
 :if ([:len [find where list=$AddressList and address=13.249.8.54]] = 0) do={ add list=$AddressList comment=pixiv.net address=13.249.8.54 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=142.251.209.51]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.209.51 }
 :if ([:len [find where list=$AddressList and address=142.251.27.121]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.27.121 }
 :if ([:len [find where list=$AddressList and address=142.251.36.179]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.36.179 }
-:if ([:len [find where list=$AddressList and address=142.251.36.211]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.36.211 }
-:if ([:len [find where list=$AddressList and address=142.251.36.243]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.36.243 }
-:if ([:len [find where list=$AddressList and address=142.251.37.115]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.37.115 }
-:if ([:len [find where list=$AddressList and address=142.251.37.19]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.37.19 }

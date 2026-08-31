@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=12.159.80.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.80.0/24 }
+:if ([:len [find where list=$AddressList and address=12.159.82.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.82.0/23 }
+:if ([:len [find where list=$AddressList and address=12.159.84.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.84.0/22 }
+:if ([:len [find where list=$AddressList and address=12.159.88.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.88.0/21 }
 :if ([:len [find where list=$AddressList and address=12.159.96.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=12.159.96.0/19 }
 :if ([:len [find where list=$AddressList and address=12.16.0.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=12.16.0.0/20 }
 :if ([:len [find where list=$AddressList and address=12.16.100.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.16.100.0/22 }
@@ -32,7 +36,10 @@
 :if ([:len [find where list=$AddressList and address=12.160.227.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.227.0/24 }
 :if ([:len [find where list=$AddressList and address=12.160.228.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.228.0/22 }
 :if ([:len [find where list=$AddressList and address=12.160.232.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.232.0/21 }
-:if ([:len [find where list=$AddressList and address=12.160.240.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.240.0/20 }
+:if ([:len [find where list=$AddressList and address=12.160.240.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.240.0/21 }
+:if ([:len [find where list=$AddressList and address=12.160.249.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.249.0/24 }
+:if ([:len [find where list=$AddressList and address=12.160.250.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.250.0/23 }
+:if ([:len [find where list=$AddressList and address=12.160.252.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.252.0/22 }
 :if ([:len [find where list=$AddressList and address=12.160.65.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.65.0/24 }
 :if ([:len [find where list=$AddressList and address=12.160.66.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.66.0/23 }
 :if ([:len [find where list=$AddressList and address=12.160.68.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.160.68.0/22 }
@@ -173,10 +180,3 @@
 :if ([:len [find where list=$AddressList and address=12.166.242.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.166.242.0/24 }
 :if ([:len [find where list=$AddressList and address=12.166.244.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.166.244.0/22 }
 :if ([:len [find where list=$AddressList and address=12.166.248.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.166.248.0/21 }
-:if ([:len [find where list=$AddressList and address=12.166.32.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.166.32.0/21 }
-:if ([:len [find where list=$AddressList and address=12.166.40.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.166.40.0/22 }
-:if ([:len [find where list=$AddressList and address=12.166.44.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.166.44.0/23 }
-:if ([:len [find where list=$AddressList and address=12.166.47.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.166.47.0/24 }
-:if ([:len [find where list=$AddressList and address=12.166.48.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=12.166.48.0/20 }
-:if ([:len [find where list=$AddressList and address=12.166.64.0/18]] = 0) do={ add list=$AddressList comment=AS7018 address=12.166.64.0/18 }
-:if ([:len [find where list=$AddressList and address=12.167.0.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.167.0.0/22 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.245.46.77]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.46.77 }
+:if ([:len [find where list=$AddressList and address=18.245.60.30]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.60.30 }
+:if ([:len [find where list=$AddressList and address=18.245.60.45]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.60.45 }
+:if ([:len [find where list=$AddressList and address=18.245.60.81]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.60.81 }
 :if ([:len [find where list=$AddressList and address=18.245.60.85]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.60.85 }
 :if ([:len [find where list=$AddressList and address=18.245.86.2]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.86.2 }
 :if ([:len [find where list=$AddressList and address=18.245.86.38]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.86.38 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.66.27.99]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.27.99 }
 :if ([:len [find where list=$AddressList and address=18.67.13.10]] = 0) do={ add list=$AddressList comment=strava.com address=18.67.13.10 }
 :if ([:len [find where list=$AddressList and address=18.67.13.109]] = 0) do={ add list=$AddressList comment=strava.com address=18.67.13.109 }
-:if ([:len [find where list=$AddressList and address=18.67.13.110]] = 0) do={ add list=$AddressList comment=strava.com address=18.67.13.110 }
-:if ([:len [find where list=$AddressList and address=18.67.13.123]] = 0) do={ add list=$AddressList comment=strava.com address=18.67.13.123 }
-:if ([:len [find where list=$AddressList and address=18.67.13.14]] = 0) do={ add list=$AddressList comment=strava.com address=18.67.13.14 }
-:if ([:len [find where list=$AddressList and address=18.67.13.30]] = 0) do={ add list=$AddressList comment=strava.com address=18.67.13.30 }

@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=71.63.5.67/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=71.63.5.67/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
+:if ([:len [/ip/route/find dst-address=71.63.5.68/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=71.63.5.68/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
+:if ([:len [/ip/route/find dst-address=71.63.5.72/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=71.63.5.72/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
+:if ([:len [/ip/route/find dst-address=71.63.5.80/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=71.63.5.80/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
+:if ([:len [/ip/route/find dst-address=71.63.5.96/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=71.63.5.96/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
+:if ([:len [/ip/route/find dst-address=71.63.6.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=71.63.6.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
 :if ([:len [/ip/route/find dst-address=71.63.64.0/19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=71.63.64.0/19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
 :if ([:len [/ip/route/find dst-address=71.63.8.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=71.63.8.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
 :if ([:len [/ip/route/find dst-address=71.63.96.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=71.63.96.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=73.10.60.128/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=73.10.60.128/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
 :if ([:len [/ip/route/find dst-address=73.10.60.192/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=73.10.60.192/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
 :if ([:len [/ip/route/find dst-address=73.10.60.209/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=73.10.60.209/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=73.10.60.210/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=73.10.60.210/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=73.10.60.212/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=73.10.60.212/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=73.10.60.216/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=73.10.60.216/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=73.10.60.224/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=73.10.60.224/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=73.10.61.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=73.10.61.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }
-:if ([:len [/ip/route/find dst-address=73.10.62.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=73.10.62.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS7922 }

@@ -165,7 +165,9 @@
 :if ([:len [find where list=$AddressList and address=176.58.46.219]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.46.219 }
 :if ([:len [find where list=$AddressList and address=176.58.48.48]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.48.48 }
 :if ([:len [find where list=$AddressList and address=176.58.48.50]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.48.50 }
+:if ([:len [find where list=$AddressList and address=176.58.48.71]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.48.71 }
 :if ([:len [find where list=$AddressList and address=176.58.48.8]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.48.8 }
+:if ([:len [find where list=$AddressList and address=176.58.48.85]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.48.85 }
 :if ([:len [find where list=$AddressList and address=176.58.50.107]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.50.107 }
 :if ([:len [find where list=$AddressList and address=176.58.50.11]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.50.11 }
 :if ([:len [find where list=$AddressList and address=176.58.50.115]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.50.115 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=176.58.50.187]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.50.187 }
 :if ([:len [find where list=$AddressList and address=176.58.50.195]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.50.195 }
 :if ([:len [find where list=$AddressList and address=176.58.50.197]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.50.197 }
-:if ([:len [find where list=$AddressList and address=176.58.50.219]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.50.219 }
-:if ([:len [find where list=$AddressList and address=176.58.50.227]] = 0) do={ add list=$AddressList comment=hdrezka.ag address=176.58.50.227 }

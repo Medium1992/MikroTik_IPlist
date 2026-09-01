@@ -1,6 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=58.147.0.0/17 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=58.2.0.0/17 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=59.155.0.0/16 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=60.200.0.0/16 } on-error={}
@@ -164,6 +163,8 @@
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.246.43.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.92.240.0/22 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.92.40.0/24 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.92.42.0/24 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.92.47.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=92.118.39.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=92.242.62.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=92.255.57.0/24 } on-error={}
@@ -182,6 +183,7 @@
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=93.119.120.0/23 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=93.123.109.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=93.152.219.0/24 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=93.152.221.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=93.152.223.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=93.177.76.0/22 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=93.187.128.0/22 } on-error={}

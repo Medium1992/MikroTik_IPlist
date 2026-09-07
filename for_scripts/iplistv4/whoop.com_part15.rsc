@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=23.199.75.33]] = 0) do={ add list=$AddressList comment=whoop.com address=23.199.75.33 }
+:if ([:len [find where list=$AddressList and address=23.199.75.73]] = 0) do={ add list=$AddressList comment=whoop.com address=23.199.75.73 }
+:if ([:len [find where list=$AddressList and address=23.199.75.88]] = 0) do={ add list=$AddressList comment=whoop.com address=23.199.75.88 }
+:if ([:len [find where list=$AddressList and address=23.20.131.250]] = 0) do={ add list=$AddressList comment=whoop.com address=23.20.131.250 }
 :if ([:len [find where list=$AddressList and address=23.20.90.232]] = 0) do={ add list=$AddressList comment=whoop.com address=23.20.90.232 }
 :if ([:len [find where list=$AddressList and address=23.200.24.105]] = 0) do={ add list=$AddressList comment=whoop.com address=23.200.24.105 }
 :if ([:len [find where list=$AddressList and address=23.200.24.120]] = 0) do={ add list=$AddressList comment=whoop.com address=23.200.24.120 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=23.3.88.216]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.88.216 }
 :if ([:len [find where list=$AddressList and address=23.3.88.217]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.88.217 }
 :if ([:len [find where list=$AddressList and address=23.3.88.25]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.88.25 }
-:if ([:len [find where list=$AddressList and address=23.3.88.27]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.88.27 }
-:if ([:len [find where list=$AddressList and address=23.3.88.32]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.88.32 }
-:if ([:len [find where list=$AddressList and address=23.3.88.49]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.88.49 }
-:if ([:len [find where list=$AddressList and address=23.3.88.8]] = 0) do={ add list=$AddressList comment=whoop.com address=23.3.88.8 }

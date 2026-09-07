@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.64.119.9]] = 0) do={ add list=$AddressList comment=make.com address=18.64.119.9 }
+:if ([:len [find where list=$AddressList and address=18.64.119.90]] = 0) do={ add list=$AddressList comment=make.com address=18.64.119.90 }
+:if ([:len [find where list=$AddressList and address=18.64.119.91]] = 0) do={ add list=$AddressList comment=make.com address=18.64.119.91 }
+:if ([:len [find where list=$AddressList and address=18.65.229.115]] = 0) do={ add list=$AddressList comment=make.com address=18.65.229.115 }
 :if ([:len [find where list=$AddressList and address=18.65.229.26]] = 0) do={ add list=$AddressList comment=make.com address=18.65.229.26 }
 :if ([:len [find where list=$AddressList and address=18.65.229.83]] = 0) do={ add list=$AddressList comment=make.com address=18.65.229.83 }
 :if ([:len [find where list=$AddressList and address=18.65.229.89]] = 0) do={ add list=$AddressList comment=make.com address=18.65.229.89 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.160.132.106]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.106 }
 :if ([:len [find where list=$AddressList and address=3.160.132.112]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.112 }
 :if ([:len [find where list=$AddressList and address=3.160.132.113]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.113 }
-:if ([:len [find where list=$AddressList and address=3.160.132.14]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.14 }
-:if ([:len [find where list=$AddressList and address=3.160.132.2]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.2 }
-:if ([:len [find where list=$AddressList and address=3.160.132.21]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.21 }
-:if ([:len [find where list=$AddressList and address=3.160.132.22]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.22 }

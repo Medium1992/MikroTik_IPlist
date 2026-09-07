@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=42.119.209.211]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.209.211 }
+:if ([:len [find where list=$AddressList and address=42.119.210.13]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.13 }
+:if ([:len [find where list=$AddressList and address=42.119.210.14]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.14 }
+:if ([:len [find where list=$AddressList and address=42.119.210.141]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.141 }
+:if ([:len [find where list=$AddressList and address=42.119.210.145]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.145 }
+:if ([:len [find where list=$AddressList and address=42.119.210.146]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.146 }
+:if ([:len [find where list=$AddressList and address=42.119.210.147]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.147 }
+:if ([:len [find where list=$AddressList and address=42.119.210.15]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.15 }
+:if ([:len [find where list=$AddressList and address=42.119.210.16]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.16 }
+:if ([:len [find where list=$AddressList and address=42.119.210.18]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.18 }
 :if ([:len [find where list=$AddressList and address=42.119.210.19]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.19 }
 :if ([:len [find where list=$AddressList and address=42.119.210.206]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.206 }
 :if ([:len [find where list=$AddressList and address=42.119.210.207]] = 0) do={ add list=$AddressList comment=youtube.com address=42.119.210.207 }
@@ -170,13 +180,3 @@
 :if ([:len [find where list=$AddressList and address=47.88.58.234]] = 0) do={ add list=$AddressList comment=youtube.com address=47.88.58.234 }
 :if ([:len [find where list=$AddressList and address=49.206.251.76]] = 0) do={ add list=$AddressList comment=youtube.com address=49.206.251.76 }
 :if ([:len [find where list=$AddressList and address=49.206.251.77]] = 0) do={ add list=$AddressList comment=youtube.com address=49.206.251.77 }
-:if ([:len [find where list=$AddressList and address=49.206.251.78]] = 0) do={ add list=$AddressList comment=youtube.com address=49.206.251.78 }
-:if ([:len [find where list=$AddressList and address=49.206.251.80]] = 0) do={ add list=$AddressList comment=youtube.com address=49.206.251.80 }
-:if ([:len [find where list=$AddressList and address=49.231.101.44]] = 0) do={ add list=$AddressList comment=youtube.com address=49.231.101.44 }
-:if ([:len [find where list=$AddressList and address=49.231.101.45]] = 0) do={ add list=$AddressList comment=youtube.com address=49.231.101.45 }
-:if ([:len [find where list=$AddressList and address=49.231.101.48]] = 0) do={ add list=$AddressList comment=youtube.com address=49.231.101.48 }
-:if ([:len [find where list=$AddressList and address=49.231.101.49]] = 0) do={ add list=$AddressList comment=youtube.com address=49.231.101.49 }
-:if ([:len [find where list=$AddressList and address=49.231.101.50]] = 0) do={ add list=$AddressList comment=youtube.com address=49.231.101.50 }
-:if ([:len [find where list=$AddressList and address=49.231.103.44]] = 0) do={ add list=$AddressList comment=youtube.com address=49.231.103.44 }
-:if ([:len [find where list=$AddressList and address=49.231.103.45]] = 0) do={ add list=$AddressList comment=youtube.com address=49.231.103.45 }
-:if ([:len [find where list=$AddressList and address=49.231.103.47]] = 0) do={ add list=$AddressList comment=youtube.com address=49.231.103.47 }

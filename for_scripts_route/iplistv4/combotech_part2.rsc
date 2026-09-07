@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=172.67.43.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.67.43.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
+:if ([:len [/ip/route/find dst-address=172.67.5.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.67.5.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
+:if ([:len [/ip/route/find dst-address=188.114.98.224 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.98.224 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
+:if ([:len [/ip/route/find dst-address=188.114.98.228 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.98.228 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
+:if ([:len [/ip/route/find dst-address=188.114.98.229 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.98.229 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
+:if ([:len [/ip/route/find dst-address=188.114.98.232 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.98.232 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
 :if ([:len [/ip/route/find dst-address=188.114.98.236 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.98.236 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
 :if ([:len [/ip/route/find dst-address=188.114.99.224 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.99.224 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
 :if ([:len [/ip/route/find dst-address=188.114.99.228 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.114.99.228 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }

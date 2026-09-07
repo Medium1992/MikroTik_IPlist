@@ -123,7 +123,9 @@
 :if ([:len [find where list=$AddressList and address=187.124.96.0/20]] = 0) do={ add list=$AddressList comment=AS47583 address=187.124.96.0/20 }
 :if ([:len [find where list=$AddressList and address=187.127.0.0/16]] = 0) do={ add list=$AddressList comment=AS47583 address=187.127.0.0/16 }
 :if ([:len [find where list=$AddressList and address=187.52.112.0/20]] = 0) do={ add list=$AddressList comment=AS47583 address=187.52.112.0/20 }
+:if ([:len [find where list=$AddressList and address=187.53.128.0/20]] = 0) do={ add list=$AddressList comment=AS47583 address=187.53.128.0/20 }
 :if ([:len [find where list=$AddressList and address=187.55.224.0/20]] = 0) do={ add list=$AddressList comment=AS47583 address=187.55.224.0/20 }
+:if ([:len [find where list=$AddressList and address=187.7.16.0/20]] = 0) do={ add list=$AddressList comment=AS47583 address=187.7.16.0/20 }
 :if ([:len [find where list=$AddressList and address=187.77.0.0/18]] = 0) do={ add list=$AddressList comment=AS47583 address=187.77.0.0/18 }
 :if ([:len [find where list=$AddressList and address=187.77.108.0/22]] = 0) do={ add list=$AddressList comment=AS47583 address=187.77.108.0/22 }
 :if ([:len [find where list=$AddressList and address=187.77.112.0/20]] = 0) do={ add list=$AddressList comment=AS47583 address=187.77.112.0/20 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=194.195.92.0/24]] = 0) do={ add list=$AddressList comment=AS47583 address=194.195.92.0/24 }
 :if ([:len [find where list=$AddressList and address=194.238.16.0/21]] = 0) do={ add list=$AddressList comment=AS47583 address=194.238.16.0/21 }
 :if ([:len [find where list=$AddressList and address=194.31.150.0/24]] = 0) do={ add list=$AddressList comment=AS47583 address=194.31.150.0/24 }
-:if ([:len [find where list=$AddressList and address=194.31.52.0/23]] = 0) do={ add list=$AddressList comment=AS47583 address=194.31.52.0/23 }
-:if ([:len [find where list=$AddressList and address=194.31.55.0/24]] = 0) do={ add list=$AddressList comment=AS47583 address=194.31.55.0/24 }

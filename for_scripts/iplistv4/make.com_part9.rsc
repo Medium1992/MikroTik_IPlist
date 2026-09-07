@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.230.48]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.48 }
+:if ([:len [find where list=$AddressList and address=3.164.230.60]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.60 }
+:if ([:len [find where list=$AddressList and address=3.164.230.63]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.63 }
+:if ([:len [find where list=$AddressList and address=3.164.230.71]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.71 }
 :if ([:len [find where list=$AddressList and address=3.164.230.74]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.74 }
 :if ([:len [find where list=$AddressList and address=3.164.230.81]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.81 }
 :if ([:len [find where list=$AddressList and address=3.164.230.95]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.95 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.169.173.13]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.13 }
 :if ([:len [find where list=$AddressList and address=3.169.173.16]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.16 }
 :if ([:len [find where list=$AddressList and address=3.169.173.3]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.3 }
-:if ([:len [find where list=$AddressList and address=3.169.173.38]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.38 }
-:if ([:len [find where list=$AddressList and address=3.169.173.49]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.49 }
-:if ([:len [find where list=$AddressList and address=3.169.173.64]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.64 }
-:if ([:len [find where list=$AddressList and address=3.169.173.79]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.79 }

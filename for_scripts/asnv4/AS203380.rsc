@@ -17,12 +17,14 @@
 :if ([:len [find where list=$AddressList and address=185.183.181.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=185.183.181.0/24 }
 :if ([:len [find where list=$AddressList and address=185.214.99.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=185.214.99.0/24 }
 :if ([:len [find where list=$AddressList and address=185.223.252.0/23]] = 0) do={ add list=$AddressList comment=AS203380 address=185.223.252.0/23 }
+:if ([:len [find where list=$AddressList and address=193.36.236.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=193.36.236.0/24 }
 :if ([:len [find where list=$AddressList and address=194.107.163.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=194.107.163.0/24 }
 :if ([:len [find where list=$AddressList and address=194.110.87.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=194.110.87.0/24 }
 :if ([:len [find where list=$AddressList and address=194.233.103.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=194.233.103.0/24 }
 :if ([:len [find where list=$AddressList and address=194.35.12.0/23]] = 0) do={ add list=$AddressList comment=AS203380 address=194.35.12.0/23 }
 :if ([:len [find where list=$AddressList and address=194.60.86.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=194.60.86.0/24 }
 :if ([:len [find where list=$AddressList and address=195.179.203.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=195.179.203.0/24 }
+:if ([:len [find where list=$AddressList and address=217.217.227.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=217.217.227.0/24 }
 :if ([:len [find where list=$AddressList and address=217.217.28.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=217.217.28.0/24 }
 :if ([:len [find where list=$AddressList and address=23.230.223.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=23.230.223.0/24 }
 :if ([:len [find where list=$AddressList and address=31.22.10.0/24]] = 0) do={ add list=$AddressList comment=AS203380 address=31.22.10.0/24 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.160.132.14]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.14 }
+:if ([:len [find where list=$AddressList and address=3.160.132.2]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.2 }
+:if ([:len [find where list=$AddressList and address=3.160.132.21]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.21 }
+:if ([:len [find where list=$AddressList and address=3.160.132.22]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.22 }
 :if ([:len [find where list=$AddressList and address=3.160.132.3]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.3 }
 :if ([:len [find where list=$AddressList and address=3.160.132.30]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.30 }
 :if ([:len [find where list=$AddressList and address=3.160.132.40]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.40 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.164.230.31]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.31 }
 :if ([:len [find where list=$AddressList and address=3.164.230.40]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.40 }
 :if ([:len [find where list=$AddressList and address=3.164.230.42]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.42 }
-:if ([:len [find where list=$AddressList and address=3.164.230.48]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.48 }
-:if ([:len [find where list=$AddressList and address=3.164.230.60]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.60 }
-:if ([:len [find where list=$AddressList and address=3.164.230.63]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.63 }
-:if ([:len [find where list=$AddressList and address=3.164.230.71]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.71 }

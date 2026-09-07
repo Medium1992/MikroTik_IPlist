@@ -12,12 +12,14 @@
 :if ([:len [find where list=$AddressList and address=188.114.96.2]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.2 }
 :if ([:len [find where list=$AddressList and address=188.114.96.3]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.3 }
 :if ([:len [find where list=$AddressList and address=188.114.96.4]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.4 }
+:if ([:len [find where list=$AddressList and address=188.114.96.9]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.96.9 }
 :if ([:len [find where list=$AddressList and address=188.114.97.0]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.0 }
 :if ([:len [find where list=$AddressList and address=188.114.97.10]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.10 }
 :if ([:len [find where list=$AddressList and address=188.114.97.12]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.12 }
 :if ([:len [find where list=$AddressList and address=188.114.97.2]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.2 }
 :if ([:len [find where list=$AddressList and address=188.114.97.3]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.3 }
 :if ([:len [find where list=$AddressList and address=188.114.97.4]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.4 }
+:if ([:len [find where list=$AddressList and address=188.114.97.9]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=188.114.97.9 }
 :if ([:len [find where list=$AddressList and address=194.67.71.107]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.107 }
 :if ([:len [find where list=$AddressList and address=194.67.71.108]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.108 }
 :if ([:len [find where list=$AddressList and address=194.67.71.152]] = 0) do={ add list=$AddressList comment=paperpaper.ru address=194.67.71.152 }

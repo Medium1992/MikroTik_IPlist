@@ -11,8 +11,10 @@
 :if ([:len [find where list=$AddressList and address=216.198.51.3]] = 0) do={ add list=$AddressList comment=elevenlabs.io address=216.198.51.3 }
 :if ([:len [find where list=$AddressList and address=216.198.52.3]] = 0) do={ add list=$AddressList comment=elevenlabs.io address=216.198.52.3 }
 :if ([:len [find where list=$AddressList and address=216.198.53.1]] = 0) do={ add list=$AddressList comment=elevenlabs.io address=216.198.53.1 }
+:if ([:len [find where list=$AddressList and address=216.198.53.2]] = 0) do={ add list=$AddressList comment=elevenlabs.io address=216.198.53.2 }
 :if ([:len [find where list=$AddressList and address=216.198.53.6]] = 0) do={ add list=$AddressList comment=elevenlabs.io address=216.198.53.6 }
 :if ([:len [find where list=$AddressList and address=216.198.54.1]] = 0) do={ add list=$AddressList comment=elevenlabs.io address=216.198.54.1 }
+:if ([:len [find where list=$AddressList and address=216.198.54.2]] = 0) do={ add list=$AddressList comment=elevenlabs.io address=216.198.54.2 }
 :if ([:len [find where list=$AddressList and address=216.198.54.6]] = 0) do={ add list=$AddressList comment=elevenlabs.io address=216.198.54.6 }
 :if ([:len [find where list=$AddressList and address=216.239.36.54]] = 0) do={ add list=$AddressList comment=elevenlabs.io address=216.239.36.54 }
 :if ([:len [find where list=$AddressList and address=34.160.99.201]] = 0) do={ add list=$AddressList comment=elevenlabs.io address=34.160.99.201 }

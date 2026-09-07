@@ -12,7 +12,6 @@
 :if ([:len [find where list=$AddressList and address=103.37.44.0/23]] = 0) do={ add list=$AddressList comment=AS23650 address=103.37.44.0/23 }
 :if ([:len [find where list=$AddressList and address=103.37.46.0/24]] = 0) do={ add list=$AddressList comment=AS23650 address=103.37.46.0/24 }
 :if ([:len [find where list=$AddressList and address=103.56.152.0/22]] = 0) do={ add list=$AddressList comment=AS23650 address=103.56.152.0/22 }
-:if ([:len [find where list=$AddressList and address=103.69.16.0/22]] = 0) do={ add list=$AddressList comment=AS23650 address=103.69.16.0/22 }
 :if ([:len [find where list=$AddressList and address=103.71.69.0/24]] = 0) do={ add list=$AddressList comment=AS23650 address=103.71.69.0/24 }
 :if ([:len [find where list=$AddressList and address=103.71.70.0/23]] = 0) do={ add list=$AddressList comment=AS23650 address=103.71.70.0/23 }
 :if ([:len [find where list=$AddressList and address=103.73.116.0/22]] = 0) do={ add list=$AddressList comment=AS23650 address=103.73.116.0/22 }
@@ -27,7 +26,6 @@
 :if ([:len [find where list=$AddressList and address=118.184.248.0/21]] = 0) do={ add list=$AddressList comment=AS23650 address=118.184.248.0/21 }
 :if ([:len [find where list=$AddressList and address=144.48.212.0/22]] = 0) do={ add list=$AddressList comment=AS23650 address=144.48.212.0/22 }
 :if ([:len [find where list=$AddressList and address=160.202.212.0/22]] = 0) do={ add list=$AddressList comment=AS23650 address=160.202.212.0/22 }
-:if ([:len [find where list=$AddressList and address=160.25.194.0/23]] = 0) do={ add list=$AddressList comment=AS23650 address=160.25.194.0/23 }
 :if ([:len [find where list=$AddressList and address=180.101.198.0/24]] = 0) do={ add list=$AddressList comment=AS23650 address=180.101.198.0/24 }
 :if ([:len [find where list=$AddressList and address=180.210.213.0/24]] = 0) do={ add list=$AddressList comment=AS23650 address=180.210.213.0/24 }
 :if ([:len [find where list=$AddressList and address=180.97.172.0/24]] = 0) do={ add list=$AddressList comment=AS23650 address=180.97.172.0/24 }

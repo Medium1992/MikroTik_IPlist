@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=96.241.30.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=96.241.30.0/23 }
-:if ([:len [find where list=$AddressList and address=96.241.32.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=96.241.32.0/21 }
-:if ([:len [find where list=$AddressList and address=96.241.40.0/22]] = 0) do={ add list=$AddressList comment=AS701 address=96.241.40.0/22 }
-:if ([:len [find where list=$AddressList and address=96.241.44.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=96.241.44.0/23 }
 :if ([:len [find where list=$AddressList and address=96.241.46.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=96.241.46.0/24 }
 :if ([:len [find where list=$AddressList and address=96.241.47.0/28]] = 0) do={ add list=$AddressList comment=AS701 address=96.241.47.0/28 }
 :if ([:len [find where list=$AddressList and address=96.241.47.128/25]] = 0) do={ add list=$AddressList comment=AS701 address=96.241.47.128/25 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=96.244.64.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=96.244.64.0/21 }
 :if ([:len [find where list=$AddressList and address=96.244.72.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=96.244.72.0/23 }
 :if ([:len [find where list=$AddressList and address=96.244.74.0/27]] = 0) do={ add list=$AddressList comment=AS701 address=96.244.74.0/27 }
+:if ([:len [find where list=$AddressList and address=96.244.74.128/25]] = 0) do={ add list=$AddressList comment=AS701 address=96.244.74.128/25 }
+:if ([:len [find where list=$AddressList and address=96.244.74.32/31]] = 0) do={ add list=$AddressList comment=AS701 address=96.244.74.32/31 }
+:if ([:len [find where list=$AddressList and address=96.244.74.35/32]] = 0) do={ add list=$AddressList comment=AS701 address=96.244.74.35/32 }
+:if ([:len [find where list=$AddressList and address=96.244.74.36/30]] = 0) do={ add list=$AddressList comment=AS701 address=96.244.74.36/30 }

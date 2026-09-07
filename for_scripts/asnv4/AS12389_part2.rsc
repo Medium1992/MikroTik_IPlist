@@ -100,9 +100,7 @@
 :if ([:len [find where list=$AddressList and address=212.220.220.0/23]] = 0) do={ add list=$AddressList comment=AS12389 address=212.220.220.0/23 }
 :if ([:len [find where list=$AddressList and address=212.220.224.0/19]] = 0) do={ add list=$AddressList comment=AS12389 address=212.220.224.0/19 }
 :if ([:len [find where list=$AddressList and address=212.26.236.0/24]] = 0) do={ add list=$AddressList comment=AS12389 address=212.26.236.0/24 }
-:if ([:len [find where list=$AddressList and address=212.3.128.0/24]] = 0) do={ add list=$AddressList comment=AS12389 address=212.3.128.0/24 }
 :if ([:len [find where list=$AddressList and address=212.3.140.0/24]] = 0) do={ add list=$AddressList comment=AS12389 address=212.3.140.0/24 }
-:if ([:len [find where list=$AddressList and address=212.3.144.0/24]] = 0) do={ add list=$AddressList comment=AS12389 address=212.3.144.0/24 }
 :if ([:len [find where list=$AddressList and address=212.3.157.0/24]] = 0) do={ add list=$AddressList comment=AS12389 address=212.3.157.0/24 }
 :if ([:len [find where list=$AddressList and address=212.32.192.0/19]] = 0) do={ add list=$AddressList comment=AS12389 address=212.32.192.0/19 }
 :if ([:len [find where list=$AddressList and address=212.33.18.0/23]] = 0) do={ add list=$AddressList comment=AS12389 address=212.33.18.0/23 }
@@ -180,3 +178,5 @@
 :if ([:len [find where list=$AddressList and address=217.18.128.0/20]] = 0) do={ add list=$AddressList comment=AS12389 address=217.18.128.0/20 }
 :if ([:len [find where list=$AddressList and address=217.18.144.0/21]] = 0) do={ add list=$AddressList comment=AS12389 address=217.18.144.0/21 }
 :if ([:len [find where list=$AddressList and address=217.18.153.0/24]] = 0) do={ add list=$AddressList comment=AS12389 address=217.18.153.0/24 }
+:if ([:len [find where list=$AddressList and address=217.18.154.0/23]] = 0) do={ add list=$AddressList comment=AS12389 address=217.18.154.0/23 }
+:if ([:len [find where list=$AddressList and address=217.18.156.0/22]] = 0) do={ add list=$AddressList comment=AS12389 address=217.18.156.0/22 }

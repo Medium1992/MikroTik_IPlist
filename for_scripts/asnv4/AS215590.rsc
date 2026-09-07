@@ -29,6 +29,7 @@
 :if ([:len [find where list=$AddressList and address=2.26.68.0/22]] = 0) do={ add list=$AddressList comment=AS215590 address=2.26.68.0/22 }
 :if ([:len [find where list=$AddressList and address=2.27.32.0/21]] = 0) do={ add list=$AddressList comment=AS215590 address=2.27.32.0/21 }
 :if ([:len [find where list=$AddressList and address=2.27.52.0/22]] = 0) do={ add list=$AddressList comment=AS215590 address=2.27.52.0/22 }
+:if ([:len [find where list=$AddressList and address=2.27.68.0/22]] = 0) do={ add list=$AddressList comment=AS215590 address=2.27.68.0/22 }
 :if ([:len [find where list=$AddressList and address=212.113.107.0/24]] = 0) do={ add list=$AddressList comment=AS215590 address=212.113.107.0/24 }
 :if ([:len [find where list=$AddressList and address=212.113.109.0/24]] = 0) do={ add list=$AddressList comment=AS215590 address=212.113.109.0/24 }
 :if ([:len [find where list=$AddressList and address=212.113.112.0/24]] = 0) do={ add list=$AddressList comment=AS215590 address=212.113.112.0/24 }
@@ -40,6 +41,7 @@
 :if ([:len [find where list=$AddressList and address=31.77.196.0/22]] = 0) do={ add list=$AddressList comment=AS215590 address=31.77.196.0/22 }
 :if ([:len [find where list=$AddressList and address=31.77.202.0/23]] = 0) do={ add list=$AddressList comment=AS215590 address=31.77.202.0/23 }
 :if ([:len [find where list=$AddressList and address=31.77.204.0/24]] = 0) do={ add list=$AddressList comment=AS215590 address=31.77.204.0/24 }
+:if ([:len [find where list=$AddressList and address=31.77.206.0/23]] = 0) do={ add list=$AddressList comment=AS215590 address=31.77.206.0/23 }
 :if ([:len [find where list=$AddressList and address=5.231.230.0/24]] = 0) do={ add list=$AddressList comment=AS215590 address=5.231.230.0/24 }
 :if ([:len [find where list=$AddressList and address=64.188.118.0/23]] = 0) do={ add list=$AddressList comment=AS215590 address=64.188.118.0/23 }
 :if ([:len [find where list=$AddressList and address=77.239.108.0/22]] = 0) do={ add list=$AddressList comment=AS215590 address=77.239.108.0/22 }

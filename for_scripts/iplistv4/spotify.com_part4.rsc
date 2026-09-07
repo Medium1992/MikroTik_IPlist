@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=199.232.90.250]] = 0) do={ add list=$AddressList comment=spotify.com address=199.232.90.250 }
+:if ([:len [find where list=$AddressList and address=2.16.10.68]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.68 }
+:if ([:len [find where list=$AddressList and address=2.16.10.69]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.69 }
+:if ([:len [find where list=$AddressList and address=2.16.10.70]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.70 }
 :if ([:len [find where list=$AddressList and address=2.16.10.71]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.71 }
 :if ([:len [find where list=$AddressList and address=2.16.10.72]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.72 }
 :if ([:len [find where list=$AddressList and address=2.16.10.73]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.10.73 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.16.168.100]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.168.100 }
 :if ([:len [find where list=$AddressList and address=2.16.168.104]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.168.104 }
 :if ([:len [find where list=$AddressList and address=2.16.168.105]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.168.105 }
-:if ([:len [find where list=$AddressList and address=2.16.168.110]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.168.110 }
-:if ([:len [find where list=$AddressList and address=2.16.168.111]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.168.111 }
-:if ([:len [find where list=$AddressList and address=2.16.168.115]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.168.115 }
-:if ([:len [find where list=$AddressList and address=2.16.168.119]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.168.119 }

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.244.87.86]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.86 }
 :if ([:len [find where list=$AddressList and address=18.244.87.91]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.91 }
 :if ([:len [find where list=$AddressList and address=18.244.87.93]] = 0) do={ add list=$AddressList comment=telegram.org address=18.244.87.93 }
 :if ([:len [find where list=$AddressList and address=18.66.195.107]] = 0) do={ add list=$AddressList comment=telegram.org address=18.66.195.107 }
@@ -58,6 +59,7 @@
 :if ([:len [find where list=$AddressList and address=3.121.7.66]] = 0) do={ add list=$AddressList comment=telegram.org address=3.121.7.66 }
 :if ([:len [find where list=$AddressList and address=3.122.165.131]] = 0) do={ add list=$AddressList comment=telegram.org address=3.122.165.131 }
 :if ([:len [find where list=$AddressList and address=3.122.43.86]] = 0) do={ add list=$AddressList comment=telegram.org address=3.122.43.86 }
+:if ([:len [find where list=$AddressList and address=3.123.214.200]] = 0) do={ add list=$AddressList comment=telegram.org address=3.123.214.200 }
 :if ([:len [find where list=$AddressList and address=3.124.144.119]] = 0) do={ add list=$AddressList comment=telegram.org address=3.124.144.119 }
 :if ([:len [find where list=$AddressList and address=3.125.225.3]] = 0) do={ add list=$AddressList comment=telegram.org address=3.125.225.3 }
 :if ([:len [find where list=$AddressList and address=3.160.39.10]] = 0) do={ add list=$AddressList comment=telegram.org address=3.160.39.10 }
@@ -86,6 +88,7 @@
 :if ([:len [find where list=$AddressList and address=3.175.86.85]] = 0) do={ add list=$AddressList comment=telegram.org address=3.175.86.85 }
 :if ([:len [find where list=$AddressList and address=3.222.67.212]] = 0) do={ add list=$AddressList comment=telegram.org address=3.222.67.212 }
 :if ([:len [find where list=$AddressList and address=3.33.238.178]] = 0) do={ add list=$AddressList comment=telegram.org address=3.33.238.178 }
+:if ([:len [find where list=$AddressList and address=3.66.185.112]] = 0) do={ add list=$AddressList comment=telegram.org address=3.66.185.112 }
 :if ([:len [find where list=$AddressList and address=3.67.231.136]] = 0) do={ add list=$AddressList comment=telegram.org address=3.67.231.136 }
 :if ([:len [find where list=$AddressList and address=3.68.55.200]] = 0) do={ add list=$AddressList comment=telegram.org address=3.68.55.200 }
 :if ([:len [find where list=$AddressList and address=3.72.148.84]] = 0) do={ add list=$AddressList comment=telegram.org address=3.72.148.84 }
@@ -118,9 +121,11 @@
 :if ([:len [find where list=$AddressList and address=54.230.228.122]] = 0) do={ add list=$AddressList comment=telegram.org address=54.230.228.122 }
 :if ([:len [find where list=$AddressList and address=54.230.228.5]] = 0) do={ add list=$AddressList comment=telegram.org address=54.230.228.5 }
 :if ([:len [find where list=$AddressList and address=54.230.228.67]] = 0) do={ add list=$AddressList comment=telegram.org address=54.230.228.67 }
+:if ([:len [find where list=$AddressList and address=63.176.154.11]] = 0) do={ add list=$AddressList comment=telegram.org address=63.176.154.11 }
 :if ([:len [find where list=$AddressList and address=63.177.131.49]] = 0) do={ add list=$AddressList comment=telegram.org address=63.177.131.49 }
 :if ([:len [find where list=$AddressList and address=63.177.159.128]] = 0) do={ add list=$AddressList comment=telegram.org address=63.177.159.128 }
 :if ([:len [find where list=$AddressList and address=63.181.11.156]] = 0) do={ add list=$AddressList comment=telegram.org address=63.181.11.156 }
+:if ([:len [find where list=$AddressList and address=63.181.122.202]] = 0) do={ add list=$AddressList comment=telegram.org address=63.181.122.202 }
 :if ([:len [find where list=$AddressList and address=63.181.136.187]] = 0) do={ add list=$AddressList comment=telegram.org address=63.181.136.187 }
 :if ([:len [find where list=$AddressList and address=63.181.84.68]] = 0) do={ add list=$AddressList comment=telegram.org address=63.181.84.68 }
 :if ([:len [find where list=$AddressList and address=63.182.128.88]] = 0) do={ add list=$AddressList comment=telegram.org address=63.182.128.88 }
@@ -143,6 +148,7 @@
 :if ([:len [find where list=$AddressList and address=63.186.122.108]] = 0) do={ add list=$AddressList comment=telegram.org address=63.186.122.108 }
 :if ([:len [find where list=$AddressList and address=63.186.18.177]] = 0) do={ add list=$AddressList comment=telegram.org address=63.186.18.177 }
 :if ([:len [find where list=$AddressList and address=63.186.45.32]] = 0) do={ add list=$AddressList comment=telegram.org address=63.186.45.32 }
+:if ([:len [find where list=$AddressList and address=63.188.127.134]] = 0) do={ add list=$AddressList comment=telegram.org address=63.188.127.134 }
 :if ([:len [find where list=$AddressList and address=64.233.161.121]] = 0) do={ add list=$AddressList comment=telegram.org address=64.233.161.121 }
 :if ([:len [find where list=$AddressList and address=64.233.162.121]] = 0) do={ add list=$AddressList comment=telegram.org address=64.233.162.121 }
 :if ([:len [find where list=$AddressList and address=64.233.163.121]] = 0) do={ add list=$AddressList comment=telegram.org address=64.233.163.121 }
@@ -174,4 +180,3 @@
 :if ([:len [find where list=$AddressList and address=99.86.240.110]] = 0) do={ add list=$AddressList comment=telegram.org address=99.86.240.110 }
 :if ([:len [find where list=$AddressList and address=99.86.240.126]] = 0) do={ add list=$AddressList comment=telegram.org address=99.86.240.126 }
 :if ([:len [find where list=$AddressList and address=99.86.240.59]] = 0) do={ add list=$AddressList comment=telegram.org address=99.86.240.59 }
-:if ([:len [find where list=$AddressList and address=99.86.240.89]] = 0) do={ add list=$AddressList comment=telegram.org address=99.86.240.89 }

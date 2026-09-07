@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.9.8]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.9.8 }
+:if ([:len [find where list=$AddressList and address=18.172.185.102]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.102 }
+:if ([:len [find where list=$AddressList and address=18.172.185.129]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.129 }
+:if ([:len [find where list=$AddressList and address=18.172.185.16]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.16 }
+:if ([:len [find where list=$AddressList and address=18.172.185.33]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.33 }
+:if ([:len [find where list=$AddressList and address=18.172.185.39]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.39 }
+:if ([:len [find where list=$AddressList and address=18.172.185.42]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.42 }
 :if ([:len [find where list=$AddressList and address=18.172.185.80]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.185.80 }
 :if ([:len [find where list=$AddressList and address=18.172.213.109]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.109 }
 :if ([:len [find where list=$AddressList and address=18.172.213.12]] = 0) do={ add list=$AddressList comment=claude.ai address=18.172.213.12 }
@@ -118,6 +125,7 @@
 :if ([:len [find where list=$AddressList and address=18.211.254.255]] = 0) do={ add list=$AddressList comment=claude.ai address=18.211.254.255 }
 :if ([:len [find where list=$AddressList and address=18.211.40.179]] = 0) do={ add list=$AddressList comment=claude.ai address=18.211.40.179 }
 :if ([:len [find where list=$AddressList and address=18.211.44.90]] = 0) do={ add list=$AddressList comment=claude.ai address=18.211.44.90 }
+:if ([:len [find where list=$AddressList and address=18.211.80.210]] = 0) do={ add list=$AddressList comment=claude.ai address=18.211.80.210 }
 :if ([:len [find where list=$AddressList and address=18.213.167.164]] = 0) do={ add list=$AddressList comment=claude.ai address=18.213.167.164 }
 :if ([:len [find where list=$AddressList and address=18.213.167.213]] = 0) do={ add list=$AddressList comment=claude.ai address=18.213.167.213 }
 :if ([:len [find where list=$AddressList and address=18.213.58.231]] = 0) do={ add list=$AddressList comment=claude.ai address=18.213.58.231 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.238.217.82]] = 0) do={ add list=$AddressList comment=claude.ai address=18.238.217.82 }
 :if ([:len [find where list=$AddressList and address=18.238.217.87]] = 0) do={ add list=$AddressList comment=claude.ai address=18.238.217.87 }
 :if ([:len [find where list=$AddressList and address=18.238.217.93]] = 0) do={ add list=$AddressList comment=claude.ai address=18.238.217.93 }
-:if ([:len [find where list=$AddressList and address=18.238.243.49]] = 0) do={ add list=$AddressList comment=claude.ai address=18.238.243.49 }
-:if ([:len [find where list=$AddressList and address=18.238.243.70]] = 0) do={ add list=$AddressList comment=claude.ai address=18.238.243.70 }
-:if ([:len [find where list=$AddressList and address=18.238.243.79]] = 0) do={ add list=$AddressList comment=claude.ai address=18.238.243.79 }
-:if ([:len [find where list=$AddressList and address=18.238.243.80]] = 0) do={ add list=$AddressList comment=claude.ai address=18.238.243.80 }
-:if ([:len [find where list=$AddressList and address=18.238.243.89]] = 0) do={ add list=$AddressList comment=claude.ai address=18.238.243.89 }
-:if ([:len [find where list=$AddressList and address=18.238.243.90]] = 0) do={ add list=$AddressList comment=claude.ai address=18.238.243.90 }
-:if ([:len [find where list=$AddressList and address=18.238.243.99]] = 0) do={ add list=$AddressList comment=claude.ai address=18.238.243.99 }
-:if ([:len [find where list=$AddressList and address=18.239.105.107]] = 0) do={ add list=$AddressList comment=claude.ai address=18.239.105.107 }

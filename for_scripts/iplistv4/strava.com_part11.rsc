@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.161.213.125]] = 0) do={ add list=$AddressList comment=strava.com address=3.161.213.125 }
+:if ([:len [find where list=$AddressList and address=3.161.213.126]] = 0) do={ add list=$AddressList comment=strava.com address=3.161.213.126 }
+:if ([:len [find where list=$AddressList and address=3.161.213.23]] = 0) do={ add list=$AddressList comment=strava.com address=3.161.213.23 }
+:if ([:len [find where list=$AddressList and address=3.161.82.25]] = 0) do={ add list=$AddressList comment=strava.com address=3.161.82.25 }
+:if ([:len [find where list=$AddressList and address=3.161.82.33]] = 0) do={ add list=$AddressList comment=strava.com address=3.161.82.33 }
+:if ([:len [find where list=$AddressList and address=3.161.82.40]] = 0) do={ add list=$AddressList comment=strava.com address=3.161.82.40 }
+:if ([:len [find where list=$AddressList and address=3.161.82.45]] = 0) do={ add list=$AddressList comment=strava.com address=3.161.82.45 }
+:if ([:len [find where list=$AddressList and address=3.162.112.112]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.112.112 }
+:if ([:len [find where list=$AddressList and address=3.162.112.124]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.112.124 }
+:if ([:len [find where list=$AddressList and address=3.162.112.29]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.112.29 }
+:if ([:len [find where list=$AddressList and address=3.162.112.39]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.112.39 }
 :if ([:len [find where list=$AddressList and address=3.162.125.54]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.125.54 }
 :if ([:len [find where list=$AddressList and address=3.162.125.62]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.125.62 }
 :if ([:len [find where list=$AddressList and address=3.162.125.83]] = 0) do={ add list=$AddressList comment=strava.com address=3.162.125.83 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.165.190.112]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.112 }
 :if ([:len [find where list=$AddressList and address=3.165.190.118]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.118 }
 :if ([:len [find where list=$AddressList and address=3.165.190.12]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.12 }
-:if ([:len [find where list=$AddressList and address=3.165.190.120]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.120 }
-:if ([:len [find where list=$AddressList and address=3.165.190.124]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.124 }
-:if ([:len [find where list=$AddressList and address=3.165.190.13]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.13 }
-:if ([:len [find where list=$AddressList and address=3.165.190.14]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.14 }
-:if ([:len [find where list=$AddressList and address=3.165.190.17]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.17 }
-:if ([:len [find where list=$AddressList and address=3.165.190.18]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.18 }
-:if ([:len [find where list=$AddressList and address=3.165.190.21]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.21 }
-:if ([:len [find where list=$AddressList and address=3.165.190.23]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.23 }
-:if ([:len [find where list=$AddressList and address=3.165.190.24]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.24 }
-:if ([:len [find where list=$AddressList and address=3.165.190.29]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.29 }
-:if ([:len [find where list=$AddressList and address=3.165.190.46]] = 0) do={ add list=$AddressList comment=strava.com address=3.165.190.46 }

@@ -18,6 +18,7 @@
 :if ([:len [find where list=$AddressList and address=141.11.10.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=141.11.10.0/24 }
 :if ([:len [find where list=$AddressList and address=141.11.58.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=141.11.58.0/24 }
 :if ([:len [find where list=$AddressList and address=146.103.36.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=146.103.36.0/24 }
+:if ([:len [find where list=$AddressList and address=147.78.198.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=147.78.198.0/24 }
 :if ([:len [find where list=$AddressList and address=151.240.112.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=151.240.112.0/24 }
 :if ([:len [find where list=$AddressList and address=151.240.116.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=151.240.116.0/24 }
 :if ([:len [find where list=$AddressList and address=151.242.177.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=151.242.177.0/24 }
@@ -105,6 +106,7 @@
 :if ([:len [find where list=$AddressList and address=85.237.215.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=85.237.215.0/24 }
 :if ([:len [find where list=$AddressList and address=86.38.220.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=86.38.220.0/24 }
 :if ([:len [find where list=$AddressList and address=87.237.167.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=87.237.167.0/24 }
+:if ([:len [find where list=$AddressList and address=87.254.31.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=87.254.31.0/24 }
 :if ([:len [find where list=$AddressList and address=88.209.223.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=88.209.223.0/24 }
 :if ([:len [find where list=$AddressList and address=88.216.108.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=88.216.108.0/24 }
 :if ([:len [find where list=$AddressList and address=88.216.180.0/24]] = 0) do={ add list=$AddressList comment=AS200017 address=88.216.180.0/24 }

@@ -1,10 +1,25 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.96.180.120]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.180.120 }
+:if ([:len [find where list=$AddressList and address=52.96.181.120]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.181.120 }
+:if ([:len [find where list=$AddressList and address=52.96.181.72]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.181.72 }
+:if ([:len [find where list=$AddressList and address=52.96.181.88]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.181.88 }
+:if ([:len [find where list=$AddressList and address=52.96.182.136]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.182.136 }
+:if ([:len [find where list=$AddressList and address=52.96.182.152]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.182.152 }
+:if ([:len [find where list=$AddressList and address=52.96.182.168]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.182.168 }
+:if ([:len [find where list=$AddressList and address=52.96.182.200]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.182.200 }
+:if ([:len [find where list=$AddressList and address=52.96.182.232]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.182.232 }
+:if ([:len [find where list=$AddressList and address=52.96.183.24]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.183.24 }
+:if ([:len [find where list=$AddressList and address=52.96.183.8]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.183.8 }
+:if ([:len [find where list=$AddressList and address=52.96.207.24]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.207.24 }
+:if ([:len [find where list=$AddressList and address=52.96.214.56]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.214.56 }
+:if ([:len [find where list=$AddressList and address=52.96.223.72]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.223.72 }
 :if ([:len [find where list=$AddressList and address=52.96.228.232]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.228.232 }
 :if ([:len [find where list=$AddressList and address=52.96.228.248]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.228.248 }
 :if ([:len [find where list=$AddressList and address=52.96.230.8]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.230.8 }
 :if ([:len [find where list=$AddressList and address=52.96.241.72]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.241.72 }
 :if ([:len [find where list=$AddressList and address=52.96.242.8]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.242.8 }
+:if ([:len [find where list=$AddressList and address=52.96.34.168]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.34.168 }
 :if ([:len [find where list=$AddressList and address=52.96.59.200]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.59.200 }
 :if ([:len [find where list=$AddressList and address=52.96.69.104]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.69.104 }
 :if ([:len [find where list=$AddressList and address=52.96.74.184]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.96.74.184 }
@@ -165,18 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.97.229.168]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.229.168 }
 :if ([:len [find where list=$AddressList and address=52.97.229.184]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.229.184 }
 :if ([:len [find where list=$AddressList and address=52.97.229.216]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.229.216 }
-:if ([:len [find where list=$AddressList and address=52.97.230.152]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.230.152 }
-:if ([:len [find where list=$AddressList and address=52.97.230.184]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.230.184 }
-:if ([:len [find where list=$AddressList and address=52.97.232.200]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.232.200 }
-:if ([:len [find where list=$AddressList and address=52.97.232.216]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.232.216 }
-:if ([:len [find where list=$AddressList and address=52.97.232.248]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.232.248 }
-:if ([:len [find where list=$AddressList and address=52.97.233.104]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.233.104 }
-:if ([:len [find where list=$AddressList and address=52.97.233.120]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.233.120 }
-:if ([:len [find where list=$AddressList and address=52.97.233.24]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.233.24 }
-:if ([:len [find where list=$AddressList and address=52.97.233.40]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.233.40 }
-:if ([:len [find where list=$AddressList and address=52.97.233.8]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.233.8 }
-:if ([:len [find where list=$AddressList and address=52.97.241.168]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.241.168 }
-:if ([:len [find where list=$AddressList and address=52.97.241.184]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.241.184 }
-:if ([:len [find where list=$AddressList and address=52.97.250.200]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.250.200 }
-:if ([:len [find where list=$AddressList and address=52.97.250.216]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.250.216 }
-:if ([:len [find where list=$AddressList and address=52.97.250.232]] = 0) do={ add list=$AddressList comment=themoviedb.org address=52.97.250.232 }

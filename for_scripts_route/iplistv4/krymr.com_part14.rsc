@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=23.192.46.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.192.46.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=23.192.46.67 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.192.46.67 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=23.192.46.75 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.192.46.75 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=23.192.47.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.192.47.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=23.192.47.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.192.47.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=23.192.47.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.192.47.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=23.193.116.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.193.116.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=23.193.116.130 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.193.116.130 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=23.193.116.163 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.193.116.163 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=23.204.139.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.204.139.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=23.204.139.93 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.204.139.93 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=23.204.239.44 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.204.239.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=23.205.106.14 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.205.106.14 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=23.205.106.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.205.106.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=23.205.106.80 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.205.106.80 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=23.205.106.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.205.106.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=23.205.107.77 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.205.107.77 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=23.205.107.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.205.107.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }

@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=67.58.239.128/25]] = 0) do={ add list=$AddressList comment=AS14051 address=67.58.239.128/25 }
-:if ([:len [find where list=$AddressList and address=67.58.239.32/28]] = 0) do={ add list=$AddressList comment=AS14051 address=67.58.239.32/28 }
-:if ([:len [find where list=$AddressList and address=67.58.239.48/29]] = 0) do={ add list=$AddressList comment=AS14051 address=67.58.239.48/29 }
-:if ([:len [find where list=$AddressList and address=67.58.239.56/30]] = 0) do={ add list=$AddressList comment=AS14051 address=67.58.239.56/30 }
-:if ([:len [find where list=$AddressList and address=67.58.239.60/31]] = 0) do={ add list=$AddressList comment=AS14051 address=67.58.239.60/31 }
-:if ([:len [find where list=$AddressList and address=67.58.239.63/32]] = 0) do={ add list=$AddressList comment=AS14051 address=67.58.239.63/32 }
-:if ([:len [find where list=$AddressList and address=67.58.239.64/26]] = 0) do={ add list=$AddressList comment=AS14051 address=67.58.239.64/26 }
-:if ([:len [find where list=$AddressList and address=67.58.240.0/21]] = 0) do={ add list=$AddressList comment=AS14051 address=67.58.240.0/21 }
-:if ([:len [find where list=$AddressList and address=69.4.128.0/19]] = 0) do={ add list=$AddressList comment=AS14051 address=69.4.128.0/19 }
-:if ([:len [find where list=$AddressList and address=69.62.128.0/18]] = 0) do={ add list=$AddressList comment=AS14051 address=69.62.128.0/18 }
-:if ([:len [find where list=$AddressList and address=69.62.192.0/19]] = 0) do={ add list=$AddressList comment=AS14051 address=69.62.192.0/19 }
 :if ([:len [find where list=$AddressList and address=69.62.224.0/22]] = 0) do={ add list=$AddressList comment=AS14051 address=69.62.224.0/22 }
 :if ([:len [find where list=$AddressList and address=69.62.228.0/25]] = 0) do={ add list=$AddressList comment=AS14051 address=69.62.228.0/25 }
 :if ([:len [find where list=$AddressList and address=69.62.228.128/26]] = 0) do={ add list=$AddressList comment=AS14051 address=69.62.228.128/26 }

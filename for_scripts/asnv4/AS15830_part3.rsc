@@ -29,6 +29,7 @@
 :if ([:len [find where list=$AddressList and address=185.234.137.0/24]] = 0) do={ add list=$AddressList comment=AS15830 address=185.234.137.0/24 }
 :if ([:len [find where list=$AddressList and address=185.234.138.0/24]] = 0) do={ add list=$AddressList comment=AS15830 address=185.234.138.0/24 }
 :if ([:len [find where list=$AddressList and address=185.236.16.0/22]] = 0) do={ add list=$AddressList comment=AS15830 address=185.236.16.0/22 }
+:if ([:len [find where list=$AddressList and address=185.245.49.0/24]] = 0) do={ add list=$AddressList comment=AS15830 address=185.245.49.0/24 }
 :if ([:len [find where list=$AddressList and address=185.247.62.0/23]] = 0) do={ add list=$AddressList comment=AS15830 address=185.247.62.0/23 }
 :if ([:len [find where list=$AddressList and address=185.3.24.0/22]] = 0) do={ add list=$AddressList comment=AS15830 address=185.3.24.0/22 }
 :if ([:len [find where list=$AddressList and address=185.33.148.0/24]] = 0) do={ add list=$AddressList comment=AS15830 address=185.33.148.0/24 }
@@ -103,7 +104,6 @@
 :if ([:len [find where list=$AddressList and address=194.36.54.0/24]] = 0) do={ add list=$AddressList comment=AS15830 address=194.36.54.0/24 }
 :if ([:len [find where list=$AddressList and address=194.36.56.0/24]] = 0) do={ add list=$AddressList comment=AS15830 address=194.36.56.0/24 }
 :if ([:len [find where list=$AddressList and address=194.88.30.0/23]] = 0) do={ add list=$AddressList comment=AS15830 address=194.88.30.0/23 }
-:if ([:len [find where list=$AddressList and address=195.200.242.0/24]] = 0) do={ add list=$AddressList comment=AS15830 address=195.200.242.0/24 }
 :if ([:len [find where list=$AddressList and address=195.47.225.0/24]] = 0) do={ add list=$AddressList comment=AS15830 address=195.47.225.0/24 }
 :if ([:len [find where list=$AddressList and address=195.69.224.0/24]] = 0) do={ add list=$AddressList comment=AS15830 address=195.69.224.0/24 }
 :if ([:len [find where list=$AddressList and address=195.80.237.0/24]] = 0) do={ add list=$AddressList comment=AS15830 address=195.80.237.0/24 }

@@ -31,7 +31,6 @@
 :if ([:len [find where list=$AddressList and address=200.229.20.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=200.229.20.0/24 }
 :if ([:len [find where list=$AddressList and address=205.207.255.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=205.207.255.0/24 }
 :if ([:len [find where list=$AddressList and address=206.168.190.0/23]] = 0) do={ add list=$AddressList comment=AS14315 address=206.168.190.0/23 }
-:if ([:len [find where list=$AddressList and address=206.206.111.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=206.206.111.0/24 }
 :if ([:len [find where list=$AddressList and address=207.32.216.0/22]] = 0) do={ add list=$AddressList comment=AS14315 address=207.32.216.0/22 }
 :if ([:len [find where list=$AddressList and address=212.189.40.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=212.189.40.0/24 }
 :if ([:len [find where list=$AddressList and address=216.122.187.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=216.122.187.0/24 }
@@ -45,6 +44,7 @@
 :if ([:len [find where list=$AddressList and address=50.114.203.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=50.114.203.0/24 }
 :if ([:len [find where list=$AddressList and address=72.14.136.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=72.14.136.0/24 }
 :if ([:len [find where list=$AddressList and address=74.120.121.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=74.120.121.0/24 }
+:if ([:len [find where list=$AddressList and address=77.67.88.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=77.67.88.0/24 }
 :if ([:len [find where list=$AddressList and address=85.121.240.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=85.121.240.0/24 }
 :if ([:len [find where list=$AddressList and address=94.139.32.0/24]] = 0) do={ add list=$AddressList comment=AS14315 address=94.139.32.0/24 }
 :if ([:len [find where list=$AddressList and address=96.47.160.0/22]] = 0) do={ add list=$AddressList comment=AS14315 address=96.47.160.0/22 }

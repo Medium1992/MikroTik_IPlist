@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=45.139.228.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=45.139.228.0/24 }
 :if ([:len [find where list=$AddressList and address=45.139.230.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=45.139.230.0/24 }
 :if ([:len [find where list=$AddressList and address=45.139.32.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=45.139.32.0/24 }
 :if ([:len [find where list=$AddressList and address=45.139.34.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=45.139.34.0/24 }
@@ -102,6 +103,9 @@
 :if ([:len [find where list=$AddressList and address=51.241.187.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=51.241.187.0/24 }
 :if ([:len [find where list=$AddressList and address=62.100.216.0/22]] = 0) do={ add list=$AddressList comment=AS5511 address=62.100.216.0/22 }
 :if ([:len [find where list=$AddressList and address=62.112.206.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=62.112.206.0/24 }
+:if ([:len [find where list=$AddressList and address=62.217.21.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=62.217.21.0/24 }
+:if ([:len [find where list=$AddressList and address=62.217.23.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=62.217.23.0/24 }
+:if ([:len [find where list=$AddressList and address=62.217.8.0/21]] = 0) do={ add list=$AddressList comment=AS5511 address=62.217.8.0/21 }
 :if ([:len [find where list=$AddressList and address=62.229.128.0/20]] = 0) do={ add list=$AddressList comment=AS5511 address=62.229.128.0/20 }
 :if ([:len [find where list=$AddressList and address=62.229.160.0/19]] = 0) do={ add list=$AddressList comment=AS5511 address=62.229.160.0/19 }
 :if ([:len [find where list=$AddressList and address=62.229.192.0/19]] = 0) do={ add list=$AddressList comment=AS5511 address=62.229.192.0/19 }
@@ -135,6 +139,7 @@
 :if ([:len [find where list=$AddressList and address=78.105.235.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=78.105.235.0/24 }
 :if ([:len [find where list=$AddressList and address=78.235.0.0/19]] = 0) do={ add list=$AddressList comment=AS5511 address=78.235.0.0/19 }
 :if ([:len [find where list=$AddressList and address=79.143.138.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=79.143.138.0/24 }
+:if ([:len [find where list=$AddressList and address=79.176.142.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=79.176.142.0/24 }
 :if ([:len [find where list=$AddressList and address=80.12.160.0/19]] = 0) do={ add list=$AddressList comment=AS5511 address=80.12.160.0/19 }
 :if ([:len [find where list=$AddressList and address=80.12.79.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=80.12.79.0/24 }
 :if ([:len [find where list=$AddressList and address=80.12.96.0/22]] = 0) do={ add list=$AddressList comment=AS5511 address=80.12.96.0/22 }
@@ -175,8 +180,3 @@
 :if ([:len [find where list=$AddressList and address=82.22.96.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=82.22.96.0/24 }
 :if ([:len [find where list=$AddressList and address=82.23.123.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=82.23.123.0/24 }
 :if ([:len [find where list=$AddressList and address=82.23.15.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=82.23.15.0/24 }
-:if ([:len [find where list=$AddressList and address=82.23.3.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=82.23.3.0/24 }
-:if ([:len [find where list=$AddressList and address=82.23.4.0/23]] = 0) do={ add list=$AddressList comment=AS5511 address=82.23.4.0/23 }
-:if ([:len [find where list=$AddressList and address=82.23.44.0/22]] = 0) do={ add list=$AddressList comment=AS5511 address=82.23.44.0/22 }
-:if ([:len [find where list=$AddressList and address=82.23.48.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=82.23.48.0/24 }
-:if ([:len [find where list=$AddressList and address=82.23.50.0/23]] = 0) do={ add list=$AddressList comment=AS5511 address=82.23.50.0/23 }

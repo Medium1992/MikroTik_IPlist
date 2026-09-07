@@ -15,7 +15,10 @@
 :if ([:len [find where list=$AddressList and address=172.237.146.38]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.237.146.38 }
 :if ([:len [find where list=$AddressList and address=172.237.146.49]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.237.146.49 }
 :if ([:len [find where list=$AddressList and address=172.237.146.8]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.237.146.8 }
+:if ([:len [find where list=$AddressList and address=172.238.172.228]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.238.172.228 }
+:if ([:len [find where list=$AddressList and address=172.238.176.31]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.238.176.31 }
 :if ([:len [find where list=$AddressList and address=172.239.193.161]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.239.193.161 }
+:if ([:len [find where list=$AddressList and address=172.239.57.230]] = 0) do={ add list=$AddressList comment=younettranslate.com address=172.239.57.230 }
 :if ([:len [find where list=$AddressList and address=3.222.75.253]] = 0) do={ add list=$AddressList comment=younettranslate.com address=3.222.75.253 }
 :if ([:len [find where list=$AddressList and address=35.173.156.155]] = 0) do={ add list=$AddressList comment=younettranslate.com address=35.173.156.155 }
 :if ([:len [find where list=$AddressList and address=44.193.132.243]] = 0) do={ add list=$AddressList comment=younettranslate.com address=44.193.132.243 }

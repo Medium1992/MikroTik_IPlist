@@ -80,7 +80,6 @@
 :if ([:len [find where list=$AddressList and address=178.94.167.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=178.94.167.0/24 }
 :if ([:len [find where list=$AddressList and address=178.94.191.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=178.94.191.0/24 }
 :if ([:len [find where list=$AddressList and address=178.95.236.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=178.95.236.0/24 }
-:if ([:len [find where list=$AddressList and address=178.95.248.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=178.95.248.0/24 }
 :if ([:len [find where list=$AddressList and address=178.95.251.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=178.95.251.0/24 }
 :if ([:len [find where list=$AddressList and address=178.95.77.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=178.95.77.0/24 }
 :if ([:len [find where list=$AddressList and address=178.95.82.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=178.95.82.0/24 }
@@ -101,6 +100,7 @@
 :if ([:len [find where list=$AddressList and address=192.251.28.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=192.251.28.0/24 }
 :if ([:len [find where list=$AddressList and address=192.65.232.0/21]] = 0) do={ add list=$AddressList comment=AS812 address=192.65.232.0/21 }
 :if ([:len [find where list=$AddressList and address=192.75.203.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=192.75.203.0/24 }
+:if ([:len [find where list=$AddressList and address=194.6.104.0/22]] = 0) do={ add list=$AddressList comment=AS812 address=194.6.104.0/22 }
 :if ([:len [find where list=$AddressList and address=195.172.114.0/23]] = 0) do={ add list=$AddressList comment=AS812 address=195.172.114.0/23 }
 :if ([:len [find where list=$AddressList and address=195.172.116.0/23]] = 0) do={ add list=$AddressList comment=AS812 address=195.172.116.0/23 }
 :if ([:len [find where list=$AddressList and address=195.172.196.0/23]] = 0) do={ add list=$AddressList comment=AS812 address=195.172.196.0/23 }

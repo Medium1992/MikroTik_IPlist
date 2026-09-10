@@ -89,10 +89,25 @@ jobs:
             : > tor-exits.txt
           fi
 
-          cat tor-or-addresses.txt tor-exits.txt \
-            | grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}$' \
-            | sort -u \
-            | sed 's|$|/32|' > tor-ipv4.txt
+          # Supplementary only: the MetaCubeX geoip set is exit-heavy and almost
+          # entirely covered by Onionoo, but it does carry a couple of hundred
+          # addresses the other two feeds miss.  Its entries are already CIDR.
+          if curl --fail --silent --show-error --location --retry 2 --retry-delay 5 \
+            'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/tor.json' \
+            -o metacubex-tor.json; then
+            jq -r '.rules[]?.ip_cidr[]?' metacubex-tor.json \
+              | grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}$' > tor-metacubex.txt || true
+          else
+            echo 'MetaCubeX geoip set unavailable; continuing without it' >&2
+            : > tor-metacubex.txt
+          fi
+
+          {
+            cat tor-or-addresses.txt tor-exits.txt \
+              | grep -E '^([0-9]{1,3}\.){3}[0-9]{1,3}$' \
+              | sed 's|$|/32|'
+            cat tor-metacubex.txt
+          } | sort -u > tor-ipv4.txt
 
           total=$(wc -l < tor-ipv4.txt)
           echo "Collected $total Tor relay addresses"

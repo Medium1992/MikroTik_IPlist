@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.225.5.100]] = 0) do={ add list=$AddressList comment=krymr.com address=13.225.5.100 }
+:if ([:len [find where list=$AddressList and address=13.225.5.20]] = 0) do={ add list=$AddressList comment=krymr.com address=13.225.5.20 }
+:if ([:len [find where list=$AddressList and address=13.225.5.22]] = 0) do={ add list=$AddressList comment=krymr.com address=13.225.5.22 }
+:if ([:len [find where list=$AddressList and address=13.225.5.27]] = 0) do={ add list=$AddressList comment=krymr.com address=13.225.5.27 }
 :if ([:len [find where list=$AddressList and address=13.226.144.124]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.144.124 }
 :if ([:len [find where list=$AddressList and address=13.226.144.39]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.144.39 }
 :if ([:len [find where list=$AddressList and address=13.226.144.70]] = 0) do={ add list=$AddressList comment=krymr.com address=13.226.144.70 }
@@ -78,6 +82,10 @@
 :if ([:len [find where list=$AddressList and address=13.33.109.70]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.109.70 }
 :if ([:len [find where list=$AddressList and address=13.33.109.76]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.109.76 }
 :if ([:len [find where list=$AddressList and address=13.33.109.98]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.109.98 }
+:if ([:len [find where list=$AddressList and address=13.33.131.127]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.131.127 }
+:if ([:len [find where list=$AddressList and address=13.33.131.13]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.131.13 }
+:if ([:len [find where list=$AddressList and address=13.33.131.58]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.131.58 }
+:if ([:len [find where list=$AddressList and address=13.33.131.82]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.131.82 }
 :if ([:len [find where list=$AddressList and address=13.33.141.129]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.141.129 }
 :if ([:len [find where list=$AddressList and address=13.33.141.36]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.141.36 }
 :if ([:len [find where list=$AddressList and address=13.33.141.44]] = 0) do={ add list=$AddressList comment=krymr.com address=13.33.141.44 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=173.223.234.207]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.207 }
 :if ([:len [find where list=$AddressList and address=173.223.234.209]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.209 }
 :if ([:len [find where list=$AddressList and address=173.223.234.33]] = 0) do={ add list=$AddressList comment=krymr.com address=173.223.234.33 }
-:if ([:len [find where list=$AddressList and address=18.154.144.105]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.144.105 }
-:if ([:len [find where list=$AddressList and address=18.154.144.26]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.144.26 }
-:if ([:len [find where list=$AddressList and address=18.154.144.6]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.144.6 }
-:if ([:len [find where list=$AddressList and address=18.154.144.66]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.144.66 }
-:if ([:len [find where list=$AddressList and address=18.154.161.120]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.161.120 }
-:if ([:len [find where list=$AddressList and address=18.154.161.15]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.161.15 }
-:if ([:len [find where list=$AddressList and address=18.154.161.32]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.161.32 }
-:if ([:len [find where list=$AddressList and address=18.154.161.99]] = 0) do={ add list=$AddressList comment=krymr.com address=18.154.161.99 }

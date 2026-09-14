@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.161.97.76]] = 0) do={ add list=$AddressList comment=whoop.com address=18.161.97.76 }
+:if ([:len [find where list=$AddressList and address=18.165.121.106]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.106 }
+:if ([:len [find where list=$AddressList and address=18.165.121.110]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.110 }
+:if ([:len [find where list=$AddressList and address=18.165.121.113]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.113 }
 :if ([:len [find where list=$AddressList and address=18.165.121.117]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.117 }
 :if ([:len [find where list=$AddressList and address=18.165.121.123]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.123 }
 :if ([:len [find where list=$AddressList and address=18.165.121.31]] = 0) do={ add list=$AddressList comment=whoop.com address=18.165.121.31 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.172.242.120]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.120 }
 :if ([:len [find where list=$AddressList and address=18.172.242.125]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.125 }
 :if ([:len [find where list=$AddressList and address=18.172.242.126]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.126 }
-:if ([:len [find where list=$AddressList and address=18.172.242.19]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.19 }
-:if ([:len [find where list=$AddressList and address=18.172.242.27]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.27 }
-:if ([:len [find where list=$AddressList and address=18.172.242.29]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.29 }
-:if ([:len [find where list=$AddressList and address=18.172.242.31]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.31 }

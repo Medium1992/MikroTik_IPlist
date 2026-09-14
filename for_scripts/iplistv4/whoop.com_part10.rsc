@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.64.103.36]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.36 }
+:if ([:len [find where list=$AddressList and address=18.64.103.38]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.38 }
+:if ([:len [find where list=$AddressList and address=18.64.103.39]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.39 }
+:if ([:len [find where list=$AddressList and address=18.64.103.68]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.68 }
 :if ([:len [find where list=$AddressList and address=18.64.103.70]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.70 }
 :if ([:len [find where list=$AddressList and address=18.64.79.116]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.79.116 }
 :if ([:len [find where list=$AddressList and address=18.64.79.35]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.79.35 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=184.28.29.202]] = 0) do={ add list=$AddressList comment=whoop.com address=184.28.29.202 }
 :if ([:len [find where list=$AddressList and address=184.28.29.208]] = 0) do={ add list=$AddressList comment=whoop.com address=184.28.29.208 }
 :if ([:len [find where list=$AddressList and address=184.31.0.163]] = 0) do={ add list=$AddressList comment=whoop.com address=184.31.0.163 }
-:if ([:len [find where list=$AddressList and address=184.31.0.188]] = 0) do={ add list=$AddressList comment=whoop.com address=184.31.0.188 }
-:if ([:len [find where list=$AddressList and address=184.31.15.136]] = 0) do={ add list=$AddressList comment=whoop.com address=184.31.15.136 }
-:if ([:len [find where list=$AddressList and address=184.31.15.201]] = 0) do={ add list=$AddressList comment=whoop.com address=184.31.15.201 }
-:if ([:len [find where list=$AddressList and address=184.31.15.226]] = 0) do={ add list=$AddressList comment=whoop.com address=184.31.15.226 }

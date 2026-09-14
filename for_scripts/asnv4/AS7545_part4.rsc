@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=14.201.1.0/24]] = 0) do={ add list=$AddressList comment=AS7545 address=14.201.1.0/24 }
+:if ([:len [find where list=$AddressList and address=14.201.10.0/24]] = 0) do={ add list=$AddressList comment=AS7545 address=14.201.10.0/24 }
+:if ([:len [find where list=$AddressList and address=14.201.100.0/23]] = 0) do={ add list=$AddressList comment=AS7545 address=14.201.100.0/23 }
+:if ([:len [find where list=$AddressList and address=14.201.102.0/24]] = 0) do={ add list=$AddressList comment=AS7545 address=14.201.102.0/24 }
 :if ([:len [find where list=$AddressList and address=14.201.104.0/22]] = 0) do={ add list=$AddressList comment=AS7545 address=14.201.104.0/22 }
 :if ([:len [find where list=$AddressList and address=14.201.109.0/24]] = 0) do={ add list=$AddressList comment=AS7545 address=14.201.109.0/24 }
 :if ([:len [find where list=$AddressList and address=14.201.111.0/24]] = 0) do={ add list=$AddressList comment=AS7545 address=14.201.111.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=14.202.76.0/24]] = 0) do={ add list=$AddressList comment=AS7545 address=14.202.76.0/24 }
 :if ([:len [find where list=$AddressList and address=14.202.78.0/23]] = 0) do={ add list=$AddressList comment=AS7545 address=14.202.78.0/23 }
 :if ([:len [find where list=$AddressList and address=14.202.8.0/23]] = 0) do={ add list=$AddressList comment=AS7545 address=14.202.8.0/23 }
-:if ([:len [find where list=$AddressList and address=14.202.81.0/24]] = 0) do={ add list=$AddressList comment=AS7545 address=14.202.81.0/24 }
-:if ([:len [find where list=$AddressList and address=14.202.84.0/22]] = 0) do={ add list=$AddressList comment=AS7545 address=14.202.84.0/22 }
-:if ([:len [find where list=$AddressList and address=14.202.88.0/24]] = 0) do={ add list=$AddressList comment=AS7545 address=14.202.88.0/24 }
-:if ([:len [find where list=$AddressList and address=14.202.92.0/23]] = 0) do={ add list=$AddressList comment=AS7545 address=14.202.92.0/23 }

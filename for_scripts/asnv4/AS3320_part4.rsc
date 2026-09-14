@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=31.224.0.0/11]] = 0) do={ add list=$AddressList comment=AS3320 address=31.224.0.0/11 }
+:if ([:len [find where list=$AddressList and address=31.56.72.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=31.56.72.0/24 }
 :if ([:len [find where list=$AddressList and address=31.56.76.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=31.56.76.0/24 }
 :if ([:len [find where list=$AddressList and address=31.56.90.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=31.56.90.0/24 }
 :if ([:len [find where list=$AddressList and address=31.57.119.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=31.57.119.0/24 }
@@ -23,8 +25,10 @@
 :if ([:len [find where list=$AddressList and address=5.133.112.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=5.133.112.0/24 }
 :if ([:len [find where list=$AddressList and address=5.182.153.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=5.182.153.0/24 }
 :if ([:len [find where list=$AddressList and address=5.249.188.0/22]] = 0) do={ add list=$AddressList comment=AS3320 address=5.249.188.0/22 }
+:if ([:len [find where list=$AddressList and address=51.146.22.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=51.146.22.0/24 }
 :if ([:len [find where list=$AddressList and address=51.146.74.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=51.146.74.0/24 }
 :if ([:len [find where list=$AddressList and address=51.194.221.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=51.194.221.0/24 }
+:if ([:len [find where list=$AddressList and address=51.241.133.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=51.241.133.0/24 }
 :if ([:len [find where list=$AddressList and address=51.241.18.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=51.241.18.0/24 }
 :if ([:len [find where list=$AddressList and address=51.241.228.0/22]] = 0) do={ add list=$AddressList comment=AS3320 address=51.241.228.0/22 }
 :if ([:len [find where list=$AddressList and address=51.241.86.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=51.241.86.0/24 }
@@ -121,7 +125,6 @@
 :if ([:len [find where list=$AddressList and address=81.199.64.0/20]] = 0) do={ add list=$AddressList comment=AS3320 address=81.199.64.0/20 }
 :if ([:len [find where list=$AddressList and address=81.201.32.0/20]] = 0) do={ add list=$AddressList comment=AS3320 address=81.201.32.0/20 }
 :if ([:len [find where list=$AddressList and address=82.108.104.0/22]] = 0) do={ add list=$AddressList comment=AS3320 address=82.108.104.0/22 }
-:if ([:len [find where list=$AddressList and address=82.109.156.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=82.109.156.0/24 }
 :if ([:len [find where list=$AddressList and address=82.119.220.0/23]] = 0) do={ add list=$AddressList comment=AS3320 address=82.119.220.0/23 }
 :if ([:len [find where list=$AddressList and address=82.163.104.0/21]] = 0) do={ add list=$AddressList comment=AS3320 address=82.163.104.0/21 }
 :if ([:len [find where list=$AddressList and address=82.163.60.0/22]] = 0) do={ add list=$AddressList comment=AS3320 address=82.163.60.0/22 }
@@ -177,6 +180,3 @@
 :if ([:len [find where list=$AddressList and address=82.47.14.0/23]] = 0) do={ add list=$AddressList comment=AS3320 address=82.47.14.0/23 }
 :if ([:len [find where list=$AddressList and address=82.47.147.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=82.47.147.0/24 }
 :if ([:len [find where list=$AddressList and address=82.47.16.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=82.47.16.0/24 }
-:if ([:len [find where list=$AddressList and address=82.47.220.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=82.47.220.0/24 }
-:if ([:len [find where list=$AddressList and address=82.47.27.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=82.47.27.0/24 }
-:if ([:len [find where list=$AddressList and address=82.47.59.0/24]] = 0) do={ add list=$AddressList comment=AS3320 address=82.47.59.0/24 }

@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.161.213.123]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.123 }
+:if ([:len [find where list=$AddressList and address=3.161.213.126]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.126 }
+:if ([:len [find where list=$AddressList and address=3.161.213.14]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.14 }
+:if ([:len [find where list=$AddressList and address=3.161.213.22]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.22 }
+:if ([:len [find where list=$AddressList and address=3.161.213.29]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.29 }
+:if ([:len [find where list=$AddressList and address=3.161.213.31]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.31 }
+:if ([:len [find where list=$AddressList and address=3.161.213.37]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.37 }
+:if ([:len [find where list=$AddressList and address=3.161.213.38]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.38 }
+:if ([:len [find where list=$AddressList and address=3.161.213.39]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.39 }
+:if ([:len [find where list=$AddressList and address=3.161.213.4]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.4 }
+:if ([:len [find where list=$AddressList and address=3.161.213.43]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.43 }
+:if ([:len [find where list=$AddressList and address=3.161.213.44]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.44 }
+:if ([:len [find where list=$AddressList and address=3.161.213.50]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.50 }
 :if ([:len [find where list=$AddressList and address=3.161.213.51]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.51 }
 :if ([:len [find where list=$AddressList and address=3.161.213.54]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.54 }
 :if ([:len [find where list=$AddressList and address=3.161.213.56]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.161.213.56 }
@@ -167,16 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.162.20.38]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.38 }
 :if ([:len [find where list=$AddressList and address=3.162.20.4]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.4 }
 :if ([:len [find where list=$AddressList and address=3.162.20.41]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.41 }
-:if ([:len [find where list=$AddressList and address=3.162.20.48]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.48 }
-:if ([:len [find where list=$AddressList and address=3.162.20.51]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.51 }
-:if ([:len [find where list=$AddressList and address=3.162.20.52]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.52 }
-:if ([:len [find where list=$AddressList and address=3.162.20.63]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.63 }
-:if ([:len [find where list=$AddressList and address=3.162.20.65]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.65 }
-:if ([:len [find where list=$AddressList and address=3.162.20.7]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.7 }
-:if ([:len [find where list=$AddressList and address=3.162.20.75]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.75 }
-:if ([:len [find where list=$AddressList and address=3.162.20.76]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.76 }
-:if ([:len [find where list=$AddressList and address=3.162.20.83]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.83 }
-:if ([:len [find where list=$AddressList and address=3.162.20.84]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.84 }
-:if ([:len [find where list=$AddressList and address=3.162.20.87]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.87 }
-:if ([:len [find where list=$AddressList and address=3.162.20.92]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.92 }
-:if ([:len [find where list=$AddressList and address=3.162.20.94]] = 0) do={ add list=$AddressList comment=jetbrains.com address=3.162.20.94 }

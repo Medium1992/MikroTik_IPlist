@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.85.49.98 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.98 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.102 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.102 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.117 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.117 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=52.85.5.124 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.124 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=52.85.5.127 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.127 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=52.85.5.15 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.15 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=52.85.5.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.5.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=54.165.16.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.165.16.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=54.165.178.93 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.165.178.93 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=54.165.60.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.165.60.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
-:if ([:len [/ip/route/find dst-address=54.165.95.173 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.165.95.173 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
-:if ([:len [/ip/route/find dst-address=54.166.5.153 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.166.5.153 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
-:if ([:len [/ip/route/find dst-address=54.172.164.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.172.164.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
-:if ([:len [/ip/route/find dst-address=54.172.212.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.172.212.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
-:if ([:len [/ip/route/find dst-address=54.172.35.69 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.172.35.69 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
-:if ([:len [/ip/route/find dst-address=54.173.43.154 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.173.43.154 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }

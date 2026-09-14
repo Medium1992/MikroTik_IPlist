@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=193.53.170.0/23]] = 0) do={ add list=$AddressList comment=be address=193.53.170.0/23 }
-:if ([:len [find where list=$AddressList and address=193.53.172.0/22]] = 0) do={ add list=$AddressList comment=be address=193.53.172.0/22 }
-:if ([:len [find where list=$AddressList and address=193.53.176.0/20]] = 0) do={ add list=$AddressList comment=be address=193.53.176.0/20 }
-:if ([:len [find where list=$AddressList and address=193.53.192.0/19]] = 0) do={ add list=$AddressList comment=be address=193.53.192.0/19 }
 :if ([:len [find where list=$AddressList and address=193.53.20.0/23]] = 0) do={ add list=$AddressList comment=be address=193.53.20.0/23 }
 :if ([:len [find where list=$AddressList and address=193.53.224.0/20]] = 0) do={ add list=$AddressList comment=be address=193.53.224.0/20 }
 :if ([:len [find where list=$AddressList and address=193.53.240.0/22]] = 0) do={ add list=$AddressList comment=be address=193.53.240.0/22 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=194.196.105.144/29]] = 0) do={ add list=$AddressList comment=be address=194.196.105.144/29 }
 :if ([:len [find where list=$AddressList and address=194.196.105.176/28]] = 0) do={ add list=$AddressList comment=be address=194.196.105.176/28 }
 :if ([:len [find where list=$AddressList and address=194.196.105.192/28]] = 0) do={ add list=$AddressList comment=be address=194.196.105.192/28 }
+:if ([:len [find where list=$AddressList and address=194.196.105.216/29]] = 0) do={ add list=$AddressList comment=be address=194.196.105.216/29 }
+:if ([:len [find where list=$AddressList and address=194.196.105.232/29]] = 0) do={ add list=$AddressList comment=be address=194.196.105.232/29 }
+:if ([:len [find where list=$AddressList and address=194.196.105.240/28]] = 0) do={ add list=$AddressList comment=be address=194.196.105.240/28 }
+:if ([:len [find where list=$AddressList and address=194.196.106.0/23]] = 0) do={ add list=$AddressList comment=be address=194.196.106.0/23 }

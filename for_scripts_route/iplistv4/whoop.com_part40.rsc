@@ -2,6 +2,20 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.81.238.244 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.81.238.244 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.82.184.92 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.82.184.92 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.83.194.39 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.83.194.39 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.83.74.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.83.74.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.84.106.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.84.106.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.84.171.160 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.84.171.160 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.85.197.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.85.197.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.85.200.175 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.85.200.175 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.86.126.237 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.86.126.237 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.86.137.12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.86.137.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.86.79.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.86.79.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.88.76.249 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.88.76.249 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.88.80.215 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.88.80.215 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=3.88.96.87 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.88.96.87 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=3.89.163.216 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.89.163.216 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=3.90.157.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.90.157.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=3.90.193.50 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.90.193.50 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
@@ -88,17 +102,3 @@
 :if ([:len [/ip/route/find dst-address=34.205.253.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.205.253.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=34.206.127.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.206.127.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=34.206.152.202 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.206.152.202 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.206.241.73 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.206.241.73 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.206.85.231 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.206.85.231 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.207.120.216 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.207.120.216 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.207.188.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.207.188.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.209.231.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.209.231.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.210.115.230 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.210.115.230 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.210.163.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.210.163.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.211.21.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.211.21.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.215.72.235 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.215.72.235 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.223.136.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.223.136.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.223.178.67 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.223.178.67 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.224.12.159 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.224.12.159 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.224.150.25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.224.150.25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=34.224.170.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.224.170.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }

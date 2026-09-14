@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=141.101.90.96]] = 0) do={ add list=$AddressList comment=make.com address=141.101.90.96 }
+:if ([:len [find where list=$AddressList and address=141.101.90.97]] = 0) do={ add list=$AddressList comment=make.com address=141.101.90.97 }
+:if ([:len [find where list=$AddressList and address=141.101.90.98]] = 0) do={ add list=$AddressList comment=make.com address=141.101.90.98 }
+:if ([:len [find where list=$AddressList and address=141.101.90.99]] = 0) do={ add list=$AddressList comment=make.com address=141.101.90.99 }
 :if ([:len [find where list=$AddressList and address=143.204.11.50]] = 0) do={ add list=$AddressList comment=make.com address=143.204.11.50 }
 :if ([:len [find where list=$AddressList and address=143.204.11.61]] = 0) do={ add list=$AddressList comment=make.com address=143.204.11.61 }
 :if ([:len [find where list=$AddressList and address=143.204.11.70]] = 0) do={ add list=$AddressList comment=make.com address=143.204.11.70 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.165.140.105]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.105 }
 :if ([:len [find where list=$AddressList and address=18.165.140.106]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.106 }
 :if ([:len [find where list=$AddressList and address=18.165.140.110]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.110 }
-:if ([:len [find where list=$AddressList and address=18.165.140.12]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.12 }
-:if ([:len [find where list=$AddressList and address=18.165.140.128]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.128 }
-:if ([:len [find where list=$AddressList and address=18.165.140.129]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.129 }
-:if ([:len [find where list=$AddressList and address=18.165.140.17]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.17 }

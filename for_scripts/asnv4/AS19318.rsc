@@ -8,6 +8,7 @@
 :if ([:len [find where list=$AddressList and address=104.37.186.0/23]] = 0) do={ add list=$AddressList comment=AS19318 address=104.37.186.0/23 }
 :if ([:len [find where list=$AddressList and address=104.37.188.0/22]] = 0) do={ add list=$AddressList comment=AS19318 address=104.37.188.0/22 }
 :if ([:len [find where list=$AddressList and address=107.148.158.0/24]] = 0) do={ add list=$AddressList comment=AS19318 address=107.148.158.0/24 }
+:if ([:len [find where list=$AddressList and address=107.158.126.0/24]] = 0) do={ add list=$AddressList comment=AS19318 address=107.158.126.0/24 }
 :if ([:len [find where list=$AddressList and address=107.181.114.0/24]] = 0) do={ add list=$AddressList comment=AS19318 address=107.181.114.0/24 }
 :if ([:len [find where list=$AddressList and address=108.186.206.0/24]] = 0) do={ add list=$AddressList comment=AS19318 address=108.186.206.0/24 }
 :if ([:len [find where list=$AddressList and address=108.186.221.0/24]] = 0) do={ add list=$AddressList comment=AS19318 address=108.186.221.0/24 }
@@ -107,6 +108,7 @@
 :if ([:len [find where list=$AddressList and address=217.216.220.0/22]] = 0) do={ add list=$AddressList comment=AS19318 address=217.216.220.0/22 }
 :if ([:len [find where list=$AddressList and address=38.156.12.0/24]] = 0) do={ add list=$AddressList comment=AS19318 address=38.156.12.0/24 }
 :if ([:len [find where list=$AddressList and address=45.12.61.0/24]] = 0) do={ add list=$AddressList comment=AS19318 address=45.12.61.0/24 }
+:if ([:len [find where list=$AddressList and address=45.202.120.0/22]] = 0) do={ add list=$AddressList comment=AS19318 address=45.202.120.0/22 }
 :if ([:len [find where list=$AddressList and address=45.85.160.0/24]] = 0) do={ add list=$AddressList comment=AS19318 address=45.85.160.0/24 }
 :if ([:len [find where list=$AddressList and address=45.86.12.0/24]] = 0) do={ add list=$AddressList comment=AS19318 address=45.86.12.0/24 }
 :if ([:len [find where list=$AddressList and address=5.231.240.0/24]] = 0) do={ add list=$AddressList comment=AS19318 address=5.231.240.0/24 }

@@ -34,7 +34,6 @@
 :if ([:len [find where list=$AddressList and address=189.0.192.0/20]] = 0) do={ add list=$AddressList comment=AS27699 address=189.0.192.0/20 }
 :if ([:len [find where list=$AddressList and address=189.0.220.0/23]] = 0) do={ add list=$AddressList comment=AS27699 address=189.0.220.0/23 }
 :if ([:len [find where list=$AddressList and address=189.0.32.0/20]] = 0) do={ add list=$AddressList comment=AS27699 address=189.0.32.0/20 }
-:if ([:len [find where list=$AddressList and address=189.0.79.0/24]] = 0) do={ add list=$AddressList comment=AS27699 address=189.0.79.0/24 }
 :if ([:len [find where list=$AddressList and address=189.0.80.0/20]] = 0) do={ add list=$AddressList comment=AS27699 address=189.0.80.0/20 }
 :if ([:len [find where list=$AddressList and address=189.110.0.0/15]] = 0) do={ add list=$AddressList comment=AS27699 address=189.110.0.0/15 }
 :if ([:len [find where list=$AddressList and address=189.18.0.0/15]] = 0) do={ add list=$AddressList comment=AS27699 address=189.18.0.0/15 }
@@ -64,7 +63,6 @@
 :if ([:len [find where list=$AddressList and address=200.153.128.0/17]] = 0) do={ add list=$AddressList comment=AS27699 address=200.153.128.0/17 }
 :if ([:len [find where list=$AddressList and address=200.158.0.0/16]] = 0) do={ add list=$AddressList comment=AS27699 address=200.158.0.0/16 }
 :if ([:len [find where list=$AddressList and address=200.161.0.0/16]] = 0) do={ add list=$AddressList comment=AS27699 address=200.161.0.0/16 }
-:if ([:len [find where list=$AddressList and address=200.162.235.0/24]] = 0) do={ add list=$AddressList comment=AS27699 address=200.162.235.0/24 }
 :if ([:len [find where list=$AddressList and address=200.168.0.0/17]] = 0) do={ add list=$AddressList comment=AS27699 address=200.168.0.0/17 }
 :if ([:len [find where list=$AddressList and address=200.168.128.0/19]] = 0) do={ add list=$AddressList comment=AS27699 address=200.168.128.0/19 }
 :if ([:len [find where list=$AddressList and address=200.171.0.0/17]] = 0) do={ add list=$AddressList comment=AS27699 address=200.171.0.0/17 }

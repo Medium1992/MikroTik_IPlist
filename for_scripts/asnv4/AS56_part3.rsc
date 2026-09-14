@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=143.141.128.0/22]] = 0) do={ add list=$AddressList comment=AS56 address=143.141.128.0/22 }
+:if ([:len [find where list=$AddressList and address=143.141.136.0/21]] = 0) do={ add list=$AddressList comment=AS56 address=143.141.136.0/21 }
+:if ([:len [find where list=$AddressList and address=143.141.160.0/19]] = 0) do={ add list=$AddressList comment=AS56 address=143.141.160.0/19 }
+:if ([:len [find where list=$AddressList and address=143.141.192.0/18]] = 0) do={ add list=$AddressList comment=AS56 address=143.141.192.0/18 }
 :if ([:len [find where list=$AddressList and address=143.142.0.0/18]] = 0) do={ add list=$AddressList comment=AS56 address=143.142.0.0/18 }
 :if ([:len [find where list=$AddressList and address=143.142.106.0/24]] = 0) do={ add list=$AddressList comment=AS56 address=143.142.106.0/24 }
 :if ([:len [find where list=$AddressList and address=143.142.160.0/20]] = 0) do={ add list=$AddressList comment=AS56 address=143.142.160.0/20 }
@@ -51,6 +55,7 @@
 :if ([:len [find where list=$AddressList and address=206.37.106.0/23]] = 0) do={ add list=$AddressList comment=AS56 address=206.37.106.0/23 }
 :if ([:len [find where list=$AddressList and address=206.37.109.0/24]] = 0) do={ add list=$AddressList comment=AS56 address=206.37.109.0/24 }
 :if ([:len [find where list=$AddressList and address=206.39.0.0/23]] = 0) do={ add list=$AddressList comment=AS56 address=206.39.0.0/23 }
+:if ([:len [find where list=$AddressList and address=206.39.60.0/24]] = 0) do={ add list=$AddressList comment=AS56 address=206.39.60.0/24 }
 :if ([:len [find where list=$AddressList and address=206.39.62.0/23]] = 0) do={ add list=$AddressList comment=AS56 address=206.39.62.0/23 }
 :if ([:len [find where list=$AddressList and address=207.133.162.0/24]] = 0) do={ add list=$AddressList comment=AS56 address=207.133.162.0/24 }
 :if ([:len [find where list=$AddressList and address=207.133.167.0/24]] = 0) do={ add list=$AddressList comment=AS56 address=207.133.167.0/24 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=103.142.223.0/24]] = 0) do={ add list=$AddressList comment=au address=103.142.223.0/24 }
+:if ([:len [find where list=$AddressList and address=103.142.226.0/23]] = 0) do={ add list=$AddressList comment=au address=103.142.226.0/23 }
+:if ([:len [find where list=$AddressList and address=103.142.228.0/24]] = 0) do={ add list=$AddressList comment=au address=103.142.228.0/24 }
+:if ([:len [find where list=$AddressList and address=103.142.32.0/24]] = 0) do={ add list=$AddressList comment=au address=103.142.32.0/24 }
 :if ([:len [find where list=$AddressList and address=103.142.38.0/24]] = 0) do={ add list=$AddressList comment=au address=103.142.38.0/24 }
 :if ([:len [find where list=$AddressList and address=103.142.40.0/23]] = 0) do={ add list=$AddressList comment=au address=103.142.40.0/23 }
 :if ([:len [find where list=$AddressList and address=103.142.51.0/24]] = 0) do={ add list=$AddressList comment=au address=103.142.51.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=103.157.68.0/24]] = 0) do={ add list=$AddressList comment=au address=103.157.68.0/24 }
 :if ([:len [find where list=$AddressList and address=103.157.84.0/24]] = 0) do={ add list=$AddressList comment=au address=103.157.84.0/24 }
 :if ([:len [find where list=$AddressList and address=103.158.19.0/24]] = 0) do={ add list=$AddressList comment=au address=103.158.19.0/24 }
-:if ([:len [find where list=$AddressList and address=103.158.232.0/23]] = 0) do={ add list=$AddressList comment=au address=103.158.232.0/23 }
-:if ([:len [find where list=$AddressList and address=103.158.243.0/24]] = 0) do={ add list=$AddressList comment=au address=103.158.243.0/24 }
-:if ([:len [find where list=$AddressList and address=103.158.34.0/24]] = 0) do={ add list=$AddressList comment=au address=103.158.34.0/24 }
-:if ([:len [find where list=$AddressList and address=103.158.51.0/24]] = 0) do={ add list=$AddressList comment=au address=103.158.51.0/24 }

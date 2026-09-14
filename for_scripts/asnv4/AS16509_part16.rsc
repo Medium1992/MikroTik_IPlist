@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=18.239.62.0/23]] = 0) do={ add list=$AddressList comment=AS16509 address=18.239.62.0/23 }
-:if ([:len [find where list=$AddressList and address=18.239.64.0/21]] = 0) do={ add list=$AddressList comment=AS16509 address=18.239.64.0/21 }
-:if ([:len [find where list=$AddressList and address=18.239.72.0/22]] = 0) do={ add list=$AddressList comment=AS16509 address=18.239.72.0/22 }
-:if ([:len [find where list=$AddressList and address=18.239.78.0/23]] = 0) do={ add list=$AddressList comment=AS16509 address=18.239.78.0/23 }
 :if ([:len [find where list=$AddressList and address=18.239.8.0/22]] = 0) do={ add list=$AddressList comment=AS16509 address=18.239.8.0/22 }
 :if ([:len [find where list=$AddressList and address=18.239.80.0/21]] = 0) do={ add list=$AddressList comment=AS16509 address=18.239.80.0/21 }
 :if ([:len [find where list=$AddressList and address=18.239.88.0/22]] = 0) do={ add list=$AddressList comment=AS16509 address=18.239.88.0/22 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=18.64.88.0/23]] = 0) do={ add list=$AddressList comment=AS16509 address=18.64.88.0/23 }
 :if ([:len [find where list=$AddressList and address=18.64.92.0/22]] = 0) do={ add list=$AddressList comment=AS16509 address=18.64.92.0/22 }
 :if ([:len [find where list=$AddressList and address=18.64.96.0/21]] = 0) do={ add list=$AddressList comment=AS16509 address=18.64.96.0/21 }
+:if ([:len [find where list=$AddressList and address=18.65.0.0/16]] = 0) do={ add list=$AddressList comment=AS16509 address=18.65.0.0/16 }
+:if ([:len [find where list=$AddressList and address=18.66.0.0/17]] = 0) do={ add list=$AddressList comment=AS16509 address=18.66.0.0/17 }
+:if ([:len [find where list=$AddressList and address=18.66.128.0/20]] = 0) do={ add list=$AddressList comment=AS16509 address=18.66.128.0/20 }
+:if ([:len [find where list=$AddressList and address=18.66.144.0/22]] = 0) do={ add list=$AddressList comment=AS16509 address=18.66.144.0/22 }

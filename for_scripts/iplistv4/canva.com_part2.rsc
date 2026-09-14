@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.239.83.80]] = 0) do={ add list=$AddressList comment=canva.com address=18.239.83.80 }
+:if ([:len [find where list=$AddressList and address=18.239.83.87]] = 0) do={ add list=$AddressList comment=canva.com address=18.239.83.87 }
+:if ([:len [find where list=$AddressList and address=18.244.102.106]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.102.106 }
+:if ([:len [find where list=$AddressList and address=18.244.102.126]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.102.126 }
 :if ([:len [find where list=$AddressList and address=18.244.102.34]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.102.34 }
 :if ([:len [find where list=$AddressList and address=18.244.102.66]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.102.66 }
 :if ([:len [find where list=$AddressList and address=18.244.87.106]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.87.106 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.9.189.114]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.189.114 }
 :if ([:len [find where list=$AddressList and address=65.9.189.36]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.189.36 }
 :if ([:len [find where list=$AddressList and address=65.9.189.73]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.189.73 }
-:if ([:len [find where list=$AddressList and address=65.9.46.102]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.46.102 }
-:if ([:len [find where list=$AddressList and address=65.9.46.57]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.46.57 }
-:if ([:len [find where list=$AddressList and address=65.9.46.71]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.46.71 }
-:if ([:len [find where list=$AddressList and address=65.9.46.95]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.46.95 }

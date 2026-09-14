@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.172.242.19]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.19 }
+:if ([:len [find where list=$AddressList and address=18.172.242.27]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.27 }
+:if ([:len [find where list=$AddressList and address=18.172.242.29]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.29 }
+:if ([:len [find where list=$AddressList and address=18.172.242.31]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.31 }
 :if ([:len [find where list=$AddressList and address=18.172.242.38]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.38 }
 :if ([:len [find where list=$AddressList and address=18.172.242.4]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.4 }
 :if ([:len [find where list=$AddressList and address=18.172.242.40]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.242.40 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.239.50.50]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.50 }
 :if ([:len [find where list=$AddressList and address=18.239.50.52]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.52 }
 :if ([:len [find where list=$AddressList and address=18.239.50.54]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.54 }
-:if ([:len [find where list=$AddressList and address=18.239.50.58]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.58 }
-:if ([:len [find where list=$AddressList and address=18.239.50.72]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.72 }
-:if ([:len [find where list=$AddressList and address=18.239.50.75]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.75 }
-:if ([:len [find where list=$AddressList and address=18.239.50.82]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.82 }

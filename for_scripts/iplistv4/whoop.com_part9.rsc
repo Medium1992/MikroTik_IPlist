@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.239.50.58]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.58 }
+:if ([:len [find where list=$AddressList and address=18.239.50.72]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.72 }
+:if ([:len [find where list=$AddressList and address=18.239.50.75]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.75 }
+:if ([:len [find where list=$AddressList and address=18.239.50.82]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.82 }
 :if ([:len [find where list=$AddressList and address=18.239.50.90]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.90 }
 :if ([:len [find where list=$AddressList and address=18.239.69.107]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.69.107 }
 :if ([:len [find where list=$AddressList and address=18.239.69.14]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.69.14 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.64.103.101]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.101 }
 :if ([:len [find where list=$AddressList and address=18.64.103.113]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.113 }
 :if ([:len [find where list=$AddressList and address=18.64.103.15]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.15 }
-:if ([:len [find where list=$AddressList and address=18.64.103.36]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.36 }
-:if ([:len [find where list=$AddressList and address=18.64.103.38]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.38 }
-:if ([:len [find where list=$AddressList and address=18.64.103.39]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.39 }
-:if ([:len [find where list=$AddressList and address=18.64.103.68]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.68 }

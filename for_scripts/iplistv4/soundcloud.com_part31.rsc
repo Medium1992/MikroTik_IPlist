@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=65.9.187.46]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.187.46 }
+:if ([:len [find where list=$AddressList and address=65.9.187.47]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.187.47 }
+:if ([:len [find where list=$AddressList and address=65.9.187.49]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.187.49 }
+:if ([:len [find where list=$AddressList and address=65.9.187.51]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.187.51 }
 :if ([:len [find where list=$AddressList and address=65.9.187.55]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.187.55 }
 :if ([:len [find where list=$AddressList and address=65.9.187.58]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.187.58 }
 :if ([:len [find where list=$AddressList and address=65.9.187.64]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.187.64 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.9.95.78]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.95.78 }
 :if ([:len [find where list=$AddressList and address=65.9.95.79]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.95.79 }
 :if ([:len [find where list=$AddressList and address=65.9.95.8]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.95.8 }
-:if ([:len [find where list=$AddressList and address=65.9.95.81]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.95.81 }
-:if ([:len [find where list=$AddressList and address=65.9.95.84]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.95.84 }
-:if ([:len [find where list=$AddressList and address=65.9.95.89]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.95.89 }
-:if ([:len [find where list=$AddressList and address=65.9.95.95]] = 0) do={ add list=$AddressList comment=soundcloud.com address=65.9.95.95 }

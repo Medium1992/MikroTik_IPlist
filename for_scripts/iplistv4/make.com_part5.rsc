@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.140.12]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.12 }
+:if ([:len [find where list=$AddressList and address=18.165.140.128]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.128 }
+:if ([:len [find where list=$AddressList and address=18.165.140.129]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.129 }
+:if ([:len [find where list=$AddressList and address=18.165.140.17]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.17 }
 :if ([:len [find where list=$AddressList and address=18.165.140.20]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.20 }
 :if ([:len [find where list=$AddressList and address=18.165.140.21]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.21 }
 :if ([:len [find where list=$AddressList and address=18.165.140.22]] = 0) do={ add list=$AddressList comment=make.com address=18.165.140.22 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.173.5.85]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.85 }
 :if ([:len [find where list=$AddressList and address=18.173.5.96]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.96 }
 :if ([:len [find where list=$AddressList and address=18.173.5.97]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.97 }
-:if ([:len [find where list=$AddressList and address=18.200.184.190]] = 0) do={ add list=$AddressList comment=make.com address=18.200.184.190 }
-:if ([:len [find where list=$AddressList and address=18.200.192.19]] = 0) do={ add list=$AddressList comment=make.com address=18.200.192.19 }
-:if ([:len [find where list=$AddressList and address=18.200.42.24]] = 0) do={ add list=$AddressList comment=make.com address=18.200.42.24 }
-:if ([:len [find where list=$AddressList and address=18.202.116.150]] = 0) do={ add list=$AddressList comment=make.com address=18.202.116.150 }

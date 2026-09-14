@@ -167,7 +167,9 @@
 :if ([:len [find where list=$AddressList and address=104.117.76.97]] = 0) do={ add list=$AddressList comment=copilot address=104.117.76.97 }
 :if ([:len [find where list=$AddressList and address=104.117.76.98]] = 0) do={ add list=$AddressList comment=copilot address=104.117.76.98 }
 :if ([:len [find where list=$AddressList and address=104.117.76.99]] = 0) do={ add list=$AddressList comment=copilot address=104.117.76.99 }
+:if ([:len [find where list=$AddressList and address=104.119.189.160]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.160 }
 :if ([:len [find where list=$AddressList and address=104.119.189.17]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.17 }
+:if ([:len [find where list=$AddressList and address=104.119.189.184]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.184 }
 :if ([:len [find where list=$AddressList and address=104.119.189.187]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.187 }
 :if ([:len [find where list=$AddressList and address=104.119.189.193]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.193 }
 :if ([:len [find where list=$AddressList and address=104.119.189.194]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.194 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=104.119.189.210]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.210 }
 :if ([:len [find where list=$AddressList and address=104.119.189.211]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.211 }
 :if ([:len [find where list=$AddressList and address=104.119.189.216]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.216 }
-:if ([:len [find where list=$AddressList and address=104.119.189.217]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.217 }
-:if ([:len [find where list=$AddressList and address=104.119.189.218]] = 0) do={ add list=$AddressList comment=copilot address=104.119.189.218 }

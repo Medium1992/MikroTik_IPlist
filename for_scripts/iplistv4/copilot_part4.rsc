@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.89.178.26]] = 0) do={ add list=$AddressList comment=copilot address=13.89.178.26 }
+:if ([:len [find where list=$AddressList and address=13.89.178.27]] = 0) do={ add list=$AddressList comment=copilot address=13.89.178.27 }
+:if ([:len [find where list=$AddressList and address=13.89.179.10]] = 0) do={ add list=$AddressList comment=copilot address=13.89.179.10 }
+:if ([:len [find where list=$AddressList and address=13.89.179.11]] = 0) do={ add list=$AddressList comment=copilot address=13.89.179.11 }
 :if ([:len [find where list=$AddressList and address=13.89.179.12]] = 0) do={ add list=$AddressList comment=copilot address=13.89.179.12 }
 :if ([:len [find where list=$AddressList and address=13.89.179.13]] = 0) do={ add list=$AddressList comment=copilot address=13.89.179.13 }
 :if ([:len [find where list=$AddressList and address=13.89.179.14]] = 0) do={ add list=$AddressList comment=copilot address=13.89.179.14 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=184.28.198.123]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.123 }
 :if ([:len [find where list=$AddressList and address=184.28.198.59]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.59 }
 :if ([:len [find where list=$AddressList and address=184.28.198.64]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.64 }
-:if ([:len [find where list=$AddressList and address=184.28.198.65]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.65 }
-:if ([:len [find where list=$AddressList and address=184.28.198.74]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.74 }
-:if ([:len [find where list=$AddressList and address=184.28.198.75]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.75 }
-:if ([:len [find where list=$AddressList and address=184.28.198.80]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.80 }

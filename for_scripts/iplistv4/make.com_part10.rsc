@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.169.107.59]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.59 }
+:if ([:len [find where list=$AddressList and address=3.169.107.62]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.62 }
+:if ([:len [find where list=$AddressList and address=3.169.107.9]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.9 }
+:if ([:len [find where list=$AddressList and address=3.169.107.92]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.92 }
 :if ([:len [find where list=$AddressList and address=3.169.173.126]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.126 }
 :if ([:len [find where list=$AddressList and address=3.169.173.13]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.13 }
 :if ([:len [find where list=$AddressList and address=3.169.173.16]] = 0) do={ add list=$AddressList comment=make.com address=3.169.173.16 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.17.137.244]] = 0) do={ add list=$AddressList comment=make.com address=52.17.137.244 }
 :if ([:len [find where list=$AddressList and address=52.17.196.99]] = 0) do={ add list=$AddressList comment=make.com address=52.17.196.99 }
 :if ([:len [find where list=$AddressList and address=52.17.61.212]] = 0) do={ add list=$AddressList comment=make.com address=52.17.61.212 }
-:if ([:len [find where list=$AddressList and address=52.18.102.101]] = 0) do={ add list=$AddressList comment=make.com address=52.18.102.101 }
-:if ([:len [find where list=$AddressList and address=52.18.202.21]] = 0) do={ add list=$AddressList comment=make.com address=52.18.202.21 }
-:if ([:len [find where list=$AddressList and address=52.18.45.129]] = 0) do={ add list=$AddressList comment=make.com address=52.18.45.129 }
-:if ([:len [find where list=$AddressList and address=52.19.1.197]] = 0) do={ add list=$AddressList comment=make.com address=52.19.1.197 }

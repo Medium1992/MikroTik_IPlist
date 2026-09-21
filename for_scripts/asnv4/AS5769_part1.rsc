@@ -93,8 +93,7 @@
 :if ([:len [find where list=$AddressList and address=207.253.180.0/23]] = 0) do={ add list=$AddressList comment=AS5769 address=207.253.180.0/23 }
 :if ([:len [find where list=$AddressList and address=207.253.186.0/24]] = 0) do={ add list=$AddressList comment=AS5769 address=207.253.186.0/24 }
 :if ([:len [find where list=$AddressList and address=207.253.188.0/22]] = 0) do={ add list=$AddressList comment=AS5769 address=207.253.188.0/22 }
-:if ([:len [find where list=$AddressList and address=207.253.194.0/23]] = 0) do={ add list=$AddressList comment=AS5769 address=207.253.194.0/23 }
-:if ([:len [find where list=$AddressList and address=207.253.196.0/22]] = 0) do={ add list=$AddressList comment=AS5769 address=207.253.196.0/22 }
+:if ([:len [find where list=$AddressList and address=207.253.192.0/21]] = 0) do={ add list=$AddressList comment=AS5769 address=207.253.192.0/21 }
 :if ([:len [find where list=$AddressList and address=207.253.20.0/24]] = 0) do={ add list=$AddressList comment=AS5769 address=207.253.20.0/24 }
 :if ([:len [find where list=$AddressList and address=207.253.200.0/22]] = 0) do={ add list=$AddressList comment=AS5769 address=207.253.200.0/22 }
 :if ([:len [find where list=$AddressList and address=207.253.212.0/22]] = 0) do={ add list=$AddressList comment=AS5769 address=207.253.212.0/22 }
@@ -179,4 +178,5 @@
 :if ([:len [find where list=$AddressList and address=216.113.30.0/24]] = 0) do={ add list=$AddressList comment=AS5769 address=216.113.30.0/24 }
 :if ([:len [find where list=$AddressList and address=216.113.36.0/22]] = 0) do={ add list=$AddressList comment=AS5769 address=216.113.36.0/22 }
 :if ([:len [find where list=$AddressList and address=216.113.40.0/22]] = 0) do={ add list=$AddressList comment=AS5769 address=216.113.40.0/22 }
+:if ([:len [find where list=$AddressList and address=216.113.44.0/24]] = 0) do={ add list=$AddressList comment=AS5769 address=216.113.44.0/24 }
 :if ([:len [find where list=$AddressList and address=216.113.46.0/23]] = 0) do={ add list=$AddressList comment=AS5769 address=216.113.46.0/23 }

@@ -1,15 +1,21 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=100.60.6.69]] = 0) do={ add list=$AddressList comment=viber.com address=100.60.6.69 }
+:if ([:len [find where list=$AddressList and address=100.60.82.134]] = 0) do={ add list=$AddressList comment=viber.com address=100.60.82.134 }
+:if ([:len [find where list=$AddressList and address=100.60.93.171]] = 0) do={ add list=$AddressList comment=viber.com address=100.60.93.171 }
+:if ([:len [find where list=$AddressList and address=100.61.14.65]] = 0) do={ add list=$AddressList comment=viber.com address=100.61.14.65 }
 :if ([:len [find where list=$AddressList and address=100.61.200.1]] = 0) do={ add list=$AddressList comment=viber.com address=100.61.200.1 }
 :if ([:len [find where list=$AddressList and address=100.61.22.125]] = 0) do={ add list=$AddressList comment=viber.com address=100.61.22.125 }
 :if ([:len [find where list=$AddressList and address=100.61.243.242]] = 0) do={ add list=$AddressList comment=viber.com address=100.61.243.242 }
 :if ([:len [find where list=$AddressList and address=100.61.243.74]] = 0) do={ add list=$AddressList comment=viber.com address=100.61.243.74 }
 :if ([:len [find where list=$AddressList and address=100.61.43.129]] = 0) do={ add list=$AddressList comment=viber.com address=100.61.43.129 }
 :if ([:len [find where list=$AddressList and address=100.61.53.110]] = 0) do={ add list=$AddressList comment=viber.com address=100.61.53.110 }
+:if ([:len [find where list=$AddressList and address=100.61.57.182]] = 0) do={ add list=$AddressList comment=viber.com address=100.61.57.182 }
 :if ([:len [find where list=$AddressList and address=100.61.65.62]] = 0) do={ add list=$AddressList comment=viber.com address=100.61.65.62 }
 :if ([:len [find where list=$AddressList and address=100.61.67.19]] = 0) do={ add list=$AddressList comment=viber.com address=100.61.67.19 }
 :if ([:len [find where list=$AddressList and address=100.62.130.19]] = 0) do={ add list=$AddressList comment=viber.com address=100.62.130.19 }
 :if ([:len [find where list=$AddressList and address=100.62.16.249]] = 0) do={ add list=$AddressList comment=viber.com address=100.62.16.249 }
+:if ([:len [find where list=$AddressList and address=100.62.184.214]] = 0) do={ add list=$AddressList comment=viber.com address=100.62.184.214 }
 :if ([:len [find where list=$AddressList and address=100.62.204.68]] = 0) do={ add list=$AddressList comment=viber.com address=100.62.204.68 }
 :if ([:len [find where list=$AddressList and address=100.63.155.27]] = 0) do={ add list=$AddressList comment=viber.com address=100.63.155.27 }
 :if ([:len [find where list=$AddressList and address=100.63.19.119]] = 0) do={ add list=$AddressList comment=viber.com address=100.63.19.119 }
@@ -174,9 +180,3 @@
 :if ([:len [find where list=$AddressList and address=107.23.60.147]] = 0) do={ add list=$AddressList comment=viber.com address=107.23.60.147 }
 :if ([:len [find where list=$AddressList and address=107.23.85.181]] = 0) do={ add list=$AddressList comment=viber.com address=107.23.85.181 }
 :if ([:len [find where list=$AddressList and address=107.23.87.134]] = 0) do={ add list=$AddressList comment=viber.com address=107.23.87.134 }
-:if ([:len [find where list=$AddressList and address=107.23.88.191]] = 0) do={ add list=$AddressList comment=viber.com address=107.23.88.191 }
-:if ([:len [find where list=$AddressList and address=107.23.89.3]] = 0) do={ add list=$AddressList comment=viber.com address=107.23.89.3 }
-:if ([:len [find where list=$AddressList and address=107.23.90.155]] = 0) do={ add list=$AddressList comment=viber.com address=107.23.90.155 }
-:if ([:len [find where list=$AddressList and address=107.23.93.33]] = 0) do={ add list=$AddressList comment=viber.com address=107.23.93.33 }
-:if ([:len [find where list=$AddressList and address=108.128.112.106]] = 0) do={ add list=$AddressList comment=viber.com address=108.128.112.106 }
-:if ([:len [find where list=$AddressList and address=108.128.188.100]] = 0) do={ add list=$AddressList comment=viber.com address=108.128.188.100 }

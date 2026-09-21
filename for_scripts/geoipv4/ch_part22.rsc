@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=20.199.128.0/17]] = 0) do={ add list=$AddressList comment=ch address=20.199.128.0/17 }
+:if ([:len [find where list=$AddressList and address=20.20.43.0/24]] = 0) do={ add list=$AddressList comment=ch address=20.20.43.0/24 }
+:if ([:len [find where list=$AddressList and address=20.201.240.0/24]] = 0) do={ add list=$AddressList comment=ch address=20.201.240.0/24 }
+:if ([:len [find where list=$AddressList and address=20.203.128.0/17]] = 0) do={ add list=$AddressList comment=ch address=20.203.128.0/17 }
 :if ([:len [find where list=$AddressList and address=20.208.0.0/16]] = 0) do={ add list=$AddressList comment=ch address=20.208.0.0/16 }
 :if ([:len [find where list=$AddressList and address=20.209.174.0/23]] = 0) do={ add list=$AddressList comment=ch address=20.209.174.0/23 }
 :if ([:len [find where list=$AddressList and address=20.209.28.0/23]] = 0) do={ add list=$AddressList comment=ch address=20.209.28.0/23 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=212.208.254.124/30]] = 0) do={ add list=$AddressList comment=ch address=212.208.254.124/30 }
 :if ([:len [find where list=$AddressList and address=212.208.254.128/25]] = 0) do={ add list=$AddressList comment=ch address=212.208.254.128/25 }
 :if ([:len [find where list=$AddressList and address=212.208.254.64/27]] = 0) do={ add list=$AddressList comment=ch address=212.208.254.64/27 }
-:if ([:len [find where list=$AddressList and address=212.208.254.96/28]] = 0) do={ add list=$AddressList comment=ch address=212.208.254.96/28 }
-:if ([:len [find where list=$AddressList and address=212.215.0.0/17]] = 0) do={ add list=$AddressList comment=ch address=212.215.0.0/17 }
-:if ([:len [find where list=$AddressList and address=212.221.116.104/29]] = 0) do={ add list=$AddressList comment=ch address=212.221.116.104/29 }
-:if ([:len [find where list=$AddressList and address=212.221.116.200/29]] = 0) do={ add list=$AddressList comment=ch address=212.221.116.200/29 }

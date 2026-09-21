@@ -2,15 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=144.56.100.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.56.100.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
-:if ([:len [/ip/route/find dst-address=144.56.127.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.56.127.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
-:if ([:len [/ip/route/find dst-address=144.56.17.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.56.17.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
-:if ([:len [/ip/route/find dst-address=144.56.35.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.56.35.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
-:if ([:len [/ip/route/find dst-address=144.56.36.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.56.36.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
-:if ([:len [/ip/route/find dst-address=144.56.97.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=144.56.97.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
-:if ([:len [/ip/route/find dst-address=194.233.149.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=194.233.149.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
-:if ([:len [/ip/route/find dst-address=40.223.188.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=40.223.188.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
-:if ([:len [/ip/route/find dst-address=40.223.80.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=40.223.80.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
 :if ([:len [/ip/route/find dst-address=61.18.145.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=61.18.145.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
 :if ([:len [/ip/route/find dst-address=61.18.147.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=61.18.147.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
 :if ([:len [/ip/route/find dst-address=61.18.149.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=61.18.149.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
@@ -50,6 +41,5 @@
 :if ([:len [/ip/route/find dst-address=61.18.244.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=61.18.244.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
 :if ([:len [/ip/route/find dst-address=61.18.248.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=61.18.248.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
 :if ([:len [/ip/route/find dst-address=61.18.250.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=61.18.250.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
-:if ([:len [/ip/route/find dst-address=64.50.180.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=64.50.180.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
 :if ([:len [/ip/route/find dst-address=82.206.3.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=82.206.3.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }
 :if ([:len [/ip/route/find dst-address=94.231.229.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=94.231.229.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS218910 }

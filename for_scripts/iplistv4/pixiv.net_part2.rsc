@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=142.251.208.179]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.208.179 }
+:if ([:len [find where list=$AddressList and address=142.251.209.51]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.209.51 }
+:if ([:len [find where list=$AddressList and address=142.251.27.121]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.27.121 }
+:if ([:len [find where list=$AddressList and address=142.251.36.179]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.36.179 }
 :if ([:len [find where list=$AddressList and address=142.251.36.211]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.36.211 }
 :if ([:len [find where list=$AddressList and address=142.251.36.243]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.36.243 }
 :if ([:len [find where list=$AddressList and address=142.251.37.115]] = 0) do={ add list=$AddressList comment=pixiv.net address=142.251.37.115 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.66.192.93]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.192.93 }
 :if ([:len [find where list=$AddressList and address=18.66.192.98]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.192.98 }
 :if ([:len [find where list=$AddressList and address=18.66.233.112]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.233.112 }
-:if ([:len [find where list=$AddressList and address=18.66.233.128]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.233.128 }
-:if ([:len [find where list=$AddressList and address=18.66.233.68]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.233.68 }
-:if ([:len [find where list=$AddressList and address=18.66.233.76]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.233.76 }
-:if ([:len [find where list=$AddressList and address=18.66.26.112]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.26.112 }

@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=116.129.226.1]] = 0) do={ add list=$AddressList comment=jetbrains.com address=116.129.226.1 }
+:if ([:len [find where list=$AddressList and address=116.129.226.11]] = 0) do={ add list=$AddressList comment=jetbrains.com address=116.129.226.11 }
 :if ([:len [find where list=$AddressList and address=116.129.226.12]] = 0) do={ add list=$AddressList comment=jetbrains.com address=116.129.226.12 }
 :if ([:len [find where list=$AddressList and address=116.129.226.129]] = 0) do={ add list=$AddressList comment=jetbrains.com address=116.129.226.129 }
 :if ([:len [find where list=$AddressList and address=116.129.226.13]] = 0) do={ add list=$AddressList comment=jetbrains.com address=116.129.226.13 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.224.115.26]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.224.115.26 }
 :if ([:len [find where list=$AddressList and address=13.224.115.27]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.224.115.27 }
 :if ([:len [find where list=$AddressList and address=13.224.115.3]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.224.115.3 }
-:if ([:len [find where list=$AddressList and address=13.224.115.67]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.224.115.67 }
-:if ([:len [find where list=$AddressList and address=13.224.132.103]] = 0) do={ add list=$AddressList comment=jetbrains.com address=13.224.132.103 }

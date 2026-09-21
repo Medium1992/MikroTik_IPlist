@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.58.1.161/32]] = 0) do={ add list=$AddressList comment=facebook.com address=52.58.1.161/32 }
 :if ([:len [find where list=$AddressList and address=54.234.18.200/32]] = 0) do={ add list=$AddressList comment=facebook.com address=54.234.18.200/32 }
 :if ([:len [find where list=$AddressList and address=54.64.0.0/11]] = 0) do={ add list=$AddressList comment=facebook.com address=54.64.0.0/11 }
 :if ([:len [find where list=$AddressList and address=57.0.0.0/8]] = 0) do={ add list=$AddressList comment=facebook.com address=57.0.0.0/8 }

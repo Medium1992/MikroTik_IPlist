@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.165.239.51]] = 0) do={ add list=$AddressList comment=patreon.com address=3.165.239.51 }
+:if ([:len [find where list=$AddressList and address=3.167.2.10]] = 0) do={ add list=$AddressList comment=patreon.com address=3.167.2.10 }
+:if ([:len [find where list=$AddressList and address=3.167.2.105]] = 0) do={ add list=$AddressList comment=patreon.com address=3.167.2.105 }
+:if ([:len [find where list=$AddressList and address=3.167.2.31]] = 0) do={ add list=$AddressList comment=patreon.com address=3.167.2.31 }
 :if ([:len [find where list=$AddressList and address=3.167.2.93]] = 0) do={ add list=$AddressList comment=patreon.com address=3.167.2.93 }
 :if ([:len [find where list=$AddressList and address=3.169.173.121]] = 0) do={ add list=$AddressList comment=patreon.com address=3.169.173.121 }
 :if ([:len [find where list=$AddressList and address=3.169.173.48]] = 0) do={ add list=$AddressList comment=patreon.com address=3.169.173.48 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=54.234.18.200]] = 0) do={ add list=$AddressList comment=patreon.com address=54.234.18.200 }
 :if ([:len [find where list=$AddressList and address=54.236.83.142]] = 0) do={ add list=$AddressList comment=patreon.com address=54.236.83.142 }
 :if ([:len [find where list=$AddressList and address=54.239.195.100]] = 0) do={ add list=$AddressList comment=patreon.com address=54.239.195.100 }
-:if ([:len [find where list=$AddressList and address=54.239.195.121]] = 0) do={ add list=$AddressList comment=patreon.com address=54.239.195.121 }
-:if ([:len [find where list=$AddressList and address=54.239.195.31]] = 0) do={ add list=$AddressList comment=patreon.com address=54.239.195.31 }
-:if ([:len [find where list=$AddressList and address=54.239.195.58]] = 0) do={ add list=$AddressList comment=patreon.com address=54.239.195.58 }
-:if ([:len [find where list=$AddressList and address=54.250.209.117]] = 0) do={ add list=$AddressList comment=patreon.com address=54.250.209.117 }

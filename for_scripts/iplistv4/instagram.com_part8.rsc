@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=66.220.147.11]] = 0) do={ add list=$AddressList comment=instagram.com address=66.220.147.11 }
+:if ([:len [find where list=$AddressList and address=66.220.148.145]] = 0) do={ add list=$AddressList comment=instagram.com address=66.220.148.145 }
+:if ([:len [find where list=$AddressList and address=66.220.149.18]] = 0) do={ add list=$AddressList comment=instagram.com address=66.220.149.18 }
 :if ([:len [find where list=$AddressList and address=66.220.149.32]] = 0) do={ add list=$AddressList comment=instagram.com address=66.220.149.32 }
 :if ([:len [find where list=$AddressList and address=67.15.100.252]] = 0) do={ add list=$AddressList comment=instagram.com address=67.15.100.252 }
 :if ([:len [find where list=$AddressList and address=67.15.129.210]] = 0) do={ add list=$AddressList comment=instagram.com address=67.15.129.210 }

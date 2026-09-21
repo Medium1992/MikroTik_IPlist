@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.162.38.126]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.126 }
+:if ([:len [find where list=$AddressList and address=3.162.38.7]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.7 }
+:if ([:len [find where list=$AddressList and address=3.162.38.84]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.84 }
+:if ([:len [find where list=$AddressList and address=3.164.206.118]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.206.118 }
 :if ([:len [find where list=$AddressList and address=3.164.206.18]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.206.18 }
 :if ([:len [find where list=$AddressList and address=3.164.206.62]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.206.62 }
 :if ([:len [find where list=$AddressList and address=3.164.206.81]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.206.81 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.9.95.10]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.95.10 }
 :if ([:len [find where list=$AddressList and address=65.9.95.110]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.95.110 }
 :if ([:len [find where list=$AddressList and address=65.9.95.94]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.95.94 }
-:if ([:len [find where list=$AddressList and address=65.9.95.96]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.95.96 }
-:if ([:len [find where list=$AddressList and address=69.162.80.54]] = 0) do={ add list=$AddressList comment=discord.com address=69.162.80.54 }
-:if ([:len [find where list=$AddressList and address=69.162.80.61]] = 0) do={ add list=$AddressList comment=discord.com address=69.162.80.61 }
-:if ([:len [find where list=$AddressList and address=69.162.95.2]] = 0) do={ add list=$AddressList comment=discord.com address=69.162.95.2 }

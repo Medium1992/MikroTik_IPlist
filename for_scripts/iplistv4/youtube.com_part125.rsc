@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=74.125.8.5]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.5 }
+:if ([:len [find where list=$AddressList and address=74.125.8.70]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.70 }
+:if ([:len [find where list=$AddressList and address=74.125.8.71]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.71 }
+:if ([:len [find where list=$AddressList and address=74.125.8.72]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.72 }
 :if ([:len [find where list=$AddressList and address=74.125.8.73]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.73 }
 :if ([:len [find where list=$AddressList and address=74.125.8.74]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.74 }
 :if ([:len [find where list=$AddressList and address=74.125.9.102]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.9.102 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=81.23.20.205]] = 0) do={ add list=$AddressList comment=youtube.com address=81.23.20.205 }
 :if ([:len [find where list=$AddressList and address=81.23.23.108]] = 0) do={ add list=$AddressList comment=youtube.com address=81.23.23.108 }
 :if ([:len [find where list=$AddressList and address=81.23.23.109]] = 0) do={ add list=$AddressList comment=youtube.com address=81.23.23.109 }
-:if ([:len [find where list=$AddressList and address=81.23.23.110]] = 0) do={ add list=$AddressList comment=youtube.com address=81.23.23.110 }
-:if ([:len [find where list=$AddressList and address=81.23.23.111]] = 0) do={ add list=$AddressList comment=youtube.com address=81.23.23.111 }
-:if ([:len [find where list=$AddressList and address=81.23.25.81]] = 0) do={ add list=$AddressList comment=youtube.com address=81.23.25.81 }
-:if ([:len [find where list=$AddressList and address=81.27.242.140]] = 0) do={ add list=$AddressList comment=youtube.com address=81.27.242.140 }

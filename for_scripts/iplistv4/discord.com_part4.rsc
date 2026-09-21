@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=185.107.56.53]] = 0) do={ add list=$AddressList comment=discord.com address=185.107.56.53 }
+:if ([:len [find where list=$AddressList and address=185.107.56.54]] = 0) do={ add list=$AddressList comment=discord.com address=185.107.56.54 }
+:if ([:len [find where list=$AddressList and address=185.107.56.55]] = 0) do={ add list=$AddressList comment=discord.com address=185.107.56.55 }
+:if ([:len [find where list=$AddressList and address=188.114.96.0]] = 0) do={ add list=$AddressList comment=discord.com address=188.114.96.0 }
 :if ([:len [find where list=$AddressList and address=188.114.96.1]] = 0) do={ add list=$AddressList comment=discord.com address=188.114.96.1 }
 :if ([:len [find where list=$AddressList and address=188.114.96.10]] = 0) do={ add list=$AddressList comment=discord.com address=188.114.96.10 }
 :if ([:len [find where list=$AddressList and address=188.114.96.12]] = 0) do={ add list=$AddressList comment=discord.com address=188.114.96.12 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.162.140.91]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.91 }
 :if ([:len [find where list=$AddressList and address=3.162.140.97]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.97 }
 :if ([:len [find where list=$AddressList and address=3.162.38.10]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.10 }
-:if ([:len [find where list=$AddressList and address=3.162.38.126]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.126 }
-:if ([:len [find where list=$AddressList and address=3.162.38.7]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.7 }
-:if ([:len [find where list=$AddressList and address=3.162.38.84]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.84 }
-:if ([:len [find where list=$AddressList and address=3.164.206.118]] = 0) do={ add list=$AddressList comment=discord.com address=3.164.206.118 }

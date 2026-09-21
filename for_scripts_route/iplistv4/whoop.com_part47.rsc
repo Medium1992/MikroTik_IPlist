@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=52.85.49.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.49 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
+:if ([:len [/ip/route/find dst-address=52.85.49.65 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.65 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=52.85.49.72 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.72 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=52.85.49.78 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=52.85.49.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.49.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=54.167.157.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.167.157.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=54.173.191.116 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.173.191.116 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
 :if ([:len [/ip/route/find dst-address=54.173.242.74 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.173.242.74 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=54.173.91.130 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.173.91.130 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=54.174.14.250 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.174.14.250 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=54.174.212.171 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.174.212.171 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=54.175.139.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.175.139.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=54.175.188.146 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.175.188.146 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }
-:if ([:len [/ip/route/find dst-address=54.175.213.250 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.175.213.250 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=whoop.com }

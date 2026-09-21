@@ -5,6 +5,7 @@
 :if ([:len [find where list=$AddressList and address=136.175.225.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=136.175.225.0/24 }
 :if ([:len [find where list=$AddressList and address=141.11.199.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=141.11.199.0/24 }
 :if ([:len [find where list=$AddressList and address=142.111.159.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=142.111.159.0/24 }
+:if ([:len [find where list=$AddressList and address=143.20.70.0/23]] = 0) do={ add list=$AddressList comment=AS137897 address=143.20.70.0/23 }
 :if ([:len [find where list=$AddressList and address=144.225.101.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=144.225.101.0/24 }
 :if ([:len [find where list=$AddressList and address=144.31.45.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=144.31.45.0/24 }
 :if ([:len [find where list=$AddressList and address=151.243.102.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=151.243.102.0/24 }
@@ -27,5 +28,7 @@
 :if ([:len [find where list=$AddressList and address=45.65.113.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=45.65.113.0/24 }
 :if ([:len [find where list=$AddressList and address=45.66.148.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=45.66.148.0/24 }
 :if ([:len [find where list=$AddressList and address=82.38.46.0/23]] = 0) do={ add list=$AddressList comment=AS137897 address=82.38.46.0/23 }
+:if ([:len [find where list=$AddressList and address=82.38.80.0/23]] = 0) do={ add list=$AddressList comment=AS137897 address=82.38.80.0/23 }
+:if ([:len [find where list=$AddressList and address=87.229.70.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=87.229.70.0/24 }
 :if ([:len [find where list=$AddressList and address=89.251.29.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=89.251.29.0/24 }
 :if ([:len [find where list=$AddressList and address=89.42.87.0/24]] = 0) do={ add list=$AddressList comment=AS137897 address=89.42.87.0/24 }

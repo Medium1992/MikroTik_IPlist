@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=184.51.88.145]] = 0) do={ add list=$AddressList comment=krymr.com address=184.51.88.145 }
+:if ([:len [find where list=$AddressList and address=184.51.88.165]] = 0) do={ add list=$AddressList comment=krymr.com address=184.51.88.165 }
+:if ([:len [find where list=$AddressList and address=184.85.149.126]] = 0) do={ add list=$AddressList comment=krymr.com address=184.85.149.126 }
+:if ([:len [find where list=$AddressList and address=184.85.151.195]] = 0) do={ add list=$AddressList comment=krymr.com address=184.85.151.195 }
 :if ([:len [find where list=$AddressList and address=184.85.180.16]] = 0) do={ add list=$AddressList comment=krymr.com address=184.85.180.16 }
 :if ([:len [find where list=$AddressList and address=184.85.53.41]] = 0) do={ add list=$AddressList comment=krymr.com address=184.85.53.41 }
 :if ([:len [find where list=$AddressList and address=184.85.55.107]] = 0) do={ add list=$AddressList comment=krymr.com address=184.85.55.107 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.19.197.96]] = 0) do={ add list=$AddressList comment=krymr.com address=2.19.197.96 }
 :if ([:len [find where list=$AddressList and address=2.19.248.141]] = 0) do={ add list=$AddressList comment=krymr.com address=2.19.248.141 }
 :if ([:len [find where list=$AddressList and address=2.19.248.148]] = 0) do={ add list=$AddressList comment=krymr.com address=2.19.248.148 }
-:if ([:len [find where list=$AddressList and address=2.19.248.150]] = 0) do={ add list=$AddressList comment=krymr.com address=2.19.248.150 }
-:if ([:len [find where list=$AddressList and address=2.19.250.131]] = 0) do={ add list=$AddressList comment=krymr.com address=2.19.250.131 }
-:if ([:len [find where list=$AddressList and address=2.19.250.142]] = 0) do={ add list=$AddressList comment=krymr.com address=2.19.250.142 }
-:if ([:len [find where list=$AddressList and address=2.19.251.161]] = 0) do={ add list=$AddressList comment=krymr.com address=2.19.251.161 }

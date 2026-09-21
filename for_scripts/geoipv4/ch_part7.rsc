@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=154.14.20.8/29]] = 0) do={ add list=$AddressList comment=ch address=154.14.20.8/29 }
 :if ([:len [find where list=$AddressList and address=154.14.21.176/29]] = 0) do={ add list=$AddressList comment=ch address=154.14.21.176/29 }
 :if ([:len [find where list=$AddressList and address=154.14.217.216/30]] = 0) do={ add list=$AddressList comment=ch address=154.14.217.216/30 }
 :if ([:len [find where list=$AddressList and address=154.14.22.232/29]] = 0) do={ add list=$AddressList comment=ch address=154.14.22.232/29 }
@@ -174,9 +175,8 @@
 :if ([:len [find where list=$AddressList and address=157.167.240.18/32]] = 0) do={ add list=$AddressList comment=ch address=157.167.240.18/32 }
 :if ([:len [find where list=$AddressList and address=157.167.96.0/24]] = 0) do={ add list=$AddressList comment=ch address=157.167.96.0/24 }
 :if ([:len [find where list=$AddressList and address=157.173.80.0/20]] = 0) do={ add list=$AddressList comment=ch address=157.173.80.0/20 }
+:if ([:len [find where list=$AddressList and address=157.228.156.0/23]] = 0) do={ add list=$AddressList comment=ch address=157.228.156.0/23 }
 :if ([:len [find where list=$AddressList and address=157.23.240.28/31]] = 0) do={ add list=$AddressList comment=ch address=157.23.240.28/31 }
 :if ([:len [find where list=$AddressList and address=157.23.241.28/31]] = 0) do={ add list=$AddressList comment=ch address=157.23.241.28/31 }
 :if ([:len [find where list=$AddressList and address=157.23.242.156/31]] = 0) do={ add list=$AddressList comment=ch address=157.23.242.156/31 }
 :if ([:len [find where list=$AddressList and address=157.23.242.28/31]] = 0) do={ add list=$AddressList comment=ch address=157.23.242.28/31 }
-:if ([:len [find where list=$AddressList and address=157.23.243.28/31]] = 0) do={ add list=$AddressList comment=ch address=157.23.243.28/31 }
-:if ([:len [find where list=$AddressList and address=157.23.248.28/32]] = 0) do={ add list=$AddressList comment=ch address=157.23.248.28/32 }

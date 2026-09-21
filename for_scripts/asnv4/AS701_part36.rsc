@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=208.250.112.0/20]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.112.0/20 }
+:if ([:len [find where list=$AddressList and address=208.250.128.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.128.0/23 }
+:if ([:len [find where list=$AddressList and address=208.250.130.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.130.0/24 }
+:if ([:len [find where list=$AddressList and address=208.250.132.0/22]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.132.0/22 }
+:if ([:len [find where list=$AddressList and address=208.250.136.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.136.0/21 }
+:if ([:len [find where list=$AddressList and address=208.250.144.0/20]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.144.0/20 }
+:if ([:len [find where list=$AddressList and address=208.250.160.0/19]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.160.0/19 }
+:if ([:len [find where list=$AddressList and address=208.250.192.0/18]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.192.0/18 }
+:if ([:len [find where list=$AddressList and address=208.250.64.0/22]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.64.0/22 }
+:if ([:len [find where list=$AddressList and address=208.250.68.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.68.0/23 }
+:if ([:len [find where list=$AddressList and address=208.250.71.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.71.0/24 }
 :if ([:len [find where list=$AddressList and address=208.250.72.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.72.0/21 }
 :if ([:len [find where list=$AddressList and address=208.250.80.0/20]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.80.0/20 }
 :if ([:len [find where list=$AddressList and address=208.250.96.0/22]] = 0) do={ add list=$AddressList comment=AS701 address=208.250.96.0/22 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=209.212.160.0/19]] = 0) do={ add list=$AddressList comment=AS701 address=209.212.160.0/19 }
 :if ([:len [find where list=$AddressList and address=209.220.104.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=209.220.104.0/24 }
 :if ([:len [find where list=$AddressList and address=209.220.96.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=209.220.96.0/23 }
-:if ([:len [find where list=$AddressList and address=209.31.146.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=209.31.146.0/24 }
-:if ([:len [find where list=$AddressList and address=209.47.0.0/17]] = 0) do={ add list=$AddressList comment=AS701 address=209.47.0.0/17 }
-:if ([:len [find where list=$AddressList and address=209.47.128.0/19]] = 0) do={ add list=$AddressList comment=AS701 address=209.47.128.0/19 }
-:if ([:len [find where list=$AddressList and address=209.47.160.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=209.47.160.0/21 }
-:if ([:len [find where list=$AddressList and address=209.47.168.0/22]] = 0) do={ add list=$AddressList comment=AS701 address=209.47.168.0/22 }
-:if ([:len [find where list=$AddressList and address=209.47.173.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=209.47.173.0/24 }
-:if ([:len [find where list=$AddressList and address=209.47.174.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=209.47.174.0/23 }
-:if ([:len [find where list=$AddressList and address=209.47.176.0/20]] = 0) do={ add list=$AddressList comment=AS701 address=209.47.176.0/20 }
-:if ([:len [find where list=$AddressList and address=209.47.192.0/20]] = 0) do={ add list=$AddressList comment=AS701 address=209.47.192.0/20 }
-:if ([:len [find where list=$AddressList and address=209.47.208.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=209.47.208.0/21 }
-:if ([:len [find where list=$AddressList and address=209.47.216.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=209.47.216.0/23 }

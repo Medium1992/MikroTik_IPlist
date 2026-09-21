@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=49.44.80.82]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.80.82 }
+:if ([:len [find where list=$AddressList and address=49.44.80.83]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.80.83 }
+:if ([:len [find where list=$AddressList and address=49.44.81.13]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.81.13 }
+:if ([:len [find where list=$AddressList and address=49.44.81.14]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.81.14 }
 :if ([:len [find where list=$AddressList and address=49.44.81.142]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.81.142 }
 :if ([:len [find where list=$AddressList and address=49.44.81.178]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.81.178 }
 :if ([:len [find where list=$AddressList and address=49.44.81.211]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.81.211 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=58.64.53.108]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.53.108 }
 :if ([:len [find where list=$AddressList and address=58.64.53.109]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.53.109 }
 :if ([:len [find where list=$AddressList and address=58.64.53.110]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.53.110 }
-:if ([:len [find where list=$AddressList and address=58.64.53.111]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.53.111 }
-:if ([:len [find where list=$AddressList and address=58.64.53.112]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.53.112 }
-:if ([:len [find where list=$AddressList and address=58.64.53.113]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.53.113 }
-:if ([:len [find where list=$AddressList and address=58.64.54.108]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.54.108 }

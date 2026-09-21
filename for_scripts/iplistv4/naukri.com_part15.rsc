@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.66.218.5]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.5 }
+:if ([:len [find where list=$AddressList and address=18.66.218.6]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.6 }
+:if ([:len [find where list=$AddressList and address=18.66.218.74]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.74 }
+:if ([:len [find where list=$AddressList and address=18.66.218.80]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.80 }
+:if ([:len [find where list=$AddressList and address=18.66.218.83]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.83 }
+:if ([:len [find where list=$AddressList and address=18.66.218.84]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.84 }
+:if ([:len [find where list=$AddressList and address=18.66.218.96]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.96 }
+:if ([:len [find where list=$AddressList and address=18.66.233.102]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.102 }
+:if ([:len [find where list=$AddressList and address=18.66.233.116]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.116 }
+:if ([:len [find where list=$AddressList and address=18.66.233.118]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.118 }
+:if ([:len [find where list=$AddressList and address=18.66.233.12]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.12 }
 :if ([:len [find where list=$AddressList and address=18.66.233.122]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.122 }
 :if ([:len [find where list=$AddressList and address=18.66.233.15]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.15 }
 :if ([:len [find where list=$AddressList and address=18.66.233.18]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.18 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=184.27.185.21]] = 0) do={ add list=$AddressList comment=naukri.com address=184.27.185.21 }
 :if ([:len [find where list=$AddressList and address=184.27.185.28]] = 0) do={ add list=$AddressList comment=naukri.com address=184.27.185.28 }
 :if ([:len [find where list=$AddressList and address=184.27.24.7]] = 0) do={ add list=$AddressList comment=naukri.com address=184.27.24.7 }
-:if ([:len [find where list=$AddressList and address=184.27.25.156]] = 0) do={ add list=$AddressList comment=naukri.com address=184.27.25.156 }
-:if ([:len [find where list=$AddressList and address=184.28.152.31]] = 0) do={ add list=$AddressList comment=naukri.com address=184.28.152.31 }
-:if ([:len [find where list=$AddressList and address=184.28.153.149]] = 0) do={ add list=$AddressList comment=naukri.com address=184.28.153.149 }
-:if ([:len [find where list=$AddressList and address=184.28.183.147]] = 0) do={ add list=$AddressList comment=naukri.com address=184.28.183.147 }
-:if ([:len [find where list=$AddressList and address=184.28.245.149]] = 0) do={ add list=$AddressList comment=naukri.com address=184.28.245.149 }
-:if ([:len [find where list=$AddressList and address=184.28.78.194]] = 0) do={ add list=$AddressList comment=naukri.com address=184.28.78.194 }
-:if ([:len [find where list=$AddressList and address=184.28.78.206]] = 0) do={ add list=$AddressList comment=naukri.com address=184.28.78.206 }
-:if ([:len [find where list=$AddressList and address=184.28.78.209]] = 0) do={ add list=$AddressList comment=naukri.com address=184.28.78.209 }
-:if ([:len [find where list=$AddressList and address=184.28.81.140]] = 0) do={ add list=$AddressList comment=naukri.com address=184.28.81.140 }
-:if ([:len [find where list=$AddressList and address=184.28.81.171]] = 0) do={ add list=$AddressList comment=naukri.com address=184.28.81.171 }
-:if ([:len [find where list=$AddressList and address=184.28.86.34]] = 0) do={ add list=$AddressList comment=naukri.com address=184.28.86.34 }

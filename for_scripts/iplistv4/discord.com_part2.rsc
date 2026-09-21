@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=142.250.187.123]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.187.123 }
+:if ([:len [find where list=$AddressList and address=142.250.187.155]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.187.155 }
+:if ([:len [find where list=$AddressList and address=142.250.187.187]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.187.187 }
+:if ([:len [find where list=$AddressList and address=142.250.200.219]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.200.219 }
 :if ([:len [find where list=$AddressList and address=142.250.200.251]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.200.251 }
 :if ([:len [find where list=$AddressList and address=142.250.201.219]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.201.219 }
 :if ([:len [find where list=$AddressList and address=142.250.201.27]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.201.27 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=172.217.22.27]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.27 }
 :if ([:len [find where list=$AddressList and address=172.217.22.59]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.59 }
 :if ([:len [find where list=$AddressList and address=172.217.22.91]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.91 }
-:if ([:len [find where list=$AddressList and address=172.217.23.155]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.23.155 }
-:if ([:len [find where list=$AddressList and address=172.217.23.187]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.23.187 }
-:if ([:len [find where list=$AddressList and address=172.217.23.251]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.23.251 }
-:if ([:len [find where list=$AddressList and address=172.217.23.27]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.23.27 }

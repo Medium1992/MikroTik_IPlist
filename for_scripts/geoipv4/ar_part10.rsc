@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=190.110.112.0/21]] = 0) do={ add list=$AddressList comment=ar address=190.110.112.0/21 }
-:if ([:len [find where list=$AddressList and address=190.110.176.0/20]] = 0) do={ add list=$AddressList comment=ar address=190.110.176.0/20 }
-:if ([:len [find where list=$AddressList and address=190.110.224.0/23]] = 0) do={ add list=$AddressList comment=ar address=190.110.224.0/23 }
-:if ([:len [find where list=$AddressList and address=190.110.229.0/24]] = 0) do={ add list=$AddressList comment=ar address=190.110.229.0/24 }
 :if ([:len [find where list=$AddressList and address=190.110.232.0/22]] = 0) do={ add list=$AddressList comment=ar address=190.110.232.0/22 }
 :if ([:len [find where list=$AddressList and address=190.110.239.0/24]] = 0) do={ add list=$AddressList comment=ar address=190.110.239.0/24 }
 :if ([:len [find where list=$AddressList and address=190.110.240.0/24]] = 0) do={ add list=$AddressList comment=ar address=190.110.240.0/24 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=190.221.40.0/22]] = 0) do={ add list=$AddressList comment=ar address=190.221.40.0/22 }
 :if ([:len [find where list=$AddressList and address=190.221.45.0/24]] = 0) do={ add list=$AddressList comment=ar address=190.221.45.0/24 }
 :if ([:len [find where list=$AddressList and address=190.221.46.0/23]] = 0) do={ add list=$AddressList comment=ar address=190.221.46.0/23 }
+:if ([:len [find where list=$AddressList and address=190.221.48.0/20]] = 0) do={ add list=$AddressList comment=ar address=190.221.48.0/20 }
+:if ([:len [find where list=$AddressList and address=190.221.64.0/18]] = 0) do={ add list=$AddressList comment=ar address=190.221.64.0/18 }
+:if ([:len [find where list=$AddressList and address=190.224.0.0/13]] = 0) do={ add list=$AddressList comment=ar address=190.224.0.0/13 }
+:if ([:len [find where list=$AddressList and address=190.244.0.0/14]] = 0) do={ add list=$AddressList comment=ar address=190.244.0.0/14 }

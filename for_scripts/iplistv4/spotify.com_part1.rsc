@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=100.28.104.175]] = 0) do={ add list=$AddressList comment=spotify.com address=100.28.104.175 }
 :if ([:len [find where list=$AddressList and address=103.23.125.24]] = 0) do={ add list=$AddressList comment=spotify.com address=103.23.125.24 }
 :if ([:len [find where list=$AddressList and address=104.103.72.104]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.104 }
 :if ([:len [find where list=$AddressList and address=104.103.72.49]] = 0) do={ add list=$AddressList comment=spotify.com address=104.103.72.49 }
@@ -179,4 +180,3 @@
 :if ([:len [find where list=$AddressList and address=104.79.93.219]] = 0) do={ add list=$AddressList comment=spotify.com address=104.79.93.219 }
 :if ([:len [find where list=$AddressList and address=104.79.93.232]] = 0) do={ add list=$AddressList comment=spotify.com address=104.79.93.232 }
 :if ([:len [find where list=$AddressList and address=104.79.93.242]] = 0) do={ add list=$AddressList comment=spotify.com address=104.79.93.242 }
-:if ([:len [find where list=$AddressList and address=104.79.93.243]] = 0) do={ add list=$AddressList comment=spotify.com address=104.79.93.243 }

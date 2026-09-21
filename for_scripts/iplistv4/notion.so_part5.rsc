@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.173.154.68]] = 0) do={ add list=$AddressList comment=notion.so address=18.173.154.68 }
+:if ([:len [find where list=$AddressList and address=18.173.154.90]] = 0) do={ add list=$AddressList comment=notion.so address=18.173.154.90 }
+:if ([:len [find where list=$AddressList and address=18.173.154.91]] = 0) do={ add list=$AddressList comment=notion.so address=18.173.154.91 }
+:if ([:len [find where list=$AddressList and address=18.185.27.82]] = 0) do={ add list=$AddressList comment=notion.so address=18.185.27.82 }
+:if ([:len [find where list=$AddressList and address=18.198.182.154]] = 0) do={ add list=$AddressList comment=notion.so address=18.198.182.154 }
+:if ([:len [find where list=$AddressList and address=18.202.8.75]] = 0) do={ add list=$AddressList comment=notion.so address=18.202.8.75 }
+:if ([:len [find where list=$AddressList and address=18.214.252.60]] = 0) do={ add list=$AddressList comment=notion.so address=18.214.252.60 }
+:if ([:len [find where list=$AddressList and address=18.238.192.6]] = 0) do={ add list=$AddressList comment=notion.so address=18.238.192.6 }
 :if ([:len [find where list=$AddressList and address=18.238.192.77]] = 0) do={ add list=$AddressList comment=notion.so address=18.238.192.77 }
 :if ([:len [find where list=$AddressList and address=18.238.192.87]] = 0) do={ add list=$AddressList comment=notion.so address=18.238.192.87 }
 :if ([:len [find where list=$AddressList and address=18.238.192.97]] = 0) do={ add list=$AddressList comment=notion.so address=18.238.192.97 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=208.103.161.17]] = 0) do={ add list=$AddressList comment=notion.so address=208.103.161.17 }
 :if ([:len [find where list=$AddressList and address=208.103.161.18]] = 0) do={ add list=$AddressList comment=notion.so address=208.103.161.18 }
 :if ([:len [find where list=$AddressList and address=208.103.161.19]] = 0) do={ add list=$AddressList comment=notion.so address=208.103.161.19 }
-:if ([:len [find where list=$AddressList and address=208.103.161.2]] = 0) do={ add list=$AddressList comment=notion.so address=208.103.161.2 }
-:if ([:len [find where list=$AddressList and address=208.103.161.32]] = 0) do={ add list=$AddressList comment=notion.so address=208.103.161.32 }
-:if ([:len [find where list=$AddressList and address=208.103.161.33]] = 0) do={ add list=$AddressList comment=notion.so address=208.103.161.33 }
-:if ([:len [find where list=$AddressList and address=216.198.51.10]] = 0) do={ add list=$AddressList comment=notion.so address=216.198.51.10 }
-:if ([:len [find where list=$AddressList and address=216.198.52.10]] = 0) do={ add list=$AddressList comment=notion.so address=216.198.52.10 }
-:if ([:len [find where list=$AddressList and address=216.198.53.11]] = 0) do={ add list=$AddressList comment=notion.so address=216.198.53.11 }
-:if ([:len [find where list=$AddressList and address=216.198.53.6]] = 0) do={ add list=$AddressList comment=notion.so address=216.198.53.6 }
-:if ([:len [find where list=$AddressList and address=216.198.54.11]] = 0) do={ add list=$AddressList comment=notion.so address=216.198.54.11 }

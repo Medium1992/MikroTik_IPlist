@@ -151,7 +151,9 @@
 :if ([:len [find where list=$AddressList and address=63.186.45.32]] = 0) do={ add list=$AddressList comment=telegram.org address=63.186.45.32 }
 :if ([:len [find where list=$AddressList and address=63.187.154.121]] = 0) do={ add list=$AddressList comment=telegram.org address=63.187.154.121 }
 :if ([:len [find where list=$AddressList and address=63.187.175.29]] = 0) do={ add list=$AddressList comment=telegram.org address=63.187.175.29 }
+:if ([:len [find where list=$AddressList and address=63.188.11.126]] = 0) do={ add list=$AddressList comment=telegram.org address=63.188.11.126 }
 :if ([:len [find where list=$AddressList and address=63.188.127.134]] = 0) do={ add list=$AddressList comment=telegram.org address=63.188.127.134 }
+:if ([:len [find where list=$AddressList and address=63.188.90.209]] = 0) do={ add list=$AddressList comment=telegram.org address=63.188.90.209 }
 :if ([:len [find where list=$AddressList and address=64.233.161.121]] = 0) do={ add list=$AddressList comment=telegram.org address=64.233.161.121 }
 :if ([:len [find where list=$AddressList and address=64.233.162.121]] = 0) do={ add list=$AddressList comment=telegram.org address=64.233.162.121 }
 :if ([:len [find where list=$AddressList and address=64.233.163.121]] = 0) do={ add list=$AddressList comment=telegram.org address=64.233.163.121 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=99.84.91.26]] = 0) do={ add list=$AddressList comment=telegram.org address=99.84.91.26 }
 :if ([:len [find where list=$AddressList and address=99.84.91.34]] = 0) do={ add list=$AddressList comment=telegram.org address=99.84.91.34 }
 :if ([:len [find where list=$AddressList and address=99.84.91.37]] = 0) do={ add list=$AddressList comment=telegram.org address=99.84.91.37 }
-:if ([:len [find where list=$AddressList and address=99.84.91.56]] = 0) do={ add list=$AddressList comment=telegram.org address=99.84.91.56 }
-:if ([:len [find where list=$AddressList and address=99.84.91.74]] = 0) do={ add list=$AddressList comment=telegram.org address=99.84.91.74 }

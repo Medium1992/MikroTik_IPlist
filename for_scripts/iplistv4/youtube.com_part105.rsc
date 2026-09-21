@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=49.44.184.22]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.184.22 }
+:if ([:len [find where list=$AddressList and address=49.44.184.79]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.184.79 }
+:if ([:len [find where list=$AddressList and address=49.44.184.80]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.184.80 }
+:if ([:len [find where list=$AddressList and address=49.44.184.81]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.184.81 }
 :if ([:len [find where list=$AddressList and address=49.44.184.86]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.184.86 }
 :if ([:len [find where list=$AddressList and address=49.44.185.12]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.185.12 }
 :if ([:len [find where list=$AddressList and address=49.44.185.140]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.185.140 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=49.44.80.51]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.80.51 }
 :if ([:len [find where list=$AddressList and address=49.44.80.76]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.80.76 }
 :if ([:len [find where list=$AddressList and address=49.44.80.77]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.80.77 }
-:if ([:len [find where list=$AddressList and address=49.44.80.82]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.80.82 }
-:if ([:len [find where list=$AddressList and address=49.44.80.83]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.80.83 }
-:if ([:len [find where list=$AddressList and address=49.44.81.13]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.81.13 }
-:if ([:len [find where list=$AddressList and address=49.44.81.14]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.81.14 }

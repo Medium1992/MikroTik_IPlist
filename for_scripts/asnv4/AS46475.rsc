@@ -10,6 +10,7 @@
 :if ([:len [find where list=$AddressList and address=151.241.208.0/24]] = 0) do={ add list=$AddressList comment=AS46475 address=151.241.208.0/24 }
 :if ([:len [find where list=$AddressList and address=151.243.116.0/24]] = 0) do={ add list=$AddressList comment=AS46475 address=151.243.116.0/24 }
 :if ([:len [find where list=$AddressList and address=154.21.212.0/23]] = 0) do={ add list=$AddressList comment=AS46475 address=154.21.212.0/23 }
+:if ([:len [find where list=$AddressList and address=154.3.238.0/24]] = 0) do={ add list=$AddressList comment=AS46475 address=154.3.238.0/24 }
 :if ([:len [find where list=$AddressList and address=154.45.250.0/23]] = 0) do={ add list=$AddressList comment=AS46475 address=154.45.250.0/23 }
 :if ([:len [find where list=$AddressList and address=154.50.33.0/24]] = 0) do={ add list=$AddressList comment=AS46475 address=154.50.33.0/24 }
 :if ([:len [find where list=$AddressList and address=162.253.40.0/22]] = 0) do={ add list=$AddressList comment=AS46475 address=162.253.40.0/22 }
@@ -52,6 +53,7 @@
 :if ([:len [find where list=$AddressList and address=38.129.4.0/24]] = 0) do={ add list=$AddressList comment=AS46475 address=38.129.4.0/24 }
 :if ([:len [find where list=$AddressList and address=38.129.88.0/24]] = 0) do={ add list=$AddressList comment=AS46475 address=38.129.88.0/24 }
 :if ([:len [find where list=$AddressList and address=38.133.189.0/24]] = 0) do={ add list=$AddressList comment=AS46475 address=38.133.189.0/24 }
+:if ([:len [find where list=$AddressList and address=38.147.110.0/24]] = 0) do={ add list=$AddressList comment=AS46475 address=38.147.110.0/24 }
 :if ([:len [find where list=$AddressList and address=38.155.79.0/24]] = 0) do={ add list=$AddressList comment=AS46475 address=38.155.79.0/24 }
 :if ([:len [find where list=$AddressList and address=38.246.32.0/22]] = 0) do={ add list=$AddressList comment=AS46475 address=38.246.32.0/22 }
 :if ([:len [find where list=$AddressList and address=38.248.89.0/24]] = 0) do={ add list=$AddressList comment=AS46475 address=38.248.89.0/24 }

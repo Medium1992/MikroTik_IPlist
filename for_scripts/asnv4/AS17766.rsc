@@ -9,6 +9,7 @@
 :if ([:len [find where list=$AddressList and address=116.213.0.0/23]] = 0) do={ add list=$AddressList comment=AS17766 address=116.213.0.0/23 }
 :if ([:len [find where list=$AddressList and address=116.213.16.0/22]] = 0) do={ add list=$AddressList comment=AS17766 address=116.213.16.0/22 }
 :if ([:len [find where list=$AddressList and address=116.213.3.0/24]] = 0) do={ add list=$AddressList comment=AS17766 address=116.213.3.0/24 }
+:if ([:len [find where list=$AddressList and address=116.213.4.0/24]] = 0) do={ add list=$AddressList comment=AS17766 address=116.213.4.0/24 }
 :if ([:len [find where list=$AddressList and address=116.213.6.0/23]] = 0) do={ add list=$AddressList comment=AS17766 address=116.213.6.0/23 }
 :if ([:len [find where list=$AddressList and address=116.213.8.0/21]] = 0) do={ add list=$AddressList comment=AS17766 address=116.213.8.0/21 }
 :if ([:len [find where list=$AddressList and address=124.109.64.0/19]] = 0) do={ add list=$AddressList comment=AS17766 address=124.109.64.0/19 }
@@ -19,6 +20,7 @@
 :if ([:len [find where list=$AddressList and address=202.125.168.0/21]] = 0) do={ add list=$AddressList comment=AS17766 address=202.125.168.0/21 }
 :if ([:len [find where list=$AddressList and address=202.155.160.0/20]] = 0) do={ add list=$AddressList comment=AS17766 address=202.155.160.0/20 }
 :if ([:len [find where list=$AddressList and address=202.9.87.0/24]] = 0) do={ add list=$AddressList comment=AS17766 address=202.9.87.0/24 }
+:if ([:len [find where list=$AddressList and address=203.1.248.0/22]] = 0) do={ add list=$AddressList comment=AS17766 address=203.1.248.0/22 }
 :if ([:len [find where list=$AddressList and address=203.12.234.0/24]] = 0) do={ add list=$AddressList comment=AS17766 address=203.12.234.0/24 }
 :if ([:len [find where list=$AddressList and address=203.149.64.0/20]] = 0) do={ add list=$AddressList comment=AS17766 address=203.149.64.0/20 }
 :if ([:len [find where list=$AddressList and address=203.149.80.0/21]] = 0) do={ add list=$AddressList comment=AS17766 address=203.149.80.0/21 }

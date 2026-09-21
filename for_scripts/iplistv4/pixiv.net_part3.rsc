@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.66.233.128]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.233.128 }
+:if ([:len [find where list=$AddressList and address=18.66.233.68]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.233.68 }
+:if ([:len [find where list=$AddressList and address=18.66.233.76]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.233.76 }
+:if ([:len [find where list=$AddressList and address=18.66.26.112]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.26.112 }
 :if ([:len [find where list=$AddressList and address=18.66.26.2]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.26.2 }
 :if ([:len [find where list=$AddressList and address=18.66.26.21]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.26.21 }
 :if ([:len [find where list=$AddressList and address=18.66.26.62]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.66.26.62 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.170.19.78]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.170.19.78 }
 :if ([:len [find where list=$AddressList and address=3.170.19.8]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.170.19.8 }
 :if ([:len [find where list=$AddressList and address=3.171.214.23]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.171.214.23 }
-:if ([:len [find where list=$AddressList and address=3.171.214.29]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.171.214.29 }
-:if ([:len [find where list=$AddressList and address=3.171.214.52]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.171.214.52 }
-:if ([:len [find where list=$AddressList and address=3.171.214.78]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.171.214.78 }
-:if ([:len [find where list=$AddressList and address=3.174.18.30]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.174.18.30 }

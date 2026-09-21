@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.25.115]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.25.115 }
+:if ([:len [find where list=$AddressList and address=18.165.25.38]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.25.38 }
+:if ([:len [find where list=$AddressList and address=18.165.25.70]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.25.70 }
+:if ([:len [find where list=$AddressList and address=18.165.25.79]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.25.79 }
 :if ([:len [find where list=$AddressList and address=18.165.61.101]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.61.101 }
 :if ([:len [find where list=$AddressList and address=18.165.61.104]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.61.104 }
 :if ([:len [find where list=$AddressList and address=18.165.61.110]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.61.110 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.239.50.50]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.50.50 }
 :if ([:len [find where list=$AddressList and address=18.239.50.54]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.50.54 }
 :if ([:len [find where list=$AddressList and address=18.239.50.84]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.50.84 }
-:if ([:len [find where list=$AddressList and address=18.239.69.114]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.69.114 }
-:if ([:len [find where list=$AddressList and address=18.239.69.116]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.69.116 }
-:if ([:len [find where list=$AddressList and address=18.239.69.4]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.69.4 }
-:if ([:len [find where list=$AddressList and address=18.239.69.45]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.69.45 }

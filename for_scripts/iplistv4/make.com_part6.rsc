@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.173.5.79]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.79 }
+:if ([:len [find where list=$AddressList and address=18.173.5.85]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.85 }
+:if ([:len [find where list=$AddressList and address=18.173.5.96]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.96 }
+:if ([:len [find where list=$AddressList and address=18.173.5.97]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.97 }
 :if ([:len [find where list=$AddressList and address=18.200.184.190]] = 0) do={ add list=$AddressList comment=make.com address=18.200.184.190 }
 :if ([:len [find where list=$AddressList and address=18.200.192.19]] = 0) do={ add list=$AddressList comment=make.com address=18.200.192.19 }
 :if ([:len [find where list=$AddressList and address=18.200.42.24]] = 0) do={ add list=$AddressList comment=make.com address=18.200.42.24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.245.31.17]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.17 }
 :if ([:len [find where list=$AddressList and address=18.245.31.25]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.25 }
 :if ([:len [find where list=$AddressList and address=18.245.31.38]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.38 }
-:if ([:len [find where list=$AddressList and address=18.245.31.40]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.40 }
-:if ([:len [find where list=$AddressList and address=18.245.31.74]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.74 }
-:if ([:len [find where list=$AddressList and address=18.245.31.80]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.80 }
-:if ([:len [find where list=$AddressList and address=18.245.60.16]] = 0) do={ add list=$AddressList comment=make.com address=18.245.60.16 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.245.31.40]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.40 }
+:if ([:len [find where list=$AddressList and address=18.245.31.74]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.74 }
+:if ([:len [find where list=$AddressList and address=18.245.31.80]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.80 }
+:if ([:len [find where list=$AddressList and address=18.245.60.16]] = 0) do={ add list=$AddressList comment=make.com address=18.245.60.16 }
 :if ([:len [find where list=$AddressList and address=18.245.60.44]] = 0) do={ add list=$AddressList comment=make.com address=18.245.60.44 }
 :if ([:len [find where list=$AddressList and address=18.245.60.6]] = 0) do={ add list=$AddressList comment=make.com address=18.245.60.6 }
 :if ([:len [find where list=$AddressList and address=18.245.60.85]] = 0) do={ add list=$AddressList comment=make.com address=18.245.60.85 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=216.137.52.3]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.3 }
 :if ([:len [find where list=$AddressList and address=216.137.52.31]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.31 }
 :if ([:len [find where list=$AddressList and address=216.137.52.42]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.42 }
-:if ([:len [find where list=$AddressList and address=216.137.52.51]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.51 }
-:if ([:len [find where list=$AddressList and address=216.137.52.69]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.69 }
-:if ([:len [find where list=$AddressList and address=216.137.52.80]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.80 }
-:if ([:len [find where list=$AddressList and address=3.160.132.10]] = 0) do={ add list=$AddressList comment=make.com address=3.160.132.10 }

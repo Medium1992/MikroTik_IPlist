@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=65.9.62.100]] = 0) do={ add list=$AddressList comment=strava.com address=65.9.62.100 }
+:if ([:len [find where list=$AddressList and address=65.9.62.106]] = 0) do={ add list=$AddressList comment=strava.com address=65.9.62.106 }
+:if ([:len [find where list=$AddressList and address=65.9.62.111]] = 0) do={ add list=$AddressList comment=strava.com address=65.9.62.111 }
+:if ([:len [find where list=$AddressList and address=65.9.62.14]] = 0) do={ add list=$AddressList comment=strava.com address=65.9.62.14 }
 :if ([:len [find where list=$AddressList and address=65.9.62.2]] = 0) do={ add list=$AddressList comment=strava.com address=65.9.62.2 }
 :if ([:len [find where list=$AddressList and address=65.9.62.42]] = 0) do={ add list=$AddressList comment=strava.com address=65.9.62.42 }
 :if ([:len [find where list=$AddressList and address=65.9.62.44]] = 0) do={ add list=$AddressList comment=strava.com address=65.9.62.44 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=99.86.159.55]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.55 }
 :if ([:len [find where list=$AddressList and address=99.86.159.58]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.58 }
 :if ([:len [find where list=$AddressList and address=99.86.159.64]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.64 }
-:if ([:len [find where list=$AddressList and address=99.86.159.68]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.68 }
-:if ([:len [find where list=$AddressList and address=99.86.159.71]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.71 }
-:if ([:len [find where list=$AddressList and address=99.86.159.76]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.76 }
-:if ([:len [find where list=$AddressList and address=99.86.159.8]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.8 }

@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=184.28.198.59]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.59 }
+:if ([:len [find where list=$AddressList and address=184.28.198.64]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.64 }
 :if ([:len [find where list=$AddressList and address=184.28.198.65]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.65 }
 :if ([:len [find where list=$AddressList and address=184.28.198.74]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.74 }
 :if ([:len [find where list=$AddressList and address=184.28.198.75]] = 0) do={ add list=$AddressList comment=copilot address=184.28.198.75 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.16.106.196]] = 0) do={ add list=$AddressList comment=copilot address=2.16.106.196 }
 :if ([:len [find where list=$AddressList and address=2.16.106.197]] = 0) do={ add list=$AddressList comment=copilot address=2.16.106.197 }
 :if ([:len [find where list=$AddressList and address=2.16.106.198]] = 0) do={ add list=$AddressList comment=copilot address=2.16.106.198 }
-:if ([:len [find where list=$AddressList and address=2.16.106.200]] = 0) do={ add list=$AddressList comment=copilot address=2.16.106.200 }
-:if ([:len [find where list=$AddressList and address=2.16.106.201]] = 0) do={ add list=$AddressList comment=copilot address=2.16.106.201 }

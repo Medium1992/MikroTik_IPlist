@@ -88,6 +88,8 @@
 :if ([:len [/ip/route/find dst-address=154.197.65.193 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.197.65.193 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
 :if ([:len [/ip/route/find dst-address=154.197.65.194 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.197.65.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
 :if ([:len [/ip/route/find dst-address=154.197.65.195 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.197.65.195 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
+:if ([:len [/ip/route/find dst-address=154.197.65.196 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.197.65.196 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
+:if ([:len [/ip/route/find dst-address=154.197.65.197 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.197.65.197 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
 :if ([:len [/ip/route/find dst-address=154.197.65.87 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.197.65.87 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
 :if ([:len [/ip/route/find dst-address=154.197.65.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.197.65.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
 :if ([:len [/ip/route/find dst-address=154.197.65.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=154.197.65.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=172.66.40.138 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.66.40.138 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
 :if ([:len [/ip/route/find dst-address=172.66.40.229 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.66.40.229 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
 :if ([:len [/ip/route/find dst-address=172.66.41.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.66.41.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
-:if ([:len [/ip/route/find dst-address=172.66.42.229 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.66.42.229 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }
-:if ([:len [/ip/route/find dst-address=172.66.43.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.66.43.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=combotech }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=58.64.53.111]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.53.111 }
+:if ([:len [find where list=$AddressList and address=58.64.53.112]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.53.112 }
+:if ([:len [find where list=$AddressList and address=58.64.53.113]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.53.113 }
+:if ([:len [find where list=$AddressList and address=58.64.54.108]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.54.108 }
 :if ([:len [find where list=$AddressList and address=58.64.54.109]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.54.109 }
 :if ([:len [find where list=$AddressList and address=58.64.54.110]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.54.110 }
 :if ([:len [find where list=$AddressList and address=58.64.61.108]] = 0) do={ add list=$AddressList comment=youtube.com address=58.64.61.108 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=61.19.1.208]] = 0) do={ add list=$AddressList comment=youtube.com address=61.19.1.208 }
 :if ([:len [find where list=$AddressList and address=61.19.1.209]] = 0) do={ add list=$AddressList comment=youtube.com address=61.19.1.209 }
 :if ([:len [find where list=$AddressList and address=61.19.1.210]] = 0) do={ add list=$AddressList comment=youtube.com address=61.19.1.210 }
-:if ([:len [find where list=$AddressList and address=61.19.1.211]] = 0) do={ add list=$AddressList comment=youtube.com address=61.19.1.211 }
-:if ([:len [find where list=$AddressList and address=61.205.119.207]] = 0) do={ add list=$AddressList comment=youtube.com address=61.205.119.207 }
-:if ([:len [find where list=$AddressList and address=61.238.203.142]] = 0) do={ add list=$AddressList comment=youtube.com address=61.238.203.142 }
-:if ([:len [find where list=$AddressList and address=61.238.203.143]] = 0) do={ add list=$AddressList comment=youtube.com address=61.238.203.143 }

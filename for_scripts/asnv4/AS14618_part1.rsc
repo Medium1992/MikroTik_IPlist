@@ -32,6 +32,7 @@
 :if ([:len [find where list=$AddressList and address=108.179.152.0/21]] = 0) do={ add list=$AddressList comment=AS14618 address=108.179.152.0/21 }
 :if ([:len [find where list=$AddressList and address=108.186.187.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=108.186.187.0/24 }
 :if ([:len [find where list=$AddressList and address=108.186.249.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=108.186.249.0/24 }
+:if ([:len [find where list=$AddressList and address=108.186.34.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=108.186.34.0/24 }
 :if ([:len [find where list=$AddressList and address=109.68.67.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=109.68.67.0/24 }
 :if ([:len [find where list=$AddressList and address=109.68.70.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=109.68.70.0/24 }
 :if ([:len [find where list=$AddressList and address=116.199.234.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=116.199.234.0/24 }
@@ -44,7 +45,6 @@
 :if ([:len [find where list=$AddressList and address=130.137.172.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=130.137.172.0/24 }
 :if ([:len [find where list=$AddressList and address=130.137.253.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=130.137.253.0/24 }
 :if ([:len [find where list=$AddressList and address=130.137.82.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=130.137.82.0/24 }
-:if ([:len [find where list=$AddressList and address=130.137.89.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=130.137.89.0/24 }
 :if ([:len [find where list=$AddressList and address=130.150.240.0/22]] = 0) do={ add list=$AddressList comment=AS14618 address=130.150.240.0/22 }
 :if ([:len [find where list=$AddressList and address=130.17.72.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=130.17.72.0/24 }
 :if ([:len [find where list=$AddressList and address=130.174.111.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=130.174.111.0/24 }

@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.143.240.108]] = 0) do={ add list=$AddressList comment=naukri.com address=18.143.240.108 }
+:if ([:len [find where list=$AddressList and address=18.143.244.122]] = 0) do={ add list=$AddressList comment=naukri.com address=18.143.244.122 }
+:if ([:len [find where list=$AddressList and address=18.143.30.90]] = 0) do={ add list=$AddressList comment=naukri.com address=18.143.30.90 }
+:if ([:len [find where list=$AddressList and address=18.143.49.144]] = 0) do={ add list=$AddressList comment=naukri.com address=18.143.49.144 }
+:if ([:len [find where list=$AddressList and address=18.143.6.193]] = 0) do={ add list=$AddressList comment=naukri.com address=18.143.6.193 }
+:if ([:len [find where list=$AddressList and address=18.143.62.103]] = 0) do={ add list=$AddressList comment=naukri.com address=18.143.62.103 }
+:if ([:len [find where list=$AddressList and address=18.143.8.100]] = 0) do={ add list=$AddressList comment=naukri.com address=18.143.8.100 }
+:if ([:len [find where list=$AddressList and address=18.143.96.5]] = 0) do={ add list=$AddressList comment=naukri.com address=18.143.96.5 }
+:if ([:len [find where list=$AddressList and address=18.154.144.6]] = 0) do={ add list=$AddressList comment=naukri.com address=18.154.144.6 }
+:if ([:len [find where list=$AddressList and address=18.154.144.69]] = 0) do={ add list=$AddressList comment=naukri.com address=18.154.144.69 }
+:if ([:len [find where list=$AddressList and address=18.154.144.80]] = 0) do={ add list=$AddressList comment=naukri.com address=18.154.144.80 }
 :if ([:len [find where list=$AddressList and address=18.154.144.91]] = 0) do={ add list=$AddressList comment=naukri.com address=18.154.144.91 }
 :if ([:len [find where list=$AddressList and address=18.154.161.101]] = 0) do={ add list=$AddressList comment=naukri.com address=18.154.161.101 }
 :if ([:len [find where list=$AddressList and address=18.154.161.115]] = 0) do={ add list=$AddressList comment=naukri.com address=18.154.161.115 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.165.122.25]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.25 }
 :if ([:len [find where list=$AddressList and address=18.165.122.26]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.26 }
 :if ([:len [find where list=$AddressList and address=18.165.122.27]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.27 }
-:if ([:len [find where list=$AddressList and address=18.165.122.29]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.29 }
-:if ([:len [find where list=$AddressList and address=18.165.122.31]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.31 }
-:if ([:len [find where list=$AddressList and address=18.165.122.32]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.32 }
-:if ([:len [find where list=$AddressList and address=18.165.122.33]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.33 }
-:if ([:len [find where list=$AddressList and address=18.165.122.36]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.36 }
-:if ([:len [find where list=$AddressList and address=18.165.122.40]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.40 }
-:if ([:len [find where list=$AddressList and address=18.165.122.44]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.44 }
-:if ([:len [find where list=$AddressList and address=18.165.122.46]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.46 }
-:if ([:len [find where list=$AddressList and address=18.165.122.54]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.54 }
-:if ([:len [find where list=$AddressList and address=18.165.122.56]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.56 }
-:if ([:len [find where list=$AddressList and address=18.165.122.64]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.122.64 }

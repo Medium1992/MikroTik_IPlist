@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.244.87.108]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.108 }
+:if ([:len [find where list=$AddressList and address=18.244.87.112]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.112 }
+:if ([:len [find where list=$AddressList and address=18.244.87.115]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.115 }
+:if ([:len [find where list=$AddressList and address=18.244.87.116]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.116 }
+:if ([:len [find where list=$AddressList and address=18.244.87.121]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.121 }
+:if ([:len [find where list=$AddressList and address=18.244.87.123]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.123 }
+:if ([:len [find where list=$AddressList and address=18.244.87.125]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.125 }
+:if ([:len [find where list=$AddressList and address=18.244.87.129]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.129 }
+:if ([:len [find where list=$AddressList and address=18.244.87.14]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.14 }
+:if ([:len [find where list=$AddressList and address=18.244.87.17]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.17 }
+:if ([:len [find where list=$AddressList and address=18.244.87.2]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.2 }
 :if ([:len [find where list=$AddressList and address=18.244.87.21]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.21 }
 :if ([:len [find where list=$AddressList and address=18.244.87.22]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.22 }
 :if ([:len [find where list=$AddressList and address=18.244.87.24]] = 0) do={ add list=$AddressList comment=naukri.com address=18.244.87.24 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.66.218.38]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.38 }
 :if ([:len [find where list=$AddressList and address=18.66.218.41]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.41 }
 :if ([:len [find where list=$AddressList and address=18.66.218.42]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.42 }
-:if ([:len [find where list=$AddressList and address=18.66.218.5]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.5 }
-:if ([:len [find where list=$AddressList and address=18.66.218.6]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.6 }
-:if ([:len [find where list=$AddressList and address=18.66.218.74]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.74 }
-:if ([:len [find where list=$AddressList and address=18.66.218.80]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.80 }
-:if ([:len [find where list=$AddressList and address=18.66.218.83]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.83 }
-:if ([:len [find where list=$AddressList and address=18.66.218.84]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.84 }
-:if ([:len [find where list=$AddressList and address=18.66.218.96]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.218.96 }
-:if ([:len [find where list=$AddressList and address=18.66.233.102]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.102 }
-:if ([:len [find where list=$AddressList and address=18.66.233.116]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.116 }
-:if ([:len [find where list=$AddressList and address=18.66.233.118]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.118 }
-:if ([:len [find where list=$AddressList and address=18.66.233.12]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.233.12 }

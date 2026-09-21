@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=67.22.56.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
+:if ([:len [/ip/route/find dst-address=67.22.56.4 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.4 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
+:if ([:len [/ip/route/find dst-address=67.22.56.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
+:if ([:len [/ip/route/find dst-address=67.22.56.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
+:if ([:len [/ip/route/find dst-address=67.22.56.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.56.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
+:if ([:len [/ip/route/find dst-address=67.22.57.176 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.176 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
 :if ([:len [/ip/route/find dst-address=67.22.57.177 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.177 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
 :if ([:len [/ip/route/find dst-address=67.22.57.178 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.178 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }
 :if ([:len [/ip/route/find dst-address=67.22.57.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=67.22.57.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=redtube.com }

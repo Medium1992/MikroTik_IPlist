@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=208.127.97.32/30]] = 0) do={ add list=$AddressList comment=ad address=208.127.97.32/30 }
+:if ([:len [find where list=$AddressList and address=208.127.98.29/32]] = 0) do={ add list=$AddressList comment=ad address=208.127.98.29/32 }
+:if ([:len [find where list=$AddressList and address=208.127.98.30/31]] = 0) do={ add list=$AddressList comment=ad address=208.127.98.30/31 }
 :if ([:len [find where list=$AddressList and address=208.127.98.32/30]] = 0) do={ add list=$AddressList comment=ad address=208.127.98.32/30 }
 :if ([:len [find where list=$AddressList and address=208.127.99.29/32]] = 0) do={ add list=$AddressList comment=ad address=208.127.99.29/32 }
 :if ([:len [find where list=$AddressList and address=208.127.99.30/31]] = 0) do={ add list=$AddressList comment=ad address=208.127.99.30/31 }
@@ -39,8 +42,6 @@
 :if ([:len [find where list=$AddressList and address=5.62.60.5/32]] = 0) do={ add list=$AddressList comment=ad address=5.62.60.5/32 }
 :if ([:len [find where list=$AddressList and address=5.62.60.6/31]] = 0) do={ add list=$AddressList comment=ad address=5.62.60.6/31 }
 :if ([:len [find where list=$AddressList and address=62.197.152.0/24]] = 0) do={ add list=$AddressList comment=ad address=62.197.152.0/24 }
-:if ([:len [find where list=$AddressList and address=63.222.112.50/31]] = 0) do={ add list=$AddressList comment=ad address=63.222.112.50/31 }
-:if ([:len [find where list=$AddressList and address=63.222.122.160/28]] = 0) do={ add list=$AddressList comment=ad address=63.222.122.160/28 }
 :if ([:len [find where list=$AddressList and address=69.84.202.128/26]] = 0) do={ add list=$AddressList comment=ad address=69.84.202.128/26 }
 :if ([:len [find where list=$AddressList and address=75.125.118.0/24]] = 0) do={ add list=$AddressList comment=ad address=75.125.118.0/24 }
 :if ([:len [find where list=$AddressList and address=80.80.84.0/22]] = 0) do={ add list=$AddressList comment=ad address=80.80.84.0/22 }

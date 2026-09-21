@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=74.125.4.231]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.4.231 }
+:if ([:len [find where list=$AddressList and address=74.125.4.38]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.4.38 }
+:if ([:len [find where list=$AddressList and address=74.125.4.39]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.4.39 }
+:if ([:len [find where list=$AddressList and address=74.125.4.40]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.4.40 }
 :if ([:len [find where list=$AddressList and address=74.125.4.6]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.4.6 }
 :if ([:len [find where list=$AddressList and address=74.125.4.8]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.4.8 }
 :if ([:len [find where list=$AddressList and address=74.125.4.9]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.4.9 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=74.125.8.234]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.234 }
 :if ([:len [find where list=$AddressList and address=74.125.8.3]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.3 }
 :if ([:len [find where list=$AddressList and address=74.125.8.4]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.4 }
-:if ([:len [find where list=$AddressList and address=74.125.8.5]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.5 }
-:if ([:len [find where list=$AddressList and address=74.125.8.70]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.70 }
-:if ([:len [find where list=$AddressList and address=74.125.8.71]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.71 }
-:if ([:len [find where list=$AddressList and address=74.125.8.72]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.8.72 }

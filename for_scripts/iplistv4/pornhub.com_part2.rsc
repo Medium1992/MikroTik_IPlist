@@ -24,6 +24,12 @@
 :if ([:len [find where list=$AddressList and address=67.22.55.1]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.55.1 }
 :if ([:len [find where list=$AddressList and address=67.22.55.16]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.55.16 }
 :if ([:len [find where list=$AddressList and address=67.22.55.17]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.55.17 }
+:if ([:len [find where list=$AddressList and address=67.22.55.18]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.55.18 }
+:if ([:len [find where list=$AddressList and address=67.22.55.19]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.55.19 }
+:if ([:len [find where list=$AddressList and address=67.22.55.20]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.55.20 }
+:if ([:len [find where list=$AddressList and address=67.22.55.21]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.55.21 }
+:if ([:len [find where list=$AddressList and address=67.22.55.22]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.55.22 }
+:if ([:len [find where list=$AddressList and address=67.22.55.23]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.55.23 }
 :if ([:len [find where list=$AddressList and address=67.22.56.0]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.56.0 }
 :if ([:len [find where list=$AddressList and address=67.22.56.1]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.56.1 }
 :if ([:len [find where list=$AddressList and address=67.22.56.16]] = 0) do={ add list=$AddressList comment=pornhub.com address=67.22.56.16 }

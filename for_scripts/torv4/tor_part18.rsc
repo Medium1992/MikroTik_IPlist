@@ -1,5 +1,27 @@
 :global AddressList
 /ip firewall address-list
+:do { add dynamic=yes list=$AddressList comment=tor address=5.104.86.6/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.135.68.65/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.135.83.4/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.146.180.12/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.146.3.213/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.146.7.190/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.161.60.61/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.175.211.72/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.180.82.224/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.181.156.173/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.181.158.232/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.181.177.223/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.181.177.57/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.181.177.69/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.181.51.51/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.181.51.52/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.181.77.8/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.181.80.169/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.181.80.181/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.187.243.5/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.189.158.176/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=5.189.173.8/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=5.196.64.99/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=5.196.71.158/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=5.199.162.114/32 } on-error={}
@@ -83,7 +105,6 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=5.78.127.13/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=5.78.71.69/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=5.79.66.19/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=5.9.122.185/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=5.9.122.206/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=5.9.14.25/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=5.9.14.30/32 } on-error={}
@@ -192,7 +213,6 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=51.75.141.87/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=51.75.18.118/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=51.75.206.12/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.75.32.31/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=51.75.69.31/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=51.75.70.246/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=51.75.71.108/32 } on-error={}
@@ -230,23 +250,3 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=51.83.237.59/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=51.83.41.117/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=51.83.41.68/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.83.6.6/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.83.70.92/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.89.165.5/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.89.17.143/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.89.194.161/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.89.40.51/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.91.110.101/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.91.110.212/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.91.18.151/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.91.241.137/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=51.91.99.88/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=52.14.1.170/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=54.213.206.148/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=54.218.255.56/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=54.36.108.162/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=54.36.111.72/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=54.36.123.89/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=54.37.229.22/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=54.37.253.23/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=54.37.255.75/32 } on-error={}

@@ -1,21 +1,8 @@
 :global AddressList
 /ip firewall address-list
-:do { add dynamic=yes list=$AddressList comment=tor address=185.132.53.58/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.14.30.57/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.140.209.158/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.141.216.114/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.141.216.14/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.141.216.154/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.141.216.220/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.141.216.32/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.141.216.78/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.142.208.226/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.147.35.133/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.148.0.157/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.148.1.242/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.148.1.49/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.148.1.50/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.15.75.149/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.150.28.13/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.153.197.189/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.153.55.203/32 } on-error={}
@@ -54,7 +41,6 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=185.181.60.39/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.181.61.201/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.181.61.203/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=185.181.62.109/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.181.63.124/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.182.193.16/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.183.157.214/32 } on-error={}
@@ -250,3 +236,17 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.44/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.45/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.46/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.47/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.48/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.49/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.5/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.50/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.51/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.52/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.53/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.54/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.55/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.56/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.57/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.58/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=185.220.101.59/32 } on-error={}

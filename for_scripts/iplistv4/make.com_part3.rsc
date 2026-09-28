@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.226.175.16]] = 0) do={ add list=$AddressList comment=make.com address=13.226.175.16 }
+:if ([:len [find where list=$AddressList and address=13.226.175.43]] = 0) do={ add list=$AddressList comment=make.com address=13.226.175.43 }
+:if ([:len [find where list=$AddressList and address=13.226.175.65]] = 0) do={ add list=$AddressList comment=make.com address=13.226.175.65 }
+:if ([:len [find where list=$AddressList and address=13.226.244.112]] = 0) do={ add list=$AddressList comment=make.com address=13.226.244.112 }
 :if ([:len [find where list=$AddressList and address=13.226.244.18]] = 0) do={ add list=$AddressList comment=make.com address=13.226.244.18 }
 :if ([:len [find where list=$AddressList and address=13.226.244.56]] = 0) do={ add list=$AddressList comment=make.com address=13.226.244.56 }
 :if ([:len [find where list=$AddressList and address=13.226.244.78]] = 0) do={ add list=$AddressList comment=make.com address=13.226.244.78 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.35.107.77]] = 0) do={ add list=$AddressList comment=make.com address=13.35.107.77 }
 :if ([:len [find where list=$AddressList and address=13.35.107.80]] = 0) do={ add list=$AddressList comment=make.com address=13.35.107.80 }
 :if ([:len [find where list=$AddressList and address=13.35.107.85]] = 0) do={ add list=$AddressList comment=make.com address=13.35.107.85 }
-:if ([:len [find where list=$AddressList and address=13.35.198.16]] = 0) do={ add list=$AddressList comment=make.com address=13.35.198.16 }
-:if ([:len [find where list=$AddressList and address=13.35.198.2]] = 0) do={ add list=$AddressList comment=make.com address=13.35.198.2 }
-:if ([:len [find where list=$AddressList and address=13.35.198.71]] = 0) do={ add list=$AddressList comment=make.com address=13.35.198.71 }
-:if ([:len [find where list=$AddressList and address=13.35.198.92]] = 0) do={ add list=$AddressList comment=make.com address=13.35.198.92 }

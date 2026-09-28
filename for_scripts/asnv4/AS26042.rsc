@@ -18,7 +18,6 @@
 :if ([:len [find where list=$AddressList and address=143.20.170.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=143.20.170.0/24 }
 :if ([:len [find where list=$AddressList and address=143.20.230.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=143.20.230.0/24 }
 :if ([:len [find where list=$AddressList and address=146.71.85.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=146.71.85.0/24 }
-:if ([:len [find where list=$AddressList and address=147.125.252.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=147.125.252.0/24 }
 :if ([:len [find where list=$AddressList and address=149.112.129.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=149.112.129.0/24 }
 :if ([:len [find where list=$AddressList and address=151.244.231.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=151.244.231.0/24 }
 :if ([:len [find where list=$AddressList and address=155.117.18.0/23]] = 0) do={ add list=$AddressList comment=AS26042 address=155.117.18.0/23 }
@@ -69,6 +68,7 @@
 :if ([:len [find where list=$AddressList and address=64.20.210.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=64.20.210.0/24 }
 :if ([:len [find where list=$AddressList and address=64.22.97.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=64.22.97.0/24 }
 :if ([:len [find where list=$AddressList and address=64.50.182.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=64.50.182.0/24 }
+:if ([:len [find where list=$AddressList and address=66.132.239.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=66.132.239.0/24 }
 :if ([:len [find where list=$AddressList and address=66.205.246.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=66.205.246.0/24 }
 :if ([:len [find where list=$AddressList and address=66.63.189.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=66.63.189.0/24 }
 :if ([:len [find where list=$AddressList and address=66.92.18.0/24]] = 0) do={ add list=$AddressList comment=AS26042 address=66.92.18.0/24 }

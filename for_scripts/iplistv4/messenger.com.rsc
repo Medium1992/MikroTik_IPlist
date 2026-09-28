@@ -19,6 +19,7 @@
 :if ([:len [find where list=$AddressList and address=157.240.205.1]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.205.1 }
 :if ([:len [find where list=$AddressList and address=157.240.205.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.205.60 }
 :if ([:len [find where list=$AddressList and address=157.240.210.16]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.210.16 }
+:if ([:len [find where list=$AddressList and address=157.240.210.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.210.60 }
 :if ([:len [find where list=$AddressList and address=157.240.212.16]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.212.16 }
 :if ([:len [find where list=$AddressList and address=157.240.212.60]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.212.60 }
 :if ([:len [find where list=$AddressList and address=157.240.214.1]] = 0) do={ add list=$AddressList comment=messenger.com address=157.240.214.1 }
@@ -74,6 +75,7 @@
 :if ([:len [find where list=$AddressList and address=57.144.155.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.155.32 }
 :if ([:len [find where list=$AddressList and address=57.144.16.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.16.141 }
 :if ([:len [find where list=$AddressList and address=57.144.17.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.17.32 }
+:if ([:len [find where list=$AddressList and address=57.144.214.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.214.141 }
 :if ([:len [find where list=$AddressList and address=57.144.215.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.215.32 }
 :if ([:len [find where list=$AddressList and address=57.144.222.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.222.141 }
 :if ([:len [find where list=$AddressList and address=57.144.223.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.223.32 }

@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=173.25.36.0/23]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.36.0/23 }
+:if ([:len [find where list=$AddressList and address=173.25.4.0/22]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.4.0/22 }
+:if ([:len [find where list=$AddressList and address=173.25.40.0/21]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.40.0/21 }
+:if ([:len [find where list=$AddressList and address=173.25.48.0/21]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.48.0/21 }
+:if ([:len [find where list=$AddressList and address=173.25.56.0/22]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.56.0/22 }
+:if ([:len [find where list=$AddressList and address=173.25.60.0/23]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.60.0/23 }
+:if ([:len [find where list=$AddressList and address=173.25.64.0/20]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.64.0/20 }
+:if ([:len [find where list=$AddressList and address=173.25.8.0/21]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.8.0/21 }
+:if ([:len [find where list=$AddressList and address=173.25.80.0/23]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.80.0/23 }
+:if ([:len [find where list=$AddressList and address=173.25.84.0/24]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.84.0/24 }
+:if ([:len [find where list=$AddressList and address=173.25.86.0/23]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.86.0/23 }
 :if ([:len [find where list=$AddressList and address=173.25.88.0/21]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.88.0/21 }
 :if ([:len [find where list=$AddressList and address=173.25.96.0/22]] = 0) do={ add list=$AddressList comment=AS30036 address=173.25.96.0/22 }
 :if ([:len [find where list=$AddressList and address=173.26.0.0/21]] = 0) do={ add list=$AddressList comment=AS30036 address=173.26.0.0/21 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=173.29.163.96/27]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.163.96/27 }
 :if ([:len [find where list=$AddressList and address=173.29.164.0/22]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.164.0/22 }
 :if ([:len [find where list=$AddressList and address=173.29.168.0/21]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.168.0/21 }
-:if ([:len [find where list=$AddressList and address=173.29.176.0/20]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.176.0/20 }
-:if ([:len [find where list=$AddressList and address=173.29.192.0/18]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.192.0/18 }
-:if ([:len [find where list=$AddressList and address=173.29.20.0/22]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.20.0/22 }
-:if ([:len [find where list=$AddressList and address=173.29.24.0/22]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.24.0/22 }
-:if ([:len [find where list=$AddressList and address=173.29.28.0/23]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.28.0/23 }
-:if ([:len [find where list=$AddressList and address=173.29.30.0/24]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.30.0/24 }
-:if ([:len [find where list=$AddressList and address=173.29.31.0/25]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.31.0/25 }
-:if ([:len [find where list=$AddressList and address=173.29.31.128/26]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.31.128/26 }
-:if ([:len [find where list=$AddressList and address=173.29.31.192/27]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.31.192/27 }
-:if ([:len [find where list=$AddressList and address=173.29.31.224/28]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.31.224/28 }
-:if ([:len [find where list=$AddressList and address=173.29.31.240/30]] = 0) do={ add list=$AddressList comment=AS30036 address=173.29.31.240/30 }

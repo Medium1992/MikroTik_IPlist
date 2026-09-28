@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=104.241.144.0/20]] = 0) do={ add list=$AddressList comment=ca address=104.241.144.0/20 }
-:if ([:len [find where list=$AddressList and address=104.241.160.0/20]] = 0) do={ add list=$AddressList comment=ca address=104.241.160.0/20 }
-:if ([:len [find where list=$AddressList and address=104.241.176.0/22]] = 0) do={ add list=$AddressList comment=ca address=104.241.176.0/22 }
 :if ([:len [find where list=$AddressList and address=104.241.180.0/24]] = 0) do={ add list=$AddressList comment=ca address=104.241.180.0/24 }
 :if ([:len [find where list=$AddressList and address=104.241.182.0/23]] = 0) do={ add list=$AddressList comment=ca address=104.241.182.0/23 }
 :if ([:len [find where list=$AddressList and address=104.241.184.0/21]] = 0) do={ add list=$AddressList comment=ca address=104.241.184.0/21 }
@@ -74,7 +71,6 @@
 :if ([:len [find where list=$AddressList and address=104.253.210.0/24]] = 0) do={ add list=$AddressList comment=ca address=104.253.210.0/24 }
 :if ([:len [find where list=$AddressList and address=104.253.212.0/24]] = 0) do={ add list=$AddressList comment=ca address=104.253.212.0/24 }
 :if ([:len [find where list=$AddressList and address=104.253.28.0/24]] = 0) do={ add list=$AddressList comment=ca address=104.253.28.0/24 }
-:if ([:len [find where list=$AddressList and address=104.253.38.150/32]] = 0) do={ add list=$AddressList comment=ca address=104.253.38.150/32 }
 :if ([:len [find where list=$AddressList and address=104.253.38.172/32]] = 0) do={ add list=$AddressList comment=ca address=104.253.38.172/32 }
 :if ([:len [find where list=$AddressList and address=104.253.38.174/32]] = 0) do={ add list=$AddressList comment=ca address=104.253.38.174/32 }
 :if ([:len [find where list=$AddressList and address=104.253.38.215/32]] = 0) do={ add list=$AddressList comment=ca address=104.253.38.215/32 }
@@ -144,7 +140,7 @@
 :if ([:len [find where list=$AddressList and address=104.28.123.21/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.123.21/32 }
 :if ([:len [find where list=$AddressList and address=104.28.123.22/31]] = 0) do={ add list=$AddressList comment=ca address=104.28.123.22/31 }
 :if ([:len [find where list=$AddressList and address=104.28.124.0/28]] = 0) do={ add list=$AddressList comment=ca address=104.28.124.0/28 }
-:if ([:len [find where list=$AddressList and address=104.28.124.16/29]] = 0) do={ add list=$AddressList comment=ca address=104.28.124.16/29 }
+:if ([:len [find where list=$AddressList and address=104.28.124.16/30]] = 0) do={ add list=$AddressList comment=ca address=104.28.124.16/30 }
 :if ([:len [find where list=$AddressList and address=104.28.132.16/28]] = 0) do={ add list=$AddressList comment=ca address=104.28.132.16/28 }
 :if ([:len [find where list=$AddressList and address=104.28.132.161/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.132.161/32 }
 :if ([:len [find where list=$AddressList and address=104.28.132.162/31]] = 0) do={ add list=$AddressList comment=ca address=104.28.132.162/31 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=104.28.141.184/31]] = 0) do={ add list=$AddressList comment=ca address=104.28.141.184/31 }
 :if ([:len [find where list=$AddressList and address=104.28.141.186/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.141.186/32 }
 :if ([:len [find where list=$AddressList and address=104.28.141.226/31]] = 0) do={ add list=$AddressList comment=ca address=104.28.141.226/31 }
+:if ([:len [find where list=$AddressList and address=104.28.141.228/30]] = 0) do={ add list=$AddressList comment=ca address=104.28.141.228/30 }
+:if ([:len [find where list=$AddressList and address=104.28.141.232/29]] = 0) do={ add list=$AddressList comment=ca address=104.28.141.232/29 }
+:if ([:len [find where list=$AddressList and address=104.28.141.39/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.141.39/32 }
+:if ([:len [find where list=$AddressList and address=104.28.142.13/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.142.13/32 }

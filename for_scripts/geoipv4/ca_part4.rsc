@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=104.28.141.228/30]] = 0) do={ add list=$AddressList comment=ca address=104.28.141.228/30 }
-:if ([:len [find where list=$AddressList and address=104.28.141.232/29]] = 0) do={ add list=$AddressList comment=ca address=104.28.141.232/29 }
-:if ([:len [find where list=$AddressList and address=104.28.141.39/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.141.39/32 }
-:if ([:len [find where list=$AddressList and address=104.28.142.13/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.142.13/32 }
 :if ([:len [find where list=$AddressList and address=104.28.142.145/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.142.145/32 }
 :if ([:len [find where list=$AddressList and address=104.28.143.92/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.143.92/32 }
 :if ([:len [find where list=$AddressList and address=104.28.145.167/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.145.167/32 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=104.28.217.108/30]] = 0) do={ add list=$AddressList comment=ca address=104.28.217.108/30 }
 :if ([:len [find where list=$AddressList and address=104.28.217.112/31]] = 0) do={ add list=$AddressList comment=ca address=104.28.217.112/31 }
 :if ([:len [find where list=$AddressList and address=104.28.217.114/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.217.114/32 }
+:if ([:len [find where list=$AddressList and address=104.28.218.105/32]] = 0) do={ add list=$AddressList comment=ca address=104.28.218.105/32 }
+:if ([:len [find where list=$AddressList and address=104.28.218.106/31]] = 0) do={ add list=$AddressList comment=ca address=104.28.218.106/31 }
+:if ([:len [find where list=$AddressList and address=104.28.218.108/30]] = 0) do={ add list=$AddressList comment=ca address=104.28.218.108/30 }
+:if ([:len [find where list=$AddressList and address=104.28.218.112/31]] = 0) do={ add list=$AddressList comment=ca address=104.28.218.112/31 }

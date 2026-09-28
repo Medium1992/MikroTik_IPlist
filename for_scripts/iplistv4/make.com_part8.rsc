@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=216.137.52.24]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.24 }
+:if ([:len [find where list=$AddressList and address=216.137.52.3]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.3 }
+:if ([:len [find where list=$AddressList and address=216.137.52.31]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.31 }
+:if ([:len [find where list=$AddressList and address=216.137.52.42]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.42 }
 :if ([:len [find where list=$AddressList and address=216.137.52.51]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.51 }
 :if ([:len [find where list=$AddressList and address=216.137.52.69]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.69 }
 :if ([:len [find where list=$AddressList and address=216.137.52.80]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.80 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.164.206.7]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.7 }
 :if ([:len [find where list=$AddressList and address=3.164.206.74]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.74 }
 :if ([:len [find where list=$AddressList and address=3.164.206.82]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.82 }
-:if ([:len [find where list=$AddressList and address=3.164.206.95]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.95 }
-:if ([:len [find where list=$AddressList and address=3.164.206.98]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.98 }
-:if ([:len [find where list=$AddressList and address=3.164.230.11]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.11 }
-:if ([:len [find where list=$AddressList and address=3.164.230.114]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.114 }

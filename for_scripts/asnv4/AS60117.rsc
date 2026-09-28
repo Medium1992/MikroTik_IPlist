@@ -4,6 +4,7 @@
 :if ([:len [find where list=$AddressList and address=115.167.96.0/22]] = 0) do={ add list=$AddressList comment=AS60117 address=115.167.96.0/22 }
 :if ([:len [find where list=$AddressList and address=143.20.141.0/24]] = 0) do={ add list=$AddressList comment=AS60117 address=143.20.141.0/24 }
 :if ([:len [find where list=$AddressList and address=154.3.63.0/24]] = 0) do={ add list=$AddressList comment=AS60117 address=154.3.63.0/24 }
+:if ([:len [find where list=$AddressList and address=157.254.206.0/24]] = 0) do={ add list=$AddressList comment=AS60117 address=157.254.206.0/24 }
 :if ([:len [find where list=$AddressList and address=185.106.120.0/24]] = 0) do={ add list=$AddressList comment=AS60117 address=185.106.120.0/24 }
 :if ([:len [find where list=$AddressList and address=185.106.122.0/23]] = 0) do={ add list=$AddressList comment=AS60117 address=185.106.122.0/23 }
 :if ([:len [find where list=$AddressList and address=185.117.72.0/23]] = 0) do={ add list=$AddressList comment=AS60117 address=185.117.72.0/23 }
@@ -23,6 +24,7 @@
 :if ([:len [find where list=$AddressList and address=188.116.36.0/24]] = 0) do={ add list=$AddressList comment=AS60117 address=188.116.36.0/24 }
 :if ([:len [find where list=$AddressList and address=194.36.188.0/24]] = 0) do={ add list=$AddressList comment=AS60117 address=194.36.188.0/24 }
 :if ([:len [find where list=$AddressList and address=194.36.190.0/23]] = 0) do={ add list=$AddressList comment=AS60117 address=194.36.190.0/23 }
+:if ([:len [find where list=$AddressList and address=195.162.245.0/24]] = 0) do={ add list=$AddressList comment=AS60117 address=195.162.245.0/24 }
 :if ([:len [find where list=$AddressList and address=202.92.20.0/24]] = 0) do={ add list=$AddressList comment=AS60117 address=202.92.20.0/24 }
 :if ([:len [find where list=$AddressList and address=212.8.251.0/24]] = 0) do={ add list=$AddressList comment=AS60117 address=212.8.251.0/24 }
 :if ([:len [find where list=$AddressList and address=217.60.104.0/22]] = 0) do={ add list=$AddressList comment=AS60117 address=217.60.104.0/22 }

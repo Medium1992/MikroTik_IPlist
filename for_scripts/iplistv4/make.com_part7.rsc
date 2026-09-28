@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.245.31.14]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.14 }
+:if ([:len [find where list=$AddressList and address=18.245.31.17]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.17 }
+:if ([:len [find where list=$AddressList and address=18.245.31.25]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.25 }
+:if ([:len [find where list=$AddressList and address=18.245.31.38]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.38 }
 :if ([:len [find where list=$AddressList and address=18.245.31.40]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.40 }
 :if ([:len [find where list=$AddressList and address=18.245.31.74]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.74 }
 :if ([:len [find where list=$AddressList and address=18.245.31.80]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.80 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=20.119.0.33]] = 0) do={ add list=$AddressList comment=make.com address=20.119.0.33 }
 :if ([:len [find where list=$AddressList and address=207.174.61.1]] = 0) do={ add list=$AddressList comment=make.com address=207.174.61.1 }
 :if ([:len [find where list=$AddressList and address=216.137.52.118]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.118 }
-:if ([:len [find where list=$AddressList and address=216.137.52.24]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.24 }
-:if ([:len [find where list=$AddressList and address=216.137.52.3]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.3 }
-:if ([:len [find where list=$AddressList and address=216.137.52.31]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.31 }
-:if ([:len [find where list=$AddressList and address=216.137.52.42]] = 0) do={ add list=$AddressList comment=make.com address=216.137.52.42 }

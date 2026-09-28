@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=172.64.152.232]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.152.232 }
+:if ([:len [find where list=$AddressList and address=172.64.153.10]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.153.10 }
+:if ([:len [find where list=$AddressList and address=172.64.153.138]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.153.138 }
+:if ([:len [find where list=$AddressList and address=172.64.153.33]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.153.33 }
 :if ([:len [find where list=$AddressList and address=172.66.44.105]] = 0) do={ add list=$AddressList comment=whoop.com address=172.66.44.105 }
 :if ([:len [find where list=$AddressList and address=172.66.44.116]] = 0) do={ add list=$AddressList comment=whoop.com address=172.66.44.116 }
 :if ([:len [find where list=$AddressList and address=172.66.44.168]] = 0) do={ add list=$AddressList comment=whoop.com address=172.66.44.168 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.161.97.10]] = 0) do={ add list=$AddressList comment=whoop.com address=18.161.97.10 }
 :if ([:len [find where list=$AddressList and address=18.161.97.108]] = 0) do={ add list=$AddressList comment=whoop.com address=18.161.97.108 }
 :if ([:len [find where list=$AddressList and address=18.161.97.119]] = 0) do={ add list=$AddressList comment=whoop.com address=18.161.97.119 }
-:if ([:len [find where list=$AddressList and address=18.161.97.128]] = 0) do={ add list=$AddressList comment=whoop.com address=18.161.97.128 }
-:if ([:len [find where list=$AddressList and address=18.161.97.3]] = 0) do={ add list=$AddressList comment=whoop.com address=18.161.97.3 }
-:if ([:len [find where list=$AddressList and address=18.161.97.40]] = 0) do={ add list=$AddressList comment=whoop.com address=18.161.97.40 }
-:if ([:len [find where list=$AddressList and address=18.161.97.72]] = 0) do={ add list=$AddressList comment=whoop.com address=18.161.97.72 }

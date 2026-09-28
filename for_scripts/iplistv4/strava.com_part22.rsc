@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=99.86.159.40]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.40 }
+:if ([:len [find where list=$AddressList and address=99.86.159.48]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.48 }
+:if ([:len [find where list=$AddressList and address=99.86.159.5]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.5 }
+:if ([:len [find where list=$AddressList and address=99.86.159.51]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.51 }
+:if ([:len [find where list=$AddressList and address=99.86.159.55]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.55 }
+:if ([:len [find where list=$AddressList and address=99.86.159.58]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.58 }
+:if ([:len [find where list=$AddressList and address=99.86.159.64]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.64 }
 :if ([:len [find where list=$AddressList and address=99.86.159.68]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.68 }
 :if ([:len [find where list=$AddressList and address=99.86.159.71]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.71 }
 :if ([:len [find where list=$AddressList and address=99.86.159.76]] = 0) do={ add list=$AddressList comment=strava.com address=99.86.159.76 }

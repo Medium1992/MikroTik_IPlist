@@ -12,7 +12,6 @@
 :if ([:len [find where list=$AddressList and address=181.214.21.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=181.214.21.0/24 }
 :if ([:len [find where list=$AddressList and address=185.131.207.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=185.131.207.0/24 }
 :if ([:len [find where list=$AddressList and address=194.60.89.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=194.60.89.0/24 }
-:if ([:len [find where list=$AddressList and address=2.26.182.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=2.26.182.0/24 }
 :if ([:len [find where list=$AddressList and address=205.234.177.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=205.234.177.0/24 }
 :if ([:len [find where list=$AddressList and address=206.162.255.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=206.162.255.0/24 }
 :if ([:len [find where list=$AddressList and address=212.134.250.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=212.134.250.0/24 }
@@ -26,7 +25,6 @@
 :if ([:len [find where list=$AddressList and address=45.66.151.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=45.66.151.0/24 }
 :if ([:len [find where list=$AddressList and address=79.182.56.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=79.182.56.0/24 }
 :if ([:len [find where list=$AddressList and address=82.47.216.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=82.47.216.0/24 }
-:if ([:len [find where list=$AddressList and address=84.75.11.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=84.75.11.0/24 }
 :if ([:len [find where list=$AddressList and address=86.110.47.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=86.110.47.0/24 }
 :if ([:len [find where list=$AddressList and address=89.106.15.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=89.106.15.0/24 }
 :if ([:len [find where list=$AddressList and address=95.135.135.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=95.135.135.0/24 }

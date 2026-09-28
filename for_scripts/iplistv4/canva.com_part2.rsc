@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.239.50.57]] = 0) do={ add list=$AddressList comment=canva.com address=18.239.50.57 }
+:if ([:len [find where list=$AddressList and address=18.239.50.58]] = 0) do={ add list=$AddressList comment=canva.com address=18.239.50.58 }
+:if ([:len [find where list=$AddressList and address=18.239.83.42]] = 0) do={ add list=$AddressList comment=canva.com address=18.239.83.42 }
+:if ([:len [find where list=$AddressList and address=18.239.83.66]] = 0) do={ add list=$AddressList comment=canva.com address=18.239.83.66 }
 :if ([:len [find where list=$AddressList and address=18.239.83.80]] = 0) do={ add list=$AddressList comment=canva.com address=18.239.83.80 }
 :if ([:len [find where list=$AddressList and address=18.239.83.87]] = 0) do={ add list=$AddressList comment=canva.com address=18.239.83.87 }
 :if ([:len [find where list=$AddressList and address=18.244.102.106]] = 0) do={ add list=$AddressList comment=canva.com address=18.244.102.106 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.9.187.25]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.187.25 }
 :if ([:len [find where list=$AddressList and address=65.9.187.3]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.187.3 }
 :if ([:len [find where list=$AddressList and address=65.9.187.49]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.187.49 }
-:if ([:len [find where list=$AddressList and address=65.9.189.105]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.189.105 }
-:if ([:len [find where list=$AddressList and address=65.9.189.114]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.189.114 }
-:if ([:len [find where list=$AddressList and address=65.9.189.36]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.189.36 }
-:if ([:len [find where list=$AddressList and address=65.9.189.73]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.189.73 }

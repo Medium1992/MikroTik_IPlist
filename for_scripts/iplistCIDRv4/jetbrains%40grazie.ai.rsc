@@ -65,6 +65,7 @@
 :if ([:len [find where list=$AddressList and address=54.216.0.0/14]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=54.216.0.0/14 }
 :if ([:len [find where list=$AddressList and address=54.220.0.0/15]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=54.220.0.0/15 }
 :if ([:len [find where list=$AddressList and address=54.228.178.108/32]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=54.228.178.108/32 }
+:if ([:len [find where list=$AddressList and address=54.228.184.132/32]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=54.228.184.132/32 }
 :if ([:len [find where list=$AddressList and address=54.228.64.207/32]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=54.228.64.207/32 }
 :if ([:len [find where list=$AddressList and address=54.229.0.0/16]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=54.229.0.0/16 }
 :if ([:len [find where list=$AddressList and address=54.230.0.0/16]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=54.230.0.0/16 }

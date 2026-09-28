@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=154.14.7.56/29]] = 0) do={ add list=$AddressList comment=be address=154.14.7.56/29 }
+:if ([:len [find where list=$AddressList and address=154.14.8.184/29]] = 0) do={ add list=$AddressList comment=be address=154.14.8.184/29 }
+:if ([:len [find where list=$AddressList and address=154.14.8.228/30]] = 0) do={ add list=$AddressList comment=be address=154.14.8.228/30 }
+:if ([:len [find where list=$AddressList and address=154.14.80.56/29]] = 0) do={ add list=$AddressList comment=be address=154.14.80.56/29 }
 :if ([:len [find where list=$AddressList and address=154.14.81.152/29]] = 0) do={ add list=$AddressList comment=be address=154.14.81.152/29 }
 :if ([:len [find where list=$AddressList and address=154.14.82.16/29]] = 0) do={ add list=$AddressList comment=be address=154.14.82.16/29 }
 :if ([:len [find where list=$AddressList and address=154.14.83.216/29]] = 0) do={ add list=$AddressList comment=be address=154.14.83.216/29 }
@@ -47,7 +51,7 @@
 :if ([:len [find where list=$AddressList and address=154.47.27.0/24]] = 0) do={ add list=$AddressList comment=be address=154.47.27.0/24 }
 :if ([:len [find where list=$AddressList and address=154.52.32.0/20]] = 0) do={ add list=$AddressList comment=be address=154.52.32.0/20 }
 :if ([:len [find where list=$AddressList and address=154.52.48.0/22]] = 0) do={ add list=$AddressList comment=be address=154.52.48.0/22 }
-:if ([:len [find where list=$AddressList and address=154.52.52.0/24]] = 0) do={ add list=$AddressList comment=be address=154.52.52.0/24 }
+:if ([:len [find where list=$AddressList and address=154.52.52.0/23]] = 0) do={ add list=$AddressList comment=be address=154.52.52.0/23 }
 :if ([:len [find where list=$AddressList and address=154.63.64.0/23]] = 0) do={ add list=$AddressList comment=be address=154.63.64.0/23 }
 :if ([:len [find where list=$AddressList and address=154.63.66.0/26]] = 0) do={ add list=$AddressList comment=be address=154.63.66.0/26 }
 :if ([:len [find where list=$AddressList and address=154.63.66.80/30]] = 0) do={ add list=$AddressList comment=be address=154.63.66.80/30 }
@@ -156,7 +160,6 @@
 :if ([:len [find where list=$AddressList and address=161.59.0.0/16]] = 0) do={ add list=$AddressList comment=be address=161.59.0.0/16 }
 :if ([:len [find where list=$AddressList and address=162.10.162.0/24]] = 0) do={ add list=$AddressList comment=be address=162.10.162.0/24 }
 :if ([:len [find where list=$AddressList and address=162.120.146.192/27]] = 0) do={ add list=$AddressList comment=be address=162.120.146.192/27 }
-:if ([:len [find where list=$AddressList and address=162.120.153.128/26]] = 0) do={ add list=$AddressList comment=be address=162.120.153.128/26 }
 :if ([:len [find where list=$AddressList and address=162.120.187.182/31]] = 0) do={ add list=$AddressList comment=be address=162.120.187.182/31 }
 :if ([:len [find where list=$AddressList and address=162.120.187.226/32]] = 0) do={ add list=$AddressList comment=be address=162.120.187.226/32 }
 :if ([:len [find where list=$AddressList and address=162.120.187.54/31]] = 0) do={ add list=$AddressList comment=be address=162.120.187.54/31 }
@@ -177,6 +180,3 @@
 :if ([:len [find where list=$AddressList and address=162.120.209.64/27]] = 0) do={ add list=$AddressList comment=be address=162.120.209.64/27 }
 :if ([:len [find where list=$AddressList and address=162.120.211.73/32]] = 0) do={ add list=$AddressList comment=be address=162.120.211.73/32 }
 :if ([:len [find where list=$AddressList and address=162.120.211.74/31]] = 0) do={ add list=$AddressList comment=be address=162.120.211.74/31 }
-:if ([:len [find where list=$AddressList and address=162.120.211.76/30]] = 0) do={ add list=$AddressList comment=be address=162.120.211.76/30 }
-:if ([:len [find where list=$AddressList and address=162.120.211.80/31]] = 0) do={ add list=$AddressList comment=be address=162.120.211.80/31 }
-:if ([:len [find where list=$AddressList and address=162.120.211.82/32]] = 0) do={ add list=$AddressList comment=be address=162.120.211.82/32 }

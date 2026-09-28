@@ -1,5 +1,23 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=96.41.19.176/30]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.19.176/30 }
+:if ([:len [find where list=$AddressList and address=96.41.19.180/31]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.19.180/31 }
+:if ([:len [find where list=$AddressList and address=96.41.19.183/32]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.19.183/32 }
+:if ([:len [find where list=$AddressList and address=96.41.19.184/29]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.19.184/29 }
+:if ([:len [find where list=$AddressList and address=96.41.19.192/26]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.19.192/26 }
+:if ([:len [find where list=$AddressList and address=96.41.192.0/18]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.192.0/18 }
+:if ([:len [find where list=$AddressList and address=96.41.20.0/22]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.20.0/22 }
+:if ([:len [find where list=$AddressList and address=96.41.24.0/21]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.24.0/21 }
+:if ([:len [find where list=$AddressList and address=96.41.32.0/19]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.32.0/19 }
+:if ([:len [find where list=$AddressList and address=96.41.64.0/23]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.64.0/23 }
+:if ([:len [find where list=$AddressList and address=96.41.66.0/27]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.66.0/27 }
+:if ([:len [find where list=$AddressList and address=96.41.66.128/25]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.66.128/25 }
+:if ([:len [find where list=$AddressList and address=96.41.66.32/30]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.66.32/30 }
+:if ([:len [find where list=$AddressList and address=96.41.66.36/31]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.66.36/31 }
+:if ([:len [find where list=$AddressList and address=96.41.66.38/32]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.66.38/32 }
+:if ([:len [find where list=$AddressList and address=96.41.66.40/29]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.66.40/29 }
+:if ([:len [find where list=$AddressList and address=96.41.66.48/28]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.66.48/28 }
+:if ([:len [find where list=$AddressList and address=96.41.66.64/26]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.66.64/26 }
 :if ([:len [find where list=$AddressList and address=96.41.67.0/24]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.67.0/24 }
 :if ([:len [find where list=$AddressList and address=96.41.68.0/22]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.68.0/22 }
 :if ([:len [find where list=$AddressList and address=96.41.72.0/22]] = 0) do={ add list=$AddressList comment=AS20115 address=96.41.72.0/22 }
@@ -162,21 +180,3 @@
 :if ([:len [find where list=$AddressList and address=97.86.0.0/17]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.0.0/17 }
 :if ([:len [find where list=$AddressList and address=97.86.128.0/23]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.128.0/23 }
 :if ([:len [find where list=$AddressList and address=97.86.130.0/24]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.130.0/24 }
-:if ([:len [find where list=$AddressList and address=97.86.131.0/25]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.131.0/25 }
-:if ([:len [find where list=$AddressList and address=97.86.131.128/26]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.131.128/26 }
-:if ([:len [find where list=$AddressList and address=97.86.131.192/29]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.131.192/29 }
-:if ([:len [find where list=$AddressList and address=97.86.131.200/30]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.131.200/30 }
-:if ([:len [find where list=$AddressList and address=97.86.131.204/31]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.131.204/31 }
-:if ([:len [find where list=$AddressList and address=97.86.131.207/32]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.131.207/32 }
-:if ([:len [find where list=$AddressList and address=97.86.131.208/28]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.131.208/28 }
-:if ([:len [find where list=$AddressList and address=97.86.131.224/27]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.131.224/27 }
-:if ([:len [find where list=$AddressList and address=97.86.132.0/22]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.132.0/22 }
-:if ([:len [find where list=$AddressList and address=97.86.136.0/21]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.136.0/21 }
-:if ([:len [find where list=$AddressList and address=97.86.144.0/20]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.144.0/20 }
-:if ([:len [find where list=$AddressList and address=97.86.160.0/21]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.160.0/21 }
-:if ([:len [find where list=$AddressList and address=97.86.169.0/24]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.169.0/24 }
-:if ([:len [find where list=$AddressList and address=97.86.171.0/24]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.171.0/24 }
-:if ([:len [find where list=$AddressList and address=97.86.172.0/22]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.172.0/22 }
-:if ([:len [find where list=$AddressList and address=97.86.176.0/20]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.176.0/20 }
-:if ([:len [find where list=$AddressList and address=97.86.192.0/18]] = 0) do={ add list=$AddressList comment=AS20115 address=97.86.192.0/18 }
-:if ([:len [find where list=$AddressList and address=97.87.0.0/17]] = 0) do={ add list=$AddressList comment=AS20115 address=97.87.0.0/17 }

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=211.10.128.0/17]] = 0) do={ add list=$AddressList comment=AS2516 address=211.10.128.0/17 }
 :if ([:len [find where list=$AddressList and address=211.12.0.0/17]] = 0) do={ add list=$AddressList comment=AS2516 address=211.12.0.0/17 }
 :if ([:len [find where list=$AddressList and address=211.125.160.0/19]] = 0) do={ add list=$AddressList comment=AS2516 address=211.125.160.0/19 }
 :if ([:len [find where list=$AddressList and address=211.126.0.0/16]] = 0) do={ add list=$AddressList comment=AS2516 address=211.126.0.0/16 }
@@ -39,10 +40,8 @@
 :if ([:len [find where list=$AddressList and address=45.116.224.0/22]] = 0) do={ add list=$AddressList comment=AS2516 address=45.116.224.0/22 }
 :if ([:len [find where list=$AddressList and address=45.118.40.0/22]] = 0) do={ add list=$AddressList comment=AS2516 address=45.118.40.0/22 }
 :if ([:len [find where list=$AddressList and address=45.121.148.0/22]] = 0) do={ add list=$AddressList comment=AS2516 address=45.121.148.0/22 }
-:if ([:len [find where list=$AddressList and address=45.122.224.0/22]] = 0) do={ add list=$AddressList comment=AS2516 address=45.122.224.0/22 }
 :if ([:len [find where list=$AddressList and address=45.124.216.0/22]] = 0) do={ add list=$AddressList comment=AS2516 address=45.124.216.0/22 }
 :if ([:len [find where list=$AddressList and address=45.126.156.0/22]] = 0) do={ add list=$AddressList comment=AS2516 address=45.126.156.0/22 }
-:if ([:len [find where list=$AddressList and address=45.127.28.0/22]] = 0) do={ add list=$AddressList comment=AS2516 address=45.127.28.0/22 }
 :if ([:len [find where list=$AddressList and address=49.132.0.0/14]] = 0) do={ add list=$AddressList comment=AS2516 address=49.132.0.0/14 }
 :if ([:len [find where list=$AddressList and address=59.128.0.0/15]] = 0) do={ add list=$AddressList comment=AS2516 address=59.128.0.0/15 }
 :if ([:len [find where list=$AddressList and address=59.131.0.0/16]] = 0) do={ add list=$AddressList comment=AS2516 address=59.131.0.0/16 }

@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=50.53.196.44/30]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.196.44/30 }
-:if ([:len [find where list=$AddressList and address=50.53.196.48/28]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.196.48/28 }
-:if ([:len [find where list=$AddressList and address=50.53.196.64/26]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.196.64/26 }
-:if ([:len [find where list=$AddressList and address=50.53.197.0/25]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.197.0/25 }
-:if ([:len [find where list=$AddressList and address=50.53.197.128/26]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.197.128/26 }
-:if ([:len [find where list=$AddressList and address=50.53.197.192/27]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.197.192/27 }
-:if ([:len [find where list=$AddressList and address=50.53.197.224/28]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.197.224/28 }
-:if ([:len [find where list=$AddressList and address=50.53.197.240/29]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.197.240/29 }
-:if ([:len [find where list=$AddressList and address=50.53.197.248/32]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.197.248/32 }
-:if ([:len [find where list=$AddressList and address=50.53.197.250/31]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.197.250/31 }
-:if ([:len [find where list=$AddressList and address=50.53.197.252/30]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.197.252/30 }
 :if ([:len [find where list=$AddressList and address=50.53.198.0/23]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.198.0/23 }
 :if ([:len [find where list=$AddressList and address=50.53.2.0/28]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.2.0/28 }
 :if ([:len [find where list=$AddressList and address=50.53.2.128/25]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.2.128/25 }
@@ -180,3 +169,14 @@
 :if ([:len [find where list=$AddressList and address=50.53.86.0/24]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.86.0/24 }
 :if ([:len [find where list=$AddressList and address=50.53.87.0/29]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.87.0/29 }
 :if ([:len [find where list=$AddressList and address=50.53.87.10/31]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.87.10/31 }
+:if ([:len [find where list=$AddressList and address=50.53.87.12/30]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.87.12/30 }
+:if ([:len [find where list=$AddressList and address=50.53.87.128/25]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.87.128/25 }
+:if ([:len [find where list=$AddressList and address=50.53.87.16/28]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.87.16/28 }
+:if ([:len [find where list=$AddressList and address=50.53.87.32/27]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.87.32/27 }
+:if ([:len [find where list=$AddressList and address=50.53.87.64/26]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.87.64/26 }
+:if ([:len [find where list=$AddressList and address=50.53.87.9/32]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.87.9/32 }
+:if ([:len [find where list=$AddressList and address=50.53.88.0/22]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.88.0/22 }
+:if ([:len [find where list=$AddressList and address=50.53.92.0/23]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.92.0/23 }
+:if ([:len [find where list=$AddressList and address=50.53.94.0/25]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.94.0/25 }
+:if ([:len [find where list=$AddressList and address=50.53.94.128/26]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.94.128/26 }
+:if ([:len [find where list=$AddressList and address=50.53.94.192/31]] = 0) do={ add list=$AddressList comment=AS20055 address=50.53.94.192/31 }

@@ -7,6 +7,7 @@
 :if ([:len [find where list=$AddressList and address=108.131.173.253]] = 0) do={ add list=$AddressList comment=euronews.com address=108.131.173.253 }
 :if ([:len [find where list=$AddressList and address=108.131.76.91]] = 0) do={ add list=$AddressList comment=euronews.com address=108.131.76.91 }
 :if ([:len [find where list=$AddressList and address=108.132.135.25]] = 0) do={ add list=$AddressList comment=euronews.com address=108.132.135.25 }
+:if ([:len [find where list=$AddressList and address=108.132.237.248]] = 0) do={ add list=$AddressList comment=euronews.com address=108.132.237.248 }
 :if ([:len [find where list=$AddressList and address=108.133.170.148]] = 0) do={ add list=$AddressList comment=euronews.com address=108.133.170.148 }
 :if ([:len [find where list=$AddressList and address=146.75.117.91]] = 0) do={ add list=$AddressList comment=euronews.com address=146.75.117.91 }
 :if ([:len [find where list=$AddressList and address=146.75.121.91]] = 0) do={ add list=$AddressList comment=euronews.com address=146.75.121.91 }
@@ -91,6 +92,7 @@
 :if ([:len [find where list=$AddressList and address=46.137.134.109]] = 0) do={ add list=$AddressList comment=euronews.com address=46.137.134.109 }
 :if ([:len [find where list=$AddressList and address=46.137.42.117]] = 0) do={ add list=$AddressList comment=euronews.com address=46.137.42.117 }
 :if ([:len [find where list=$AddressList and address=46.51.154.34]] = 0) do={ add list=$AddressList comment=euronews.com address=46.51.154.34 }
+:if ([:len [find where list=$AddressList and address=52.16.119.93]] = 0) do={ add list=$AddressList comment=euronews.com address=52.16.119.93 }
 :if ([:len [find where list=$AddressList and address=52.16.54.69]] = 0) do={ add list=$AddressList comment=euronews.com address=52.16.54.69 }
 :if ([:len [find where list=$AddressList and address=52.16.90.14]] = 0) do={ add list=$AddressList comment=euronews.com address=52.16.90.14 }
 :if ([:len [find where list=$AddressList and address=52.17.146.85]] = 0) do={ add list=$AddressList comment=euronews.com address=52.17.146.85 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=54.217.192.53]] = 0) do={ add list=$AddressList comment=euronews.com address=54.217.192.53 }
 :if ([:len [find where list=$AddressList and address=54.217.202.89]] = 0) do={ add list=$AddressList comment=euronews.com address=54.217.202.89 }
 :if ([:len [find where list=$AddressList and address=54.217.26.24]] = 0) do={ add list=$AddressList comment=euronews.com address=54.217.26.24 }
-:if ([:len [find where list=$AddressList and address=54.217.58.160]] = 0) do={ add list=$AddressList comment=euronews.com address=54.217.58.160 }
-:if ([:len [find where list=$AddressList and address=54.220.13.121]] = 0) do={ add list=$AddressList comment=euronews.com address=54.220.13.121 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.66.147.7]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.147.7 }
+:if ([:len [find where list=$AddressList and address=18.66.171.101]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.171.101 }
+:if ([:len [find where list=$AddressList and address=18.66.171.111]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.171.111 }
+:if ([:len [find where list=$AddressList and address=18.66.171.31]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.171.31 }
 :if ([:len [find where list=$AddressList and address=18.66.171.97]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.171.97 }
 :if ([:len [find where list=$AddressList and address=18.66.192.104]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.192.104 }
 :if ([:len [find where list=$AddressList and address=18.66.192.15]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=18.66.192.15 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.162.247.100]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.162.247.100 }
 :if ([:len [find where list=$AddressList and address=3.162.247.102]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.162.247.102 }
 :if ([:len [find where list=$AddressList and address=3.162.247.114]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.162.247.114 }
-:if ([:len [find where list=$AddressList and address=3.162.247.124]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.162.247.124 }
-:if ([:len [find where list=$AddressList and address=3.162.247.58]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.162.247.58 }
-:if ([:len [find where list=$AddressList and address=3.162.247.86]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.162.247.86 }
-:if ([:len [find where list=$AddressList and address=3.162.247.97]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.162.247.97 }

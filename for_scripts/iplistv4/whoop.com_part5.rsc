@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.227.47.51]] = 0) do={ add list=$AddressList comment=whoop.com address=13.227.47.51 }
+:if ([:len [find where list=$AddressList and address=13.227.47.53]] = 0) do={ add list=$AddressList comment=whoop.com address=13.227.47.53 }
+:if ([:len [find where list=$AddressList and address=13.227.47.62]] = 0) do={ add list=$AddressList comment=whoop.com address=13.227.47.62 }
+:if ([:len [find where list=$AddressList and address=13.227.47.63]] = 0) do={ add list=$AddressList comment=whoop.com address=13.227.47.63 }
 :if ([:len [find where list=$AddressList and address=13.227.47.75]] = 0) do={ add list=$AddressList comment=whoop.com address=13.227.47.75 }
 :if ([:len [find where list=$AddressList and address=13.227.47.83]] = 0) do={ add list=$AddressList comment=whoop.com address=13.227.47.83 }
 :if ([:len [find where list=$AddressList and address=13.227.47.94]] = 0) do={ add list=$AddressList comment=whoop.com address=13.227.47.94 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=172.64.151.163]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.151.163 }
 :if ([:len [find where list=$AddressList and address=172.64.151.70]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.151.70 }
 :if ([:len [find where list=$AddressList and address=172.64.152.100]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.152.100 }
-:if ([:len [find where list=$AddressList and address=172.64.152.232]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.152.232 }
-:if ([:len [find where list=$AddressList and address=172.64.153.10]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.153.10 }
-:if ([:len [find where list=$AddressList and address=172.64.153.138]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.153.138 }
-:if ([:len [find where list=$AddressList and address=172.64.153.33]] = 0) do={ add list=$AddressList comment=whoop.com address=172.64.153.33 }

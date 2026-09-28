@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.239.50.49]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.49 }
+:if ([:len [find where list=$AddressList and address=18.239.50.50]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.50 }
+:if ([:len [find where list=$AddressList and address=18.239.50.52]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.52 }
+:if ([:len [find where list=$AddressList and address=18.239.50.54]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.54 }
 :if ([:len [find where list=$AddressList and address=18.239.50.58]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.58 }
 :if ([:len [find where list=$AddressList and address=18.239.50.72]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.72 }
 :if ([:len [find where list=$AddressList and address=18.239.50.75]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.50.75 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.245.86.114]] = 0) do={ add list=$AddressList comment=whoop.com address=18.245.86.114 }
 :if ([:len [find where list=$AddressList and address=18.245.86.20]] = 0) do={ add list=$AddressList comment=whoop.com address=18.245.86.20 }
 :if ([:len [find where list=$AddressList and address=18.245.86.35]] = 0) do={ add list=$AddressList comment=whoop.com address=18.245.86.35 }
-:if ([:len [find where list=$AddressList and address=18.245.86.9]] = 0) do={ add list=$AddressList comment=whoop.com address=18.245.86.9 }
-:if ([:len [find where list=$AddressList and address=18.64.103.101]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.101 }
-:if ([:len [find where list=$AddressList and address=18.64.103.113]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.113 }
-:if ([:len [find where list=$AddressList and address=18.64.103.15]] = 0) do={ add list=$AddressList comment=whoop.com address=18.64.103.15 }

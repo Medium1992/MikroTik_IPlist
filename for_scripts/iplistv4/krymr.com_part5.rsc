@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.239.134.51]] = 0) do={ add list=$AddressList comment=krymr.com address=18.239.134.51 }
+:if ([:len [find where list=$AddressList and address=18.239.208.10]] = 0) do={ add list=$AddressList comment=krymr.com address=18.239.208.10 }
+:if ([:len [find where list=$AddressList and address=18.239.208.35]] = 0) do={ add list=$AddressList comment=krymr.com address=18.239.208.35 }
+:if ([:len [find where list=$AddressList and address=18.239.208.39]] = 0) do={ add list=$AddressList comment=krymr.com address=18.239.208.39 }
+:if ([:len [find where list=$AddressList and address=18.239.208.48]] = 0) do={ add list=$AddressList comment=krymr.com address=18.239.208.48 }
 :if ([:len [find where list=$AddressList and address=18.239.208.54]] = 0) do={ add list=$AddressList comment=krymr.com address=18.239.208.54 }
 :if ([:len [find where list=$AddressList and address=18.239.208.76]] = 0) do={ add list=$AddressList comment=krymr.com address=18.239.208.76 }
 :if ([:len [find where list=$AddressList and address=18.239.208.83]] = 0) do={ add list=$AddressList comment=krymr.com address=18.239.208.83 }
@@ -146,6 +151,7 @@
 :if ([:len [find where list=$AddressList and address=184.26.14.118]] = 0) do={ add list=$AddressList comment=krymr.com address=184.26.14.118 }
 :if ([:len [find where list=$AddressList and address=184.27.111.177]] = 0) do={ add list=$AddressList comment=krymr.com address=184.27.111.177 }
 :if ([:len [find where list=$AddressList and address=184.27.140.31]] = 0) do={ add list=$AddressList comment=krymr.com address=184.27.140.31 }
+:if ([:len [find where list=$AddressList and address=184.27.140.5]] = 0) do={ add list=$AddressList comment=krymr.com address=184.27.140.5 }
 :if ([:len [find where list=$AddressList and address=184.27.140.9]] = 0) do={ add list=$AddressList comment=krymr.com address=184.27.140.9 }
 :if ([:len [find where list=$AddressList and address=184.27.223.168]] = 0) do={ add list=$AddressList comment=krymr.com address=184.27.223.168 }
 :if ([:len [find where list=$AddressList and address=184.27.53.126]] = 0) do={ add list=$AddressList comment=krymr.com address=184.27.53.126 }
@@ -172,11 +178,5 @@
 :if ([:len [find where list=$AddressList and address=184.30.150.155]] = 0) do={ add list=$AddressList comment=krymr.com address=184.30.150.155 }
 :if ([:len [find where list=$AddressList and address=184.30.215.174]] = 0) do={ add list=$AddressList comment=krymr.com address=184.30.215.174 }
 :if ([:len [find where list=$AddressList and address=184.30.223.180]] = 0) do={ add list=$AddressList comment=krymr.com address=184.30.223.180 }
-:if ([:len [find where list=$AddressList and address=184.50.112.81]] = 0) do={ add list=$AddressList comment=krymr.com address=184.50.112.81 }
-:if ([:len [find where list=$AddressList and address=184.50.112.91]] = 0) do={ add list=$AddressList comment=krymr.com address=184.50.112.91 }
-:if ([:len [find where list=$AddressList and address=184.51.101.137]] = 0) do={ add list=$AddressList comment=krymr.com address=184.51.101.137 }
-:if ([:len [find where list=$AddressList and address=184.51.101.162]] = 0) do={ add list=$AddressList comment=krymr.com address=184.51.101.162 }
-:if ([:len [find where list=$AddressList and address=184.51.132.47]] = 0) do={ add list=$AddressList comment=krymr.com address=184.51.132.47 }
-:if ([:len [find where list=$AddressList and address=184.51.149.82]] = 0) do={ add list=$AddressList comment=krymr.com address=184.51.149.82 }
-:if ([:len [find where list=$AddressList and address=184.51.149.96]] = 0) do={ add list=$AddressList comment=krymr.com address=184.51.149.96 }
-:if ([:len [find where list=$AddressList and address=184.51.73.20]] = 0) do={ add list=$AddressList comment=krymr.com address=184.51.73.20 }
+:if ([:len [find where list=$AddressList and address=184.31.2.69]] = 0) do={ add list=$AddressList comment=krymr.com address=184.31.2.69 }
+:if ([:len [find where list=$AddressList and address=184.31.2.74]] = 0) do={ add list=$AddressList comment=krymr.com address=184.31.2.74 }

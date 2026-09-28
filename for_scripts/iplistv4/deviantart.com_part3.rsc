@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.244.18.63]] = 0) do={ add list=$AddressList comment=deviantart.com address=18.244.18.63 }
+:if ([:len [find where list=$AddressList and address=18.244.18.90]] = 0) do={ add list=$AddressList comment=deviantart.com address=18.244.18.90 }
+:if ([:len [find where list=$AddressList and address=18.244.87.117]] = 0) do={ add list=$AddressList comment=deviantart.com address=18.244.87.117 }
+:if ([:len [find where list=$AddressList and address=18.244.87.125]] = 0) do={ add list=$AddressList comment=deviantart.com address=18.244.87.125 }
 :if ([:len [find where list=$AddressList and address=18.244.87.25]] = 0) do={ add list=$AddressList comment=deviantart.com address=18.244.87.25 }
 :if ([:len [find where list=$AddressList and address=18.244.87.36]] = 0) do={ add list=$AddressList comment=deviantart.com address=18.244.87.36 }
 :if ([:len [find where list=$AddressList and address=18.244.87.44]] = 0) do={ add list=$AddressList comment=deviantart.com address=18.244.87.44 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.164.68.78]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.68.78 }
 :if ([:len [find where list=$AddressList and address=3.164.68.89]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.68.89 }
 :if ([:len [find where list=$AddressList and address=3.164.85.124]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.85.124 }
-:if ([:len [find where list=$AddressList and address=3.164.85.18]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.85.18 }
-:if ([:len [find where list=$AddressList and address=3.164.85.34]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.85.34 }
-:if ([:len [find where list=$AddressList and address=3.164.85.44]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.85.44 }
-:if ([:len [find where list=$AddressList and address=3.165.160.26]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.165.160.26 }

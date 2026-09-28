@@ -4,14 +4,10 @@
 :if ([:len [find where list=$AddressList and address=104.134.131.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.131.0/24 }
 :if ([:len [find where list=$AddressList and address=104.134.140.0/23]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.140.0/23 }
 :if ([:len [find where list=$AddressList and address=104.134.152.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.152.0/24 }
-:if ([:len [find where list=$AddressList and address=104.134.158.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.158.0/24 }
 :if ([:len [find where list=$AddressList and address=104.134.192.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.192.0/24 }
-:if ([:len [find where list=$AddressList and address=104.134.195.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.195.0/24 }
 :if ([:len [find where list=$AddressList and address=104.134.196.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.196.0/24 }
 :if ([:len [find where list=$AddressList and address=104.134.200.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.200.0/24 }
 :if ([:len [find where list=$AddressList and address=104.134.211.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.211.0/24 }
 :if ([:len [find where list=$AddressList and address=104.134.221.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.221.0/24 }
 :if ([:len [find where list=$AddressList and address=104.134.227.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.227.0/24 }
-:if ([:len [find where list=$AddressList and address=104.134.36.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=104.134.36.0/24 }
-:if ([:len [find where list=$AddressList and address=136.126.224.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=136.126.224.0/24 }
 :if ([:len [find where list=$AddressList and address=136.126.229.0/24]] = 0) do={ add list=$AddressList comment=AS395973 address=136.126.229.0/24 }

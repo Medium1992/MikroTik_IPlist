@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.173.5.47]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.47 }
+:if ([:len [find where list=$AddressList and address=18.173.5.58]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.58 }
+:if ([:len [find where list=$AddressList and address=18.173.5.68]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.68 }
+:if ([:len [find where list=$AddressList and address=18.173.5.77]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.77 }
 :if ([:len [find where list=$AddressList and address=18.173.5.79]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.79 }
 :if ([:len [find where list=$AddressList and address=18.173.5.85]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.85 }
 :if ([:len [find where list=$AddressList and address=18.173.5.96]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.96 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.245.162.25]] = 0) do={ add list=$AddressList comment=make.com address=18.245.162.25 }
 :if ([:len [find where list=$AddressList and address=18.245.162.39]] = 0) do={ add list=$AddressList comment=make.com address=18.245.162.39 }
 :if ([:len [find where list=$AddressList and address=18.245.31.103]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.103 }
-:if ([:len [find where list=$AddressList and address=18.245.31.14]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.14 }
-:if ([:len [find where list=$AddressList and address=18.245.31.17]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.17 }
-:if ([:len [find where list=$AddressList and address=18.245.31.25]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.25 }
-:if ([:len [find where list=$AddressList and address=18.245.31.38]] = 0) do={ add list=$AddressList comment=make.com address=18.245.31.38 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.169.107.104]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.104 }
+:if ([:len [find where list=$AddressList and address=3.169.107.20]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.20 }
+:if ([:len [find where list=$AddressList and address=3.169.107.28]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.28 }
+:if ([:len [find where list=$AddressList and address=3.169.107.41]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.41 }
 :if ([:len [find where list=$AddressList and address=3.169.107.59]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.59 }
 :if ([:len [find where list=$AddressList and address=3.169.107.62]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.62 }
 :if ([:len [find where list=$AddressList and address=3.169.107.9]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.9 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=44.221.153.14]] = 0) do={ add list=$AddressList comment=make.com address=44.221.153.14 }
 :if ([:len [find where list=$AddressList and address=5.180.201.30]] = 0) do={ add list=$AddressList comment=make.com address=5.180.201.30 }
 :if ([:len [find where list=$AddressList and address=52.16.183.189]] = 0) do={ add list=$AddressList comment=make.com address=52.16.183.189 }
-:if ([:len [find where list=$AddressList and address=52.17.129.128]] = 0) do={ add list=$AddressList comment=make.com address=52.17.129.128 }
-:if ([:len [find where list=$AddressList and address=52.17.137.244]] = 0) do={ add list=$AddressList comment=make.com address=52.17.137.244 }
-:if ([:len [find where list=$AddressList and address=52.17.196.99]] = 0) do={ add list=$AddressList comment=make.com address=52.17.196.99 }
-:if ([:len [find where list=$AddressList and address=52.17.61.212]] = 0) do={ add list=$AddressList comment=make.com address=52.17.61.212 }

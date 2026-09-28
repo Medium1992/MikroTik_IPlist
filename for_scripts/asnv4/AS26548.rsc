@@ -21,6 +21,7 @@
 :if ([:len [find where list=$AddressList and address=146.19.90.0/23]] = 0) do={ add list=$AddressList comment=AS26548 address=146.19.90.0/23 }
 :if ([:len [find where list=$AddressList and address=147.78.180.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=147.78.180.0/24 }
 :if ([:len [find where list=$AddressList and address=147.78.182.0/23]] = 0) do={ add list=$AddressList comment=AS26548 address=147.78.182.0/23 }
+:if ([:len [find where list=$AddressList and address=157.254.232.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=157.254.232.0/24 }
 :if ([:len [find where list=$AddressList and address=157.254.244.0/22]] = 0) do={ add list=$AddressList comment=AS26548 address=157.254.244.0/22 }
 :if ([:len [find where list=$AddressList and address=157.254.4.0/22]] = 0) do={ add list=$AddressList comment=AS26548 address=157.254.4.0/22 }
 :if ([:len [find where list=$AddressList and address=162.249.168.0/21]] = 0) do={ add list=$AddressList comment=AS26548 address=162.249.168.0/21 }
@@ -62,6 +63,7 @@
 :if ([:len [find where list=$AddressList and address=2.27.84.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=2.27.84.0/24 }
 :if ([:len [find where list=$AddressList and address=207.174.24.0/22]] = 0) do={ add list=$AddressList comment=AS26548 address=207.174.24.0/22 }
 :if ([:len [find where list=$AddressList and address=207.174.59.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=207.174.59.0/24 }
+:if ([:len [find where list=$AddressList and address=208.99.4.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=208.99.4.0/24 }
 :if ([:len [find where list=$AddressList and address=212.119.46.0/23]] = 0) do={ add list=$AddressList comment=AS26548 address=212.119.46.0/23 }
 :if ([:len [find where list=$AddressList and address=212.87.216.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=212.87.216.0/24 }
 :if ([:len [find where list=$AddressList and address=212.87.218.0/23]] = 0) do={ add list=$AddressList comment=AS26548 address=212.87.218.0/23 }

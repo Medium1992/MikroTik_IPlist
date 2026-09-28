@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.172.242.3]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.242.3 }
+:if ([:len [find where list=$AddressList and address=18.172.242.60]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.242.60 }
+:if ([:len [find where list=$AddressList and address=18.172.242.89]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.242.89 }
+:if ([:len [find where list=$AddressList and address=18.172.88.25]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.88.25 }
 :if ([:len [find where list=$AddressList and address=18.172.88.28]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.88.28 }
 :if ([:len [find where list=$AddressList and address=18.172.88.63]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.88.63 }
 :if ([:len [find where list=$AddressList and address=18.172.88.7]] = 0) do={ add list=$AddressList comment=zello.com address=18.172.88.7 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.208.209.91]] = 0) do={ add list=$AddressList comment=zello.com address=3.208.209.91 }
 :if ([:len [find where list=$AddressList and address=3.209.131.182]] = 0) do={ add list=$AddressList comment=zello.com address=3.209.131.182 }
 :if ([:len [find where list=$AddressList and address=3.209.188.162]] = 0) do={ add list=$AddressList comment=zello.com address=3.209.188.162 }
-:if ([:len [find where list=$AddressList and address=3.209.20.52]] = 0) do={ add list=$AddressList comment=zello.com address=3.209.20.52 }
-:if ([:len [find where list=$AddressList and address=3.209.233.168]] = 0) do={ add list=$AddressList comment=zello.com address=3.209.233.168 }
-:if ([:len [find where list=$AddressList and address=3.210.126.139]] = 0) do={ add list=$AddressList comment=zello.com address=3.210.126.139 }
-:if ([:len [find where list=$AddressList and address=3.210.148.61]] = 0) do={ add list=$AddressList comment=zello.com address=3.210.148.61 }

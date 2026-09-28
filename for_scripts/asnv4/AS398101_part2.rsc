@@ -13,6 +13,7 @@
 :if ([:len [find where list=$AddressList and address=72.167.48.0/21]] = 0) do={ add list=$AddressList comment=AS398101 address=72.167.48.0/21 }
 :if ([:len [find where list=$AddressList and address=72.167.56.0/22]] = 0) do={ add list=$AddressList comment=AS398101 address=72.167.56.0/22 }
 :if ([:len [find where list=$AddressList and address=72.167.64.0/21]] = 0) do={ add list=$AddressList comment=AS398101 address=72.167.64.0/21 }
+:if ([:len [find where list=$AddressList and address=72.167.7.0/24]] = 0) do={ add list=$AddressList comment=AS398101 address=72.167.7.0/24 }
 :if ([:len [find where list=$AddressList and address=72.167.76.0/22]] = 0) do={ add list=$AddressList comment=AS398101 address=72.167.76.0/22 }
 :if ([:len [find where list=$AddressList and address=72.167.8.0/22]] = 0) do={ add list=$AddressList comment=AS398101 address=72.167.8.0/22 }
 :if ([:len [find where list=$AddressList and address=72.167.84.0/22]] = 0) do={ add list=$AddressList comment=AS398101 address=72.167.84.0/22 }
@@ -22,6 +23,7 @@
 :if ([:len [find where list=$AddressList and address=97.74.112.0/22]] = 0) do={ add list=$AddressList comment=AS398101 address=97.74.112.0/22 }
 :if ([:len [find where list=$AddressList and address=97.74.12.0/23]] = 0) do={ add list=$AddressList comment=AS398101 address=97.74.12.0/23 }
 :if ([:len [find where list=$AddressList and address=97.74.134.0/23]] = 0) do={ add list=$AddressList comment=AS398101 address=97.74.134.0/23 }
+:if ([:len [find where list=$AddressList and address=97.74.151.0/24]] = 0) do={ add list=$AddressList comment=AS398101 address=97.74.151.0/24 }
 :if ([:len [find where list=$AddressList and address=97.74.184.0/21]] = 0) do={ add list=$AddressList comment=AS398101 address=97.74.184.0/21 }
 :if ([:len [find where list=$AddressList and address=97.74.200.0/21]] = 0) do={ add list=$AddressList comment=AS398101 address=97.74.200.0/21 }
 :if ([:len [find where list=$AddressList and address=97.74.208.0/22]] = 0) do={ add list=$AddressList comment=AS398101 address=97.74.208.0/22 }

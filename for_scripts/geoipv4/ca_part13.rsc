@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=142.249.0.0/22]] = 0) do={ add list=$AddressList comment=ca address=142.249.0.0/22 }
+:if ([:len [find where list=$AddressList and address=142.249.124.0/24]] = 0) do={ add list=$AddressList comment=ca address=142.249.124.0/24 }
+:if ([:len [find where list=$AddressList and address=142.249.127.0/24]] = 0) do={ add list=$AddressList comment=ca address=142.249.127.0/24 }
+:if ([:len [find where list=$AddressList and address=142.249.188.0/23]] = 0) do={ add list=$AddressList comment=ca address=142.249.188.0/23 }
 :if ([:len [find where list=$AddressList and address=142.249.220.0/24]] = 0) do={ add list=$AddressList comment=ca address=142.249.220.0/24 }
 :if ([:len [find where list=$AddressList and address=142.249.222.0/24]] = 0) do={ add list=$AddressList comment=ca address=142.249.222.0/24 }
 :if ([:len [find where list=$AddressList and address=142.249.237.0/24]] = 0) do={ add list=$AddressList comment=ca address=142.249.237.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=143.170.78.144/28]] = 0) do={ add list=$AddressList comment=ca address=143.170.78.144/28 }
 :if ([:len [find where list=$AddressList and address=143.170.78.160/27]] = 0) do={ add list=$AddressList comment=ca address=143.170.78.160/27 }
 :if ([:len [find where list=$AddressList and address=143.170.78.250/32]] = 0) do={ add list=$AddressList comment=ca address=143.170.78.250/32 }
-:if ([:len [find where list=$AddressList and address=143.198.32.0/20]] = 0) do={ add list=$AddressList comment=ca address=143.198.32.0/20 }
-:if ([:len [find where list=$AddressList and address=143.223.138.0/23]] = 0) do={ add list=$AddressList comment=ca address=143.223.138.0/23 }
-:if ([:len [find where list=$AddressList and address=143.223.172.0/24]] = 0) do={ add list=$AddressList comment=ca address=143.223.172.0/24 }
-:if ([:len [find where list=$AddressList and address=143.244.43.0/24]] = 0) do={ add list=$AddressList comment=ca address=143.244.43.0/24 }

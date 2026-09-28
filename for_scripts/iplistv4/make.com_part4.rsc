@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.35.198.16]] = 0) do={ add list=$AddressList comment=make.com address=13.35.198.16 }
+:if ([:len [find where list=$AddressList and address=13.35.198.2]] = 0) do={ add list=$AddressList comment=make.com address=13.35.198.2 }
+:if ([:len [find where list=$AddressList and address=13.35.198.71]] = 0) do={ add list=$AddressList comment=make.com address=13.35.198.71 }
+:if ([:len [find where list=$AddressList and address=13.35.198.92]] = 0) do={ add list=$AddressList comment=make.com address=13.35.198.92 }
 :if ([:len [find where list=$AddressList and address=13.35.58.112]] = 0) do={ add list=$AddressList comment=make.com address=13.35.58.112 }
 :if ([:len [find where list=$AddressList and address=13.35.58.115]] = 0) do={ add list=$AddressList comment=make.com address=13.35.58.115 }
 :if ([:len [find where list=$AddressList and address=13.35.58.60]] = 0) do={ add list=$AddressList comment=make.com address=13.35.58.60 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.165.122.70]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.70 }
 :if ([:len [find where list=$AddressList and address=18.165.122.74]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.74 }
 :if ([:len [find where list=$AddressList and address=18.165.122.75]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.75 }
-:if ([:len [find where list=$AddressList and address=18.165.122.82]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.82 }
-:if ([:len [find where list=$AddressList and address=18.165.122.85]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.85 }
-:if ([:len [find where list=$AddressList and address=18.165.122.92]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.92 }
-:if ([:len [find where list=$AddressList and address=18.165.122.94]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.94 }

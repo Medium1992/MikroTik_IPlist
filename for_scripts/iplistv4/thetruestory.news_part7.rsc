@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.64.103.6]] = 0) do={ add list=$AddressList comment=thetruestory.news address=18.64.103.6 }
+:if ([:len [find where list=$AddressList and address=18.64.103.71]] = 0) do={ add list=$AddressList comment=thetruestory.news address=18.64.103.71 }
+:if ([:len [find where list=$AddressList and address=18.64.119.103]] = 0) do={ add list=$AddressList comment=thetruestory.news address=18.64.119.103 }
+:if ([:len [find where list=$AddressList and address=18.64.119.31]] = 0) do={ add list=$AddressList comment=thetruestory.news address=18.64.119.31 }
 :if ([:len [find where list=$AddressList and address=18.64.119.62]] = 0) do={ add list=$AddressList comment=thetruestory.news address=18.64.119.62 }
 :if ([:len [find where list=$AddressList and address=18.64.119.72]] = 0) do={ add list=$AddressList comment=thetruestory.news address=18.64.119.72 }
 :if ([:len [find where list=$AddressList and address=18.64.236.107]] = 0) do={ add list=$AddressList comment=thetruestory.news address=18.64.236.107 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.160.246.13]] = 0) do={ add list=$AddressList comment=thetruestory.news address=3.160.246.13 }
 :if ([:len [find where list=$AddressList and address=3.160.246.16]] = 0) do={ add list=$AddressList comment=thetruestory.news address=3.160.246.16 }
 :if ([:len [find where list=$AddressList and address=3.160.246.18]] = 0) do={ add list=$AddressList comment=thetruestory.news address=3.160.246.18 }
-:if ([:len [find where list=$AddressList and address=3.160.246.22]] = 0) do={ add list=$AddressList comment=thetruestory.news address=3.160.246.22 }
-:if ([:len [find where list=$AddressList and address=3.160.246.23]] = 0) do={ add list=$AddressList comment=thetruestory.news address=3.160.246.23 }
-:if ([:len [find where list=$AddressList and address=3.160.246.38]] = 0) do={ add list=$AddressList comment=thetruestory.news address=3.160.246.38 }
-:if ([:len [find where list=$AddressList and address=3.160.246.4]] = 0) do={ add list=$AddressList comment=thetruestory.news address=3.160.246.4 }

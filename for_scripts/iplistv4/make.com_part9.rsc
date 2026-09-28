@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.206.95]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.95 }
+:if ([:len [find where list=$AddressList and address=3.164.206.98]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.98 }
+:if ([:len [find where list=$AddressList and address=3.164.230.11]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.11 }
+:if ([:len [find where list=$AddressList and address=3.164.230.114]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.114 }
 :if ([:len [find where list=$AddressList and address=3.164.230.119]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.119 }
 :if ([:len [find where list=$AddressList and address=3.164.230.125]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.125 }
 :if ([:len [find where list=$AddressList and address=3.164.230.14]] = 0) do={ add list=$AddressList comment=make.com address=3.164.230.14 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.168.73.47]] = 0) do={ add list=$AddressList comment=make.com address=3.168.73.47 }
 :if ([:len [find where list=$AddressList and address=3.168.73.53]] = 0) do={ add list=$AddressList comment=make.com address=3.168.73.53 }
 :if ([:len [find where list=$AddressList and address=3.168.73.60]] = 0) do={ add list=$AddressList comment=make.com address=3.168.73.60 }
-:if ([:len [find where list=$AddressList and address=3.169.107.104]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.104 }
-:if ([:len [find where list=$AddressList and address=3.169.107.20]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.20 }
-:if ([:len [find where list=$AddressList and address=3.169.107.28]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.28 }
-:if ([:len [find where list=$AddressList and address=3.169.107.41]] = 0) do={ add list=$AddressList comment=make.com address=3.169.107.41 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=184.28.198.200]] = 0) do={ add list=$AddressList comment=whoop.com address=184.28.198.200 }
+:if ([:len [find where list=$AddressList and address=184.28.29.202]] = 0) do={ add list=$AddressList comment=whoop.com address=184.28.29.202 }
+:if ([:len [find where list=$AddressList and address=184.28.29.208]] = 0) do={ add list=$AddressList comment=whoop.com address=184.28.29.208 }
+:if ([:len [find where list=$AddressList and address=184.31.0.163]] = 0) do={ add list=$AddressList comment=whoop.com address=184.31.0.163 }
 :if ([:len [find where list=$AddressList and address=184.31.0.188]] = 0) do={ add list=$AddressList comment=whoop.com address=184.31.0.188 }
 :if ([:len [find where list=$AddressList and address=184.31.15.136]] = 0) do={ add list=$AddressList comment=whoop.com address=184.31.15.136 }
 :if ([:len [find where list=$AddressList and address=184.31.15.201]] = 0) do={ add list=$AddressList comment=whoop.com address=184.31.15.201 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.17.198.59]] = 0) do={ add list=$AddressList comment=whoop.com address=2.17.198.59 }
 :if ([:len [find where list=$AddressList and address=2.17.211.152]] = 0) do={ add list=$AddressList comment=whoop.com address=2.17.211.152 }
 :if ([:len [find where list=$AddressList and address=2.17.211.207]] = 0) do={ add list=$AddressList comment=whoop.com address=2.17.211.207 }
-:if ([:len [find where list=$AddressList and address=2.17.22.16]] = 0) do={ add list=$AddressList comment=whoop.com address=2.17.22.16 }
-:if ([:len [find where list=$AddressList and address=2.17.22.18]] = 0) do={ add list=$AddressList comment=whoop.com address=2.17.22.18 }
-:if ([:len [find where list=$AddressList and address=2.17.22.27]] = 0) do={ add list=$AddressList comment=whoop.com address=2.17.22.27 }
-:if ([:len [find where list=$AddressList and address=2.17.22.66]] = 0) do={ add list=$AddressList comment=whoop.com address=2.17.22.66 }

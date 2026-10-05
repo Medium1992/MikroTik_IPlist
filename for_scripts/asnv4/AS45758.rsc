@@ -59,7 +59,13 @@
 :if ([:len [find where list=$AddressList and address=184.27.254.0/23]] = 0) do={ add list=$AddressList comment=AS45758 address=184.27.254.0/23 }
 :if ([:len [find where list=$AddressList and address=184.84.250.0/23]] = 0) do={ add list=$AddressList comment=AS45758 address=184.84.250.0/23 }
 :if ([:len [find where list=$AddressList and address=202.44.64.0/23]] = 0) do={ add list=$AddressList comment=AS45758 address=202.44.64.0/23 }
-:if ([:len [find where list=$AddressList and address=223.204.0.0/14]] = 0) do={ add list=$AddressList comment=AS45758 address=223.204.0.0/14 }
+:if ([:len [find where list=$AddressList and address=223.204.0.0/15]] = 0) do={ add list=$AddressList comment=AS45758 address=223.204.0.0/15 }
+:if ([:len [find where list=$AddressList and address=223.206.0.0/16]] = 0) do={ add list=$AddressList comment=AS45758 address=223.206.0.0/16 }
+:if ([:len [find where list=$AddressList and address=223.207.0.0/17]] = 0) do={ add list=$AddressList comment=AS45758 address=223.207.0.0/17 }
+:if ([:len [find where list=$AddressList and address=223.207.128.0/19]] = 0) do={ add list=$AddressList comment=AS45758 address=223.207.128.0/19 }
+:if ([:len [find where list=$AddressList and address=223.207.160.0/21]] = 0) do={ add list=$AddressList comment=AS45758 address=223.207.160.0/21 }
+:if ([:len [find where list=$AddressList and address=223.207.184.0/21]] = 0) do={ add list=$AddressList comment=AS45758 address=223.207.184.0/21 }
+:if ([:len [find where list=$AddressList and address=223.207.192.0/18]] = 0) do={ add list=$AddressList comment=AS45758 address=223.207.192.0/18 }
 :if ([:len [find where list=$AddressList and address=23.200.90.0/23]] = 0) do={ add list=$AddressList comment=AS45758 address=23.200.90.0/23 }
 :if ([:len [find where list=$AddressList and address=23.208.136.0/22]] = 0) do={ add list=$AddressList comment=AS45758 address=23.208.136.0/22 }
 :if ([:len [find where list=$AddressList and address=23.33.128.0/23]] = 0) do={ add list=$AddressList comment=AS45758 address=23.33.128.0/23 }

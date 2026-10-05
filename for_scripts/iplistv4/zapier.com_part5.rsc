@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.171.33]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.171.33 }
+:if ([:len [find where list=$AddressList and address=18.165.171.56]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.171.56 }
+:if ([:len [find where list=$AddressList and address=18.165.171.70]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.171.70 }
 :if ([:len [find where list=$AddressList and address=18.165.171.88]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.171.88 }
 :if ([:len [find where list=$AddressList and address=18.165.171.91]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.171.91 }
 :if ([:len [find where list=$AddressList and address=18.165.183.119]] = 0) do={ add list=$AddressList comment=zapier.com address=18.165.183.119 }
@@ -177,6 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.239.255.4]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.255.4 }
 :if ([:len [find where list=$AddressList and address=18.239.255.41]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.255.41 }
 :if ([:len [find where list=$AddressList and address=18.239.255.43]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.255.43 }
-:if ([:len [find where list=$AddressList and address=18.239.255.45]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.255.45 }
-:if ([:len [find where list=$AddressList and address=18.239.255.47]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.255.47 }
-:if ([:len [find where list=$AddressList and address=18.239.255.49]] = 0) do={ add list=$AddressList comment=zapier.com address=18.239.255.49 }

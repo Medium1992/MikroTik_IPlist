@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=8.10.12.0/23]] = 0) do={ add list=$AddressList comment=AS3356 address=8.10.12.0/23 }
-:if ([:len [find where list=$AddressList and address=8.10.121.0/24]] = 0) do={ add list=$AddressList comment=AS3356 address=8.10.121.0/24 }
-:if ([:len [find where list=$AddressList and address=8.10.122.0/23]] = 0) do={ add list=$AddressList comment=AS3356 address=8.10.122.0/23 }
-:if ([:len [find where list=$AddressList and address=8.10.124.0/22]] = 0) do={ add list=$AddressList comment=AS3356 address=8.10.124.0/22 }
 :if ([:len [find where list=$AddressList and address=8.10.128.0/22]] = 0) do={ add list=$AddressList comment=AS3356 address=8.10.128.0/22 }
 :if ([:len [find where list=$AddressList and address=8.10.132.0/23]] = 0) do={ add list=$AddressList comment=AS3356 address=8.10.132.0/23 }
 :if ([:len [find where list=$AddressList and address=8.10.135.0/24]] = 0) do={ add list=$AddressList comment=AS3356 address=8.10.135.0/24 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=8.15.192.0/21]] = 0) do={ add list=$AddressList comment=AS3356 address=8.15.192.0/21 }
 :if ([:len [find where list=$AddressList and address=8.15.2.0/23]] = 0) do={ add list=$AddressList comment=AS3356 address=8.15.2.0/23 }
 :if ([:len [find where list=$AddressList and address=8.15.200.0/24]] = 0) do={ add list=$AddressList comment=AS3356 address=8.15.200.0/24 }
+:if ([:len [find where list=$AddressList and address=8.15.202.0/24]] = 0) do={ add list=$AddressList comment=AS3356 address=8.15.202.0/24 }
+:if ([:len [find where list=$AddressList and address=8.15.204.0/23]] = 0) do={ add list=$AddressList comment=AS3356 address=8.15.204.0/23 }
+:if ([:len [find where list=$AddressList and address=8.15.206.0/24]] = 0) do={ add list=$AddressList comment=AS3356 address=8.15.206.0/24 }
+:if ([:len [find where list=$AddressList and address=8.15.208.0/23]] = 0) do={ add list=$AddressList comment=AS3356 address=8.15.208.0/23 }

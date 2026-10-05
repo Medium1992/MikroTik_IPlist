@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=44.213.12.189]] = 0) do={ add list=$AddressList comment=quora.com address=44.213.12.189 }
+:if ([:len [find where list=$AddressList and address=44.213.141.119]] = 0) do={ add list=$AddressList comment=quora.com address=44.213.141.119 }
+:if ([:len [find where list=$AddressList and address=44.213.201.44]] = 0) do={ add list=$AddressList comment=quora.com address=44.213.201.44 }
+:if ([:len [find where list=$AddressList and address=44.213.230.230]] = 0) do={ add list=$AddressList comment=quora.com address=44.213.230.230 }
+:if ([:len [find where list=$AddressList and address=44.213.241.23]] = 0) do={ add list=$AddressList comment=quora.com address=44.213.241.23 }
+:if ([:len [find where list=$AddressList and address=44.213.39.139]] = 0) do={ add list=$AddressList comment=quora.com address=44.213.39.139 }
+:if ([:len [find where list=$AddressList and address=44.213.4.228]] = 0) do={ add list=$AddressList comment=quora.com address=44.213.4.228 }
 :if ([:len [find where list=$AddressList and address=44.214.248.254]] = 0) do={ add list=$AddressList comment=quora.com address=44.214.248.254 }
 :if ([:len [find where list=$AddressList and address=44.214.59.101]] = 0) do={ add list=$AddressList comment=quora.com address=44.214.59.101 }
 :if ([:len [find where list=$AddressList and address=44.214.65.185]] = 0) do={ add list=$AddressList comment=quora.com address=44.214.65.185 }
@@ -22,6 +29,7 @@
 :if ([:len [find where list=$AddressList and address=44.217.41.73]] = 0) do={ add list=$AddressList comment=quora.com address=44.217.41.73 }
 :if ([:len [find where list=$AddressList and address=44.217.48.214]] = 0) do={ add list=$AddressList comment=quora.com address=44.217.48.214 }
 :if ([:len [find where list=$AddressList and address=44.217.50.46]] = 0) do={ add list=$AddressList comment=quora.com address=44.217.50.46 }
+:if ([:len [find where list=$AddressList and address=44.218.122.91]] = 0) do={ add list=$AddressList comment=quora.com address=44.218.122.91 }
 :if ([:len [find where list=$AddressList and address=44.218.183.127]] = 0) do={ add list=$AddressList comment=quora.com address=44.218.183.127 }
 :if ([:len [find where list=$AddressList and address=44.218.30.37]] = 0) do={ add list=$AddressList comment=quora.com address=44.218.30.37 }
 :if ([:len [find where list=$AddressList and address=44.218.55.174]] = 0) do={ add list=$AddressList comment=quora.com address=44.218.55.174 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.44.160.27]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.160.27 }
 :if ([:len [find where list=$AddressList and address=52.44.167.156]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.167.156 }
 :if ([:len [find where list=$AddressList and address=52.44.222.120]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.222.120 }
-:if ([:len [find where list=$AddressList and address=52.44.248.163]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.248.163 }
-:if ([:len [find where list=$AddressList and address=52.44.41.82]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.41.82 }
-:if ([:len [find where list=$AddressList and address=52.44.44.132]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.44.132 }
-:if ([:len [find where list=$AddressList and address=52.44.76.199]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.76.199 }
-:if ([:len [find where list=$AddressList and address=52.44.8.209]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.8.209 }
-:if ([:len [find where list=$AddressList and address=52.45.104.225]] = 0) do={ add list=$AddressList comment=quora.com address=52.45.104.225 }
-:if ([:len [find where list=$AddressList and address=52.45.120.57]] = 0) do={ add list=$AddressList comment=quora.com address=52.45.120.57 }
-:if ([:len [find where list=$AddressList and address=52.45.197.16]] = 0) do={ add list=$AddressList comment=quora.com address=52.45.197.16 }

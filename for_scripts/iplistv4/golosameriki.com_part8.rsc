@@ -1,6 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=2.22.225.130]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.22.225.130 }
+:if ([:len [find where list=$AddressList and address=2.22.225.27]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.22.225.27 }
+:if ([:len [find where list=$AddressList and address=2.22.225.64]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.22.225.64 }
+:if ([:len [find where list=$AddressList and address=2.22.225.73]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.22.225.73 }
+:if ([:len [find where list=$AddressList and address=2.22.228.162]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.22.228.162 }
 :if ([:len [find where list=$AddressList and address=2.22.228.186]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.22.228.186 }
+:if ([:len [find where list=$AddressList and address=2.22.228.203]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.22.228.203 }
 :if ([:len [find where list=$AddressList and address=2.22.228.209]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.22.228.209 }
 :if ([:len [find where list=$AddressList and address=2.22.228.224]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.22.228.224 }
 :if ([:len [find where list=$AddressList and address=2.22.231.141]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.22.231.141 }
@@ -65,6 +71,7 @@
 :if ([:len [find where list=$AddressList and address=2.23.13.158]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.23.13.158 }
 :if ([:len [find where list=$AddressList and address=2.23.13.167]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.23.13.167 }
 :if ([:len [find where list=$AddressList and address=2.23.155.8]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.23.155.8 }
+:if ([:len [find where list=$AddressList and address=2.23.172.185]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.23.172.185 }
 :if ([:len [find where list=$AddressList and address=2.23.172.34]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.23.172.34 }
 :if ([:len [find where list=$AddressList and address=2.23.172.35]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.23.172.35 }
 :if ([:len [find where list=$AddressList and address=2.23.172.40]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.23.172.40 }
@@ -173,10 +180,3 @@
 :if ([:len [find where list=$AddressList and address=23.199.232.68]] = 0) do={ add list=$AddressList comment=golosameriki.com address=23.199.232.68 }
 :if ([:len [find where list=$AddressList and address=23.199.232.83]] = 0) do={ add list=$AddressList comment=golosameriki.com address=23.199.232.83 }
 :if ([:len [find where list=$AddressList and address=23.199.47.83]] = 0) do={ add list=$AddressList comment=golosameriki.com address=23.199.47.83 }
-:if ([:len [find where list=$AddressList and address=23.199.47.84]] = 0) do={ add list=$AddressList comment=golosameriki.com address=23.199.47.84 }
-:if ([:len [find where list=$AddressList and address=23.199.47.85]] = 0) do={ add list=$AddressList comment=golosameriki.com address=23.199.47.85 }
-:if ([:len [find where list=$AddressList and address=23.199.47.90]] = 0) do={ add list=$AddressList comment=golosameriki.com address=23.199.47.90 }
-:if ([:len [find where list=$AddressList and address=23.199.56.153]] = 0) do={ add list=$AddressList comment=golosameriki.com address=23.199.56.153 }
-:if ([:len [find where list=$AddressList and address=23.199.56.172]] = 0) do={ add list=$AddressList comment=golosameriki.com address=23.199.56.172 }
-:if ([:len [find where list=$AddressList and address=23.199.75.114]] = 0) do={ add list=$AddressList comment=golosameriki.com address=23.199.75.114 }
-:if ([:len [find where list=$AddressList and address=23.199.75.145]] = 0) do={ add list=$AddressList comment=golosameriki.com address=23.199.75.145 }

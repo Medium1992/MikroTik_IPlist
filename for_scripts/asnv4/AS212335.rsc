@@ -42,6 +42,7 @@
 :if ([:len [find where list=$AddressList and address=2.58.233.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=2.58.233.0/24 }
 :if ([:len [find where list=$AddressList and address=216.151.162.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=216.151.162.0/24 }
 :if ([:len [find where list=$AddressList and address=216.177.133.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=216.177.133.0/24 }
+:if ([:len [find where list=$AddressList and address=217.216.200.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=217.216.200.0/24 }
 :if ([:len [find where list=$AddressList and address=31.57.110.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=31.57.110.0/24 }
 :if ([:len [find where list=$AddressList and address=31.57.181.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=31.57.181.0/24 }
 :if ([:len [find where list=$AddressList and address=31.57.252.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=31.57.252.0/24 }
@@ -61,6 +62,7 @@
 :if ([:len [find where list=$AddressList and address=67.227.22.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=67.227.22.0/24 }
 :if ([:len [find where list=$AddressList and address=72.14.139.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=72.14.139.0/24 }
 :if ([:len [find where list=$AddressList and address=79.110.238.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=79.110.238.0/24 }
+:if ([:len [find where list=$AddressList and address=82.108.124.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=82.108.124.0/24 }
 :if ([:len [find where list=$AddressList and address=82.24.192.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=82.24.192.0/24 }
 :if ([:len [find where list=$AddressList and address=84.32.82.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=84.32.82.0/24 }
 :if ([:len [find where list=$AddressList and address=85.208.47.0/24]] = 0) do={ add list=$AddressList comment=AS212335 address=85.208.47.0/24 }

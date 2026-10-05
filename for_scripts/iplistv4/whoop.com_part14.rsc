@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=2.21.96.35]] = 0) do={ add list=$AddressList comment=whoop.com address=2.21.96.35 }
+:if ([:len [find where list=$AddressList and address=2.22.145.21]] = 0) do={ add list=$AddressList comment=whoop.com address=2.22.145.21 }
+:if ([:len [find where list=$AddressList and address=2.22.145.32]] = 0) do={ add list=$AddressList comment=whoop.com address=2.22.145.32 }
+:if ([:len [find where list=$AddressList and address=2.22.145.6]] = 0) do={ add list=$AddressList comment=whoop.com address=2.22.145.6 }
 :if ([:len [find where list=$AddressList and address=2.22.145.75]] = 0) do={ add list=$AddressList comment=whoop.com address=2.22.145.75 }
 :if ([:len [find where list=$AddressList and address=2.22.145.77]] = 0) do={ add list=$AddressList comment=whoop.com address=2.22.145.77 }
 :if ([:len [find where list=$AddressList and address=2.22.151.16]] = 0) do={ add list=$AddressList comment=whoop.com address=2.22.151.16 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=23.192.118.29]] = 0) do={ add list=$AddressList comment=whoop.com address=23.192.118.29 }
 :if ([:len [find where list=$AddressList and address=23.192.36.42]] = 0) do={ add list=$AddressList comment=whoop.com address=23.192.36.42 }
 :if ([:len [find where list=$AddressList and address=23.192.36.44]] = 0) do={ add list=$AddressList comment=whoop.com address=23.192.36.44 }
-:if ([:len [find where list=$AddressList and address=23.192.36.45]] = 0) do={ add list=$AddressList comment=whoop.com address=23.192.36.45 }
-:if ([:len [find where list=$AddressList and address=23.193.97.48]] = 0) do={ add list=$AddressList comment=whoop.com address=23.193.97.48 }
-:if ([:len [find where list=$AddressList and address=23.193.97.51]] = 0) do={ add list=$AddressList comment=whoop.com address=23.193.97.51 }
-:if ([:len [find where list=$AddressList and address=23.194.127.132]] = 0) do={ add list=$AddressList comment=whoop.com address=23.194.127.132 }

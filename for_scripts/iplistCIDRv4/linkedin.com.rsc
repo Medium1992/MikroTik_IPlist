@@ -96,7 +96,8 @@
 :if ([:len [find where list=$AddressList and address=23.196.0.0/16]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.196.0.0/16 }
 :if ([:len [find where list=$AddressList and address=23.200.0.0/14]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.200.0.0/14 }
 :if ([:len [find where list=$AddressList and address=23.206.0.0/16]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.206.0.0/16 }
-:if ([:len [find where list=$AddressList and address=23.211.0.0/16]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.211.0.0/16 }
+:if ([:len [find where list=$AddressList and address=23.210.0.0/15]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.210.0.0/15 }
+:if ([:len [find where list=$AddressList and address=23.213.0.0/16]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.213.0.0/16 }
 :if ([:len [find where list=$AddressList and address=23.214.0.0/15]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.214.0.0/15 }
 :if ([:len [find where list=$AddressList and address=23.216.0.0/16]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.216.0.0/16 }
 :if ([:len [find where list=$AddressList and address=23.218.0.0/16]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.218.0.0/16 }
@@ -115,6 +116,7 @@
 :if ([:len [find where list=$AddressList and address=23.55.0.0/16]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.55.0.0/16 }
 :if ([:len [find where list=$AddressList and address=23.61.0.0/16]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.61.0.0/16 }
 :if ([:len [find where list=$AddressList and address=23.64.0.0/16]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.64.0.0/16 }
+:if ([:len [find where list=$AddressList and address=23.65.29.169/32]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.65.29.169/32 }
 :if ([:len [find where list=$AddressList and address=23.72.0.0/15]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.72.0.0/15 }
 :if ([:len [find where list=$AddressList and address=23.75.0.0/16]] = 0) do={ add list=$AddressList comment=linkedin.com address=23.75.0.0/16 }
 :if ([:len [find where list=$AddressList and address=40.64.0.0/13]] = 0) do={ add list=$AddressList comment=linkedin.com address=40.64.0.0/13 }

@@ -21,6 +21,7 @@
 :if ([:len [find where list=$AddressList and address=155.117.251.0/24]] = 0) do={ add list=$AddressList comment=AS42960 address=155.117.251.0/24 }
 :if ([:len [find where list=$AddressList and address=163.5.175.0/24]] = 0) do={ add list=$AddressList comment=AS42960 address=163.5.175.0/24 }
 :if ([:len [find where list=$AddressList and address=163.5.58.0/24]] = 0) do={ add list=$AddressList comment=AS42960 address=163.5.58.0/24 }
+:if ([:len [find where list=$AddressList and address=163.52.242.0/23]] = 0) do={ add list=$AddressList comment=AS42960 address=163.52.242.0/23 }
 :if ([:len [find where list=$AddressList and address=193.200.130.0/24]] = 0) do={ add list=$AddressList comment=AS42960 address=193.200.130.0/24 }
 :if ([:len [find where list=$AddressList and address=193.200.134.0/24]] = 0) do={ add list=$AddressList comment=AS42960 address=193.200.134.0/24 }
 :if ([:len [find where list=$AddressList and address=195.21.155.0/24]] = 0) do={ add list=$AddressList comment=AS42960 address=195.21.155.0/24 }
@@ -37,6 +38,7 @@
 :if ([:len [find where list=$AddressList and address=38.55.98.0/23]] = 0) do={ add list=$AddressList comment=AS42960 address=38.55.98.0/23 }
 :if ([:len [find where list=$AddressList and address=39.109.100.0/22]] = 0) do={ add list=$AddressList comment=AS42960 address=39.109.100.0/22 }
 :if ([:len [find where list=$AddressList and address=39.109.108.0/22]] = 0) do={ add list=$AddressList comment=AS42960 address=39.109.108.0/22 }
+:if ([:len [find where list=$AddressList and address=39.109.56.0/21]] = 0) do={ add list=$AddressList comment=AS42960 address=39.109.56.0/21 }
 :if ([:len [find where list=$AddressList and address=43.247.134.0/23]] = 0) do={ add list=$AddressList comment=AS42960 address=43.247.134.0/23 }
 :if ([:len [find where list=$AddressList and address=43.248.10.0/23]] = 0) do={ add list=$AddressList comment=AS42960 address=43.248.10.0/23 }
 :if ([:len [find where list=$AddressList and address=43.248.9.0/24]] = 0) do={ add list=$AddressList comment=AS42960 address=43.248.9.0/24 }

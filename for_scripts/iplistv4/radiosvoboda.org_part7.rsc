@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=2.16.183.23]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.16.183.23 }
+:if ([:len [find where list=$AddressList and address=2.16.183.68]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.16.183.68 }
+:if ([:len [find where list=$AddressList and address=2.16.183.99]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.16.183.99 }
+:if ([:len [find where list=$AddressList and address=2.16.19.10]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.16.19.10 }
 :if ([:len [find where list=$AddressList and address=2.16.19.113]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.16.19.113 }
 :if ([:len [find where list=$AddressList and address=2.16.19.130]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.16.19.130 }
 :if ([:len [find where list=$AddressList and address=2.16.19.131]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.16.19.131 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.19.183.57]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.19.183.57 }
 :if ([:len [find where list=$AddressList and address=2.19.183.58]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.19.183.58 }
 :if ([:len [find where list=$AddressList and address=2.19.183.59]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.19.183.59 }
-:if ([:len [find where list=$AddressList and address=2.19.183.60]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.19.183.60 }
-:if ([:len [find where list=$AddressList and address=2.19.183.61]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.19.183.61 }
-:if ([:len [find where list=$AddressList and address=2.19.183.65]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.19.183.65 }
-:if ([:len [find where list=$AddressList and address=2.19.183.66]] = 0) do={ add list=$AddressList comment=radiosvoboda.org address=2.19.183.66 }

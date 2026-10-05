@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=2.22.89.157]] = 0) do={ add list=$AddressList comment=svoboda.org address=2.22.89.157 }
+:if ([:len [find where list=$AddressList and address=2.22.89.160]] = 0) do={ add list=$AddressList comment=svoboda.org address=2.22.89.160 }
+:if ([:len [find where list=$AddressList and address=2.22.89.164]] = 0) do={ add list=$AddressList comment=svoboda.org address=2.22.89.164 }
+:if ([:len [find where list=$AddressList and address=2.22.89.172]] = 0) do={ add list=$AddressList comment=svoboda.org address=2.22.89.172 }
 :if ([:len [find where list=$AddressList and address=2.22.89.174]] = 0) do={ add list=$AddressList comment=svoboda.org address=2.22.89.174 }
 :if ([:len [find where list=$AddressList and address=2.22.89.179]] = 0) do={ add list=$AddressList comment=svoboda.org address=2.22.89.179 }
 :if ([:len [find where list=$AddressList and address=2.22.89.193]] = 0) do={ add list=$AddressList comment=svoboda.org address=2.22.89.193 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=23.211.18.47]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.211.18.47 }
 :if ([:len [find where list=$AddressList and address=23.212.0.104]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.212.0.104 }
 :if ([:len [find where list=$AddressList and address=23.212.0.115]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.212.0.115 }
-:if ([:len [find where list=$AddressList and address=23.212.0.232]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.212.0.232 }
-:if ([:len [find where list=$AddressList and address=23.212.0.243]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.212.0.243 }
-:if ([:len [find where list=$AddressList and address=23.212.110.105]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.212.110.105 }
-:if ([:len [find where list=$AddressList and address=23.212.110.113]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.212.110.113 }

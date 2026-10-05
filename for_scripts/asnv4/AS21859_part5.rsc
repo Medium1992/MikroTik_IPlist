@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=69.28.56.0/21]] = 0) do={ add list=$AddressList comment=AS21859 address=69.28.56.0/21 }
+:if ([:len [find where list=$AddressList and address=69.33.118.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=69.33.118.0/24 }
+:if ([:len [find where list=$AddressList and address=69.33.180.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=69.33.180.0/24 }
+:if ([:len [find where list=$AddressList and address=77.111.108.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=77.111.108.0/24 }
 :if ([:len [find where list=$AddressList and address=77.67.17.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=77.67.17.0/24 }
 :if ([:len [find where list=$AddressList and address=77.75.194.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=77.75.194.0/24 }
 :if ([:len [find where list=$AddressList and address=8.23.192.0/23]] = 0) do={ add list=$AddressList comment=AS21859 address=8.23.192.0/23 }
@@ -28,6 +32,7 @@
 :if ([:len [find where list=$AddressList and address=82.39.208.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=82.39.208.0/24 }
 :if ([:len [find where list=$AddressList and address=82.40.48.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=82.40.48.0/24 }
 :if ([:len [find where list=$AddressList and address=82.40.59.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=82.40.59.0/24 }
+:if ([:len [find where list=$AddressList and address=82.41.130.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=82.41.130.0/24 }
 :if ([:len [find where list=$AddressList and address=82.41.99.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=82.41.99.0/24 }
 :if ([:len [find where list=$AddressList and address=82.47.187.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=82.47.187.0/24 }
 :if ([:len [find where list=$AddressList and address=82.47.29.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=82.47.29.0/24 }

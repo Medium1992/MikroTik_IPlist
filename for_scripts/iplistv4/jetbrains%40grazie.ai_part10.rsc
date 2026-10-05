@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=99.86.171.6]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=99.86.171.6 }
 :if ([:len [find where list=$AddressList and address=99.86.240.112]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=99.86.240.112 }
 :if ([:len [find where list=$AddressList and address=99.86.240.31]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=99.86.240.31 }
 :if ([:len [find where list=$AddressList and address=99.86.240.89]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=99.86.240.89 }

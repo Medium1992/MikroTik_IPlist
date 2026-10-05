@@ -6,13 +6,7 @@
 :if ([:len [find where list=$AddressList and address=207.190.48.0/20]] = 0) do={ add list=$AddressList comment=AS11749 address=207.190.48.0/20 }
 :if ([:len [find where list=$AddressList and address=208.115.66.0/24]] = 0) do={ add list=$AddressList comment=AS11749 address=208.115.66.0/24 }
 :if ([:len [find where list=$AddressList and address=216.230.32.0/20]] = 0) do={ add list=$AddressList comment=AS11749 address=216.230.32.0/20 }
-:if ([:len [find where list=$AddressList and address=216.53.128.0/22]] = 0) do={ add list=$AddressList comment=AS11749 address=216.53.128.0/22 }
-:if ([:len [find where list=$AddressList and address=216.53.133.0/24]] = 0) do={ add list=$AddressList comment=AS11749 address=216.53.133.0/24 }
-:if ([:len [find where list=$AddressList and address=216.53.134.0/23]] = 0) do={ add list=$AddressList comment=AS11749 address=216.53.134.0/23 }
-:if ([:len [find where list=$AddressList and address=216.53.136.0/21]] = 0) do={ add list=$AddressList comment=AS11749 address=216.53.136.0/21 }
-:if ([:len [find where list=$AddressList and address=216.53.144.0/20]] = 0) do={ add list=$AddressList comment=AS11749 address=216.53.144.0/20 }
-:if ([:len [find where list=$AddressList and address=216.53.160.0/19]] = 0) do={ add list=$AddressList comment=AS11749 address=216.53.160.0/19 }
-:if ([:len [find where list=$AddressList and address=216.53.192.0/18]] = 0) do={ add list=$AddressList comment=AS11749 address=216.53.192.0/18 }
+:if ([:len [find where list=$AddressList and address=216.53.128.0/17]] = 0) do={ add list=$AddressList comment=AS11749 address=216.53.128.0/17 }
 :if ([:len [find where list=$AddressList and address=216.97.192.0/20]] = 0) do={ add list=$AddressList comment=AS11749 address=216.97.192.0/20 }
 :if ([:len [find where list=$AddressList and address=216.97.208.0/22]] = 0) do={ add list=$AddressList comment=AS11749 address=216.97.208.0/22 }
 :if ([:len [find where list=$AddressList and address=216.97.212.0/23]] = 0) do={ add list=$AddressList comment=AS11749 address=216.97.212.0/23 }

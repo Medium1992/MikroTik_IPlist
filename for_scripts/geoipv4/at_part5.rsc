@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=160.25.105.101/32]] = 0) do={ add list=$AddressList comment=at address=160.25.105.101/32 }
-:if ([:len [find where list=$AddressList and address=161.110.0.0/16]] = 0) do={ add list=$AddressList comment=at address=161.110.0.0/16 }
-:if ([:len [find where list=$AddressList and address=161.123.210.0/24]] = 0) do={ add list=$AddressList comment=at address=161.123.210.0/24 }
-:if ([:len [find where list=$AddressList and address=161.5.0.0/16]] = 0) do={ add list=$AddressList comment=at address=161.5.0.0/16 }
 :if ([:len [find where list=$AddressList and address=162.10.213.0/24]] = 0) do={ add list=$AddressList comment=at address=162.10.213.0/24 }
 :if ([:len [find where list=$AddressList and address=162.120.187.100/32]] = 0) do={ add list=$AddressList comment=at address=162.120.187.100/32 }
 :if ([:len [find where list=$AddressList and address=162.120.187.228/32]] = 0) do={ add list=$AddressList comment=at address=162.120.187.228/32 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=176.118.193.0/24]] = 0) do={ add list=$AddressList comment=at address=176.118.193.0/24 }
 :if ([:len [find where list=$AddressList and address=176.120.160.0/21]] = 0) do={ add list=$AddressList comment=at address=176.120.160.0/21 }
 :if ([:len [find where list=$AddressList and address=176.121.56.0/22]] = 0) do={ add list=$AddressList comment=at address=176.121.56.0/22 }
+:if ([:len [find where list=$AddressList and address=176.123.54.0/23]] = 0) do={ add list=$AddressList comment=at address=176.123.54.0/23 }
+:if ([:len [find where list=$AddressList and address=176.126.39.0/24]] = 0) do={ add list=$AddressList comment=at address=176.126.39.0/24 }
+:if ([:len [find where list=$AddressList and address=176.61.160.0/19]] = 0) do={ add list=$AddressList comment=at address=176.61.160.0/19 }
+:if ([:len [find where list=$AddressList and address=176.66.0.0/16]] = 0) do={ add list=$AddressList comment=at address=176.66.0.0/16 }

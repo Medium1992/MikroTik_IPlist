@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=telegram.org address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.6]] = 0) do={ add list=$AddressList comment=telegram.org address=8.47.69.6 }
+:if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=telegram.org address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.6]] = 0) do={ add list=$AddressList comment=telegram.org address=8.6.112.6 }
+:if ([:len [find where list=$AddressList and address=92.204.210.166]] = 0) do={ add list=$AddressList comment=telegram.org address=92.204.210.166 }
 :if ([:len [find where list=$AddressList and address=95.161.64.10]] = 0) do={ add list=$AddressList comment=telegram.org address=95.161.64.10 }
 :if ([:len [find where list=$AddressList and address=95.161.64.100]] = 0) do={ add list=$AddressList comment=telegram.org address=95.161.64.100 }
 :if ([:len [find where list=$AddressList and address=95.161.64.16]] = 0) do={ add list=$AddressList comment=telegram.org address=95.161.64.16 }

@@ -47,6 +47,7 @@
 :if ([:len [find where list=$AddressList and address=3.171.85.32]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.171.85.32 }
 :if ([:len [find where list=$AddressList and address=3.171.85.85]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.171.85.85 }
 :if ([:len [find where list=$AddressList and address=3.171.85.87]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.171.85.87 }
+:if ([:len [find where list=$AddressList and address=3.173.0.4]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.173.0.4 }
 :if ([:len [find where list=$AddressList and address=3.173.182.106]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.173.182.106 }
 :if ([:len [find where list=$AddressList and address=3.173.182.125]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.173.182.125 }
 :if ([:len [find where list=$AddressList and address=3.173.182.72]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.173.182.72 }
@@ -179,4 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.85.49.76]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.49.76 }
 :if ([:len [find where list=$AddressList and address=52.85.49.78]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.49.78 }
 :if ([:len [find where list=$AddressList and address=52.85.49.82]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.49.82 }
-:if ([:len [find where list=$AddressList and address=52.85.49.95]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.49.95 }

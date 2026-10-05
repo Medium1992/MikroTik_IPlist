@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=96.225.64.16/28]] = 0) do={ add list=$AddressList comment=AS701 address=96.225.64.16/28 }
+:if ([:len [find where list=$AddressList and address=96.225.64.32/27]] = 0) do={ add list=$AddressList comment=AS701 address=96.225.64.32/27 }
+:if ([:len [find where list=$AddressList and address=96.225.64.64/26]] = 0) do={ add list=$AddressList comment=AS701 address=96.225.64.64/26 }
+:if ([:len [find where list=$AddressList and address=96.225.64.9/32]] = 0) do={ add list=$AddressList comment=AS701 address=96.225.64.9/32 }
 :if ([:len [find where list=$AddressList and address=96.225.65.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=96.225.65.0/24 }
 :if ([:len [find where list=$AddressList and address=96.225.66.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=96.225.66.0/24 }
 :if ([:len [find where list=$AddressList and address=96.225.67.0/25]] = 0) do={ add list=$AddressList comment=AS701 address=96.225.67.0/25 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=96.231.59.32/28]] = 0) do={ add list=$AddressList comment=AS701 address=96.231.59.32/28 }
 :if ([:len [find where list=$AddressList and address=96.231.59.48/30]] = 0) do={ add list=$AddressList comment=AS701 address=96.231.59.48/30 }
 :if ([:len [find where list=$AddressList and address=96.231.59.52/31]] = 0) do={ add list=$AddressList comment=AS701 address=96.231.59.52/31 }
-:if ([:len [find where list=$AddressList and address=96.231.59.54/32]] = 0) do={ add list=$AddressList comment=AS701 address=96.231.59.54/32 }
-:if ([:len [find where list=$AddressList and address=96.231.59.56/29]] = 0) do={ add list=$AddressList comment=AS701 address=96.231.59.56/29 }
-:if ([:len [find where list=$AddressList and address=96.231.59.64/26]] = 0) do={ add list=$AddressList comment=AS701 address=96.231.59.64/26 }
-:if ([:len [find where list=$AddressList and address=96.231.60.0/22]] = 0) do={ add list=$AddressList comment=AS701 address=96.231.60.0/22 }

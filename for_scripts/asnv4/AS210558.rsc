@@ -2,6 +2,7 @@
 /ip firewall address-list
 :if ([:len [find where list=$AddressList and address=124.198.131.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=124.198.131.0/24 }
 :if ([:len [find where list=$AddressList and address=124.198.132.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=124.198.132.0/24 }
+:if ([:len [find where list=$AddressList and address=13.143.144.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=13.143.144.0/24 }
 :if ([:len [find where list=$AddressList and address=13.143.247.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=13.143.247.0/24 }
 :if ([:len [find where list=$AddressList and address=147.90.182.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=147.90.182.0/24 }
 :if ([:len [find where list=$AddressList and address=158.173.51.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=158.173.51.0/24 }
@@ -19,8 +20,6 @@
 :if ([:len [find where list=$AddressList and address=45.154.98.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=45.154.98.0/24 }
 :if ([:len [find where list=$AddressList and address=45.80.158.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=45.80.158.0/24 }
 :if ([:len [find where list=$AddressList and address=45.83.28.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=45.83.28.0/24 }
-:if ([:len [find where list=$AddressList and address=45.83.31.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=45.83.31.0/24 }
-:if ([:len [find where list=$AddressList and address=45.88.186.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=45.88.186.0/24 }
 :if ([:len [find where list=$AddressList and address=45.92.1.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=45.92.1.0/24 }
 :if ([:len [find where list=$AddressList and address=45.94.31.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=45.94.31.0/24 }
 :if ([:len [find where list=$AddressList and address=84.54.33.0/24]] = 0) do={ add list=$AddressList comment=AS210558 address=84.54.33.0/24 }

@@ -1,13 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=100.49.215.246]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.215.246 }
 :if ([:len [find where list=$AddressList and address=100.49.223.150]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.223.150 }
 :if ([:len [find where list=$AddressList and address=100.49.226.249]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.226.249 }
+:if ([:len [find where list=$AddressList and address=100.49.235.142]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.235.142 }
 :if ([:len [find where list=$AddressList and address=100.49.236.127]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.236.127 }
 :if ([:len [find where list=$AddressList and address=100.49.236.27]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.236.27 }
 :if ([:len [find where list=$AddressList and address=100.49.24.137]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.24.137 }
 :if ([:len [find where list=$AddressList and address=100.49.24.71]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.24.71 }
 :if ([:len [find where list=$AddressList and address=100.49.251.190]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.251.190 }
 :if ([:len [find where list=$AddressList and address=100.49.28.218]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.28.218 }
+:if ([:len [find where list=$AddressList and address=100.49.33.2]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.33.2 }
 :if ([:len [find where list=$AddressList and address=100.49.36.226]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.36.226 }
 :if ([:len [find where list=$AddressList and address=100.49.36.254]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.36.254 }
 :if ([:len [find where list=$AddressList and address=100.49.38.242]] = 0) do={ add list=$AddressList comment=viber.com address=100.49.38.242 }
@@ -50,8 +53,10 @@
 :if ([:len [find where list=$AddressList and address=100.50.47.145]] = 0) do={ add list=$AddressList comment=viber.com address=100.50.47.145 }
 :if ([:len [find where list=$AddressList and address=100.50.48.12]] = 0) do={ add list=$AddressList comment=viber.com address=100.50.48.12 }
 :if ([:len [find where list=$AddressList and address=100.50.49.56]] = 0) do={ add list=$AddressList comment=viber.com address=100.50.49.56 }
+:if ([:len [find where list=$AddressList and address=100.50.54.120]] = 0) do={ add list=$AddressList comment=viber.com address=100.50.54.120 }
 :if ([:len [find where list=$AddressList and address=100.50.64.233]] = 0) do={ add list=$AddressList comment=viber.com address=100.50.64.233 }
 :if ([:len [find where list=$AddressList and address=100.50.66.89]] = 0) do={ add list=$AddressList comment=viber.com address=100.50.66.89 }
+:if ([:len [find where list=$AddressList and address=100.50.73.169]] = 0) do={ add list=$AddressList comment=viber.com address=100.50.73.169 }
 :if ([:len [find where list=$AddressList and address=100.50.86.247]] = 0) do={ add list=$AddressList comment=viber.com address=100.50.86.247 }
 :if ([:len [find where list=$AddressList and address=100.50.87.146]] = 0) do={ add list=$AddressList comment=viber.com address=100.50.87.146 }
 :if ([:len [find where list=$AddressList and address=100.50.97.151]] = 0) do={ add list=$AddressList comment=viber.com address=100.50.97.151 }
@@ -98,6 +103,7 @@
 :if ([:len [find where list=$AddressList and address=100.51.70.14]] = 0) do={ add list=$AddressList comment=viber.com address=100.51.70.14 }
 :if ([:len [find where list=$AddressList and address=100.51.75.202]] = 0) do={ add list=$AddressList comment=viber.com address=100.51.75.202 }
 :if ([:len [find where list=$AddressList and address=100.51.77.199]] = 0) do={ add list=$AddressList comment=viber.com address=100.51.77.199 }
+:if ([:len [find where list=$AddressList and address=100.52.0.55]] = 0) do={ add list=$AddressList comment=viber.com address=100.52.0.55 }
 :if ([:len [find where list=$AddressList and address=100.52.103.18]] = 0) do={ add list=$AddressList comment=viber.com address=100.52.103.18 }
 :if ([:len [find where list=$AddressList and address=100.52.104.29]] = 0) do={ add list=$AddressList comment=viber.com address=100.52.104.29 }
 :if ([:len [find where list=$AddressList and address=100.52.107.103]] = 0) do={ add list=$AddressList comment=viber.com address=100.52.107.103 }
@@ -174,9 +180,3 @@
 :if ([:len [find where list=$AddressList and address=100.59.83.75]] = 0) do={ add list=$AddressList comment=viber.com address=100.59.83.75 }
 :if ([:len [find where list=$AddressList and address=100.59.87.176]] = 0) do={ add list=$AddressList comment=viber.com address=100.59.87.176 }
 :if ([:len [find where list=$AddressList and address=100.59.95.241]] = 0) do={ add list=$AddressList comment=viber.com address=100.59.95.241 }
-:if ([:len [find where list=$AddressList and address=100.60.101.83]] = 0) do={ add list=$AddressList comment=viber.com address=100.60.101.83 }
-:if ([:len [find where list=$AddressList and address=100.60.114.227]] = 0) do={ add list=$AddressList comment=viber.com address=100.60.114.227 }
-:if ([:len [find where list=$AddressList and address=100.60.156.14]] = 0) do={ add list=$AddressList comment=viber.com address=100.60.156.14 }
-:if ([:len [find where list=$AddressList and address=100.60.170.65]] = 0) do={ add list=$AddressList comment=viber.com address=100.60.170.65 }
-:if ([:len [find where list=$AddressList and address=100.60.180.184]] = 0) do={ add list=$AddressList comment=viber.com address=100.60.180.184 }
-:if ([:len [find where list=$AddressList and address=100.60.20.114]] = 0) do={ add list=$AddressList comment=viber.com address=100.60.20.114 }

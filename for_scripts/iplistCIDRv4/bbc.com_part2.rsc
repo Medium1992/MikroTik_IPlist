@@ -5,6 +5,7 @@
 :if ([:len [find where list=$AddressList and address=23.202.0.0/15]] = 0) do={ add list=$AddressList comment=bbc.com address=23.202.0.0/15 }
 :if ([:len [find where list=$AddressList and address=23.204.0.0/15]] = 0) do={ add list=$AddressList comment=bbc.com address=23.204.0.0/15 }
 :if ([:len [find where list=$AddressList and address=23.206.0.0/16]] = 0) do={ add list=$AddressList comment=bbc.com address=23.206.0.0/16 }
+:if ([:len [find where list=$AddressList and address=23.207.16.235/32]] = 0) do={ add list=$AddressList comment=bbc.com address=23.207.16.235/32 }
 :if ([:len [find where list=$AddressList and address=23.207.204.26/32]] = 0) do={ add list=$AddressList comment=bbc.com address=23.207.204.26/32 }
 :if ([:len [find where list=$AddressList and address=23.207.64.172/32]] = 0) do={ add list=$AddressList comment=bbc.com address=23.207.64.172/32 }
 :if ([:len [find where list=$AddressList and address=23.209.0.0/16]] = 0) do={ add list=$AddressList comment=bbc.com address=23.209.0.0/16 }
@@ -88,6 +89,7 @@
 :if ([:len [find where list=$AddressList and address=46.137.28.25/32]] = 0) do={ add list=$AddressList comment=bbc.com address=46.137.28.25/32 }
 :if ([:len [find where list=$AddressList and address=46.137.37.158/32]] = 0) do={ add list=$AddressList comment=bbc.com address=46.137.37.158/32 }
 :if ([:len [find where list=$AddressList and address=46.137.39.31/32]] = 0) do={ add list=$AddressList comment=bbc.com address=46.137.39.31/32 }
+:if ([:len [find where list=$AddressList and address=46.137.40.218/32]] = 0) do={ add list=$AddressList comment=bbc.com address=46.137.40.218/32 }
 :if ([:len [find where list=$AddressList and address=46.137.53.161/32]] = 0) do={ add list=$AddressList comment=bbc.com address=46.137.53.161/32 }
 :if ([:len [find where list=$AddressList and address=46.137.58.155/32]] = 0) do={ add list=$AddressList comment=bbc.com address=46.137.58.155/32 }
 :if ([:len [find where list=$AddressList and address=46.137.60.100/32]] = 0) do={ add list=$AddressList comment=bbc.com address=46.137.60.100/32 }

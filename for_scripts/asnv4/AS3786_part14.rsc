@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=61.34.167.0/24]] = 0) do={ add list=$AddressList comment=AS3786 address=61.34.167.0/24 }
-:if ([:len [find where list=$AddressList and address=61.34.168.0/21]] = 0) do={ add list=$AddressList comment=AS3786 address=61.34.168.0/21 }
-:if ([:len [find where list=$AddressList and address=61.34.176.0/21]] = 0) do={ add list=$AddressList comment=AS3786 address=61.34.176.0/21 }
-:if ([:len [find where list=$AddressList and address=61.34.184.0/22]] = 0) do={ add list=$AddressList comment=AS3786 address=61.34.184.0/22 }
 :if ([:len [find where list=$AddressList and address=61.34.188.0/24]] = 0) do={ add list=$AddressList comment=AS3786 address=61.34.188.0/24 }
 :if ([:len [find where list=$AddressList and address=61.34.190.0/23]] = 0) do={ add list=$AddressList comment=AS3786 address=61.34.190.0/23 }
 :if ([:len [find where list=$AddressList and address=61.34.192.0/19]] = 0) do={ add list=$AddressList comment=AS3786 address=61.34.192.0/19 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=61.41.196.0/24]] = 0) do={ add list=$AddressList comment=AS3786 address=61.41.196.0/24 }
 :if ([:len [find where list=$AddressList and address=61.41.198.0/23]] = 0) do={ add list=$AddressList comment=AS3786 address=61.41.198.0/23 }
 :if ([:len [find where list=$AddressList and address=61.41.20.0/22]] = 0) do={ add list=$AddressList comment=AS3786 address=61.41.20.0/22 }
+:if ([:len [find where list=$AddressList and address=61.41.200.0/22]] = 0) do={ add list=$AddressList comment=AS3786 address=61.41.200.0/22 }
+:if ([:len [find where list=$AddressList and address=61.41.204.0/23]] = 0) do={ add list=$AddressList comment=AS3786 address=61.41.204.0/23 }
+:if ([:len [find where list=$AddressList and address=61.41.209.0/24]] = 0) do={ add list=$AddressList comment=AS3786 address=61.41.209.0/24 }
+:if ([:len [find where list=$AddressList and address=61.41.210.0/23]] = 0) do={ add list=$AddressList comment=AS3786 address=61.41.210.0/23 }

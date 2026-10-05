@@ -35,7 +35,6 @@
 :if ([:len [find where list=$AddressList and address=156.236.248.0/22]] = 0) do={ add list=$AddressList comment=AS54600 address=156.236.248.0/22 }
 :if ([:len [find where list=$AddressList and address=156.236.252.0/23]] = 0) do={ add list=$AddressList comment=AS54600 address=156.236.252.0/23 }
 :if ([:len [find where list=$AddressList and address=156.236.254.0/24]] = 0) do={ add list=$AddressList comment=AS54600 address=156.236.254.0/24 }
-:if ([:len [find where list=$AddressList and address=156.245.64.0/20]] = 0) do={ add list=$AddressList comment=AS54600 address=156.245.64.0/20 }
 :if ([:len [find where list=$AddressList and address=192.74.224.0/19]] = 0) do={ add list=$AddressList comment=AS54600 address=192.74.224.0/19 }
 :if ([:len [find where list=$AddressList and address=198.151.138.0/24]] = 0) do={ add list=$AddressList comment=AS54600 address=198.151.138.0/24 }
 :if ([:len [find where list=$AddressList and address=198.2.192.0/18]] = 0) do={ add list=$AddressList comment=AS54600 address=198.2.192.0/18 }
@@ -71,7 +70,6 @@
 :if ([:len [find where list=$AddressList and address=38.33.192.0/18]] = 0) do={ add list=$AddressList comment=AS54600 address=38.33.192.0/18 }
 :if ([:len [find where list=$AddressList and address=38.38.128.0/18]] = 0) do={ add list=$AddressList comment=AS54600 address=38.38.128.0/18 }
 :if ([:len [find where list=$AddressList and address=38.38.192.0/20]] = 0) do={ add list=$AddressList comment=AS54600 address=38.38.192.0/20 }
-:if ([:len [find where list=$AddressList and address=38.38.215.0/24]] = 0) do={ add list=$AddressList comment=AS54600 address=38.38.215.0/24 }
 :if ([:len [find where list=$AddressList and address=38.38.248.0/22]] = 0) do={ add list=$AddressList comment=AS54600 address=38.38.248.0/22 }
 :if ([:len [find where list=$AddressList and address=38.48.128.0/18]] = 0) do={ add list=$AddressList comment=AS54600 address=38.48.128.0/18 }
 :if ([:len [find where list=$AddressList and address=38.6.128.0/20]] = 0) do={ add list=$AddressList comment=AS54600 address=38.6.128.0/20 }

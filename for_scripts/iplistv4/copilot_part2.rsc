@@ -19,8 +19,10 @@
 :if ([:len [find where list=$AddressList and address=104.123.68.19]] = 0) do={ add list=$AddressList comment=copilot address=104.123.68.19 }
 :if ([:len [find where list=$AddressList and address=104.123.68.233]] = 0) do={ add list=$AddressList comment=copilot address=104.123.68.233 }
 :if ([:len [find where list=$AddressList and address=104.123.68.234]] = 0) do={ add list=$AddressList comment=copilot address=104.123.68.234 }
+:if ([:len [find where list=$AddressList and address=104.123.68.235]] = 0) do={ add list=$AddressList comment=copilot address=104.123.68.235 }
 :if ([:len [find where list=$AddressList and address=104.123.68.24]] = 0) do={ add list=$AddressList comment=copilot address=104.123.68.24 }
 :if ([:len [find where list=$AddressList and address=104.123.68.240]] = 0) do={ add list=$AddressList comment=copilot address=104.123.68.240 }
+:if ([:len [find where list=$AddressList and address=104.123.68.241]] = 0) do={ add list=$AddressList comment=copilot address=104.123.68.241 }
 :if ([:len [find where list=$AddressList and address=104.123.68.242]] = 0) do={ add list=$AddressList comment=copilot address=104.123.68.242 }
 :if ([:len [find where list=$AddressList and address=104.123.68.243]] = 0) do={ add list=$AddressList comment=copilot address=104.123.68.243 }
 :if ([:len [find where list=$AddressList and address=104.123.68.25]] = 0) do={ add list=$AddressList comment=copilot address=104.123.68.25 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=104.83.4.9]] = 0) do={ add list=$AddressList comment=copilot address=104.83.4.9 }
 :if ([:len [find where list=$AddressList and address=104.84.152.10]] = 0) do={ add list=$AddressList comment=copilot address=104.84.152.10 }
 :if ([:len [find where list=$AddressList and address=104.84.152.11]] = 0) do={ add list=$AddressList comment=copilot address=104.84.152.11 }
-:if ([:len [find where list=$AddressList and address=104.84.152.16]] = 0) do={ add list=$AddressList comment=copilot address=104.84.152.16 }
-:if ([:len [find where list=$AddressList and address=104.84.152.17]] = 0) do={ add list=$AddressList comment=copilot address=104.84.152.17 }

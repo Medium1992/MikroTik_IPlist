@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.61.32]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.32 }
+:if ([:len [find where list=$AddressList and address=18.165.61.4]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.4 }
+:if ([:len [find where list=$AddressList and address=18.165.61.53]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.53 }
+:if ([:len [find where list=$AddressList and address=18.165.61.71]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.71 }
+:if ([:len [find where list=$AddressList and address=18.165.61.78]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.78 }
+:if ([:len [find where list=$AddressList and address=18.165.61.95]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.95 }
+:if ([:len [find where list=$AddressList and address=18.165.61.97]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.61.97 }
+:if ([:len [find where list=$AddressList and address=18.165.72.102]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.102 }
+:if ([:len [find where list=$AddressList and address=18.165.72.118]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.118 }
+:if ([:len [find where list=$AddressList and address=18.165.72.120]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.120 }
+:if ([:len [find where list=$AddressList and address=18.165.72.19]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.19 }
 :if ([:len [find where list=$AddressList and address=18.165.72.20]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.20 }
 :if ([:len [find where list=$AddressList and address=18.165.72.29]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.29 }
 :if ([:len [find where list=$AddressList and address=18.165.72.49]] = 0) do={ add list=$AddressList comment=claude.ai address=18.165.72.49 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.215.105.129]] = 0) do={ add list=$AddressList comment=claude.ai address=18.215.105.129 }
 :if ([:len [find where list=$AddressList and address=18.215.138.47]] = 0) do={ add list=$AddressList comment=claude.ai address=18.215.138.47 }
 :if ([:len [find where list=$AddressList and address=18.215.50.124]] = 0) do={ add list=$AddressList comment=claude.ai address=18.215.50.124 }
-:if ([:len [find where list=$AddressList and address=18.215.80.194]] = 0) do={ add list=$AddressList comment=claude.ai address=18.215.80.194 }
-:if ([:len [find where list=$AddressList and address=18.232.202.105]] = 0) do={ add list=$AddressList comment=claude.ai address=18.232.202.105 }
-:if ([:len [find where list=$AddressList and address=18.232.215.151]] = 0) do={ add list=$AddressList comment=claude.ai address=18.232.215.151 }
-:if ([:len [find where list=$AddressList and address=18.232.246.224]] = 0) do={ add list=$AddressList comment=claude.ai address=18.232.246.224 }
-:if ([:len [find where list=$AddressList and address=18.233.136.37]] = 0) do={ add list=$AddressList comment=claude.ai address=18.233.136.37 }
-:if ([:len [find where list=$AddressList and address=18.233.183.226]] = 0) do={ add list=$AddressList comment=claude.ai address=18.233.183.226 }
-:if ([:len [find where list=$AddressList and address=18.233.211.209]] = 0) do={ add list=$AddressList comment=claude.ai address=18.233.211.209 }
-:if ([:len [find where list=$AddressList and address=18.233.216.191]] = 0) do={ add list=$AddressList comment=claude.ai address=18.233.216.191 }
-:if ([:len [find where list=$AddressList and address=18.233.47.218]] = 0) do={ add list=$AddressList comment=claude.ai address=18.233.47.218 }
-:if ([:len [find where list=$AddressList and address=18.233.55.92]] = 0) do={ add list=$AddressList comment=claude.ai address=18.233.55.92 }
-:if ([:len [find where list=$AddressList and address=18.234.16.51]] = 0) do={ add list=$AddressList comment=claude.ai address=18.234.16.51 }

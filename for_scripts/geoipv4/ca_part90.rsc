@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=72.2.0.0/18]] = 0) do={ add list=$AddressList comment=ca address=72.2.0.0/18 }
+:if ([:len [find where list=$AddressList and address=72.21.16.0/22]] = 0) do={ add list=$AddressList comment=ca address=72.21.16.0/22 }
+:if ([:len [find where list=$AddressList and address=72.249.192.0/23]] = 0) do={ add list=$AddressList comment=ca address=72.249.192.0/23 }
+:if ([:len [find where list=$AddressList and address=72.249.194.0/24]] = 0) do={ add list=$AddressList comment=ca address=72.249.194.0/24 }
+:if ([:len [find where list=$AddressList and address=72.249.195.0/25]] = 0) do={ add list=$AddressList comment=ca address=72.249.195.0/25 }
+:if ([:len [find where list=$AddressList and address=72.249.195.128/30]] = 0) do={ add list=$AddressList comment=ca address=72.249.195.128/30 }
+:if ([:len [find where list=$AddressList and address=72.249.195.136/30]] = 0) do={ add list=$AddressList comment=ca address=72.249.195.136/30 }
+:if ([:len [find where list=$AddressList and address=72.249.195.144/30]] = 0) do={ add list=$AddressList comment=ca address=72.249.195.144/30 }
+:if ([:len [find where list=$AddressList and address=72.249.195.152/30]] = 0) do={ add list=$AddressList comment=ca address=72.249.195.152/30 }
+:if ([:len [find where list=$AddressList and address=72.249.195.160/30]] = 0) do={ add list=$AddressList comment=ca address=72.249.195.160/30 }
+:if ([:len [find where list=$AddressList and address=72.249.195.168/30]] = 0) do={ add list=$AddressList comment=ca address=72.249.195.168/30 }
 :if ([:len [find where list=$AddressList and address=72.249.195.176/30]] = 0) do={ add list=$AddressList comment=ca address=72.249.195.176/30 }
 :if ([:len [find where list=$AddressList and address=72.249.195.184/30]] = 0) do={ add list=$AddressList comment=ca address=72.249.195.184/30 }
 :if ([:len [find where list=$AddressList and address=72.249.195.192/26]] = 0) do={ add list=$AddressList comment=ca address=72.249.195.192/26 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=74.199.184.160/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.184.160/29 }
 :if ([:len [find where list=$AddressList and address=74.199.184.228/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.184.228/30 }
 :if ([:len [find where list=$AddressList and address=74.199.185.64/28]] = 0) do={ add list=$AddressList comment=ca address=74.199.185.64/28 }
-:if ([:len [find where list=$AddressList and address=74.199.191.0/24]] = 0) do={ add list=$AddressList comment=ca address=74.199.191.0/24 }
-:if ([:len [find where list=$AddressList and address=74.199.192.176/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.192.176/29 }
-:if ([:len [find where list=$AddressList and address=74.199.193.148/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.193.148/30 }
-:if ([:len [find where list=$AddressList and address=74.199.194.104/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.194.104/29 }
-:if ([:len [find where list=$AddressList and address=74.199.194.112/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.194.112/29 }
-:if ([:len [find where list=$AddressList and address=74.199.194.160/28]] = 0) do={ add list=$AddressList comment=ca address=74.199.194.160/28 }
-:if ([:len [find where list=$AddressList and address=74.199.194.208/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.194.208/29 }
-:if ([:len [find where list=$AddressList and address=74.199.194.8/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.194.8/29 }
-:if ([:len [find where list=$AddressList and address=74.199.195.16/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.195.16/29 }
-:if ([:len [find where list=$AddressList and address=74.199.195.176/28]] = 0) do={ add list=$AddressList comment=ca address=74.199.195.176/28 }
-:if ([:len [find where list=$AddressList and address=74.199.195.36/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.195.36/30 }

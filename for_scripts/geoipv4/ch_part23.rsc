@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=212.203.112.0/20]] = 0) do={ add list=$AddressList comment=ch address=212.203.112.0/20 }
+:if ([:len [find where list=$AddressList and address=212.203.32.0/19]] = 0) do={ add list=$AddressList comment=ch address=212.203.32.0/19 }
 :if ([:len [find where list=$AddressList and address=212.203.64.0/23]] = 0) do={ add list=$AddressList comment=ch address=212.203.64.0/23 }
 :if ([:len [find where list=$AddressList and address=212.203.66.0/24]] = 0) do={ add list=$AddressList comment=ch address=212.203.66.0/24 }
 :if ([:len [find where list=$AddressList and address=212.203.67.0/27]] = 0) do={ add list=$AddressList comment=ch address=212.203.67.0/27 }
@@ -84,7 +86,12 @@
 :if ([:len [find where list=$AddressList and address=212.222.125.224/28]] = 0) do={ add list=$AddressList comment=ch address=212.222.125.224/28 }
 :if ([:len [find where list=$AddressList and address=212.222.125.240/30]] = 0) do={ add list=$AddressList comment=ch address=212.222.125.240/30 }
 :if ([:len [find where list=$AddressList and address=212.222.125.40/29]] = 0) do={ add list=$AddressList comment=ch address=212.222.125.40/29 }
-:if ([:len [find where list=$AddressList and address=212.222.125.64/26]] = 0) do={ add list=$AddressList comment=ch address=212.222.125.64/26 }
+:if ([:len [find where list=$AddressList and address=212.222.125.64/30]] = 0) do={ add list=$AddressList comment=ch address=212.222.125.64/30 }
+:if ([:len [find where list=$AddressList and address=212.222.125.69/32]] = 0) do={ add list=$AddressList comment=ch address=212.222.125.69/32 }
+:if ([:len [find where list=$AddressList and address=212.222.125.70/31]] = 0) do={ add list=$AddressList comment=ch address=212.222.125.70/31 }
+:if ([:len [find where list=$AddressList and address=212.222.125.72/29]] = 0) do={ add list=$AddressList comment=ch address=212.222.125.72/29 }
+:if ([:len [find where list=$AddressList and address=212.222.125.80/28]] = 0) do={ add list=$AddressList comment=ch address=212.222.125.80/28 }
+:if ([:len [find where list=$AddressList and address=212.222.125.96/27]] = 0) do={ add list=$AddressList comment=ch address=212.222.125.96/27 }
 :if ([:len [find where list=$AddressList and address=212.222.126.0/25]] = 0) do={ add list=$AddressList comment=ch address=212.222.126.0/25 }
 :if ([:len [find where list=$AddressList and address=212.222.126.128/26]] = 0) do={ add list=$AddressList comment=ch address=212.222.126.128/26 }
 :if ([:len [find where list=$AddressList and address=212.222.126.192/27]] = 0) do={ add list=$AddressList comment=ch address=212.222.126.192/27 }
@@ -173,10 +180,3 @@
 :if ([:len [find where list=$AddressList and address=212.23.225.224/27]] = 0) do={ add list=$AddressList comment=ch address=212.23.225.224/27 }
 :if ([:len [find where list=$AddressList and address=212.23.226.0/23]] = 0) do={ add list=$AddressList comment=ch address=212.23.226.0/23 }
 :if ([:len [find where list=$AddressList and address=212.23.228.0/22]] = 0) do={ add list=$AddressList comment=ch address=212.23.228.0/22 }
-:if ([:len [find where list=$AddressList and address=212.23.232.0/27]] = 0) do={ add list=$AddressList comment=ch address=212.23.232.0/27 }
-:if ([:len [find where list=$AddressList and address=212.23.232.128/25]] = 0) do={ add list=$AddressList comment=ch address=212.23.232.128/25 }
-:if ([:len [find where list=$AddressList and address=212.23.232.32/28]] = 0) do={ add list=$AddressList comment=ch address=212.23.232.32/28 }
-:if ([:len [find where list=$AddressList and address=212.23.232.48/30]] = 0) do={ add list=$AddressList comment=ch address=212.23.232.48/30 }
-:if ([:len [find where list=$AddressList and address=212.23.232.56/29]] = 0) do={ add list=$AddressList comment=ch address=212.23.232.56/29 }
-:if ([:len [find where list=$AddressList and address=212.23.232.64/26]] = 0) do={ add list=$AddressList comment=ch address=212.23.232.64/26 }
-:if ([:len [find where list=$AddressList and address=212.23.233.0/24]] = 0) do={ add list=$AddressList comment=ch address=212.23.233.0/24 }

@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.65.159.29]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.65.159.29 }
 :if ([:len [find where list=$AddressList and address=18.65.159.5]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.65.159.5 }
 :if ([:len [find where list=$AddressList and address=18.65.25.27]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.65.25.27 }
 :if ([:len [find where list=$AddressList and address=18.65.25.32]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.65.25.32 }
@@ -147,6 +148,7 @@
 :if ([:len [find where list=$AddressList and address=2.16.110.104]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.110.104 }
 :if ([:len [find where list=$AddressList and address=2.16.110.114]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.110.114 }
 :if ([:len [find where list=$AddressList and address=2.16.110.154]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.110.154 }
+:if ([:len [find where list=$AddressList and address=2.16.110.25]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.110.25 }
 :if ([:len [find where list=$AddressList and address=2.16.110.51]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.110.51 }
 :if ([:len [find where list=$AddressList and address=2.16.110.83]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.110.83 }
 :if ([:len [find where list=$AddressList and address=2.16.113.135]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.113.135 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.16.183.108]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.183.108 }
 :if ([:len [find where list=$AddressList and address=2.16.183.11]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.183.11 }
 :if ([:len [find where list=$AddressList and address=2.16.183.14]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.183.14 }
-:if ([:len [find where list=$AddressList and address=2.16.183.143]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.183.143 }
-:if ([:len [find where list=$AddressList and address=2.16.183.159]] = 0) do={ add list=$AddressList comment=golosameriki.com address=2.16.183.159 }

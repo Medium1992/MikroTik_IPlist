@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=210.1.1.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=210.1.1.0/24 }
+:if ([:len [find where list=$AddressList and address=210.1.20.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=210.1.20.0/24 }
+:if ([:len [find where list=$AddressList and address=210.1.30.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=210.1.30.0/24 }
 :if ([:len [find where list=$AddressList and address=210.1.32.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=210.1.32.0/24 }
 :if ([:len [find where list=$AddressList and address=210.1.36.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=210.1.36.0/24 }
 :if ([:len [find where list=$AddressList and address=210.1.45.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=210.1.45.0/24 }
@@ -92,7 +95,7 @@
 :if ([:len [find where list=$AddressList and address=58.137.179.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=58.137.179.0/24 }
 :if ([:len [find where list=$AddressList and address=58.137.185.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=58.137.185.0/24 }
 :if ([:len [find where list=$AddressList and address=58.137.199.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=58.137.199.0/24 }
-:if ([:len [find where list=$AddressList and address=58.137.201.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=58.137.201.0/24 }
+:if ([:len [find where list=$AddressList and address=58.137.200.0/23]] = 0) do={ add list=$AddressList comment=AS45458 address=58.137.200.0/23 }
 :if ([:len [find where list=$AddressList and address=58.137.204.0/22]] = 0) do={ add list=$AddressList comment=AS45458 address=58.137.204.0/22 }
 :if ([:len [find where list=$AddressList and address=58.137.50.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=58.137.50.0/24 }
 :if ([:len [find where list=$AddressList and address=58.137.75.0/24]] = 0) do={ add list=$AddressList comment=AS45458 address=58.137.75.0/24 }

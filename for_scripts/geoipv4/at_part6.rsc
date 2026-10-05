@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=176.123.54.0/23]] = 0) do={ add list=$AddressList comment=at address=176.123.54.0/23 }
-:if ([:len [find where list=$AddressList and address=176.126.39.0/24]] = 0) do={ add list=$AddressList comment=at address=176.126.39.0/24 }
-:if ([:len [find where list=$AddressList and address=176.61.160.0/19]] = 0) do={ add list=$AddressList comment=at address=176.61.160.0/19 }
-:if ([:len [find where list=$AddressList and address=176.66.0.0/16]] = 0) do={ add list=$AddressList comment=at address=176.66.0.0/16 }
 :if ([:len [find where list=$AddressList and address=176.96.152.0/21]] = 0) do={ add list=$AddressList comment=at address=176.96.152.0/21 }
 :if ([:len [find where list=$AddressList and address=176.96.96.0/19]] = 0) do={ add list=$AddressList comment=at address=176.96.96.0/19 }
 :if ([:len [find where list=$AddressList and address=176.97.158.0/24]] = 0) do={ add list=$AddressList comment=at address=176.97.158.0/24 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=185.164.4.0/22]] = 0) do={ add list=$AddressList comment=at address=185.164.4.0/22 }
 :if ([:len [find where list=$AddressList and address=185.165.60.0/22]] = 0) do={ add list=$AddressList comment=at address=185.165.60.0/22 }
 :if ([:len [find where list=$AddressList and address=185.166.236.0/22]] = 0) do={ add list=$AddressList comment=at address=185.166.236.0/22 }
+:if ([:len [find where list=$AddressList and address=185.167.240.0/22]] = 0) do={ add list=$AddressList comment=at address=185.167.240.0/22 }
+:if ([:len [find where list=$AddressList and address=185.168.100.0/22]] = 0) do={ add list=$AddressList comment=at address=185.168.100.0/22 }
+:if ([:len [find where list=$AddressList and address=185.169.105.0/24]] = 0) do={ add list=$AddressList comment=at address=185.169.105.0/24 }
+:if ([:len [find where list=$AddressList and address=185.169.8.0/22]] = 0) do={ add list=$AddressList comment=at address=185.169.8.0/22 }

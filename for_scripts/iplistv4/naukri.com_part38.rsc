@@ -1,5 +1,21 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.98.224.152]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.224.152 }
+:if ([:len [find where list=$AddressList and address=52.98.224.168]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.224.168 }
+:if ([:len [find where list=$AddressList and address=52.98.224.184]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.224.184 }
+:if ([:len [find where list=$AddressList and address=52.98.226.248]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.226.248 }
+:if ([:len [find where list=$AddressList and address=52.98.227.104]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.227.104 }
+:if ([:len [find where list=$AddressList and address=52.98.227.120]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.227.120 }
+:if ([:len [find where list=$AddressList and address=52.98.227.136]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.227.136 }
+:if ([:len [find where list=$AddressList and address=52.98.227.152]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.227.152 }
+:if ([:len [find where list=$AddressList and address=52.98.227.168]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.227.168 }
+:if ([:len [find where list=$AddressList and address=52.98.227.184]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.227.184 }
+:if ([:len [find where list=$AddressList and address=52.98.227.200]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.227.200 }
+:if ([:len [find where list=$AddressList and address=52.98.227.216]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.227.216 }
+:if ([:len [find where list=$AddressList and address=52.98.227.232]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.227.232 }
+:if ([:len [find where list=$AddressList and address=52.98.227.248]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.227.248 }
+:if ([:len [find where list=$AddressList and address=52.98.228.216]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.228.216 }
+:if ([:len [find where list=$AddressList and address=52.98.228.232]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.228.232 }
 :if ([:len [find where list=$AddressList and address=52.98.228.24]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.228.24 }
 :if ([:len [find where list=$AddressList and address=52.98.228.248]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.228.248 }
 :if ([:len [find where list=$AddressList and address=52.98.228.40]] = 0) do={ add list=$AddressList comment=naukri.com address=52.98.228.40 }
@@ -161,22 +177,6 @@
 :if ([:len [find where list=$AddressList and address=54.192.100.10]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.10 }
 :if ([:len [find where list=$AddressList and address=54.192.100.110]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.110 }
 :if ([:len [find where list=$AddressList and address=54.192.100.119]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.119 }
+:if ([:len [find where list=$AddressList and address=54.192.100.122]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.122 }
 :if ([:len [find where list=$AddressList and address=54.192.100.123]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.123 }
 :if ([:len [find where list=$AddressList and address=54.192.100.126]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.126 }
-:if ([:len [find where list=$AddressList and address=54.192.100.30]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.30 }
-:if ([:len [find where list=$AddressList and address=54.192.100.39]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.39 }
-:if ([:len [find where list=$AddressList and address=54.192.100.41]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.41 }
-:if ([:len [find where list=$AddressList and address=54.192.100.47]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.47 }
-:if ([:len [find where list=$AddressList and address=54.192.100.57]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.57 }
-:if ([:len [find where list=$AddressList and address=54.192.100.6]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.6 }
-:if ([:len [find where list=$AddressList and address=54.192.100.60]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.60 }
-:if ([:len [find where list=$AddressList and address=54.192.100.67]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.67 }
-:if ([:len [find where list=$AddressList and address=54.192.100.78]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.78 }
-:if ([:len [find where list=$AddressList and address=54.192.100.8]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.8 }
-:if ([:len [find where list=$AddressList and address=54.192.100.81]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.81 }
-:if ([:len [find where list=$AddressList and address=54.192.100.82]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.82 }
-:if ([:len [find where list=$AddressList and address=54.192.100.85]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.100.85 }
-:if ([:len [find where list=$AddressList and address=54.192.137.61]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.137.61 }
-:if ([:len [find where list=$AddressList and address=54.192.137.83]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.137.83 }
-:if ([:len [find where list=$AddressList and address=54.192.137.86]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.137.86 }
-:if ([:len [find where list=$AddressList and address=54.192.137.91]] = 0) do={ add list=$AddressList comment=naukri.com address=54.192.137.91 }

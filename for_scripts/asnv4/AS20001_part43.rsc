@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=76.91.196.192/27]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.196.192/27 }
-:if ([:len [find where list=$AddressList and address=76.91.196.224/28]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.196.224/28 }
-:if ([:len [find where list=$AddressList and address=76.91.196.240/30]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.196.240/30 }
-:if ([:len [find where list=$AddressList and address=76.91.196.244/31]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.196.244/31 }
-:if ([:len [find where list=$AddressList and address=76.91.196.247/32]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.196.247/32 }
-:if ([:len [find where list=$AddressList and address=76.91.196.248/29]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.196.248/29 }
-:if ([:len [find where list=$AddressList and address=76.91.197.0/24]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.197.0/24 }
-:if ([:len [find where list=$AddressList and address=76.91.198.0/23]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.198.0/23 }
-:if ([:len [find where list=$AddressList and address=76.91.2.0/23]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.2.0/23 }
-:if ([:len [find where list=$AddressList and address=76.91.200.0/21]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.200.0/21 }
-:if ([:len [find where list=$AddressList and address=76.91.208.0/24]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.208.0/24 }
 :if ([:len [find where list=$AddressList and address=76.91.209.0/26]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.209.0/26 }
 :if ([:len [find where list=$AddressList and address=76.91.209.128/25]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.209.128/25 }
 :if ([:len [find where list=$AddressList and address=76.91.209.64/31]] = 0) do={ add list=$AddressList comment=AS20001 address=76.91.209.64/31 }
@@ -180,3 +169,14 @@
 :if ([:len [find where list=$AddressList and address=76.93.34.0/23]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.34.0/23 }
 :if ([:len [find where list=$AddressList and address=76.93.36.0/22]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.36.0/22 }
 :if ([:len [find where list=$AddressList and address=76.93.40.0/21]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.40.0/21 }
+:if ([:len [find where list=$AddressList and address=76.93.48.0/20]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.48.0/20 }
+:if ([:len [find where list=$AddressList and address=76.93.64.0/23]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.64.0/23 }
+:if ([:len [find where list=$AddressList and address=76.93.66.0/24]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.66.0/24 }
+:if ([:len [find where list=$AddressList and address=76.93.67.0/28]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.67.0/28 }
+:if ([:len [find where list=$AddressList and address=76.93.67.128/25]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.67.128/25 }
+:if ([:len [find where list=$AddressList and address=76.93.67.16/29]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.67.16/29 }
+:if ([:len [find where list=$AddressList and address=76.93.67.24/31]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.67.24/31 }
+:if ([:len [find where list=$AddressList and address=76.93.67.27/32]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.67.27/32 }
+:if ([:len [find where list=$AddressList and address=76.93.67.28/30]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.67.28/30 }
+:if ([:len [find where list=$AddressList and address=76.93.67.32/27]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.67.32/27 }
+:if ([:len [find where list=$AddressList and address=76.93.67.64/26]] = 0) do={ add list=$AddressList comment=AS20001 address=76.93.67.64/26 }

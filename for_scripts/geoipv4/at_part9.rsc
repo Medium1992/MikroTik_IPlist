@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=185.77.252.0/22]] = 0) do={ add list=$AddressList comment=at address=185.77.252.0/22 }
-:if ([:len [find where list=$AddressList and address=185.78.41.112/28]] = 0) do={ add list=$AddressList comment=at address=185.78.41.112/28 }
-:if ([:len [find where list=$AddressList and address=185.8.184.0/22]] = 0) do={ add list=$AddressList comment=at address=185.8.184.0/22 }
-:if ([:len [find where list=$AddressList and address=185.80.188.0/22]] = 0) do={ add list=$AddressList comment=at address=185.80.188.0/22 }
 :if ([:len [find where list=$AddressList and address=185.80.240.0/22]] = 0) do={ add list=$AddressList comment=at address=185.80.240.0/22 }
 :if ([:len [find where list=$AddressList and address=185.80.89.0/24]] = 0) do={ add list=$AddressList comment=at address=185.80.89.0/24 }
 :if ([:len [find where list=$AddressList and address=185.81.204.0/24]] = 0) do={ add list=$AddressList comment=at address=185.81.204.0/24 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=193.104.34.0/24]] = 0) do={ add list=$AddressList comment=at address=193.104.34.0/24 }
 :if ([:len [find where list=$AddressList and address=193.104.55.0/24]] = 0) do={ add list=$AddressList comment=at address=193.104.55.0/24 }
 :if ([:len [find where list=$AddressList and address=193.104.65.0/24]] = 0) do={ add list=$AddressList comment=at address=193.104.65.0/24 }
+:if ([:len [find where list=$AddressList and address=193.104.82.0/24]] = 0) do={ add list=$AddressList comment=at address=193.104.82.0/24 }
+:if ([:len [find where list=$AddressList and address=193.105.168.0/24]] = 0) do={ add list=$AddressList comment=at address=193.105.168.0/24 }
+:if ([:len [find where list=$AddressList and address=193.105.181.0/24]] = 0) do={ add list=$AddressList comment=at address=193.105.181.0/24 }
+:if ([:len [find where list=$AddressList and address=193.105.195.0/24]] = 0) do={ add list=$AddressList comment=at address=193.105.195.0/24 }

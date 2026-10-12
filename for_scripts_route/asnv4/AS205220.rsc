@@ -4,7 +4,10 @@
 /ip route
 :if ([:len [/ip/route/find dst-address=104.164.61.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.164.61.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS205220 }
 :if ([:len [/ip/route/find dst-address=13.143.207.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.143.207.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS205220 }
+:if ([:len [/ip/route/find dst-address=142.249.79.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.249.79.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS205220 }
+:if ([:len [/ip/route/find dst-address=153.52.84.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=153.52.84.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS205220 }
 :if ([:len [/ip/route/find dst-address=160.19.95.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=160.19.95.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS205220 }
+:if ([:len [/ip/route/find dst-address=163.5.71.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=163.5.71.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS205220 }
 :if ([:len [/ip/route/find dst-address=166.0.118.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=166.0.118.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS205220 }
 :if ([:len [/ip/route/find dst-address=173.247.238.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.247.238.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS205220 }
 :if ([:len [/ip/route/find dst-address=185.115.163.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.115.163.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS205220 }

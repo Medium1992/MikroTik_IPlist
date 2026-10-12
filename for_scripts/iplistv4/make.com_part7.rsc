@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.244.87.92]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.92 }
+:if ([:len [find where list=$AddressList and address=18.244.87.93]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.93 }
+:if ([:len [find where list=$AddressList and address=18.244.87.95]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.95 }
+:if ([:len [find where list=$AddressList and address=18.244.87.98]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.98 }
 :if ([:len [find where list=$AddressList and address=18.245.162.114]] = 0) do={ add list=$AddressList comment=make.com address=18.245.162.114 }
 :if ([:len [find where list=$AddressList and address=18.245.162.20]] = 0) do={ add list=$AddressList comment=make.com address=18.245.162.20 }
 :if ([:len [find where list=$AddressList and address=18.245.162.25]] = 0) do={ add list=$AddressList comment=make.com address=18.245.162.25 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.67.250.87]] = 0) do={ add list=$AddressList comment=make.com address=18.67.250.87 }
 :if ([:len [find where list=$AddressList and address=184.104.178.43]] = 0) do={ add list=$AddressList comment=make.com address=184.104.178.43 }
 :if ([:len [find where list=$AddressList and address=184.104.178.47]] = 0) do={ add list=$AddressList comment=make.com address=184.104.178.47 }
-:if ([:len [find where list=$AddressList and address=188.114.98.224]] = 0) do={ add list=$AddressList comment=make.com address=188.114.98.224 }
-:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=make.com address=188.114.98.228 }
-:if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=make.com address=188.114.98.229 }
-:if ([:len [find where list=$AddressList and address=188.114.99.224]] = 0) do={ add list=$AddressList comment=make.com address=188.114.99.224 }

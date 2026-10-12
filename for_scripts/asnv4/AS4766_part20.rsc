@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=211.34.88.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=211.34.88.0/22 }
+:if ([:len [find where list=$AddressList and address=211.34.93.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=211.34.93.0/24 }
+:if ([:len [find where list=$AddressList and address=211.34.94.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=211.34.94.0/23 }
+:if ([:len [find where list=$AddressList and address=211.34.97.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=211.34.97.0/24 }
+:if ([:len [find where list=$AddressList and address=211.34.98.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=211.34.98.0/23 }
+:if ([:len [find where list=$AddressList and address=211.35.128.0/17]] = 0) do={ add list=$AddressList comment=AS4766 address=211.35.128.0/17 }
+:if ([:len [find where list=$AddressList and address=211.35.14.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=211.35.14.0/24 }
 :if ([:len [find where list=$AddressList and address=211.37.128.0/18]] = 0) do={ add list=$AddressList comment=AS4766 address=211.37.128.0/18 }
 :if ([:len [find where list=$AddressList and address=211.38.0.0/19]] = 0) do={ add list=$AddressList comment=AS4766 address=211.38.0.0/19 }
 :if ([:len [find where list=$AddressList and address=211.38.128.0/20]] = 0) do={ add list=$AddressList comment=AS4766 address=211.38.128.0/20 }
@@ -48,7 +55,7 @@
 :if ([:len [find where list=$AddressList and address=211.43.143.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=211.43.143.0/24 }
 :if ([:len [find where list=$AddressList and address=211.43.16.0/21]] = 0) do={ add list=$AddressList comment=AS4766 address=211.43.16.0/21 }
 :if ([:len [find where list=$AddressList and address=211.43.24.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=211.43.24.0/22 }
-:if ([:len [find where list=$AddressList and address=211.43.28.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=211.43.28.0/24 }
+:if ([:len [find where list=$AddressList and address=211.43.28.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=211.43.28.0/23 }
 :if ([:len [find where list=$AddressList and address=211.43.76.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=211.43.76.0/22 }
 :if ([:len [find where list=$AddressList and address=211.43.80.0/20]] = 0) do={ add list=$AddressList comment=AS4766 address=211.43.80.0/20 }
 :if ([:len [find where list=$AddressList and address=211.43.96.0/19]] = 0) do={ add list=$AddressList comment=AS4766 address=211.43.96.0/19 }
@@ -173,10 +180,3 @@
 :if ([:len [find where list=$AddressList and address=211.57.254.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=211.57.254.0/24 }
 :if ([:len [find where list=$AddressList and address=211.57.32.0/21]] = 0) do={ add list=$AddressList comment=AS4766 address=211.57.32.0/21 }
 :if ([:len [find where list=$AddressList and address=211.57.40.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=211.57.40.0/23 }
-:if ([:len [find where list=$AddressList and address=211.57.42.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=211.57.42.0/24 }
-:if ([:len [find where list=$AddressList and address=211.57.44.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=211.57.44.0/22 }
-:if ([:len [find where list=$AddressList and address=211.57.48.0/20]] = 0) do={ add list=$AddressList comment=AS4766 address=211.57.48.0/20 }
-:if ([:len [find where list=$AddressList and address=211.57.64.0/18]] = 0) do={ add list=$AddressList comment=AS4766 address=211.57.64.0/18 }
-:if ([:len [find where list=$AddressList and address=211.62.0.0/17]] = 0) do={ add list=$AddressList comment=AS4766 address=211.62.0.0/17 }
-:if ([:len [find where list=$AddressList and address=211.63.128.0/19]] = 0) do={ add list=$AddressList comment=AS4766 address=211.63.128.0/19 }
-:if ([:len [find where list=$AddressList and address=211.63.160.0/21]] = 0) do={ add list=$AddressList comment=AS4766 address=211.63.160.0/21 }

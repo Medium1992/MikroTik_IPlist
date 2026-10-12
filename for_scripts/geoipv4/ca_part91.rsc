@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=74.199.171.40/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.171.40/29 }
+:if ([:len [find where list=$AddressList and address=74.199.172.136/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.172.136/29 }
+:if ([:len [find where list=$AddressList and address=74.199.172.144/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.172.144/29 }
+:if ([:len [find where list=$AddressList and address=74.199.172.176/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.172.176/29 }
+:if ([:len [find where list=$AddressList and address=74.199.173.176/28]] = 0) do={ add list=$AddressList comment=ca address=74.199.173.176/28 }
+:if ([:len [find where list=$AddressList and address=74.199.173.224/28]] = 0) do={ add list=$AddressList comment=ca address=74.199.173.224/28 }
+:if ([:len [find where list=$AddressList and address=74.199.173.88/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.173.88/30 }
+:if ([:len [find where list=$AddressList and address=74.199.174.0/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.174.0/29 }
+:if ([:len [find where list=$AddressList and address=74.199.184.160/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.184.160/29 }
+:if ([:len [find where list=$AddressList and address=74.199.184.228/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.184.228/30 }
+:if ([:len [find where list=$AddressList and address=74.199.185.64/28]] = 0) do={ add list=$AddressList comment=ca address=74.199.185.64/28 }
 :if ([:len [find where list=$AddressList and address=74.199.191.0/24]] = 0) do={ add list=$AddressList comment=ca address=74.199.191.0/24 }
 :if ([:len [find where list=$AddressList and address=74.199.192.176/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.192.176/29 }
 :if ([:len [find where list=$AddressList and address=74.199.193.148/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.193.148/30 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=74.199.252.160/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.252.160/29 }
 :if ([:len [find where list=$AddressList and address=74.199.252.192/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.252.192/29 }
 :if ([:len [find where list=$AddressList and address=74.199.252.52/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.252.52/30 }
-:if ([:len [find where list=$AddressList and address=74.199.253.124/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.253.124/30 }
-:if ([:len [find where list=$AddressList and address=74.199.253.176/28]] = 0) do={ add list=$AddressList comment=ca address=74.199.253.176/28 }
-:if ([:len [find where list=$AddressList and address=74.199.253.192/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.253.192/29 }
-:if ([:len [find where list=$AddressList and address=74.199.253.24/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.253.24/30 }
-:if ([:len [find where list=$AddressList and address=74.199.253.40/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.253.40/29 }
-:if ([:len [find where list=$AddressList and address=74.199.253.72/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.253.72/29 }
-:if ([:len [find where list=$AddressList and address=74.199.253.96/29]] = 0) do={ add list=$AddressList comment=ca address=74.199.253.96/29 }
-:if ([:len [find where list=$AddressList and address=74.199.254.112/28]] = 0) do={ add list=$AddressList comment=ca address=74.199.254.112/28 }
-:if ([:len [find where list=$AddressList and address=74.199.254.20/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.254.20/30 }
-:if ([:len [find where list=$AddressList and address=74.199.254.72/30]] = 0) do={ add list=$AddressList comment=ca address=74.199.254.72/30 }
-:if ([:len [find where list=$AddressList and address=74.199.255.128/28]] = 0) do={ add list=$AddressList comment=ca address=74.199.255.128/28 }

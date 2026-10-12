@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=44.212.115.193]] = 0) do={ add list=$AddressList comment=strava.com address=44.212.115.193 }
+:if ([:len [find where list=$AddressList and address=44.212.133.38]] = 0) do={ add list=$AddressList comment=strava.com address=44.212.133.38 }
+:if ([:len [find where list=$AddressList and address=44.213.54.74]] = 0) do={ add list=$AddressList comment=strava.com address=44.213.54.74 }
+:if ([:len [find where list=$AddressList and address=44.214.229.197]] = 0) do={ add list=$AddressList comment=strava.com address=44.214.229.197 }
+:if ([:len [find where list=$AddressList and address=44.214.82.92]] = 0) do={ add list=$AddressList comment=strava.com address=44.214.82.92 }
+:if ([:len [find where list=$AddressList and address=44.215.167.193]] = 0) do={ add list=$AddressList comment=strava.com address=44.215.167.193 }
+:if ([:len [find where list=$AddressList and address=44.215.64.11]] = 0) do={ add list=$AddressList comment=strava.com address=44.215.64.11 }
+:if ([:len [find where list=$AddressList and address=44.216.103.154]] = 0) do={ add list=$AddressList comment=strava.com address=44.216.103.154 }
+:if ([:len [find where list=$AddressList and address=44.216.224.145]] = 0) do={ add list=$AddressList comment=strava.com address=44.216.224.145 }
+:if ([:len [find where list=$AddressList and address=44.216.245.85]] = 0) do={ add list=$AddressList comment=strava.com address=44.216.245.85 }
+:if ([:len [find where list=$AddressList and address=44.216.36.133]] = 0) do={ add list=$AddressList comment=strava.com address=44.216.36.133 }
 :if ([:len [find where list=$AddressList and address=44.216.72.238]] = 0) do={ add list=$AddressList comment=strava.com address=44.216.72.238 }
 :if ([:len [find where list=$AddressList and address=44.217.120.208]] = 0) do={ add list=$AddressList comment=strava.com address=44.217.120.208 }
 :if ([:len [find where list=$AddressList and address=44.217.121.98]] = 0) do={ add list=$AddressList comment=strava.com address=44.217.121.98 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.1.202.34]] = 0) do={ add list=$AddressList comment=strava.com address=52.1.202.34 }
 :if ([:len [find where list=$AddressList and address=52.1.251.207]] = 0) do={ add list=$AddressList comment=strava.com address=52.1.251.207 }
 :if ([:len [find where list=$AddressList and address=52.1.30.230]] = 0) do={ add list=$AddressList comment=strava.com address=52.1.30.230 }
-:if ([:len [find where list=$AddressList and address=52.10.237.221]] = 0) do={ add list=$AddressList comment=strava.com address=52.10.237.221 }
-:if ([:len [find where list=$AddressList and address=52.10.47.251]] = 0) do={ add list=$AddressList comment=strava.com address=52.10.47.251 }
-:if ([:len [find where list=$AddressList and address=52.11.118.109]] = 0) do={ add list=$AddressList comment=strava.com address=52.11.118.109 }
-:if ([:len [find where list=$AddressList and address=52.11.12.8]] = 0) do={ add list=$AddressList comment=strava.com address=52.11.12.8 }
-:if ([:len [find where list=$AddressList and address=52.11.18.150]] = 0) do={ add list=$AddressList comment=strava.com address=52.11.18.150 }
-:if ([:len [find where list=$AddressList and address=52.11.44.177]] = 0) do={ add list=$AddressList comment=strava.com address=52.11.44.177 }
-:if ([:len [find where list=$AddressList and address=52.13.233.54]] = 0) do={ add list=$AddressList comment=strava.com address=52.13.233.54 }
-:if ([:len [find where list=$AddressList and address=52.2.122.164]] = 0) do={ add list=$AddressList comment=strava.com address=52.2.122.164 }
-:if ([:len [find where list=$AddressList and address=52.2.233.208]] = 0) do={ add list=$AddressList comment=strava.com address=52.2.233.208 }
-:if ([:len [find where list=$AddressList and address=52.2.254.35]] = 0) do={ add list=$AddressList comment=strava.com address=52.2.254.35 }
-:if ([:len [find where list=$AddressList and address=52.2.74.96]] = 0) do={ add list=$AddressList comment=strava.com address=52.2.74.96 }

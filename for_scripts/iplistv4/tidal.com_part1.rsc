@@ -8,7 +8,9 @@
 :if ([:len [find where list=$AddressList and address=100.49.65.187]] = 0) do={ add list=$AddressList comment=tidal.com address=100.49.65.187 }
 :if ([:len [find where list=$AddressList and address=100.51.130.120]] = 0) do={ add list=$AddressList comment=tidal.com address=100.51.130.120 }
 :if ([:len [find where list=$AddressList and address=100.51.49.48]] = 0) do={ add list=$AddressList comment=tidal.com address=100.51.49.48 }
+:if ([:len [find where list=$AddressList and address=100.55.186.119]] = 0) do={ add list=$AddressList comment=tidal.com address=100.55.186.119 }
 :if ([:len [find where list=$AddressList and address=100.56.182.45]] = 0) do={ add list=$AddressList comment=tidal.com address=100.56.182.45 }
+:if ([:len [find where list=$AddressList and address=100.63.138.166]] = 0) do={ add list=$AddressList comment=tidal.com address=100.63.138.166 }
 :if ([:len [find where list=$AddressList and address=104.18.38.43]] = 0) do={ add list=$AddressList comment=tidal.com address=104.18.38.43 }
 :if ([:len [find where list=$AddressList and address=104.208.236.132]] = 0) do={ add list=$AddressList comment=tidal.com address=104.208.236.132 }
 :if ([:len [find where list=$AddressList and address=104.209.188.8]] = 0) do={ add list=$AddressList comment=tidal.com address=104.209.188.8 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=108.157.150.31]] = 0) do={ add list=$AddressList comment=tidal.com address=108.157.150.31 }
 :if ([:len [find where list=$AddressList and address=108.157.150.95]] = 0) do={ add list=$AddressList comment=tidal.com address=108.157.150.95 }
 :if ([:len [find where list=$AddressList and address=108.157.186.242]] = 0) do={ add list=$AddressList comment=tidal.com address=108.157.186.242 }
-:if ([:len [find where list=$AddressList and address=108.157.188.103]] = 0) do={ add list=$AddressList comment=tidal.com address=108.157.188.103 }
-:if ([:len [find where list=$AddressList and address=108.157.188.107]] = 0) do={ add list=$AddressList comment=tidal.com address=108.157.188.107 }

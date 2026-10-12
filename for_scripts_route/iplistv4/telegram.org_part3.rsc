@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=185.199.110.153 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.199.110.153 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
+:if ([:len [/ip/route/find dst-address=185.199.111.153 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=185.199.111.153 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
+:if ([:len [/ip/route/find dst-address=188.166.3.205 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.166.3.205 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
+:if ([:len [/ip/route/find dst-address=188.245.76.81 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=188.245.76.81 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=192.178.170.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=192.178.170.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=192.178.183.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=192.178.183.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=192.178.194.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=192.178.194.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
@@ -73,6 +77,7 @@
 :if ([:len [/ip/route/find dst-address=3.175.86.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.175.86.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=3.222.67.212 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.222.67.212 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=3.33.238.178 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.33.238.178 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
+:if ([:len [/ip/route/find dst-address=3.64.42.180 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.64.42.180 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=3.65.30.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.65.30.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=3.66.185.112 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.66.185.112 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=3.67.231.136 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.67.231.136 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
@@ -85,6 +90,7 @@
 :if ([:len [/ip/route/find dst-address=3.78.3.234 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.78.3.234 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=35.156.90.142 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.156.90.142 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=35.157.104.54 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.157.104.54 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
+:if ([:len [/ip/route/find dst-address=35.158.7.244 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.158.7.244 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=35.159.7.174 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.159.7.174 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=35.243.249.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.243.249.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=37.9.38.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=37.9.38.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=52.28.133.13 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.28.133.13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=52.57.114.196 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.57.114.196 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
 :if ([:len [/ip/route/find dst-address=52.59.155.110 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.59.155.110 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
-:if ([:len [/ip/route/find dst-address=52.59.23.48 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.59.23.48 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
-:if ([:len [/ip/route/find dst-address=52.84.50.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.50.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
-:if ([:len [/ip/route/find dst-address=52.84.50.39 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.50.39 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
-:if ([:len [/ip/route/find dst-address=52.84.50.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.50.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
-:if ([:len [/ip/route/find dst-address=52.84.50.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.84.50.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }
-:if ([:len [/ip/route/find dst-address=52.85.47.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=52.85.47.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=telegram.org }

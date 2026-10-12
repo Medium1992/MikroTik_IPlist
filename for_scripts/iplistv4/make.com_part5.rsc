@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.122.68]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.68 }
+:if ([:len [find where list=$AddressList and address=18.165.122.70]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.70 }
+:if ([:len [find where list=$AddressList and address=18.165.122.74]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.74 }
+:if ([:len [find where list=$AddressList and address=18.165.122.75]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.75 }
 :if ([:len [find where list=$AddressList and address=18.165.122.82]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.82 }
 :if ([:len [find where list=$AddressList and address=18.165.122.85]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.85 }
 :if ([:len [find where list=$AddressList and address=18.165.122.92]] = 0) do={ add list=$AddressList comment=make.com address=18.165.122.92 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.173.5.124]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.124 }
 :if ([:len [find where list=$AddressList and address=18.173.5.13]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.13 }
 :if ([:len [find where list=$AddressList and address=18.173.5.2]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.2 }
-:if ([:len [find where list=$AddressList and address=18.173.5.27]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.27 }
-:if ([:len [find where list=$AddressList and address=18.173.5.36]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.36 }
-:if ([:len [find where list=$AddressList and address=18.173.5.40]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.40 }
-:if ([:len [find where list=$AddressList and address=18.173.5.42]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.42 }

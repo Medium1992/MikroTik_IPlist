@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=59.144.184.0/22]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.184.0/22 }
-:if ([:len [find where list=$AddressList and address=59.144.188.0/24]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.188.0/24 }
-:if ([:len [find where list=$AddressList and address=59.144.190.0/24]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.190.0/24 }
-:if ([:len [find where list=$AddressList and address=59.144.192.0/22]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.192.0/22 }
-:if ([:len [find where list=$AddressList and address=59.144.200.0/21]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.200.0/21 }
-:if ([:len [find where list=$AddressList and address=59.144.208.0/20]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.208.0/20 }
-:if ([:len [find where list=$AddressList and address=59.144.224.0/20]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.224.0/20 }
-:if ([:len [find where list=$AddressList and address=59.144.249.0/24]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.249.0/24 }
-:if ([:len [find where list=$AddressList and address=59.144.33.0/24]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.33.0/24 }
-:if ([:len [find where list=$AddressList and address=59.144.34.0/23]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.34.0/23 }
-:if ([:len [find where list=$AddressList and address=59.144.36.0/22]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.36.0/22 }
 :if ([:len [find where list=$AddressList and address=59.144.41.0/24]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.41.0/24 }
 :if ([:len [find where list=$AddressList and address=59.144.42.0/23]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.42.0/23 }
 :if ([:len [find where list=$AddressList and address=59.144.44.0/23]] = 0) do={ add list=$AddressList comment=AS9498 address=59.144.44.0/23 }

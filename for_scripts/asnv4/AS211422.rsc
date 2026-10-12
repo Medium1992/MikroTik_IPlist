@@ -7,7 +7,6 @@
 :if ([:len [find where list=$AddressList and address=151.241.139.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=151.241.139.0/24 }
 :if ([:len [find where list=$AddressList and address=151.241.164.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=151.241.164.0/24 }
 :if ([:len [find where list=$AddressList and address=151.241.167.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=151.241.167.0/24 }
-:if ([:len [find where list=$AddressList and address=172.111.160.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=172.111.160.0/24 }
 :if ([:len [find where list=$AddressList and address=185.148.243.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=185.148.243.0/24 }
 :if ([:len [find where list=$AddressList and address=185.169.183.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=185.169.183.0/24 }
 :if ([:len [find where list=$AddressList and address=185.174.20.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=185.174.20.0/24 }
@@ -21,6 +20,7 @@
 :if ([:len [find where list=$AddressList and address=45.143.96.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=45.143.96.0/24 }
 :if ([:len [find where list=$AddressList and address=45.221.68.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=45.221.68.0/24 }
 :if ([:len [find where list=$AddressList and address=77.110.89.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=77.110.89.0/24 }
+:if ([:len [find where list=$AddressList and address=77.47.142.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=77.47.142.0/24 }
 :if ([:len [find where list=$AddressList and address=77.90.175.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=77.90.175.0/24 }
 :if ([:len [find where list=$AddressList and address=77.90.182.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=77.90.182.0/24 }
 :if ([:len [find where list=$AddressList and address=77.90.186.0/24]] = 0) do={ add list=$AddressList comment=AS211422 address=77.90.186.0/24 }

@@ -1,11 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.225.78.101]] = 0) do={ add list=$AddressList comment=claude.ai address=13.225.78.101 }
 :if ([:len [find where list=$AddressList and address=13.225.78.32]] = 0) do={ add list=$AddressList comment=claude.ai address=13.225.78.32 }
 :if ([:len [find where list=$AddressList and address=13.225.78.67]] = 0) do={ add list=$AddressList comment=claude.ai address=13.225.78.67 }
 :if ([:len [find where list=$AddressList and address=13.225.78.7]] = 0) do={ add list=$AddressList comment=claude.ai address=13.225.78.7 }
 :if ([:len [find where list=$AddressList and address=13.226.155.100]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.100 }
 :if ([:len [find where list=$AddressList and address=13.226.155.109]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.109 }
+:if ([:len [find where list=$AddressList and address=13.226.155.11]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.11 }
 :if ([:len [find where list=$AddressList and address=13.226.155.119]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.119 }
+:if ([:len [find where list=$AddressList and address=13.226.155.120]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.120 }
 :if ([:len [find where list=$AddressList and address=13.226.155.20]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.20 }
 :if ([:len [find where list=$AddressList and address=13.226.155.21]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.21 }
 :if ([:len [find where list=$AddressList and address=13.226.155.22]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.22 }
@@ -15,6 +18,8 @@
 :if ([:len [find where list=$AddressList and address=13.226.155.60]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.60 }
 :if ([:len [find where list=$AddressList and address=13.226.155.61]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.61 }
 :if ([:len [find where list=$AddressList and address=13.226.155.79]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.79 }
+:if ([:len [find where list=$AddressList and address=13.226.155.83]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.83 }
+:if ([:len [find where list=$AddressList and address=13.226.155.87]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.87 }
 :if ([:len [find where list=$AddressList and address=13.226.155.89]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.89 }
 :if ([:len [find where list=$AddressList and address=13.226.155.9]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.9 }
 :if ([:len [find where list=$AddressList and address=13.226.155.97]] = 0) do={ add list=$AddressList comment=claude.ai address=13.226.155.97 }
@@ -175,8 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.32.99.71]] = 0) do={ add list=$AddressList comment=claude.ai address=13.32.99.71 }
 :if ([:len [find where list=$AddressList and address=13.33.141.103]] = 0) do={ add list=$AddressList comment=claude.ai address=13.33.141.103 }
 :if ([:len [find where list=$AddressList and address=13.33.141.107]] = 0) do={ add list=$AddressList comment=claude.ai address=13.33.141.107 }
-:if ([:len [find where list=$AddressList and address=13.33.141.39]] = 0) do={ add list=$AddressList comment=claude.ai address=13.33.141.39 }
-:if ([:len [find where list=$AddressList and address=13.33.141.44]] = 0) do={ add list=$AddressList comment=claude.ai address=13.33.141.44 }
-:if ([:len [find where list=$AddressList and address=13.33.141.47]] = 0) do={ add list=$AddressList comment=claude.ai address=13.33.141.47 }
-:if ([:len [find where list=$AddressList and address=13.33.141.78]] = 0) do={ add list=$AddressList comment=claude.ai address=13.33.141.78 }
-:if ([:len [find where list=$AddressList and address=13.33.141.91]] = 0) do={ add list=$AddressList comment=claude.ai address=13.33.141.91 }

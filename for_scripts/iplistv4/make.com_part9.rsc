@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.206.19]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.19 }
+:if ([:len [find where list=$AddressList and address=3.164.206.26]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.26 }
+:if ([:len [find where list=$AddressList and address=3.164.206.31]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.31 }
+:if ([:len [find where list=$AddressList and address=3.164.206.47]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.47 }
 :if ([:len [find where list=$AddressList and address=3.164.206.51]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.51 }
 :if ([:len [find where list=$AddressList and address=3.164.206.62]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.62 }
 :if ([:len [find where list=$AddressList and address=3.164.206.7]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.7 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.168.217.120]] = 0) do={ add list=$AddressList comment=make.com address=3.168.217.120 }
 :if ([:len [find where list=$AddressList and address=3.168.217.43]] = 0) do={ add list=$AddressList comment=make.com address=3.168.217.43 }
 :if ([:len [find where list=$AddressList and address=3.168.217.82]] = 0) do={ add list=$AddressList comment=make.com address=3.168.217.82 }
-:if ([:len [find where list=$AddressList and address=3.168.217.96]] = 0) do={ add list=$AddressList comment=make.com address=3.168.217.96 }
-:if ([:len [find where list=$AddressList and address=3.168.236.59]] = 0) do={ add list=$AddressList comment=make.com address=3.168.236.59 }
-:if ([:len [find where list=$AddressList and address=3.168.236.68]] = 0) do={ add list=$AddressList comment=make.com address=3.168.236.68 }
-:if ([:len [find where list=$AddressList and address=3.168.236.8]] = 0) do={ add list=$AddressList comment=make.com address=3.168.236.8 }

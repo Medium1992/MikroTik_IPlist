@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=44.212.114.183]] = 0) do={ add list=$AddressList comment=quora.com address=44.212.114.183 }
+:if ([:len [find where list=$AddressList and address=44.212.135.96]] = 0) do={ add list=$AddressList comment=quora.com address=44.212.135.96 }
+:if ([:len [find where list=$AddressList and address=44.212.141.231]] = 0) do={ add list=$AddressList comment=quora.com address=44.212.141.231 }
+:if ([:len [find where list=$AddressList and address=44.212.187.29]] = 0) do={ add list=$AddressList comment=quora.com address=44.212.187.29 }
+:if ([:len [find where list=$AddressList and address=44.212.241.254]] = 0) do={ add list=$AddressList comment=quora.com address=44.212.241.254 }
 :if ([:len [find where list=$AddressList and address=44.213.12.189]] = 0) do={ add list=$AddressList comment=quora.com address=44.213.12.189 }
 :if ([:len [find where list=$AddressList and address=44.213.141.119]] = 0) do={ add list=$AddressList comment=quora.com address=44.213.141.119 }
 :if ([:len [find where list=$AddressList and address=44.213.201.44]] = 0) do={ add list=$AddressList comment=quora.com address=44.213.201.44 }
@@ -66,6 +71,7 @@
 :if ([:len [find where list=$AddressList and address=52.1.108.175]] = 0) do={ add list=$AddressList comment=quora.com address=52.1.108.175 }
 :if ([:len [find where list=$AddressList and address=52.1.161.104]] = 0) do={ add list=$AddressList comment=quora.com address=52.1.161.104 }
 :if ([:len [find where list=$AddressList and address=52.1.183.185]] = 0) do={ add list=$AddressList comment=quora.com address=52.1.183.185 }
+:if ([:len [find where list=$AddressList and address=52.1.185.243]] = 0) do={ add list=$AddressList comment=quora.com address=52.1.185.243 }
 :if ([:len [find where list=$AddressList and address=52.1.222.57]] = 0) do={ add list=$AddressList comment=quora.com address=52.1.222.57 }
 :if ([:len [find where list=$AddressList and address=52.1.223.227]] = 0) do={ add list=$AddressList comment=quora.com address=52.1.223.227 }
 :if ([:len [find where list=$AddressList and address=52.1.239.10]] = 0) do={ add list=$AddressList comment=quora.com address=52.1.239.10 }
@@ -107,6 +113,7 @@
 :if ([:len [find where list=$AddressList and address=52.202.178.108]] = 0) do={ add list=$AddressList comment=quora.com address=52.202.178.108 }
 :if ([:len [find where list=$AddressList and address=52.202.228.255]] = 0) do={ add list=$AddressList comment=quora.com address=52.202.228.255 }
 :if ([:len [find where list=$AddressList and address=52.202.98.66]] = 0) do={ add list=$AddressList comment=quora.com address=52.202.98.66 }
+:if ([:len [find where list=$AddressList and address=52.203.136.22]] = 0) do={ add list=$AddressList comment=quora.com address=52.203.136.22 }
 :if ([:len [find where list=$AddressList and address=52.203.163.85]] = 0) do={ add list=$AddressList comment=quora.com address=52.203.163.85 }
 :if ([:len [find where list=$AddressList and address=52.203.202.198]] = 0) do={ add list=$AddressList comment=quora.com address=52.203.202.198 }
 :if ([:len [find where list=$AddressList and address=52.203.237.163]] = 0) do={ add list=$AddressList comment=quora.com address=52.203.237.163 }
@@ -173,10 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.4.233.228]] = 0) do={ add list=$AddressList comment=quora.com address=52.4.233.228 }
 :if ([:len [find where list=$AddressList and address=52.4.57.57]] = 0) do={ add list=$AddressList comment=quora.com address=52.4.57.57 }
 :if ([:len [find where list=$AddressList and address=52.4.68.54]] = 0) do={ add list=$AddressList comment=quora.com address=52.4.68.54 }
-:if ([:len [find where list=$AddressList and address=52.4.99.14]] = 0) do={ add list=$AddressList comment=quora.com address=52.4.99.14 }
-:if ([:len [find where list=$AddressList and address=52.4.99.140]] = 0) do={ add list=$AddressList comment=quora.com address=52.4.99.140 }
-:if ([:len [find where list=$AddressList and address=52.44.115.142]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.115.142 }
-:if ([:len [find where list=$AddressList and address=52.44.149.96]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.149.96 }
-:if ([:len [find where list=$AddressList and address=52.44.160.27]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.160.27 }
-:if ([:len [find where list=$AddressList and address=52.44.167.156]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.167.156 }
-:if ([:len [find where list=$AddressList and address=52.44.222.120]] = 0) do={ add list=$AddressList comment=quora.com address=52.44.222.120 }

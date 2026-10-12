@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=188.114.98.224]] = 0) do={ add list=$AddressList comment=make.com address=188.114.98.224 }
+:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=make.com address=188.114.98.228 }
+:if ([:len [find where list=$AddressList and address=188.114.98.229]] = 0) do={ add list=$AddressList comment=make.com address=188.114.98.229 }
+:if ([:len [find where list=$AddressList and address=188.114.99.224]] = 0) do={ add list=$AddressList comment=make.com address=188.114.99.224 }
 :if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=make.com address=188.114.99.228 }
 :if ([:len [find where list=$AddressList and address=188.114.99.229]] = 0) do={ add list=$AddressList comment=make.com address=188.114.99.229 }
 :if ([:len [find where list=$AddressList and address=20.119.0.33]] = 0) do={ add list=$AddressList comment=make.com address=20.119.0.33 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.164.206.108]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.108 }
 :if ([:len [find where list=$AddressList and address=3.164.206.109]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.109 }
 :if ([:len [find where list=$AddressList and address=3.164.206.115]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.115 }
-:if ([:len [find where list=$AddressList and address=3.164.206.19]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.19 }
-:if ([:len [find where list=$AddressList and address=3.164.206.26]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.26 }
-:if ([:len [find where list=$AddressList and address=3.164.206.31]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.31 }
-:if ([:len [find where list=$AddressList and address=3.164.206.47]] = 0) do={ add list=$AddressList comment=make.com address=3.164.206.47 }

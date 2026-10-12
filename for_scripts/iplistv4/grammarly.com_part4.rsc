@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=100.30.170.108]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.170.108 }
+:if ([:len [find where list=$AddressList and address=100.30.18.153]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.18.153 }
+:if ([:len [find where list=$AddressList and address=100.30.19.95]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.19.95 }
+:if ([:len [find where list=$AddressList and address=100.30.207.150]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.207.150 }
+:if ([:len [find where list=$AddressList and address=100.30.210.77]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.210.77 }
+:if ([:len [find where list=$AddressList and address=100.30.22.237]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.22.237 }
+:if ([:len [find where list=$AddressList and address=100.30.245.186]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.245.186 }
+:if ([:len [find where list=$AddressList and address=100.30.250.61]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.250.61 }
+:if ([:len [find where list=$AddressList and address=100.30.27.164]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.27.164 }
+:if ([:len [find where list=$AddressList and address=100.30.28.202]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.28.202 }
+:if ([:len [find where list=$AddressList and address=100.30.28.81]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.28.81 }
+:if ([:len [find where list=$AddressList and address=100.30.32.14]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.32.14 }
+:if ([:len [find where list=$AddressList and address=100.30.34.232]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.34.232 }
 :if ([:len [find where list=$AddressList and address=100.30.37.71]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.37.71 }
 :if ([:len [find where list=$AddressList and address=100.30.4.58]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.4.58 }
 :if ([:len [find where list=$AddressList and address=100.30.43.77]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.30.43.77 }
@@ -167,16 +180,3 @@
 :if ([:len [find where list=$AddressList and address=100.49.177.247]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.177.247 }
 :if ([:len [find where list=$AddressList and address=100.49.180.138]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.180.138 }
 :if ([:len [find where list=$AddressList and address=100.49.182.154]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.182.154 }
-:if ([:len [find where list=$AddressList and address=100.49.183.199]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.183.199 }
-:if ([:len [find where list=$AddressList and address=100.49.186.62]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.186.62 }
-:if ([:len [find where list=$AddressList and address=100.49.190.204]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.190.204 }
-:if ([:len [find where list=$AddressList and address=100.49.192.219]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.192.219 }
-:if ([:len [find where list=$AddressList and address=100.49.195.251]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.195.251 }
-:if ([:len [find where list=$AddressList and address=100.49.2.252]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.2.252 }
-:if ([:len [find where list=$AddressList and address=100.49.2.72]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.2.72 }
-:if ([:len [find where list=$AddressList and address=100.49.201.9]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.201.9 }
-:if ([:len [find where list=$AddressList and address=100.49.203.130]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.203.130 }
-:if ([:len [find where list=$AddressList and address=100.49.203.146]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.203.146 }
-:if ([:len [find where list=$AddressList and address=100.49.205.163]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.205.163 }
-:if ([:len [find where list=$AddressList and address=100.49.206.252]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.206.252 }
-:if ([:len [find where list=$AddressList and address=100.49.207.126]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.49.207.126 }

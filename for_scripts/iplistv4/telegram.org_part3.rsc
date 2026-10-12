@@ -1,8 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=64.233.167.121]] = 0) do={ add list=$AddressList comment=telegram.org address=64.233.167.121 }
+:if ([:len [find where list=$AddressList and address=67.199.248.12]] = 0) do={ add list=$AddressList comment=telegram.org address=67.199.248.12 }
+:if ([:len [find where list=$AddressList and address=67.199.248.13]] = 0) do={ add list=$AddressList comment=telegram.org address=67.199.248.13 }
+:if ([:len [find where list=$AddressList and address=74.125.131.121]] = 0) do={ add list=$AddressList comment=telegram.org address=74.125.131.121 }
+:if ([:len [find where list=$AddressList and address=74.125.205.121]] = 0) do={ add list=$AddressList comment=telegram.org address=74.125.205.121 }
+:if ([:len [find where list=$AddressList and address=74.125.29.121]] = 0) do={ add list=$AddressList comment=telegram.org address=74.125.29.121 }
 :if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=telegram.org address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.5]] = 0) do={ add list=$AddressList comment=telegram.org address=8.47.69.5 }
 :if ([:len [find where list=$AddressList and address=8.47.69.6]] = 0) do={ add list=$AddressList comment=telegram.org address=8.47.69.6 }
 :if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=telegram.org address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.5]] = 0) do={ add list=$AddressList comment=telegram.org address=8.6.112.5 }
 :if ([:len [find where list=$AddressList and address=8.6.112.6]] = 0) do={ add list=$AddressList comment=telegram.org address=8.6.112.6 }
 :if ([:len [find where list=$AddressList and address=92.204.210.166]] = 0) do={ add list=$AddressList comment=telegram.org address=92.204.210.166 }
 :if ([:len [find where list=$AddressList and address=95.161.64.10]] = 0) do={ add list=$AddressList comment=telegram.org address=95.161.64.10 }

@@ -60,6 +60,7 @@
 :if ([:len [find where list=$AddressList and address=100.24.215.175]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.24.215.175 }
 :if ([:len [find where list=$AddressList and address=100.24.217.151]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.24.217.151 }
 :if ([:len [find where list=$AddressList and address=100.24.225.130]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.24.225.130 }
+:if ([:len [find where list=$AddressList and address=100.24.225.147]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.24.225.147 }
 :if ([:len [find where list=$AddressList and address=100.24.227.123]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.24.227.123 }
 :if ([:len [find where list=$AddressList and address=100.24.227.239]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.24.227.239 }
 :if ([:len [find where list=$AddressList and address=100.24.230.151]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.24.230.151 }
@@ -129,6 +130,7 @@
 :if ([:len [find where list=$AddressList and address=100.25.162.136]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.162.136 }
 :if ([:len [find where list=$AddressList and address=100.25.163.171]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.163.171 }
 :if ([:len [find where list=$AddressList and address=100.25.163.219]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.163.219 }
+:if ([:len [find where list=$AddressList and address=100.25.163.39]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.163.39 }
 :if ([:len [find where list=$AddressList and address=100.25.17.209]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.17.209 }
 :if ([:len [find where list=$AddressList and address=100.25.176.135]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.176.135 }
 :if ([:len [find where list=$AddressList and address=100.25.176.218]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.176.218 }
@@ -139,6 +141,7 @@
 :if ([:len [find where list=$AddressList and address=100.25.182.55]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.182.55 }
 :if ([:len [find where list=$AddressList and address=100.25.184.40]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.184.40 }
 :if ([:len [find where list=$AddressList and address=100.25.187.11]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.187.11 }
+:if ([:len [find where list=$AddressList and address=100.25.193.173]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.193.173 }
 :if ([:len [find where list=$AddressList and address=100.25.200.111]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.200.111 }
 :if ([:len [find where list=$AddressList and address=100.25.200.174]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.200.174 }
 :if ([:len [find where list=$AddressList and address=100.25.203.183]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.203.183 }
@@ -177,6 +180,3 @@
 :if ([:len [find where list=$AddressList and address=100.25.56.178]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.56.178 }
 :if ([:len [find where list=$AddressList and address=100.25.57.160]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.57.160 }
 :if ([:len [find where list=$AddressList and address=100.25.58.241]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.58.241 }
-:if ([:len [find where list=$AddressList and address=100.25.58.75]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.58.75 }
-:if ([:len [find where list=$AddressList and address=100.25.6.215]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.6.215 }
-:if ([:len [find where list=$AddressList and address=100.25.61.37]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.61.37 }

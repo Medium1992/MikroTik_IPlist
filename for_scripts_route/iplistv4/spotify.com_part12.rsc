@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=2.18.79.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.79.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.18.79.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.79.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.18.79.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.79.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.18.79.107 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.79.107 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.18.79.108 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.79.108 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.18.79.109 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.79.109 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.18.79.110 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.79.110 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.18.79.111 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.79.111 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.18.79.112 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.18.79.112 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=2.19.126.218 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.218 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.19.126.219 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.219 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.19.126.220 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.220 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.221 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.221 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.222 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.222 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.224 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.224 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.225 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.225 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.78 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.78 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.19.126.81 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.19.126.81 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }

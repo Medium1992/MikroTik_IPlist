@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.66.218.61]] = 0) do={ add list=$AddressList comment=chatgpt.com address=18.66.218.61 }
+:if ([:len [find where list=$AddressList and address=18.66.218.69]] = 0) do={ add list=$AddressList comment=chatgpt.com address=18.66.218.69 }
+:if ([:len [find where list=$AddressList and address=18.66.218.84]] = 0) do={ add list=$AddressList comment=chatgpt.com address=18.66.218.84 }
+:if ([:len [find where list=$AddressList and address=18.66.220.47]] = 0) do={ add list=$AddressList comment=chatgpt.com address=18.66.220.47 }
 :if ([:len [find where list=$AddressList and address=18.66.235.48]] = 0) do={ add list=$AddressList comment=chatgpt.com address=18.66.235.48 }
 :if ([:len [find where list=$AddressList and address=18.66.27.120]] = 0) do={ add list=$AddressList comment=chatgpt.com address=18.66.27.120 }
 :if ([:len [find where list=$AddressList and address=18.66.27.42]] = 0) do={ add list=$AddressList comment=chatgpt.com address=18.66.27.42 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=4.150.223.105]] = 0) do={ add list=$AddressList comment=chatgpt.com address=4.150.223.105 }
 :if ([:len [find where list=$AddressList and address=4.150.223.106]] = 0) do={ add list=$AddressList comment=chatgpt.com address=4.150.223.106 }
 :if ([:len [find where list=$AddressList and address=4.150.223.107]] = 0) do={ add list=$AddressList comment=chatgpt.com address=4.150.223.107 }
-:if ([:len [find where list=$AddressList and address=4.150.223.108]] = 0) do={ add list=$AddressList comment=chatgpt.com address=4.150.223.108 }
-:if ([:len [find where list=$AddressList and address=4.150.223.109]] = 0) do={ add list=$AddressList comment=chatgpt.com address=4.150.223.109 }
-:if ([:len [find where list=$AddressList and address=4.150.223.110]] = 0) do={ add list=$AddressList comment=chatgpt.com address=4.150.223.110 }
-:if ([:len [find where list=$AddressList and address=4.150.223.111]] = 0) do={ add list=$AddressList comment=chatgpt.com address=4.150.223.111 }

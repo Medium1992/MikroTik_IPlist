@@ -110,6 +110,9 @@
 :if ([:len [find where list=$AddressList and address=57.144.112.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.112.5 }
 :if ([:len [find where list=$AddressList and address=57.144.114.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.114.5 }
 :if ([:len [find where list=$AddressList and address=57.144.116.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.116.5 }
+:if ([:len [find where list=$AddressList and address=57.144.118.192]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.118.192 }
+:if ([:len [find where list=$AddressList and address=57.144.118.34]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.118.34 }
+:if ([:len [find where list=$AddressList and address=57.144.118.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.118.5 }
 :if ([:len [find where list=$AddressList and address=57.144.120.128]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.120.128 }
 :if ([:len [find where list=$AddressList and address=57.144.120.141]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.120.141 }
 :if ([:len [find where list=$AddressList and address=57.144.120.144]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.120.144 }
@@ -177,6 +180,3 @@
 :if ([:len [find where list=$AddressList and address=57.144.168.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.168.5 }
 :if ([:len [find where list=$AddressList and address=57.144.172.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.172.5 }
 :if ([:len [find where list=$AddressList and address=57.144.174.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.174.5 }
-:if ([:len [find where list=$AddressList and address=57.144.176.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.176.5 }
-:if ([:len [find where list=$AddressList and address=57.144.178.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.178.5 }
-:if ([:len [find where list=$AddressList and address=57.144.180.141]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.180.141 }

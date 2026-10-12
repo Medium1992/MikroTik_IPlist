@@ -7,7 +7,6 @@
 :if ([:len [find where list=$AddressList and address=139.241.129.0/24]] = 0) do={ add list=$AddressList comment=AS27066 address=139.241.129.0/24 }
 :if ([:len [find where list=$AddressList and address=139.241.131.0/24]] = 0) do={ add list=$AddressList comment=AS27066 address=139.241.131.0/24 }
 :if ([:len [find where list=$AddressList and address=139.241.132.0/23]] = 0) do={ add list=$AddressList comment=AS27066 address=139.241.132.0/23 }
-:if ([:len [find where list=$AddressList and address=139.241.134.0/24]] = 0) do={ add list=$AddressList comment=AS27066 address=139.241.134.0/24 }
 :if ([:len [find where list=$AddressList and address=139.241.137.0/24]] = 0) do={ add list=$AddressList comment=AS27066 address=139.241.137.0/24 }
 :if ([:len [find where list=$AddressList and address=139.241.139.0/24]] = 0) do={ add list=$AddressList comment=AS27066 address=139.241.139.0/24 }
 :if ([:len [find where list=$AddressList and address=139.241.147.0/24]] = 0) do={ add list=$AddressList comment=AS27066 address=139.241.147.0/24 }
@@ -24,6 +23,7 @@
 :if ([:len [find where list=$AddressList and address=159.77.106.0/23]] = 0) do={ add list=$AddressList comment=AS27066 address=159.77.106.0/23 }
 :if ([:len [find where list=$AddressList and address=159.77.33.0/24]] = 0) do={ add list=$AddressList comment=AS27066 address=159.77.33.0/24 }
 :if ([:len [find where list=$AddressList and address=159.77.34.0/23]] = 0) do={ add list=$AddressList comment=AS27066 address=159.77.34.0/23 }
+:if ([:len [find where list=$AddressList and address=159.77.44.0/24]] = 0) do={ add list=$AddressList comment=AS27066 address=159.77.44.0/24 }
 :if ([:len [find where list=$AddressList and address=159.77.46.0/23]] = 0) do={ add list=$AddressList comment=AS27066 address=159.77.46.0/23 }
 :if ([:len [find where list=$AddressList and address=159.77.79.0/24]] = 0) do={ add list=$AddressList comment=AS27066 address=159.77.79.0/24 }
 :if ([:len [find where list=$AddressList and address=159.77.80.0/23]] = 0) do={ add list=$AddressList comment=AS27066 address=159.77.80.0/23 }

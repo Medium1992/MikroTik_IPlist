@@ -95,7 +95,6 @@
 :if ([:len [find where list=$AddressList and address=193.180.247.0/24]] = 0) do={ add list=$AddressList comment=AS1257 address=193.180.247.0/24 }
 :if ([:len [find where list=$AddressList and address=193.180.254.0/24]] = 0) do={ add list=$AddressList comment=AS1257 address=193.180.254.0/24 }
 :if ([:len [find where list=$AddressList and address=193.180.59.0/24]] = 0) do={ add list=$AddressList comment=AS1257 address=193.180.59.0/24 }
-:if ([:len [find where list=$AddressList and address=193.180.60.0/24]] = 0) do={ add list=$AddressList comment=AS1257 address=193.180.60.0/24 }
 :if ([:len [find where list=$AddressList and address=193.181.1.0/24]] = 0) do={ add list=$AddressList comment=AS1257 address=193.181.1.0/24 }
 :if ([:len [find where list=$AddressList and address=193.181.188.0/23]] = 0) do={ add list=$AddressList comment=AS1257 address=193.181.188.0/23 }
 :if ([:len [find where list=$AddressList and address=193.181.232.0/23]] = 0) do={ add list=$AddressList comment=AS1257 address=193.181.232.0/23 }
@@ -159,6 +158,7 @@
 :if ([:len [find where list=$AddressList and address=194.14.15.0/24]] = 0) do={ add list=$AddressList comment=AS1257 address=194.14.15.0/24 }
 :if ([:len [find where list=$AddressList and address=194.14.160.0/24]] = 0) do={ add list=$AddressList comment=AS1257 address=194.14.160.0/24 }
 :if ([:len [find where list=$AddressList and address=194.14.166.0/23]] = 0) do={ add list=$AddressList comment=AS1257 address=194.14.166.0/23 }
+:if ([:len [find where list=$AddressList and address=194.14.170.0/23]] = 0) do={ add list=$AddressList comment=AS1257 address=194.14.170.0/23 }
 :if ([:len [find where list=$AddressList and address=194.14.178.0/24]] = 0) do={ add list=$AddressList comment=AS1257 address=194.14.178.0/24 }
 :if ([:len [find where list=$AddressList and address=194.14.192.0/23]] = 0) do={ add list=$AddressList comment=AS1257 address=194.14.192.0/23 }
 :if ([:len [find where list=$AddressList and address=194.14.205.0/24]] = 0) do={ add list=$AddressList comment=AS1257 address=194.14.205.0/24 }

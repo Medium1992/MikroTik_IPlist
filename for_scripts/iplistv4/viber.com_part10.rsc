@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.219.212.214]] = 0) do={ add list=$AddressList comment=viber.com address=13.219.212.214 }
+:if ([:len [find where list=$AddressList and address=13.219.215.74]] = 0) do={ add list=$AddressList comment=viber.com address=13.219.215.74 }
+:if ([:len [find where list=$AddressList and address=13.219.30.247]] = 0) do={ add list=$AddressList comment=viber.com address=13.219.30.247 }
+:if ([:len [find where list=$AddressList and address=13.219.46.61]] = 0) do={ add list=$AddressList comment=viber.com address=13.219.46.61 }
+:if ([:len [find where list=$AddressList and address=13.219.53.204]] = 0) do={ add list=$AddressList comment=viber.com address=13.219.53.204 }
+:if ([:len [find where list=$AddressList and address=13.219.58.131]] = 0) do={ add list=$AddressList comment=viber.com address=13.219.58.131 }
+:if ([:len [find where list=$AddressList and address=13.219.62.241]] = 0) do={ add list=$AddressList comment=viber.com address=13.219.62.241 }
+:if ([:len [find where list=$AddressList and address=13.219.63.218]] = 0) do={ add list=$AddressList comment=viber.com address=13.219.63.218 }
+:if ([:len [find where list=$AddressList and address=13.222.75.189]] = 0) do={ add list=$AddressList comment=viber.com address=13.222.75.189 }
+:if ([:len [find where list=$AddressList and address=13.222.78.184]] = 0) do={ add list=$AddressList comment=viber.com address=13.222.78.184 }
+:if ([:len [find where list=$AddressList and address=13.222.86.86]] = 0) do={ add list=$AddressList comment=viber.com address=13.222.86.86 }
 :if ([:len [find where list=$AddressList and address=13.223.110.194]] = 0) do={ add list=$AddressList comment=viber.com address=13.223.110.194 }
 :if ([:len [find where list=$AddressList and address=13.223.120.103]] = 0) do={ add list=$AddressList comment=viber.com address=13.223.120.103 }
 :if ([:len [find where list=$AddressList and address=13.223.120.164]] = 0) do={ add list=$AddressList comment=viber.com address=13.223.120.164 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.224.185.65]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.65 }
 :if ([:len [find where list=$AddressList and address=13.224.185.66]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.66 }
 :if ([:len [find where list=$AddressList and address=13.224.185.67]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.67 }
-:if ([:len [find where list=$AddressList and address=13.224.185.7]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.7 }
-:if ([:len [find where list=$AddressList and address=13.224.185.71]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.71 }
-:if ([:len [find where list=$AddressList and address=13.224.185.72]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.72 }
-:if ([:len [find where list=$AddressList and address=13.224.185.78]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.78 }
-:if ([:len [find where list=$AddressList and address=13.224.185.79]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.79 }
-:if ([:len [find where list=$AddressList and address=13.224.185.83]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.83 }
-:if ([:len [find where list=$AddressList and address=13.224.185.86]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.86 }
-:if ([:len [find where list=$AddressList and address=13.224.185.87]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.87 }
-:if ([:len [find where list=$AddressList and address=13.224.185.89]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.89 }
-:if ([:len [find where list=$AddressList and address=13.224.185.9]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.9 }
-:if ([:len [find where list=$AddressList and address=13.224.185.92]] = 0) do={ add list=$AddressList comment=viber.com address=13.224.185.92 }

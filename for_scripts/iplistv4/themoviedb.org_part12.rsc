@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.68.30]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.164.68.30 }
+:if ([:len [find where list=$AddressList and address=3.164.68.31]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.164.68.31 }
+:if ([:len [find where list=$AddressList and address=3.164.68.33]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.164.68.33 }
 :if ([:len [find where list=$AddressList and address=3.164.68.36]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.164.68.36 }
 :if ([:len [find where list=$AddressList and address=3.164.68.4]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.164.68.4 }
 :if ([:len [find where list=$AddressList and address=3.164.68.44]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.164.68.44 }
@@ -177,6 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.166.81.109]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.166.81.109 }
 :if ([:len [find where list=$AddressList and address=3.166.81.110]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.166.81.110 }
 :if ([:len [find where list=$AddressList and address=3.166.81.117]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.166.81.117 }
-:if ([:len [find where list=$AddressList and address=3.166.81.118]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.166.81.118 }
-:if ([:len [find where list=$AddressList and address=3.166.81.46]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.166.81.46 }
-:if ([:len [find where list=$AddressList and address=3.166.81.52]] = 0) do={ add list=$AddressList comment=themoviedb.org address=3.166.81.52 }

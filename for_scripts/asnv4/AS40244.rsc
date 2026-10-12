@@ -3,6 +3,7 @@
 :if ([:len [find where list=$AddressList and address=104.129.168.0/23]] = 0) do={ add list=$AddressList comment=AS40244 address=104.129.168.0/23 }
 :if ([:len [find where list=$AddressList and address=104.129.170.0/24]] = 0) do={ add list=$AddressList comment=AS40244 address=104.129.170.0/24 }
 :if ([:len [find where list=$AddressList and address=151.245.20.0/24]] = 0) do={ add list=$AddressList comment=AS40244 address=151.245.20.0/24 }
+:if ([:len [find where list=$AddressList and address=16.5.25.0/24]] = 0) do={ add list=$AddressList comment=AS40244 address=16.5.25.0/24 }
 :if ([:len [find where list=$AddressList and address=162.213.120.0/22]] = 0) do={ add list=$AddressList comment=AS40244 address=162.213.120.0/22 }
 :if ([:len [find where list=$AddressList and address=162.250.200.0/22]] = 0) do={ add list=$AddressList comment=AS40244 address=162.250.200.0/22 }
 :if ([:len [find where list=$AddressList and address=163.182.168.0/21]] = 0) do={ add list=$AddressList comment=AS40244 address=163.182.168.0/21 }
@@ -21,6 +22,7 @@
 :if ([:len [find where list=$AddressList and address=209.240.108.0/23]] = 0) do={ add list=$AddressList comment=AS40244 address=209.240.108.0/23 }
 :if ([:len [find where list=$AddressList and address=209.240.110.0/24]] = 0) do={ add list=$AddressList comment=AS40244 address=209.240.110.0/24 }
 :if ([:len [find where list=$AddressList and address=209.240.96.0/21]] = 0) do={ add list=$AddressList comment=AS40244 address=209.240.96.0/21 }
+:if ([:len [find where list=$AddressList and address=212.100.178.0/24]] = 0) do={ add list=$AddressList comment=AS40244 address=212.100.178.0/24 }
 :if ([:len [find where list=$AddressList and address=216.71.105.0/24]] = 0) do={ add list=$AddressList comment=AS40244 address=216.71.105.0/24 }
 :if ([:len [find where list=$AddressList and address=64.128.116.0/23]] = 0) do={ add list=$AddressList comment=AS40244 address=64.128.116.0/23 }
 :if ([:len [find where list=$AddressList and address=64.128.190.0/23]] = 0) do={ add list=$AddressList comment=AS40244 address=64.128.190.0/23 }

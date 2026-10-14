@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=207.252.136.0/21 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=207.45.104.0/21 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=207.45.224.0/20 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=207.45.56.0/21 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=207.45.96.0/21 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=207.70.192.0/19 } on-error={}
@@ -181,6 +184,7 @@
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=45.135.48.0/22 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=45.136.5.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=45.137.201.0/24 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=45.138.12.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=45.138.16.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=45.139.104.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=45.141.12.0/22 } on-error={}
@@ -296,7 +300,3 @@
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=74.114.148.0/22 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=76.74.0.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=76.74.36.0/24 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=76.74.40.0/24 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=76.74.42.0/24 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=76.74.52.0/24 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=76.74.60.0/24 } on-error={}

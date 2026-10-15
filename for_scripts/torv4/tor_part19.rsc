@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:do { add dynamic=yes list=$AddressList comment=tor address=62.210.122.209/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=62.210.123.24/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=62.210.125.130/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=62.210.181.63/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=62.210.207.153/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=62.210.209.208/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=62.210.222.112/32 } on-error={}
@@ -29,6 +33,7 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.177.117.215/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.177.123.82/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.177.126.65/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.177.80.2/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.181.206.188/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.181.206.253/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.188.93.178/32 } on-error={}
@@ -245,8 +250,3 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.47/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.48/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.49/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.5/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.50/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.51/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.52/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.53/32 } on-error={}

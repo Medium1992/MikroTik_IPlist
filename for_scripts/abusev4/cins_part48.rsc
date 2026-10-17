@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.38/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.39/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.40/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.41/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.42/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.43/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.44/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.45/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.46/32 } on-error={}
@@ -31,17 +37,15 @@
 :do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.72/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.73/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=85.217.149.74/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=cins address=85.231.22.74/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=85.235.43.183/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=85.239.151.34/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=85.29.137.56/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=cins address=85.50.194.51/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=cins address=85.72.53.103/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=85.90.246.159/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=cins address=85.96.242.57/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=cins address=85.95.238.182/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=85.99.111.64/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.105.4.85/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.218.79.108/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=cins address=86.220.129.59/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.242.146.166/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.247.50.106/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.38.182.188/32 } on-error={}
@@ -249,7 +253,6 @@
 :do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.52/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.53/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.54/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.55/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.56/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.57/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.58/32 } on-error={}
@@ -297,6 +300,3 @@
 :do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.96/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.97/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.98/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=cins address=86.38.187.99/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=cins address=86.54.31.32/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=cins address=86.54.31.34/32 } on-error={}

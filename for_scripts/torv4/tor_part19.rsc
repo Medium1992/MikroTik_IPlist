@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.135/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.140/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.15/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.2/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.20/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.22/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.23/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.25/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.3/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.30/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.33/32 } on-error={}
@@ -242,11 +250,3 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.112/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.113/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.114/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.115/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.116/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.117/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.118/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.119/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.12/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.120/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.121/32 } on-error={}

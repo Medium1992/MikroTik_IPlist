@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.115/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.116/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.117/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.118/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.119/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.12/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.120/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.121/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.122/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.123/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.124/32 } on-error={}
@@ -242,11 +250,3 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.69/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.7/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.70/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.71/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.72/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.73/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.74/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.75/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.76/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.77/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.78/32 } on-error={}

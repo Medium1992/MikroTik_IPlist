@@ -1,5 +1,17 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.255.34]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.255.34 }
+:if ([:len [find where list=$AddressList and address=3.164.255.61]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.255.61 }
+:if ([:len [find where list=$AddressList and address=3.164.255.76]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.255.76 }
+:if ([:len [find where list=$AddressList and address=3.164.68.27]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.68.27 }
+:if ([:len [find where list=$AddressList and address=3.164.68.56]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.68.56 }
+:if ([:len [find where list=$AddressList and address=3.164.68.6]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.68.6 }
+:if ([:len [find where list=$AddressList and address=3.164.68.71]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.68.71 }
+:if ([:len [find where list=$AddressList and address=3.164.68.72]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.68.72 }
+:if ([:len [find where list=$AddressList and address=3.164.68.77]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.68.77 }
+:if ([:len [find where list=$AddressList and address=3.164.68.78]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.68.78 }
+:if ([:len [find where list=$AddressList and address=3.164.68.89]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.68.89 }
+:if ([:len [find where list=$AddressList and address=3.164.85.124]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.85.124 }
 :if ([:len [find where list=$AddressList and address=3.164.85.18]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.85.18 }
 :if ([:len [find where list=$AddressList and address=3.164.85.34]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.85.34 }
 :if ([:len [find where list=$AddressList and address=3.164.85.44]] = 0) do={ add list=$AddressList comment=deviantart.com address=3.164.85.44 }
@@ -167,16 +179,4 @@
 :if ([:len [find where list=$AddressList and address=52.222.177.14]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.177.14 }
 :if ([:len [find where list=$AddressList and address=52.222.177.2]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.177.2 }
 :if ([:len [find where list=$AddressList and address=52.222.177.99]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.177.99 }
-:if ([:len [find where list=$AddressList and address=52.222.214.113]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.214.113 }
-:if ([:len [find where list=$AddressList and address=52.222.214.118]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.214.118 }
-:if ([:len [find where list=$AddressList and address=52.222.214.119]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.214.119 }
-:if ([:len [find where list=$AddressList and address=52.222.214.78]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.214.78 }
-:if ([:len [find where list=$AddressList and address=52.222.236.105]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.236.105 }
-:if ([:len [find where list=$AddressList and address=52.222.236.25]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.236.25 }
-:if ([:len [find where list=$AddressList and address=52.222.236.49]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.236.49 }
-:if ([:len [find where list=$AddressList and address=52.222.236.97]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.236.97 }
-:if ([:len [find where list=$AddressList and address=52.84.108.101]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.84.108.101 }
-:if ([:len [find where list=$AddressList and address=52.84.108.21]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.84.108.21 }
-:if ([:len [find where list=$AddressList and address=52.84.108.24]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.84.108.24 }
-:if ([:len [find where list=$AddressList and address=52.84.108.41]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.84.108.41 }
-:if ([:len [find where list=$AddressList and address=52.84.118.21]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.84.118.21 }
+:if ([:len [find where list=$AddressList and address=52.222.201.23]] = 0) do={ add list=$AddressList comment=deviantart.com address=52.222.201.23 }

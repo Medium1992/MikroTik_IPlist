@@ -4,7 +4,6 @@
 :if ([:len [find where list=$AddressList and address=136.0.39.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=136.0.39.0/24 }
 :if ([:len [find where list=$AddressList and address=136.0.57.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=136.0.57.0/24 }
 :if ([:len [find where list=$AddressList and address=140.233.175.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=140.233.175.0/24 }
-:if ([:len [find where list=$AddressList and address=141.11.50.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=141.11.50.0/24 }
 :if ([:len [find where list=$AddressList and address=142.111.17.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=142.111.17.0/24 }
 :if ([:len [find where list=$AddressList and address=142.111.211.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=142.111.211.0/24 }
 :if ([:len [find where list=$AddressList and address=142.111.41.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=142.111.41.0/24 }
@@ -28,7 +27,6 @@
 :if ([:len [find where list=$AddressList and address=166.1.246.0/23]] = 0) do={ add list=$AddressList comment=AS7488 address=166.1.246.0/23 }
 :if ([:len [find where list=$AddressList and address=166.88.33.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=166.88.33.0/24 }
 :if ([:len [find where list=$AddressList and address=166.88.36.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=166.88.36.0/24 }
-:if ([:len [find where list=$AddressList and address=170.62.129.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=170.62.129.0/24 }
 :if ([:len [find where list=$AddressList and address=170.62.141.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=170.62.141.0/24 }
 :if ([:len [find where list=$AddressList and address=178.253.221.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=178.253.221.0/24 }
 :if ([:len [find where list=$AddressList and address=178.253.252.0/24]] = 0) do={ add list=$AddressList comment=AS7488 address=178.253.252.0/24 }

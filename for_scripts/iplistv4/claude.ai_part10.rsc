@@ -1,5 +1,20 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.66.147.5]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.147.5 }
+:if ([:len [find where list=$AddressList and address=18.66.147.8]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.147.8 }
+:if ([:len [find where list=$AddressList and address=18.66.171.103]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.103 }
+:if ([:len [find where list=$AddressList and address=18.66.171.104]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.104 }
+:if ([:len [find where list=$AddressList and address=18.66.171.108]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.108 }
+:if ([:len [find where list=$AddressList and address=18.66.171.113]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.113 }
+:if ([:len [find where list=$AddressList and address=18.66.171.17]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.17 }
+:if ([:len [find where list=$AddressList and address=18.66.171.21]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.21 }
+:if ([:len [find where list=$AddressList and address=18.66.171.27]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.27 }
+:if ([:len [find where list=$AddressList and address=18.66.171.51]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.51 }
+:if ([:len [find where list=$AddressList and address=18.66.171.54]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.54 }
+:if ([:len [find where list=$AddressList and address=18.66.171.65]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.65 }
+:if ([:len [find where list=$AddressList and address=18.66.171.82]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.82 }
+:if ([:len [find where list=$AddressList and address=18.66.171.90]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.90 }
+:if ([:len [find where list=$AddressList and address=18.66.171.91]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.91 }
 :if ([:len [find where list=$AddressList and address=18.66.171.94]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.94 }
 :if ([:len [find where list=$AddressList and address=18.66.171.95]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.171.95 }
 :if ([:len [find where list=$AddressList and address=18.66.192.113]] = 0) do={ add list=$AddressList comment=claude.ai address=18.66.192.113 }
@@ -165,18 +180,3 @@
 :if ([:len [find where list=$AddressList and address=216.137.52.47]] = 0) do={ add list=$AddressList comment=claude.ai address=216.137.52.47 }
 :if ([:len [find where list=$AddressList and address=216.137.52.55]] = 0) do={ add list=$AddressList comment=claude.ai address=216.137.52.55 }
 :if ([:len [find where list=$AddressList and address=216.137.52.71]] = 0) do={ add list=$AddressList comment=claude.ai address=216.137.52.71 }
-:if ([:len [find where list=$AddressList and address=216.137.52.95]] = 0) do={ add list=$AddressList comment=claude.ai address=216.137.52.95 }
-:if ([:len [find where list=$AddressList and address=216.58.198.115]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.198.115 }
-:if ([:len [find where list=$AddressList and address=216.58.198.179]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.198.179 }
-:if ([:len [find where list=$AddressList and address=216.58.198.19]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.198.19 }
-:if ([:len [find where list=$AddressList and address=216.58.198.211]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.198.211 }
-:if ([:len [find where list=$AddressList and address=216.58.198.51]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.198.51 }
-:if ([:len [find where list=$AddressList and address=216.58.201.179]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.201.179 }
-:if ([:len [find where list=$AddressList and address=216.58.201.211]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.201.211 }
-:if ([:len [find where list=$AddressList and address=216.58.201.243]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.201.243 }
-:if ([:len [find where list=$AddressList and address=216.58.204.115]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.204.115 }
-:if ([:len [find where list=$AddressList and address=216.58.205.147]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.205.147 }
-:if ([:len [find where list=$AddressList and address=216.58.207.115]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.207.115 }
-:if ([:len [find where list=$AddressList and address=216.58.207.51]] = 0) do={ add list=$AddressList comment=claude.ai address=216.58.207.51 }
-:if ([:len [find where list=$AddressList and address=23.20.114.170]] = 0) do={ add list=$AddressList comment=claude.ai address=23.20.114.170 }
-:if ([:len [find where list=$AddressList and address=23.20.152.53]] = 0) do={ add list=$AddressList comment=claude.ai address=23.20.152.53 }

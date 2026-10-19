@@ -6,7 +6,7 @@
 :if ([:len [find where list=$AddressList and address=131.65.192.0/19]] = 0) do={ add list=$AddressList comment=AS5852 address=131.65.192.0/19 }
 :if ([:len [find where list=$AddressList and address=131.69.0.0/19]] = 0) do={ add list=$AddressList comment=AS5852 address=131.69.0.0/19 }
 :if ([:len [find where list=$AddressList and address=131.69.128.0/22]] = 0) do={ add list=$AddressList comment=AS5852 address=131.69.128.0/22 }
-:if ([:len [find where list=$AddressList and address=131.69.132.0/24]] = 0) do={ add list=$AddressList comment=AS5852 address=131.69.132.0/24 }
+:if ([:len [find where list=$AddressList and address=131.69.132.0/23]] = 0) do={ add list=$AddressList comment=AS5852 address=131.69.132.0/23 }
 :if ([:len [find where list=$AddressList and address=131.69.32.0/20]] = 0) do={ add list=$AddressList comment=AS5852 address=131.69.32.0/20 }
 :if ([:len [find where list=$AddressList and address=131.69.48.0/23]] = 0) do={ add list=$AddressList comment=AS5852 address=131.69.48.0/23 }
 :if ([:len [find where list=$AddressList and address=131.69.50.0/24]] = 0) do={ add list=$AddressList comment=AS5852 address=131.69.50.0/24 }
@@ -111,9 +111,13 @@
 :if ([:len [find where list=$AddressList and address=138.152.38.0/23]] = 0) do={ add list=$AddressList comment=AS5852 address=138.152.38.0/23 }
 :if ([:len [find where list=$AddressList and address=138.152.4.0/23]] = 0) do={ add list=$AddressList comment=AS5852 address=138.152.4.0/23 }
 :if ([:len [find where list=$AddressList and address=138.152.49.0/24]] = 0) do={ add list=$AddressList comment=AS5852 address=138.152.49.0/24 }
+:if ([:len [find where list=$AddressList and address=138.152.50.0/23]] = 0) do={ add list=$AddressList comment=AS5852 address=138.152.50.0/23 }
+:if ([:len [find where list=$AddressList and address=138.152.52.0/22]] = 0) do={ add list=$AddressList comment=AS5852 address=138.152.52.0/22 }
+:if ([:len [find where list=$AddressList and address=138.152.56.0/21]] = 0) do={ add list=$AddressList comment=AS5852 address=138.152.56.0/21 }
 :if ([:len [find where list=$AddressList and address=138.152.6.0/24]] = 0) do={ add list=$AddressList comment=AS5852 address=138.152.6.0/24 }
 :if ([:len [find where list=$AddressList and address=138.152.64.0/19]] = 0) do={ add list=$AddressList comment=AS5852 address=138.152.64.0/19 }
 :if ([:len [find where list=$AddressList and address=138.152.96.0/22]] = 0) do={ add list=$AddressList comment=AS5852 address=138.152.96.0/22 }
+:if ([:len [find where list=$AddressList and address=138.153.100.0/22]] = 0) do={ add list=$AddressList comment=AS5852 address=138.153.100.0/22 }
 :if ([:len [find where list=$AddressList and address=138.153.121.0/24]] = 0) do={ add list=$AddressList comment=AS5852 address=138.153.121.0/24 }
 :if ([:len [find where list=$AddressList and address=138.153.64.0/19]] = 0) do={ add list=$AddressList comment=AS5852 address=138.153.64.0/19 }
 :if ([:len [find where list=$AddressList and address=138.153.97.0/24]] = 0) do={ add list=$AddressList comment=AS5852 address=138.153.97.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=140.13.224.0/24]] = 0) do={ add list=$AddressList comment=AS5852 address=140.13.224.0/24 }
 :if ([:len [find where list=$AddressList and address=140.13.226.0/23]] = 0) do={ add list=$AddressList comment=AS5852 address=140.13.226.0/23 }
 :if ([:len [find where list=$AddressList and address=140.13.231.0/24]] = 0) do={ add list=$AddressList comment=AS5852 address=140.13.231.0/24 }
-:if ([:len [find where list=$AddressList and address=140.13.232.0/24]] = 0) do={ add list=$AddressList comment=AS5852 address=140.13.232.0/24 }
-:if ([:len [find where list=$AddressList and address=140.13.234.0/24]] = 0) do={ add list=$AddressList comment=AS5852 address=140.13.234.0/24 }
-:if ([:len [find where list=$AddressList and address=140.13.238.0/23]] = 0) do={ add list=$AddressList comment=AS5852 address=140.13.238.0/23 }
-:if ([:len [find where list=$AddressList and address=140.13.24.0/21]] = 0) do={ add list=$AddressList comment=AS5852 address=140.13.24.0/21 }

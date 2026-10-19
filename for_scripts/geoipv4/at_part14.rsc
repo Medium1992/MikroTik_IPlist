@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=196.241.27.0/24]] = 0) do={ add list=$AddressList comment=at address=196.241.27.0/24 }
+:if ([:len [find where list=$AddressList and address=196.241.28.0/23]] = 0) do={ add list=$AddressList comment=at address=196.241.28.0/23 }
+:if ([:len [find where list=$AddressList and address=196.241.3.0/24]] = 0) do={ add list=$AddressList comment=at address=196.241.3.0/24 }
+:if ([:len [find where list=$AddressList and address=196.241.89.0/24]] = 0) do={ add list=$AddressList comment=at address=196.241.89.0/24 }
 :if ([:len [find where list=$AddressList and address=196.241.9.0/24]] = 0) do={ add list=$AddressList comment=at address=196.241.9.0/24 }
 :if ([:len [find where list=$AddressList and address=196.241.90.0/23]] = 0) do={ add list=$AddressList comment=at address=196.241.90.0/23 }
 :if ([:len [find where list=$AddressList and address=196.242.134.0/24]] = 0) do={ add list=$AddressList comment=at address=196.242.134.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=212.14.72.208/29]] = 0) do={ add list=$AddressList comment=at address=212.14.72.208/29 }
 :if ([:len [find where list=$AddressList and address=212.14.73.104/30]] = 0) do={ add list=$AddressList comment=at address=212.14.73.104/30 }
 :if ([:len [find where list=$AddressList and address=212.14.73.12/30]] = 0) do={ add list=$AddressList comment=at address=212.14.73.12/30 }
-:if ([:len [find where list=$AddressList and address=212.14.73.144/30]] = 0) do={ add list=$AddressList comment=at address=212.14.73.144/30 }
-:if ([:len [find where list=$AddressList and address=212.14.73.168/29]] = 0) do={ add list=$AddressList comment=at address=212.14.73.168/29 }
-:if ([:len [find where list=$AddressList and address=212.14.73.216/29]] = 0) do={ add list=$AddressList comment=at address=212.14.73.216/29 }
-:if ([:len [find where list=$AddressList and address=212.14.73.32/30]] = 0) do={ add list=$AddressList comment=at address=212.14.73.32/30 }

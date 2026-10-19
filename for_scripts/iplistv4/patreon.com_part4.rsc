@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=199.16.158.182]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.158.182 }
+:if ([:len [find where list=$AddressList and address=199.16.158.190]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.158.190 }
+:if ([:len [find where list=$AddressList and address=199.16.158.8]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.158.8 }
+:if ([:len [find where list=$AddressList and address=199.16.158.9]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.158.9 }
 :if ([:len [find where list=$AddressList and address=199.193.116.105]] = 0) do={ add list=$AddressList comment=patreon.com address=199.193.116.105 }
 :if ([:len [find where list=$AddressList and address=199.59.148.102]] = 0) do={ add list=$AddressList comment=patreon.com address=199.59.148.102 }
 :if ([:len [find where list=$AddressList and address=199.59.148.106]] = 0) do={ add list=$AddressList comment=patreon.com address=199.59.148.106 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.165.206.100]] = 0) do={ add list=$AddressList comment=patreon.com address=3.165.206.100 }
 :if ([:len [find where list=$AddressList and address=3.165.206.32]] = 0) do={ add list=$AddressList comment=patreon.com address=3.165.206.32 }
 :if ([:len [find where list=$AddressList and address=3.165.206.82]] = 0) do={ add list=$AddressList comment=patreon.com address=3.165.206.82 }
-:if ([:len [find where list=$AddressList and address=3.165.206.97]] = 0) do={ add list=$AddressList comment=patreon.com address=3.165.206.97 }
-:if ([:len [find where list=$AddressList and address=3.165.239.101]] = 0) do={ add list=$AddressList comment=patreon.com address=3.165.239.101 }
-:if ([:len [find where list=$AddressList and address=3.165.239.105]] = 0) do={ add list=$AddressList comment=patreon.com address=3.165.239.105 }
-:if ([:len [find where list=$AddressList and address=3.165.239.2]] = 0) do={ add list=$AddressList comment=patreon.com address=3.165.239.2 }

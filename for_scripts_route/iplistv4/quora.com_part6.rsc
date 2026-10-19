@@ -2,12 +2,15 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.232.122.159 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.122.159 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=3.232.122.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.122.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.232.138.250 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.138.250 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.232.22.241 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.22.241 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.232.253.113 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.253.113 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.232.28.223 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.28.223 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.232.49.121 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.49.121 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.232.60.203 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.60.203 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=3.233.103.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.233.103.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.233.128.146 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.233.128.146 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.233.22.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.233.22.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.233.251.251 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.233.251.251 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=34.194.182.246 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.194.182.246 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=34.194.205.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.194.205.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=34.194.215.103 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.194.215.103 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=34.194.251.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.194.251.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=34.194.28.206 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.194.28.206 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=34.194.84.166 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.194.84.166 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }

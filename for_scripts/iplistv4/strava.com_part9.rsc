@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.245.175.99]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.175.99 }
+:if ([:len [find where list=$AddressList and address=18.245.187.125]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.187.125 }
+:if ([:len [find where list=$AddressList and address=18.245.187.127]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.187.127 }
+:if ([:len [find where list=$AddressList and address=18.245.187.15]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.187.15 }
+:if ([:len [find where list=$AddressList and address=18.245.187.62]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.187.62 }
+:if ([:len [find where list=$AddressList and address=18.245.199.16]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.199.16 }
+:if ([:len [find where list=$AddressList and address=18.245.199.17]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.199.17 }
+:if ([:len [find where list=$AddressList and address=18.245.199.24]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.199.24 }
 :if ([:len [find where list=$AddressList and address=18.245.199.53]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.199.53 }
 :if ([:len [find where list=$AddressList and address=18.245.31.103]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.31.103 }
 :if ([:len [find where list=$AddressList and address=18.245.31.117]] = 0) do={ add list=$AddressList comment=strava.com address=18.245.31.117 }
@@ -37,6 +45,10 @@
 :if ([:len [find where list=$AddressList and address=18.64.119.54]] = 0) do={ add list=$AddressList comment=strava.com address=18.64.119.54 }
 :if ([:len [find where list=$AddressList and address=18.64.119.73]] = 0) do={ add list=$AddressList comment=strava.com address=18.64.119.73 }
 :if ([:len [find where list=$AddressList and address=18.64.119.91]] = 0) do={ add list=$AddressList comment=strava.com address=18.64.119.91 }
+:if ([:len [find where list=$AddressList and address=18.64.221.119]] = 0) do={ add list=$AddressList comment=strava.com address=18.64.221.119 }
+:if ([:len [find where list=$AddressList and address=18.64.221.39]] = 0) do={ add list=$AddressList comment=strava.com address=18.64.221.39 }
+:if ([:len [find where list=$AddressList and address=18.64.221.51]] = 0) do={ add list=$AddressList comment=strava.com address=18.64.221.51 }
+:if ([:len [find where list=$AddressList and address=18.64.221.7]] = 0) do={ add list=$AddressList comment=strava.com address=18.64.221.7 }
 :if ([:len [find where list=$AddressList and address=18.64.79.126]] = 0) do={ add list=$AddressList comment=strava.com address=18.64.79.126 }
 :if ([:len [find where list=$AddressList and address=18.64.79.19]] = 0) do={ add list=$AddressList comment=strava.com address=18.64.79.19 }
 :if ([:len [find where list=$AddressList and address=18.64.79.78]] = 0) do={ add list=$AddressList comment=strava.com address=18.64.79.78 }
@@ -168,15 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.66.26.78]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.26.78 }
 :if ([:len [find where list=$AddressList and address=18.66.26.81]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.26.81 }
 :if ([:len [find where list=$AddressList and address=18.66.26.9]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.26.9 }
-:if ([:len [find where list=$AddressList and address=18.66.26.92]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.26.92 }
-:if ([:len [find where list=$AddressList and address=18.66.26.95]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.26.95 }
-:if ([:len [find where list=$AddressList and address=18.66.26.98]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.26.98 }
-:if ([:len [find where list=$AddressList and address=18.66.26.99]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.26.99 }
-:if ([:len [find where list=$AddressList and address=18.66.27.114]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.27.114 }
-:if ([:len [find where list=$AddressList and address=18.66.27.115]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.27.115 }
-:if ([:len [find where list=$AddressList and address=18.66.27.120]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.27.120 }
-:if ([:len [find where list=$AddressList and address=18.66.27.123]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.27.123 }
-:if ([:len [find where list=$AddressList and address=18.66.27.129]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.27.129 }
-:if ([:len [find where list=$AddressList and address=18.66.27.22]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.27.22 }
-:if ([:len [find where list=$AddressList and address=18.66.27.25]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.27.25 }
-:if ([:len [find where list=$AddressList and address=18.66.27.39]] = 0) do={ add list=$AddressList comment=strava.com address=18.66.27.39 }

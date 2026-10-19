@@ -1,10 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=81.52.128.0/22]] = 0) do={ add list=$AddressList comment=AS5511 address=81.52.128.0/22 }
-:if ([:len [find where list=$AddressList and address=81.52.132.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=81.52.132.0/24 }
-:if ([:len [find where list=$AddressList and address=81.52.134.0/23]] = 0) do={ add list=$AddressList comment=AS5511 address=81.52.134.0/23 }
-:if ([:len [find where list=$AddressList and address=81.52.136.0/23]] = 0) do={ add list=$AddressList comment=AS5511 address=81.52.136.0/23 }
-:if ([:len [find where list=$AddressList and address=81.52.140.0/23]] = 0) do={ add list=$AddressList comment=AS5511 address=81.52.140.0/23 }
 :if ([:len [find where list=$AddressList and address=81.52.166.0/23]] = 0) do={ add list=$AddressList comment=AS5511 address=81.52.166.0/23 }
 :if ([:len [find where list=$AddressList and address=81.52.168.0/23]] = 0) do={ add list=$AddressList comment=AS5511 address=81.52.168.0/23 }
 :if ([:len [find where list=$AddressList and address=81.52.170.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=81.52.170.0/24 }
@@ -116,12 +111,10 @@
 :if ([:len [find where list=$AddressList and address=91.124.244.0/22]] = 0) do={ add list=$AddressList comment=AS5511 address=91.124.244.0/22 }
 :if ([:len [find where list=$AddressList and address=91.124.248.0/22]] = 0) do={ add list=$AddressList comment=AS5511 address=91.124.248.0/22 }
 :if ([:len [find where list=$AddressList and address=91.132.225.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=91.132.225.0/24 }
-:if ([:len [find where list=$AddressList and address=91.142.133.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=91.142.133.0/24 }
 :if ([:len [find where list=$AddressList and address=91.190.104.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=91.190.104.0/24 }
 :if ([:len [find where list=$AddressList and address=91.190.96.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=91.190.96.0/24 }
 :if ([:len [find where list=$AddressList and address=91.190.99.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=91.190.99.0/24 }
 :if ([:len [find where list=$AddressList and address=91.193.252.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=91.193.252.0/24 }
-:if ([:len [find where list=$AddressList and address=91.193.74.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=91.193.74.0/24 }
 :if ([:len [find where list=$AddressList and address=91.200.254.0/23]] = 0) do={ add list=$AddressList comment=AS5511 address=91.200.254.0/23 }
 :if ([:len [find where list=$AddressList and address=91.212.122.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=91.212.122.0/24 }
 :if ([:len [find where list=$AddressList and address=91.217.250.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=91.217.250.0/24 }
@@ -138,8 +131,6 @@
 :if ([:len [find where list=$AddressList and address=92.61.102.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=92.61.102.0/24 }
 :if ([:len [find where list=$AddressList and address=93.114.195.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=93.114.195.0/24 }
 :if ([:len [find where list=$AddressList and address=93.114.246.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=93.114.246.0/24 }
-:if ([:len [find where list=$AddressList and address=93.123.112.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=93.123.112.0/24 }
-:if ([:len [find where list=$AddressList and address=93.123.115.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=93.123.115.0/24 }
 :if ([:len [find where list=$AddressList and address=93.92.20.0/24]] = 0) do={ add list=$AddressList comment=AS5511 address=93.92.20.0/24 }
 :if ([:len [find where list=$AddressList and address=94.116.24.0/21]] = 0) do={ add list=$AddressList comment=AS5511 address=94.116.24.0/21 }
 :if ([:len [find where list=$AddressList and address=94.194.92.0/22]] = 0) do={ add list=$AddressList comment=AS5511 address=94.194.92.0/22 }

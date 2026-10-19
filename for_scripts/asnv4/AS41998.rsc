@@ -8,6 +8,9 @@
 :if ([:len [find where list=$AddressList and address=178.212.94.0/23]] = 0) do={ add list=$AddressList comment=AS41998 address=178.212.94.0/23 }
 :if ([:len [find where list=$AddressList and address=185.107.4.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=185.107.4.0/22 }
 :if ([:len [find where list=$AddressList and address=185.108.230.0/23]] = 0) do={ add list=$AddressList comment=AS41998 address=185.108.230.0/23 }
+:if ([:len [find where list=$AddressList and address=185.160.200.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=185.160.200.0/22 }
+:if ([:len [find where list=$AddressList and address=185.210.8.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=185.210.8.0/22 }
+:if ([:len [find where list=$AddressList and address=185.244.200.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=185.244.200.0/22 }
 :if ([:len [find where list=$AddressList and address=185.3.80.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=185.3.80.0/22 }
 :if ([:len [find where list=$AddressList and address=185.36.120.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=185.36.120.0/22 }
 :if ([:len [find where list=$AddressList and address=185.6.96.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=185.6.96.0/22 }
@@ -15,8 +18,12 @@
 :if ([:len [find where list=$AddressList and address=185.7.68.0/24]] = 0) do={ add list=$AddressList comment=AS41998 address=185.7.68.0/24 }
 :if ([:len [find where list=$AddressList and address=188.244.100.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=188.244.100.0/22 }
 :if ([:len [find where list=$AddressList and address=188.93.216.0/21]] = 0) do={ add list=$AddressList comment=AS41998 address=188.93.216.0/21 }
+:if ([:len [find where list=$AddressList and address=193.106.32.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=193.106.32.0/22 }
 :if ([:len [find where list=$AddressList and address=193.151.4.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=193.151.4.0/22 }
 :if ([:len [find where list=$AddressList and address=193.238.104.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=193.238.104.0/22 }
+:if ([:len [find where list=$AddressList and address=193.31.20.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=193.31.20.0/22 }
+:if ([:len [find where list=$AddressList and address=193.31.44.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=193.31.44.0/22 }
+:if ([:len [find where list=$AddressList and address=193.84.240.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=193.84.240.0/22 }
 :if ([:len [find where list=$AddressList and address=194.140.112.0/20]] = 0) do={ add list=$AddressList comment=AS41998 address=194.140.112.0/20 }
 :if ([:len [find where list=$AddressList and address=194.76.2.0/23]] = 0) do={ add list=$AddressList comment=AS41998 address=194.76.2.0/23 }
 :if ([:len [find where list=$AddressList and address=194.76.222.0/24]] = 0) do={ add list=$AddressList comment=AS41998 address=194.76.222.0/24 }
@@ -38,6 +45,7 @@
 :if ([:len [find where list=$AddressList and address=83.242.36.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=83.242.36.0/22 }
 :if ([:len [find where list=$AddressList and address=83.242.40.0/21]] = 0) do={ add list=$AddressList comment=AS41998 address=83.242.40.0/21 }
 :if ([:len [find where list=$AddressList and address=83.242.48.0/20]] = 0) do={ add list=$AddressList comment=AS41998 address=83.242.48.0/20 }
+:if ([:len [find where list=$AddressList and address=88.218.208.0/22]] = 0) do={ add list=$AddressList comment=AS41998 address=88.218.208.0/22 }
 :if ([:len [find where list=$AddressList and address=91.103.112.0/21]] = 0) do={ add list=$AddressList comment=AS41998 address=91.103.112.0/21 }
 :if ([:len [find where list=$AddressList and address=93.118.0.0/19]] = 0) do={ add list=$AddressList comment=AS41998 address=93.118.0.0/19 }
 :if ([:len [find where list=$AddressList and address=93.184.176.0/20]] = 0) do={ add list=$AddressList comment=AS41998 address=93.184.176.0/20 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=63.234.244.0/22]] = 0) do={ add list=$AddressList comment=AS209 address=63.234.244.0/22 }
+:if ([:len [find where list=$AddressList and address=63.234.248.0/21]] = 0) do={ add list=$AddressList comment=AS209 address=63.234.248.0/21 }
+:if ([:len [find where list=$AddressList and address=63.234.28.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=63.234.28.0/24 }
+:if ([:len [find where list=$AddressList and address=63.234.31.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=63.234.31.0/24 }
 :if ([:len [find where list=$AddressList and address=63.234.32.0/23]] = 0) do={ add list=$AddressList comment=AS209 address=63.234.32.0/23 }
 :if ([:len [find where list=$AddressList and address=63.234.34.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=63.234.34.0/24 }
 :if ([:len [find where list=$AddressList and address=63.234.36.0/22]] = 0) do={ add list=$AddressList comment=AS209 address=63.234.36.0/22 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=63.239.96.0/22]] = 0) do={ add list=$AddressList comment=AS209 address=63.239.96.0/22 }
 :if ([:len [find where list=$AddressList and address=64.238.226.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=64.238.226.0/24 }
 :if ([:len [find where list=$AddressList and address=64.238.228.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=64.238.228.0/24 }
-:if ([:len [find where list=$AddressList and address=64.238.231.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=64.238.231.0/24 }
-:if ([:len [find where list=$AddressList and address=64.238.240.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=64.238.240.0/24 }
-:if ([:len [find where list=$AddressList and address=64.238.243.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=64.238.243.0/24 }
-:if ([:len [find where list=$AddressList and address=64.238.251.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=64.238.251.0/24 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=162.120.184.32/31]] = 0) do={ add list=$AddressList comment=au address=162.120.184.32/31 }
+:if ([:len [find where list=$AddressList and address=162.120.184.49/32]] = 0) do={ add list=$AddressList comment=au address=162.120.184.49/32 }
+:if ([:len [find where list=$AddressList and address=162.120.184.96/31]] = 0) do={ add list=$AddressList comment=au address=162.120.184.96/31 }
+:if ([:len [find where list=$AddressList and address=162.120.185.113/32]] = 0) do={ add list=$AddressList comment=au address=162.120.185.113/32 }
 :if ([:len [find where list=$AddressList and address=162.120.185.32/31]] = 0) do={ add list=$AddressList comment=au address=162.120.185.32/31 }
 :if ([:len [find where list=$AddressList and address=162.120.185.49/32]] = 0) do={ add list=$AddressList comment=au address=162.120.185.49/32 }
 :if ([:len [find where list=$AddressList and address=162.120.185.96/31]] = 0) do={ add list=$AddressList comment=au address=162.120.185.96/31 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=163.47.216.0/22]] = 0) do={ add list=$AddressList comment=au address=163.47.216.0/22 }
 :if ([:len [find where list=$AddressList and address=163.47.252.0/22]] = 0) do={ add list=$AddressList comment=au address=163.47.252.0/22 }
 :if ([:len [find where list=$AddressList and address=163.47.47.0/24]] = 0) do={ add list=$AddressList comment=au address=163.47.47.0/24 }
-:if ([:len [find where list=$AddressList and address=163.47.48.0/20]] = 0) do={ add list=$AddressList comment=au address=163.47.48.0/20 }
-:if ([:len [find where list=$AddressList and address=163.47.64.0/21]] = 0) do={ add list=$AddressList comment=au address=163.47.64.0/21 }
-:if ([:len [find where list=$AddressList and address=163.47.72.0/22]] = 0) do={ add list=$AddressList comment=au address=163.47.72.0/22 }
-:if ([:len [find where list=$AddressList and address=163.47.92.0/22]] = 0) do={ add list=$AddressList comment=au address=163.47.92.0/22 }

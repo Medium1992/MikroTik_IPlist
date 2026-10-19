@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=200.50.96.0/19]] = 0) do={ add list=$AddressList comment=cl address=200.50.96.0/19 }
-:if ([:len [find where list=$AddressList and address=200.54.0.0/16]] = 0) do={ add list=$AddressList comment=cl address=200.54.0.0/16 }
-:if ([:len [find where list=$AddressList and address=200.55.192.0/19]] = 0) do={ add list=$AddressList comment=cl address=200.55.192.0/19 }
-:if ([:len [find where list=$AddressList and address=200.59.208.0/22]] = 0) do={ add list=$AddressList comment=cl address=200.59.208.0/22 }
 :if ([:len [find where list=$AddressList and address=200.6.18.0/24]] = 0) do={ add list=$AddressList comment=cl address=200.6.18.0/24 }
 :if ([:len [find where list=$AddressList and address=200.6.33.0/24]] = 0) do={ add list=$AddressList comment=cl address=200.6.33.0/24 }
 :if ([:len [find where list=$AddressList and address=200.6.53.0/24]] = 0) do={ add list=$AddressList comment=cl address=200.6.53.0/24 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=208.97.248.192/29]] = 0) do={ add list=$AddressList comment=cl address=208.97.248.192/29 }
 :if ([:len [find where list=$AddressList and address=209.120.208.64/29]] = 0) do={ add list=$AddressList comment=cl address=209.120.208.64/29 }
 :if ([:len [find where list=$AddressList and address=209.14.248.0/23]] = 0) do={ add list=$AddressList comment=cl address=209.14.248.0/23 }
+:if ([:len [find where list=$AddressList and address=209.170.108.104/29]] = 0) do={ add list=$AddressList comment=cl address=209.170.108.104/29 }
+:if ([:len [find where list=$AddressList and address=209.199.24.224/27]] = 0) do={ add list=$AddressList comment=cl address=209.199.24.224/27 }
+:if ([:len [find where list=$AddressList and address=209.199.26.0/24]] = 0) do={ add list=$AddressList comment=cl address=209.199.26.0/24 }
+:if ([:len [find where list=$AddressList and address=209.199.27.0/28]] = 0) do={ add list=$AddressList comment=cl address=209.199.27.0/28 }

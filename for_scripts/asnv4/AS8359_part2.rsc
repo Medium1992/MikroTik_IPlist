@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=81.177.72.0/22]] = 0) do={ add list=$AddressList comment=AS8359 address=81.177.72.0/22 }
+:if ([:len [find where list=$AddressList and address=81.177.76.0/23]] = 0) do={ add list=$AddressList comment=AS8359 address=81.177.76.0/23 }
 :if ([:len [find where list=$AddressList and address=81.177.79.0/24]] = 0) do={ add list=$AddressList comment=AS8359 address=81.177.79.0/24 }
 :if ([:len [find where list=$AddressList and address=81.195.0.0/17]] = 0) do={ add list=$AddressList comment=AS8359 address=81.195.0.0/17 }
 :if ([:len [find where list=$AddressList and address=81.195.128.0/23]] = 0) do={ add list=$AddressList comment=AS8359 address=81.195.128.0/23 }
@@ -61,8 +63,7 @@
 :if ([:len [find where list=$AddressList and address=89.175.0.0/16]] = 0) do={ add list=$AddressList comment=AS8359 address=89.175.0.0/16 }
 :if ([:len [find where list=$AddressList and address=89.22.188.0/22]] = 0) do={ add list=$AddressList comment=AS8359 address=89.22.188.0/22 }
 :if ([:len [find where list=$AddressList and address=89.251.111.0/24]] = 0) do={ add list=$AddressList comment=AS8359 address=89.251.111.0/24 }
-:if ([:len [find where list=$AddressList and address=91.143.60.0/23]] = 0) do={ add list=$AddressList comment=AS8359 address=91.143.60.0/23 }
-:if ([:len [find where list=$AddressList and address=91.143.63.0/24]] = 0) do={ add list=$AddressList comment=AS8359 address=91.143.63.0/24 }
+:if ([:len [find where list=$AddressList and address=91.143.60.0/22]] = 0) do={ add list=$AddressList comment=AS8359 address=91.143.60.0/22 }
 :if ([:len [find where list=$AddressList and address=91.185.76.0/22]] = 0) do={ add list=$AddressList comment=AS8359 address=91.185.76.0/22 }
 :if ([:len [find where list=$AddressList and address=91.185.87.0/24]] = 0) do={ add list=$AddressList comment=AS8359 address=91.185.87.0/24 }
 :if ([:len [find where list=$AddressList and address=91.195.210.0/23]] = 0) do={ add list=$AddressList comment=AS8359 address=91.195.210.0/23 }

@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=100.25.57.160]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.57.160 }
+:if ([:len [find where list=$AddressList and address=100.25.58.241]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.58.241 }
 :if ([:len [find where list=$AddressList and address=100.25.58.75]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.58.75 }
 :if ([:len [find where list=$AddressList and address=100.25.6.215]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.6.215 }
 :if ([:len [find where list=$AddressList and address=100.25.61.37]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.25.61.37 }
@@ -89,11 +91,13 @@
 :if ([:len [find where list=$AddressList and address=100.27.128.172]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.128.172 }
 :if ([:len [find where list=$AddressList and address=100.27.129.163]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.129.163 }
 :if ([:len [find where list=$AddressList and address=100.27.130.80]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.130.80 }
+:if ([:len [find where list=$AddressList and address=100.27.135.150]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.135.150 }
 :if ([:len [find where list=$AddressList and address=100.27.142.129]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.142.129 }
 :if ([:len [find where list=$AddressList and address=100.27.142.25]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.142.25 }
 :if ([:len [find where list=$AddressList and address=100.27.149.112]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.149.112 }
 :if ([:len [find where list=$AddressList and address=100.27.153.157]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.153.157 }
 :if ([:len [find where list=$AddressList and address=100.27.156.184]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.156.184 }
+:if ([:len [find where list=$AddressList and address=100.27.157.53]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.157.53 }
 :if ([:len [find where list=$AddressList and address=100.27.157.89]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.157.89 }
 :if ([:len [find where list=$AddressList and address=100.27.158.138]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.158.138 }
 :if ([:len [find where list=$AddressList and address=100.27.159.187]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.27.159.187 }
@@ -175,8 +179,4 @@
 :if ([:len [find where list=$AddressList and address=100.28.193.33]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.28.193.33 }
 :if ([:len [find where list=$AddressList and address=100.28.194.124]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.28.194.124 }
 :if ([:len [find where list=$AddressList and address=100.28.195.57]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.28.195.57 }
-:if ([:len [find where list=$AddressList and address=100.28.197.80]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.28.197.80 }
-:if ([:len [find where list=$AddressList and address=100.28.198.72]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.28.198.72 }
-:if ([:len [find where list=$AddressList and address=100.28.199.10]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.28.199.10 }
-:if ([:len [find where list=$AddressList and address=100.28.199.240]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.28.199.240 }
-:if ([:len [find where list=$AddressList and address=100.28.20.198]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.28.20.198 }
+:if ([:len [find where list=$AddressList and address=100.28.195.71]] = 0) do={ add list=$AddressList comment=grammarly.com address=100.28.195.71 }

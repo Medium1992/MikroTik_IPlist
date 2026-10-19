@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=23.38.108.165]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.38.108.165 }
+:if ([:len [find where list=$AddressList and address=23.38.112.105]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.38.112.105 }
+:if ([:len [find where list=$AddressList and address=23.38.112.16]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.38.112.16 }
+:if ([:len [find where list=$AddressList and address=23.38.123.139]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.38.123.139 }
+:if ([:len [find where list=$AddressList and address=23.38.123.146]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.38.123.146 }
+:if ([:len [find where list=$AddressList and address=23.38.123.147]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.38.123.147 }
 :if ([:len [find where list=$AddressList and address=23.38.123.149]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.38.123.149 }
 :if ([:len [find where list=$AddressList and address=23.38.123.153]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.38.123.153 }
 :if ([:len [find where list=$AddressList and address=23.38.123.68]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.38.123.68 }
@@ -78,6 +84,8 @@
 :if ([:len [find where list=$AddressList and address=23.53.35.141]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.53.35.141 }
 :if ([:len [find where list=$AddressList and address=23.53.35.142]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.53.35.142 }
 :if ([:len [find where list=$AddressList and address=23.53.35.146]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.53.35.146 }
+:if ([:len [find where list=$AddressList and address=23.53.42.163]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.53.42.163 }
+:if ([:len [find where list=$AddressList and address=23.53.42.179]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.53.42.179 }
 :if ([:len [find where list=$AddressList and address=23.53.43.104]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.53.43.104 }
 :if ([:len [find where list=$AddressList and address=23.53.43.155]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.53.43.155 }
 :if ([:len [find where list=$AddressList and address=23.53.43.40]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.53.43.40 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=23.64.12.65]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.64.12.65 }
 :if ([:len [find where list=$AddressList and address=23.64.12.66]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.64.12.66 }
 :if ([:len [find where list=$AddressList and address=23.64.12.67]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.64.12.67 }
-:if ([:len [find where list=$AddressList and address=23.64.12.80]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.64.12.80 }
-:if ([:len [find where list=$AddressList and address=23.64.12.98]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.64.12.98 }
-:if ([:len [find where list=$AddressList and address=23.65.124.64]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.65.124.64 }
-:if ([:len [find where list=$AddressList and address=23.65.124.79]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.65.124.79 }
-:if ([:len [find where list=$AddressList and address=23.72.139.18]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.72.139.18 }
-:if ([:len [find where list=$AddressList and address=23.72.139.27]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.72.139.27 }
-:if ([:len [find where list=$AddressList and address=23.72.36.209]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.72.36.209 }
-:if ([:len [find where list=$AddressList and address=23.72.36.216]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.72.36.216 }

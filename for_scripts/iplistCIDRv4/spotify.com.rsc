@@ -106,8 +106,7 @@
 :if ([:len [find where list=$AddressList and address=62.115.253.16/32]] = 0) do={ add list=$AddressList comment=spotify.com address=62.115.253.16/32 }
 :if ([:len [find where list=$AddressList and address=62.115.253.186/32]] = 0) do={ add list=$AddressList comment=spotify.com address=62.115.253.186/32 }
 :if ([:len [find where list=$AddressList and address=62.115.253.19/32]] = 0) do={ add list=$AddressList comment=spotify.com address=62.115.253.19/32 }
-:if ([:len [find where list=$AddressList and address=62.115.253.25/32]] = 0) do={ add list=$AddressList comment=spotify.com address=62.115.253.25/32 }
-:if ([:len [find where list=$AddressList and address=62.115.253.26/31]] = 0) do={ add list=$AddressList comment=spotify.com address=62.115.253.26/31 }
+:if ([:len [find where list=$AddressList and address=62.115.253.24/30]] = 0) do={ add list=$AddressList comment=spotify.com address=62.115.253.24/30 }
 :if ([:len [find where list=$AddressList and address=62.115.253.32/32]] = 0) do={ add list=$AddressList comment=spotify.com address=62.115.253.32/32 }
 :if ([:len [find where list=$AddressList and address=62.115.253.34/31]] = 0) do={ add list=$AddressList comment=spotify.com address=62.115.253.34/31 }
 :if ([:len [find where list=$AddressList and address=62.115.253.40/31]] = 0) do={ add list=$AddressList comment=spotify.com address=62.115.253.40/31 }

@@ -1,5 +1,18 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=84.53.132.179]] = 0) do={ add list=$AddressList comment=golosameriki.com address=84.53.132.179 }
+:if ([:len [find where list=$AddressList and address=84.53.133.155]] = 0) do={ add list=$AddressList comment=golosameriki.com address=84.53.133.155 }
+:if ([:len [find where list=$AddressList and address=88.221.123.104]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.123.104 }
+:if ([:len [find where list=$AddressList and address=88.221.123.105]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.123.105 }
+:if ([:len [find where list=$AddressList and address=88.221.123.107]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.123.107 }
+:if ([:len [find where list=$AddressList and address=88.221.123.26]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.123.26 }
+:if ([:len [find where list=$AddressList and address=88.221.123.50]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.123.50 }
+:if ([:len [find where list=$AddressList and address=88.221.196.155]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.196.155 }
+:if ([:len [find where list=$AddressList and address=88.221.196.176]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.196.176 }
+:if ([:len [find where list=$AddressList and address=88.221.196.209]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.196.209 }
+:if ([:len [find where list=$AddressList and address=88.221.196.218]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.196.218 }
+:if ([:len [find where list=$AddressList and address=88.221.196.243]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.196.243 }
+:if ([:len [find where list=$AddressList and address=88.221.197.187]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.197.187 }
 :if ([:len [find where list=$AddressList and address=88.221.197.59]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.197.59 }
 :if ([:len [find where list=$AddressList and address=88.221.197.67]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.197.67 }
 :if ([:len [find where list=$AddressList and address=88.221.197.90]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.197.90 }
@@ -20,6 +33,7 @@
 :if ([:len [find where list=$AddressList and address=88.221.83.234]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.83.234 }
 :if ([:len [find where list=$AddressList and address=88.221.92.132]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.92.132 }
 :if ([:len [find where list=$AddressList and address=88.221.92.139]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.92.139 }
+:if ([:len [find where list=$AddressList and address=88.221.92.144]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.92.144 }
 :if ([:len [find where list=$AddressList and address=88.221.92.145]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.92.145 }
 :if ([:len [find where list=$AddressList and address=88.221.92.158]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.92.158 }
 :if ([:len [find where list=$AddressList and address=88.221.92.168]] = 0) do={ add list=$AddressList comment=golosameriki.com address=88.221.92.168 }
@@ -166,17 +180,3 @@
 :if ([:len [find where list=$AddressList and address=95.100.195.4]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.195.4 }
 :if ([:len [find where list=$AddressList and address=95.100.195.51]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.195.51 }
 :if ([:len [find where list=$AddressList and address=95.100.200.171]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.200.171 }
-:if ([:len [find where list=$AddressList and address=95.100.200.18]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.200.18 }
-:if ([:len [find where list=$AddressList and address=95.100.200.187]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.200.187 }
-:if ([:len [find where list=$AddressList and address=95.100.200.208]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.200.208 }
-:if ([:len [find where list=$AddressList and address=95.100.200.232]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.200.232 }
-:if ([:len [find where list=$AddressList and address=95.100.200.66]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.200.66 }
-:if ([:len [find where list=$AddressList and address=95.100.242.90]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.242.90 }
-:if ([:len [find where list=$AddressList and address=95.100.248.194]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.248.194 }
-:if ([:len [find where list=$AddressList and address=95.100.248.204]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.248.204 }
-:if ([:len [find where list=$AddressList and address=95.100.248.219]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.248.219 }
-:if ([:len [find where list=$AddressList and address=95.100.248.25]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.248.25 }
-:if ([:len [find where list=$AddressList and address=95.100.248.26]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.248.26 }
-:if ([:len [find where list=$AddressList and address=95.100.248.27]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.248.27 }
-:if ([:len [find where list=$AddressList and address=95.100.248.30]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.248.30 }
-:if ([:len [find where list=$AddressList and address=95.100.248.33]] = 0) do={ add list=$AddressList comment=golosameriki.com address=95.100.248.33 }

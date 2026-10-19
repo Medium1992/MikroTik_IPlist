@@ -6,7 +6,7 @@
 :if ([:len [find where list=$AddressList and address=131.66.252.0/24]] = 0) do={ add list=$AddressList comment=AS138 address=131.66.252.0/24 }
 :if ([:len [find where list=$AddressList and address=131.66.44.0/22]] = 0) do={ add list=$AddressList comment=AS138 address=131.66.44.0/22 }
 :if ([:len [find where list=$AddressList and address=131.66.48.0/22]] = 0) do={ add list=$AddressList comment=AS138 address=131.66.48.0/22 }
-:if ([:len [find where list=$AddressList and address=141.234.0.0/17]] = 0) do={ add list=$AddressList comment=AS138 address=141.234.0.0/17 }
+:if ([:len [find where list=$AddressList and address=141.234.0.0/18]] = 0) do={ add list=$AddressList comment=AS138 address=141.234.0.0/18 }
 :if ([:len [find where list=$AddressList and address=144.183.127.0/24]] = 0) do={ add list=$AddressList comment=AS138 address=144.183.127.0/24 }
 :if ([:len [find where list=$AddressList and address=144.183.128.0/22]] = 0) do={ add list=$AddressList comment=AS138 address=144.183.128.0/22 }
 :if ([:len [find where list=$AddressList and address=144.183.15.0/24]] = 0) do={ add list=$AddressList comment=AS138 address=144.183.15.0/24 }
@@ -14,6 +14,5 @@
 :if ([:len [find where list=$AddressList and address=144.183.196.0/22]] = 0) do={ add list=$AddressList comment=AS138 address=144.183.196.0/22 }
 :if ([:len [find where list=$AddressList and address=144.183.20.0/24]] = 0) do={ add list=$AddressList comment=AS138 address=144.183.20.0/24 }
 :if ([:len [find where list=$AddressList and address=144.183.200.0/21]] = 0) do={ add list=$AddressList comment=AS138 address=144.183.200.0/21 }
-:if ([:len [find where list=$AddressList and address=144.183.216.0/24]] = 0) do={ add list=$AddressList comment=AS138 address=144.183.216.0/24 }
 :if ([:len [find where list=$AddressList and address=144.183.227.0/24]] = 0) do={ add list=$AddressList comment=AS138 address=144.183.227.0/24 }
 :if ([:len [find where list=$AddressList and address=144.183.32.0/22]] = 0) do={ add list=$AddressList comment=AS138 address=144.183.32.0/22 }

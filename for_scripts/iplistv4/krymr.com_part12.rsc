@@ -1,5 +1,24 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=23.65.124.70]] = 0) do={ add list=$AddressList comment=krymr.com address=23.65.124.70 }
+:if ([:len [find where list=$AddressList and address=23.65.124.99]] = 0) do={ add list=$AddressList comment=krymr.com address=23.65.124.99 }
+:if ([:len [find where list=$AddressList and address=23.65.151.92]] = 0) do={ add list=$AddressList comment=krymr.com address=23.65.151.92 }
+:if ([:len [find where list=$AddressList and address=23.65.196.113]] = 0) do={ add list=$AddressList comment=krymr.com address=23.65.196.113 }
+:if ([:len [find where list=$AddressList and address=23.65.196.35]] = 0) do={ add list=$AddressList comment=krymr.com address=23.65.196.35 }
+:if ([:len [find where list=$AddressList and address=23.66.129.135]] = 0) do={ add list=$AddressList comment=krymr.com address=23.66.129.135 }
+:if ([:len [find where list=$AddressList and address=23.66.3.10]] = 0) do={ add list=$AddressList comment=krymr.com address=23.66.3.10 }
+:if ([:len [find where list=$AddressList and address=23.66.3.14]] = 0) do={ add list=$AddressList comment=krymr.com address=23.66.3.14 }
+:if ([:len [find where list=$AddressList and address=23.67.129.157]] = 0) do={ add list=$AddressList comment=krymr.com address=23.67.129.157 }
+:if ([:len [find where list=$AddressList and address=23.67.130.102]] = 0) do={ add list=$AddressList comment=krymr.com address=23.67.130.102 }
+:if ([:len [find where list=$AddressList and address=23.67.165.112]] = 0) do={ add list=$AddressList comment=krymr.com address=23.67.165.112 }
+:if ([:len [find where list=$AddressList and address=23.7.132.140]] = 0) do={ add list=$AddressList comment=krymr.com address=23.7.132.140 }
+:if ([:len [find where list=$AddressList and address=23.7.45.147]] = 0) do={ add list=$AddressList comment=krymr.com address=23.7.45.147 }
+:if ([:len [find where list=$AddressList and address=23.72.139.25]] = 0) do={ add list=$AddressList comment=krymr.com address=23.72.139.25 }
+:if ([:len [find where list=$AddressList and address=23.72.139.33]] = 0) do={ add list=$AddressList comment=krymr.com address=23.72.139.33 }
+:if ([:len [find where list=$AddressList and address=23.72.139.8]] = 0) do={ add list=$AddressList comment=krymr.com address=23.72.139.8 }
+:if ([:len [find where list=$AddressList and address=23.72.248.196]] = 0) do={ add list=$AddressList comment=krymr.com address=23.72.248.196 }
+:if ([:len [find where list=$AddressList and address=23.72.248.222]] = 0) do={ add list=$AddressList comment=krymr.com address=23.72.248.222 }
+:if ([:len [find where list=$AddressList and address=23.72.36.217]] = 0) do={ add list=$AddressList comment=krymr.com address=23.72.36.217 }
 :if ([:len [find where list=$AddressList and address=23.72.37.171]] = 0) do={ add list=$AddressList comment=krymr.com address=23.72.37.171 }
 :if ([:len [find where list=$AddressList and address=23.73.2.195]] = 0) do={ add list=$AddressList comment=krymr.com address=23.73.2.195 }
 :if ([:len [find where list=$AddressList and address=23.73.2.210]] = 0) do={ add list=$AddressList comment=krymr.com address=23.73.2.210 }
@@ -161,22 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.167.56.35]] = 0) do={ add list=$AddressList comment=krymr.com address=3.167.56.35 }
 :if ([:len [find where list=$AddressList and address=3.167.56.44]] = 0) do={ add list=$AddressList comment=krymr.com address=3.167.56.44 }
 :if ([:len [find where list=$AddressList and address=3.167.56.79]] = 0) do={ add list=$AddressList comment=krymr.com address=3.167.56.79 }
-:if ([:len [find where list=$AddressList and address=3.167.88.108]] = 0) do={ add list=$AddressList comment=krymr.com address=3.167.88.108 }
-:if ([:len [find where list=$AddressList and address=3.167.88.110]] = 0) do={ add list=$AddressList comment=krymr.com address=3.167.88.110 }
-:if ([:len [find where list=$AddressList and address=3.167.88.65]] = 0) do={ add list=$AddressList comment=krymr.com address=3.167.88.65 }
-:if ([:len [find where list=$AddressList and address=3.167.88.86]] = 0) do={ add list=$AddressList comment=krymr.com address=3.167.88.86 }
-:if ([:len [find where list=$AddressList and address=3.168.217.114]] = 0) do={ add list=$AddressList comment=krymr.com address=3.168.217.114 }
-:if ([:len [find where list=$AddressList and address=3.168.217.71]] = 0) do={ add list=$AddressList comment=krymr.com address=3.168.217.71 }
-:if ([:len [find where list=$AddressList and address=3.168.217.80]] = 0) do={ add list=$AddressList comment=krymr.com address=3.168.217.80 }
-:if ([:len [find where list=$AddressList and address=3.168.217.94]] = 0) do={ add list=$AddressList comment=krymr.com address=3.168.217.94 }
-:if ([:len [find where list=$AddressList and address=3.169.107.103]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.107.103 }
-:if ([:len [find where list=$AddressList and address=3.169.107.118]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.107.118 }
-:if ([:len [find where list=$AddressList and address=3.169.107.16]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.107.16 }
-:if ([:len [find where list=$AddressList and address=3.169.107.38]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.107.38 }
-:if ([:len [find where list=$AddressList and address=3.169.137.127]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.137.127 }
-:if ([:len [find where list=$AddressList and address=3.169.137.16]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.137.16 }
-:if ([:len [find where list=$AddressList and address=3.169.137.36]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.137.36 }
-:if ([:len [find where list=$AddressList and address=3.169.137.70]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.137.70 }
-:if ([:len [find where list=$AddressList and address=3.169.173.120]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.173.120 }
-:if ([:len [find where list=$AddressList and address=3.169.173.122]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.173.122 }
-:if ([:len [find where list=$AddressList and address=3.169.173.35]] = 0) do={ add list=$AddressList comment=krymr.com address=3.169.173.35 }

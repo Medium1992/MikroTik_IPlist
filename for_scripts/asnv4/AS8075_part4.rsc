@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=194.50.22.0/23]] = 0) do={ add list=$AddressList comment=AS8075 address=194.50.22.0/23 }
+:if ([:len [find where list=$AddressList and address=194.61.106.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=194.61.106.0/24 }
+:if ([:len [find where list=$AddressList and address=194.76.102.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=194.76.102.0/24 }
+:if ([:len [find where list=$AddressList and address=195.104.228.0/22]] = 0) do={ add list=$AddressList comment=AS8075 address=195.104.228.0/22 }
+:if ([:len [find where list=$AddressList and address=195.105.26.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=195.105.26.0/24 }
+:if ([:len [find where list=$AddressList and address=195.114.140.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=195.114.140.0/24 }
+:if ([:len [find where list=$AddressList and address=195.191.211.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=195.191.211.0/24 }
 :if ([:len [find where list=$AddressList and address=195.222.105.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=195.222.105.0/24 }
 :if ([:len [find where list=$AddressList and address=195.43.44.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=195.43.44.0/24 }
 :if ([:len [find where list=$AddressList and address=195.43.46.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=195.43.46.0/24 }
@@ -58,6 +65,7 @@
 :if ([:len [find where list=$AddressList and address=199.65.29.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=199.65.29.0/24 }
 :if ([:len [find where list=$AddressList and address=199.65.30.0/23]] = 0) do={ add list=$AddressList comment=AS8075 address=199.65.30.0/23 }
 :if ([:len [find where list=$AddressList and address=199.65.40.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=199.65.40.0/24 }
+:if ([:len [find where list=$AddressList and address=199.83.78.0/23]] = 0) do={ add list=$AddressList comment=AS8075 address=199.83.78.0/23 }
 :if ([:len [find where list=$AddressList and address=2.58.103.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=2.58.103.0/24 }
 :if ([:len [find where list=$AddressList and address=20.0.0.0/11]] = 0) do={ add list=$AddressList comment=AS8075 address=20.0.0.0/11 }
 :if ([:len [find where list=$AddressList and address=20.135.0.0/16]] = 0) do={ add list=$AddressList comment=AS8075 address=20.135.0.0/16 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=20.47.38.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=20.47.38.0/24 }
 :if ([:len [find where list=$AddressList and address=20.47.46.0/23]] = 0) do={ add list=$AddressList comment=AS8075 address=20.47.46.0/23 }
 :if ([:len [find where list=$AddressList and address=20.47.52.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=20.47.52.0/24 }
-:if ([:len [find where list=$AddressList and address=20.47.54.0/23]] = 0) do={ add list=$AddressList comment=AS8075 address=20.47.54.0/23 }
-:if ([:len [find where list=$AddressList and address=20.47.72.0/22]] = 0) do={ add list=$AddressList comment=AS8075 address=20.47.72.0/22 }
-:if ([:len [find where list=$AddressList and address=20.47.90.0/23]] = 0) do={ add list=$AddressList comment=AS8075 address=20.47.90.0/23 }
-:if ([:len [find where list=$AddressList and address=20.47.94.0/23]] = 0) do={ add list=$AddressList comment=AS8075 address=20.47.94.0/23 }
-:if ([:len [find where list=$AddressList and address=20.48.0.0/12]] = 0) do={ add list=$AddressList comment=AS8075 address=20.48.0.0/12 }
-:if ([:len [find where list=$AddressList and address=20.64.0.0/10]] = 0) do={ add list=$AddressList comment=AS8075 address=20.64.0.0/10 }
-:if ([:len [find where list=$AddressList and address=202.12.70.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=202.12.70.0/24 }
-:if ([:len [find where list=$AddressList and address=202.130.203.0/24]] = 0) do={ add list=$AddressList comment=AS8075 address=202.130.203.0/24 }

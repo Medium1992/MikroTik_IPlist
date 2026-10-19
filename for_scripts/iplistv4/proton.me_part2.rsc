@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.172.153.31]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.153.31 }
+:if ([:len [find where list=$AddressList and address=18.172.153.51]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.153.51 }
+:if ([:len [find where list=$AddressList and address=18.172.153.79]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.153.79 }
+:if ([:len [find where list=$AddressList and address=18.172.153.94]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.153.94 }
 :if ([:len [find where list=$AddressList and address=18.172.226.29]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.226.29 }
 :if ([:len [find where list=$AddressList and address=18.172.226.33]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.226.33 }
 :if ([:len [find where list=$AddressList and address=18.172.226.37]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.226.37 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.174.230.95]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.230.95 }
 :if ([:len [find where list=$AddressList and address=3.174.255.35]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.255.35 }
 :if ([:len [find where list=$AddressList and address=3.174.255.66]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.255.66 }
-:if ([:len [find where list=$AddressList and address=3.174.255.73]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.255.73 }
-:if ([:len [find where list=$AddressList and address=3.174.255.98]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.255.98 }
-:if ([:len [find where list=$AddressList and address=3.175.196.102]] = 0) do={ add list=$AddressList comment=proton.me address=3.175.196.102 }
-:if ([:len [find where list=$AddressList and address=3.175.196.33]] = 0) do={ add list=$AddressList comment=proton.me address=3.175.196.33 }

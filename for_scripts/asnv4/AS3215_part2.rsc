@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=194.4.224.0/22]] = 0) do={ add list=$AddressList comment=AS3215 address=194.4.224.0/22 }
+:if ([:len [find where list=$AddressList and address=194.4.228.0/23]] = 0) do={ add list=$AddressList comment=AS3215 address=194.4.228.0/23 }
+:if ([:len [find where list=$AddressList and address=194.4.231.0/24]] = 0) do={ add list=$AddressList comment=AS3215 address=194.4.231.0/24 }
+:if ([:len [find where list=$AddressList and address=194.5.189.0/24]] = 0) do={ add list=$AddressList comment=AS3215 address=194.5.189.0/24 }
 :if ([:len [find where list=$AddressList and address=194.5.190.0/23]] = 0) do={ add list=$AddressList comment=AS3215 address=194.5.190.0/23 }
 :if ([:len [find where list=$AddressList and address=194.5.238.0/23]] = 0) do={ add list=$AddressList comment=AS3215 address=194.5.238.0/23 }
 :if ([:len [find where list=$AddressList and address=194.51.0.0/19]] = 0) do={ add list=$AddressList comment=AS3215 address=194.51.0.0/19 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=83.206.64.0/23]] = 0) do={ add list=$AddressList comment=AS3215 address=83.206.64.0/23 }
 :if ([:len [find where list=$AddressList and address=83.206.67.0/24]] = 0) do={ add list=$AddressList comment=AS3215 address=83.206.67.0/24 }
 :if ([:len [find where list=$AddressList and address=83.206.68.0/22]] = 0) do={ add list=$AddressList comment=AS3215 address=83.206.68.0/22 }
-:if ([:len [find where list=$AddressList and address=83.206.72.0/21]] = 0) do={ add list=$AddressList comment=AS3215 address=83.206.72.0/21 }
-:if ([:len [find where list=$AddressList and address=83.206.80.0/20]] = 0) do={ add list=$AddressList comment=AS3215 address=83.206.80.0/20 }
-:if ([:len [find where list=$AddressList and address=83.206.96.0/19]] = 0) do={ add list=$AddressList comment=AS3215 address=83.206.96.0/19 }
-:if ([:len [find where list=$AddressList and address=86.192.0.0/12]] = 0) do={ add list=$AddressList comment=AS3215 address=86.192.0.0/12 }

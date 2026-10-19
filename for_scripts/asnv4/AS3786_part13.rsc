@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=45.120.68.0/22]] = 0) do={ add list=$AddressList comment=AS3786 address=45.120.68.0/22 }
-:if ([:len [find where list=$AddressList and address=58.149.0.0/16]] = 0) do={ add list=$AddressList comment=AS3786 address=58.149.0.0/16 }
-:if ([:len [find where list=$AddressList and address=58.150.0.0/19]] = 0) do={ add list=$AddressList comment=AS3786 address=58.150.0.0/19 }
-:if ([:len [find where list=$AddressList and address=58.150.128.0/18]] = 0) do={ add list=$AddressList comment=AS3786 address=58.150.128.0/18 }
 :if ([:len [find where list=$AddressList and address=58.150.192.0/19]] = 0) do={ add list=$AddressList comment=AS3786 address=58.150.192.0/19 }
 :if ([:len [find where list=$AddressList and address=58.150.224.0/20]] = 0) do={ add list=$AddressList comment=AS3786 address=58.150.224.0/20 }
 :if ([:len [find where list=$AddressList and address=58.150.240.0/23]] = 0) do={ add list=$AddressList comment=AS3786 address=58.150.240.0/23 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=61.34.28.0/22]] = 0) do={ add list=$AddressList comment=AS3786 address=61.34.28.0/22 }
 :if ([:len [find where list=$AddressList and address=61.34.32.0/19]] = 0) do={ add list=$AddressList comment=AS3786 address=61.34.32.0/19 }
 :if ([:len [find where list=$AddressList and address=61.34.64.0/18]] = 0) do={ add list=$AddressList comment=AS3786 address=61.34.64.0/18 }
+:if ([:len [find where list=$AddressList and address=61.35.0.0/19]] = 0) do={ add list=$AddressList comment=AS3786 address=61.35.0.0/19 }
+:if ([:len [find where list=$AddressList and address=61.35.128.0/18]] = 0) do={ add list=$AddressList comment=AS3786 address=61.35.128.0/18 }
+:if ([:len [find where list=$AddressList and address=61.35.192.0/19]] = 0) do={ add list=$AddressList comment=AS3786 address=61.35.192.0/19 }
+:if ([:len [find where list=$AddressList and address=61.35.224.0/20]] = 0) do={ add list=$AddressList comment=AS3786 address=61.35.224.0/20 }

@@ -1,5 +1,21 @@
 :global AddressList
 /ip firewall address-list
+:do { add dynamic=yes list=$AddressList comment=tor address=38.58.179.138/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=38.79.154.244/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=38.89.70.34/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=38.9.96.135/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=38.9.96.93/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=38.97.56.77/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=40.160.142.143/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=40.160.148.253/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=40.160.56.168/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=40.160.57.139/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=40.160.98.73/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=40.160.99.100/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=40.160.99.173/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=40.160.99.49/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=40.233.79.17/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=41.66.82.87/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=43.108.44.140/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=43.131.2.16/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=43.131.2.53/32 } on-error={}
@@ -170,7 +186,6 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=45.76.131.60/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=45.76.43.62/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=45.76.61.27/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=45.76.86.86/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=45.76.87.17/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=45.77.112.31/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=45.77.136.58/32 } on-error={}
@@ -235,18 +250,3 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=45.92.11.136/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=45.92.238.246/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=45.92.33.62/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=45.95.169.119/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=45.95.169.120/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=45.95.169.125/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=45.95.169.21/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=45.95.169.252/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=45.95.169.41/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=46.1.113.30/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=46.10.223.24/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=46.105.20.238/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=46.105.91.78/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=46.110.43.156/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=46.139.106.235/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=46.142.15.237/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=46.142.6.85/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=46.149.125.9/32 } on-error={}

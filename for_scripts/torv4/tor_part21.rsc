@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.48/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.49/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.5/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.50/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.51/32 } on-error={}
@@ -163,11 +165,11 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.196/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.197/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.198/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.199/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.2/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.20/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.200/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.201/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.202/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.203/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.204/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.205/32 } on-error={}
@@ -248,5 +250,3 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.53/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.54/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.55/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.56/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.57/32 } on-error={}

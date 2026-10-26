@@ -2,6 +2,9 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=173.194.19.67 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.19.67 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
+:if ([:len [/ip/route/find dst-address=173.194.19.69 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.19.69 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
+:if ([:len [/ip/route/find dst-address=173.194.19.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.19.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
 :if ([:len [/ip/route/find dst-address=173.194.19.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.19.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
 :if ([:len [/ip/route/find dst-address=173.194.19.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.19.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
 :if ([:len [/ip/route/find dst-address=173.194.190.102 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.190.102 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=173.194.193.190 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.193.190 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
 :if ([:len [/ip/route/find dst-address=173.194.193.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.193.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
 :if ([:len [/ip/route/find dst-address=173.194.193.92 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.193.92 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
-:if ([:len [/ip/route/find dst-address=173.194.193.93 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.193.93 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
-:if ([:len [/ip/route/find dst-address=173.194.193.94 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.193.94 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }
-:if ([:len [/ip/route/find dst-address=173.194.193.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=173.194.193.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=youtube.com }

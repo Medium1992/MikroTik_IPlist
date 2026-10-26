@@ -4,6 +4,7 @@
 /ip route
 :if ([:len [/ip/route/find dst-address=103.224.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=103.224.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornolab.net }
 :if ([:len [/ip/route/find dst-address=13.224.0.0/12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.224.0.0/12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornolab.net }
+:if ([:len [/ip/route/find dst-address=162.4.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.4.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornolab.net }
 :if ([:len [/ip/route/find dst-address=172.224.0.0/12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.224.0.0/12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornolab.net }
 :if ([:len [/ip/route/find dst-address=18.141.199.30/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.141.199.30/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornolab.net }
 :if ([:len [/ip/route/find dst-address=18.141.222.153/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.141.222.153/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pornolab.net }

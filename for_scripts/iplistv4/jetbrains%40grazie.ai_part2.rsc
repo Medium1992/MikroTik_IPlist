@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.224.83.94]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=13.224.83.94 }
+:if ([:len [find where list=$AddressList and address=13.224.83.99]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=13.224.83.99 }
+:if ([:len [find where list=$AddressList and address=13.225.10.16]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=13.225.10.16 }
+:if ([:len [find where list=$AddressList and address=13.225.10.34]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=13.225.10.34 }
 :if ([:len [find where list=$AddressList and address=13.225.10.38]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=13.225.10.38 }
 :if ([:len [find where list=$AddressList and address=13.225.10.42]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=13.225.10.42 }
 :if ([:len [find where list=$AddressList and address=13.225.239.112]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=13.225.239.112 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.154.63.106]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=18.154.63.106 }
 :if ([:len [find where list=$AddressList and address=18.154.63.111]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=18.154.63.111 }
 :if ([:len [find where list=$AddressList and address=18.154.63.112]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=18.154.63.112 }
-:if ([:len [find where list=$AddressList and address=18.154.63.128]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=18.154.63.128 }
-:if ([:len [find where list=$AddressList and address=18.154.63.31]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=18.154.63.31 }
-:if ([:len [find where list=$AddressList and address=18.154.63.44]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=18.154.63.44 }
-:if ([:len [find where list=$AddressList and address=18.154.63.69]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=18.154.63.69 }

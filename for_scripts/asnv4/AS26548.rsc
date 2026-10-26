@@ -9,6 +9,7 @@
 :if ([:len [find where list=$AddressList and address=104.244.159.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=104.244.159.0/24 }
 :if ([:len [find where list=$AddressList and address=104.254.57.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=104.254.57.0/24 }
 :if ([:len [find where list=$AddressList and address=104.254.58.0/23]] = 0) do={ add list=$AddressList comment=AS26548 address=104.254.58.0/23 }
+:if ([:len [find where list=$AddressList and address=107.161.161.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=107.161.161.0/24 }
 :if ([:len [find where list=$AddressList and address=109.238.168.0/21]] = 0) do={ add list=$AddressList comment=AS26548 address=109.238.168.0/21 }
 :if ([:len [find where list=$AddressList and address=140.150.128.0/20]] = 0) do={ add list=$AddressList comment=AS26548 address=140.150.128.0/20 }
 :if ([:len [find where list=$AddressList and address=140.150.144.0/21]] = 0) do={ add list=$AddressList comment=AS26548 address=140.150.144.0/21 }
@@ -38,7 +39,6 @@
 :if ([:len [find where list=$AddressList and address=185.77.220.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=185.77.220.0/24 }
 :if ([:len [find where list=$AddressList and address=185.77.222.0/23]] = 0) do={ add list=$AddressList comment=AS26548 address=185.77.222.0/23 }
 :if ([:len [find where list=$AddressList and address=185.88.100.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=185.88.100.0/24 }
-:if ([:len [find where list=$AddressList and address=191.96.196.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=191.96.196.0/24 }
 :if ([:len [find where list=$AddressList and address=192.169.44.0/22]] = 0) do={ add list=$AddressList comment=AS26548 address=192.169.44.0/22 }
 :if ([:len [find where list=$AddressList and address=192.34.100.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=192.34.100.0/24 }
 :if ([:len [find where list=$AddressList and address=192.34.102.0/24]] = 0) do={ add list=$AddressList comment=AS26548 address=192.34.102.0/24 }

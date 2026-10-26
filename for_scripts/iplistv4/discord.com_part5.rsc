@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.162.140.55]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.55 }
+:if ([:len [find where list=$AddressList and address=3.162.140.91]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.91 }
+:if ([:len [find where list=$AddressList and address=3.162.140.97]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.97 }
+:if ([:len [find where list=$AddressList and address=3.162.38.10]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.10 }
 :if ([:len [find where list=$AddressList and address=3.162.38.126]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.126 }
 :if ([:len [find where list=$AddressList and address=3.162.38.7]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.7 }
 :if ([:len [find where list=$AddressList and address=3.162.38.84]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.84 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.9.187.47]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.187.47 }
 :if ([:len [find where list=$AddressList and address=65.9.189.33]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.189.33 }
 :if ([:len [find where list=$AddressList and address=65.9.189.48]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.189.48 }
-:if ([:len [find where list=$AddressList and address=65.9.189.54]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.189.54 }
-:if ([:len [find where list=$AddressList and address=65.9.189.95]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.189.95 }
-:if ([:len [find where list=$AddressList and address=65.9.46.10]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.46.10 }
-:if ([:len [find where list=$AddressList and address=65.9.46.36]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.46.36 }

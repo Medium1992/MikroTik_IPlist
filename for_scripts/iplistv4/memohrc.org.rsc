@@ -43,11 +43,15 @@
 :if ([:len [find where list=$AddressList and address=188.114.97.7]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.97.7 }
 :if ([:len [find where list=$AddressList and address=188.114.97.9]] = 0) do={ add list=$AddressList comment=memohrc.org address=188.114.97.9 }
 :if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.10]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.47.69.10 }
 :if ([:len [find where list=$AddressList and address=8.47.69.4]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.47.69.4 }
 :if ([:len [find where list=$AddressList and address=8.47.69.5]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.47.69.5 }
 :if ([:len [find where list=$AddressList and address=8.47.69.6]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.47.69.6 }
+:if ([:len [find where list=$AddressList and address=8.47.69.7]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.47.69.7 }
 :if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.10]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.6.112.10 }
 :if ([:len [find where list=$AddressList and address=8.6.112.4]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.6.112.4 }
 :if ([:len [find where list=$AddressList and address=8.6.112.5]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.6.112.5 }
 :if ([:len [find where list=$AddressList and address=8.6.112.6]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.6.112.6 }
+:if ([:len [find where list=$AddressList and address=8.6.112.7]] = 0) do={ add list=$AddressList comment=memohrc.org address=8.6.112.7 }
 :if ([:len [find where list=$AddressList and address=95.216.137.177]] = 0) do={ add list=$AddressList comment=memohrc.org address=95.216.137.177 }

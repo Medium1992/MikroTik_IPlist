@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.160.212.95]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.212.95 }
+:if ([:len [find where list=$AddressList and address=3.160.212.96]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.212.96 }
+:if ([:len [find where list=$AddressList and address=3.160.246.103]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.246.103 }
+:if ([:len [find where list=$AddressList and address=3.160.246.129]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.246.129 }
 :if ([:len [find where list=$AddressList and address=3.160.246.20]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.246.20 }
 :if ([:len [find where list=$AddressList and address=3.160.246.25]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.246.25 }
 :if ([:len [find where list=$AddressList and address=3.160.246.26]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.246.26 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.165.239.49]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.239.49 }
 :if ([:len [find where list=$AddressList and address=3.165.239.97]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.239.97 }
 :if ([:len [find where list=$AddressList and address=3.166.14.25]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.166.14.25 }
-:if ([:len [find where list=$AddressList and address=3.166.14.4]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.166.14.4 }
-:if ([:len [find where list=$AddressList and address=3.166.14.55]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.166.14.55 }
-:if ([:len [find where list=$AddressList and address=3.166.14.7]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.166.14.7 }
-:if ([:len [find where list=$AddressList and address=3.166.81.107]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.166.81.107 }

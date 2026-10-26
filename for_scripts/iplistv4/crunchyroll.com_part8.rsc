@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=54.192.95.39]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=54.192.95.39 }
+:if ([:len [find where list=$AddressList and address=54.192.95.69]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=54.192.95.69 }
+:if ([:len [find where list=$AddressList and address=54.192.95.81]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=54.192.95.81 }
+:if ([:len [find where list=$AddressList and address=54.192.95.83]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=54.192.95.83 }
 :if ([:len [find where list=$AddressList and address=54.192.97.34]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=54.192.97.34 }
 :if ([:len [find where list=$AddressList and address=54.192.97.49]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=54.192.97.49 }
 :if ([:len [find where list=$AddressList and address=54.192.97.57]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=54.192.97.57 }

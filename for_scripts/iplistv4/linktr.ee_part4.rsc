@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.72.62]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.165.72.62 }
+:if ([:len [find where list=$AddressList and address=18.165.72.72]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.165.72.72 }
+:if ([:len [find where list=$AddressList and address=18.165.72.75]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.165.72.75 }
+:if ([:len [find where list=$AddressList and address=18.165.72.83]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.165.72.83 }
 :if ([:len [find where list=$AddressList and address=18.165.72.86]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.165.72.86 }
 :if ([:len [find where list=$AddressList and address=18.165.72.93]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.165.72.93 }
 :if ([:len [find where list=$AddressList and address=18.165.9.10]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.165.9.10 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.244.102.43]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.244.102.43 }
 :if ([:len [find where list=$AddressList and address=18.244.102.53]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.244.102.53 }
 :if ([:len [find where list=$AddressList and address=18.244.102.54]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.244.102.54 }
-:if ([:len [find where list=$AddressList and address=18.244.102.92]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.244.102.92 }
-:if ([:len [find where list=$AddressList and address=18.244.146.126]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.244.146.126 }
-:if ([:len [find where list=$AddressList and address=18.244.146.18]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.244.146.18 }
-:if ([:len [find where list=$AddressList and address=18.244.146.20]] = 0) do={ add list=$AddressList comment=linktr.ee address=18.244.146.20 }

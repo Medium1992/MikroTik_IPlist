@@ -3,10 +3,12 @@
 :if ([:len [find where list=$AddressList and address=104.255.128.0/21]] = 0) do={ add list=$AddressList comment=AS202087 address=104.255.128.0/21 }
 :if ([:len [find where list=$AddressList and address=153.94.56.0/21]] = 0) do={ add list=$AddressList comment=AS202087 address=153.94.56.0/21 }
 :if ([:len [find where list=$AddressList and address=185.49.216.0/22]] = 0) do={ add list=$AddressList comment=AS202087 address=185.49.216.0/22 }
-:if ([:len [find where list=$AddressList and address=185.75.80.0/22]] = 0) do={ add list=$AddressList comment=AS202087 address=185.75.80.0/22 }
+:if ([:len [find where list=$AddressList and address=185.75.81.0/24]] = 0) do={ add list=$AddressList comment=AS202087 address=185.75.81.0/24 }
+:if ([:len [find where list=$AddressList and address=185.75.82.0/23]] = 0) do={ add list=$AddressList comment=AS202087 address=185.75.82.0/23 }
 :if ([:len [find where list=$AddressList and address=185.83.148.0/22]] = 0) do={ add list=$AddressList comment=AS202087 address=185.83.148.0/22 }
 :if ([:len [find where list=$AddressList and address=185.9.212.0/22]] = 0) do={ add list=$AddressList comment=AS202087 address=185.9.212.0/22 }
-:if ([:len [find where list=$AddressList and address=185.94.76.0/22]] = 0) do={ add list=$AddressList comment=AS202087 address=185.94.76.0/22 }
+:if ([:len [find where list=$AddressList and address=185.94.76.0/24]] = 0) do={ add list=$AddressList comment=AS202087 address=185.94.76.0/24 }
+:if ([:len [find where list=$AddressList and address=185.94.78.0/24]] = 0) do={ add list=$AddressList comment=AS202087 address=185.94.78.0/24 }
 :if ([:len [find where list=$AddressList and address=192.190.168.0/22]] = 0) do={ add list=$AddressList comment=AS202087 address=192.190.168.0/22 }
 :if ([:len [find where list=$AddressList and address=45.89.212.0/22]] = 0) do={ add list=$AddressList comment=AS202087 address=45.89.212.0/22 }
 :if ([:len [find where list=$AddressList and address=45.94.8.0/22]] = 0) do={ add list=$AddressList comment=AS202087 address=45.94.8.0/22 }

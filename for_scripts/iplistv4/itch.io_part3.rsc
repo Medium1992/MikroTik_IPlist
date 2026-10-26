@@ -1,5 +1,19 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=2.16.10.99]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.10.99 }
+:if ([:len [find where list=$AddressList and address=2.16.100.138]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.100.138 }
+:if ([:len [find where list=$AddressList and address=2.16.100.139]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.100.139 }
+:if ([:len [find where list=$AddressList and address=2.16.100.161]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.100.161 }
+:if ([:len [find where list=$AddressList and address=2.16.100.163]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.100.163 }
+:if ([:len [find where list=$AddressList and address=2.16.100.170]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.100.170 }
+:if ([:len [find where list=$AddressList and address=2.16.100.171]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.100.171 }
+:if ([:len [find where list=$AddressList and address=2.16.103.10]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.103.10 }
+:if ([:len [find where list=$AddressList and address=2.16.103.104]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.103.104 }
+:if ([:len [find where list=$AddressList and address=2.16.103.105]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.103.105 }
+:if ([:len [find where list=$AddressList and address=2.16.103.113]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.103.113 }
+:if ([:len [find where list=$AddressList and address=2.16.103.17]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.103.17 }
+:if ([:len [find where list=$AddressList and address=2.16.103.18]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.103.18 }
+:if ([:len [find where list=$AddressList and address=2.16.103.19]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.103.19 }
 :if ([:len [find where list=$AddressList and address=2.16.103.216]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.103.216 }
 :if ([:len [find where list=$AddressList and address=2.16.103.58]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.103.58 }
 :if ([:len [find where list=$AddressList and address=2.16.103.59]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.103.59 }
@@ -160,23 +174,9 @@
 :if ([:len [find where list=$AddressList and address=2.16.183.226]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.183.226 }
 :if ([:len [find where list=$AddressList and address=2.16.183.227]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.183.227 }
 :if ([:len [find where list=$AddressList and address=2.16.183.231]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.183.231 }
+:if ([:len [find where list=$AddressList and address=2.16.2.154]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.2.154 }
 :if ([:len [find where list=$AddressList and address=2.16.2.161]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.2.161 }
 :if ([:len [find where list=$AddressList and address=2.16.2.67]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.2.67 }
 :if ([:len [find where list=$AddressList and address=2.16.2.74]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.2.74 }
+:if ([:len [find where list=$AddressList and address=2.16.2.90]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.2.90 }
 :if ([:len [find where list=$AddressList and address=2.16.202.10]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.10 }
-:if ([:len [find where list=$AddressList and address=2.16.202.113]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.113 }
-:if ([:len [find where list=$AddressList and address=2.16.202.115]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.115 }
-:if ([:len [find where list=$AddressList and address=2.16.202.121]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.121 }
-:if ([:len [find where list=$AddressList and address=2.16.202.123]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.123 }
-:if ([:len [find where list=$AddressList and address=2.16.202.58]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.58 }
-:if ([:len [find where list=$AddressList and address=2.16.202.59]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.59 }
-:if ([:len [find where list=$AddressList and address=2.16.202.72]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.72 }
-:if ([:len [find where list=$AddressList and address=2.16.202.74]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.74 }
-:if ([:len [find where list=$AddressList and address=2.16.202.75]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.75 }
-:if ([:len [find where list=$AddressList and address=2.16.202.8]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.8 }
-:if ([:len [find where list=$AddressList and address=2.16.202.96]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.96 }
-:if ([:len [find where list=$AddressList and address=2.16.202.97]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.202.97 }
-:if ([:len [find where list=$AddressList and address=2.16.206.13]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.206.13 }
-:if ([:len [find where list=$AddressList and address=2.16.206.18]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.206.18 }
-:if ([:len [find where list=$AddressList and address=2.16.206.19]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.206.19 }
-:if ([:len [find where list=$AddressList and address=2.16.206.20]] = 0) do={ add list=$AddressList comment=itch.io address=2.16.206.20 }

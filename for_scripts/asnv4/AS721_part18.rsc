@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=204.208.4.0/23]] = 0) do={ add list=$AddressList comment=AS721 address=204.208.4.0/23 }
+:if ([:len [find where list=$AddressList and address=204.208.8.0/23]] = 0) do={ add list=$AddressList comment=AS721 address=204.208.8.0/23 }
+:if ([:len [find where list=$AddressList and address=204.208.80.0/20]] = 0) do={ add list=$AddressList comment=AS721 address=204.208.80.0/20 }
+:if ([:len [find where list=$AddressList and address=204.208.96.0/22]] = 0) do={ add list=$AddressList comment=AS721 address=204.208.96.0/22 }
 :if ([:len [find where list=$AddressList and address=204.222.10.0/23]] = 0) do={ add list=$AddressList comment=AS721 address=204.222.10.0/23 }
 :if ([:len [find where list=$AddressList and address=204.222.12.0/22]] = 0) do={ add list=$AddressList comment=AS721 address=204.222.12.0/22 }
 :if ([:len [find where list=$AddressList and address=204.222.128.0/19]] = 0) do={ add list=$AddressList comment=AS721 address=204.222.128.0/19 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=205.107.0.0/17]] = 0) do={ add list=$AddressList comment=AS721 address=205.107.0.0/17 }
 :if ([:len [find where list=$AddressList and address=205.107.128.0/18]] = 0) do={ add list=$AddressList comment=AS721 address=205.107.128.0/18 }
 :if ([:len [find where list=$AddressList and address=205.107.192.0/20]] = 0) do={ add list=$AddressList comment=AS721 address=205.107.192.0/20 }
-:if ([:len [find where list=$AddressList and address=205.107.208.0/21]] = 0) do={ add list=$AddressList comment=AS721 address=205.107.208.0/21 }
-:if ([:len [find where list=$AddressList and address=205.107.216.0/22]] = 0) do={ add list=$AddressList comment=AS721 address=205.107.216.0/22 }
-:if ([:len [find where list=$AddressList and address=205.107.224.0/22]] = 0) do={ add list=$AddressList comment=AS721 address=205.107.224.0/22 }
-:if ([:len [find where list=$AddressList and address=205.107.232.0/21]] = 0) do={ add list=$AddressList comment=AS721 address=205.107.232.0/21 }

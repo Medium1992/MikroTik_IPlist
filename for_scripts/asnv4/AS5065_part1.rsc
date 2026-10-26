@@ -115,7 +115,9 @@
 :if ([:len [find where list=$AddressList and address=194.77.44.0/23]] = 0) do={ add list=$AddressList comment=AS5065 address=194.77.44.0/23 }
 :if ([:len [find where list=$AddressList and address=194.77.66.0/23]] = 0) do={ add list=$AddressList comment=AS5065 address=194.77.66.0/23 }
 :if ([:len [find where list=$AddressList and address=195.172.145.0/24]] = 0) do={ add list=$AddressList comment=AS5065 address=195.172.145.0/24 }
+:if ([:len [find where list=$AddressList and address=195.72.165.0/24]] = 0) do={ add list=$AddressList comment=AS5065 address=195.72.165.0/24 }
 :if ([:len [find where list=$AddressList and address=195.72.170.0/24]] = 0) do={ add list=$AddressList comment=AS5065 address=195.72.170.0/24 }
+:if ([:len [find where list=$AddressList and address=195.72.175.0/24]] = 0) do={ add list=$AddressList comment=AS5065 address=195.72.175.0/24 }
 :if ([:len [find where list=$AddressList and address=195.95.201.0/24]] = 0) do={ add list=$AddressList comment=AS5065 address=195.95.201.0/24 }
 :if ([:len [find where list=$AddressList and address=198.102.8.0/24]] = 0) do={ add list=$AddressList comment=AS5065 address=198.102.8.0/24 }
 :if ([:len [find where list=$AddressList and address=199.7.104.0/21]] = 0) do={ add list=$AddressList comment=AS5065 address=199.7.104.0/21 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=216.132.105.0/24]] = 0) do={ add list=$AddressList comment=AS5065 address=216.132.105.0/24 }
 :if ([:len [find where list=$AddressList and address=216.132.106.0/24]] = 0) do={ add list=$AddressList comment=AS5065 address=216.132.106.0/24 }
 :if ([:len [find where list=$AddressList and address=216.132.109.0/24]] = 0) do={ add list=$AddressList comment=AS5065 address=216.132.109.0/24 }
-:if ([:len [find where list=$AddressList and address=216.132.114.0/23]] = 0) do={ add list=$AddressList comment=AS5065 address=216.132.114.0/23 }
-:if ([:len [find where list=$AddressList and address=216.132.116.0/22]] = 0) do={ add list=$AddressList comment=AS5065 address=216.132.116.0/22 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=44.196.81.131]] = 0) do={ add list=$AddressList comment=zello.com address=44.196.81.131 }
+:if ([:len [find where list=$AddressList and address=44.196.86.61]] = 0) do={ add list=$AddressList comment=zello.com address=44.196.86.61 }
+:if ([:len [find where list=$AddressList and address=44.197.22.185]] = 0) do={ add list=$AddressList comment=zello.com address=44.197.22.185 }
+:if ([:len [find where list=$AddressList and address=44.199.141.218]] = 0) do={ add list=$AddressList comment=zello.com address=44.199.141.218 }
 :if ([:len [find where list=$AddressList and address=44.199.178.183]] = 0) do={ add list=$AddressList comment=zello.com address=44.199.178.183 }
 :if ([:len [find where list=$AddressList and address=44.199.5.48]] = 0) do={ add list=$AddressList comment=zello.com address=44.199.5.48 }
 :if ([:len [find where list=$AddressList and address=44.205.77.7]] = 0) do={ add list=$AddressList comment=zello.com address=44.205.77.7 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=99.84.91.40]] = 0) do={ add list=$AddressList comment=zello.com address=99.84.91.40 }
 :if ([:len [find where list=$AddressList and address=99.84.91.66]] = 0) do={ add list=$AddressList comment=zello.com address=99.84.91.66 }
 :if ([:len [find where list=$AddressList and address=99.86.171.11]] = 0) do={ add list=$AddressList comment=zello.com address=99.86.171.11 }
-:if ([:len [find where list=$AddressList and address=99.86.171.47]] = 0) do={ add list=$AddressList comment=zello.com address=99.86.171.47 }
-:if ([:len [find where list=$AddressList and address=99.86.171.63]] = 0) do={ add list=$AddressList comment=zello.com address=99.86.171.63 }
-:if ([:len [find where list=$AddressList and address=99.86.171.68]] = 0) do={ add list=$AddressList comment=zello.com address=99.86.171.68 }
-:if ([:len [find where list=$AddressList and address=99.86.240.123]] = 0) do={ add list=$AddressList comment=zello.com address=99.86.240.123 }

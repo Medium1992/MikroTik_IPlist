@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=54.240.174.110]] = 0) do={ add list=$AddressList comment=thetruestory.news address=54.240.174.110 }
+:if ([:len [find where list=$AddressList and address=54.240.174.38]] = 0) do={ add list=$AddressList comment=thetruestory.news address=54.240.174.38 }
+:if ([:len [find where list=$AddressList and address=54.240.174.48]] = 0) do={ add list=$AddressList comment=thetruestory.news address=54.240.174.48 }
+:if ([:len [find where list=$AddressList and address=54.240.174.54]] = 0) do={ add list=$AddressList comment=thetruestory.news address=54.240.174.54 }
+:if ([:len [find where list=$AddressList and address=54.240.174.67]] = 0) do={ add list=$AddressList comment=thetruestory.news address=54.240.174.67 }
+:if ([:len [find where list=$AddressList and address=54.240.174.72]] = 0) do={ add list=$AddressList comment=thetruestory.news address=54.240.174.72 }
+:if ([:len [find where list=$AddressList and address=54.240.174.79]] = 0) do={ add list=$AddressList comment=thetruestory.news address=54.240.174.79 }
+:if ([:len [find where list=$AddressList and address=65.8.131.127]] = 0) do={ add list=$AddressList comment=thetruestory.news address=65.8.131.127 }
 :if ([:len [find where list=$AddressList and address=65.8.131.27]] = 0) do={ add list=$AddressList comment=thetruestory.news address=65.8.131.27 }
 :if ([:len [find where list=$AddressList and address=65.8.131.45]] = 0) do={ add list=$AddressList comment=thetruestory.news address=65.8.131.45 }
 :if ([:len [find where list=$AddressList and address=65.8.131.46]] = 0) do={ add list=$AddressList comment=thetruestory.news address=65.8.131.46 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=213.39.76.240/28]] = 0) do={ add list=$AddressList comment=be address=213.39.76.240/28 }
+:if ([:len [find where list=$AddressList and address=213.39.77.192/29]] = 0) do={ add list=$AddressList comment=be address=213.39.77.192/29 }
+:if ([:len [find where list=$AddressList and address=213.39.78.41/32]] = 0) do={ add list=$AddressList comment=be address=213.39.78.41/32 }
+:if ([:len [find where list=$AddressList and address=213.39.78.64/27]] = 0) do={ add list=$AddressList comment=be address=213.39.78.64/27 }
 :if ([:len [find where list=$AddressList and address=213.39.85.136/29]] = 0) do={ add list=$AddressList comment=be address=213.39.85.136/29 }
 :if ([:len [find where list=$AddressList and address=213.39.85.208/28]] = 0) do={ add list=$AddressList comment=be address=213.39.85.208/28 }
 :if ([:len [find where list=$AddressList and address=213.39.87.136/29]] = 0) do={ add list=$AddressList comment=be address=213.39.87.136/29 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=217.111.215.128/25]] = 0) do={ add list=$AddressList comment=be address=217.111.215.128/25 }
 :if ([:len [find where list=$AddressList and address=217.111.215.64/28]] = 0) do={ add list=$AddressList comment=be address=217.111.215.64/28 }
 :if ([:len [find where list=$AddressList and address=217.111.215.80/29]] = 0) do={ add list=$AddressList comment=be address=217.111.215.80/29 }
-:if ([:len [find where list=$AddressList and address=217.111.215.96/27]] = 0) do={ add list=$AddressList comment=be address=217.111.215.96/27 }
-:if ([:len [find where list=$AddressList and address=217.111.228.0/30]] = 0) do={ add list=$AddressList comment=be address=217.111.228.0/30 }
-:if ([:len [find where list=$AddressList and address=217.111.228.100/30]] = 0) do={ add list=$AddressList comment=be address=217.111.228.100/30 }
-:if ([:len [find where list=$AddressList and address=217.111.228.108/30]] = 0) do={ add list=$AddressList comment=be address=217.111.228.108/30 }

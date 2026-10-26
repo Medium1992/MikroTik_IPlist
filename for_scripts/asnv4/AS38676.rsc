@@ -35,8 +35,7 @@
 :if ([:len [find where list=$AddressList and address=175.176.132.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=175.176.132.0/24 }
 :if ([:len [find where list=$AddressList and address=175.176.134.0/23]] = 0) do={ add list=$AddressList comment=AS38676 address=175.176.134.0/23 }
 :if ([:len [find where list=$AddressList and address=175.176.136.0/23]] = 0) do={ add list=$AddressList comment=AS38676 address=175.176.136.0/23 }
-:if ([:len [find where list=$AddressList and address=175.176.139.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=175.176.139.0/24 }
-:if ([:len [find where list=$AddressList and address=175.176.140.0/23]] = 0) do={ add list=$AddressList comment=AS38676 address=175.176.140.0/23 }
+:if ([:len [find where list=$AddressList and address=175.176.140.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=175.176.140.0/24 }
 :if ([:len [find where list=$AddressList and address=175.176.142.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=175.176.142.0/24 }
 :if ([:len [find where list=$AddressList and address=175.197.107.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=175.197.107.0/24 }
 :if ([:len [find where list=$AddressList and address=175.207.38.0/23]] = 0) do={ add list=$AddressList comment=AS38676 address=175.207.38.0/23 }
@@ -44,7 +43,8 @@
 :if ([:len [find where list=$AddressList and address=182.237.40.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=182.237.40.0/24 }
 :if ([:len [find where list=$AddressList and address=182.237.43.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=182.237.43.0/24 }
 :if ([:len [find where list=$AddressList and address=182.237.44.0/22]] = 0) do={ add list=$AddressList comment=AS38676 address=182.237.44.0/22 }
-:if ([:len [find where list=$AddressList and address=182.237.48.0/22]] = 0) do={ add list=$AddressList comment=AS38676 address=182.237.48.0/22 }
+:if ([:len [find where list=$AddressList and address=182.237.48.0/23]] = 0) do={ add list=$AddressList comment=AS38676 address=182.237.48.0/23 }
+:if ([:len [find where list=$AddressList and address=182.237.50.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=182.237.50.0/24 }
 :if ([:len [find where list=$AddressList and address=182.237.52.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=182.237.52.0/24 }
 :if ([:len [find where list=$AddressList and address=182.237.55.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=182.237.55.0/24 }
 :if ([:len [find where list=$AddressList and address=182.237.61.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=182.237.61.0/24 }
@@ -76,7 +76,9 @@
 :if ([:len [find where list=$AddressList and address=210.181.20.0/22]] = 0) do={ add list=$AddressList comment=AS38676 address=210.181.20.0/22 }
 :if ([:len [find where list=$AddressList and address=210.181.24.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=210.181.24.0/24 }
 :if ([:len [find where list=$AddressList and address=210.222.80.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=210.222.80.0/24 }
-:if ([:len [find where list=$AddressList and address=210.4.88.0/21]] = 0) do={ add list=$AddressList comment=AS38676 address=210.4.88.0/21 }
+:if ([:len [find where list=$AddressList and address=210.4.88.0/22]] = 0) do={ add list=$AddressList comment=AS38676 address=210.4.88.0/22 }
+:if ([:len [find where list=$AddressList and address=210.4.93.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=210.4.93.0/24 }
+:if ([:len [find where list=$AddressList and address=210.4.94.0/23]] = 0) do={ add list=$AddressList comment=AS38676 address=210.4.94.0/23 }
 :if ([:len [find where list=$AddressList and address=210.90.160.0/23]] = 0) do={ add list=$AddressList comment=AS38676 address=210.90.160.0/23 }
 :if ([:len [find where list=$AddressList and address=211.116.193.0/24]] = 0) do={ add list=$AddressList comment=AS38676 address=211.116.193.0/24 }
 :if ([:len [find where list=$AddressList and address=211.116.194.0/23]] = 0) do={ add list=$AddressList comment=AS38676 address=211.116.194.0/23 }

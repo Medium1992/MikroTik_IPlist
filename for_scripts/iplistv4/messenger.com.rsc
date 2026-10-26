@@ -88,6 +88,7 @@
 :if ([:len [find where list=$AddressList and address=57.144.249.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.249.32 }
 :if ([:len [find where list=$AddressList and address=57.144.254.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.254.141 }
 :if ([:len [find where list=$AddressList and address=57.144.255.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.255.32 }
+:if ([:len [find where list=$AddressList and address=57.144.68.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.68.141 }
 :if ([:len [find where list=$AddressList and address=57.144.69.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.144.69.32 }
 :if ([:len [find where list=$AddressList and address=57.145.1.32]] = 0) do={ add list=$AddressList comment=messenger.com address=57.145.1.32 }
 :if ([:len [find where list=$AddressList and address=57.145.4.141]] = 0) do={ add list=$AddressList comment=messenger.com address=57.145.4.141 }

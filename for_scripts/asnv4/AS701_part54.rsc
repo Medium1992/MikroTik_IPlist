@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=70.20.240.0/22]] = 0) do={ add list=$AddressList comment=AS701 address=70.20.240.0/22 }
-:if ([:len [find where list=$AddressList and address=70.20.244.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=70.20.244.0/23 }
-:if ([:len [find where list=$AddressList and address=70.20.246.0/25]] = 0) do={ add list=$AddressList comment=AS701 address=70.20.246.0/25 }
-:if ([:len [find where list=$AddressList and address=70.20.246.128/26]] = 0) do={ add list=$AddressList comment=AS701 address=70.20.246.128/26 }
 :if ([:len [find where list=$AddressList and address=70.20.246.193/32]] = 0) do={ add list=$AddressList comment=AS701 address=70.20.246.193/32 }
 :if ([:len [find where list=$AddressList and address=70.20.246.194/31]] = 0) do={ add list=$AddressList comment=AS701 address=70.20.246.194/31 }
 :if ([:len [find where list=$AddressList and address=70.20.246.196/30]] = 0) do={ add list=$AddressList comment=AS701 address=70.20.246.196/30 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=71.104.76.64/27]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.76.64/27 }
 :if ([:len [find where list=$AddressList and address=71.104.76.96/32]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.76.96/32 }
 :if ([:len [find where list=$AddressList and address=71.104.76.98/31]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.76.98/31 }
+:if ([:len [find where list=$AddressList and address=71.104.77.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.77.0/24 }
+:if ([:len [find where list=$AddressList and address=71.104.78.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.78.0/23 }
+:if ([:len [find where list=$AddressList and address=71.104.8.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.8.0/21 }
+:if ([:len [find where list=$AddressList and address=71.104.80.0/20]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.80.0/20 }

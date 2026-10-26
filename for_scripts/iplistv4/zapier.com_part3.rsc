@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.227.146.37]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.146.37 }
+:if ([:len [find where list=$AddressList and address=13.227.146.38]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.146.38 }
+:if ([:len [find where list=$AddressList and address=13.227.146.42]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.146.42 }
+:if ([:len [find where list=$AddressList and address=13.227.146.44]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.146.44 }
 :if ([:len [find where list=$AddressList and address=13.227.146.53]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.146.53 }
 :if ([:len [find where list=$AddressList and address=13.227.146.54]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.146.54 }
 :if ([:len [find where list=$AddressList and address=13.227.146.67]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.146.67 }
@@ -48,10 +52,14 @@
 :if ([:len [find where list=$AddressList and address=13.227.47.123]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.123 }
 :if ([:len [find where list=$AddressList and address=13.227.47.14]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.14 }
 :if ([:len [find where list=$AddressList and address=13.227.47.19]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.19 }
+:if ([:len [find where list=$AddressList and address=13.227.47.2]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.2 }
 :if ([:len [find where list=$AddressList and address=13.227.47.23]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.23 }
+:if ([:len [find where list=$AddressList and address=13.227.47.32]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.32 }
 :if ([:len [find where list=$AddressList and address=13.227.47.34]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.34 }
 :if ([:len [find where list=$AddressList and address=13.227.47.40]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.40 }
+:if ([:len [find where list=$AddressList and address=13.227.47.80]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.80 }
 :if ([:len [find where list=$AddressList and address=13.227.47.84]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.84 }
+:if ([:len [find where list=$AddressList and address=13.227.47.85]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.47.85 }
 :if ([:len [find where list=$AddressList and address=13.227.74.107]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.74.107 }
 :if ([:len [find where list=$AddressList and address=13.227.74.110]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.74.110 }
 :if ([:len [find where list=$AddressList and address=13.227.74.64]] = 0) do={ add list=$AddressList comment=zapier.com address=13.227.74.64 }
@@ -64,6 +72,10 @@
 :if ([:len [find where list=$AddressList and address=13.249.141.32]] = 0) do={ add list=$AddressList comment=zapier.com address=13.249.141.32 }
 :if ([:len [find where list=$AddressList and address=13.249.141.77]] = 0) do={ add list=$AddressList comment=zapier.com address=13.249.141.77 }
 :if ([:len [find where list=$AddressList and address=13.249.141.9]] = 0) do={ add list=$AddressList comment=zapier.com address=13.249.141.9 }
+:if ([:len [find where list=$AddressList and address=13.249.231.4]] = 0) do={ add list=$AddressList comment=zapier.com address=13.249.231.4 }
+:if ([:len [find where list=$AddressList and address=13.249.231.55]] = 0) do={ add list=$AddressList comment=zapier.com address=13.249.231.55 }
+:if ([:len [find where list=$AddressList and address=13.249.231.61]] = 0) do={ add list=$AddressList comment=zapier.com address=13.249.231.61 }
+:if ([:len [find where list=$AddressList and address=13.249.231.67]] = 0) do={ add list=$AddressList comment=zapier.com address=13.249.231.67 }
 :if ([:len [find where list=$AddressList and address=13.249.8.100]] = 0) do={ add list=$AddressList comment=zapier.com address=13.249.8.100 }
 :if ([:len [find where list=$AddressList and address=13.249.8.103]] = 0) do={ add list=$AddressList comment=zapier.com address=13.249.8.103 }
 :if ([:len [find where list=$AddressList and address=13.249.8.11]] = 0) do={ add list=$AddressList comment=zapier.com address=13.249.8.11 }
@@ -168,15 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.33.235.50]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.235.50 }
 :if ([:len [find where list=$AddressList and address=13.33.235.6]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.235.6 }
 :if ([:len [find where list=$AddressList and address=13.33.235.65]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.235.65 }
-:if ([:len [find where list=$AddressList and address=13.33.235.80]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.235.80 }
-:if ([:len [find where list=$AddressList and address=13.33.252.10]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.252.10 }
-:if ([:len [find where list=$AddressList and address=13.33.252.121]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.252.121 }
-:if ([:len [find where list=$AddressList and address=13.33.252.25]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.252.25 }
-:if ([:len [find where list=$AddressList and address=13.33.252.29]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.252.29 }
-:if ([:len [find where list=$AddressList and address=13.33.67.28]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.67.28 }
-:if ([:len [find where list=$AddressList and address=13.33.67.34]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.67.34 }
-:if ([:len [find where list=$AddressList and address=13.33.67.93]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.67.93 }
-:if ([:len [find where list=$AddressList and address=13.33.67.94]] = 0) do={ add list=$AddressList comment=zapier.com address=13.33.67.94 }
-:if ([:len [find where list=$AddressList and address=13.35.198.128]] = 0) do={ add list=$AddressList comment=zapier.com address=13.35.198.128 }
-:if ([:len [find where list=$AddressList and address=13.35.198.22]] = 0) do={ add list=$AddressList comment=zapier.com address=13.35.198.22 }
-:if ([:len [find where list=$AddressList and address=13.35.198.68]] = 0) do={ add list=$AddressList comment=zapier.com address=13.35.198.68 }

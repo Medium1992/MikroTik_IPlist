@@ -11,6 +11,7 @@
 :if ([:len [find where list=$AddressList and address=159.69.186.9]] = 0) do={ add list=$AddressList comment=zeflix.online address=159.69.186.9 }
 :if ([:len [find where list=$AddressList and address=159.69.42.212]] = 0) do={ add list=$AddressList comment=zeflix.online address=159.69.42.212 }
 :if ([:len [find where list=$AddressList and address=159.69.83.207]] = 0) do={ add list=$AddressList comment=zeflix.online address=159.69.83.207 }
+:if ([:len [find where list=$AddressList and address=162.4.84.234]] = 0) do={ add list=$AddressList comment=zeflix.online address=162.4.84.234 }
 :if ([:len [find where list=$AddressList and address=172.104.149.86]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.104.149.86 }
 :if ([:len [find where list=$AddressList and address=172.104.203.186]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.104.203.186 }
 :if ([:len [find where list=$AddressList and address=172.104.251.198]] = 0) do={ add list=$AddressList comment=zeflix.online address=172.104.251.198 }

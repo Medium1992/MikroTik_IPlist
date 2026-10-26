@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.85.49.112]] = 0) do={ add list=$AddressList comment=chatgpt.com address=52.85.49.112 }
+:if ([:len [find where list=$AddressList and address=52.85.49.15]] = 0) do={ add list=$AddressList comment=chatgpt.com address=52.85.49.15 }
+:if ([:len [find where list=$AddressList and address=52.85.49.67]] = 0) do={ add list=$AddressList comment=chatgpt.com address=52.85.49.67 }
+:if ([:len [find where list=$AddressList and address=52.85.49.93]] = 0) do={ add list=$AddressList comment=chatgpt.com address=52.85.49.93 }
+:if ([:len [find where list=$AddressList and address=52.85.5.114]] = 0) do={ add list=$AddressList comment=chatgpt.com address=52.85.5.114 }
 :if ([:len [find where list=$AddressList and address=52.85.5.115]] = 0) do={ add list=$AddressList comment=chatgpt.com address=52.85.5.115 }
 :if ([:len [find where list=$AddressList and address=52.85.5.123]] = 0) do={ add list=$AddressList comment=chatgpt.com address=52.85.5.123 }
 :if ([:len [find where list=$AddressList and address=52.85.5.65]] = 0) do={ add list=$AddressList comment=chatgpt.com address=52.85.5.65 }

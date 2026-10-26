@@ -5,7 +5,6 @@
 :if ([:len [find where list=$AddressList and address=147.136.89.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=147.136.89.0/24 }
 :if ([:len [find where list=$AddressList and address=147.136.91.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=147.136.91.0/24 }
 :if ([:len [find where list=$AddressList and address=151.243.51.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=151.243.51.0/24 }
-:if ([:len [find where list=$AddressList and address=151.246.180.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=151.246.180.0/24 }
 :if ([:len [find where list=$AddressList and address=168.199.136.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=168.199.136.0/24 }
 :if ([:len [find where list=$AddressList and address=177.177.226.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=177.177.226.0/24 }
 :if ([:len [find where list=$AddressList and address=178.93.17.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=178.93.17.0/24 }
@@ -74,6 +73,7 @@
 :if ([:len [find where list=$AddressList and address=66.132.185.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=66.132.185.0/24 }
 :if ([:len [find where list=$AddressList and address=82.153.218.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=82.153.218.0/24 }
 :if ([:len [find where list=$AddressList and address=82.206.12.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=82.206.12.0/24 }
+:if ([:len [find where list=$AddressList and address=82.40.27.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=82.40.27.0/24 }
 :if ([:len [find where list=$AddressList and address=84.75.1.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=84.75.1.0/24 }
 :if ([:len [find where list=$AddressList and address=89.19.50.0/24]] = 0) do={ add list=$AddressList comment=AS214483 address=89.19.50.0/24 }
 :if ([:len [find where list=$AddressList and address=95.134.240.0/20]] = 0) do={ add list=$AddressList comment=AS214483 address=95.134.240.0/20 }

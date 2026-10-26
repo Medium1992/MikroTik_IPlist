@@ -166,8 +166,7 @@
 :if ([:len [find where list=$AddressList and address=188.42.196.0/23]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.196.0/23 }
 :if ([:len [find where list=$AddressList and address=188.42.198.0/24]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.198.0/24 }
 :if ([:len [find where list=$AddressList and address=188.42.200.0/21]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.200.0/21 }
-:if ([:len [find where list=$AddressList and address=188.42.208.0/23]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.208.0/23 }
-:if ([:len [find where list=$AddressList and address=188.42.210.0/24]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.210.0/24 }
+:if ([:len [find where list=$AddressList and address=188.42.208.0/22]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.208.0/22 }
 :if ([:len [find where list=$AddressList and address=188.42.212.0/24]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.212.0/24 }
 :if ([:len [find where list=$AddressList and address=188.42.216.0/21]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.216.0/21 }
 :if ([:len [find where list=$AddressList and address=188.42.225.0/24]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.225.0/24 }
@@ -179,4 +178,5 @@
 :if ([:len [find where list=$AddressList and address=188.42.240.0/21]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.240.0/21 }
 :if ([:len [find where list=$AddressList and address=188.42.248.0/23]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.248.0/23 }
 :if ([:len [find where list=$AddressList and address=188.42.252.0/23]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.252.0/23 }
+:if ([:len [find where list=$AddressList and address=188.42.26.0/24]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.26.0/24 }
 :if ([:len [find where list=$AddressList and address=188.42.29.0/24]] = 0) do={ add list=$AddressList comment=AS7979 address=188.42.29.0/24 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=185.107.56.193]] = 0) do={ add list=$AddressList comment=discord.com address=185.107.56.193 }
+:if ([:len [find where list=$AddressList and address=185.107.56.194]] = 0) do={ add list=$AddressList comment=discord.com address=185.107.56.194 }
+:if ([:len [find where list=$AddressList and address=185.107.56.195]] = 0) do={ add list=$AddressList comment=discord.com address=185.107.56.195 }
+:if ([:len [find where list=$AddressList and address=185.107.56.52]] = 0) do={ add list=$AddressList comment=discord.com address=185.107.56.52 }
 :if ([:len [find where list=$AddressList and address=185.107.56.53]] = 0) do={ add list=$AddressList comment=discord.com address=185.107.56.53 }
 :if ([:len [find where list=$AddressList and address=185.107.56.54]] = 0) do={ add list=$AddressList comment=discord.com address=185.107.56.54 }
 :if ([:len [find where list=$AddressList and address=185.107.56.55]] = 0) do={ add list=$AddressList comment=discord.com address=185.107.56.55 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.161.119.68]] = 0) do={ add list=$AddressList comment=discord.com address=3.161.119.68 }
 :if ([:len [find where list=$AddressList and address=3.161.119.7]] = 0) do={ add list=$AddressList comment=discord.com address=3.161.119.7 }
 :if ([:len [find where list=$AddressList and address=3.162.140.48]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.48 }
-:if ([:len [find where list=$AddressList and address=3.162.140.55]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.55 }
-:if ([:len [find where list=$AddressList and address=3.162.140.91]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.91 }
-:if ([:len [find where list=$AddressList and address=3.162.140.97]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.97 }
-:if ([:len [find where list=$AddressList and address=3.162.38.10]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.38.10 }

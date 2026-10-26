@@ -4,8 +4,7 @@
 :if ([:len [find where list=$AddressList and address=135.12.192.0/19]] = 0) do={ add list=$AddressList comment=AS395965 address=135.12.192.0/19 }
 :if ([:len [find where list=$AddressList and address=135.12.224.0/20]] = 0) do={ add list=$AddressList comment=AS395965 address=135.12.224.0/20 }
 :if ([:len [find where list=$AddressList and address=135.12.240.0/21]] = 0) do={ add list=$AddressList comment=AS395965 address=135.12.240.0/21 }
-:if ([:len [find where list=$AddressList and address=135.12.248.0/23]] = 0) do={ add list=$AddressList comment=AS395965 address=135.12.248.0/23 }
-:if ([:len [find where list=$AddressList and address=135.12.250.0/24]] = 0) do={ add list=$AddressList comment=AS395965 address=135.12.250.0/24 }
+:if ([:len [find where list=$AddressList and address=135.12.248.0/22]] = 0) do={ add list=$AddressList comment=AS395965 address=135.12.248.0/22 }
 :if ([:len [find where list=$AddressList and address=135.12.252.0/23]] = 0) do={ add list=$AddressList comment=AS395965 address=135.12.252.0/23 }
 :if ([:len [find where list=$AddressList and address=162.247.120.0/21]] = 0) do={ add list=$AddressList comment=AS395965 address=162.247.120.0/21 }
 :if ([:len [find where list=$AddressList and address=170.133.224.0/19]] = 0) do={ add list=$AddressList comment=AS395965 address=170.133.224.0/19 }
@@ -44,4 +43,5 @@
 :if ([:len [find where list=$AddressList and address=72.53.207.0/24]] = 0) do={ add list=$AddressList comment=AS395965 address=72.53.207.0/24 }
 :if ([:len [find where list=$AddressList and address=72.53.208.0/20]] = 0) do={ add list=$AddressList comment=AS395965 address=72.53.208.0/20 }
 :if ([:len [find where list=$AddressList and address=72.53.224.0/19]] = 0) do={ add list=$AddressList comment=AS395965 address=72.53.224.0/19 }
+:if ([:len [find where list=$AddressList and address=80.71.32.0/22]] = 0) do={ add list=$AddressList comment=AS395965 address=80.71.32.0/22 }
 :if ([:len [find where list=$AddressList and address=87.101.48.0/20]] = 0) do={ add list=$AddressList comment=AS395965 address=87.101.48.0/20 }

@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=67.22.51.37]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.51.37 }
+:if ([:len [find where list=$AddressList and address=67.22.51.38]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.51.38 }
+:if ([:len [find where list=$AddressList and address=67.22.51.39]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.51.39 }
+:if ([:len [find where list=$AddressList and address=67.22.52.32]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.52.32 }
+:if ([:len [find where list=$AddressList and address=67.22.52.33]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.52.33 }
+:if ([:len [find where list=$AddressList and address=67.22.52.34]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.52.34 }
 :if ([:len [find where list=$AddressList and address=67.22.52.35]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.52.35 }
 :if ([:len [find where list=$AddressList and address=67.22.52.36]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.52.36 }
 :if ([:len [find where list=$AddressList and address=67.22.52.37]] = 0) do={ add list=$AddressList comment=xhamster.com address=67.22.52.37 }

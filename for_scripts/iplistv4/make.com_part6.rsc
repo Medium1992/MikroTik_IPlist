@@ -1,5 +1,14 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.173.187.59]] = 0) do={ add list=$AddressList comment=make.com address=18.173.187.59 }
+:if ([:len [find where list=$AddressList and address=18.173.187.66]] = 0) do={ add list=$AddressList comment=make.com address=18.173.187.66 }
+:if ([:len [find where list=$AddressList and address=18.173.205.10]] = 0) do={ add list=$AddressList comment=make.com address=18.173.205.10 }
+:if ([:len [find where list=$AddressList and address=18.173.205.107]] = 0) do={ add list=$AddressList comment=make.com address=18.173.205.107 }
+:if ([:len [find where list=$AddressList and address=18.173.205.20]] = 0) do={ add list=$AddressList comment=make.com address=18.173.205.20 }
+:if ([:len [find where list=$AddressList and address=18.173.205.24]] = 0) do={ add list=$AddressList comment=make.com address=18.173.205.24 }
+:if ([:len [find where list=$AddressList and address=18.173.205.44]] = 0) do={ add list=$AddressList comment=make.com address=18.173.205.44 }
+:if ([:len [find where list=$AddressList and address=18.173.205.72]] = 0) do={ add list=$AddressList comment=make.com address=18.173.205.72 }
+:if ([:len [find where list=$AddressList and address=18.173.205.77]] = 0) do={ add list=$AddressList comment=make.com address=18.173.205.77 }
 :if ([:len [find where list=$AddressList and address=18.173.205.81]] = 0) do={ add list=$AddressList comment=make.com address=18.173.205.81 }
 :if ([:len [find where list=$AddressList and address=18.173.5.10]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.10 }
 :if ([:len [find where list=$AddressList and address=18.173.5.100]] = 0) do={ add list=$AddressList comment=make.com address=18.173.5.100 }
@@ -171,12 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.244.18.90]] = 0) do={ add list=$AddressList comment=make.com address=18.244.18.90 }
 :if ([:len [find where list=$AddressList and address=18.244.87.100]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.100 }
 :if ([:len [find where list=$AddressList and address=18.244.87.105]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.105 }
-:if ([:len [find where list=$AddressList and address=18.244.87.107]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.107 }
-:if ([:len [find where list=$AddressList and address=18.244.87.111]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.111 }
-:if ([:len [find where list=$AddressList and address=18.244.87.115]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.115 }
-:if ([:len [find where list=$AddressList and address=18.244.87.118]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.118 }
-:if ([:len [find where list=$AddressList and address=18.244.87.120]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.120 }
-:if ([:len [find where list=$AddressList and address=18.244.87.127]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.127 }
-:if ([:len [find where list=$AddressList and address=18.244.87.129]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.129 }
-:if ([:len [find where list=$AddressList and address=18.244.87.27]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.27 }
-:if ([:len [find where list=$AddressList and address=18.244.87.32]] = 0) do={ add list=$AddressList comment=make.com address=18.244.87.32 }

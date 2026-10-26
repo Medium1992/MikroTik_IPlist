@@ -3,7 +3,6 @@
 :if ([:len [find where list=$AddressList and address=137.32.1.0/24]] = 0) do={ add list=$AddressList comment=AS6075 address=137.32.1.0/24 }
 :if ([:len [find where list=$AddressList and address=137.32.101.0/24]] = 0) do={ add list=$AddressList comment=AS6075 address=137.32.101.0/24 }
 :if ([:len [find where list=$AddressList and address=137.32.103.0/24]] = 0) do={ add list=$AddressList comment=AS6075 address=137.32.103.0/24 }
-:if ([:len [find where list=$AddressList and address=137.32.108.0/22]] = 0) do={ add list=$AddressList comment=AS6075 address=137.32.108.0/22 }
 :if ([:len [find where list=$AddressList and address=137.32.12.0/24]] = 0) do={ add list=$AddressList comment=AS6075 address=137.32.12.0/24 }
 :if ([:len [find where list=$AddressList and address=137.32.16.0/24]] = 0) do={ add list=$AddressList comment=AS6075 address=137.32.16.0/24 }
 :if ([:len [find where list=$AddressList and address=137.32.164.0/23]] = 0) do={ add list=$AddressList comment=AS6075 address=137.32.164.0/23 }

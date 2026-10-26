@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=71.104.77.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.77.0/24 }
-:if ([:len [find where list=$AddressList and address=71.104.78.0/23]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.78.0/23 }
-:if ([:len [find where list=$AddressList and address=71.104.8.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.8.0/21 }
-:if ([:len [find where list=$AddressList and address=71.104.80.0/20]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.80.0/20 }
 :if ([:len [find where list=$AddressList and address=71.104.96.0/21]] = 0) do={ add list=$AddressList comment=AS701 address=71.104.96.0/21 }
 :if ([:len [find where list=$AddressList and address=71.105.0.0/16]] = 0) do={ add list=$AddressList comment=AS701 address=71.105.0.0/16 }
 :if ([:len [find where list=$AddressList and address=71.106.0.0/15]] = 0) do={ add list=$AddressList comment=AS701 address=71.106.0.0/15 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=71.120.16.124/30]] = 0) do={ add list=$AddressList comment=AS701 address=71.120.16.124/30 }
 :if ([:len [find where list=$AddressList and address=71.120.16.128/25]] = 0) do={ add list=$AddressList comment=AS701 address=71.120.16.128/25 }
 :if ([:len [find where list=$AddressList and address=71.120.16.64/27]] = 0) do={ add list=$AddressList comment=AS701 address=71.120.16.64/27 }
+:if ([:len [find where list=$AddressList and address=71.120.16.96/28]] = 0) do={ add list=$AddressList comment=AS701 address=71.120.16.96/28 }
+:if ([:len [find where list=$AddressList and address=71.120.160.0/20]] = 0) do={ add list=$AddressList comment=AS701 address=71.120.160.0/20 }
+:if ([:len [find where list=$AddressList and address=71.120.17.0/24]] = 0) do={ add list=$AddressList comment=AS701 address=71.120.17.0/24 }
+:if ([:len [find where list=$AddressList and address=71.120.176.0/22]] = 0) do={ add list=$AddressList comment=AS701 address=71.120.176.0/22 }

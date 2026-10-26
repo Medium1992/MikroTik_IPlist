@@ -19,6 +19,7 @@
 :if ([:len [find where list=$AddressList and address=172.98.168.0/24]] = 0) do={ add list=$AddressList comment=AS28753 address=172.98.168.0/24 }
 :if ([:len [find where list=$AddressList and address=172.98.180.0/24]] = 0) do={ add list=$AddressList comment=AS28753 address=172.98.180.0/24 }
 :if ([:len [find where list=$AddressList and address=176.102.173.0/24]] = 0) do={ add list=$AddressList comment=AS28753 address=176.102.173.0/24 }
+:if ([:len [find where list=$AddressList and address=176.96.140.0/23]] = 0) do={ add list=$AddressList comment=AS28753 address=176.96.140.0/23 }
 :if ([:len [find where list=$AddressList and address=178.162.192.0/18]] = 0) do={ add list=$AddressList comment=AS28753 address=178.162.192.0/18 }
 :if ([:len [find where list=$AddressList and address=185.125.51.0/24]] = 0) do={ add list=$AddressList comment=AS28753 address=185.125.51.0/24 }
 :if ([:len [find where list=$AddressList and address=185.14.48.0/22]] = 0) do={ add list=$AddressList comment=AS28753 address=185.14.48.0/22 }
@@ -32,6 +33,7 @@
 :if ([:len [find where list=$AddressList and address=185.49.68.0/22]] = 0) do={ add list=$AddressList comment=AS28753 address=185.49.68.0/22 }
 :if ([:len [find where list=$AddressList and address=185.94.166.0/24]] = 0) do={ add list=$AddressList comment=AS28753 address=185.94.166.0/24 }
 :if ([:len [find where list=$AddressList and address=192.166.153.0/24]] = 0) do={ add list=$AddressList comment=AS28753 address=192.166.153.0/24 }
+:if ([:len [find where list=$AddressList and address=193.254.234.0/23]] = 0) do={ add list=$AddressList comment=AS28753 address=193.254.234.0/23 }
 :if ([:len [find where list=$AddressList and address=195.26.26.0/24]] = 0) do={ add list=$AddressList comment=AS28753 address=195.26.26.0/24 }
 :if ([:len [find where list=$AddressList and address=195.54.32.0/23]] = 0) do={ add list=$AddressList comment=AS28753 address=195.54.32.0/23 }
 :if ([:len [find where list=$AddressList and address=204.217.159.0/24]] = 0) do={ add list=$AddressList comment=AS28753 address=204.217.159.0/24 }

@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.160.172.22]] = 0) do={ add list=$AddressList comment=naukri.com address=18.160.172.22 }
+:if ([:len [find where list=$AddressList and address=18.160.172.66]] = 0) do={ add list=$AddressList comment=naukri.com address=18.160.172.66 }
+:if ([:len [find where list=$AddressList and address=18.160.172.96]] = 0) do={ add list=$AddressList comment=naukri.com address=18.160.172.96 }
+:if ([:len [find where list=$AddressList and address=18.161.111.107]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.111.107 }
+:if ([:len [find where list=$AddressList and address=18.161.111.12]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.111.12 }
+:if ([:len [find where list=$AddressList and address=18.161.111.124]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.111.124 }
+:if ([:len [find where list=$AddressList and address=18.161.111.13]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.111.13 }
+:if ([:len [find where list=$AddressList and address=18.161.111.36]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.111.36 }
+:if ([:len [find where list=$AddressList and address=18.161.111.67]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.111.67 }
+:if ([:len [find where list=$AddressList and address=18.161.111.75]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.111.75 }
+:if ([:len [find where list=$AddressList and address=18.161.111.76]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.111.76 }
 :if ([:len [find where list=$AddressList and address=18.161.21.102]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.21.102 }
 :if ([:len [find where list=$AddressList and address=18.161.21.26]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.21.26 }
 :if ([:len [find where list=$AddressList and address=18.161.21.76]] = 0) do={ add list=$AddressList comment=naukri.com address=18.161.21.76 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.165.61.4]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.4 }
 :if ([:len [find where list=$AddressList and address=18.165.61.5]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.5 }
 :if ([:len [find where list=$AddressList and address=18.165.61.50]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.50 }
-:if ([:len [find where list=$AddressList and address=18.165.61.52]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.52 }
-:if ([:len [find where list=$AddressList and address=18.165.61.60]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.60 }
-:if ([:len [find where list=$AddressList and address=18.165.61.61]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.61 }
-:if ([:len [find where list=$AddressList and address=18.165.61.63]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.63 }
-:if ([:len [find where list=$AddressList and address=18.165.61.64]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.64 }
-:if ([:len [find where list=$AddressList and address=18.165.61.67]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.67 }
-:if ([:len [find where list=$AddressList and address=18.165.61.69]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.69 }
-:if ([:len [find where list=$AddressList and address=18.165.61.79]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.79 }
-:if ([:len [find where list=$AddressList and address=18.165.61.80]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.80 }
-:if ([:len [find where list=$AddressList and address=18.165.61.81]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.81 }
-:if ([:len [find where list=$AddressList and address=18.165.61.9]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.61.9 }

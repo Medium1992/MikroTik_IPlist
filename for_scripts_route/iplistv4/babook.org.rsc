@@ -12,6 +12,8 @@
 :if ([:len [/ip/route/find dst-address=8.47.69.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.47.69.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=babook.org }
 :if ([:len [/ip/route/find dst-address=8.47.69.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.47.69.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=babook.org }
 :if ([:len [/ip/route/find dst-address=8.47.69.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.47.69.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=babook.org }
+:if ([:len [/ip/route/find dst-address=8.47.69.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.47.69.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=babook.org }
 :if ([:len [/ip/route/find dst-address=8.6.112.0 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.6.112.0 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=babook.org }
 :if ([:len [/ip/route/find dst-address=8.6.112.5 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.6.112.5 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=babook.org }
 :if ([:len [/ip/route/find dst-address=8.6.112.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.6.112.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=babook.org }
+:if ([:len [/ip/route/find dst-address=8.6.112.7 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=8.6.112.7 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=babook.org }

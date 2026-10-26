@@ -4,8 +4,11 @@
 :if ([:len [find where list=$AddressList and address=142.250.102.95]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.102.95 }
 :if ([:len [find where list=$AddressList and address=142.250.150.95]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.150.95 }
 :if ([:len [find where list=$AddressList and address=142.250.154.95]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.154.95 }
+:if ([:len [find where list=$AddressList and address=142.250.178.106]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.178.106 }
 :if ([:len [find where list=$AddressList and address=142.250.178.202]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.178.202 }
 :if ([:len [find where list=$AddressList and address=142.250.178.234]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.178.234 }
+:if ([:len [find where list=$AddressList and address=142.250.178.42]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.178.42 }
+:if ([:len [find where list=$AddressList and address=142.250.178.74]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.178.74 }
 :if ([:len [find where list=$AddressList and address=142.250.180.10]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.180.10 }
 :if ([:len [find where list=$AddressList and address=142.250.180.202]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.180.202 }
 :if ([:len [find where list=$AddressList and address=142.250.180.234]] = 0) do={ add list=$AddressList comment=aistudio.google.com address=142.250.180.234 }

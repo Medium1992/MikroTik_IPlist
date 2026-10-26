@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.233.6.252]] = 0) do={ add list=$AddressList comment=signal.org address=3.233.6.252 }
+:if ([:len [find where list=$AddressList and address=3.234.164.139]] = 0) do={ add list=$AddressList comment=signal.org address=3.234.164.139 }
+:if ([:len [find where list=$AddressList and address=3.235.200.3]] = 0) do={ add list=$AddressList comment=signal.org address=3.235.200.3 }
+:if ([:len [find where list=$AddressList and address=3.81.199.185]] = 0) do={ add list=$AddressList comment=signal.org address=3.81.199.185 }
 :if ([:len [find where list=$AddressList and address=3.86.171.4]] = 0) do={ add list=$AddressList comment=signal.org address=3.86.171.4 }
 :if ([:len [find where list=$AddressList and address=3.86.79.97]] = 0) do={ add list=$AddressList comment=signal.org address=3.86.79.97 }
 :if ([:len [find where list=$AddressList and address=3.87.230.25]] = 0) do={ add list=$AddressList comment=signal.org address=3.87.230.25 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=44.193.253.45]] = 0) do={ add list=$AddressList comment=signal.org address=44.193.253.45 }
 :if ([:len [find where list=$AddressList and address=44.193.68.128]] = 0) do={ add list=$AddressList comment=signal.org address=44.193.68.128 }
 :if ([:len [find where list=$AddressList and address=44.194.12.115]] = 0) do={ add list=$AddressList comment=signal.org address=44.194.12.115 }
-:if ([:len [find where list=$AddressList and address=44.194.161.201]] = 0) do={ add list=$AddressList comment=signal.org address=44.194.161.201 }
-:if ([:len [find where list=$AddressList and address=44.194.179.199]] = 0) do={ add list=$AddressList comment=signal.org address=44.194.179.199 }
-:if ([:len [find where list=$AddressList and address=44.194.227.159]] = 0) do={ add list=$AddressList comment=signal.org address=44.194.227.159 }
-:if ([:len [find where list=$AddressList and address=44.194.244.255]] = 0) do={ add list=$AddressList comment=signal.org address=44.194.244.255 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=50.221.24.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.221.24.0/23 }
+:if ([:len [find where list=$AddressList and address=50.221.26.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.221.26.0/24 }
+:if ([:len [find where list=$AddressList and address=50.221.28.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.221.28.0/22 }
+:if ([:len [find where list=$AddressList and address=50.221.32.0/21]] = 0) do={ add list=$AddressList comment=AS7922 address=50.221.32.0/21 }
 :if ([:len [find where list=$AddressList and address=50.221.40.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.221.40.0/22 }
 :if ([:len [find where list=$AddressList and address=50.221.44.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.221.44.0/23 }
 :if ([:len [find where list=$AddressList and address=50.221.46.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.221.46.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=50.225.172.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.225.172.0/23 }
 :if ([:len [find where list=$AddressList and address=50.225.175.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.225.175.0/24 }
 :if ([:len [find where list=$AddressList and address=50.225.176.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.225.176.0/23 }
-:if ([:len [find where list=$AddressList and address=50.225.178.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.225.178.0/24 }
-:if ([:len [find where list=$AddressList and address=50.225.180.0/22]] = 0) do={ add list=$AddressList comment=AS7922 address=50.225.180.0/22 }
-:if ([:len [find where list=$AddressList and address=50.225.184.0/23]] = 0) do={ add list=$AddressList comment=AS7922 address=50.225.184.0/23 }
-:if ([:len [find where list=$AddressList and address=50.225.187.0/24]] = 0) do={ add list=$AddressList comment=AS7922 address=50.225.187.0/24 }

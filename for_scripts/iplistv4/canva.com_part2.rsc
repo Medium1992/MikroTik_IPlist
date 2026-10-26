@@ -156,6 +156,10 @@
 :if ([:len [find where list=$AddressList and address=52.85.118.106]] = 0) do={ add list=$AddressList comment=canva.com address=52.85.118.106 }
 :if ([:len [find where list=$AddressList and address=52.85.118.117]] = 0) do={ add list=$AddressList comment=canva.com address=52.85.118.117 }
 :if ([:len [find where list=$AddressList and address=52.85.118.125]] = 0) do={ add list=$AddressList comment=canva.com address=52.85.118.125 }
+:if ([:len [find where list=$AddressList and address=52.85.154.3]] = 0) do={ add list=$AddressList comment=canva.com address=52.85.154.3 }
+:if ([:len [find where list=$AddressList and address=52.85.154.31]] = 0) do={ add list=$AddressList comment=canva.com address=52.85.154.31 }
+:if ([:len [find where list=$AddressList and address=52.85.154.46]] = 0) do={ add list=$AddressList comment=canva.com address=52.85.154.46 }
+:if ([:len [find where list=$AddressList and address=52.85.154.99]] = 0) do={ add list=$AddressList comment=canva.com address=52.85.154.99 }
 :if ([:len [find where list=$AddressList and address=54.192.100.112]] = 0) do={ add list=$AddressList comment=canva.com address=54.192.100.112 }
 :if ([:len [find where list=$AddressList and address=54.192.100.121]] = 0) do={ add list=$AddressList comment=canva.com address=54.192.100.121 }
 :if ([:len [find where list=$AddressList and address=54.192.100.60]] = 0) do={ add list=$AddressList comment=canva.com address=54.192.100.60 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.8.131.24]] = 0) do={ add list=$AddressList comment=canva.com address=65.8.131.24 }
 :if ([:len [find where list=$AddressList and address=65.8.131.6]] = 0) do={ add list=$AddressList comment=canva.com address=65.8.131.6 }
 :if ([:len [find where list=$AddressList and address=65.8.131.82]] = 0) do={ add list=$AddressList comment=canva.com address=65.8.131.82 }
-:if ([:len [find where list=$AddressList and address=65.9.175.111]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.175.111 }
-:if ([:len [find where list=$AddressList and address=65.9.175.74]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.175.74 }
-:if ([:len [find where list=$AddressList and address=65.9.175.75]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.175.75 }
-:if ([:len [find where list=$AddressList and address=65.9.175.80]] = 0) do={ add list=$AddressList comment=canva.com address=65.9.175.80 }

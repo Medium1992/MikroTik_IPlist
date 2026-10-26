@@ -4,3 +4,4 @@
 /ip route
 :if ([:len [/ip/route/find dst-address=170.48.16.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=170.48.16.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13348 }
 :if ([:len [/ip/route/find dst-address=170.48.48.0/20 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=170.48.48.0/20 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13348 }
+:if ([:len [/ip/route/find dst-address=208.242.12.0/23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=208.242.12.0/23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS13348 }

@@ -397,3 +397,17 @@ jobs:
           fi
           git commit -m "Auto-update: Address-List (350) + Routes (100 per file) → all sections" || exit 0
           git push
+
+  # GitHub switches off schedules in a public repository after 60 days
+  # without activity. Re-enabling the workflow through the API resets
+  # that timer, so the schedule survives quiet months.
+  keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Keep the schedule alive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/for_scripts.yml/enable"

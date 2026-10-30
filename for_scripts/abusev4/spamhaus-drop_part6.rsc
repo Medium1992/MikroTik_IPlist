@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=49.89.240.0/22 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=5.101.86.0/24 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=5.105.220.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=5.175.169.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=5.175.189.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=5.183.60.0/22 } on-error={}
@@ -209,6 +206,7 @@
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.246.43.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.92.240.0/22 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.92.40.0/24 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.92.41.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.92.42.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=91.92.47.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=92.112.218.0/24 } on-error={}
@@ -238,7 +236,6 @@
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=93.187.128.0/22 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=93.90.72.0/23 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=93.92.72.0/21 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=94.154.35.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=94.154.40.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=94.154.43.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=94.154.46.0/24 } on-error={}

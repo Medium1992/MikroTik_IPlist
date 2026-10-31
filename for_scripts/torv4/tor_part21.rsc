@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.10/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.100/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.101/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.102/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.103/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.104/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.105/32 } on-error={}
@@ -234,7 +230,6 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.127/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.128/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.129/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.13/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.130/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.131/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.132/32 } on-error={}
@@ -250,3 +245,8 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.141/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.142/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.143/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.144/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.145/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.146/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.147/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.62.148/32 } on-error={}

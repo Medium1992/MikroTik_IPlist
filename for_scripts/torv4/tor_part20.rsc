@@ -1,13 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.111/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.112/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.113/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.114/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.115/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.116/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.117/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.118/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.119/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.12/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.1.120/32 } on-error={}
@@ -250,3 +242,11 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.161/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.162/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.163/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.164/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.165/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.166/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.167/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.168/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.169/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.17/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.170/32 } on-error={}

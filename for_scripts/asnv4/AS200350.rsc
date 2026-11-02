@@ -4,7 +4,6 @@
 :if ([:len [find where list=$AddressList and address=111.88.144.0/20]] = 0) do={ add list=$AddressList comment=AS200350 address=111.88.144.0/20 }
 :if ([:len [find where list=$AddressList and address=111.88.240.0/20]] = 0) do={ add list=$AddressList comment=AS200350 address=111.88.240.0/20 }
 :if ([:len [find where list=$AddressList and address=130.193.32.0/19]] = 0) do={ add list=$AddressList comment=AS200350 address=130.193.32.0/19 }
-:if ([:len [find where list=$AddressList and address=153.51.32.0/19]] = 0) do={ add list=$AddressList comment=AS200350 address=153.51.32.0/19 }
 :if ([:len [find where list=$AddressList and address=153.51.96.0/19]] = 0) do={ add list=$AddressList comment=AS200350 address=153.51.96.0/19 }
 :if ([:len [find where list=$AddressList and address=158.160.0.0/16]] = 0) do={ add list=$AddressList comment=AS200350 address=158.160.0.0/16 }
 :if ([:len [find where list=$AddressList and address=178.154.192.0/18]] = 0) do={ add list=$AddressList comment=AS200350 address=178.154.192.0/18 }
@@ -19,7 +18,6 @@
 :if ([:len [find where list=$AddressList and address=37.230.168.0/23]] = 0) do={ add list=$AddressList comment=AS200350 address=37.230.168.0/23 }
 :if ([:len [find where list=$AddressList and address=37.230.172.0/22]] = 0) do={ add list=$AddressList comment=AS200350 address=37.230.172.0/22 }
 :if ([:len [find where list=$AddressList and address=46.21.244.0/22]] = 0) do={ add list=$AddressList comment=AS200350 address=46.21.244.0/22 }
-:if ([:len [find where list=$AddressList and address=46.243.209.0/24]] = 0) do={ add list=$AddressList comment=AS200350 address=46.243.209.0/24 }
 :if ([:len [find where list=$AddressList and address=46.243.210.0/23]] = 0) do={ add list=$AddressList comment=AS200350 address=46.243.210.0/23 }
 :if ([:len [find where list=$AddressList and address=51.250.0.0/17]] = 0) do={ add list=$AddressList comment=AS200350 address=51.250.0.0/17 }
 :if ([:len [find where list=$AddressList and address=62.84.112.0/20]] = 0) do={ add list=$AddressList comment=AS200350 address=62.84.112.0/20 }

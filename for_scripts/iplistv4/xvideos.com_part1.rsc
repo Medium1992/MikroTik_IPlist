@@ -160,7 +160,9 @@
 :if ([:len [find where list=$AddressList and address=84.17.59.16]] = 0) do={ add list=$AddressList comment=xvideos.com address=84.17.59.16 }
 :if ([:len [find where list=$AddressList and address=84.17.59.17]] = 0) do={ add list=$AddressList comment=xvideos.com address=84.17.59.17 }
 :if ([:len [find where list=$AddressList and address=87.249.131.106]] = 0) do={ add list=$AddressList comment=xvideos.com address=87.249.131.106 }
+:if ([:len [find where list=$AddressList and address=87.249.131.107]] = 0) do={ add list=$AddressList comment=xvideos.com address=87.249.131.107 }
 :if ([:len [find where list=$AddressList and address=87.249.131.2]] = 0) do={ add list=$AddressList comment=xvideos.com address=87.249.131.2 }
+:if ([:len [find where list=$AddressList and address=87.249.131.3]] = 0) do={ add list=$AddressList comment=xvideos.com address=87.249.131.3 }
 :if ([:len [find where list=$AddressList and address=89.187.164.28]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.187.164.28 }
 :if ([:len [find where list=$AddressList and address=89.187.164.30]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.187.164.30 }
 :if ([:len [find where list=$AddressList and address=89.187.164.51]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.187.164.51 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=89.222.125.218]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.222.125.218 }
 :if ([:len [find where list=$AddressList and address=89.222.125.219]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.222.125.219 }
 :if ([:len [find where list=$AddressList and address=89.222.125.221]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.222.125.221 }
-:if ([:len [find where list=$AddressList and address=89.222.125.222]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.222.125.222 }
-:if ([:len [find where list=$AddressList and address=89.222.127.1]] = 0) do={ add list=$AddressList comment=xvideos.com address=89.222.127.1 }

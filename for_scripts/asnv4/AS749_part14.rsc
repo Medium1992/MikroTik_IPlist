@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=205.112.0.0/21]] = 0) do={ add list=$AddressList comment=AS749 address=205.112.0.0/21 }
-:if ([:len [find where list=$AddressList and address=205.112.11.0/24]] = 0) do={ add list=$AddressList comment=AS749 address=205.112.11.0/24 }
-:if ([:len [find where list=$AddressList and address=205.112.12.0/22]] = 0) do={ add list=$AddressList comment=AS749 address=205.112.12.0/22 }
-:if ([:len [find where list=$AddressList and address=205.112.128.0/17]] = 0) do={ add list=$AddressList comment=AS749 address=205.112.128.0/17 }
 :if ([:len [find where list=$AddressList and address=205.112.32.0/19]] = 0) do={ add list=$AddressList comment=AS749 address=205.112.32.0/19 }
 :if ([:len [find where list=$AddressList and address=205.112.64.0/18]] = 0) do={ add list=$AddressList comment=AS749 address=205.112.64.0/18 }
 :if ([:len [find where list=$AddressList and address=205.112.8.0/23]] = 0) do={ add list=$AddressList comment=AS749 address=205.112.8.0/23 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=6.131.184.0/22]] = 0) do={ add list=$AddressList comment=AS749 address=6.131.184.0/22 }
 :if ([:len [find where list=$AddressList and address=6.131.188.0/23]] = 0) do={ add list=$AddressList comment=AS749 address=6.131.188.0/23 }
 :if ([:len [find where list=$AddressList and address=6.131.191.0/24]] = 0) do={ add list=$AddressList comment=AS749 address=6.131.191.0/24 }
+:if ([:len [find where list=$AddressList and address=6.131.196.0/23]] = 0) do={ add list=$AddressList comment=AS749 address=6.131.196.0/23 }
+:if ([:len [find where list=$AddressList and address=6.131.199.0/24]] = 0) do={ add list=$AddressList comment=AS749 address=6.131.199.0/24 }
+:if ([:len [find where list=$AddressList and address=6.131.200.0/21]] = 0) do={ add list=$AddressList comment=AS749 address=6.131.200.0/21 }
+:if ([:len [find where list=$AddressList and address=6.131.208.0/20]] = 0) do={ add list=$AddressList comment=AS749 address=6.131.208.0/20 }

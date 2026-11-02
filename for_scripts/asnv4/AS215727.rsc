@@ -3,14 +3,12 @@
 :if ([:len [find where list=$AddressList and address=102.129.241.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=102.129.241.0/24 }
 :if ([:len [find where list=$AddressList and address=103.179.168.0/23]] = 0) do={ add list=$AddressList comment=AS215727 address=103.179.168.0/23 }
 :if ([:len [find where list=$AddressList and address=109.176.208.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=109.176.208.0/24 }
-:if ([:len [find where list=$AddressList and address=14.137.254.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=14.137.254.0/24 }
 :if ([:len [find where list=$AddressList and address=150.241.199.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=150.241.199.0/24 }
 :if ([:len [find where list=$AddressList and address=151.243.105.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=151.243.105.0/24 }
 :if ([:len [find where list=$AddressList and address=151.244.131.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=151.244.131.0/24 }
 :if ([:len [find where list=$AddressList and address=163.5.123.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=163.5.123.0/24 }
 :if ([:len [find where list=$AddressList and address=163.5.181.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=163.5.181.0/24 }
 :if ([:len [find where list=$AddressList and address=163.5.87.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=163.5.87.0/24 }
-:if ([:len [find where list=$AddressList and address=185.144.101.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=185.144.101.0/24 }
 :if ([:len [find where list=$AddressList and address=185.211.49.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=185.211.49.0/24 }
 :if ([:len [find where list=$AddressList and address=194.124.66.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=194.124.66.0/24 }
 :if ([:len [find where list=$AddressList and address=31.57.206.0/24]] = 0) do={ add list=$AddressList comment=AS215727 address=31.57.206.0/24 }

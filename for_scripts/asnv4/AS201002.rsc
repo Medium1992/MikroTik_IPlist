@@ -6,7 +6,6 @@
 :if ([:len [find where list=$AddressList and address=138.249.32.0/22]] = 0) do={ add list=$AddressList comment=AS201002 address=138.249.32.0/22 }
 :if ([:len [find where list=$AddressList and address=138.249.40.0/22]] = 0) do={ add list=$AddressList comment=AS201002 address=138.249.40.0/22 }
 :if ([:len [find where list=$AddressList and address=141.133.140.0/23]] = 0) do={ add list=$AddressList comment=AS201002 address=141.133.140.0/23 }
-:if ([:len [find where list=$AddressList and address=167.148.126.0/24]] = 0) do={ add list=$AddressList comment=AS201002 address=167.148.126.0/24 }
 :if ([:len [find where list=$AddressList and address=185.83.203.0/24]] = 0) do={ add list=$AddressList comment=AS201002 address=185.83.203.0/24 }
 :if ([:len [find where list=$AddressList and address=186.241.163.0/24]] = 0) do={ add list=$AddressList comment=AS201002 address=186.241.163.0/24 }
 :if ([:len [find where list=$AddressList and address=193.8.186.0/24]] = 0) do={ add list=$AddressList comment=AS201002 address=193.8.186.0/24 }
@@ -17,6 +16,7 @@
 :if ([:len [find where list=$AddressList and address=212.80.6.0/24]] = 0) do={ add list=$AddressList comment=AS201002 address=212.80.6.0/24 }
 :if ([:len [find where list=$AddressList and address=217.60.108.0/22]] = 0) do={ add list=$AddressList comment=AS201002 address=217.60.108.0/22 }
 :if ([:len [find where list=$AddressList and address=217.60.112.0/21]] = 0) do={ add list=$AddressList comment=AS201002 address=217.60.112.0/21 }
+:if ([:len [find where list=$AddressList and address=38.252.207.0/24]] = 0) do={ add list=$AddressList comment=AS201002 address=38.252.207.0/24 }
 :if ([:len [find where list=$AddressList and address=41.216.187.0/24]] = 0) do={ add list=$AddressList comment=AS201002 address=41.216.187.0/24 }
 :if ([:len [find where list=$AddressList and address=45.85.61.0/24]] = 0) do={ add list=$AddressList comment=AS201002 address=45.85.61.0/24 }
 :if ([:len [find where list=$AddressList and address=63.142.247.0/24]] = 0) do={ add list=$AddressList comment=AS201002 address=63.142.247.0/24 }

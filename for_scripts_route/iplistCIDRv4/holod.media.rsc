@@ -3,6 +3,7 @@
 :global GateWay
 /ip route
 :if ([:len [/ip/route/find dst-address=104.21.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=104.21.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
+:if ([:len [/ip/route/find dst-address=140.248.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=140.248.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
 :if ([:len [/ip/route/find dst-address=146.75.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=146.75.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
 :if ([:len [/ip/route/find dst-address=151.101.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=151.101.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }
 :if ([:len [/ip/route/find dst-address=165.22.0.0/16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=165.22.0.0/16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=holod.media }

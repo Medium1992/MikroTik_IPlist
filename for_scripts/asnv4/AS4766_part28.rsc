@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=43.230.76.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=43.230.76.0/22 }
+:if ([:len [find where list=$AddressList and address=43.246.152.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=43.246.152.0/22 }
+:if ([:len [find where list=$AddressList and address=45.117.14.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=45.117.14.0/24 }
+:if ([:len [find where list=$AddressList and address=45.249.64.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=45.249.64.0/22 }
 :if ([:len [find where list=$AddressList and address=45.64.172.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=45.64.172.0/22 }
 :if ([:len [find where list=$AddressList and address=45.92.104.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=45.92.104.0/22 }
 :if ([:len [find where list=$AddressList and address=49.143.192.0/20]] = 0) do={ add list=$AddressList comment=AS4766 address=49.143.192.0/20 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=59.26.64.0/18]] = 0) do={ add list=$AddressList comment=AS4766 address=59.26.64.0/18 }
 :if ([:len [find where list=$AddressList and address=59.26.8.0/21]] = 0) do={ add list=$AddressList comment=AS4766 address=59.26.8.0/21 }
 :if ([:len [find where list=$AddressList and address=59.27.0.0/18]] = 0) do={ add list=$AddressList comment=AS4766 address=59.27.0.0/18 }
-:if ([:len [find where list=$AddressList and address=59.27.105.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=59.27.105.0/24 }
-:if ([:len [find where list=$AddressList and address=59.27.106.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=59.27.106.0/23 }
-:if ([:len [find where list=$AddressList and address=59.27.108.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=59.27.108.0/22 }
-:if ([:len [find where list=$AddressList and address=59.27.112.0/20]] = 0) do={ add list=$AddressList comment=AS4766 address=59.27.112.0/20 }

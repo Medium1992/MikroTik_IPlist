@@ -27,4 +27,13 @@
 :if ([:len [find where list=$AddressList and address=23.185.192.0/24]] = 0) do={ add list=$AddressList comment=AS53989 address=23.185.192.0/24 }
 :if ([:len [find where list=$AddressList and address=38.123.24.0/23]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.24.0/23 }
 :if ([:len [find where list=$AddressList and address=38.123.26.0/24]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.26.0/24 }
-:if ([:len [find where list=$AddressList and address=38.123.28.0/22]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.28.0/22 }
+:if ([:len [find where list=$AddressList and address=38.123.28.0/25]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.28.0/25 }
+:if ([:len [find where list=$AddressList and address=38.123.28.128/27]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.28.128/27 }
+:if ([:len [find where list=$AddressList and address=38.123.28.160/28]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.28.160/28 }
+:if ([:len [find where list=$AddressList and address=38.123.28.176/29]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.28.176/29 }
+:if ([:len [find where list=$AddressList and address=38.123.28.184/30]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.28.184/30 }
+:if ([:len [find where list=$AddressList and address=38.123.28.188/31]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.28.188/31 }
+:if ([:len [find where list=$AddressList and address=38.123.28.190/32]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.28.190/32 }
+:if ([:len [find where list=$AddressList and address=38.123.28.192/26]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.28.192/26 }
+:if ([:len [find where list=$AddressList and address=38.123.29.0/24]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.29.0/24 }
+:if ([:len [find where list=$AddressList and address=38.123.30.0/23]] = 0) do={ add list=$AddressList comment=AS53989 address=38.123.30.0/23 }

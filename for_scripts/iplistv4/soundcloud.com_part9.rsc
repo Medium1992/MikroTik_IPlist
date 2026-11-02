@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.33.235.128]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.33.235.128 }
+:if ([:len [find where list=$AddressList and address=13.33.235.129]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.33.235.129 }
+:if ([:len [find where list=$AddressList and address=13.33.235.13]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.33.235.13 }
+:if ([:len [find where list=$AddressList and address=13.33.235.14]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.33.235.14 }
 :if ([:len [find where list=$AddressList and address=13.33.235.17]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.33.235.17 }
 :if ([:len [find where list=$AddressList and address=13.33.235.2]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.33.235.2 }
 :if ([:len [find where list=$AddressList and address=13.33.235.21]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.33.235.21 }
@@ -91,8 +95,16 @@
 :if ([:len [find where list=$AddressList and address=13.35.198.97]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.198.97 }
 :if ([:len [find where list=$AddressList and address=13.35.238.126]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.238.126 }
 :if ([:len [find where list=$AddressList and address=13.35.238.14]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.238.14 }
+:if ([:len [find where list=$AddressList and address=13.35.238.23]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.238.23 }
+:if ([:len [find where list=$AddressList and address=13.35.238.56]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.238.56 }
+:if ([:len [find where list=$AddressList and address=13.35.238.75]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.238.75 }
+:if ([:len [find where list=$AddressList and address=13.35.238.77]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.238.77 }
 :if ([:len [find where list=$AddressList and address=13.35.238.84]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.238.84 }
 :if ([:len [find where list=$AddressList and address=13.35.238.86]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.238.86 }
+:if ([:len [find where list=$AddressList and address=13.35.36.103]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.36.103 }
+:if ([:len [find where list=$AddressList and address=13.35.36.34]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.36.34 }
+:if ([:len [find where list=$AddressList and address=13.35.36.60]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.36.60 }
+:if ([:len [find where list=$AddressList and address=13.35.36.88]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.36.88 }
 :if ([:len [find where list=$AddressList and address=13.35.58.101]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.58.101 }
 :if ([:len [find where list=$AddressList and address=13.35.58.106]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.58.106 }
 :if ([:len [find where list=$AddressList and address=13.35.58.117]] = 0) do={ add list=$AddressList comment=soundcloud.com address=13.35.58.117 }
@@ -168,15 +180,3 @@
 :if ([:len [find where list=$AddressList and address=143.204.215.24]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.215.24 }
 :if ([:len [find where list=$AddressList and address=143.204.215.27]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.215.27 }
 :if ([:len [find where list=$AddressList and address=143.204.215.29]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.215.29 }
-:if ([:len [find where list=$AddressList and address=143.204.215.59]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.215.59 }
-:if ([:len [find where list=$AddressList and address=143.204.215.60]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.215.60 }
-:if ([:len [find where list=$AddressList and address=143.204.215.65]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.215.65 }
-:if ([:len [find where list=$AddressList and address=143.204.215.70]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.215.70 }
-:if ([:len [find where list=$AddressList and address=143.204.215.78]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.215.78 }
-:if ([:len [find where list=$AddressList and address=143.204.215.94]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.215.94 }
-:if ([:len [find where list=$AddressList and address=143.204.237.103]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.237.103 }
-:if ([:len [find where list=$AddressList and address=143.204.237.114]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.237.114 }
-:if ([:len [find where list=$AddressList and address=143.204.237.119]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.237.119 }
-:if ([:len [find where list=$AddressList and address=143.204.237.124]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.237.124 }
-:if ([:len [find where list=$AddressList and address=143.204.237.18]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.237.18 }
-:if ([:len [find where list=$AddressList and address=143.204.237.29]] = 0) do={ add list=$AddressList comment=soundcloud.com address=143.204.237.29 }

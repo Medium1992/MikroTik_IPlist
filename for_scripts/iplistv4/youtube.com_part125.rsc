@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=74.125.70.139]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.70.139 }
+:if ([:len [find where list=$AddressList and address=74.125.70.190]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.70.190 }
+:if ([:len [find where list=$AddressList and address=74.125.70.91]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.70.91 }
+:if ([:len [find where list=$AddressList and address=74.125.70.92]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.70.92 }
+:if ([:len [find where list=$AddressList and address=74.125.70.93]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.70.93 }
+:if ([:len [find where list=$AddressList and address=74.125.70.94]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.70.94 }
+:if ([:len [find where list=$AddressList and address=74.125.70.95]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.70.95 }
+:if ([:len [find where list=$AddressList and address=74.125.71.100]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.71.100 }
+:if ([:len [find where list=$AddressList and address=74.125.71.101]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.71.101 }
+:if ([:len [find where list=$AddressList and address=74.125.71.102]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.71.102 }
+:if ([:len [find where list=$AddressList and address=74.125.71.103]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.71.103 }
 :if ([:len [find where list=$AddressList and address=74.125.71.104]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.71.104 }
 :if ([:len [find where list=$AddressList and address=74.125.71.105]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.71.105 }
 :if ([:len [find where list=$AddressList and address=74.125.71.106]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.71.106 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=74.125.99.98]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.99.98 }
 :if ([:len [find where list=$AddressList and address=74.125.99.99]] = 0) do={ add list=$AddressList comment=youtube.com address=74.125.99.99 }
 :if ([:len [find where list=$AddressList and address=74.86.118.24]] = 0) do={ add list=$AddressList comment=youtube.com address=74.86.118.24 }
-:if ([:len [find where list=$AddressList and address=74.86.12.172]] = 0) do={ add list=$AddressList comment=youtube.com address=74.86.12.172 }
-:if ([:len [find where list=$AddressList and address=74.86.12.173]] = 0) do={ add list=$AddressList comment=youtube.com address=74.86.12.173 }
-:if ([:len [find where list=$AddressList and address=74.86.142.55]] = 0) do={ add list=$AddressList comment=youtube.com address=74.86.142.55 }
-:if ([:len [find where list=$AddressList and address=74.86.151.162]] = 0) do={ add list=$AddressList comment=youtube.com address=74.86.151.162 }
-:if ([:len [find where list=$AddressList and address=74.86.151.167]] = 0) do={ add list=$AddressList comment=youtube.com address=74.86.151.167 }
-:if ([:len [find where list=$AddressList and address=74.86.17.48]] = 0) do={ add list=$AddressList comment=youtube.com address=74.86.17.48 }
-:if ([:len [find where list=$AddressList and address=74.86.226.234]] = 0) do={ add list=$AddressList comment=youtube.com address=74.86.226.234 }
-:if ([:len [find where list=$AddressList and address=74.86.228.110]] = 0) do={ add list=$AddressList comment=youtube.com address=74.86.228.110 }
-:if ([:len [find where list=$AddressList and address=74.86.3.208]] = 0) do={ add list=$AddressList comment=youtube.com address=74.86.3.208 }
-:if ([:len [find where list=$AddressList and address=75.126.115.192]] = 0) do={ add list=$AddressList comment=youtube.com address=75.126.115.192 }
-:if ([:len [find where list=$AddressList and address=75.126.124.162]] = 0) do={ add list=$AddressList comment=youtube.com address=75.126.124.162 }

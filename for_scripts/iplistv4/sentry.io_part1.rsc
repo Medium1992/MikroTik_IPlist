@@ -81,6 +81,7 @@
 :if ([:len [find where list=$AddressList and address=142.251.37.115]] = 0) do={ add list=$AddressList comment=sentry.io address=142.251.37.115 }
 :if ([:len [find where list=$AddressList and address=142.251.37.19]] = 0) do={ add list=$AddressList comment=sentry.io address=142.251.37.19 }
 :if ([:len [find where list=$AddressList and address=142.251.38.115]] = 0) do={ add list=$AddressList comment=sentry.io address=142.251.38.115 }
+:if ([:len [find where list=$AddressList and address=142.251.38.147]] = 0) do={ add list=$AddressList comment=sentry.io address=142.251.38.147 }
 :if ([:len [find where list=$AddressList and address=142.251.38.211]] = 0) do={ add list=$AddressList comment=sentry.io address=142.251.38.211 }
 :if ([:len [find where list=$AddressList and address=142.251.38.243]] = 0) do={ add list=$AddressList comment=sentry.io address=142.251.38.243 }
 :if ([:len [find where list=$AddressList and address=142.251.38.83]] = 0) do={ add list=$AddressList comment=sentry.io address=142.251.38.83 }
@@ -118,6 +119,7 @@
 :if ([:len [find where list=$AddressList and address=172.217.18.179]] = 0) do={ add list=$AddressList comment=sentry.io address=172.217.18.179 }
 :if ([:len [find where list=$AddressList and address=172.217.19.115]] = 0) do={ add list=$AddressList comment=sentry.io address=172.217.19.115 }
 :if ([:len [find where list=$AddressList and address=172.217.19.179]] = 0) do={ add list=$AddressList comment=sentry.io address=172.217.19.179 }
+:if ([:len [find where list=$AddressList and address=172.217.19.19]] = 0) do={ add list=$AddressList comment=sentry.io address=172.217.19.19 }
 :if ([:len [find where list=$AddressList and address=172.217.19.243]] = 0) do={ add list=$AddressList comment=sentry.io address=172.217.19.243 }
 :if ([:len [find where list=$AddressList and address=172.217.20.147]] = 0) do={ add list=$AddressList comment=sentry.io address=172.217.20.147 }
 :if ([:len [find where list=$AddressList and address=172.217.20.179]] = 0) do={ add list=$AddressList comment=sentry.io address=172.217.20.179 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=192.178.204.121]] = 0) do={ add list=$AddressList comment=sentry.io address=192.178.204.121 }
 :if ([:len [find where list=$AddressList and address=192.178.24.115]] = 0) do={ add list=$AddressList comment=sentry.io address=192.178.24.115 }
 :if ([:len [find where list=$AddressList and address=192.178.24.147]] = 0) do={ add list=$AddressList comment=sentry.io address=192.178.24.147 }
-:if ([:len [find where list=$AddressList and address=192.178.24.179]] = 0) do={ add list=$AddressList comment=sentry.io address=192.178.24.179 }
-:if ([:len [find where list=$AddressList and address=192.178.24.19]] = 0) do={ add list=$AddressList comment=sentry.io address=192.178.24.19 }

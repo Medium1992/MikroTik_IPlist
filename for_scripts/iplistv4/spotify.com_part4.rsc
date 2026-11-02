@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=184.51.88.19]] = 0) do={ add list=$AddressList comment=spotify.com address=184.51.88.19 }
+:if ([:len [find where list=$AddressList and address=184.51.88.25]] = 0) do={ add list=$AddressList comment=spotify.com address=184.51.88.25 }
+:if ([:len [find where list=$AddressList and address=184.51.88.34]] = 0) do={ add list=$AddressList comment=spotify.com address=184.51.88.34 }
+:if ([:len [find where list=$AddressList and address=184.51.88.8]] = 0) do={ add list=$AddressList comment=spotify.com address=184.51.88.8 }
+:if ([:len [find where list=$AddressList and address=184.86.251.72]] = 0) do={ add list=$AddressList comment=spotify.com address=184.86.251.72 }
+:if ([:len [find where list=$AddressList and address=184.86.251.76]] = 0) do={ add list=$AddressList comment=spotify.com address=184.86.251.76 }
+:if ([:len [find where list=$AddressList and address=184.86.251.78]] = 0) do={ add list=$AddressList comment=spotify.com address=184.86.251.78 }
+:if ([:len [find where list=$AddressList and address=184.86.251.79]] = 0) do={ add list=$AddressList comment=spotify.com address=184.86.251.79 }
+:if ([:len [find where list=$AddressList and address=184.86.251.80]] = 0) do={ add list=$AddressList comment=spotify.com address=184.86.251.80 }
+:if ([:len [find where list=$AddressList and address=184.86.251.82]] = 0) do={ add list=$AddressList comment=spotify.com address=184.86.251.82 }
+:if ([:len [find where list=$AddressList and address=184.86.251.83]] = 0) do={ add list=$AddressList comment=spotify.com address=184.86.251.83 }
 :if ([:len [find where list=$AddressList and address=184.86.251.87]] = 0) do={ add list=$AddressList comment=spotify.com address=184.86.251.87 }
 :if ([:len [find where list=$AddressList and address=184.86.251.88]] = 0) do={ add list=$AddressList comment=spotify.com address=184.86.251.88 }
 :if ([:len [find where list=$AddressList and address=184.86.251.89]] = 0) do={ add list=$AddressList comment=spotify.com address=184.86.251.89 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.16.154.75]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.154.75 }
 :if ([:len [find where list=$AddressList and address=2.16.154.88]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.154.88 }
 :if ([:len [find where list=$AddressList and address=2.16.154.96]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.154.96 }
-:if ([:len [find where list=$AddressList and address=2.16.154.98]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.154.98 }
-:if ([:len [find where list=$AddressList and address=2.16.154.99]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.154.99 }
-:if ([:len [find where list=$AddressList and address=2.16.158.106]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.158.106 }
-:if ([:len [find where list=$AddressList and address=2.16.164.10]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.164.10 }
-:if ([:len [find where list=$AddressList and address=2.16.164.104]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.164.104 }
-:if ([:len [find where list=$AddressList and address=2.16.164.106]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.164.106 }
-:if ([:len [find where list=$AddressList and address=2.16.164.107]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.164.107 }
-:if ([:len [find where list=$AddressList and address=2.16.164.11]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.164.11 }
-:if ([:len [find where list=$AddressList and address=2.16.164.112]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.164.112 }
-:if ([:len [find where list=$AddressList and address=2.16.164.113]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.164.113 }
-:if ([:len [find where list=$AddressList and address=2.16.164.114]] = 0) do={ add list=$AddressList comment=spotify.com address=2.16.164.114 }

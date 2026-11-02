@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=49.44.225.239]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.239 }
+:if ([:len [find where list=$AddressList and address=49.44.225.46]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.46 }
+:if ([:len [find where list=$AddressList and address=49.44.225.49]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.49 }
+:if ([:len [find where list=$AddressList and address=49.44.225.51]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.51 }
+:if ([:len [find where list=$AddressList and address=49.44.225.76]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.76 }
+:if ([:len [find where list=$AddressList and address=49.44.225.77]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.77 }
+:if ([:len [find where list=$AddressList and address=49.44.225.78]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.78 }
+:if ([:len [find where list=$AddressList and address=49.44.225.79]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.79 }
+:if ([:len [find where list=$AddressList and address=49.44.225.80]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.80 }
+:if ([:len [find where list=$AddressList and address=49.44.225.81]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.81 }
+:if ([:len [find where list=$AddressList and address=49.44.225.83]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.225.83 }
 :if ([:len [find where list=$AddressList and address=49.44.226.78]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.226.78 }
 :if ([:len [find where list=$AddressList and address=49.44.226.79]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.226.79 }
 :if ([:len [find where list=$AddressList and address=49.44.67.145]] = 0) do={ add list=$AddressList comment=youtube.com address=49.44.67.145 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=51.39.177.76]] = 0) do={ add list=$AddressList comment=youtube.com address=51.39.177.76 }
 :if ([:len [find where list=$AddressList and address=51.39.177.78]] = 0) do={ add list=$AddressList comment=youtube.com address=51.39.177.78 }
 :if ([:len [find where list=$AddressList and address=51.39.177.80]] = 0) do={ add list=$AddressList comment=youtube.com address=51.39.177.80 }
-:if ([:len [find where list=$AddressList and address=52.175.9.80]] = 0) do={ add list=$AddressList comment=youtube.com address=52.175.9.80 }
-:if ([:len [find where list=$AddressList and address=52.58.1.161]] = 0) do={ add list=$AddressList comment=youtube.com address=52.58.1.161 }
-:if ([:len [find where list=$AddressList and address=54.144.128.85]] = 0) do={ add list=$AddressList comment=youtube.com address=54.144.128.85 }
-:if ([:len [find where list=$AddressList and address=54.234.18.200]] = 0) do={ add list=$AddressList comment=youtube.com address=54.234.18.200 }
-:if ([:len [find where list=$AddressList and address=54.89.135.129]] = 0) do={ add list=$AddressList comment=youtube.com address=54.89.135.129 }
-:if ([:len [find where list=$AddressList and address=58.123.102.12]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.12 }
-:if ([:len [find where list=$AddressList and address=58.123.102.13]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.13 }
-:if ([:len [find where list=$AddressList and address=58.123.102.15]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.15 }
-:if ([:len [find where list=$AddressList and address=58.123.102.16]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.16 }
-:if ([:len [find where list=$AddressList and address=58.123.102.19]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.19 }
-:if ([:len [find where list=$AddressList and address=58.123.102.47]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.47 }

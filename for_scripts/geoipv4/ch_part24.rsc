@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=212.222.243.56/29]] = 0) do={ add list=$AddressList comment=ch address=212.222.243.56/29 }
+:if ([:len [find where list=$AddressList and address=212.222.248.136/29]] = 0) do={ add list=$AddressList comment=ch address=212.222.248.136/29 }
+:if ([:len [find where list=$AddressList and address=212.222.249.224/29]] = 0) do={ add list=$AddressList comment=ch address=212.222.249.224/29 }
+:if ([:len [find where list=$AddressList and address=212.222.32.88/29]] = 0) do={ add list=$AddressList comment=ch address=212.222.32.88/29 }
+:if ([:len [find where list=$AddressList and address=212.222.33.120/30]] = 0) do={ add list=$AddressList comment=ch address=212.222.33.120/30 }
+:if ([:len [find where list=$AddressList and address=212.222.33.192/30]] = 0) do={ add list=$AddressList comment=ch address=212.222.33.192/30 }
+:if ([:len [find where list=$AddressList and address=212.222.33.64/29]] = 0) do={ add list=$AddressList comment=ch address=212.222.33.64/29 }
+:if ([:len [find where list=$AddressList and address=212.222.35.144/28]] = 0) do={ add list=$AddressList comment=ch address=212.222.35.144/28 }
+:if ([:len [find where list=$AddressList and address=212.222.35.160/29]] = 0) do={ add list=$AddressList comment=ch address=212.222.35.160/29 }
+:if ([:len [find where list=$AddressList and address=212.222.35.8/29]] = 0) do={ add list=$AddressList comment=ch address=212.222.35.8/29 }
+:if ([:len [find where list=$AddressList and address=212.222.40.96/28]] = 0) do={ add list=$AddressList comment=ch address=212.222.40.96/28 }
 :if ([:len [find where list=$AddressList and address=212.222.41.132/30]] = 0) do={ add list=$AddressList comment=ch address=212.222.41.132/30 }
 :if ([:len [find where list=$AddressList and address=212.222.41.224/30]] = 0) do={ add list=$AddressList comment=ch address=212.222.41.224/30 }
 :if ([:len [find where list=$AddressList and address=212.222.41.48/29]] = 0) do={ add list=$AddressList comment=ch address=212.222.41.48/29 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=213.156.252.12/30]] = 0) do={ add list=$AddressList comment=ch address=213.156.252.12/30 }
 :if ([:len [find where list=$AddressList and address=213.156.252.128/26]] = 0) do={ add list=$AddressList comment=ch address=213.156.252.128/26 }
 :if ([:len [find where list=$AddressList and address=213.156.252.16/28]] = 0) do={ add list=$AddressList comment=ch address=213.156.252.16/28 }
-:if ([:len [find where list=$AddressList and address=213.156.252.32/27]] = 0) do={ add list=$AddressList comment=ch address=213.156.252.32/27 }
-:if ([:len [find where list=$AddressList and address=213.156.252.64/26]] = 0) do={ add list=$AddressList comment=ch address=213.156.252.64/26 }
-:if ([:len [find where list=$AddressList and address=213.156.253.0/32]] = 0) do={ add list=$AddressList comment=ch address=213.156.253.0/32 }
-:if ([:len [find where list=$AddressList and address=213.156.253.128/26]] = 0) do={ add list=$AddressList comment=ch address=213.156.253.128/26 }
-:if ([:len [find where list=$AddressList and address=213.156.253.16/28]] = 0) do={ add list=$AddressList comment=ch address=213.156.253.16/28 }
-:if ([:len [find where list=$AddressList and address=213.156.253.32/27]] = 0) do={ add list=$AddressList comment=ch address=213.156.253.32/27 }
-:if ([:len [find where list=$AddressList and address=213.156.253.4/30]] = 0) do={ add list=$AddressList comment=ch address=213.156.253.4/30 }
-:if ([:len [find where list=$AddressList and address=213.156.253.64/26]] = 0) do={ add list=$AddressList comment=ch address=213.156.253.64/26 }
-:if ([:len [find where list=$AddressList and address=213.156.253.8/29]] = 0) do={ add list=$AddressList comment=ch address=213.156.253.8/29 }
-:if ([:len [find where list=$AddressList and address=213.156.254.0/32]] = 0) do={ add list=$AddressList comment=ch address=213.156.254.0/32 }
-:if ([:len [find where list=$AddressList and address=213.156.254.128/26]] = 0) do={ add list=$AddressList comment=ch address=213.156.254.128/26 }

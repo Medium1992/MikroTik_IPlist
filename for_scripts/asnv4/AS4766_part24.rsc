@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=220.72.25.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=220.72.25.0/24 }
+:if ([:len [find where list=$AddressList and address=220.72.26.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=220.72.26.0/23 }
+:if ([:len [find where list=$AddressList and address=220.72.28.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=220.72.28.0/22 }
+:if ([:len [find where list=$AddressList and address=220.72.32.0/19]] = 0) do={ add list=$AddressList comment=AS4766 address=220.72.32.0/19 }
 :if ([:len [find where list=$AddressList and address=220.72.64.0/18]] = 0) do={ add list=$AddressList comment=AS4766 address=220.72.64.0/18 }
 :if ([:len [find where list=$AddressList and address=220.73.0.0/21]] = 0) do={ add list=$AddressList comment=AS4766 address=220.73.0.0/21 }
 :if ([:len [find where list=$AddressList and address=220.73.11.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=220.73.11.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=220.89.60.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=220.89.60.0/23 }
 :if ([:len [find where list=$AddressList and address=220.89.63.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=220.89.63.0/24 }
 :if ([:len [find where list=$AddressList and address=220.89.64.0/18]] = 0) do={ add list=$AddressList comment=AS4766 address=220.89.64.0/18 }
-:if ([:len [find where list=$AddressList and address=220.90.0.0/18]] = 0) do={ add list=$AddressList comment=AS4766 address=220.90.0.0/18 }
-:if ([:len [find where list=$AddressList and address=220.90.112.0/22]] = 0) do={ add list=$AddressList comment=AS4766 address=220.90.112.0/22 }
-:if ([:len [find where list=$AddressList and address=220.90.116.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=220.90.116.0/24 }
-:if ([:len [find where list=$AddressList and address=220.90.121.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=220.90.121.0/24 }

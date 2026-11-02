@@ -2,6 +2,10 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=3.231.197.160 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.231.197.160 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=3.231.238.13 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.231.238.13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=3.231.66.224 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.231.66.224 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
+:if ([:len [/ip/route/find dst-address=3.231.67.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.231.67.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.232.106.46 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.106.46 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.232.122.159 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.122.159 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=3.232.122.53 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=3.232.122.53 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
@@ -98,7 +102,3 @@
 :if ([:len [/ip/route/find dst-address=34.193.73.139 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.193.73.139 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=34.193.80.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.193.80.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
 :if ([:len [/ip/route/find dst-address=34.193.81.254 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.193.81.254 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=34.194.108.166 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.194.108.166 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=34.194.109.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.194.109.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=34.194.111.92 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.194.111.92 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }
-:if ([:len [/ip/route/find dst-address=34.194.182.246 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.194.182.246 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=quora.com }

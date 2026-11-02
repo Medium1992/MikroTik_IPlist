@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=59.18.30.210]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.210 }
+:if ([:len [find where list=$AddressList and address=59.18.30.211]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.211 }
+:if ([:len [find where list=$AddressList and address=59.18.30.76]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.76 }
+:if ([:len [find where list=$AddressList and address=59.18.30.77]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.77 }
+:if ([:len [find where list=$AddressList and address=59.18.30.78]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.78 }
+:if ([:len [find where list=$AddressList and address=59.18.30.79]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.79 }
+:if ([:len [find where list=$AddressList and address=59.18.30.80]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.80 }
+:if ([:len [find where list=$AddressList and address=59.18.30.81]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.81 }
+:if ([:len [find where list=$AddressList and address=59.18.30.82]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.82 }
+:if ([:len [find where list=$AddressList and address=59.18.30.83]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.83 }
+:if ([:len [find where list=$AddressList and address=59.18.31.12]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.31.12 }
 :if ([:len [find where list=$AddressList and address=59.18.31.13]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.31.13 }
 :if ([:len [find where list=$AddressList and address=59.18.31.14]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.31.14 }
 :if ([:len [find where list=$AddressList and address=59.18.31.140]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.31.140 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=63.117.14.17]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.14.17 }
 :if ([:len [find where list=$AddressList and address=63.117.14.77]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.14.77 }
 :if ([:len [find where list=$AddressList and address=63.117.14.82]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.14.82 }
-:if ([:len [find where list=$AddressList and address=63.117.14.83]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.14.83 }
-:if ([:len [find where list=$AddressList and address=63.117.215.12]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.215.12 }
-:if ([:len [find where list=$AddressList and address=63.117.215.13]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.215.13 }
-:if ([:len [find where list=$AddressList and address=63.117.215.14]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.215.14 }
-:if ([:len [find where list=$AddressList and address=63.117.215.17]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.215.17 }
-:if ([:len [find where list=$AddressList and address=63.117.215.18]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.215.18 }
-:if ([:len [find where list=$AddressList and address=63.117.215.77]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.215.77 }
-:if ([:len [find where list=$AddressList and address=63.117.215.78]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.215.78 }
-:if ([:len [find where list=$AddressList and address=63.117.215.79]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.215.79 }
-:if ([:len [find where list=$AddressList and address=63.117.215.80]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.215.80 }
-:if ([:len [find where list=$AddressList and address=63.117.215.82]] = 0) do={ add list=$AddressList comment=youtube.com address=63.117.215.82 }

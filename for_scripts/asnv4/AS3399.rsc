@@ -7,7 +7,6 @@
 :if ([:len [find where list=$AddressList and address=185.86.104.0/22]] = 0) do={ add list=$AddressList comment=AS3399 address=185.86.104.0/22 }
 :if ([:len [find where list=$AddressList and address=192.165.178.0/23]] = 0) do={ add list=$AddressList comment=AS3399 address=192.165.178.0/23 }
 :if ([:len [find where list=$AddressList and address=192.36.208.0/24]] = 0) do={ add list=$AddressList comment=AS3399 address=192.36.208.0/24 }
-:if ([:len [find where list=$AddressList and address=192.36.22.0/24]] = 0) do={ add list=$AddressList comment=AS3399 address=192.36.22.0/24 }
 :if ([:len [find where list=$AddressList and address=193.178.129.0/24]] = 0) do={ add list=$AddressList comment=AS3399 address=193.178.129.0/24 }
 :if ([:len [find where list=$AddressList and address=193.180.164.0/23]] = 0) do={ add list=$AddressList comment=AS3399 address=193.180.164.0/23 }
 :if ([:len [find where list=$AddressList and address=193.180.23.0/24]] = 0) do={ add list=$AddressList comment=AS3399 address=193.180.23.0/24 }
@@ -19,7 +18,6 @@
 :if ([:len [find where list=$AddressList and address=194.103.80.0/22]] = 0) do={ add list=$AddressList comment=AS3399 address=194.103.80.0/22 }
 :if ([:len [find where list=$AddressList and address=194.132.40.0/22]] = 0) do={ add list=$AddressList comment=AS3399 address=194.132.40.0/22 }
 :if ([:len [find where list=$AddressList and address=194.14.188.0/23]] = 0) do={ add list=$AddressList comment=AS3399 address=194.14.188.0/23 }
-:if ([:len [find where list=$AddressList and address=194.32.144.0/23]] = 0) do={ add list=$AddressList comment=AS3399 address=194.32.144.0/23 }
 :if ([:len [find where list=$AddressList and address=194.68.170.0/23]] = 0) do={ add list=$AddressList comment=AS3399 address=194.68.170.0/23 }
 :if ([:len [find where list=$AddressList and address=194.68.220.0/23]] = 0) do={ add list=$AddressList comment=AS3399 address=194.68.220.0/23 }
 :if ([:len [find where list=$AddressList and address=194.71.216.0/23]] = 0) do={ add list=$AddressList comment=AS3399 address=194.71.216.0/23 }

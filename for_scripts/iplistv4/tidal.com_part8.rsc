@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.164.68.8]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.68.8 }
+:if ([:len [find where list=$AddressList and address=18.164.68.83]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.68.83 }
+:if ([:len [find where list=$AddressList and address=18.164.68.94]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.68.94 }
+:if ([:len [find where list=$AddressList and address=18.164.77.124]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.77.124 }
+:if ([:len [find where list=$AddressList and address=18.164.77.32]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.77.32 }
+:if ([:len [find where list=$AddressList and address=18.164.77.72]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.77.72 }
+:if ([:len [find where list=$AddressList and address=18.164.77.9]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.77.9 }
+:if ([:len [find where list=$AddressList and address=18.164.78.2]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.78.2 }
+:if ([:len [find where list=$AddressList and address=18.164.78.47]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.78.47 }
+:if ([:len [find where list=$AddressList and address=18.164.78.60]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.78.60 }
+:if ([:len [find where list=$AddressList and address=18.164.78.82]] = 0) do={ add list=$AddressList comment=tidal.com address=18.164.78.82 }
 :if ([:len [find where list=$AddressList and address=18.165.122.102]] = 0) do={ add list=$AddressList comment=tidal.com address=18.165.122.102 }
 :if ([:len [find where list=$AddressList and address=18.165.122.114]] = 0) do={ add list=$AddressList comment=tidal.com address=18.165.122.114 }
 :if ([:len [find where list=$AddressList and address=18.165.122.117]] = 0) do={ add list=$AddressList comment=tidal.com address=18.165.122.117 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.172.242.124]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.124 }
 :if ([:len [find where list=$AddressList and address=18.172.242.129]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.129 }
 :if ([:len [find where list=$AddressList and address=18.172.242.18]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.18 }
-:if ([:len [find where list=$AddressList and address=18.172.242.21]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.21 }
-:if ([:len [find where list=$AddressList and address=18.172.242.22]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.22 }
-:if ([:len [find where list=$AddressList and address=18.172.242.29]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.29 }
-:if ([:len [find where list=$AddressList and address=18.172.242.33]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.33 }
-:if ([:len [find where list=$AddressList and address=18.172.242.34]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.34 }
-:if ([:len [find where list=$AddressList and address=18.172.242.37]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.37 }
-:if ([:len [find where list=$AddressList and address=18.172.242.44]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.44 }
-:if ([:len [find where list=$AddressList and address=18.172.242.45]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.45 }
-:if ([:len [find where list=$AddressList and address=18.172.242.49]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.49 }
-:if ([:len [find where list=$AddressList and address=18.172.242.51]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.51 }
-:if ([:len [find where list=$AddressList and address=18.172.242.53]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.53 }

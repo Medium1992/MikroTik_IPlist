@@ -156,6 +156,10 @@
 :if ([:len [find where list=$AddressList and address=3.168.122.30]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.168.122.30 }
 :if ([:len [find where list=$AddressList and address=3.168.122.70]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.168.122.70 }
 :if ([:len [find where list=$AddressList and address=3.168.122.96]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.168.122.96 }
+:if ([:len [find where list=$AddressList and address=3.168.2.100]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.168.2.100 }
+:if ([:len [find where list=$AddressList and address=3.168.2.104]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.168.2.104 }
+:if ([:len [find where list=$AddressList and address=3.168.2.34]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.168.2.34 }
+:if ([:len [find where list=$AddressList and address=3.168.2.91]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.168.2.91 }
 :if ([:len [find where list=$AddressList and address=3.168.217.10]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.168.217.10 }
 :if ([:len [find where list=$AddressList and address=3.168.217.104]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.168.217.104 }
 :if ([:len [find where list=$AddressList and address=3.168.217.121]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.168.217.121 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.169.173.82]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.169.173.82 }
 :if ([:len [find where list=$AddressList and address=3.169.173.97]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.169.173.97 }
 :if ([:len [find where list=$AddressList and address=3.169.173.98]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.169.173.98 }
-:if ([:len [find where list=$AddressList and address=3.170.19.122]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.170.19.122 }
-:if ([:len [find where list=$AddressList and address=3.170.19.14]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.170.19.14 }
-:if ([:len [find where list=$AddressList and address=3.170.19.83]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.170.19.83 }
-:if ([:len [find where list=$AddressList and address=3.170.19.98]] = 0) do={ add list=$AddressList comment=crunchyroll.com address=3.170.19.98 }

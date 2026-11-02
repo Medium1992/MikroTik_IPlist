@@ -1,12 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=23.0.208.0/22]] = 0) do={ add list=$AddressList comment=AS20940 address=23.0.208.0/22 }
-:if ([:len [find where list=$AddressList and address=23.0.216.0/22]] = 0) do={ add list=$AddressList comment=AS20940 address=23.0.216.0/22 }
-:if ([:len [find where list=$AddressList and address=23.0.240.0/22]] = 0) do={ add list=$AddressList comment=AS20940 address=23.0.240.0/22 }
-:if ([:len [find where list=$AddressList and address=23.0.246.0/23]] = 0) do={ add list=$AddressList comment=AS20940 address=23.0.246.0/23 }
-:if ([:len [find where list=$AddressList and address=23.0.252.0/22]] = 0) do={ add list=$AddressList comment=AS20940 address=23.0.252.0/22 }
-:if ([:len [find where list=$AddressList and address=23.0.80.0/21]] = 0) do={ add list=$AddressList comment=AS20940 address=23.0.80.0/21 }
-:if ([:len [find where list=$AddressList and address=23.0.96.0/19]] = 0) do={ add list=$AddressList comment=AS20940 address=23.0.96.0/19 }
 :if ([:len [find where list=$AddressList and address=23.1.0.0/22]] = 0) do={ add list=$AddressList comment=AS20940 address=23.1.0.0/22 }
 :if ([:len [find where list=$AddressList and address=23.1.100.0/22]] = 0) do={ add list=$AddressList comment=AS20940 address=23.1.100.0/22 }
 :if ([:len [find where list=$AddressList and address=23.1.104.0/23]] = 0) do={ add list=$AddressList comment=AS20940 address=23.1.104.0/23 }
@@ -89,7 +82,6 @@
 :if ([:len [find where list=$AddressList and address=23.192.104.0/22]] = 0) do={ add list=$AddressList comment=AS20940 address=23.192.104.0/22 }
 :if ([:len [find where list=$AddressList and address=23.192.108.0/24]] = 0) do={ add list=$AddressList comment=AS20940 address=23.192.108.0/24 }
 :if ([:len [find where list=$AddressList and address=23.192.110.0/23]] = 0) do={ add list=$AddressList comment=AS20940 address=23.192.110.0/23 }
-:if ([:len [find where list=$AddressList and address=23.192.113.0/24]] = 0) do={ add list=$AddressList comment=AS20940 address=23.192.113.0/24 }
 :if ([:len [find where list=$AddressList and address=23.192.118.0/23]] = 0) do={ add list=$AddressList comment=AS20940 address=23.192.118.0/23 }
 :if ([:len [find where list=$AddressList and address=23.192.120.0/23]] = 0) do={ add list=$AddressList comment=AS20940 address=23.192.120.0/23 }
 :if ([:len [find where list=$AddressList and address=23.192.124.0/22]] = 0) do={ add list=$AddressList comment=AS20940 address=23.192.124.0/22 }
@@ -180,3 +172,11 @@
 :if ([:len [find where list=$AddressList and address=23.195.73.0/24]] = 0) do={ add list=$AddressList comment=AS20940 address=23.195.73.0/24 }
 :if ([:len [find where list=$AddressList and address=23.195.76.0/22]] = 0) do={ add list=$AddressList comment=AS20940 address=23.195.76.0/22 }
 :if ([:len [find where list=$AddressList and address=23.195.80.0/20]] = 0) do={ add list=$AddressList comment=AS20940 address=23.195.80.0/20 }
+:if ([:len [find where list=$AddressList and address=23.195.98.0/23]] = 0) do={ add list=$AddressList comment=AS20940 address=23.195.98.0/23 }
+:if ([:len [find where list=$AddressList and address=23.196.0.0/21]] = 0) do={ add list=$AddressList comment=AS20940 address=23.196.0.0/21 }
+:if ([:len [find where list=$AddressList and address=23.196.10.0/23]] = 0) do={ add list=$AddressList comment=AS20940 address=23.196.10.0/23 }
+:if ([:len [find where list=$AddressList and address=23.196.12.0/24]] = 0) do={ add list=$AddressList comment=AS20940 address=23.196.12.0/24 }
+:if ([:len [find where list=$AddressList and address=23.196.14.0/23]] = 0) do={ add list=$AddressList comment=AS20940 address=23.196.14.0/23 }
+:if ([:len [find where list=$AddressList and address=23.196.160.0/19]] = 0) do={ add list=$AddressList comment=AS20940 address=23.196.160.0/19 }
+:if ([:len [find where list=$AddressList and address=23.196.208.0/23]] = 0) do={ add list=$AddressList comment=AS20940 address=23.196.208.0/23 }
+:if ([:len [find where list=$AddressList and address=23.196.224.0/22]] = 0) do={ add list=$AddressList comment=AS20940 address=23.196.224.0/22 }

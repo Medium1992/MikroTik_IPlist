@@ -68,7 +68,6 @@
 :if ([:len [find where list=$AddressList and address=109.66.189.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=109.66.189.0/24 }
 :if ([:len [find where list=$AddressList and address=109.66.191.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=109.66.191.0/24 }
 :if ([:len [find where list=$AddressList and address=109.66.193.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=109.66.193.0/24 }
-:if ([:len [find where list=$AddressList and address=109.66.252.0/22]] = 0) do={ add list=$AddressList comment=AS5650 address=109.66.252.0/22 }
 :if ([:len [find where list=$AddressList and address=109.66.37.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=109.66.37.0/24 }
 :if ([:len [find where list=$AddressList and address=109.66.39.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=109.66.39.0/24 }
 :if ([:len [find where list=$AddressList and address=109.66.45.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=109.66.45.0/24 }
@@ -143,6 +142,7 @@
 :if ([:len [find where list=$AddressList and address=152.55.220.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=152.55.220.0/24 }
 :if ([:len [find where list=$AddressList and address=152.55.222.0/23]] = 0) do={ add list=$AddressList comment=AS5650 address=152.55.222.0/23 }
 :if ([:len [find where list=$AddressList and address=152.89.228.0/22]] = 0) do={ add list=$AddressList comment=AS5650 address=152.89.228.0/22 }
+:if ([:len [find where list=$AddressList and address=153.58.132.0/22]] = 0) do={ add list=$AddressList comment=AS5650 address=153.58.132.0/22 }
 :if ([:len [find where list=$AddressList and address=154.13.216.0/24]] = 0) do={ add list=$AddressList comment=AS5650 address=154.13.216.0/24 }
 :if ([:len [find where list=$AddressList and address=154.21.16.0/22]] = 0) do={ add list=$AddressList comment=AS5650 address=154.21.16.0/22 }
 :if ([:len [find where list=$AddressList and address=154.28.72.0/22]] = 0) do={ add list=$AddressList comment=AS5650 address=154.28.72.0/22 }

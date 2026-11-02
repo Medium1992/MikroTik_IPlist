@@ -89,7 +89,9 @@
 :if ([:len [find where list=$AddressList and address=100.59.109.81]] = 0) do={ add list=$AddressList comment=claude.ai address=100.59.109.81 }
 :if ([:len [find where list=$AddressList and address=100.59.85.202]] = 0) do={ add list=$AddressList comment=claude.ai address=100.59.85.202 }
 :if ([:len [find where list=$AddressList and address=100.60.108.52]] = 0) do={ add list=$AddressList comment=claude.ai address=100.60.108.52 }
+:if ([:len [find where list=$AddressList and address=100.60.207.36]] = 0) do={ add list=$AddressList comment=claude.ai address=100.60.207.36 }
 :if ([:len [find where list=$AddressList and address=100.61.233.66]] = 0) do={ add list=$AddressList comment=claude.ai address=100.61.233.66 }
+:if ([:len [find where list=$AddressList and address=100.61.24.55]] = 0) do={ add list=$AddressList comment=claude.ai address=100.61.24.55 }
 :if ([:len [find where list=$AddressList and address=100.61.7.255]] = 0) do={ add list=$AddressList comment=claude.ai address=100.61.7.255 }
 :if ([:len [find where list=$AddressList and address=100.62.143.168]] = 0) do={ add list=$AddressList comment=claude.ai address=100.62.143.168 }
 :if ([:len [find where list=$AddressList and address=100.62.157.233]] = 0) do={ add list=$AddressList comment=claude.ai address=100.62.157.233 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=108.138.51.42]] = 0) do={ add list=$AddressList comment=claude.ai address=108.138.51.42 }
 :if ([:len [find where list=$AddressList and address=108.138.51.43]] = 0) do={ add list=$AddressList comment=claude.ai address=108.138.51.43 }
 :if ([:len [find where list=$AddressList and address=108.138.51.54]] = 0) do={ add list=$AddressList comment=claude.ai address=108.138.51.54 }
-:if ([:len [find where list=$AddressList and address=108.138.51.64]] = 0) do={ add list=$AddressList comment=claude.ai address=108.138.51.64 }
-:if ([:len [find where list=$AddressList and address=108.138.51.66]] = 0) do={ add list=$AddressList comment=claude.ai address=108.138.51.66 }

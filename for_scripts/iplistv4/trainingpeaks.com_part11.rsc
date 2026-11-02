@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.92.101]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.164.92.101 }
+:if ([:len [find where list=$AddressList and address=3.164.92.21]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.164.92.21 }
 :if ([:len [find where list=$AddressList and address=3.164.92.52]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.164.92.52 }
 :if ([:len [find where list=$AddressList and address=3.164.92.6]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.164.92.6 }
 :if ([:len [find where list=$AddressList and address=3.165.136.107]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.165.136.107 }
@@ -108,9 +110,13 @@
 :if ([:len [find where list=$AddressList and address=3.166.81.117]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.81.117 }
 :if ([:len [find where list=$AddressList and address=3.166.81.46]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.81.46 }
 :if ([:len [find where list=$AddressList and address=3.166.81.99]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.81.99 }
+:if ([:len [find where list=$AddressList and address=3.166.96.10]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.96.10 }
 :if ([:len [find where list=$AddressList and address=3.166.96.109]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.96.109 }
+:if ([:len [find where list=$AddressList and address=3.166.96.117]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.96.117 }
 :if ([:len [find where list=$AddressList and address=3.166.96.123]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.96.123 }
+:if ([:len [find where list=$AddressList and address=3.166.96.128]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.96.128 }
 :if ([:len [find where list=$AddressList and address=3.166.96.15]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.96.15 }
+:if ([:len [find where list=$AddressList and address=3.166.96.58]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.96.58 }
 :if ([:len [find where list=$AddressList and address=3.166.96.70]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.96.70 }
 :if ([:len [find where list=$AddressList and address=3.166.96.83]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.96.83 }
 :if ([:len [find where list=$AddressList and address=3.166.96.89]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.166.96.89 }
@@ -174,9 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.169.71.50]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.169.71.50 }
 :if ([:len [find where list=$AddressList and address=3.169.71.53]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.169.71.53 }
 :if ([:len [find where list=$AddressList and address=3.169.71.89]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.169.71.89 }
-:if ([:len [find where list=$AddressList and address=3.169.71.90]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.169.71.90 }
-:if ([:len [find where list=$AddressList and address=3.169.71.91]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.169.71.91 }
-:if ([:len [find where list=$AddressList and address=3.169.85.51]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.169.85.51 }
-:if ([:len [find where list=$AddressList and address=3.169.85.52]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.169.85.52 }
-:if ([:len [find where list=$AddressList and address=3.169.85.79]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.169.85.79 }
-:if ([:len [find where list=$AddressList and address=3.169.85.91]] = 0) do={ add list=$AddressList comment=trainingpeaks.com address=3.169.85.91 }

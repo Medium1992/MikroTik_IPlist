@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=142.251.37.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.37.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=142.251.38.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.38.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=142.251.38.211 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.38.211 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=142.251.38.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.38.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=142.251.38.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.38.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
@@ -42,6 +44,7 @@
 :if ([:len [/ip/route/find dst-address=172.217.18.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.18.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=172.217.19.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.19.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=172.217.19.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.19.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
+:if ([:len [/ip/route/find dst-address=172.217.19.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.19.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=172.217.19.243 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.19.243 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=172.217.20.147 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.20.147 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=172.217.20.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.20.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=18.165.201.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.201.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=18.165.201.80 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.201.80 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
 :if ([:len [/ip/route/find dst-address=18.165.201.92 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.201.92 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=18.165.201.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.201.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=18.165.61.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.61.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }
-:if ([:len [/ip/route/find dst-address=18.165.61.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.165.61.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=pixiv.net }

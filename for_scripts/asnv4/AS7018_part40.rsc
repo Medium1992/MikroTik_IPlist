@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=12.184.24.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.184.24.0/22 }
-:if ([:len [find where list=$AddressList and address=12.184.28.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.184.28.0/23 }
-:if ([:len [find where list=$AddressList and address=12.184.30.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.184.30.0/24 }
-:if ([:len [find where list=$AddressList and address=12.184.32.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=12.184.32.0/19 }
 :if ([:len [find where list=$AddressList and address=12.184.64.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.184.64.0/21 }
 :if ([:len [find where list=$AddressList and address=12.184.72.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.184.72.0/23 }
 :if ([:len [find where list=$AddressList and address=12.184.74.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.184.74.0/24 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=12.19.200.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.19.200.0/21 }
 :if ([:len [find where list=$AddressList and address=12.19.208.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.19.208.0/24 }
 :if ([:len [find where list=$AddressList and address=12.19.210.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.19.210.0/23 }
+:if ([:len [find where list=$AddressList and address=12.19.212.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=12.19.212.0/22 }
+:if ([:len [find where list=$AddressList and address=12.19.216.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=12.19.216.0/21 }
+:if ([:len [find where list=$AddressList and address=12.19.224.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=12.19.224.0/24 }
+:if ([:len [find where list=$AddressList and address=12.19.226.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=12.19.226.0/23 }

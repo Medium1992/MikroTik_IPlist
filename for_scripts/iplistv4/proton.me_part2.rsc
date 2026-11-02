@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.72.83]] = 0) do={ add list=$AddressList comment=proton.me address=18.165.72.83 }
+:if ([:len [find where list=$AddressList and address=18.172.112.100]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.112.100 }
+:if ([:len [find where list=$AddressList and address=18.172.112.111]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.112.111 }
+:if ([:len [find where list=$AddressList and address=18.172.112.4]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.112.4 }
+:if ([:len [find where list=$AddressList and address=18.172.112.6]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.112.6 }
 :if ([:len [find where list=$AddressList and address=18.172.153.31]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.153.31 }
 :if ([:len [find where list=$AddressList and address=18.172.153.51]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.153.51 }
 :if ([:len [find where list=$AddressList and address=18.172.153.79]] = 0) do={ add list=$AddressList comment=proton.me address=18.172.153.79 }
@@ -175,8 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.174.18.31]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.18.31 }
 :if ([:len [find where list=$AddressList and address=3.174.18.53]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.18.53 }
 :if ([:len [find where list=$AddressList and address=3.174.230.38]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.230.38 }
-:if ([:len [find where list=$AddressList and address=3.174.230.39]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.230.39 }
-:if ([:len [find where list=$AddressList and address=3.174.230.86]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.230.86 }
-:if ([:len [find where list=$AddressList and address=3.174.230.95]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.230.95 }
-:if ([:len [find where list=$AddressList and address=3.174.255.35]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.255.35 }
-:if ([:len [find where list=$AddressList and address=3.174.255.66]] = 0) do={ add list=$AddressList comment=proton.me address=3.174.255.66 }

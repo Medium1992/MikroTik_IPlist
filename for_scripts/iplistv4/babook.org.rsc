@@ -8,10 +8,12 @@
 :if ([:len [find where list=$AddressList and address=34.173.16.107]] = 0) do={ add list=$AddressList comment=babook.org address=34.173.16.107 }
 :if ([:len [find where list=$AddressList and address=34.67.52.119]] = 0) do={ add list=$AddressList comment=babook.org address=34.67.52.119 }
 :if ([:len [find where list=$AddressList and address=8.47.69.0]] = 0) do={ add list=$AddressList comment=babook.org address=8.47.69.0 }
+:if ([:len [find where list=$AddressList and address=8.47.69.10]] = 0) do={ add list=$AddressList comment=babook.org address=8.47.69.10 }
 :if ([:len [find where list=$AddressList and address=8.47.69.5]] = 0) do={ add list=$AddressList comment=babook.org address=8.47.69.5 }
 :if ([:len [find where list=$AddressList and address=8.47.69.6]] = 0) do={ add list=$AddressList comment=babook.org address=8.47.69.6 }
 :if ([:len [find where list=$AddressList and address=8.47.69.7]] = 0) do={ add list=$AddressList comment=babook.org address=8.47.69.7 }
 :if ([:len [find where list=$AddressList and address=8.6.112.0]] = 0) do={ add list=$AddressList comment=babook.org address=8.6.112.0 }
+:if ([:len [find where list=$AddressList and address=8.6.112.10]] = 0) do={ add list=$AddressList comment=babook.org address=8.6.112.10 }
 :if ([:len [find where list=$AddressList and address=8.6.112.5]] = 0) do={ add list=$AddressList comment=babook.org address=8.6.112.5 }
 :if ([:len [find where list=$AddressList and address=8.6.112.6]] = 0) do={ add list=$AddressList comment=babook.org address=8.6.112.6 }
 :if ([:len [find where list=$AddressList and address=8.6.112.7]] = 0) do={ add list=$AddressList comment=babook.org address=8.6.112.7 }

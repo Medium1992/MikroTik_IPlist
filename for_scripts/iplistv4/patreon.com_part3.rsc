@@ -134,6 +134,10 @@
 :if ([:len [find where list=$AddressList and address=18.244.87.2]] = 0) do={ add list=$AddressList comment=patreon.com address=18.244.87.2 }
 :if ([:len [find where list=$AddressList and address=18.244.87.8]] = 0) do={ add list=$AddressList comment=patreon.com address=18.244.87.8 }
 :if ([:len [find where list=$AddressList and address=18.244.87.88]] = 0) do={ add list=$AddressList comment=patreon.com address=18.244.87.88 }
+:if ([:len [find where list=$AddressList and address=18.64.211.129]] = 0) do={ add list=$AddressList comment=patreon.com address=18.64.211.129 }
+:if ([:len [find where list=$AddressList and address=18.64.211.50]] = 0) do={ add list=$AddressList comment=patreon.com address=18.64.211.50 }
+:if ([:len [find where list=$AddressList and address=18.64.211.6]] = 0) do={ add list=$AddressList comment=patreon.com address=18.64.211.6 }
+:if ([:len [find where list=$AddressList and address=18.64.211.75]] = 0) do={ add list=$AddressList comment=patreon.com address=18.64.211.75 }
 :if ([:len [find where list=$AddressList and address=18.66.218.106]] = 0) do={ add list=$AddressList comment=patreon.com address=18.66.218.106 }
 :if ([:len [find where list=$AddressList and address=18.66.218.29]] = 0) do={ add list=$AddressList comment=patreon.com address=18.66.218.29 }
 :if ([:len [find where list=$AddressList and address=18.66.218.58]] = 0) do={ add list=$AddressList comment=patreon.com address=18.66.218.58 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=199.16.156.39]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.156.39 }
 :if ([:len [find where list=$AddressList and address=199.16.156.40]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.156.40 }
 :if ([:len [find where list=$AddressList and address=199.16.156.7]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.156.7 }
-:if ([:len [find where list=$AddressList and address=199.16.156.71]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.156.71 }
-:if ([:len [find where list=$AddressList and address=199.16.156.75]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.156.75 }
-:if ([:len [find where list=$AddressList and address=199.16.158.104]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.158.104 }
-:if ([:len [find where list=$AddressList and address=199.16.158.12]] = 0) do={ add list=$AddressList comment=patreon.com address=199.16.158.12 }

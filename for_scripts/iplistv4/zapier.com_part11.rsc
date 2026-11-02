@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.85.223.30]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.30 }
+:if ([:len [find where list=$AddressList and address=52.85.223.35]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.35 }
+:if ([:len [find where list=$AddressList and address=52.85.223.38]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.38 }
+:if ([:len [find where list=$AddressList and address=52.85.223.39]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.39 }
 :if ([:len [find where list=$AddressList and address=52.85.223.48]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.48 }
 :if ([:len [find where list=$AddressList and address=52.85.223.49]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.49 }
 :if ([:len [find where list=$AddressList and address=52.85.223.60]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.60 }
@@ -69,6 +73,10 @@
 :if ([:len [find where list=$AddressList and address=54.192.100.76]] = 0) do={ add list=$AddressList comment=zapier.com address=54.192.100.76 }
 :if ([:len [find where list=$AddressList and address=54.192.100.88]] = 0) do={ add list=$AddressList comment=zapier.com address=54.192.100.88 }
 :if ([:len [find where list=$AddressList and address=54.192.100.96]] = 0) do={ add list=$AddressList comment=zapier.com address=54.192.100.96 }
+:if ([:len [find where list=$AddressList and address=54.192.138.108]] = 0) do={ add list=$AddressList comment=zapier.com address=54.192.138.108 }
+:if ([:len [find where list=$AddressList and address=54.192.138.112]] = 0) do={ add list=$AddressList comment=zapier.com address=54.192.138.112 }
+:if ([:len [find where list=$AddressList and address=54.192.138.123]] = 0) do={ add list=$AddressList comment=zapier.com address=54.192.138.123 }
+:if ([:len [find where list=$AddressList and address=54.192.138.128]] = 0) do={ add list=$AddressList comment=zapier.com address=54.192.138.128 }
 :if ([:len [find where list=$AddressList and address=54.192.35.115]] = 0) do={ add list=$AddressList comment=zapier.com address=54.192.35.115 }
 :if ([:len [find where list=$AddressList and address=54.192.35.76]] = 0) do={ add list=$AddressList comment=zapier.com address=54.192.35.76 }
 :if ([:len [find where list=$AddressList and address=54.192.35.92]] = 0) do={ add list=$AddressList comment=zapier.com address=54.192.35.92 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.8.131.119]] = 0) do={ add list=$AddressList comment=zapier.com address=65.8.131.119 }
 :if ([:len [find where list=$AddressList and address=65.8.131.13]] = 0) do={ add list=$AddressList comment=zapier.com address=65.8.131.13 }
 :if ([:len [find where list=$AddressList and address=65.8.131.17]] = 0) do={ add list=$AddressList comment=zapier.com address=65.8.131.17 }
-:if ([:len [find where list=$AddressList and address=65.8.131.90]] = 0) do={ add list=$AddressList comment=zapier.com address=65.8.131.90 }
-:if ([:len [find where list=$AddressList and address=65.8.202.26]] = 0) do={ add list=$AddressList comment=zapier.com address=65.8.202.26 }
-:if ([:len [find where list=$AddressList and address=65.8.202.59]] = 0) do={ add list=$AddressList comment=zapier.com address=65.8.202.59 }
-:if ([:len [find where list=$AddressList and address=65.8.202.81]] = 0) do={ add list=$AddressList comment=zapier.com address=65.8.202.81 }
-:if ([:len [find where list=$AddressList and address=65.8.202.98]] = 0) do={ add list=$AddressList comment=zapier.com address=65.8.202.98 }
-:if ([:len [find where list=$AddressList and address=65.9.130.123]] = 0) do={ add list=$AddressList comment=zapier.com address=65.9.130.123 }
-:if ([:len [find where list=$AddressList and address=65.9.130.14]] = 0) do={ add list=$AddressList comment=zapier.com address=65.9.130.14 }
-:if ([:len [find where list=$AddressList and address=65.9.130.69]] = 0) do={ add list=$AddressList comment=zapier.com address=65.9.130.69 }

@@ -4,7 +4,13 @@
 :if ([:len [find where list=$AddressList and address=134.249.0.0/16]] = 0) do={ add list=$AddressList comment=AS15895 address=134.249.0.0/16 }
 :if ([:len [find where list=$AddressList and address=176.8.0.0/16]] = 0) do={ add list=$AddressList comment=AS15895 address=176.8.0.0/16 }
 :if ([:len [find where list=$AddressList and address=178.137.0.0/16]] = 0) do={ add list=$AddressList comment=AS15895 address=178.137.0.0/16 }
-:if ([:len [find where list=$AddressList and address=188.163.0.0/16]] = 0) do={ add list=$AddressList comment=AS15895 address=188.163.0.0/16 }
+:if ([:len [find where list=$AddressList and address=188.163.0.0/17]] = 0) do={ add list=$AddressList comment=AS15895 address=188.163.0.0/17 }
+:if ([:len [find where list=$AddressList and address=188.163.128.0/19]] = 0) do={ add list=$AddressList comment=AS15895 address=188.163.128.0/19 }
+:if ([:len [find where list=$AddressList and address=188.163.160.0/22]] = 0) do={ add list=$AddressList comment=AS15895 address=188.163.160.0/22 }
+:if ([:len [find where list=$AddressList and address=188.163.164.0/23]] = 0) do={ add list=$AddressList comment=AS15895 address=188.163.164.0/23 }
+:if ([:len [find where list=$AddressList and address=188.163.168.0/21]] = 0) do={ add list=$AddressList comment=AS15895 address=188.163.168.0/21 }
+:if ([:len [find where list=$AddressList and address=188.163.176.0/20]] = 0) do={ add list=$AddressList comment=AS15895 address=188.163.176.0/20 }
+:if ([:len [find where list=$AddressList and address=188.163.192.0/18]] = 0) do={ add list=$AddressList comment=AS15895 address=188.163.192.0/18 }
 :if ([:len [find where list=$AddressList and address=193.239.128.0/23]] = 0) do={ add list=$AddressList comment=AS15895 address=193.239.128.0/23 }
 :if ([:len [find where list=$AddressList and address=193.41.60.0/22]] = 0) do={ add list=$AddressList comment=AS15895 address=193.41.60.0/22 }
 :if ([:len [find where list=$AddressList and address=212.109.32.0/19]] = 0) do={ add list=$AddressList comment=AS15895 address=212.109.32.0/19 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=23.199.56.159]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.56.159 }
+:if ([:len [find where list=$AddressList and address=23.199.56.169]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.56.169 }
+:if ([:len [find where list=$AddressList and address=23.199.75.120]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.75.120 }
+:if ([:len [find where list=$AddressList and address=23.199.75.129]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.75.129 }
 :if ([:len [find where list=$AddressList and address=23.199.75.154]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.75.154 }
 :if ([:len [find where list=$AddressList and address=23.2.208.232]] = 0) do={ add list=$AddressList comment=krymr.com address=23.2.208.232 }
 :if ([:len [find where list=$AddressList and address=23.2.52.42]] = 0) do={ add list=$AddressList comment=krymr.com address=23.2.52.42 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=23.215.212.14]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.212.14 }
 :if ([:len [find where list=$AddressList and address=23.215.212.15]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.212.15 }
 :if ([:len [find where list=$AddressList and address=23.215.242.100]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.242.100 }
-:if ([:len [find where list=$AddressList and address=23.215.9.170]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.9.170 }
-:if ([:len [find where list=$AddressList and address=23.215.9.175]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.9.175 }
-:if ([:len [find where list=$AddressList and address=23.216.134.134]] = 0) do={ add list=$AddressList comment=krymr.com address=23.216.134.134 }
-:if ([:len [find where list=$AddressList and address=23.216.134.139]] = 0) do={ add list=$AddressList comment=krymr.com address=23.216.134.139 }

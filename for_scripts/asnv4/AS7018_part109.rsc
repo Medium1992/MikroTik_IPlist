@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=99.186.122.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=99.186.122.0/23 }
-:if ([:len [find where list=$AddressList and address=99.186.124.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=99.186.124.0/22 }
-:if ([:len [find where list=$AddressList and address=99.186.128.0/17]] = 0) do={ add list=$AddressList comment=AS7018 address=99.186.128.0/17 }
-:if ([:len [find where list=$AddressList and address=99.186.64.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=99.186.64.0/19 }
-:if ([:len [find where list=$AddressList and address=99.186.96.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=99.186.96.0/20 }
-:if ([:len [find where list=$AddressList and address=99.187.0.0/17]] = 0) do={ add list=$AddressList comment=AS7018 address=99.187.0.0/17 }
-:if ([:len [find where list=$AddressList and address=99.187.128.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=99.187.128.0/20 }
-:if ([:len [find where list=$AddressList and address=99.187.144.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=99.187.144.0/22 }
-:if ([:len [find where list=$AddressList and address=99.187.148.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=99.187.148.0/23 }
-:if ([:len [find where list=$AddressList and address=99.187.150.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=99.187.150.0/24 }
-:if ([:len [find where list=$AddressList and address=99.187.151.0/26]] = 0) do={ add list=$AddressList comment=AS7018 address=99.187.151.0/26 }
 :if ([:len [find where list=$AddressList and address=99.187.151.128/25]] = 0) do={ add list=$AddressList comment=AS7018 address=99.187.151.128/25 }
 :if ([:len [find where list=$AddressList and address=99.187.151.64/31]] = 0) do={ add list=$AddressList comment=AS7018 address=99.187.151.64/31 }
 :if ([:len [find where list=$AddressList and address=99.187.151.67/32]] = 0) do={ add list=$AddressList comment=AS7018 address=99.187.151.67/32 }
@@ -180,3 +169,14 @@
 :if ([:len [find where list=$AddressList and address=99.21.252.248/29]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.252.248/29 }
 :if ([:len [find where list=$AddressList and address=99.21.253.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.253.0/24 }
 :if ([:len [find where list=$AddressList and address=99.21.254.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.254.0/23 }
+:if ([:len [find where list=$AddressList and address=99.21.32.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.32.0/22 }
+:if ([:len [find where list=$AddressList and address=99.21.36.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.36.0/23 }
+:if ([:len [find where list=$AddressList and address=99.21.38.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.38.0/24 }
+:if ([:len [find where list=$AddressList and address=99.21.39.0/25]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.39.0/25 }
+:if ([:len [find where list=$AddressList and address=99.21.39.128/26]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.39.128/26 }
+:if ([:len [find where list=$AddressList and address=99.21.39.192/27]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.39.192/27 }
+:if ([:len [find where list=$AddressList and address=99.21.39.224/29]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.39.224/29 }
+:if ([:len [find where list=$AddressList and address=99.21.39.232/31]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.39.232/31 }
+:if ([:len [find where list=$AddressList and address=99.21.39.234/32]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.39.234/32 }
+:if ([:len [find where list=$AddressList and address=99.21.39.236/30]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.39.236/30 }
+:if ([:len [find where list=$AddressList and address=99.21.39.240/28]] = 0) do={ add list=$AddressList comment=AS7018 address=99.21.39.240/28 }

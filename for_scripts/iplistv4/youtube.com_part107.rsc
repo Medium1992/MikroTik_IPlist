@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.175.9.80]] = 0) do={ add list=$AddressList comment=youtube.com address=52.175.9.80 }
+:if ([:len [find where list=$AddressList and address=52.58.1.161]] = 0) do={ add list=$AddressList comment=youtube.com address=52.58.1.161 }
+:if ([:len [find where list=$AddressList and address=54.144.128.85]] = 0) do={ add list=$AddressList comment=youtube.com address=54.144.128.85 }
+:if ([:len [find where list=$AddressList and address=54.234.18.200]] = 0) do={ add list=$AddressList comment=youtube.com address=54.234.18.200 }
+:if ([:len [find where list=$AddressList and address=54.89.135.129]] = 0) do={ add list=$AddressList comment=youtube.com address=54.89.135.129 }
+:if ([:len [find where list=$AddressList and address=58.123.102.12]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.12 }
+:if ([:len [find where list=$AddressList and address=58.123.102.13]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.13 }
+:if ([:len [find where list=$AddressList and address=58.123.102.15]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.15 }
+:if ([:len [find where list=$AddressList and address=58.123.102.16]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.16 }
+:if ([:len [find where list=$AddressList and address=58.123.102.19]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.19 }
+:if ([:len [find where list=$AddressList and address=58.123.102.47]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.47 }
 :if ([:len [find where list=$AddressList and address=58.123.102.48]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.48 }
 :if ([:len [find where list=$AddressList and address=58.123.102.49]] = 0) do={ add list=$AddressList comment=youtube.com address=58.123.102.49 }
 :if ([:len [find where list=$AddressList and address=58.145.190.16]] = 0) do={ add list=$AddressList comment=youtube.com address=58.145.190.16 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=59.18.30.207]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.207 }
 :if ([:len [find where list=$AddressList and address=59.18.30.208]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.208 }
 :if ([:len [find where list=$AddressList and address=59.18.30.209]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.209 }
-:if ([:len [find where list=$AddressList and address=59.18.30.210]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.210 }
-:if ([:len [find where list=$AddressList and address=59.18.30.211]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.211 }
-:if ([:len [find where list=$AddressList and address=59.18.30.76]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.76 }
-:if ([:len [find where list=$AddressList and address=59.18.30.77]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.77 }
-:if ([:len [find where list=$AddressList and address=59.18.30.78]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.78 }
-:if ([:len [find where list=$AddressList and address=59.18.30.79]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.79 }
-:if ([:len [find where list=$AddressList and address=59.18.30.80]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.80 }
-:if ([:len [find where list=$AddressList and address=59.18.30.81]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.81 }
-:if ([:len [find where list=$AddressList and address=59.18.30.82]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.82 }
-:if ([:len [find where list=$AddressList and address=59.18.30.83]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.30.83 }
-:if ([:len [find where list=$AddressList and address=59.18.31.12]] = 0) do={ add list=$AddressList comment=youtube.com address=59.18.31.12 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=69.17.168.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=69.17.168.0/24 }
+:if ([:len [find where list=$AddressList and address=69.17.170.0/23]] = 0) do={ add list=$AddressList comment=AS812 address=69.17.170.0/23 }
+:if ([:len [find where list=$AddressList and address=69.17.172.0/22]] = 0) do={ add list=$AddressList comment=AS812 address=69.17.172.0/22 }
+:if ([:len [find where list=$AddressList and address=69.17.176.0/22]] = 0) do={ add list=$AddressList comment=AS812 address=69.17.176.0/22 }
 :if ([:len [find where list=$AddressList and address=69.17.180.0/23]] = 0) do={ add list=$AddressList comment=AS812 address=69.17.180.0/23 }
 :if ([:len [find where list=$AddressList and address=69.17.182.0/24]] = 0) do={ add list=$AddressList comment=AS812 address=69.17.182.0/24 }
 :if ([:len [find where list=$AddressList and address=69.17.184.0/21]] = 0) do={ add list=$AddressList comment=AS812 address=69.17.184.0/21 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=99.250.145.176/28]] = 0) do={ add list=$AddressList comment=AS812 address=99.250.145.176/28 }
 :if ([:len [find where list=$AddressList and address=99.250.145.192/26]] = 0) do={ add list=$AddressList comment=AS812 address=99.250.145.192/26 }
 :if ([:len [find where list=$AddressList and address=99.250.146.0/23]] = 0) do={ add list=$AddressList comment=AS812 address=99.250.146.0/23 }
-:if ([:len [find where list=$AddressList and address=99.250.148.0/22]] = 0) do={ add list=$AddressList comment=AS812 address=99.250.148.0/22 }
-:if ([:len [find where list=$AddressList and address=99.250.152.0/21]] = 0) do={ add list=$AddressList comment=AS812 address=99.250.152.0/21 }
-:if ([:len [find where list=$AddressList and address=99.250.160.0/19]] = 0) do={ add list=$AddressList comment=AS812 address=99.250.160.0/19 }
-:if ([:len [find where list=$AddressList and address=99.250.192.0/18]] = 0) do={ add list=$AddressList comment=AS812 address=99.250.192.0/18 }

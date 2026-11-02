@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=44.209.51.238]] = 0) do={ add list=$AddressList comment=quora.com address=44.209.51.238 }
+:if ([:len [find where list=$AddressList and address=44.209.7.231]] = 0) do={ add list=$AddressList comment=quora.com address=44.209.7.231 }
+:if ([:len [find where list=$AddressList and address=44.209.70.234]] = 0) do={ add list=$AddressList comment=quora.com address=44.209.70.234 }
+:if ([:len [find where list=$AddressList and address=44.209.83.174]] = 0) do={ add list=$AddressList comment=quora.com address=44.209.83.174 }
 :if ([:len [find where list=$AddressList and address=44.210.163.137]] = 0) do={ add list=$AddressList comment=quora.com address=44.210.163.137 }
 :if ([:len [find where list=$AddressList and address=44.210.191.114]] = 0) do={ add list=$AddressList comment=quora.com address=44.210.191.114 }
 :if ([:len [find where list=$AddressList and address=44.210.212.212]] = 0) do={ add list=$AddressList comment=quora.com address=44.210.212.212 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.22.86.91]] = 0) do={ add list=$AddressList comment=quora.com address=52.22.86.91 }
 :if ([:len [find where list=$AddressList and address=52.23.103.4]] = 0) do={ add list=$AddressList comment=quora.com address=52.23.103.4 }
 :if ([:len [find where list=$AddressList and address=52.23.119.86]] = 0) do={ add list=$AddressList comment=quora.com address=52.23.119.86 }
-:if ([:len [find where list=$AddressList and address=52.23.135.193]] = 0) do={ add list=$AddressList comment=quora.com address=52.23.135.193 }
-:if ([:len [find where list=$AddressList and address=52.23.146.235]] = 0) do={ add list=$AddressList comment=quora.com address=52.23.146.235 }
-:if ([:len [find where list=$AddressList and address=52.23.47.40]] = 0) do={ add list=$AddressList comment=quora.com address=52.23.47.40 }
-:if ([:len [find where list=$AddressList and address=52.23.73.97]] = 0) do={ add list=$AddressList comment=quora.com address=52.23.73.97 }

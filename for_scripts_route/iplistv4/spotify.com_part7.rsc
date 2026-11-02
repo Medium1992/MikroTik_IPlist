@@ -2,6 +2,17 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=2.16.10.85 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.10.85 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.16.10.86 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.10.86 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.16.10.87 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.10.87 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.16.10.88 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.10.88 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.16.10.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.10.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.16.10.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.10.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.16.10.91 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.10.91 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.16.10.92 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.10.92 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.16.100.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.100.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.16.100.139 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.100.139 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
+:if ([:len [/ip/route/find dst-address=2.16.100.168 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.100.168 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.16.100.96 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.100.96 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.16.103.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.103.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.16.103.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.103.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
@@ -91,14 +102,3 @@
 :if ([:len [/ip/route/find dst-address=2.16.154.170 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.170 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.16.154.171 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.171 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
 :if ([:len [/ip/route/find dst-address=2.16.154.177 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.177 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.178 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.178 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.179 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.179 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.185 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.185 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.186 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.186 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.187 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.187 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.192 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.192 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.194 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.194 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.195 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.195 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.200 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.200 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }
-:if ([:len [/ip/route/find dst-address=2.16.154.40 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.154.40 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=spotify.com }

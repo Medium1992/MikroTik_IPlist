@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=103.151.169.0/24]] = 0) do={ add list=$AddressList comment=AS56264 address=103.151.169.0/24 }
 :if ([:len [find where list=$AddressList and address=103.163.30.0/23]] = 0) do={ add list=$AddressList comment=AS56264 address=103.163.30.0/23 }
 :if ([:len [find where list=$AddressList and address=103.173.100.0/23]] = 0) do={ add list=$AddressList comment=AS56264 address=103.173.100.0/23 }
 :if ([:len [find where list=$AddressList and address=103.189.6.0/23]] = 0) do={ add list=$AddressList comment=AS56264 address=103.189.6.0/23 }

@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.67.250.4]] = 0) do={ add list=$AddressList comment=tidal.com address=18.67.250.4 }
+:if ([:len [find where list=$AddressList and address=18.67.250.44]] = 0) do={ add list=$AddressList comment=tidal.com address=18.67.250.44 }
+:if ([:len [find where list=$AddressList and address=184.192.146.41]] = 0) do={ add list=$AddressList comment=tidal.com address=184.192.146.41 }
+:if ([:len [find where list=$AddressList and address=184.72.235.96]] = 0) do={ add list=$AddressList comment=tidal.com address=184.72.235.96 }
+:if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=tidal.com address=188.114.98.228 }
+:if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=tidal.com address=188.114.99.228 }
+:if ([:len [find where list=$AddressList and address=199.232.169.51]] = 0) do={ add list=$AddressList comment=tidal.com address=199.232.169.51 }
+:if ([:len [find where list=$AddressList and address=199.232.170.142]] = 0) do={ add list=$AddressList comment=tidal.com address=199.232.170.142 }
+:if ([:len [find where list=$AddressList and address=199.232.173.51]] = 0) do={ add list=$AddressList comment=tidal.com address=199.232.173.51 }
+:if ([:len [find where list=$AddressList and address=199.232.174.142]] = 0) do={ add list=$AddressList comment=tidal.com address=199.232.174.142 }
+:if ([:len [find where list=$AddressList and address=199.232.189.51]] = 0) do={ add list=$AddressList comment=tidal.com address=199.232.189.51 }
 :if ([:len [find where list=$AddressList and address=199.232.190.142]] = 0) do={ add list=$AddressList comment=tidal.com address=199.232.190.142 }
 :if ([:len [find where list=$AddressList and address=199.232.37.51]] = 0) do={ add list=$AddressList comment=tidal.com address=199.232.37.51 }
 :if ([:len [find where list=$AddressList and address=199.232.38.142]] = 0) do={ add list=$AddressList comment=tidal.com address=199.232.38.142 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.163.189.11]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.189.11 }
 :if ([:len [find where list=$AddressList and address=3.163.189.113]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.189.113 }
 :if ([:len [find where list=$AddressList and address=3.163.189.120]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.189.120 }
-:if ([:len [find where list=$AddressList and address=3.163.189.247]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.189.247 }
-:if ([:len [find where list=$AddressList and address=3.163.24.113]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.24.113 }
-:if ([:len [find where list=$AddressList and address=3.163.24.124]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.24.124 }
-:if ([:len [find where list=$AddressList and address=3.163.24.32]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.24.32 }
-:if ([:len [find where list=$AddressList and address=3.163.24.49]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.24.49 }
-:if ([:len [find where list=$AddressList and address=3.163.24.50]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.24.50 }
-:if ([:len [find where list=$AddressList and address=3.163.24.70]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.24.70 }
-:if ([:len [find where list=$AddressList and address=3.163.24.71]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.24.71 }
-:if ([:len [find where list=$AddressList and address=3.163.24.86]] = 0) do={ add list=$AddressList comment=tidal.com address=3.163.24.86 }
-:if ([:len [find where list=$AddressList and address=3.164.174.246]] = 0) do={ add list=$AddressList comment=tidal.com address=3.164.174.246 }
-:if ([:len [find where list=$AddressList and address=3.164.182.104]] = 0) do={ add list=$AddressList comment=tidal.com address=3.164.182.104 }

@@ -10,6 +10,7 @@
 :if ([:len [find where list=$AddressList and address=123.192.0.0/11]] = 0) do={ add list=$AddressList comment=youtube.com address=123.192.0.0/11 }
 :if ([:len [find where list=$AddressList and address=123.240.0.0/13]] = 0) do={ add list=$AddressList comment=youtube.com address=123.240.0.0/13 }
 :if ([:len [find where list=$AddressList and address=123.253.0.0/18]] = 0) do={ add list=$AddressList comment=youtube.com address=123.253.0.0/18 }
+:if ([:len [find where list=$AddressList and address=123.253.128.0/18]] = 0) do={ add list=$AddressList comment=youtube.com address=123.253.128.0/18 }
 :if ([:len [find where list=$AddressList and address=124.0.0.0/9]] = 0) do={ add list=$AddressList comment=youtube.com address=124.0.0.0/9 }
 :if ([:len [find where list=$AddressList and address=124.192.0.0/11]] = 0) do={ add list=$AddressList comment=youtube.com address=124.192.0.0/11 }
 :if ([:len [find where list=$AddressList and address=124.248.0.0/14]] = 0) do={ add list=$AddressList comment=youtube.com address=124.248.0.0/14 }
@@ -125,6 +126,7 @@
 :if ([:len [find where list=$AddressList and address=172.253.135.94/32]] = 0) do={ add list=$AddressList comment=youtube.com address=172.253.135.94/32 }
 :if ([:len [find where list=$AddressList and address=172.253.139.94/32]] = 0) do={ add list=$AddressList comment=youtube.com address=172.253.139.94/32 }
 :if ([:len [find where list=$AddressList and address=172.253.143.0/24]] = 0) do={ add list=$AddressList comment=youtube.com address=172.253.143.0/24 }
+:if ([:len [find where list=$AddressList and address=172.253.144.94/32]] = 0) do={ add list=$AddressList comment=youtube.com address=172.253.144.94/32 }
 :if ([:len [find where list=$AddressList and address=172.253.145.94/32]] = 0) do={ add list=$AddressList comment=youtube.com address=172.253.145.94/32 }
 :if ([:len [find where list=$AddressList and address=172.253.147.0/24]] = 0) do={ add list=$AddressList comment=youtube.com address=172.253.147.0/24 }
 :if ([:len [find where list=$AddressList and address=172.253.148.94/32]] = 0) do={ add list=$AddressList comment=youtube.com address=172.253.148.94/32 }
@@ -171,12 +173,10 @@
 :if ([:len [find where list=$AddressList and address=173.194.43.94/32]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.43.94/32 }
 :if ([:len [find where list=$AddressList and address=173.194.44.94/32]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.44.94/32 }
 :if ([:len [find where list=$AddressList and address=173.194.45.94/32]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.45.94/32 }
+:if ([:len [find where list=$AddressList and address=173.194.46.94/32]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.46.94/32 }
 :if ([:len [find where list=$AddressList and address=173.194.49.0/24]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.49.0/24 }
 :if ([:len [find where list=$AddressList and address=173.194.50.0/23]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.50.0/23 }
 :if ([:len [find where list=$AddressList and address=173.194.52.0/22]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.52.0/22 }
 :if ([:len [find where list=$AddressList and address=173.194.56.0/23]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.56.0/23 }
 :if ([:len [find where list=$AddressList and address=173.194.59.0/24]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.59.0/24 }
 :if ([:len [find where list=$AddressList and address=173.194.60.0/23]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.60.0/23 }
-:if ([:len [find where list=$AddressList and address=173.194.64.0/22]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.64.0/22 }
-:if ([:len [find where list=$AddressList and address=173.194.68.0/23]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.68.0/23 }
-:if ([:len [find where list=$AddressList and address=173.194.70.0/24]] = 0) do={ add list=$AddressList comment=youtube.com address=173.194.70.0/24 }

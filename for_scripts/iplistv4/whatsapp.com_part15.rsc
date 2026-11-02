@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=69.92.104.98]] = 0) do={ add list=$AddressList comment=whatsapp.com address=69.92.104.98 }
+:if ([:len [find where list=$AddressList and address=70.186.10.97]] = 0) do={ add list=$AddressList comment=whatsapp.com address=70.186.10.97 }
+:if ([:len [find where list=$AddressList and address=70.186.26.97]] = 0) do={ add list=$AddressList comment=whatsapp.com address=70.186.26.97 }
+:if ([:len [find where list=$AddressList and address=72.136.192.161]] = 0) do={ add list=$AddressList comment=whatsapp.com address=72.136.192.161 }
 :if ([:len [find where list=$AddressList and address=72.136.192.225]] = 0) do={ add list=$AddressList comment=whatsapp.com address=72.136.192.225 }
 :if ([:len [find where list=$AddressList and address=72.136.192.96]] = 0) do={ add list=$AddressList comment=whatsapp.com address=72.136.192.96 }
 :if ([:len [find where list=$AddressList and address=72.195.166.97]] = 0) do={ add list=$AddressList comment=whatsapp.com address=72.195.166.97 }

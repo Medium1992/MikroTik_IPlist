@@ -1,5 +1,23 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=82.205.131.128/25]] = 0) do={ add list=$AddressList comment=ae address=82.205.131.128/25 }
+:if ([:len [find where list=$AddressList and address=82.205.131.32/27]] = 0) do={ add list=$AddressList comment=ae address=82.205.131.32/27 }
+:if ([:len [find where list=$AddressList and address=82.205.131.64/26]] = 0) do={ add list=$AddressList comment=ae address=82.205.131.64/26 }
+:if ([:len [find where list=$AddressList and address=82.205.132.0/23]] = 0) do={ add list=$AddressList comment=ae address=82.205.132.0/23 }
+:if ([:len [find where list=$AddressList and address=82.205.202.0/23]] = 0) do={ add list=$AddressList comment=ae address=82.205.202.0/23 }
+:if ([:len [find where list=$AddressList and address=82.205.204.0/22]] = 0) do={ add list=$AddressList comment=ae address=82.205.204.0/22 }
+:if ([:len [find where list=$AddressList and address=82.205.208.0/20]] = 0) do={ add list=$AddressList comment=ae address=82.205.208.0/20 }
+:if ([:len [find where list=$AddressList and address=82.205.224.0/19]] = 0) do={ add list=$AddressList comment=ae address=82.205.224.0/19 }
+:if ([:len [find where list=$AddressList and address=82.24.8.0/24]] = 0) do={ add list=$AddressList comment=ae address=82.24.8.0/24 }
+:if ([:len [find where list=$AddressList and address=82.24.86.0/24]] = 0) do={ add list=$AddressList comment=ae address=82.24.86.0/24 }
+:if ([:len [find where list=$AddressList and address=82.26.121.0/24]] = 0) do={ add list=$AddressList comment=ae address=82.26.121.0/24 }
+:if ([:len [find where list=$AddressList and address=83.110.0.0/15]] = 0) do={ add list=$AddressList comment=ae address=83.110.0.0/15 }
+:if ([:len [find where list=$AddressList and address=84.12.128.0/18]] = 0) do={ add list=$AddressList comment=ae address=84.12.128.0/18 }
+:if ([:len [find where list=$AddressList and address=84.12.224.0/19]] = 0) do={ add list=$AddressList comment=ae address=84.12.224.0/19 }
+:if ([:len [find where list=$AddressList and address=84.235.128.0/22]] = 0) do={ add list=$AddressList comment=ae address=84.235.128.0/22 }
+:if ([:len [find where list=$AddressList and address=84.235.132.0/23]] = 0) do={ add list=$AddressList comment=ae address=84.235.132.0/23 }
+:if ([:len [find where list=$AddressList and address=84.235.136.0/21]] = 0) do={ add list=$AddressList comment=ae address=84.235.136.0/21 }
+:if ([:len [find where list=$AddressList and address=84.235.144.0/21]] = 0) do={ add list=$AddressList comment=ae address=84.235.144.0/21 }
 :if ([:len [find where list=$AddressList and address=84.235.240.0/20]] = 0) do={ add list=$AddressList comment=ae address=84.235.240.0/20 }
 :if ([:len [find where list=$AddressList and address=84.252.115.0/24]] = 0) do={ add list=$AddressList comment=ae address=84.252.115.0/24 }
 :if ([:len [find where list=$AddressList and address=84.54.54.0/24]] = 0) do={ add list=$AddressList comment=ae address=84.54.54.0/24 }
@@ -64,6 +82,7 @@
 :if ([:len [find where list=$AddressList and address=89.125.106.96/27]] = 0) do={ add list=$AddressList comment=ae address=89.125.106.96/27 }
 :if ([:len [find where list=$AddressList and address=89.125.107.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.107.0/24 }
 :if ([:len [find where list=$AddressList and address=89.125.108.0/22]] = 0) do={ add list=$AddressList comment=ae address=89.125.108.0/22 }
+:if ([:len [find where list=$AddressList and address=89.125.125.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.125.0/24 }
 :if ([:len [find where list=$AddressList and address=89.125.127.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.127.0/24 }
 :if ([:len [find where list=$AddressList and address=89.125.128.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.128.0/24 }
 :if ([:len [find where list=$AddressList and address=89.125.136.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.136.0/24 }
@@ -107,8 +126,7 @@
 :if ([:len [find where list=$AddressList and address=89.125.252.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.252.0/24 }
 :if ([:len [find where list=$AddressList and address=89.125.254.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.254.0/24 }
 :if ([:len [find where list=$AddressList and address=89.125.36.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.36.0/24 }
-:if ([:len [find where list=$AddressList and address=89.125.40.0/23]] = 0) do={ add list=$AddressList comment=ae address=89.125.40.0/23 }
-:if ([:len [find where list=$AddressList and address=89.125.42.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.42.0/24 }
+:if ([:len [find where list=$AddressList and address=89.125.40.0/22]] = 0) do={ add list=$AddressList comment=ae address=89.125.40.0/22 }
 :if ([:len [find where list=$AddressList and address=89.125.48.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.48.0/24 }
 :if ([:len [find where list=$AddressList and address=89.125.58.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.58.0/24 }
 :if ([:len [find where list=$AddressList and address=89.125.70.0/23]] = 0) do={ add list=$AddressList comment=ae address=89.125.70.0/23 }
@@ -128,6 +146,7 @@
 :if ([:len [find where list=$AddressList and address=89.125.99.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.125.99.0/24 }
 :if ([:len [find where list=$AddressList and address=89.184.30.0/23]] = 0) do={ add list=$AddressList comment=ae address=89.184.30.0/23 }
 :if ([:len [find where list=$AddressList and address=89.19.46.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.19.46.0/24 }
+:if ([:len [find where list=$AddressList and address=89.19.49.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.19.49.0/24 }
 :if ([:len [find where list=$AddressList and address=89.19.50.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.19.50.0/24 }
 :if ([:len [find where list=$AddressList and address=89.213.226.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.213.226.0/24 }
 :if ([:len [find where list=$AddressList and address=89.222.117.0/24]] = 0) do={ add list=$AddressList comment=ae address=89.222.117.0/24 }
@@ -161,22 +180,3 @@
 :if ([:len [find where list=$AddressList and address=9.199.0.0/16]] = 0) do={ add list=$AddressList comment=ae address=9.199.0.0/16 }
 :if ([:len [find where list=$AddressList and address=9.246.198.0/23]] = 0) do={ add list=$AddressList comment=ae address=9.246.198.0/23 }
 :if ([:len [find where list=$AddressList and address=9.246.200.0/23]] = 0) do={ add list=$AddressList comment=ae address=9.246.200.0/23 }
-:if ([:len [find where list=$AddressList and address=9.247.10.0/24]] = 0) do={ add list=$AddressList comment=ae address=9.247.10.0/24 }
-:if ([:len [find where list=$AddressList and address=9.247.104.0/23]] = 0) do={ add list=$AddressList comment=ae address=9.247.104.0/23 }
-:if ([:len [find where list=$AddressList and address=9.247.106.0/24]] = 0) do={ add list=$AddressList comment=ae address=9.247.106.0/24 }
-:if ([:len [find where list=$AddressList and address=9.247.108.0/22]] = 0) do={ add list=$AddressList comment=ae address=9.247.108.0/22 }
-:if ([:len [find where list=$AddressList and address=9.247.113.0/24]] = 0) do={ add list=$AddressList comment=ae address=9.247.113.0/24 }
-:if ([:len [find where list=$AddressList and address=9.247.114.0/23]] = 0) do={ add list=$AddressList comment=ae address=9.247.114.0/23 }
-:if ([:len [find where list=$AddressList and address=9.247.116.0/22]] = 0) do={ add list=$AddressList comment=ae address=9.247.116.0/22 }
-:if ([:len [find where list=$AddressList and address=9.247.120.0/21]] = 0) do={ add list=$AddressList comment=ae address=9.247.120.0/21 }
-:if ([:len [find where list=$AddressList and address=9.247.128.0/21]] = 0) do={ add list=$AddressList comment=ae address=9.247.128.0/21 }
-:if ([:len [find where list=$AddressList and address=9.247.136.0/22]] = 0) do={ add list=$AddressList comment=ae address=9.247.136.0/22 }
-:if ([:len [find where list=$AddressList and address=9.247.140.0/23]] = 0) do={ add list=$AddressList comment=ae address=9.247.140.0/23 }
-:if ([:len [find where list=$AddressList and address=9.247.142.0/24]] = 0) do={ add list=$AddressList comment=ae address=9.247.142.0/24 }
-:if ([:len [find where list=$AddressList and address=9.247.144.0/20]] = 0) do={ add list=$AddressList comment=ae address=9.247.144.0/20 }
-:if ([:len [find where list=$AddressList and address=9.247.161.0/24]] = 0) do={ add list=$AddressList comment=ae address=9.247.161.0/24 }
-:if ([:len [find where list=$AddressList and address=9.247.162.0/23]] = 0) do={ add list=$AddressList comment=ae address=9.247.162.0/23 }
-:if ([:len [find where list=$AddressList and address=9.247.164.0/22]] = 0) do={ add list=$AddressList comment=ae address=9.247.164.0/22 }
-:if ([:len [find where list=$AddressList and address=9.247.168.0/21]] = 0) do={ add list=$AddressList comment=ae address=9.247.168.0/21 }
-:if ([:len [find where list=$AddressList and address=9.247.17.0/24]] = 0) do={ add list=$AddressList comment=ae address=9.247.17.0/24 }
-:if ([:len [find where list=$AddressList and address=9.247.176.0/23]] = 0) do={ add list=$AddressList comment=ae address=9.247.176.0/23 }

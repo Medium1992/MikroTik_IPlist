@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.91.125.223]] = 0) do={ add list=$AddressList comment=quora.com address=3.91.125.223 }
+:if ([:len [find where list=$AddressList and address=3.92.252.40]] = 0) do={ add list=$AddressList comment=quora.com address=3.92.252.40 }
+:if ([:len [find where list=$AddressList and address=3.93.103.92]] = 0) do={ add list=$AddressList comment=quora.com address=3.93.103.92 }
+:if ([:len [find where list=$AddressList and address=3.93.105.251]] = 0) do={ add list=$AddressList comment=quora.com address=3.93.105.251 }
 :if ([:len [find where list=$AddressList and address=3.93.251.28]] = 0) do={ add list=$AddressList comment=quora.com address=3.93.251.28 }
 :if ([:len [find where list=$AddressList and address=3.93.41.49]] = 0) do={ add list=$AddressList comment=quora.com address=3.93.41.49 }
 :if ([:len [find where list=$AddressList and address=3.94.1.133]] = 0) do={ add list=$AddressList comment=quora.com address=3.94.1.133 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=34.230.167.125]] = 0) do={ add list=$AddressList comment=quora.com address=34.230.167.125 }
 :if ([:len [find where list=$AddressList and address=34.230.252.215]] = 0) do={ add list=$AddressList comment=quora.com address=34.230.252.215 }
 :if ([:len [find where list=$AddressList and address=34.230.96.112]] = 0) do={ add list=$AddressList comment=quora.com address=34.230.96.112 }
-:if ([:len [find where list=$AddressList and address=34.231.139.10]] = 0) do={ add list=$AddressList comment=quora.com address=34.231.139.10 }
-:if ([:len [find where list=$AddressList and address=34.231.182.214]] = 0) do={ add list=$AddressList comment=quora.com address=34.231.182.214 }
-:if ([:len [find where list=$AddressList and address=34.231.228.21]] = 0) do={ add list=$AddressList comment=quora.com address=34.231.228.21 }
-:if ([:len [find where list=$AddressList and address=34.231.43.75]] = 0) do={ add list=$AddressList comment=quora.com address=34.231.43.75 }

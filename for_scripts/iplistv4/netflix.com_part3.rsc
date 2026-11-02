@@ -41,6 +41,7 @@
 :if ([:len [find where list=$AddressList and address=23.57.161.175]] = 0) do={ add list=$AddressList comment=netflix.com address=23.57.161.175 }
 :if ([:len [find where list=$AddressList and address=23.57.202.105]] = 0) do={ add list=$AddressList comment=netflix.com address=23.57.202.105 }
 :if ([:len [find where list=$AddressList and address=23.57.33.181]] = 0) do={ add list=$AddressList comment=netflix.com address=23.57.33.181 }
+:if ([:len [find where list=$AddressList and address=23.58.19.172]] = 0) do={ add list=$AddressList comment=netflix.com address=23.58.19.172 }
 :if ([:len [find where list=$AddressList and address=23.58.54.114]] = 0) do={ add list=$AddressList comment=netflix.com address=23.58.54.114 }
 :if ([:len [find where list=$AddressList and address=23.60.206.180]] = 0) do={ add list=$AddressList comment=netflix.com address=23.60.206.180 }
 :if ([:len [find where list=$AddressList and address=23.61.230.75]] = 0) do={ add list=$AddressList comment=netflix.com address=23.61.230.75 }
@@ -179,4 +180,3 @@
 :if ([:len [find where list=$AddressList and address=44.245.172.95]] = 0) do={ add list=$AddressList comment=netflix.com address=44.245.172.95 }
 :if ([:len [find where list=$AddressList and address=44.245.54.146]] = 0) do={ add list=$AddressList comment=netflix.com address=44.245.54.146 }
 :if ([:len [find where list=$AddressList and address=45.57.40.1]] = 0) do={ add list=$AddressList comment=netflix.com address=45.57.40.1 }
-:if ([:len [find where list=$AddressList and address=45.57.41.1]] = 0) do={ add list=$AddressList comment=netflix.com address=45.57.41.1 }

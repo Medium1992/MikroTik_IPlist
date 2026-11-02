@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=61.77.44.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=61.77.44.0/24 }
+:if ([:len [find where list=$AddressList and address=61.77.46.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=61.77.46.0/23 }
+:if ([:len [find where list=$AddressList and address=61.77.48.0/20]] = 0) do={ add list=$AddressList comment=AS4766 address=61.77.48.0/20 }
+:if ([:len [find where list=$AddressList and address=61.77.64.0/19]] = 0) do={ add list=$AddressList comment=AS4766 address=61.77.64.0/19 }
 :if ([:len [find where list=$AddressList and address=61.77.96.0/20]] = 0) do={ add list=$AddressList comment=AS4766 address=61.77.96.0/20 }
 :if ([:len [find where list=$AddressList and address=61.78.1.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=61.78.1.0/24 }
 :if ([:len [find where list=$AddressList and address=61.78.128.0/20]] = 0) do={ add list=$AddressList comment=AS4766 address=61.78.128.0/20 }
@@ -134,7 +138,6 @@
 :if ([:len [find where list=$AddressList and address=61.97.170.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=61.97.170.0/23 }
 :if ([:len [find where list=$AddressList and address=61.97.174.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=61.97.174.0/23 }
 :if ([:len [find where list=$AddressList and address=64.81.172.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=64.81.172.0/23 }
-:if ([:len [find where list=$AddressList and address=65.86.144.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=65.86.144.0/23 }
 :if ([:len [find where list=$AddressList and address=68.167.128.0/23]] = 0) do={ add list=$AddressList comment=AS4766 address=68.167.128.0/23 }
 :if ([:len [find where list=$AddressList and address=71.19.135.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=71.19.135.0/24 }
 :if ([:len [find where list=$AddressList and address=74.124.196.0/24]] = 0) do={ add list=$AddressList comment=AS4766 address=74.124.196.0/24 }

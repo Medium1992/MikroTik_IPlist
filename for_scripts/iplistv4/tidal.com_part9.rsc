@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.172.242.21]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.21 }
+:if ([:len [find where list=$AddressList and address=18.172.242.22]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.22 }
+:if ([:len [find where list=$AddressList and address=18.172.242.29]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.29 }
+:if ([:len [find where list=$AddressList and address=18.172.242.33]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.33 }
+:if ([:len [find where list=$AddressList and address=18.172.242.34]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.34 }
+:if ([:len [find where list=$AddressList and address=18.172.242.37]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.37 }
+:if ([:len [find where list=$AddressList and address=18.172.242.44]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.44 }
+:if ([:len [find where list=$AddressList and address=18.172.242.45]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.45 }
+:if ([:len [find where list=$AddressList and address=18.172.242.49]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.49 }
+:if ([:len [find where list=$AddressList and address=18.172.242.51]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.51 }
+:if ([:len [find where list=$AddressList and address=18.172.242.53]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.53 }
 :if ([:len [find where list=$AddressList and address=18.172.242.54]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.54 }
 :if ([:len [find where list=$AddressList and address=18.172.242.64]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.64 }
 :if ([:len [find where list=$AddressList and address=18.172.242.68]] = 0) do={ add list=$AddressList comment=tidal.com address=18.172.242.68 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.239.36.66]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.36.66 }
 :if ([:len [find where list=$AddressList and address=18.239.39.247]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.39.247 }
 :if ([:len [find where list=$AddressList and address=18.239.50.12]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.50.12 }
-:if ([:len [find where list=$AddressList and address=18.239.50.125]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.50.125 }
-:if ([:len [find where list=$AddressList and address=18.239.50.49]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.50.49 }
-:if ([:len [find where list=$AddressList and address=18.239.50.51]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.50.51 }
-:if ([:len [find where list=$AddressList and address=18.239.50.66]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.50.66 }
-:if ([:len [find where list=$AddressList and address=18.239.50.78]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.50.78 }
-:if ([:len [find where list=$AddressList and address=18.239.50.8]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.50.8 }
-:if ([:len [find where list=$AddressList and address=18.239.50.91]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.50.91 }
-:if ([:len [find where list=$AddressList and address=18.239.56.247]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.56.247 }
-:if ([:len [find where list=$AddressList and address=18.239.69.109]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.69.109 }
-:if ([:len [find where list=$AddressList and address=18.239.69.116]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.69.116 }
-:if ([:len [find where list=$AddressList and address=18.239.69.119]] = 0) do={ add list=$AddressList comment=tidal.com address=18.239.69.119 }

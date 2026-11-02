@@ -70,7 +70,6 @@
 :if ([:len [find where list=$AddressList and address=189.218.252.0/23]] = 0) do={ add list=$AddressList comment=AS11888 address=189.218.252.0/23 }
 :if ([:len [find where list=$AddressList and address=189.218.32.0/21]] = 0) do={ add list=$AddressList comment=AS11888 address=189.218.32.0/21 }
 :if ([:len [find where list=$AddressList and address=189.218.40.0/22]] = 0) do={ add list=$AddressList comment=AS11888 address=189.218.40.0/22 }
-:if ([:len [find where list=$AddressList and address=189.218.47.0/24]] = 0) do={ add list=$AddressList comment=AS11888 address=189.218.47.0/24 }
 :if ([:len [find where list=$AddressList and address=189.218.48.0/24]] = 0) do={ add list=$AddressList comment=AS11888 address=189.218.48.0/24 }
 :if ([:len [find where list=$AddressList and address=189.218.58.0/23]] = 0) do={ add list=$AddressList comment=AS11888 address=189.218.58.0/23 }
 :if ([:len [find where list=$AddressList and address=189.218.60.0/22]] = 0) do={ add list=$AddressList comment=AS11888 address=189.218.60.0/22 }
@@ -96,7 +95,6 @@
 :if ([:len [find where list=$AddressList and address=189.219.17.0/24]] = 0) do={ add list=$AddressList comment=AS11888 address=189.219.17.0/24 }
 :if ([:len [find where list=$AddressList and address=189.219.176.0/22]] = 0) do={ add list=$AddressList comment=AS11888 address=189.219.176.0/22 }
 :if ([:len [find where list=$AddressList and address=189.219.18.0/23]] = 0) do={ add list=$AddressList comment=AS11888 address=189.219.18.0/23 }
-:if ([:len [find where list=$AddressList and address=189.219.182.0/23]] = 0) do={ add list=$AddressList comment=AS11888 address=189.219.182.0/23 }
 :if ([:len [find where list=$AddressList and address=189.219.184.0/21]] = 0) do={ add list=$AddressList comment=AS11888 address=189.219.184.0/21 }
 :if ([:len [find where list=$AddressList and address=189.219.195.0/24]] = 0) do={ add list=$AddressList comment=AS11888 address=189.219.195.0/24 }
 :if ([:len [find where list=$AddressList and address=189.219.196.0/22]] = 0) do={ add list=$AddressList comment=AS11888 address=189.219.196.0/22 }

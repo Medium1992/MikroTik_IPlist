@@ -1,13 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.154/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.155/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.156/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.157/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.158/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.159/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.16/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.160/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.161/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.162/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.163/32 } on-error={}
@@ -250,3 +242,11 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.197/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.198/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.199/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.2/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.20/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.200/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.201/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.21/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.22/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.23/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.3.24/32 } on-error={}

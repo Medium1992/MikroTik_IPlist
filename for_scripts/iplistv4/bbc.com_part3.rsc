@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.226.244.102]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.102 }
+:if ([:len [find where list=$AddressList and address=13.226.244.108]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.108 }
+:if ([:len [find where list=$AddressList and address=13.226.244.114]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.114 }
+:if ([:len [find where list=$AddressList and address=13.226.244.115]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.115 }
 :if ([:len [find where list=$AddressList and address=13.226.244.117]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.117 }
 :if ([:len [find where list=$AddressList and address=13.226.244.22]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.22 }
 :if ([:len [find where list=$AddressList and address=13.226.244.30]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.30 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.35.190.2]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.190.2 }
 :if ([:len [find where list=$AddressList and address=13.35.190.23]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.190.23 }
 :if ([:len [find where list=$AddressList and address=13.35.190.26]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.190.26 }
-:if ([:len [find where list=$AddressList and address=13.35.190.49]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.190.49 }
-:if ([:len [find where list=$AddressList and address=13.35.194.227]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.194.227 }
-:if ([:len [find where list=$AddressList and address=13.35.220.34]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.220.34 }
-:if ([:len [find where list=$AddressList and address=13.35.238.124]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.238.124 }

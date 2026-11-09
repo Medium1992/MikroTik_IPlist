@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.203.239.116]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.239.116 }
+:if ([:len [find where list=$AddressList and address=18.203.38.1]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.38.1 }
+:if ([:len [find where list=$AddressList and address=18.203.41.168]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.41.168 }
+:if ([:len [find where list=$AddressList and address=18.203.77.101]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.77.101 }
 :if ([:len [find where list=$AddressList and address=18.203.86.183]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.86.183 }
 :if ([:len [find where list=$AddressList and address=18.203.90.224]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.90.224 }
 :if ([:len [find where list=$AddressList and address=18.238.238.105]] = 0) do={ add list=$AddressList comment=bbc.com address=18.238.238.105 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.65.14.123]] = 0) do={ add list=$AddressList comment=bbc.com address=18.65.14.123 }
 :if ([:len [find where list=$AddressList and address=18.65.14.65]] = 0) do={ add list=$AddressList comment=bbc.com address=18.65.14.65 }
 :if ([:len [find where list=$AddressList and address=18.65.14.91]] = 0) do={ add list=$AddressList comment=bbc.com address=18.65.14.91 }
-:if ([:len [find where list=$AddressList and address=18.65.229.102]] = 0) do={ add list=$AddressList comment=bbc.com address=18.65.229.102 }
-:if ([:len [find where list=$AddressList and address=18.65.229.126]] = 0) do={ add list=$AddressList comment=bbc.com address=18.65.229.126 }
-:if ([:len [find where list=$AddressList and address=18.65.229.28]] = 0) do={ add list=$AddressList comment=bbc.com address=18.65.229.28 }
-:if ([:len [find where list=$AddressList and address=18.65.229.9]] = 0) do={ add list=$AddressList comment=bbc.com address=18.65.229.9 }

@@ -10,6 +10,7 @@
 :if ([:len [find where list=$AddressList and address=164.37.202.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=164.37.202.0/24 }
 :if ([:len [find where list=$AddressList and address=164.40.185.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=164.40.185.0/24 }
 :if ([:len [find where list=$AddressList and address=167.148.163.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=167.148.163.0/24 }
+:if ([:len [find where list=$AddressList and address=177.201.223.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=177.201.223.0/24 }
 :if ([:len [find where list=$AddressList and address=181.214.21.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=181.214.21.0/24 }
 :if ([:len [find where list=$AddressList and address=185.131.207.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=185.131.207.0/24 }
 :if ([:len [find where list=$AddressList and address=194.60.89.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=194.60.89.0/24 }
@@ -24,6 +25,7 @@
 :if ([:len [find where list=$AddressList and address=45.153.164.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=45.153.164.0/24 }
 :if ([:len [find where list=$AddressList and address=45.66.151.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=45.66.151.0/24 }
 :if ([:len [find where list=$AddressList and address=82.47.216.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=82.47.216.0/24 }
+:if ([:len [find where list=$AddressList and address=84.75.11.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=84.75.11.0/24 }
 :if ([:len [find where list=$AddressList and address=86.110.47.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=86.110.47.0/24 }
 :if ([:len [find where list=$AddressList and address=89.106.15.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=89.106.15.0/24 }
 :if ([:len [find where list=$AddressList and address=95.135.135.0/24]] = 0) do={ add list=$AddressList comment=AS393942 address=95.135.135.0/24 }

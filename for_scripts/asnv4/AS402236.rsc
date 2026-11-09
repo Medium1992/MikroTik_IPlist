@@ -13,6 +13,7 @@
 :if ([:len [find where list=$AddressList and address=152.89.193.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=152.89.193.0/24 }
 :if ([:len [find where list=$AddressList and address=157.254.180.0/23]] = 0) do={ add list=$AddressList comment=AS402236 address=157.254.180.0/23 }
 :if ([:len [find where list=$AddressList and address=162.213.3.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=162.213.3.0/24 }
+:if ([:len [find where list=$AddressList and address=167.253.22.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=167.253.22.0/24 }
 :if ([:len [find where list=$AddressList and address=172.111.58.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=172.111.58.0/24 }
 :if ([:len [find where list=$AddressList and address=185.101.105.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=185.101.105.0/24 }
 :if ([:len [find where list=$AddressList and address=192.208.4.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=192.208.4.0/24 }
@@ -38,6 +39,7 @@
 :if ([:len [find where list=$AddressList and address=46.203.177.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=46.203.177.0/24 }
 :if ([:len [find where list=$AddressList and address=46.203.179.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=46.203.179.0/24 }
 :if ([:len [find where list=$AddressList and address=46.34.37.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=46.34.37.0/24 }
+:if ([:len [find where list=$AddressList and address=5.182.114.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=5.182.114.0/24 }
 :if ([:len [find where list=$AddressList and address=62.72.190.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=62.72.190.0/24 }
 :if ([:len [find where list=$AddressList and address=65.110.44.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=65.110.44.0/24 }
 :if ([:len [find where list=$AddressList and address=65.87.9.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=65.87.9.0/24 }

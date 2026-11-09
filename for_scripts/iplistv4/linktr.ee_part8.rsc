@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.85.47.11]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.47.11 }
+:if ([:len [find where list=$AddressList and address=52.85.47.55]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.47.55 }
+:if ([:len [find where list=$AddressList and address=52.85.47.88]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.47.88 }
+:if ([:len [find where list=$AddressList and address=52.85.49.13]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.49.13 }
 :if ([:len [find where list=$AddressList and address=52.85.49.21]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.49.21 }
 :if ([:len [find where list=$AddressList and address=52.85.49.24]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.49.24 }
 :if ([:len [find where list=$AddressList and address=52.85.49.31]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.49.31 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=99.86.171.33]] = 0) do={ add list=$AddressList comment=linktr.ee address=99.86.171.33 }
 :if ([:len [find where list=$AddressList and address=99.86.171.96]] = 0) do={ add list=$AddressList comment=linktr.ee address=99.86.171.96 }
 :if ([:len [find where list=$AddressList and address=99.86.229.111]] = 0) do={ add list=$AddressList comment=linktr.ee address=99.86.229.111 }
-:if ([:len [find where list=$AddressList and address=99.86.229.113]] = 0) do={ add list=$AddressList comment=linktr.ee address=99.86.229.113 }
-:if ([:len [find where list=$AddressList and address=99.86.229.120]] = 0) do={ add list=$AddressList comment=linktr.ee address=99.86.229.120 }
-:if ([:len [find where list=$AddressList and address=99.86.229.68]] = 0) do={ add list=$AddressList comment=linktr.ee address=99.86.229.68 }
-:if ([:len [find where list=$AddressList and address=99.86.240.11]] = 0) do={ add list=$AddressList comment=linktr.ee address=99.86.240.11 }

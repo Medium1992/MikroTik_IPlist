@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=65.9.95.51]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.95.51 }
+:if ([:len [find where list=$AddressList and address=65.9.95.55]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.95.55 }
+:if ([:len [find where list=$AddressList and address=65.9.95.83]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.95.83 }
+:if ([:len [find where list=$AddressList and address=65.9.95.85]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.95.85 }
+:if ([:len [find where list=$AddressList and address=65.9.95.87]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.95.87 }
+:if ([:len [find where list=$AddressList and address=65.9.95.90]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=65.9.95.90 }
+:if ([:len [find where list=$AddressList and address=76.223.63.197]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=76.223.63.197 }
+:if ([:len [find where list=$AddressList and address=79.125.35.123]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=79.125.35.123 }
+:if ([:len [find where list=$AddressList and address=79.125.86.2]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=79.125.86.2 }
+:if ([:len [find where list=$AddressList and address=99.80.10.238]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=99.80.10.238 }
 :if ([:len [find where list=$AddressList and address=99.80.126.209]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=99.80.126.209 }
 :if ([:len [find where list=$AddressList and address=99.80.141.124]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=99.80.141.124 }
 :if ([:len [find where list=$AddressList and address=99.80.178.128]] = 0) do={ add list=$AddressList comment=jetbrains%40grazie.ai address=99.80.178.128 }

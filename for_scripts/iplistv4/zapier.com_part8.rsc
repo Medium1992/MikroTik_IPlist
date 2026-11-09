@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.160.150.67]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.67 }
+:if ([:len [find where list=$AddressList and address=3.160.150.84]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.84 }
+:if ([:len [find where list=$AddressList and address=3.160.150.9]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.9 }
+:if ([:len [find where list=$AddressList and address=3.160.188.117]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.188.117 }
 :if ([:len [find where list=$AddressList and address=3.160.188.14]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.188.14 }
 :if ([:len [find where list=$AddressList and address=3.160.188.49]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.188.49 }
 :if ([:len [find where list=$AddressList and address=3.160.188.72]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.188.72 }
@@ -53,6 +57,10 @@
 :if ([:len [find where list=$AddressList and address=3.161.119.78]] = 0) do={ add list=$AddressList comment=zapier.com address=3.161.119.78 }
 :if ([:len [find where list=$AddressList and address=3.161.119.87]] = 0) do={ add list=$AddressList comment=zapier.com address=3.161.119.87 }
 :if ([:len [find where list=$AddressList and address=3.161.119.95]] = 0) do={ add list=$AddressList comment=zapier.com address=3.161.119.95 }
+:if ([:len [find where list=$AddressList and address=3.161.150.105]] = 0) do={ add list=$AddressList comment=zapier.com address=3.161.150.105 }
+:if ([:len [find where list=$AddressList and address=3.161.150.42]] = 0) do={ add list=$AddressList comment=zapier.com address=3.161.150.42 }
+:if ([:len [find where list=$AddressList and address=3.161.150.5]] = 0) do={ add list=$AddressList comment=zapier.com address=3.161.150.5 }
+:if ([:len [find where list=$AddressList and address=3.161.150.67]] = 0) do={ add list=$AddressList comment=zapier.com address=3.161.150.67 }
 :if ([:len [find where list=$AddressList and address=3.161.82.108]] = 0) do={ add list=$AddressList comment=zapier.com address=3.161.82.108 }
 :if ([:len [find where list=$AddressList and address=3.161.82.123]] = 0) do={ add list=$AddressList comment=zapier.com address=3.161.82.123 }
 :if ([:len [find where list=$AddressList and address=3.161.82.2]] = 0) do={ add list=$AddressList comment=zapier.com address=3.161.82.2 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.164.85.83]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.83 }
 :if ([:len [find where list=$AddressList and address=3.165.113.101]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.113.101 }
 :if ([:len [find where list=$AddressList and address=3.165.113.57]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.113.57 }
-:if ([:len [find where list=$AddressList and address=3.165.113.63]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.113.63 }
-:if ([:len [find where list=$AddressList and address=3.165.113.83]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.113.83 }
-:if ([:len [find where list=$AddressList and address=3.165.148.33]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.148.33 }
-:if ([:len [find where list=$AddressList and address=3.165.148.53]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.148.53 }
-:if ([:len [find where list=$AddressList and address=3.165.148.77]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.148.77 }
-:if ([:len [find where list=$AddressList and address=3.165.148.79]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.148.79 }
-:if ([:len [find where list=$AddressList and address=3.165.190.102]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.190.102 }
-:if ([:len [find where list=$AddressList and address=3.165.190.107]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.190.107 }

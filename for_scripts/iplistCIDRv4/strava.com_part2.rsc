@@ -130,6 +130,7 @@
 :if ([:len [find where list=$AddressList and address=54.226.203.176/32]] = 0) do={ add list=$AddressList comment=strava.com address=54.226.203.176/32 }
 :if ([:len [find where list=$AddressList and address=54.230.0.0/16]] = 0) do={ add list=$AddressList comment=strava.com address=54.230.0.0/16 }
 :if ([:len [find where list=$AddressList and address=54.234.193.235/32]] = 0) do={ add list=$AddressList comment=strava.com address=54.234.193.235/32 }
+:if ([:len [find where list=$AddressList and address=54.236.177.97/32]] = 0) do={ add list=$AddressList comment=strava.com address=54.236.177.97/32 }
 :if ([:len [find where list=$AddressList and address=54.237.193.19/32]] = 0) do={ add list=$AddressList comment=strava.com address=54.237.193.19/32 }
 :if ([:len [find where list=$AddressList and address=54.239.0.0/16]] = 0) do={ add list=$AddressList comment=strava.com address=54.239.0.0/16 }
 :if ([:len [find where list=$AddressList and address=54.240.0.0/16]] = 0) do={ add list=$AddressList comment=strava.com address=54.240.0.0/16 }

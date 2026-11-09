@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=23.61.251.12]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.61.251.12 }
+:if ([:len [find where list=$AddressList and address=23.61.251.8]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.61.251.8 }
+:if ([:len [find where list=$AddressList and address=23.63.84.187]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.63.84.187 }
+:if ([:len [find where list=$AddressList and address=23.63.84.194]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.63.84.194 }
+:if ([:len [find where list=$AddressList and address=23.63.84.200]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.63.84.200 }
+:if ([:len [find where list=$AddressList and address=23.63.84.203]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.63.84.203 }
+:if ([:len [find where list=$AddressList and address=23.63.84.225]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.63.84.225 }
 :if ([:len [find where list=$AddressList and address=23.64.115.196]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.64.115.196 }
 :if ([:len [find where list=$AddressList and address=23.64.115.202]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.64.115.202 }
 :if ([:len [find where list=$AddressList and address=23.64.115.211]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.64.115.211 }
@@ -25,6 +32,7 @@
 :if ([:len [find where list=$AddressList and address=23.65.124.79]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.65.124.79 }
 :if ([:len [find where list=$AddressList and address=23.72.139.18]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.72.139.18 }
 :if ([:len [find where list=$AddressList and address=23.72.139.27]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.72.139.27 }
+:if ([:len [find where list=$AddressList and address=23.72.248.196]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.72.248.196 }
 :if ([:len [find where list=$AddressList and address=23.72.251.9]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.72.251.9 }
 :if ([:len [find where list=$AddressList and address=23.72.36.209]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.72.36.209 }
 :if ([:len [find where list=$AddressList and address=23.72.36.216]] = 0) do={ add list=$AddressList comment=svoboda.org address=23.72.36.216 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.166.81.99]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.166.81.99 }
 :if ([:len [find where list=$AddressList and address=3.167.19.109]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.167.19.109 }
 :if ([:len [find where list=$AddressList and address=3.167.19.46]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.167.19.46 }
-:if ([:len [find where list=$AddressList and address=3.167.19.60]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.167.19.60 }
-:if ([:len [find where list=$AddressList and address=3.167.19.66]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.167.19.66 }
-:if ([:len [find where list=$AddressList and address=3.167.227.21]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.167.227.21 }
-:if ([:len [find where list=$AddressList and address=3.167.227.26]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.167.227.26 }
-:if ([:len [find where list=$AddressList and address=3.167.227.28]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.167.227.28 }
-:if ([:len [find where list=$AddressList and address=3.167.227.3]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.167.227.3 }
-:if ([:len [find where list=$AddressList and address=3.167.227.7]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.167.227.7 }
-:if ([:len [find where list=$AddressList and address=3.167.227.88]] = 0) do={ add list=$AddressList comment=svoboda.org address=3.167.227.88 }

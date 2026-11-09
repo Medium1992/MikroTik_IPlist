@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=108.138.48.156]] = 0) do={ add list=$AddressList comment=bbc.com address=108.138.48.156 }
+:if ([:len [find where list=$AddressList and address=108.138.48.56]] = 0) do={ add list=$AddressList comment=bbc.com address=108.138.48.56 }
+:if ([:len [find where list=$AddressList and address=108.138.51.110]] = 0) do={ add list=$AddressList comment=bbc.com address=108.138.51.110 }
+:if ([:len [find where list=$AddressList and address=108.138.51.122]] = 0) do={ add list=$AddressList comment=bbc.com address=108.138.51.122 }
 :if ([:len [find where list=$AddressList and address=108.138.51.127]] = 0) do={ add list=$AddressList comment=bbc.com address=108.138.51.127 }
 :if ([:len [find where list=$AddressList and address=108.138.51.17]] = 0) do={ add list=$AddressList comment=bbc.com address=108.138.51.17 }
 :if ([:len [find where list=$AddressList and address=108.138.51.5]] = 0) do={ add list=$AddressList comment=bbc.com address=108.138.51.5 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.226.155.99]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.155.99 }
 :if ([:len [find where list=$AddressList and address=13.226.161.222]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.161.222 }
 :if ([:len [find where list=$AddressList and address=13.226.168.116]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.168.116 }
-:if ([:len [find where list=$AddressList and address=13.226.244.102]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.102 }
-:if ([:len [find where list=$AddressList and address=13.226.244.108]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.108 }
-:if ([:len [find where list=$AddressList and address=13.226.244.114]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.114 }
-:if ([:len [find where list=$AddressList and address=13.226.244.115]] = 0) do={ add list=$AddressList comment=bbc.com address=13.226.244.115 }

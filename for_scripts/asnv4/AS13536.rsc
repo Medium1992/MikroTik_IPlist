@@ -16,6 +16,7 @@
 :if ([:len [find where list=$AddressList and address=143.66.0.0/15]] = 0) do={ add list=$AddressList comment=AS13536 address=143.66.0.0/15 }
 :if ([:len [find where list=$AddressList and address=150.155.0.0/16]] = 0) do={ add list=$AddressList comment=AS13536 address=150.155.0.0/16 }
 :if ([:len [find where list=$AddressList and address=167.150.16.0/24]] = 0) do={ add list=$AddressList comment=AS13536 address=167.150.16.0/24 }
+:if ([:len [find where list=$AddressList and address=167.244.244.0/24]] = 0) do={ add list=$AddressList comment=AS13536 address=167.244.244.0/24 }
 :if ([:len [find where list=$AddressList and address=173.243.160.0/20]] = 0) do={ add list=$AddressList comment=AS13536 address=173.243.160.0/20 }
 :if ([:len [find where list=$AddressList and address=192.103.144.0/24]] = 0) do={ add list=$AddressList comment=AS13536 address=192.103.144.0/24 }
 :if ([:len [find where list=$AddressList and address=192.149.109.0/24]] = 0) do={ add list=$AddressList comment=AS13536 address=192.149.109.0/24 }
@@ -88,6 +89,7 @@
 :if ([:len [find where list=$AddressList and address=67.217.120.0/22]] = 0) do={ add list=$AddressList comment=AS13536 address=67.217.120.0/22 }
 :if ([:len [find where list=$AddressList and address=68.70.53.0/24]] = 0) do={ add list=$AddressList comment=AS13536 address=68.70.53.0/24 }
 :if ([:len [find where list=$AddressList and address=68.70.58.0/24]] = 0) do={ add list=$AddressList comment=AS13536 address=68.70.58.0/24 }
+:if ([:len [find where list=$AddressList and address=69.24.0.0/20]] = 0) do={ add list=$AddressList comment=AS13536 address=69.24.0.0/20 }
 :if ([:len [find where list=$AddressList and address=72.0.128.0/19]] = 0) do={ add list=$AddressList comment=AS13536 address=72.0.128.0/19 }
 :if ([:len [find where list=$AddressList and address=72.12.83.0/24]] = 0) do={ add list=$AddressList comment=AS13536 address=72.12.83.0/24 }
 :if ([:len [find where list=$AddressList and address=72.15.1.0/24]] = 0) do={ add list=$AddressList comment=AS13536 address=72.15.1.0/24 }

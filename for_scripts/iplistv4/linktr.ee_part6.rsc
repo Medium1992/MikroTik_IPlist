@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.160.212.100]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.212.100 }
+:if ([:len [find where list=$AddressList and address=3.160.212.17]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.212.17 }
+:if ([:len [find where list=$AddressList and address=3.160.212.27]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.212.27 }
+:if ([:len [find where list=$AddressList and address=3.160.212.3]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.212.3 }
 :if ([:len [find where list=$AddressList and address=3.160.212.31]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.212.31 }
 :if ([:len [find where list=$AddressList and address=3.160.212.32]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.212.32 }
 :if ([:len [find where list=$AddressList and address=3.160.212.52]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.160.212.52 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.165.232.106]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.106 }
 :if ([:len [find where list=$AddressList and address=3.165.232.110]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.110 }
 :if ([:len [find where list=$AddressList and address=3.165.232.21]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.21 }
-:if ([:len [find where list=$AddressList and address=3.165.232.30]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.30 }
-:if ([:len [find where list=$AddressList and address=3.165.232.48]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.48 }
-:if ([:len [find where list=$AddressList and address=3.165.232.79]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.79 }
-:if ([:len [find where list=$AddressList and address=3.165.232.82]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.82 }

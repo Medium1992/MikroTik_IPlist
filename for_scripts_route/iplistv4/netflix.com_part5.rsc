@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=23.57.161.175 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.57.161.175 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
+:if ([:len [/ip/route/find dst-address=23.57.202.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.57.202.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
 :if ([:len [/ip/route/find dst-address=23.57.33.181 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.57.33.181 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
 :if ([:len [/ip/route/find dst-address=23.58.19.172 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.58.19.172 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
 :if ([:len [/ip/route/find dst-address=23.58.54.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.58.54.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=35.163.21.50 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.163.21.50 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
 :if ([:len [/ip/route/find dst-address=35.165.30.1 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.165.30.1 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
 :if ([:len [/ip/route/find dst-address=35.165.63.51 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.165.63.51 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
-:if ([:len [/ip/route/find dst-address=35.168.39.97 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.168.39.97 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }
-:if ([:len [/ip/route/find dst-address=35.169.10.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=35.169.10.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=netflix.com }

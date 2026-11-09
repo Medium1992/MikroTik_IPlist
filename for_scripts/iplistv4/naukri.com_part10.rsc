@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.139.216.147]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.216.147 }
+:if ([:len [find where list=$AddressList and address=18.139.218.54]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.218.54 }
+:if ([:len [find where list=$AddressList and address=18.139.234.134]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.234.134 }
+:if ([:len [find where list=$AddressList and address=18.139.25.71]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.25.71 }
+:if ([:len [find where list=$AddressList and address=18.139.35.39]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.35.39 }
+:if ([:len [find where list=$AddressList and address=18.139.37.155]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.37.155 }
+:if ([:len [find where list=$AddressList and address=18.139.40.154]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.40.154 }
+:if ([:len [find where list=$AddressList and address=18.139.40.168]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.40.168 }
+:if ([:len [find where list=$AddressList and address=18.139.42.178]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.42.178 }
+:if ([:len [find where list=$AddressList and address=18.139.44.187]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.44.187 }
 :if ([:len [find where list=$AddressList and address=18.139.5.173]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.5.173 }
 :if ([:len [find where list=$AddressList and address=18.139.50.223]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.50.223 }
 :if ([:len [find where list=$AddressList and address=18.139.55.204]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.55.204 }
@@ -8,6 +18,7 @@
 :if ([:len [find where list=$AddressList and address=18.139.91.66]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.91.66 }
 :if ([:len [find where list=$AddressList and address=18.139.92.63]] = 0) do={ add list=$AddressList comment=naukri.com address=18.139.92.63 }
 :if ([:len [find where list=$AddressList and address=18.140.103.199]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.103.199 }
+:if ([:len [find where list=$AddressList and address=18.140.105.247]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.105.247 }
 :if ([:len [find where list=$AddressList and address=18.140.108.117]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.108.117 }
 :if ([:len [find where list=$AddressList and address=18.140.126.27]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.126.27 }
 :if ([:len [find where list=$AddressList and address=18.140.127.224]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.127.224 }
@@ -33,6 +44,7 @@
 :if ([:len [find where list=$AddressList and address=18.140.255.63]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.255.63 }
 :if ([:len [find where list=$AddressList and address=18.140.26.230]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.26.230 }
 :if ([:len [find where list=$AddressList and address=18.140.73.177]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.73.177 }
+:if ([:len [find where list=$AddressList and address=18.140.8.231]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.8.231 }
 :if ([:len [find where list=$AddressList and address=18.140.83.195]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.83.195 }
 :if ([:len [find where list=$AddressList and address=18.140.88.136]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.88.136 }
 :if ([:len [find where list=$AddressList and address=18.140.89.125]] = 0) do={ add list=$AddressList comment=naukri.com address=18.140.89.125 }
@@ -168,15 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.155.145.66]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.145.66 }
 :if ([:len [find where list=$AddressList and address=18.155.153.114]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.114 }
 :if ([:len [find where list=$AddressList and address=18.155.153.124]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.124 }
-:if ([:len [find where list=$AddressList and address=18.155.153.125]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.125 }
-:if ([:len [find where list=$AddressList and address=18.155.153.2]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.2 }
-:if ([:len [find where list=$AddressList and address=18.155.153.27]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.27 }
-:if ([:len [find where list=$AddressList and address=18.155.153.4]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.4 }
-:if ([:len [find where list=$AddressList and address=18.155.153.40]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.40 }
-:if ([:len [find where list=$AddressList and address=18.155.153.56]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.56 }
-:if ([:len [find where list=$AddressList and address=18.155.153.72]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.72 }
-:if ([:len [find where list=$AddressList and address=18.155.153.87]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.87 }
-:if ([:len [find where list=$AddressList and address=18.155.153.91]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.153.91 }
-:if ([:len [find where list=$AddressList and address=18.155.252.17]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.252.17 }
-:if ([:len [find where list=$AddressList and address=18.155.252.38]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.252.38 }
-:if ([:len [find where list=$AddressList and address=18.155.252.54]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.252.54 }

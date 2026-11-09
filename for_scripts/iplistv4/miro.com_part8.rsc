@@ -1,5 +1,15 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.172.185.18]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.185.18 }
+:if ([:len [find where list=$AddressList and address=18.172.185.66]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.185.66 }
+:if ([:len [find where list=$AddressList and address=18.172.185.71]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.185.71 }
+:if ([:len [find where list=$AddressList and address=18.172.213.100]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.213.100 }
+:if ([:len [find where list=$AddressList and address=18.172.213.109]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.213.109 }
+:if ([:len [find where list=$AddressList and address=18.172.213.11]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.213.11 }
+:if ([:len [find where list=$AddressList and address=18.172.213.117]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.213.117 }
+:if ([:len [find where list=$AddressList and address=18.172.213.121]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.213.121 }
+:if ([:len [find where list=$AddressList and address=18.172.213.125]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.213.125 }
+:if ([:len [find where list=$AddressList and address=18.172.213.129]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.213.129 }
 :if ([:len [find where list=$AddressList and address=18.172.213.15]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.213.15 }
 :if ([:len [find where list=$AddressList and address=18.172.213.2]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.213.2 }
 :if ([:len [find where list=$AddressList and address=18.172.213.43]] = 0) do={ add list=$AddressList comment=miro.com address=18.172.213.43 }
@@ -169,14 +179,4 @@
 :if ([:len [find where list=$AddressList and address=18.203.125.209]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.125.209 }
 :if ([:len [find where list=$AddressList and address=18.203.168.128]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.168.128 }
 :if ([:len [find where list=$AddressList and address=18.203.17.155]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.17.155 }
-:if ([:len [find where list=$AddressList and address=18.203.189.98]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.189.98 }
-:if ([:len [find where list=$AddressList and address=18.203.210.135]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.210.135 }
-:if ([:len [find where list=$AddressList and address=18.203.229.24]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.229.24 }
-:if ([:len [find where list=$AddressList and address=18.203.29.55]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.29.55 }
-:if ([:len [find where list=$AddressList and address=18.203.30.131]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.30.131 }
-:if ([:len [find where list=$AddressList and address=18.203.4.98]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.4.98 }
-:if ([:len [find where list=$AddressList and address=18.203.40.113]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.40.113 }
-:if ([:len [find where list=$AddressList and address=18.203.42.157]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.42.157 }
-:if ([:len [find where list=$AddressList and address=18.203.62.89]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.62.89 }
-:if ([:len [find where list=$AddressList and address=18.203.73.63]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.73.63 }
-:if ([:len [find where list=$AddressList and address=18.203.96.131]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.96.131 }
+:if ([:len [find where list=$AddressList and address=18.203.176.115]] = 0) do={ add list=$AddressList comment=miro.com address=18.203.176.115 }

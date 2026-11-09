@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=23.199.232.73]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.232.73 }
+:if ([:len [find where list=$AddressList and address=23.199.232.90]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.232.90 }
+:if ([:len [find where list=$AddressList and address=23.199.47.75]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.47.75 }
+:if ([:len [find where list=$AddressList and address=23.199.47.91]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.47.91 }
 :if ([:len [find where list=$AddressList and address=23.199.56.159]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.56.159 }
 :if ([:len [find where list=$AddressList and address=23.199.56.169]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.56.169 }
 :if ([:len [find where list=$AddressList and address=23.199.75.120]] = 0) do={ add list=$AddressList comment=krymr.com address=23.199.75.120 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=23.215.13.65]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.13.65 }
 :if ([:len [find where list=$AddressList and address=23.215.13.73]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.13.73 }
 :if ([:len [find where list=$AddressList and address=23.215.2.198]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.2.198 }
-:if ([:len [find where list=$AddressList and address=23.215.2.209]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.2.209 }
-:if ([:len [find where list=$AddressList and address=23.215.212.14]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.212.14 }
-:if ([:len [find where list=$AddressList and address=23.215.212.15]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.212.15 }
-:if ([:len [find where list=$AddressList and address=23.215.242.100]] = 0) do={ add list=$AddressList comment=krymr.com address=23.215.242.100 }

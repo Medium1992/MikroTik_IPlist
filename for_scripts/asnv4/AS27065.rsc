@@ -7,6 +7,7 @@
 :if ([:len [find where list=$AddressList and address=139.241.15.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=139.241.15.0/24 }
 :if ([:len [find where list=$AddressList and address=139.241.219.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=139.241.219.0/24 }
 :if ([:len [find where list=$AddressList and address=139.241.224.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=139.241.224.0/24 }
+:if ([:len [find where list=$AddressList and address=139.241.237.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=139.241.237.0/24 }
 :if ([:len [find where list=$AddressList and address=139.241.7.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=139.241.7.0/24 }
 :if ([:len [find where list=$AddressList and address=139.241.84.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=139.241.84.0/24 }
 :if ([:len [find where list=$AddressList and address=139.242.125.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=139.242.125.0/24 }
@@ -24,6 +25,7 @@
 :if ([:len [find where list=$AddressList and address=159.77.13.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=159.77.13.0/24 }
 :if ([:len [find where list=$AddressList and address=159.77.138.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=159.77.138.0/24 }
 :if ([:len [find where list=$AddressList and address=159.77.148.0/23]] = 0) do={ add list=$AddressList comment=AS27065 address=159.77.148.0/23 }
+:if ([:len [find where list=$AddressList and address=159.77.200.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=159.77.200.0/24 }
 :if ([:len [find where list=$AddressList and address=159.77.202.0/23]] = 0) do={ add list=$AddressList comment=AS27065 address=159.77.202.0/23 }
 :if ([:len [find where list=$AddressList and address=159.77.9.0/24]] = 0) do={ add list=$AddressList comment=AS27065 address=159.77.9.0/24 }
 :if ([:len [find where list=$AddressList and address=199.31.136.0/23]] = 0) do={ add list=$AddressList comment=AS27065 address=199.31.136.0/23 }

@@ -41,6 +41,7 @@
 :if ([:len [find where list=$AddressList and address=188.114.98.228]] = 0) do={ add list=$AddressList comment=deepl.com address=188.114.98.228 }
 :if ([:len [find where list=$AddressList and address=188.114.99.228]] = 0) do={ add list=$AddressList comment=deepl.com address=188.114.99.228 }
 :if ([:len [find where list=$AddressList and address=194.124.204.71]] = 0) do={ add list=$AddressList comment=deepl.com address=194.124.204.71 }
+:if ([:len [find where list=$AddressList and address=194.124.204.77]] = 0) do={ add list=$AddressList comment=deepl.com address=194.124.204.77 }
 :if ([:len [find where list=$AddressList and address=194.124.205.65]] = 0) do={ add list=$AddressList comment=deepl.com address=194.124.205.65 }
 :if ([:len [find where list=$AddressList and address=199.60.103.225]] = 0) do={ add list=$AddressList comment=deepl.com address=199.60.103.225 }
 :if ([:len [find where list=$AddressList and address=199.60.103.31]] = 0) do={ add list=$AddressList comment=deepl.com address=199.60.103.31 }
@@ -179,4 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.224.61.50]] = 0) do={ add list=$AddressList comment=deepl.com address=3.224.61.50 }
 :if ([:len [find where list=$AddressList and address=3.224.62.62]] = 0) do={ add list=$AddressList comment=deepl.com address=3.224.62.62 }
 :if ([:len [find where list=$AddressList and address=3.224.70.252]] = 0) do={ add list=$AddressList comment=deepl.com address=3.224.70.252 }
-:if ([:len [find where list=$AddressList and address=3.224.73.89]] = 0) do={ add list=$AddressList comment=deepl.com address=3.224.73.89 }

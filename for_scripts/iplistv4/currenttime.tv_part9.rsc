@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=2.19.51.37]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.19.51.37 }
+:if ([:len [find where list=$AddressList and address=2.19.51.39]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.19.51.39 }
+:if ([:len [find where list=$AddressList and address=2.19.51.45]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.19.51.45 }
+:if ([:len [find where list=$AddressList and address=2.19.51.47]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.19.51.47 }
 :if ([:len [find where list=$AddressList and address=2.19.51.52]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.19.51.52 }
 :if ([:len [find where list=$AddressList and address=2.19.51.54]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.19.51.54 }
 :if ([:len [find where list=$AddressList and address=2.19.51.55]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.19.51.55 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.21.22.139]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.21.22.139 }
 :if ([:len [find where list=$AddressList and address=2.21.22.144]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.21.22.144 }
 :if ([:len [find where list=$AddressList and address=2.21.22.145]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.21.22.145 }
-:if ([:len [find where list=$AddressList and address=2.21.22.201]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.21.22.201 }
-:if ([:len [find where list=$AddressList and address=2.21.22.211]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.21.22.211 }
-:if ([:len [find where list=$AddressList and address=2.21.22.40]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.21.22.40 }
-:if ([:len [find where list=$AddressList and address=2.21.22.43]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.21.22.43 }

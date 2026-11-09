@@ -70,6 +70,7 @@
 :if ([:len [find where list=$AddressList and address=79.127.213.0/24]] = 0) do={ add list=$AddressList comment=themoviedb.org address=79.127.213.0/24 }
 :if ([:len [find where list=$AddressList and address=79.127.216.0/24]] = 0) do={ add list=$AddressList comment=themoviedb.org address=79.127.216.0/24 }
 :if ([:len [find where list=$AddressList and address=84.17.38.0/23]] = 0) do={ add list=$AddressList comment=themoviedb.org address=84.17.38.0/23 }
+:if ([:len [find where list=$AddressList and address=84.17.46.48/28]] = 0) do={ add list=$AddressList comment=themoviedb.org address=84.17.46.48/28 }
 :if ([:len [find where list=$AddressList and address=84.17.59.112/28]] = 0) do={ add list=$AddressList comment=themoviedb.org address=84.17.59.112/28 }
 :if ([:len [find where list=$AddressList and address=89.187.165.192/28]] = 0) do={ add list=$AddressList comment=themoviedb.org address=89.187.165.192/28 }
 :if ([:len [find where list=$AddressList and address=89.187.169.0/24]] = 0) do={ add list=$AddressList comment=themoviedb.org address=89.187.169.0/24 }

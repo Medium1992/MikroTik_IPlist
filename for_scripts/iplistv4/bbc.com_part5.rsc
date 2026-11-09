@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.140.22]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.22 }
+:if ([:len [find where list=$AddressList and address=18.165.140.28]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.28 }
+:if ([:len [find where list=$AddressList and address=18.165.140.61]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.61 }
+:if ([:len [find where list=$AddressList and address=18.165.140.75]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.75 }
 :if ([:len [find where list=$AddressList and address=18.165.145.102]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.145.102 }
 :if ([:len [find where list=$AddressList and address=18.165.146.189]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.146.189 }
 :if ([:len [find where list=$AddressList and address=18.165.157.18]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.157.18 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.203.201.159]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.201.159 }
 :if ([:len [find where list=$AddressList and address=18.203.204.71]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.204.71 }
 :if ([:len [find where list=$AddressList and address=18.203.217.54]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.217.54 }
-:if ([:len [find where list=$AddressList and address=18.203.239.116]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.239.116 }
-:if ([:len [find where list=$AddressList and address=18.203.38.1]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.38.1 }
-:if ([:len [find where list=$AddressList and address=18.203.41.168]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.41.168 }
-:if ([:len [find where list=$AddressList and address=18.203.77.101]] = 0) do={ add list=$AddressList comment=bbc.com address=18.203.77.101 }

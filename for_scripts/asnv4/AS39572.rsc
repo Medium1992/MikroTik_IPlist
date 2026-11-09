@@ -3,6 +3,7 @@
 :if ([:len [find where list=$AddressList and address=176.119.128.0/24]] = 0) do={ add list=$AddressList comment=AS39572 address=176.119.128.0/24 }
 :if ([:len [find where list=$AddressList and address=176.119.130.0/23]] = 0) do={ add list=$AddressList comment=AS39572 address=176.119.130.0/23 }
 :if ([:len [find where list=$AddressList and address=185.162.84.0/22]] = 0) do={ add list=$AddressList comment=AS39572 address=185.162.84.0/22 }
+:if ([:len [find where list=$AddressList and address=185.171.228.0/24]] = 0) do={ add list=$AddressList comment=AS39572 address=185.171.228.0/24 }
 :if ([:len [find where list=$AddressList and address=185.177.92.0/22]] = 0) do={ add list=$AddressList comment=AS39572 address=185.177.92.0/22 }
 :if ([:len [find where list=$AddressList and address=185.185.12.0/24]] = 0) do={ add list=$AddressList comment=AS39572 address=185.185.12.0/24 }
 :if ([:len [find where list=$AddressList and address=185.185.15.0/24]] = 0) do={ add list=$AddressList comment=AS39572 address=185.185.15.0/24 }
@@ -12,6 +13,7 @@
 :if ([:len [find where list=$AddressList and address=185.196.192.0/21]] = 0) do={ add list=$AddressList comment=AS39572 address=185.196.192.0/21 }
 :if ([:len [find where list=$AddressList and address=185.197.120.0/22]] = 0) do={ add list=$AddressList comment=AS39572 address=185.197.120.0/22 }
 :if ([:len [find where list=$AddressList and address=185.207.236.0/24]] = 0) do={ add list=$AddressList comment=AS39572 address=185.207.236.0/24 }
+:if ([:len [find where list=$AddressList and address=185.207.238.0/23]] = 0) do={ add list=$AddressList comment=AS39572 address=185.207.238.0/23 }
 :if ([:len [find where list=$AddressList and address=185.208.128.0/24]] = 0) do={ add list=$AddressList comment=AS39572 address=185.208.128.0/24 }
 :if ([:len [find where list=$AddressList and address=185.208.130.0/23]] = 0) do={ add list=$AddressList comment=AS39572 address=185.208.130.0/23 }
 :if ([:len [find where list=$AddressList and address=185.251.0.0/24]] = 0) do={ add list=$AddressList comment=AS39572 address=185.251.0.0/24 }

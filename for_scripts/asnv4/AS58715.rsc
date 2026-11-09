@@ -3,12 +3,12 @@
 :if ([:len [find where list=$AddressList and address=103.105.84.0/23]] = 0) do={ add list=$AddressList comment=AS58715 address=103.105.84.0/23 }
 :if ([:len [find where list=$AddressList and address=103.105.87.0/24]] = 0) do={ add list=$AddressList comment=AS58715 address=103.105.87.0/24 }
 :if ([:len [find where list=$AddressList and address=103.124.250.0/24]] = 0) do={ add list=$AddressList comment=AS58715 address=103.124.250.0/24 }
-:if ([:len [find where list=$AddressList and address=103.126.20.0/23]] = 0) do={ add list=$AddressList comment=AS58715 address=103.126.20.0/23 }
+:if ([:len [find where list=$AddressList and address=103.126.21.0/24]] = 0) do={ add list=$AddressList comment=AS58715 address=103.126.21.0/24 }
 :if ([:len [find where list=$AddressList and address=103.126.22.0/24]] = 0) do={ add list=$AddressList comment=AS58715 address=103.126.22.0/24 }
 :if ([:len [find where list=$AddressList and address=103.16.226.0/24]] = 0) do={ add list=$AddressList comment=AS58715 address=103.16.226.0/24 }
 :if ([:len [find where list=$AddressList and address=103.21.40.0/22]] = 0) do={ add list=$AddressList comment=AS58715 address=103.21.40.0/22 }
 :if ([:len [find where list=$AddressList and address=103.54.39.0/24]] = 0) do={ add list=$AddressList comment=AS58715 address=103.54.39.0/24 }
-:if ([:len [find where list=$AddressList and address=103.85.156.0/23]] = 0) do={ add list=$AddressList comment=AS58715 address=103.85.156.0/23 }
+:if ([:len [find where list=$AddressList and address=103.85.157.0/24]] = 0) do={ add list=$AddressList comment=AS58715 address=103.85.157.0/24 }
 :if ([:len [find where list=$AddressList and address=103.85.158.0/24]] = 0) do={ add list=$AddressList comment=AS58715 address=103.85.158.0/24 }
 :if ([:len [find where list=$AddressList and address=144.48.116.0/24]] = 0) do={ add list=$AddressList comment=AS58715 address=144.48.116.0/24 }
 :if ([:len [find where list=$AddressList and address=182.48.74.0/23]] = 0) do={ add list=$AddressList comment=AS58715 address=182.48.74.0/23 }

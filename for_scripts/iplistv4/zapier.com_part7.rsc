@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.64.79.34]] = 0) do={ add list=$AddressList comment=zapier.com address=18.64.79.34 }
+:if ([:len [find where list=$AddressList and address=18.64.79.54]] = 0) do={ add list=$AddressList comment=zapier.com address=18.64.79.54 }
+:if ([:len [find where list=$AddressList and address=18.64.79.9]] = 0) do={ add list=$AddressList comment=zapier.com address=18.64.79.9 }
+:if ([:len [find where list=$AddressList and address=18.65.229.44]] = 0) do={ add list=$AddressList comment=zapier.com address=18.65.229.44 }
 :if ([:len [find where list=$AddressList and address=18.65.229.45]] = 0) do={ add list=$AddressList comment=zapier.com address=18.65.229.45 }
 :if ([:len [find where list=$AddressList and address=18.65.229.84]] = 0) do={ add list=$AddressList comment=zapier.com address=18.65.229.84 }
 :if ([:len [find where list=$AddressList and address=18.65.229.86]] = 0) do={ add list=$AddressList comment=zapier.com address=18.65.229.86 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.160.150.46]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.46 }
 :if ([:len [find where list=$AddressList and address=3.160.150.55]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.55 }
 :if ([:len [find where list=$AddressList and address=3.160.150.66]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.66 }
-:if ([:len [find where list=$AddressList and address=3.160.150.67]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.67 }
-:if ([:len [find where list=$AddressList and address=3.160.150.84]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.84 }
-:if ([:len [find where list=$AddressList and address=3.160.150.9]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.9 }
-:if ([:len [find where list=$AddressList and address=3.160.188.117]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.188.117 }

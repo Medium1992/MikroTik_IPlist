@@ -146,7 +146,9 @@
 :if ([:len [find where list=$AddressList and address=57.144.17.150]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.17.150 }
 :if ([:len [find where list=$AddressList and address=57.144.17.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.17.32 }
 :if ([:len [find where list=$AddressList and address=57.144.17.33]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.17.33 }
+:if ([:len [find where list=$AddressList and address=57.144.170.155]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.170.155 }
 :if ([:len [find where list=$AddressList and address=57.144.171.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.171.32 }
+:if ([:len [find where list=$AddressList and address=57.144.171.33]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.171.33 }
 :if ([:len [find where list=$AddressList and address=57.144.173.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.173.32 }
 :if ([:len [find where list=$AddressList and address=57.144.175.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.175.32 }
 :if ([:len [find where list=$AddressList and address=57.144.177.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.177.32 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=57.144.215.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.215.32 }
 :if ([:len [find where list=$AddressList and address=57.144.215.33]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.215.33 }
 :if ([:len [find where list=$AddressList and address=57.144.216.128]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.216.128 }
-:if ([:len [find where list=$AddressList and address=57.144.217.150]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.217.150 }
-:if ([:len [find where list=$AddressList and address=57.144.217.32]] = 0) do={ add list=$AddressList comment=whatsapp.com address=57.144.217.32 }

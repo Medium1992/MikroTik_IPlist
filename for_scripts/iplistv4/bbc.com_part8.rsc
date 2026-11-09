@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=2.17.240.112]] = 0) do={ add list=$AddressList comment=bbc.com address=2.17.240.112 }
+:if ([:len [find where list=$AddressList and address=2.17.240.25]] = 0) do={ add list=$AddressList comment=bbc.com address=2.17.240.25 }
+:if ([:len [find where list=$AddressList and address=2.17.244.112]] = 0) do={ add list=$AddressList comment=bbc.com address=2.17.244.112 }
+:if ([:len [find where list=$AddressList and address=2.17.244.25]] = 0) do={ add list=$AddressList comment=bbc.com address=2.17.244.25 }
 :if ([:len [find where list=$AddressList and address=2.17.65.185]] = 0) do={ add list=$AddressList comment=bbc.com address=2.17.65.185 }
 :if ([:len [find where list=$AddressList and address=2.17.96.135]] = 0) do={ add list=$AddressList comment=bbc.com address=2.17.96.135 }
 :if ([:len [find where list=$AddressList and address=2.17.96.28]] = 0) do={ add list=$AddressList comment=bbc.com address=2.17.96.28 }
@@ -10,6 +14,7 @@
 :if ([:len [find where list=$AddressList and address=2.18.108.23]] = 0) do={ add list=$AddressList comment=bbc.com address=2.18.108.23 }
 :if ([:len [find where list=$AddressList and address=2.18.12.153]] = 0) do={ add list=$AddressList comment=bbc.com address=2.18.12.153 }
 :if ([:len [find where list=$AddressList and address=2.18.168.120]] = 0) do={ add list=$AddressList comment=bbc.com address=2.18.168.120 }
+:if ([:len [find where list=$AddressList and address=2.18.168.162]] = 0) do={ add list=$AddressList comment=bbc.com address=2.18.168.162 }
 :if ([:len [find where list=$AddressList and address=2.18.168.57]] = 0) do={ add list=$AddressList comment=bbc.com address=2.18.168.57 }
 :if ([:len [find where list=$AddressList and address=2.18.172.119]] = 0) do={ add list=$AddressList comment=bbc.com address=2.18.172.119 }
 :if ([:len [find where list=$AddressList and address=2.18.172.170]] = 0) do={ add list=$AddressList comment=bbc.com address=2.18.172.170 }
@@ -175,8 +180,3 @@
 :if ([:len [find where list=$AddressList and address=212.58.244.210]] = 0) do={ add list=$AddressList comment=bbc.com address=212.58.244.210 }
 :if ([:len [find where list=$AddressList and address=212.58.249.206]] = 0) do={ add list=$AddressList comment=bbc.com address=212.58.249.206 }
 :if ([:len [find where list=$AddressList and address=212.58.249.207]] = 0) do={ add list=$AddressList comment=bbc.com address=212.58.249.207 }
-:if ([:len [find where list=$AddressList and address=216.137.44.101]] = 0) do={ add list=$AddressList comment=bbc.com address=216.137.44.101 }
-:if ([:len [find where list=$AddressList and address=216.137.44.112]] = 0) do={ add list=$AddressList comment=bbc.com address=216.137.44.112 }
-:if ([:len [find where list=$AddressList and address=216.137.44.118]] = 0) do={ add list=$AddressList comment=bbc.com address=216.137.44.118 }
-:if ([:len [find where list=$AddressList and address=216.137.44.14]] = 0) do={ add list=$AddressList comment=bbc.com address=216.137.44.14 }
-:if ([:len [find where list=$AddressList and address=216.137.44.16]] = 0) do={ add list=$AddressList comment=bbc.com address=216.137.44.16 }

@@ -4,6 +4,7 @@
 :if ([:len [find where list=$AddressList and address=101.45.11.0/24]] = 0) do={ add list=$AddressList comment=AS396986 address=101.45.11.0/24 }
 :if ([:len [find where list=$AddressList and address=101.45.12.0/22]] = 0) do={ add list=$AddressList comment=AS396986 address=101.45.12.0/22 }
 :if ([:len [find where list=$AddressList and address=101.45.16.0/22]] = 0) do={ add list=$AddressList comment=AS396986 address=101.45.16.0/22 }
+:if ([:len [find where list=$AddressList and address=101.45.196.0/24]] = 0) do={ add list=$AddressList comment=AS396986 address=101.45.196.0/24 }
 :if ([:len [find where list=$AddressList and address=101.45.199.0/24]] = 0) do={ add list=$AddressList comment=AS396986 address=101.45.199.0/24 }
 :if ([:len [find where list=$AddressList and address=101.45.2.0/23]] = 0) do={ add list=$AddressList comment=AS396986 address=101.45.2.0/23 }
 :if ([:len [find where list=$AddressList and address=101.45.20.0/24]] = 0) do={ add list=$AddressList comment=AS396986 address=101.45.20.0/24 }
@@ -88,6 +89,7 @@
 :if ([:len [find where list=$AddressList and address=71.18.44.0/22]] = 0) do={ add list=$AddressList comment=AS396986 address=71.18.44.0/22 }
 :if ([:len [find where list=$AddressList and address=71.18.48.0/23]] = 0) do={ add list=$AddressList comment=AS396986 address=71.18.48.0/23 }
 :if ([:len [find where list=$AddressList and address=71.18.51.0/24]] = 0) do={ add list=$AddressList comment=AS396986 address=71.18.51.0/24 }
+:if ([:len [find where list=$AddressList and address=71.18.54.0/23]] = 0) do={ add list=$AddressList comment=AS396986 address=71.18.54.0/23 }
 :if ([:len [find where list=$AddressList and address=71.18.56.0/22]] = 0) do={ add list=$AddressList comment=AS396986 address=71.18.56.0/22 }
 :if ([:len [find where list=$AddressList and address=71.18.64.0/22]] = 0) do={ add list=$AddressList comment=AS396986 address=71.18.64.0/22 }
 :if ([:len [find where list=$AddressList and address=71.18.7.0/24]] = 0) do={ add list=$AddressList comment=AS396986 address=71.18.7.0/24 }

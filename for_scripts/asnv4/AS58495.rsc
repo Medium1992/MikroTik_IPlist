@@ -37,6 +37,7 @@
 :if ([:len [find where list=$AddressList and address=157.10.116.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.10.116.0/23 }
 :if ([:len [find where list=$AddressList and address=157.10.148.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.10.148.0/23 }
 :if ([:len [find where list=$AddressList and address=157.10.152.0/22]] = 0) do={ add list=$AddressList comment=AS58495 address=157.10.152.0/22 }
+:if ([:len [find where list=$AddressList and address=157.10.16.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.10.16.0/23 }
 :if ([:len [find where list=$AddressList and address=157.10.2.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.10.2.0/23 }
 :if ([:len [find where list=$AddressList and address=157.10.20.0/24]] = 0) do={ add list=$AddressList comment=AS58495 address=157.10.20.0/24 }
 :if ([:len [find where list=$AddressList and address=157.10.230.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.10.230.0/23 }
@@ -53,6 +54,7 @@
 :if ([:len [find where list=$AddressList and address=157.15.180.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.15.180.0/23 }
 :if ([:len [find where list=$AddressList and address=157.15.182.0/24]] = 0) do={ add list=$AddressList comment=AS58495 address=157.15.182.0/24 }
 :if ([:len [find where list=$AddressList and address=157.15.194.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.15.194.0/23 }
+:if ([:len [find where list=$AddressList and address=157.15.198.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.15.198.0/23 }
 :if ([:len [find where list=$AddressList and address=157.15.204.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.15.204.0/23 }
 :if ([:len [find where list=$AddressList and address=157.15.208.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.15.208.0/23 }
 :if ([:len [find where list=$AddressList and address=157.15.230.0/23]] = 0) do={ add list=$AddressList comment=AS58495 address=157.15.230.0/23 }

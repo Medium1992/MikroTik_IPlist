@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.161.125.16]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.161.125.16 }
+:if ([:len [find where list=$AddressList and address=18.161.125.48]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.161.125.48 }
+:if ([:len [find where list=$AddressList and address=18.161.125.73]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.161.125.73 }
+:if ([:len [find where list=$AddressList and address=18.161.125.85]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.161.125.85 }
 :if ([:len [find where list=$AddressList and address=18.161.170.27]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.161.170.27 }
 :if ([:len [find where list=$AddressList and address=18.161.170.79]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.161.170.79 }
 :if ([:len [find where list=$AddressList and address=18.161.170.89]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.161.170.89 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.245.31.26]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.245.31.26 }
 :if ([:len [find where list=$AddressList and address=18.245.31.30]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.245.31.30 }
 :if ([:len [find where list=$AddressList and address=18.245.31.36]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.245.31.36 }
-:if ([:len [find where list=$AddressList and address=18.245.31.43]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.245.31.43 }
-:if ([:len [find where list=$AddressList and address=18.245.31.49]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.245.31.49 }
-:if ([:len [find where list=$AddressList and address=18.245.31.6]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.245.31.6 }
-:if ([:len [find where list=$AddressList and address=18.245.31.76]] = 0) do={ add list=$AddressList comment=golosameriki.com address=18.245.31.76 }

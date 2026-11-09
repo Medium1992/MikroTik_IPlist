@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.35.190.49]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.190.49 }
+:if ([:len [find where list=$AddressList and address=13.35.194.227]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.194.227 }
+:if ([:len [find where list=$AddressList and address=13.35.220.34]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.220.34 }
+:if ([:len [find where list=$AddressList and address=13.35.238.124]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.238.124 }
 :if ([:len [find where list=$AddressList and address=13.35.238.22]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.238.22 }
 :if ([:len [find where list=$AddressList and address=13.35.238.69]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.238.69 }
 :if ([:len [find where list=$AddressList and address=13.35.238.75]] = 0) do={ add list=$AddressList comment=bbc.com address=13.35.238.75 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.165.140.109]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.109 }
 :if ([:len [find where list=$AddressList and address=18.165.140.125]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.125 }
 :if ([:len [find where list=$AddressList and address=18.165.140.19]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.19 }
-:if ([:len [find where list=$AddressList and address=18.165.140.22]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.22 }
-:if ([:len [find where list=$AddressList and address=18.165.140.28]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.28 }
-:if ([:len [find where list=$AddressList and address=18.165.140.61]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.61 }
-:if ([:len [find where list=$AddressList and address=18.165.140.75]] = 0) do={ add list=$AddressList comment=bbc.com address=18.165.140.75 }

@@ -93,6 +93,7 @@
 :if ([:len [find where list=$AddressList and address=3.67.231.136/32]] = 0) do={ add list=$AddressList comment=telegram.org address=3.67.231.136/32 }
 :if ([:len [find where list=$AddressList and address=3.67.237.255/32]] = 0) do={ add list=$AddressList comment=telegram.org address=3.67.237.255/32 }
 :if ([:len [find where list=$AddressList and address=3.68.55.200/32]] = 0) do={ add list=$AddressList comment=telegram.org address=3.68.55.200/32 }
+:if ([:len [find where list=$AddressList and address=3.69.1.198/32]] = 0) do={ add list=$AddressList comment=telegram.org address=3.69.1.198/32 }
 :if ([:len [find where list=$AddressList and address=3.71.214.142/32]] = 0) do={ add list=$AddressList comment=telegram.org address=3.71.214.142/32 }
 :if ([:len [find where list=$AddressList and address=3.72.148.84/32]] = 0) do={ add list=$AddressList comment=telegram.org address=3.72.148.84/32 }
 :if ([:len [find where list=$AddressList and address=3.72.171.88/32]] = 0) do={ add list=$AddressList comment=telegram.org address=3.72.171.88/32 }
@@ -120,6 +121,7 @@
 :if ([:len [find where list=$AddressList and address=52.84.0.0/14]] = 0) do={ add list=$AddressList comment=telegram.org address=52.84.0.0/14 }
 :if ([:len [find where list=$AddressList and address=54.160.0.0/11]] = 0) do={ add list=$AddressList comment=telegram.org address=54.160.0.0/11 }
 :if ([:len [find where list=$AddressList and address=54.230.0.0/16]] = 0) do={ add list=$AddressList comment=telegram.org address=54.230.0.0/16 }
+:if ([:len [find where list=$AddressList and address=54.64.0.0/11]] = 0) do={ add list=$AddressList comment=telegram.org address=54.64.0.0/11 }
 :if ([:len [find where list=$AddressList and address=63.176.0.0/12]] = 0) do={ add list=$AddressList comment=telegram.org address=63.176.0.0/12 }
 :if ([:len [find where list=$AddressList and address=64.233.161.121/32]] = 0) do={ add list=$AddressList comment=telegram.org address=64.233.161.121/32 }
 :if ([:len [find where list=$AddressList and address=64.233.162.121/32]] = 0) do={ add list=$AddressList comment=telegram.org address=64.233.162.121/32 }

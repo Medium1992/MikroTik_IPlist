@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.165.232.30]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.30 }
+:if ([:len [find where list=$AddressList and address=3.165.232.48]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.48 }
+:if ([:len [find where list=$AddressList and address=3.165.232.79]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.79 }
+:if ([:len [find where list=$AddressList and address=3.165.232.82]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.232.82 }
 :if ([:len [find where list=$AddressList and address=3.165.239.105]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.239.105 }
 :if ([:len [find where list=$AddressList and address=3.165.239.119]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.239.119 }
 :if ([:len [find where list=$AddressList and address=3.165.239.49]] = 0) do={ add list=$AddressList comment=linktr.ee address=3.165.239.49 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.85.223.68]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.223.68 }
 :if ([:len [find where list=$AddressList and address=52.85.223.8]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.223.8 }
 :if ([:len [find where list=$AddressList and address=52.85.47.105]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.47.105 }
-:if ([:len [find where list=$AddressList and address=52.85.47.11]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.47.11 }
-:if ([:len [find where list=$AddressList and address=52.85.47.55]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.47.55 }
-:if ([:len [find where list=$AddressList and address=52.85.47.88]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.47.88 }
-:if ([:len [find where list=$AddressList and address=52.85.49.13]] = 0) do={ add list=$AddressList comment=linktr.ee address=52.85.49.13 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.209.174.87]] = 0) do={ add list=$AddressList comment=quora.com address=3.209.174.87 }
+:if ([:len [find where list=$AddressList and address=3.209.179.48]] = 0) do={ add list=$AddressList comment=quora.com address=3.209.179.48 }
+:if ([:len [find where list=$AddressList and address=3.209.18.29]] = 0) do={ add list=$AddressList comment=quora.com address=3.209.18.29 }
+:if ([:len [find where list=$AddressList and address=3.209.187.63]] = 0) do={ add list=$AddressList comment=quora.com address=3.209.187.63 }
 :if ([:len [find where list=$AddressList and address=3.209.191.219]] = 0) do={ add list=$AddressList comment=quora.com address=3.209.191.219 }
 :if ([:len [find where list=$AddressList and address=3.209.193.78]] = 0) do={ add list=$AddressList comment=quora.com address=3.209.193.78 }
 :if ([:len [find where list=$AddressList and address=3.209.213.79]] = 0) do={ add list=$AddressList comment=quora.com address=3.209.213.79 }
@@ -134,10 +138,12 @@
 :if ([:len [find where list=$AddressList and address=3.214.207.158]] = 0) do={ add list=$AddressList comment=quora.com address=3.214.207.158 }
 :if ([:len [find where list=$AddressList and address=3.214.207.34]] = 0) do={ add list=$AddressList comment=quora.com address=3.214.207.34 }
 :if ([:len [find where list=$AddressList and address=3.214.229.229]] = 0) do={ add list=$AddressList comment=quora.com address=3.214.229.229 }
+:if ([:len [find where list=$AddressList and address=3.214.252.142]] = 0) do={ add list=$AddressList comment=quora.com address=3.214.252.142 }
 :if ([:len [find where list=$AddressList and address=3.214.55.134]] = 0) do={ add list=$AddressList comment=quora.com address=3.214.55.134 }
 :if ([:len [find where list=$AddressList and address=3.214.66.133]] = 0) do={ add list=$AddressList comment=quora.com address=3.214.66.133 }
 :if ([:len [find where list=$AddressList and address=3.214.91.173]] = 0) do={ add list=$AddressList comment=quora.com address=3.214.91.173 }
 :if ([:len [find where list=$AddressList and address=3.215.113.51]] = 0) do={ add list=$AddressList comment=quora.com address=3.215.113.51 }
+:if ([:len [find where list=$AddressList and address=3.215.139.157]] = 0) do={ add list=$AddressList comment=quora.com address=3.215.139.157 }
 :if ([:len [find where list=$AddressList and address=3.215.144.121]] = 0) do={ add list=$AddressList comment=quora.com address=3.215.144.121 }
 :if ([:len [find where list=$AddressList and address=3.215.144.35]] = 0) do={ add list=$AddressList comment=quora.com address=3.215.144.35 }
 :if ([:len [find where list=$AddressList and address=3.215.154.200]] = 0) do={ add list=$AddressList comment=quora.com address=3.215.154.200 }
@@ -174,9 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.217.198.198]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.198.198 }
 :if ([:len [find where list=$AddressList and address=3.217.207.129]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.207.129 }
 :if ([:len [find where list=$AddressList and address=3.217.213.207]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.213.207 }
-:if ([:len [find where list=$AddressList and address=3.217.242.30]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.242.30 }
-:if ([:len [find where list=$AddressList and address=3.217.245.119]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.245.119 }
-:if ([:len [find where list=$AddressList and address=3.217.53.212]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.53.212 }
-:if ([:len [find where list=$AddressList and address=3.217.60.170]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.60.170 }
-:if ([:len [find where list=$AddressList and address=3.217.66.62]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.66.62 }
-:if ([:len [find where list=$AddressList and address=3.217.74.156]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.74.156 }

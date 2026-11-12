@@ -1,8 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.135.228.0/22 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.135.252.0/22 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.136.208.0/20 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.143.128.0/17 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.170.48.0/21 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.170.56.0/22 } on-error={}
@@ -26,7 +23,6 @@
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.41.128.0/20 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.41.160.0/19 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.51.29.0/24 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.53.56.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.80.224.0/21 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=206.83.128.0/21 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=207.105.108.0/22 } on-error={}
@@ -300,3 +296,7 @@
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=45.95.82.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=46.151.182.0/24 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=46.151.183.0/24 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=46.173.240.0/20 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=46.174.204.0/22 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=46.29.26.0/24 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=spamhaus-drop address=49.156.160.0/19 } on-error={}

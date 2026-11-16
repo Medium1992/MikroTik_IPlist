@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=54.194.239.229]] = 0) do={ add list=$AddressList comment=euronews.com address=54.194.239.229 }
 :if ([:len [find where list=$AddressList and address=54.194.9.5]] = 0) do={ add list=$AddressList comment=euronews.com address=54.194.9.5 }
 :if ([:len [find where list=$AddressList and address=54.195.134.72]] = 0) do={ add list=$AddressList comment=euronews.com address=54.195.134.72 }
 :if ([:len [find where list=$AddressList and address=54.216.132.210]] = 0) do={ add list=$AddressList comment=euronews.com address=54.216.132.210 }
@@ -63,6 +64,7 @@
 :if ([:len [find where list=$AddressList and address=63.35.3.80]] = 0) do={ add list=$AddressList comment=euronews.com address=63.35.3.80 }
 :if ([:len [find where list=$AddressList and address=63.35.50.55]] = 0) do={ add list=$AddressList comment=euronews.com address=63.35.50.55 }
 :if ([:len [find where list=$AddressList and address=79.125.96.103]] = 0) do={ add list=$AddressList comment=euronews.com address=79.125.96.103 }
+:if ([:len [find where list=$AddressList and address=99.80.163.90]] = 0) do={ add list=$AddressList comment=euronews.com address=99.80.163.90 }
 :if ([:len [find where list=$AddressList and address=99.80.31.189]] = 0) do={ add list=$AddressList comment=euronews.com address=99.80.31.189 }
 :if ([:len [find where list=$AddressList and address=99.80.74.45]] = 0) do={ add list=$AddressList comment=euronews.com address=99.80.74.45 }
 :if ([:len [find where list=$AddressList and address=99.81.146.85]] = 0) do={ add list=$AddressList comment=euronews.com address=99.81.146.85 }

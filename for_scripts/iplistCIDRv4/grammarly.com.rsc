@@ -39,6 +39,7 @@
 :if ([:len [find where list=$AddressList and address=3.224.0.0/13]] = 0) do={ add list=$AddressList comment=grammarly.com address=3.224.0.0/13 }
 :if ([:len [find where list=$AddressList and address=3.232.0.0/14]] = 0) do={ add list=$AddressList comment=grammarly.com address=3.232.0.0/14 }
 :if ([:len [find where list=$AddressList and address=3.236.1.89/32]] = 0) do={ add list=$AddressList comment=grammarly.com address=3.236.1.89/32 }
+:if ([:len [find where list=$AddressList and address=3.237.54.247/32]] = 0) do={ add list=$AddressList comment=grammarly.com address=3.237.54.247/32 }
 :if ([:len [find where list=$AddressList and address=3.237.58.218/32]] = 0) do={ add list=$AddressList comment=grammarly.com address=3.237.58.218/32 }
 :if ([:len [find where list=$AddressList and address=3.80.0.90/32]] = 0) do={ add list=$AddressList comment=grammarly.com address=3.80.0.90/32 }
 :if ([:len [find where list=$AddressList and address=3.81.0.0/16]] = 0) do={ add list=$AddressList comment=grammarly.com address=3.81.0.0/16 }

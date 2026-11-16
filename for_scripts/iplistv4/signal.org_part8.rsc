@@ -1,5 +1,24 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=35.171.43.96]] = 0) do={ add list=$AddressList comment=signal.org address=35.171.43.96 }
+:if ([:len [find where list=$AddressList and address=35.171.68.1]] = 0) do={ add list=$AddressList comment=signal.org address=35.171.68.1 }
+:if ([:len [find where list=$AddressList and address=35.172.249.162]] = 0) do={ add list=$AddressList comment=signal.org address=35.172.249.162 }
+:if ([:len [find where list=$AddressList and address=35.173.101.173]] = 0) do={ add list=$AddressList comment=signal.org address=35.173.101.173 }
+:if ([:len [find where list=$AddressList and address=35.173.143.211]] = 0) do={ add list=$AddressList comment=signal.org address=35.173.143.211 }
+:if ([:len [find where list=$AddressList and address=35.173.39.37]] = 0) do={ add list=$AddressList comment=signal.org address=35.173.39.37 }
+:if ([:len [find where list=$AddressList and address=35.174.129.182]] = 0) do={ add list=$AddressList comment=signal.org address=35.174.129.182 }
+:if ([:len [find where list=$AddressList and address=35.174.180.96]] = 0) do={ add list=$AddressList comment=signal.org address=35.174.180.96 }
+:if ([:len [find where list=$AddressList and address=35.175.54.140]] = 0) do={ add list=$AddressList comment=signal.org address=35.175.54.140 }
+:if ([:len [find where list=$AddressList and address=35.175.72.19]] = 0) do={ add list=$AddressList comment=signal.org address=35.175.72.19 }
+:if ([:len [find where list=$AddressList and address=35.207.114.157]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.114.157 }
+:if ([:len [find where list=$AddressList and address=35.207.116.83]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.116.83 }
+:if ([:len [find where list=$AddressList and address=35.207.123.187]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.123.187 }
+:if ([:len [find where list=$AddressList and address=35.207.164.30]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.164.30 }
+:if ([:len [find where list=$AddressList and address=35.207.172.207]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.172.207 }
+:if ([:len [find where list=$AddressList and address=35.207.176.32]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.176.32 }
+:if ([:len [find where list=$AddressList and address=35.207.177.109]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.177.109 }
+:if ([:len [find where list=$AddressList and address=35.207.180.24]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.180.24 }
+:if ([:len [find where list=$AddressList and address=35.207.185.130]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.185.130 }
 :if ([:len [find where list=$AddressList and address=35.207.190.74]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.190.74 }
 :if ([:len [find where list=$AddressList and address=35.207.191.14]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.191.14 }
 :if ([:len [find where list=$AddressList and address=35.207.69.87]] = 0) do={ add list=$AddressList comment=signal.org address=35.207.69.87 }
@@ -69,6 +88,7 @@
 :if ([:len [find where list=$AddressList and address=44.210.49.162]] = 0) do={ add list=$AddressList comment=signal.org address=44.210.49.162 }
 :if ([:len [find where list=$AddressList and address=44.211.109.77]] = 0) do={ add list=$AddressList comment=signal.org address=44.211.109.77 }
 :if ([:len [find where list=$AddressList and address=44.212.117.101]] = 0) do={ add list=$AddressList comment=signal.org address=44.212.117.101 }
+:if ([:len [find where list=$AddressList and address=44.213.224.42]] = 0) do={ add list=$AddressList comment=signal.org address=44.213.224.42 }
 :if ([:len [find where list=$AddressList and address=44.214.121.2]] = 0) do={ add list=$AddressList comment=signal.org address=44.214.121.2 }
 :if ([:len [find where list=$AddressList and address=44.214.194.92]] = 0) do={ add list=$AddressList comment=signal.org address=44.214.194.92 }
 :if ([:len [find where list=$AddressList and address=44.214.41.36]] = 0) do={ add list=$AddressList comment=signal.org address=44.214.41.36 }
@@ -160,23 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.222.191.30]] = 0) do={ add list=$AddressList comment=signal.org address=52.222.191.30 }
 :if ([:len [find where list=$AddressList and address=52.222.191.44]] = 0) do={ add list=$AddressList comment=signal.org address=52.222.191.44 }
 :if ([:len [find where list=$AddressList and address=52.222.191.54]] = 0) do={ add list=$AddressList comment=signal.org address=52.222.191.54 }
-:if ([:len [find where list=$AddressList and address=52.23.130.29]] = 0) do={ add list=$AddressList comment=signal.org address=52.23.130.29 }
-:if ([:len [find where list=$AddressList and address=52.23.140.71]] = 0) do={ add list=$AddressList comment=signal.org address=52.23.140.71 }
-:if ([:len [find where list=$AddressList and address=52.23.15.242]] = 0) do={ add list=$AddressList comment=signal.org address=52.23.15.242 }
-:if ([:len [find where list=$AddressList and address=52.3.105.252]] = 0) do={ add list=$AddressList comment=signal.org address=52.3.105.252 }
-:if ([:len [find where list=$AddressList and address=52.3.118.237]] = 0) do={ add list=$AddressList comment=signal.org address=52.3.118.237 }
-:if ([:len [find where list=$AddressList and address=52.3.146.251]] = 0) do={ add list=$AddressList comment=signal.org address=52.3.146.251 }
-:if ([:len [find where list=$AddressList and address=52.3.147.180]] = 0) do={ add list=$AddressList comment=signal.org address=52.3.147.180 }
-:if ([:len [find where list=$AddressList and address=52.4.10.199]] = 0) do={ add list=$AddressList comment=signal.org address=52.4.10.199 }
-:if ([:len [find where list=$AddressList and address=52.4.107.46]] = 0) do={ add list=$AddressList comment=signal.org address=52.4.107.46 }
-:if ([:len [find where list=$AddressList and address=52.4.12.175]] = 0) do={ add list=$AddressList comment=signal.org address=52.4.12.175 }
-:if ([:len [find where list=$AddressList and address=52.4.165.24]] = 0) do={ add list=$AddressList comment=signal.org address=52.4.165.24 }
-:if ([:len [find where list=$AddressList and address=52.4.19.48]] = 0) do={ add list=$AddressList comment=signal.org address=52.4.19.48 }
-:if ([:len [find where list=$AddressList and address=52.4.217.157]] = 0) do={ add list=$AddressList comment=signal.org address=52.4.217.157 }
-:if ([:len [find where list=$AddressList and address=52.4.226.235]] = 0) do={ add list=$AddressList comment=signal.org address=52.4.226.235 }
-:if ([:len [find where list=$AddressList and address=52.4.36.227]] = 0) do={ add list=$AddressList comment=signal.org address=52.4.36.227 }
-:if ([:len [find where list=$AddressList and address=52.44.113.105]] = 0) do={ add list=$AddressList comment=signal.org address=52.44.113.105 }
-:if ([:len [find where list=$AddressList and address=52.44.95.210]] = 0) do={ add list=$AddressList comment=signal.org address=52.44.95.210 }
-:if ([:len [find where list=$AddressList and address=52.45.109.37]] = 0) do={ add list=$AddressList comment=signal.org address=52.45.109.37 }
-:if ([:len [find where list=$AddressList and address=52.45.133.31]] = 0) do={ add list=$AddressList comment=signal.org address=52.45.133.31 }
-:if ([:len [find where list=$AddressList and address=52.45.200.123]] = 0) do={ add list=$AddressList comment=signal.org address=52.45.200.123 }

@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=99.86.12.111 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.12.111 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=99.86.12.13 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.12.13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=99.86.12.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.12.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=99.86.12.63 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.12.63 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=99.86.12.77 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.12.77 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
+:if ([:len [/ip/route/find dst-address=99.86.12.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.12.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=99.86.12.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.12.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=99.86.159.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.159.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }
 :if ([:len [/ip/route/find dst-address=99.86.159.103 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=99.86.159.103 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=strava.com }

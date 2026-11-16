@@ -1,8 +1,9 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=135.106.10.0/24]] = 0) do={ add list=$AddressList comment=ca address=135.106.10.0/24 }
-:if ([:len [find where list=$AddressList and address=135.106.106.0/24]] = 0) do={ add list=$AddressList comment=ca address=135.106.106.0/24 }
-:if ([:len [find where list=$AddressList and address=135.106.12.0/24]] = 0) do={ add list=$AddressList comment=ca address=135.106.12.0/24 }
+:if ([:len [find where list=$AddressList and address=134.82.120.0/21]] = 0) do={ add list=$AddressList comment=ca address=134.82.120.0/21 }
+:if ([:len [find where list=$AddressList and address=134.82.71.0/24]] = 0) do={ add list=$AddressList comment=ca address=134.82.71.0/24 }
+:if ([:len [find where list=$AddressList and address=134.87.0.0/16]] = 0) do={ add list=$AddressList comment=ca address=134.87.0.0/16 }
+:if ([:len [find where list=$AddressList and address=135.0.0.0/16]] = 0) do={ add list=$AddressList comment=ca address=135.0.0.0/16 }
 :if ([:len [find where list=$AddressList and address=135.12.0.0/16]] = 0) do={ add list=$AddressList comment=ca address=135.12.0.0/16 }
 :if ([:len [find where list=$AddressList and address=135.129.112.0/22]] = 0) do={ add list=$AddressList comment=ca address=135.129.112.0/22 }
 :if ([:len [find where list=$AddressList and address=135.130.250.0/23]] = 0) do={ add list=$AddressList comment=ca address=135.130.250.0/23 }
@@ -179,4 +180,3 @@
 :if ([:len [find where list=$AddressList and address=138.113.198.14/32]] = 0) do={ add list=$AddressList comment=ca address=138.113.198.14/32 }
 :if ([:len [find where list=$AddressList and address=138.113.198.16/28]] = 0) do={ add list=$AddressList comment=ca address=138.113.198.16/28 }
 :if ([:len [find where list=$AddressList and address=138.113.198.32/27]] = 0) do={ add list=$AddressList comment=ca address=138.113.198.32/27 }
-:if ([:len [find where list=$AddressList and address=138.113.198.64/26]] = 0) do={ add list=$AddressList comment=ca address=138.113.198.64/26 }

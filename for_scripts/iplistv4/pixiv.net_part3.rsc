@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.244.28.112]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.244.28.112 }
+:if ([:len [find where list=$AddressList and address=18.244.28.12]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.244.28.12 }
+:if ([:len [find where list=$AddressList and address=18.244.28.16]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.244.28.16 }
 :if ([:len [find where list=$AddressList and address=18.244.28.94]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.244.28.94 }
 :if ([:len [find where list=$AddressList and address=18.244.87.44]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.244.87.44 }
 :if ([:len [find where list=$AddressList and address=18.244.87.68]] = 0) do={ add list=$AddressList comment=pixiv.net address=18.244.87.68 }
@@ -177,6 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.165.206.40]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.165.206.40 }
 :if ([:len [find where list=$AddressList and address=3.165.206.83]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.165.206.83 }
 :if ([:len [find where list=$AddressList and address=3.165.206.85]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.165.206.85 }
-:if ([:len [find where list=$AddressList and address=3.165.239.109]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.165.239.109 }
-:if ([:len [find where list=$AddressList and address=3.165.239.113]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.165.239.113 }
-:if ([:len [find where list=$AddressList and address=3.165.239.29]] = 0) do={ add list=$AddressList comment=pixiv.net address=3.165.239.29 }

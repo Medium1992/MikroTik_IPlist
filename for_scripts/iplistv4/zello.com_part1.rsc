@@ -5,7 +5,9 @@
 :if ([:len [find where list=$AddressList and address=100.25.133.182]] = 0) do={ add list=$AddressList comment=zello.com address=100.25.133.182 }
 :if ([:len [find where list=$AddressList and address=100.27.126.29]] = 0) do={ add list=$AddressList comment=zello.com address=100.27.126.29 }
 :if ([:len [find where list=$AddressList and address=100.27.183.134]] = 0) do={ add list=$AddressList comment=zello.com address=100.27.183.134 }
+:if ([:len [find where list=$AddressList and address=100.28.244.103]] = 0) do={ add list=$AddressList comment=zello.com address=100.28.244.103 }
 :if ([:len [find where list=$AddressList and address=100.29.103.176]] = 0) do={ add list=$AddressList comment=zello.com address=100.29.103.176 }
+:if ([:len [find where list=$AddressList and address=100.30.209.243]] = 0) do={ add list=$AddressList comment=zello.com address=100.30.209.243 }
 :if ([:len [find where list=$AddressList and address=100.30.50.253]] = 0) do={ add list=$AddressList comment=zello.com address=100.30.50.253 }
 :if ([:len [find where list=$AddressList and address=100.30.91.70]] = 0) do={ add list=$AddressList comment=zello.com address=100.30.91.70 }
 :if ([:len [find where list=$AddressList and address=100.48.175.206]] = 0) do={ add list=$AddressList comment=zello.com address=100.48.175.206 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.165.140.52]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.140.52 }
 :if ([:len [find where list=$AddressList and address=18.165.140.85]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.140.85 }
 :if ([:len [find where list=$AddressList and address=18.165.72.111]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.72.111 }
-:if ([:len [find where list=$AddressList and address=18.165.72.127]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.72.127 }
-:if ([:len [find where list=$AddressList and address=18.165.72.4]] = 0) do={ add list=$AddressList comment=zello.com address=18.165.72.4 }

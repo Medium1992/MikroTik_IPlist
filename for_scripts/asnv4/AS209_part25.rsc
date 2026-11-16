@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=67.76.117.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=67.76.117.0/24 }
-:if ([:len [find where list=$AddressList and address=67.76.119.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=67.76.119.0/24 }
-:if ([:len [find where list=$AddressList and address=67.76.120.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=67.76.120.0/24 }
-:if ([:len [find where list=$AddressList and address=67.76.122.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=67.76.122.0/24 }
 :if ([:len [find where list=$AddressList and address=67.76.125.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=67.76.125.0/24 }
 :if ([:len [find where list=$AddressList and address=67.76.126.0/23]] = 0) do={ add list=$AddressList comment=AS209 address=67.76.126.0/23 }
 :if ([:len [find where list=$AddressList and address=67.76.130.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=67.76.130.0/24 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=69.68.124.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.124.0/24 }
 :if ([:len [find where list=$AddressList and address=69.68.126.0/23]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.126.0/23 }
 :if ([:len [find where list=$AddressList and address=69.68.138.0/23]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.138.0/23 }
+:if ([:len [find where list=$AddressList and address=69.68.142.0/23]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.142.0/23 }
+:if ([:len [find where list=$AddressList and address=69.68.145.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.145.0/24 }
+:if ([:len [find where list=$AddressList and address=69.68.147.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.147.0/24 }
+:if ([:len [find where list=$AddressList and address=69.68.149.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.149.0/24 }

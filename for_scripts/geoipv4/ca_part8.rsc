@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=109.72.156.0/22]] = 0) do={ add list=$AddressList comment=ca address=109.72.156.0/22 }
+:if ([:len [find where list=$AddressList and address=109.95.124.16/28]] = 0) do={ add list=$AddressList comment=ca address=109.95.124.16/28 }
+:if ([:len [find where list=$AddressList and address=110.172.149.0/24]] = 0) do={ add list=$AddressList comment=ca address=110.172.149.0/24 }
+:if ([:len [find where list=$AddressList and address=110.239.160.0/20]] = 0) do={ add list=$AddressList comment=ca address=110.239.160.0/20 }
 :if ([:len [find where list=$AddressList and address=110.239.192.0/20]] = 0) do={ add list=$AddressList comment=ca address=110.239.192.0/20 }
 :if ([:len [find where list=$AddressList and address=113.203.247.0/24]] = 0) do={ add list=$AddressList comment=ca address=113.203.247.0/24 }
 :if ([:len [find where list=$AddressList and address=114.69.241.0/24]] = 0) do={ add list=$AddressList comment=ca address=114.69.241.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=130.254.122.0/24]] = 0) do={ add list=$AddressList comment=ca address=130.254.122.0/24 }
 :if ([:len [find where list=$AddressList and address=130.254.45.0/24]] = 0) do={ add list=$AddressList comment=ca address=130.254.45.0/24 }
 :if ([:len [find where list=$AddressList and address=130.254.64.0/20]] = 0) do={ add list=$AddressList comment=ca address=130.254.64.0/20 }
-:if ([:len [find where list=$AddressList and address=130.254.82.0/23]] = 0) do={ add list=$AddressList comment=ca address=130.254.82.0/23 }
-:if ([:len [find where list=$AddressList and address=130.254.84.0/22]] = 0) do={ add list=$AddressList comment=ca address=130.254.84.0/22 }
-:if ([:len [find where list=$AddressList and address=130.254.88.0/21]] = 0) do={ add list=$AddressList comment=ca address=130.254.88.0/21 }
-:if ([:len [find where list=$AddressList and address=130.41.10.0/24]] = 0) do={ add list=$AddressList comment=ca address=130.41.10.0/24 }

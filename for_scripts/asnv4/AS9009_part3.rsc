@@ -97,6 +97,7 @@
 :if ([:len [find where list=$AddressList and address=149.33.44.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=149.33.44.0/23 }
 :if ([:len [find where list=$AddressList and address=149.33.51.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=149.33.51.0/24 }
 :if ([:len [find where list=$AddressList and address=149.33.55.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=149.33.55.0/24 }
+:if ([:len [find where list=$AddressList and address=149.57.92.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=149.57.92.0/24 }
 :if ([:len [find where list=$AddressList and address=150.241.174.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=150.241.174.0/24 }
 :if ([:len [find where list=$AddressList and address=150.241.234.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=150.241.234.0/24 }
 :if ([:len [find where list=$AddressList and address=150.251.229.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=150.251.229.0/24 }
@@ -113,7 +114,6 @@
 :if ([:len [find where list=$AddressList and address=151.245.119.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=151.245.119.0/24 }
 :if ([:len [find where list=$AddressList and address=151.245.164.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=151.245.164.0/24 }
 :if ([:len [find where list=$AddressList and address=151.245.176.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=151.245.176.0/24 }
-:if ([:len [find where list=$AddressList and address=151.245.180.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=151.245.180.0/24 }
 :if ([:len [find where list=$AddressList and address=151.247.184.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=151.247.184.0/22 }
 :if ([:len [find where list=$AddressList and address=151.247.50.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=151.247.50.0/23 }
 :if ([:len [find where list=$AddressList and address=151.247.52.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=151.247.52.0/23 }

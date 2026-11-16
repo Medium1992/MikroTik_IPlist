@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=23.195.81.162 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.162 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=23.195.81.163 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.163 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=23.195.81.168 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.168 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=23.195.81.171 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.171 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=23.195.81.177 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.177 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
+:if ([:len [/ip/route/find dst-address=23.195.81.184 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.184 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=23.195.81.186 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.186 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=23.195.81.200 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.200 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=23.195.81.201 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.195.81.201 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=23.206.251.235 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.206.251.235 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=23.211.118.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.211.118.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
 :if ([:len [/ip/route/find dst-address=23.211.118.17 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.211.118.17 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=23.211.118.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.211.118.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=23.211.118.19 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.211.118.19 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=23.211.118.195 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.211.118.195 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=23.211.118.200 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.211.118.200 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=23.211.118.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.211.118.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }
-:if ([:len [/ip/route/find dst-address=23.211.118.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.211.118.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=copilot }

@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=23.204.132.223]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.204.132.223 }
+:if ([:len [find where list=$AddressList and address=23.204.132.231]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.204.132.231 }
 :if ([:len [find where list=$AddressList and address=23.205.106.11]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.205.106.11 }
 :if ([:len [find where list=$AddressList and address=23.205.106.27]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.205.106.27 }
 :if ([:len [find where list=$AddressList and address=23.205.106.76]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.205.106.76 }
@@ -51,6 +53,7 @@
 :if ([:len [find where list=$AddressList and address=23.222.237.209]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.222.237.209 }
 :if ([:len [find where list=$AddressList and address=23.222.237.219]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.222.237.219 }
 :if ([:len [find where list=$AddressList and address=23.3.68.138]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.3.68.138 }
+:if ([:len [find where list=$AddressList and address=23.3.68.142]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.3.68.142 }
 :if ([:len [find where list=$AddressList and address=23.3.68.162]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.3.68.162 }
 :if ([:len [find where list=$AddressList and address=23.3.88.17]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.3.88.17 }
 :if ([:len [find where list=$AddressList and address=23.3.88.18]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.3.88.18 }
@@ -94,11 +97,17 @@
 :if ([:len [find where list=$AddressList and address=23.38.167.8]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.38.167.8 }
 :if ([:len [find where list=$AddressList and address=23.41.4.69]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.41.4.69 }
 :if ([:len [find where list=$AddressList and address=23.41.4.88]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.41.4.88 }
+:if ([:len [find where list=$AddressList and address=23.44.168.113]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.44.168.113 }
+:if ([:len [find where list=$AddressList and address=23.44.168.114]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.44.168.114 }
+:if ([:len [find where list=$AddressList and address=23.44.168.120]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.44.168.120 }
+:if ([:len [find where list=$AddressList and address=23.44.168.50]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.44.168.50 }
 :if ([:len [find where list=$AddressList and address=23.44.168.75]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.44.168.75 }
 :if ([:len [find where list=$AddressList and address=23.44.168.97]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.44.168.97 }
 :if ([:len [find where list=$AddressList and address=23.44.215.104]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.44.215.104 }
 :if ([:len [find where list=$AddressList and address=23.44.215.129]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.44.215.129 }
 :if ([:len [find where list=$AddressList and address=23.44.215.162]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.44.215.162 }
+:if ([:len [find where list=$AddressList and address=23.45.46.200]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.45.46.200 }
+:if ([:len [find where list=$AddressList and address=23.45.46.202]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.45.46.202 }
 :if ([:len [find where list=$AddressList and address=23.47.124.142]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.47.124.142 }
 :if ([:len [find where list=$AddressList and address=23.47.124.159]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.47.124.159 }
 :if ([:len [find where list=$AddressList and address=23.47.124.161]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=23.47.124.161 }
@@ -171,12 +180,3 @@
 :if ([:len [find where list=$AddressList and address=80.239.150.34]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.150.34 }
 :if ([:len [find where list=$AddressList and address=80.239.150.42]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.150.42 }
 :if ([:len [find where list=$AddressList and address=80.239.150.51]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.150.51 }
-:if ([:len [find where list=$AddressList and address=80.239.150.73]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.150.73 }
-:if ([:len [find where list=$AddressList and address=80.239.150.82]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.150.82 }
-:if ([:len [find where list=$AddressList and address=80.239.150.89]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.150.89 }
-:if ([:len [find where list=$AddressList and address=80.239.254.23]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.254.23 }
-:if ([:len [find where list=$AddressList and address=80.239.254.26]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.254.26 }
-:if ([:len [find where list=$AddressList and address=80.239.254.28]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.254.28 }
-:if ([:len [find where list=$AddressList and address=80.239.254.3]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.254.3 }
-:if ([:len [find where list=$AddressList and address=80.239.254.38]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.254.38 }
-:if ([:len [find where list=$AddressList and address=80.239.254.44]] = 0) do={ add list=$AddressList comment=ralphlauren.eu address=80.239.254.44 }

@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=52.85.185.8]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.185.8 }
+:if ([:len [find where list=$AddressList and address=52.85.185.85]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.185.85 }
+:if ([:len [find where list=$AddressList and address=52.85.185.99]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.185.99 }
+:if ([:len [find where list=$AddressList and address=52.85.223.100]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.100 }
 :if ([:len [find where list=$AddressList and address=52.85.223.104]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.104 }
 :if ([:len [find where list=$AddressList and address=52.85.223.108]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.108 }
 :if ([:len [find where list=$AddressList and address=52.85.223.113]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.223.113 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=64.239.109.65]] = 0) do={ add list=$AddressList comment=zapier.com address=64.239.109.65 }
 :if ([:len [find where list=$AddressList and address=64.239.123.1]] = 0) do={ add list=$AddressList comment=zapier.com address=64.239.123.1 }
 :if ([:len [find where list=$AddressList and address=64.239.123.129]] = 0) do={ add list=$AddressList comment=zapier.com address=64.239.123.129 }
-:if ([:len [find where list=$AddressList and address=64.239.123.193]] = 0) do={ add list=$AddressList comment=zapier.com address=64.239.123.193 }
-:if ([:len [find where list=$AddressList and address=64.239.123.65]] = 0) do={ add list=$AddressList comment=zapier.com address=64.239.123.65 }
-:if ([:len [find where list=$AddressList and address=64.29.17.1]] = 0) do={ add list=$AddressList comment=zapier.com address=64.29.17.1 }
-:if ([:len [find where list=$AddressList and address=64.29.17.130]] = 0) do={ add list=$AddressList comment=zapier.com address=64.29.17.130 }

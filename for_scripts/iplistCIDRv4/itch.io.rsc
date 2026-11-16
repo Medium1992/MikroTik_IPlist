@@ -12,6 +12,7 @@
 :if ([:len [find where list=$AddressList and address=104.76.0.0/16]] = 0) do={ add list=$AddressList comment=itch.io address=104.76.0.0/16 }
 :if ([:len [find where list=$AddressList and address=104.81.0.0/16]] = 0) do={ add list=$AddressList comment=itch.io address=104.81.0.0/16 }
 :if ([:len [find where list=$AddressList and address=104.83.0.0/16]] = 0) do={ add list=$AddressList comment=itch.io address=104.83.0.0/16 }
+:if ([:len [find where list=$AddressList and address=104.84.152.66/32]] = 0) do={ add list=$AddressList comment=itch.io address=104.84.152.66/32 }
 :if ([:len [find where list=$AddressList and address=104.84.153.177/32]] = 0) do={ add list=$AddressList comment=itch.io address=104.84.153.177/32 }
 :if ([:len [find where list=$AddressList and address=104.93.20.18/32]] = 0) do={ add list=$AddressList comment=itch.io address=104.93.20.18/32 }
 :if ([:len [find where list=$AddressList and address=104.95.0.0/16]] = 0) do={ add list=$AddressList comment=itch.io address=104.95.0.0/16 }
@@ -117,7 +118,7 @@
 :if ([:len [find where list=$AddressList and address=23.32.0.0/14]] = 0) do={ add list=$AddressList comment=itch.io address=23.32.0.0/14 }
 :if ([:len [find where list=$AddressList and address=23.36.0.0/16]] = 0) do={ add list=$AddressList comment=itch.io address=23.36.0.0/16 }
 :if ([:len [find where list=$AddressList and address=23.38.0.0/16]] = 0) do={ add list=$AddressList comment=itch.io address=23.38.0.0/16 }
-:if ([:len [find where list=$AddressList and address=23.41.0.0/16]] = 0) do={ add list=$AddressList comment=itch.io address=23.41.0.0/16 }
+:if ([:len [find where list=$AddressList and address=23.40.0.0/15]] = 0) do={ add list=$AddressList comment=itch.io address=23.40.0.0/15 }
 :if ([:len [find where list=$AddressList and address=23.43.0.0/16]] = 0) do={ add list=$AddressList comment=itch.io address=23.43.0.0/16 }
 :if ([:len [find where list=$AddressList and address=23.44.0.0/15]] = 0) do={ add list=$AddressList comment=itch.io address=23.44.0.0/15 }
 :if ([:len [find where list=$AddressList and address=23.47.0.0/16]] = 0) do={ add list=$AddressList comment=itch.io address=23.47.0.0/16 }

@@ -2,9 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=108.177.119.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.177.119.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
+:if ([:len [/ip/route/find dst-address=108.177.127.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.177.127.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=108.177.14.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.177.14.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.250.102.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.102.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.250.150.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.150.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
+:if ([:len [/ip/route/find dst-address=142.250.153.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.153.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.250.154.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.154.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.250.178.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.178.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.250.178.202 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.178.202 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
@@ -52,6 +55,7 @@
 :if ([:len [/ip/route/find dst-address=142.251.143.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.143.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.251.143.138 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.143.138 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.251.143.234 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.143.234 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
+:if ([:len [/ip/route/find dst-address=142.251.18.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.18.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.251.20.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.20.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.251.208.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.208.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.251.208.138 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.208.138 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
@@ -59,6 +63,7 @@
 :if ([:len [/ip/route/find dst-address=142.251.209.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.209.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.251.209.42 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.209.42 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.251.27.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.27.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
+:if ([:len [/ip/route/find dst-address=142.251.31.95 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.31.95 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.251.36.170 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.36.170 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.251.36.202 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.36.202 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=142.251.36.234 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.36.234 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
@@ -97,8 +102,3 @@
 :if ([:len [/ip/route/find dst-address=172.217.171.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.171.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=172.217.171.170 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.171.170 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
 :if ([:len [/ip/route/find dst-address=172.217.171.234 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.171.234 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
-:if ([:len [/ip/route/find dst-address=172.217.171.74 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.171.74 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
-:if ([:len [/ip/route/find dst-address=172.217.18.170 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.18.170 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
-:if ([:len [/ip/route/find dst-address=172.217.18.42 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.18.42 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
-:if ([:len [/ip/route/find dst-address=172.217.19.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.19.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }
-:if ([:len [/ip/route/find dst-address=172.217.19.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=172.217.19.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=aistudio.google.com }

@@ -2,9 +2,7 @@
 /ip firewall address-list
 :if ([:len [find where list=$AddressList and address=13.143.160.0/22]] = 0) do={ add list=$AddressList comment=AS219337 address=13.143.160.0/22 }
 :if ([:len [find where list=$AddressList and address=13.143.172.0/22]] = 0) do={ add list=$AddressList comment=AS219337 address=13.143.172.0/22 }
-:if ([:len [find where list=$AddressList and address=177.202.64.0/22]] = 0) do={ add list=$AddressList comment=AS219337 address=177.202.64.0/22 }
-:if ([:len [find where list=$AddressList and address=177.202.68.0/23]] = 0) do={ add list=$AddressList comment=AS219337 address=177.202.68.0/23 }
-:if ([:len [find where list=$AddressList and address=177.202.70.0/24]] = 0) do={ add list=$AddressList comment=AS219337 address=177.202.70.0/24 }
+:if ([:len [find where list=$AddressList and address=177.202.64.0/20]] = 0) do={ add list=$AddressList comment=AS219337 address=177.202.64.0/20 }
 :if ([:len [find where list=$AddressList and address=177.3.208.0/23]] = 0) do={ add list=$AddressList comment=AS219337 address=177.3.208.0/23 }
 :if ([:len [find where list=$AddressList and address=177.3.212.0/22]] = 0) do={ add list=$AddressList comment=AS219337 address=177.3.212.0/22 }
 :if ([:len [find where list=$AddressList and address=177.3.216.0/21]] = 0) do={ add list=$AddressList comment=AS219337 address=177.3.216.0/21 }
@@ -13,3 +11,5 @@
 :if ([:len [find where list=$AddressList and address=201.58.176.0/20]] = 0) do={ add list=$AddressList comment=AS219337 address=201.58.176.0/20 }
 :if ([:len [find where list=$AddressList and address=31.77.16.0/22]] = 0) do={ add list=$AddressList comment=AS219337 address=31.77.16.0/22 }
 :if ([:len [find where list=$AddressList and address=31.77.8.0/21]] = 0) do={ add list=$AddressList comment=AS219337 address=31.77.8.0/21 }
+:if ([:len [find where list=$AddressList and address=48.102.160.0/22]] = 0) do={ add list=$AddressList comment=AS219337 address=48.102.160.0/22 }
+:if ([:len [find where list=$AddressList and address=48.102.164.0/24]] = 0) do={ add list=$AddressList comment=AS219337 address=48.102.164.0/24 }

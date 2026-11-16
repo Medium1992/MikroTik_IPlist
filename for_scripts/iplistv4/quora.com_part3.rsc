@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.217.198.198]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.198.198 }
+:if ([:len [find where list=$AddressList and address=3.217.207.129]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.207.129 }
+:if ([:len [find where list=$AddressList and address=3.217.208.206]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.208.206 }
+:if ([:len [find where list=$AddressList and address=3.217.213.207]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.213.207 }
 :if ([:len [find where list=$AddressList and address=3.217.242.30]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.242.30 }
 :if ([:len [find where list=$AddressList and address=3.217.245.119]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.245.119 }
 :if ([:len [find where list=$AddressList and address=3.217.53.212]] = 0) do={ add list=$AddressList comment=quora.com address=3.217.53.212 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.83.63.98]] = 0) do={ add list=$AddressList comment=quora.com address=3.83.63.98 }
 :if ([:len [find where list=$AddressList and address=3.84.107.91]] = 0) do={ add list=$AddressList comment=quora.com address=3.84.107.91 }
 :if ([:len [find where list=$AddressList and address=3.85.249.22]] = 0) do={ add list=$AddressList comment=quora.com address=3.85.249.22 }
-:if ([:len [find where list=$AddressList and address=3.85.64.220]] = 0) do={ add list=$AddressList comment=quora.com address=3.85.64.220 }
-:if ([:len [find where list=$AddressList and address=3.86.0.144]] = 0) do={ add list=$AddressList comment=quora.com address=3.86.0.144 }
-:if ([:len [find where list=$AddressList and address=3.86.0.81]] = 0) do={ add list=$AddressList comment=quora.com address=3.86.0.81 }
-:if ([:len [find where list=$AddressList and address=3.86.121.155]] = 0) do={ add list=$AddressList comment=quora.com address=3.86.121.155 }

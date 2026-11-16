@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=69.68.142.0/23]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.142.0/23 }
-:if ([:len [find where list=$AddressList and address=69.68.145.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.145.0/24 }
-:if ([:len [find where list=$AddressList and address=69.68.147.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.147.0/24 }
-:if ([:len [find where list=$AddressList and address=69.68.149.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.149.0/24 }
 :if ([:len [find where list=$AddressList and address=69.68.150.0/23]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.150.0/23 }
 :if ([:len [find where list=$AddressList and address=69.68.153.0/24]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.153.0/24 }
 :if ([:len [find where list=$AddressList and address=69.68.154.0/23]] = 0) do={ add list=$AddressList comment=AS209 address=69.68.154.0/23 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=71.2.64.0/20]] = 0) do={ add list=$AddressList comment=AS209 address=71.2.64.0/20 }
 :if ([:len [find where list=$AddressList and address=71.2.8.0/21]] = 0) do={ add list=$AddressList comment=AS209 address=71.2.8.0/21 }
 :if ([:len [find where list=$AddressList and address=71.2.96.0/20]] = 0) do={ add list=$AddressList comment=AS209 address=71.2.96.0/20 }
+:if ([:len [find where list=$AddressList and address=71.208.0.0/15]] = 0) do={ add list=$AddressList comment=AS209 address=71.208.0.0/15 }
+:if ([:len [find where list=$AddressList and address=71.211.0.0/17]] = 0) do={ add list=$AddressList comment=AS209 address=71.211.0.0/17 }
+:if ([:len [find where list=$AddressList and address=71.211.128.0/21]] = 0) do={ add list=$AddressList comment=AS209 address=71.211.128.0/21 }
+:if ([:len [find where list=$AddressList and address=71.211.136.0/22]] = 0) do={ add list=$AddressList comment=AS209 address=71.211.136.0/22 }

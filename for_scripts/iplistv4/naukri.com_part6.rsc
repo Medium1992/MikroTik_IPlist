@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.227.146.86]] = 0) do={ add list=$AddressList comment=naukri.com address=13.227.146.86 }
+:if ([:len [find where list=$AddressList and address=13.227.146.88]] = 0) do={ add list=$AddressList comment=naukri.com address=13.227.146.88 }
+:if ([:len [find where list=$AddressList and address=13.227.146.91]] = 0) do={ add list=$AddressList comment=naukri.com address=13.227.146.91 }
+:if ([:len [find where list=$AddressList and address=13.227.146.93]] = 0) do={ add list=$AddressList comment=naukri.com address=13.227.146.93 }
 :if ([:len [find where list=$AddressList and address=13.227.173.101]] = 0) do={ add list=$AddressList comment=naukri.com address=13.227.173.101 }
 :if ([:len [find where list=$AddressList and address=13.227.173.115]] = 0) do={ add list=$AddressList comment=naukri.com address=13.227.173.115 }
 :if ([:len [find where list=$AddressList and address=13.227.173.3]] = 0) do={ add list=$AddressList comment=naukri.com address=13.227.173.3 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.249.8.42]] = 0) do={ add list=$AddressList comment=naukri.com address=13.249.8.42 }
 :if ([:len [find where list=$AddressList and address=13.249.8.43]] = 0) do={ add list=$AddressList comment=naukri.com address=13.249.8.43 }
 :if ([:len [find where list=$AddressList and address=13.249.8.48]] = 0) do={ add list=$AddressList comment=naukri.com address=13.249.8.48 }
-:if ([:len [find where list=$AddressList and address=13.249.8.50]] = 0) do={ add list=$AddressList comment=naukri.com address=13.249.8.50 }
-:if ([:len [find where list=$AddressList and address=13.249.8.60]] = 0) do={ add list=$AddressList comment=naukri.com address=13.249.8.60 }
-:if ([:len [find where list=$AddressList and address=13.249.8.67]] = 0) do={ add list=$AddressList comment=naukri.com address=13.249.8.67 }
-:if ([:len [find where list=$AddressList and address=13.249.8.69]] = 0) do={ add list=$AddressList comment=naukri.com address=13.249.8.69 }

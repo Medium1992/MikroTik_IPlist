@@ -30,7 +30,6 @@
 :if ([:len [find where list=$AddressList and address=31.42.188.0/23]] = 0) do={ add list=$AddressList comment=AS50673 address=31.42.188.0/23 }
 :if ([:len [find where list=$AddressList and address=45.141.28.0/22]] = 0) do={ add list=$AddressList comment=AS50673 address=45.141.28.0/22 }
 :if ([:len [find where list=$AddressList and address=45.148.141.0/24]] = 0) do={ add list=$AddressList comment=AS50673 address=45.148.141.0/24 }
-:if ([:len [find where list=$AddressList and address=45.155.7.0/24]] = 0) do={ add list=$AddressList comment=AS50673 address=45.155.7.0/24 }
 :if ([:len [find where list=$AddressList and address=45.156.48.0/22]] = 0) do={ add list=$AddressList comment=AS50673 address=45.156.48.0/22 }
 :if ([:len [find where list=$AddressList and address=45.94.200.0/22]] = 0) do={ add list=$AddressList comment=AS50673 address=45.94.200.0/22 }
 :if ([:len [find where list=$AddressList and address=46.175.144.0/21]] = 0) do={ add list=$AddressList comment=AS50673 address=46.175.144.0/21 }
@@ -56,7 +55,6 @@
 :if ([:len [find where list=$AddressList and address=91.195.80.0/23]] = 0) do={ add list=$AddressList comment=AS50673 address=91.195.80.0/23 }
 :if ([:len [find where list=$AddressList and address=91.199.167.0/24]] = 0) do={ add list=$AddressList comment=AS50673 address=91.199.167.0/24 }
 :if ([:len [find where list=$AddressList and address=91.200.147.0/24]] = 0) do={ add list=$AddressList comment=AS50673 address=91.200.147.0/24 }
-:if ([:len [find where list=$AddressList and address=91.208.52.0/24]] = 0) do={ add list=$AddressList comment=AS50673 address=91.208.52.0/24 }
 :if ([:len [find where list=$AddressList and address=91.213.69.0/24]] = 0) do={ add list=$AddressList comment=AS50673 address=91.213.69.0/24 }
 :if ([:len [find where list=$AddressList and address=91.219.62.0/23]] = 0) do={ add list=$AddressList comment=AS50673 address=91.219.62.0/23 }
 :if ([:len [find where list=$AddressList and address=91.220.37.0/24]] = 0) do={ add list=$AddressList comment=AS50673 address=91.220.37.0/24 }

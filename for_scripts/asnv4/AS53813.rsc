@@ -58,6 +58,7 @@
 :if ([:len [find where list=$AddressList and address=153.69.26.0/24]] = 0) do={ add list=$AddressList comment=AS53813 address=153.69.26.0/24 }
 :if ([:len [find where list=$AddressList and address=153.69.28.0/24]] = 0) do={ add list=$AddressList comment=AS53813 address=153.69.28.0/24 }
 :if ([:len [find where list=$AddressList and address=153.69.30.0/24]] = 0) do={ add list=$AddressList comment=AS53813 address=153.69.30.0/24 }
+:if ([:len [find where list=$AddressList and address=159.198.168.0/23]] = 0) do={ add list=$AddressList comment=AS53813 address=159.198.168.0/23 }
 :if ([:len [find where list=$AddressList and address=159.254.103.0/24]] = 0) do={ add list=$AddressList comment=AS53813 address=159.254.103.0/24 }
 :if ([:len [find where list=$AddressList and address=159.254.204.0/24]] = 0) do={ add list=$AddressList comment=AS53813 address=159.254.204.0/24 }
 :if ([:len [find where list=$AddressList and address=159.254.98.0/24]] = 0) do={ add list=$AddressList comment=AS53813 address=159.254.98.0/24 }
@@ -114,6 +115,7 @@
 :if ([:len [find where list=$AddressList and address=167.103.80.0/21]] = 0) do={ add list=$AddressList comment=AS53813 address=167.103.80.0/21 }
 :if ([:len [find where list=$AddressList and address=167.103.88.0/23]] = 0) do={ add list=$AddressList comment=AS53813 address=167.103.88.0/23 }
 :if ([:len [find where list=$AddressList and address=167.103.96.0/21]] = 0) do={ add list=$AddressList comment=AS53813 address=167.103.96.0/21 }
+:if ([:len [find where list=$AddressList and address=167.83.4.0/23]] = 0) do={ add list=$AddressList comment=AS53813 address=167.83.4.0/23 }
 :if ([:len [find where list=$AddressList and address=168.183.183.0/24]] = 0) do={ add list=$AddressList comment=AS53813 address=168.183.183.0/24 }
 :if ([:len [find where list=$AddressList and address=168.183.184.0/23]] = 0) do={ add list=$AddressList comment=AS53813 address=168.183.184.0/23 }
 :if ([:len [find where list=$AddressList and address=168.183.186.0/24]] = 0) do={ add list=$AddressList comment=AS53813 address=168.183.186.0/24 }

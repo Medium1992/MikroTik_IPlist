@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=62.8.89.161]] = 0) do={ add list=$AddressList comment=whatsapp.com address=62.8.89.161 }
+:if ([:len [find where list=$AddressList and address=62.84.7.34]] = 0) do={ add list=$AddressList comment=whatsapp.com address=62.84.7.34 }
+:if ([:len [find where list=$AddressList and address=63.143.72.225]] = 0) do={ add list=$AddressList comment=whatsapp.com address=63.143.72.225 }
+:if ([:len [find where list=$AddressList and address=64.119.206.226]] = 0) do={ add list=$AddressList comment=whatsapp.com address=64.119.206.226 }
+:if ([:len [find where list=$AddressList and address=64.66.14.161]] = 0) do={ add list=$AddressList comment=whatsapp.com address=64.66.14.161 }
+:if ([:len [find where list=$AddressList and address=65.210.117.162]] = 0) do={ add list=$AddressList comment=whatsapp.com address=65.210.117.162 }
+:if ([:len [find where list=$AddressList and address=65.48.146.161]] = 0) do={ add list=$AddressList comment=whatsapp.com address=65.48.146.161 }
+:if ([:len [find where list=$AddressList and address=66.128.170.98]] = 0) do={ add list=$AddressList comment=whatsapp.com address=66.128.170.98 }
+:if ([:len [find where list=$AddressList and address=66.201.160.34]] = 0) do={ add list=$AddressList comment=whatsapp.com address=66.201.160.34 }
+:if ([:len [find where list=$AddressList and address=66.50.54.100]] = 0) do={ add list=$AddressList comment=whatsapp.com address=66.50.54.100 }
+:if ([:len [find where list=$AddressList and address=66.8.1.161]] = 0) do={ add list=$AddressList comment=whatsapp.com address=66.8.1.161 }
 :if ([:len [find where list=$AddressList and address=66.8.2.33]] = 0) do={ add list=$AddressList comment=whatsapp.com address=66.8.2.33 }
 :if ([:len [find where list=$AddressList and address=66.97.234.34]] = 0) do={ add list=$AddressList comment=whatsapp.com address=66.97.234.34 }
 :if ([:len [find where list=$AddressList and address=67.218.93.225]] = 0) do={ add list=$AddressList comment=whatsapp.com address=67.218.93.225 }

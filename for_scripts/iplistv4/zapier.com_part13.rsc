@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=99.86.159.31]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.31 }
+:if ([:len [find where list=$AddressList and address=99.86.159.36]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.36 }
+:if ([:len [find where list=$AddressList and address=99.86.159.38]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.38 }
+:if ([:len [find where list=$AddressList and address=99.86.159.53]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.53 }
 :if ([:len [find where list=$AddressList and address=99.86.159.56]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.56 }
 :if ([:len [find where list=$AddressList and address=99.86.159.57]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.57 }
 :if ([:len [find where list=$AddressList and address=99.86.159.79]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.79 }

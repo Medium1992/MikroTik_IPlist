@@ -31,6 +31,7 @@
 :if ([:len [find where list=$AddressList and address=185.180.12.68/32]] = 0) do={ add list=$AddressList comment=themoviedb.org address=185.180.12.68/32 }
 :if ([:len [find where list=$AddressList and address=185.229.190.0/23]] = 0) do={ add list=$AddressList comment=themoviedb.org address=185.229.190.0/23 }
 :if ([:len [find where list=$AddressList and address=185.24.11.19/32]] = 0) do={ add list=$AddressList comment=themoviedb.org address=185.24.11.19/32 }
+:if ([:len [find where list=$AddressList and address=185.24.11.22/32]] = 0) do={ add list=$AddressList comment=themoviedb.org address=185.24.11.22/32 }
 :if ([:len [find where list=$AddressList and address=185.59.220.192/28]] = 0) do={ add list=$AddressList comment=themoviedb.org address=185.59.220.192/28 }
 :if ([:len [find where list=$AddressList and address=185.93.1.240/28]] = 0) do={ add list=$AddressList comment=themoviedb.org address=185.93.1.240/28 }
 :if ([:len [find where list=$AddressList and address=185.93.2.240/28]] = 0) do={ add list=$AddressList comment=themoviedb.org address=185.93.2.240/28 }

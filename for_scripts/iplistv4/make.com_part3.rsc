@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=13.226.155.17]] = 0) do={ add list=$AddressList comment=make.com address=13.226.155.17 }
+:if ([:len [find where list=$AddressList and address=13.226.155.23]] = 0) do={ add list=$AddressList comment=make.com address=13.226.155.23 }
+:if ([:len [find where list=$AddressList and address=13.226.155.51]] = 0) do={ add list=$AddressList comment=make.com address=13.226.155.51 }
+:if ([:len [find where list=$AddressList and address=13.226.155.58]] = 0) do={ add list=$AddressList comment=make.com address=13.226.155.58 }
 :if ([:len [find where list=$AddressList and address=13.226.155.61]] = 0) do={ add list=$AddressList comment=make.com address=13.226.155.61 }
 :if ([:len [find where list=$AddressList and address=13.226.155.64]] = 0) do={ add list=$AddressList comment=make.com address=13.226.155.64 }
 :if ([:len [find where list=$AddressList and address=13.226.155.72]] = 0) do={ add list=$AddressList comment=make.com address=13.226.155.72 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.33.153.92]] = 0) do={ add list=$AddressList comment=make.com address=13.33.153.92 }
 :if ([:len [find where list=$AddressList and address=13.33.235.104]] = 0) do={ add list=$AddressList comment=make.com address=13.33.235.104 }
 :if ([:len [find where list=$AddressList and address=13.33.235.109]] = 0) do={ add list=$AddressList comment=make.com address=13.33.235.109 }
-:if ([:len [find where list=$AddressList and address=13.33.235.121]] = 0) do={ add list=$AddressList comment=make.com address=13.33.235.121 }
-:if ([:len [find where list=$AddressList and address=13.33.235.128]] = 0) do={ add list=$AddressList comment=make.com address=13.33.235.128 }
-:if ([:len [find where list=$AddressList and address=13.33.235.14]] = 0) do={ add list=$AddressList comment=make.com address=13.33.235.14 }
-:if ([:len [find where list=$AddressList and address=13.33.235.18]] = 0) do={ add list=$AddressList comment=make.com address=13.33.235.18 }

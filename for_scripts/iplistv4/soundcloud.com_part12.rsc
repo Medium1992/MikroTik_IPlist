@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.165.121.79]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.121.79 }
+:if ([:len [find where list=$AddressList and address=18.165.121.84]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.121.84 }
+:if ([:len [find where list=$AddressList and address=18.165.121.91]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.121.91 }
+:if ([:len [find where list=$AddressList and address=18.165.121.94]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.121.94 }
 :if ([:len [find where list=$AddressList and address=18.165.122.10]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.122.10 }
 :if ([:len [find where list=$AddressList and address=18.165.122.100]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.122.100 }
 :if ([:len [find where list=$AddressList and address=18.165.122.104]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.122.104 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.165.25.107]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.25.107 }
 :if ([:len [find where list=$AddressList and address=18.165.25.126]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.25.126 }
 :if ([:len [find where list=$AddressList and address=18.165.25.127]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.25.127 }
-:if ([:len [find where list=$AddressList and address=18.165.25.22]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.25.22 }
-:if ([:len [find where list=$AddressList and address=18.165.25.23]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.25.23 }
-:if ([:len [find where list=$AddressList and address=18.165.25.42]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.25.42 }
-:if ([:len [find where list=$AddressList and address=18.165.25.47]] = 0) do={ add list=$AddressList comment=soundcloud.com address=18.165.25.47 }

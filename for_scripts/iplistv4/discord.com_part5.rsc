@@ -1,5 +1,20 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=23.82.16.56]] = 0) do={ add list=$AddressList comment=discord.com address=23.82.16.56 }
+:if ([:len [find where list=$AddressList and address=23.82.16.57]] = 0) do={ add list=$AddressList comment=discord.com address=23.82.16.57 }
+:if ([:len [find where list=$AddressList and address=3.160.132.32]] = 0) do={ add list=$AddressList comment=discord.com address=3.160.132.32 }
+:if ([:len [find where list=$AddressList and address=3.160.132.48]] = 0) do={ add list=$AddressList comment=discord.com address=3.160.132.48 }
+:if ([:len [find where list=$AddressList and address=3.160.132.49]] = 0) do={ add list=$AddressList comment=discord.com address=3.160.132.49 }
+:if ([:len [find where list=$AddressList and address=3.160.132.80]] = 0) do={ add list=$AddressList comment=discord.com address=3.160.132.80 }
+:if ([:len [find where list=$AddressList and address=3.160.212.121]] = 0) do={ add list=$AddressList comment=discord.com address=3.160.212.121 }
+:if ([:len [find where list=$AddressList and address=3.160.212.21]] = 0) do={ add list=$AddressList comment=discord.com address=3.160.212.21 }
+:if ([:len [find where list=$AddressList and address=3.160.212.83]] = 0) do={ add list=$AddressList comment=discord.com address=3.160.212.83 }
+:if ([:len [find where list=$AddressList and address=3.160.212.87]] = 0) do={ add list=$AddressList comment=discord.com address=3.160.212.87 }
+:if ([:len [find where list=$AddressList and address=3.161.119.106]] = 0) do={ add list=$AddressList comment=discord.com address=3.161.119.106 }
+:if ([:len [find where list=$AddressList and address=3.161.119.25]] = 0) do={ add list=$AddressList comment=discord.com address=3.161.119.25 }
+:if ([:len [find where list=$AddressList and address=3.161.119.68]] = 0) do={ add list=$AddressList comment=discord.com address=3.161.119.68 }
+:if ([:len [find where list=$AddressList and address=3.161.119.7]] = 0) do={ add list=$AddressList comment=discord.com address=3.161.119.7 }
+:if ([:len [find where list=$AddressList and address=3.162.140.48]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.48 }
 :if ([:len [find where list=$AddressList and address=3.162.140.55]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.55 }
 :if ([:len [find where list=$AddressList and address=3.162.140.91]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.91 }
 :if ([:len [find where list=$AddressList and address=3.162.140.97]] = 0) do={ add list=$AddressList comment=discord.com address=3.162.140.97 }
@@ -165,18 +180,3 @@
 :if ([:len [find where list=$AddressList and address=64.233.163.207]] = 0) do={ add list=$AddressList comment=discord.com address=64.233.163.207 }
 :if ([:len [find where list=$AddressList and address=64.233.164.207]] = 0) do={ add list=$AddressList comment=discord.com address=64.233.164.207 }
 :if ([:len [find where list=$AddressList and address=64.233.165.207]] = 0) do={ add list=$AddressList comment=discord.com address=64.233.165.207 }
-:if ([:len [find where list=$AddressList and address=64.31.3.226]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.226 }
-:if ([:len [find where list=$AddressList and address=64.31.3.227]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.227 }
-:if ([:len [find where list=$AddressList and address=64.31.3.229]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.229 }
-:if ([:len [find where list=$AddressList and address=64.31.3.230]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.230 }
-:if ([:len [find where list=$AddressList and address=64.31.3.234]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.234 }
-:if ([:len [find where list=$AddressList and address=64.31.3.235]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.235 }
-:if ([:len [find where list=$AddressList and address=64.31.3.236]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.236 }
-:if ([:len [find where list=$AddressList and address=64.31.3.237]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.237 }
-:if ([:len [find where list=$AddressList and address=64.31.3.238]] = 0) do={ add list=$AddressList comment=discord.com address=64.31.3.238 }
-:if ([:len [find where list=$AddressList and address=65.9.187.104]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.187.104 }
-:if ([:len [find where list=$AddressList and address=65.9.187.113]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.187.113 }
-:if ([:len [find where list=$AddressList and address=65.9.187.19]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.187.19 }
-:if ([:len [find where list=$AddressList and address=65.9.187.47]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.187.47 }
-:if ([:len [find where list=$AddressList and address=65.9.189.33]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.189.33 }
-:if ([:len [find where list=$AddressList and address=65.9.189.48]] = 0) do={ add list=$AddressList comment=discord.com address=65.9.189.48 }

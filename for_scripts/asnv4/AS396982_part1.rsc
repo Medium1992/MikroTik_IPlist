@@ -72,6 +72,7 @@
 :if ([:len [find where list=$AddressList and address=136.120.0.0/22]] = 0) do={ add list=$AddressList comment=AS396982 address=136.120.0.0/22 }
 :if ([:len [find where list=$AddressList and address=136.121.8.0/21]] = 0) do={ add list=$AddressList comment=AS396982 address=136.121.8.0/21 }
 :if ([:len [find where list=$AddressList and address=136.124.0.0/15]] = 0) do={ add list=$AddressList comment=AS396982 address=136.124.0.0/15 }
+:if ([:len [find where list=$AddressList and address=136.148.0.0/24]] = 0) do={ add list=$AddressList comment=AS396982 address=136.148.0.0/24 }
 :if ([:len [find where list=$AddressList and address=136.22.2.0/23]] = 0) do={ add list=$AddressList comment=AS396982 address=136.22.2.0/23 }
 :if ([:len [find where list=$AddressList and address=136.22.4.0/23]] = 0) do={ add list=$AddressList comment=AS396982 address=136.22.4.0/23 }
 :if ([:len [find where list=$AddressList and address=136.22.8.0/22]] = 0) do={ add list=$AddressList comment=AS396982 address=136.22.8.0/22 }
@@ -111,7 +112,6 @@
 :if ([:len [find where list=$AddressList and address=148.64.0.0/19]] = 0) do={ add list=$AddressList comment=AS396982 address=148.64.0.0/19 }
 :if ([:len [find where list=$AddressList and address=148.80.64.0/21]] = 0) do={ add list=$AddressList comment=AS396982 address=148.80.64.0/21 }
 :if ([:len [find where list=$AddressList and address=148.80.72.0/22]] = 0) do={ add list=$AddressList comment=AS396982 address=148.80.72.0/22 }
-:if ([:len [find where list=$AddressList and address=151.158.119.0/24]] = 0) do={ add list=$AddressList comment=AS396982 address=151.158.119.0/24 }
 :if ([:len [find where list=$AddressList and address=151.158.7.0/24]] = 0) do={ add list=$AddressList comment=AS396982 address=151.158.7.0/24 }
 :if ([:len [find where list=$AddressList and address=151.193.0.0/24]] = 0) do={ add list=$AddressList comment=AS396982 address=151.193.0.0/24 }
 :if ([:len [find where list=$AddressList and address=151.193.105.0/24]] = 0) do={ add list=$AddressList comment=AS396982 address=151.193.105.0/24 }

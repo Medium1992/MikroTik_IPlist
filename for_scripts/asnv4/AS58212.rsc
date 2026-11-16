@@ -6,6 +6,7 @@
 :if ([:len [find where list=$AddressList and address=143.14.156.0/24]] = 0) do={ add list=$AddressList comment=AS58212 address=143.14.156.0/24 }
 :if ([:len [find where list=$AddressList and address=143.14.202.0/24]] = 0) do={ add list=$AddressList comment=AS58212 address=143.14.202.0/24 }
 :if ([:len [find where list=$AddressList and address=143.14.216.0/24]] = 0) do={ add list=$AddressList comment=AS58212 address=143.14.216.0/24 }
+:if ([:len [find where list=$AddressList and address=153.56.228.0/23]] = 0) do={ add list=$AddressList comment=AS58212 address=153.56.228.0/23 }
 :if ([:len [find where list=$AddressList and address=159.200.230.0/23]] = 0) do={ add list=$AddressList comment=AS58212 address=159.200.230.0/23 }
 :if ([:len [find where list=$AddressList and address=163.123.244.0/24]] = 0) do={ add list=$AddressList comment=AS58212 address=163.123.244.0/24 }
 :if ([:len [find where list=$AddressList and address=167.148.173.0/24]] = 0) do={ add list=$AddressList comment=AS58212 address=167.148.173.0/24 }
@@ -39,6 +40,7 @@
 :if ([:len [find where list=$AddressList and address=45.148.134.0/24]] = 0) do={ add list=$AddressList comment=AS58212 address=45.148.134.0/24 }
 :if ([:len [find where list=$AddressList and address=45.157.232.0/22]] = 0) do={ add list=$AddressList comment=AS58212 address=45.157.232.0/22 }
 :if ([:len [find where list=$AddressList and address=45.86.156.0/23]] = 0) do={ add list=$AddressList comment=AS58212 address=45.86.156.0/23 }
+:if ([:len [find where list=$AddressList and address=45.86.158.0/24]] = 0) do={ add list=$AddressList comment=AS58212 address=45.86.158.0/24 }
 :if ([:len [find where list=$AddressList and address=5.175.161.0/24]] = 0) do={ add list=$AddressList comment=AS58212 address=5.175.161.0/24 }
 :if ([:len [find where list=$AddressList and address=5.182.201.0/24]] = 0) do={ add list=$AddressList comment=AS58212 address=5.182.201.0/24 }
 :if ([:len [find where list=$AddressList and address=5.231.70.0/24]] = 0) do={ add list=$AddressList comment=AS58212 address=5.231.70.0/24 }

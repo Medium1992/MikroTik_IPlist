@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=142.250.180.251]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.180.251 }
+:if ([:len [find where list=$AddressList and address=142.250.180.27]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.180.27 }
+:if ([:len [find where list=$AddressList and address=142.250.181.187]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.181.187 }
+:if ([:len [find where list=$AddressList and address=142.250.181.251]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.181.251 }
+:if ([:len [find where list=$AddressList and address=142.250.184.155]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.184.155 }
 :if ([:len [find where list=$AddressList and address=142.250.187.123]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.187.123 }
 :if ([:len [find where list=$AddressList and address=142.250.187.155]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.187.155 }
 :if ([:len [find where list=$AddressList and address=142.250.187.187]] = 0) do={ add list=$AddressList comment=discord.com address=142.250.187.187 }
@@ -50,6 +55,7 @@
 :if ([:len [find where list=$AddressList and address=142.251.209.27]] = 0) do={ add list=$AddressList comment=discord.com address=142.251.209.27 }
 :if ([:len [find where list=$AddressList and address=142.251.209.59]] = 0) do={ add list=$AddressList comment=discord.com address=142.251.209.59 }
 :if ([:len [find where list=$AddressList and address=142.251.27.207]] = 0) do={ add list=$AddressList comment=discord.com address=142.251.27.207 }
+:if ([:len [find where list=$AddressList and address=142.251.31.207]] = 0) do={ add list=$AddressList comment=discord.com address=142.251.31.207 }
 :if ([:len [find where list=$AddressList and address=142.251.36.187]] = 0) do={ add list=$AddressList comment=discord.com address=142.251.36.187 }
 :if ([:len [find where list=$AddressList and address=142.251.36.219]] = 0) do={ add list=$AddressList comment=discord.com address=142.251.36.219 }
 :if ([:len [find where list=$AddressList and address=142.251.36.251]] = 0) do={ add list=$AddressList comment=discord.com address=142.251.36.251 }
@@ -172,11 +178,5 @@
 :if ([:len [find where list=$AddressList and address=172.217.21.219]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.21.219 }
 :if ([:len [find where list=$AddressList and address=172.217.21.251]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.21.251 }
 :if ([:len [find where list=$AddressList and address=172.217.21.27]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.21.27 }
+:if ([:len [find where list=$AddressList and address=172.217.218.207]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.218.207 }
 :if ([:len [find where list=$AddressList and address=172.217.22.123]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.123 }
-:if ([:len [find where list=$AddressList and address=172.217.22.155]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.155 }
-:if ([:len [find where list=$AddressList and address=172.217.22.187]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.187 }
-:if ([:len [find where list=$AddressList and address=172.217.22.219]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.219 }
-:if ([:len [find where list=$AddressList and address=172.217.22.251]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.251 }
-:if ([:len [find where list=$AddressList and address=172.217.22.27]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.27 }
-:if ([:len [find where list=$AddressList and address=172.217.22.59]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.59 }
-:if ([:len [find where list=$AddressList and address=172.217.22.91]] = 0) do={ add list=$AddressList comment=discord.com address=172.217.22.91 }

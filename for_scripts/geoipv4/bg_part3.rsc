@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=154.43.182.0/24]] = 0) do={ add list=$AddressList comment=bg address=154.43.182.0/24 }
+:if ([:len [find where list=$AddressList and address=154.43.184.0/23]] = 0) do={ add list=$AddressList comment=bg address=154.43.184.0/23 }
+:if ([:len [find where list=$AddressList and address=154.60.0.0/19]] = 0) do={ add list=$AddressList comment=bg address=154.60.0.0/19 }
+:if ([:len [find where list=$AddressList and address=154.81.195.0/24]] = 0) do={ add list=$AddressList comment=bg address=154.81.195.0/24 }
 :if ([:len [find where list=$AddressList and address=154.94.100.0/24]] = 0) do={ add list=$AddressList comment=bg address=154.94.100.0/24 }
 :if ([:len [find where list=$AddressList and address=155.2.162.192/29]] = 0) do={ add list=$AddressList comment=bg address=155.2.162.192/29 }
 :if ([:len [find where list=$AddressList and address=155.2.166.192/29]] = 0) do={ add list=$AddressList comment=bg address=155.2.166.192/29 }
@@ -102,7 +106,6 @@
 :if ([:len [find where list=$AddressList and address=170.168.58.0/24]] = 0) do={ add list=$AddressList comment=bg address=170.168.58.0/24 }
 :if ([:len [find where list=$AddressList and address=170.168.87.0/24]] = 0) do={ add list=$AddressList comment=bg address=170.168.87.0/24 }
 :if ([:len [find where list=$AddressList and address=170.62.236.0/24]] = 0) do={ add list=$AddressList comment=bg address=170.62.236.0/24 }
-:if ([:len [find where list=$AddressList and address=171.22.19.0/24]] = 0) do={ add list=$AddressList comment=bg address=171.22.19.0/24 }
 :if ([:len [find where list=$AddressList and address=172.158.133.32/27]] = 0) do={ add list=$AddressList comment=bg address=172.158.133.32/27 }
 :if ([:len [find where list=$AddressList and address=172.225.104.16/28]] = 0) do={ add list=$AddressList comment=bg address=172.225.104.16/28 }
 :if ([:len [find where list=$AddressList and address=172.225.104.184/29]] = 0) do={ add list=$AddressList comment=bg address=172.225.104.184/29 }
@@ -135,6 +138,7 @@
 :if ([:len [find where list=$AddressList and address=178.211.146.0/24]] = 0) do={ add list=$AddressList comment=bg address=178.211.146.0/24 }
 :if ([:len [find where list=$AddressList and address=178.215.224.0/24]] = 0) do={ add list=$AddressList comment=bg address=178.215.224.0/24 }
 :if ([:len [find where list=$AddressList and address=178.215.227.0/24]] = 0) do={ add list=$AddressList comment=bg address=178.215.227.0/24 }
+:if ([:len [find where list=$AddressList and address=178.215.239.0/24]] = 0) do={ add list=$AddressList comment=bg address=178.215.239.0/24 }
 :if ([:len [find where list=$AddressList and address=178.217.88.0/22]] = 0) do={ add list=$AddressList comment=bg address=178.217.88.0/22 }
 :if ([:len [find where list=$AddressList and address=178.239.112.0/24]] = 0) do={ add list=$AddressList comment=bg address=178.239.112.0/24 }
 :if ([:len [find where list=$AddressList and address=178.239.115.0/24]] = 0) do={ add list=$AddressList comment=bg address=178.239.115.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=185.120.180.0/24]] = 0) do={ add list=$AddressList comment=bg address=185.120.180.0/24 }
 :if ([:len [find where list=$AddressList and address=185.121.152.0/22]] = 0) do={ add list=$AddressList comment=bg address=185.121.152.0/22 }
 :if ([:len [find where list=$AddressList and address=185.123.188.0/22]] = 0) do={ add list=$AddressList comment=bg address=185.123.188.0/22 }
-:if ([:len [find where list=$AddressList and address=185.134.228.0/22]] = 0) do={ add list=$AddressList comment=bg address=185.134.228.0/22 }
-:if ([:len [find where list=$AddressList and address=185.136.97.0/24]] = 0) do={ add list=$AddressList comment=bg address=185.136.97.0/24 }
-:if ([:len [find where list=$AddressList and address=185.136.99.0/24]] = 0) do={ add list=$AddressList comment=bg address=185.136.99.0/24 }
-:if ([:len [find where list=$AddressList and address=185.138.176.0/22]] = 0) do={ add list=$AddressList comment=bg address=185.138.176.0/22 }

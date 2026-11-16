@@ -5,6 +5,14 @@
 :if ([:len [find where list=$AddressList and address=103.216.231.0/24]] = 0) do={ add list=$AddressList comment=AS210528 address=103.216.231.0/24 }
 :if ([:len [find where list=$AddressList and address=119.27.192.0/20]] = 0) do={ add list=$AddressList comment=AS210528 address=119.27.192.0/20 }
 :if ([:len [find where list=$AddressList and address=119.27.240.0/20]] = 0) do={ add list=$AddressList comment=AS210528 address=119.27.240.0/20 }
+:if ([:len [find where list=$AddressList and address=122.0.128.0/19]] = 0) do={ add list=$AddressList comment=AS210528 address=122.0.128.0/19 }
+:if ([:len [find where list=$AddressList and address=122.0.240.0/20]] = 0) do={ add list=$AddressList comment=AS210528 address=122.0.240.0/20 }
+:if ([:len [find where list=$AddressList and address=124.20.0.0/19]] = 0) do={ add list=$AddressList comment=AS210528 address=124.20.0.0/19 }
+:if ([:len [find where list=$AddressList and address=124.20.112.0/20]] = 0) do={ add list=$AddressList comment=AS210528 address=124.20.112.0/20 }
+:if ([:len [find where list=$AddressList and address=124.20.224.0/20]] = 0) do={ add list=$AddressList comment=AS210528 address=124.20.224.0/20 }
+:if ([:len [find where list=$AddressList and address=124.21.128.0/20]] = 0) do={ add list=$AddressList comment=AS210528 address=124.21.128.0/20 }
+:if ([:len [find where list=$AddressList and address=124.21.192.0/20]] = 0) do={ add list=$AddressList comment=AS210528 address=124.21.192.0/20 }
+:if ([:len [find where list=$AddressList and address=124.21.64.0/20]] = 0) do={ add list=$AddressList comment=AS210528 address=124.21.64.0/20 }
 :if ([:len [find where list=$AddressList and address=124.68.0.0/20]] = 0) do={ add list=$AddressList comment=AS210528 address=124.68.0.0/20 }
 :if ([:len [find where list=$AddressList and address=124.68.160.0/22]] = 0) do={ add list=$AddressList comment=AS210528 address=124.68.160.0/22 }
 :if ([:len [find where list=$AddressList and address=124.68.176.0/20]] = 0) do={ add list=$AddressList comment=AS210528 address=124.68.176.0/20 }

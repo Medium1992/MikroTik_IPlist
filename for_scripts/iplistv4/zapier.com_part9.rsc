@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.85.82]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.82 }
+:if ([:len [find where list=$AddressList and address=3.164.85.83]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.83 }
+:if ([:len [find where list=$AddressList and address=3.165.113.101]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.113.101 }
+:if ([:len [find where list=$AddressList and address=3.165.113.57]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.113.57 }
 :if ([:len [find where list=$AddressList and address=3.165.113.63]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.113.63 }
 :if ([:len [find where list=$AddressList and address=3.165.113.83]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.113.83 }
 :if ([:len [find where list=$AddressList and address=3.165.148.33]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.148.33 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.174.18.15]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.15 }
 :if ([:len [find where list=$AddressList and address=3.174.18.19]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.19 }
 :if ([:len [find where list=$AddressList and address=3.174.18.26]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.26 }
-:if ([:len [find where list=$AddressList and address=3.174.18.28]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.28 }
-:if ([:len [find where list=$AddressList and address=3.174.18.31]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.31 }
-:if ([:len [find where list=$AddressList and address=3.174.18.45]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.45 }
-:if ([:len [find where list=$AddressList and address=3.174.18.48]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.48 }

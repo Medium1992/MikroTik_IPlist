@@ -128,6 +128,7 @@
 :if ([:len [find where list=$AddressList and address=157.240.253.41]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.253.41 }
 :if ([:len [find where list=$AddressList and address=157.240.253.63]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.253.63 }
 :if ([:len [find where list=$AddressList and address=157.240.254.41]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.254.41 }
+:if ([:len [find where list=$AddressList and address=157.240.26.11]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.26.11 }
 :if ([:len [find where list=$AddressList and address=157.240.26.33]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.26.33 }
 :if ([:len [find where list=$AddressList and address=157.240.26.63]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.26.63 }
 :if ([:len [find where list=$AddressList and address=157.240.27.11]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.27.11 }
@@ -179,4 +180,3 @@
 :if ([:len [find where list=$AddressList and address=157.240.8.41]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.8.41 }
 :if ([:len [find where list=$AddressList and address=157.240.8.50]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.8.50 }
 :if ([:len [find where list=$AddressList and address=157.240.8.52]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.8.52 }
-:if ([:len [find where list=$AddressList and address=157.240.9.13]] = 0) do={ add list=$AddressList comment=instagram.com address=157.240.9.13 }

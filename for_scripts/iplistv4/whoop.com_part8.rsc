@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.172.213.51]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.213.51 }
+:if ([:len [find where list=$AddressList and address=18.172.213.60]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.213.60 }
+:if ([:len [find where list=$AddressList and address=18.172.213.70]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.213.70 }
+:if ([:len [find where list=$AddressList and address=18.172.213.72]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.213.72 }
 :if ([:len [find where list=$AddressList and address=18.172.213.74]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.213.74 }
 :if ([:len [find where list=$AddressList and address=18.172.213.82]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.213.82 }
 :if ([:len [find where list=$AddressList and address=18.172.213.84]] = 0) do={ add list=$AddressList comment=whoop.com address=18.172.213.84 }
@@ -139,6 +143,10 @@
 :if ([:len [find where list=$AddressList and address=18.238.4.42]] = 0) do={ add list=$AddressList comment=whoop.com address=18.238.4.42 }
 :if ([:len [find where list=$AddressList and address=18.238.4.56]] = 0) do={ add list=$AddressList comment=whoop.com address=18.238.4.56 }
 :if ([:len [find where list=$AddressList and address=18.238.4.98]] = 0) do={ add list=$AddressList comment=whoop.com address=18.238.4.98 }
+:if ([:len [find where list=$AddressList and address=18.239.168.4]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.168.4 }
+:if ([:len [find where list=$AddressList and address=18.239.168.64]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.168.64 }
+:if ([:len [find where list=$AddressList and address=18.239.168.68]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.168.68 }
+:if ([:len [find where list=$AddressList and address=18.239.168.75]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.168.75 }
 :if ([:len [find where list=$AddressList and address=18.239.18.103]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.18.103 }
 :if ([:len [find where list=$AddressList and address=18.239.18.109]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.18.109 }
 :if ([:len [find where list=$AddressList and address=18.239.18.123]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.18.123 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.239.255.123]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.123 }
 :if ([:len [find where list=$AddressList and address=18.239.255.128]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.128 }
 :if ([:len [find where list=$AddressList and address=18.239.255.16]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.16 }
-:if ([:len [find where list=$AddressList and address=18.239.255.17]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.17 }
-:if ([:len [find where list=$AddressList and address=18.239.255.18]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.18 }
-:if ([:len [find where list=$AddressList and address=18.239.255.28]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.28 }
-:if ([:len [find where list=$AddressList and address=18.239.255.3]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.3 }
-:if ([:len [find where list=$AddressList and address=18.239.255.32]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.32 }
-:if ([:len [find where list=$AddressList and address=18.239.255.34]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.34 }
-:if ([:len [find where list=$AddressList and address=18.239.255.36]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.36 }
-:if ([:len [find where list=$AddressList and address=18.239.255.38]] = 0) do={ add list=$AddressList comment=whoop.com address=18.239.255.38 }

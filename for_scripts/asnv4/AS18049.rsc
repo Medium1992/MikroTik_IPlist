@@ -112,12 +112,13 @@
 :if ([:len [find where list=$AddressList and address=60.244.132.0/22]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.132.0/22 }
 :if ([:len [find where list=$AddressList and address=60.244.136.0/21]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.136.0/21 }
 :if ([:len [find where list=$AddressList and address=60.244.144.0/20]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.144.0/20 }
-:if ([:len [find where list=$AddressList and address=60.244.168.0/21]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.168.0/21 }
+:if ([:len [find where list=$AddressList and address=60.244.160.0/20]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.160.0/20 }
 :if ([:len [find where list=$AddressList and address=60.244.176.0/21]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.176.0/21 }
 :if ([:len [find where list=$AddressList and address=60.244.188.0/22]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.188.0/22 }
 :if ([:len [find where list=$AddressList and address=60.244.192.0/20]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.192.0/20 }
 :if ([:len [find where list=$AddressList and address=60.244.208.0/21]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.208.0/21 }
 :if ([:len [find where list=$AddressList and address=60.244.222.0/23]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.222.0/23 }
+:if ([:len [find where list=$AddressList and address=60.244.224.0/21]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.224.0/21 }
 :if ([:len [find where list=$AddressList and address=60.244.236.0/22]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.236.0/22 }
 :if ([:len [find where list=$AddressList and address=60.244.244.0/22]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.244.0/22 }
 :if ([:len [find where list=$AddressList and address=60.244.250.0/23]] = 0) do={ add list=$AddressList comment=AS18049 address=60.244.250.0/23 }

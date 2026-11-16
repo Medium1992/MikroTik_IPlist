@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=172.29.218.139]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.218.139 }
+:if ([:len [find where list=$AddressList and address=172.29.218.143]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.218.143 }
+:if ([:len [find where list=$AddressList and address=172.29.218.146]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.218.146 }
+:if ([:len [find where list=$AddressList and address=172.29.218.147]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.218.147 }
+:if ([:len [find where list=$AddressList and address=172.29.218.148]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.218.148 }
+:if ([:len [find where list=$AddressList and address=172.29.218.153]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.218.153 }
 :if ([:len [find where list=$AddressList and address=172.29.218.156]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.218.156 }
 :if ([:len [find where list=$AddressList and address=172.29.218.159]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.218.159 }
 :if ([:len [find where list=$AddressList and address=172.29.218.168]] = 0) do={ add list=$AddressList comment=tidal.com address=172.29.218.168 }
@@ -156,6 +162,10 @@
 :if ([:len [find where list=$AddressList and address=18.154.7.9]] = 0) do={ add list=$AddressList comment=tidal.com address=18.154.7.9 }
 :if ([:len [find where list=$AddressList and address=18.154.82.245]] = 0) do={ add list=$AddressList comment=tidal.com address=18.154.82.245 }
 :if ([:len [find where list=$AddressList and address=18.154.93.250]] = 0) do={ add list=$AddressList comment=tidal.com address=18.154.93.250 }
+:if ([:len [find where list=$AddressList and address=18.155.0.101]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.0.101 }
+:if ([:len [find where list=$AddressList and address=18.155.0.50]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.0.50 }
+:if ([:len [find where list=$AddressList and address=18.155.0.74]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.0.74 }
+:if ([:len [find where list=$AddressList and address=18.155.0.98]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.0.98 }
 :if ([:len [find where list=$AddressList and address=18.155.129.115]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.129.115 }
 :if ([:len [find where list=$AddressList and address=18.155.129.128]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.129.128 }
 :if ([:len [find where list=$AddressList and address=18.155.129.86]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.129.86 }
@@ -170,13 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.155.145.89]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.145.89 }
 :if ([:len [find where list=$AddressList and address=18.155.153.20]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.153.20 }
 :if ([:len [find where list=$AddressList and address=18.155.153.26]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.153.26 }
-:if ([:len [find where list=$AddressList and address=18.155.153.3]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.153.3 }
-:if ([:len [find where list=$AddressList and address=18.155.153.59]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.153.59 }
-:if ([:len [find where list=$AddressList and address=18.155.153.61]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.153.61 }
-:if ([:len [find where list=$AddressList and address=18.155.153.70]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.153.70 }
-:if ([:len [find where list=$AddressList and address=18.155.153.73]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.153.73 }
-:if ([:len [find where list=$AddressList and address=18.155.153.86]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.153.86 }
-:if ([:len [find where list=$AddressList and address=18.155.156.240]] = 0) do={ add list=$AddressList comment=tidal.com address=18.155.156.240 }
-:if ([:len [find where list=$AddressList and address=18.161.106.245]] = 0) do={ add list=$AddressList comment=tidal.com address=18.161.106.245 }
-:if ([:len [find where list=$AddressList and address=18.161.111.125]] = 0) do={ add list=$AddressList comment=tidal.com address=18.161.111.125 }
-:if ([:len [find where list=$AddressList and address=18.161.111.127]] = 0) do={ add list=$AddressList comment=tidal.com address=18.161.111.127 }

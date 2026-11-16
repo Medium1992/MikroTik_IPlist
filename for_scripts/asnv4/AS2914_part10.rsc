@@ -1,10 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=43.251.186.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=43.251.186.0/24 }
-:if ([:len [find where list=$AddressList and address=45.124.61.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=45.124.61.0/24 }
-:if ([:len [find where list=$AddressList and address=45.143.8.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=45.143.8.0/24 }
-:if ([:len [find where list=$AddressList and address=45.145.176.0/22]] = 0) do={ add list=$AddressList comment=AS2914 address=45.145.176.0/22 }
-:if ([:len [find where list=$AddressList and address=45.146.114.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=45.146.114.0/24 }
 :if ([:len [find where list=$AddressList and address=45.149.6.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=45.149.6.0/24 }
 :if ([:len [find where list=$AddressList and address=45.15.98.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=45.15.98.0/24 }
 :if ([:len [find where list=$AddressList and address=45.153.160.0/22]] = 0) do={ add list=$AddressList comment=AS2914 address=45.153.160.0/22 }
@@ -80,6 +75,7 @@
 :if ([:len [find where list=$AddressList and address=61.15.216.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=61.15.216.0/24 }
 :if ([:len [find where list=$AddressList and address=61.15.223.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=61.15.223.0/24 }
 :if ([:len [find where list=$AddressList and address=61.15.226.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=61.15.226.0/24 }
+:if ([:len [find where list=$AddressList and address=61.15.255.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=61.15.255.0/24 }
 :if ([:len [find where list=$AddressList and address=61.200.80.0/22]] = 0) do={ add list=$AddressList comment=AS2914 address=61.200.80.0/22 }
 :if ([:len [find where list=$AddressList and address=61.200.84.0/23]] = 0) do={ add list=$AddressList comment=AS2914 address=61.200.84.0/23 }
 :if ([:len [find where list=$AddressList and address=61.200.86.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=61.200.86.0/24 }
@@ -123,6 +119,8 @@
 :if ([:len [find where list=$AddressList and address=64.95.148.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=64.95.148.0/24 }
 :if ([:len [find where list=$AddressList and address=64.95.48.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=64.95.48.0/24 }
 :if ([:len [find where list=$AddressList and address=65.87.2.0/23]] = 0) do={ add list=$AddressList comment=AS2914 address=65.87.2.0/23 }
+:if ([:len [find where list=$AddressList and address=66.111.100.0/22]] = 0) do={ add list=$AddressList comment=AS2914 address=66.111.100.0/22 }
+:if ([:len [find where list=$AddressList and address=66.111.104.0/22]] = 0) do={ add list=$AddressList comment=AS2914 address=66.111.104.0/22 }
 :if ([:len [find where list=$AddressList and address=66.227.112.0/22]] = 0) do={ add list=$AddressList comment=AS2914 address=66.227.112.0/22 }
 :if ([:len [find where list=$AddressList and address=66.253.99.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=66.253.99.0/24 }
 :if ([:len [find where list=$AddressList and address=66.6.55.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=66.6.55.0/24 }
@@ -180,3 +178,5 @@
 :if ([:len [find where list=$AddressList and address=74.2.230.0/23]] = 0) do={ add list=$AddressList comment=AS2914 address=74.2.230.0/23 }
 :if ([:len [find where list=$AddressList and address=74.211.234.0/24]] = 0) do={ add list=$AddressList comment=AS2914 address=74.211.234.0/24 }
 :if ([:len [find where list=$AddressList and address=78.231.0.0/16]] = 0) do={ add list=$AddressList comment=AS2914 address=78.231.0.0/16 }
+:if ([:len [find where list=$AddressList and address=78.235.128.0/17]] = 0) do={ add list=$AddressList comment=AS2914 address=78.235.128.0/17 }
+:if ([:len [find where list=$AddressList and address=78.235.32.0/19]] = 0) do={ add list=$AddressList comment=AS2914 address=78.235.32.0/19 }

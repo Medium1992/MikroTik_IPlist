@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=64.239.123.193]] = 0) do={ add list=$AddressList comment=zapier.com address=64.239.123.193 }
+:if ([:len [find where list=$AddressList and address=64.239.123.65]] = 0) do={ add list=$AddressList comment=zapier.com address=64.239.123.65 }
+:if ([:len [find where list=$AddressList and address=64.29.17.1]] = 0) do={ add list=$AddressList comment=zapier.com address=64.29.17.1 }
+:if ([:len [find where list=$AddressList and address=64.29.17.130]] = 0) do={ add list=$AddressList comment=zapier.com address=64.29.17.130 }
 :if ([:len [find where list=$AddressList and address=64.29.17.131]] = 0) do={ add list=$AddressList comment=zapier.com address=64.29.17.131 }
 :if ([:len [find where list=$AddressList and address=64.29.17.194]] = 0) do={ add list=$AddressList comment=zapier.com address=64.29.17.194 }
 :if ([:len [find where list=$AddressList and address=64.29.17.2]] = 0) do={ add list=$AddressList comment=zapier.com address=64.29.17.2 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=99.86.159.19]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.19 }
 :if ([:len [find where list=$AddressList and address=99.86.159.20]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.20 }
 :if ([:len [find where list=$AddressList and address=99.86.159.3]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.3 }
-:if ([:len [find where list=$AddressList and address=99.86.159.31]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.31 }
-:if ([:len [find where list=$AddressList and address=99.86.159.36]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.36 }
-:if ([:len [find where list=$AddressList and address=99.86.159.38]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.38 }
-:if ([:len [find where list=$AddressList and address=99.86.159.53]] = 0) do={ add list=$AddressList comment=zapier.com address=99.86.159.53 }

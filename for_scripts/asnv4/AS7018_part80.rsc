@@ -1,15 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=64.166.72.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=64.166.72.0/23 }
-:if ([:len [find where list=$AddressList and address=64.166.74.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=64.166.74.0/24 }
-:if ([:len [find where list=$AddressList and address=64.166.76.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=64.166.76.0/22 }
-:if ([:len [find where list=$AddressList and address=64.166.80.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=64.166.80.0/20 }
-:if ([:len [find where list=$AddressList and address=64.166.96.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=64.166.96.0/19 }
-:if ([:len [find where list=$AddressList and address=64.167.0.0/16]] = 0) do={ add list=$AddressList comment=AS7018 address=64.167.0.0/16 }
-:if ([:len [find where list=$AddressList and address=64.168.0.0/18]] = 0) do={ add list=$AddressList comment=AS7018 address=64.168.0.0/18 }
-:if ([:len [find where list=$AddressList and address=64.168.112.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=64.168.112.0/22 }
-:if ([:len [find where list=$AddressList and address=64.168.116.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=64.168.116.0/23 }
-:if ([:len [find where list=$AddressList and address=64.168.120.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=64.168.120.0/21 }
 :if ([:len [find where list=$AddressList and address=64.168.128.0/17]] = 0) do={ add list=$AddressList comment=AS7018 address=64.168.128.0/17 }
 :if ([:len [find where list=$AddressList and address=64.168.64.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=64.168.64.0/19 }
 :if ([:len [find where list=$AddressList and address=64.168.96.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=64.168.96.0/20 }
@@ -59,7 +49,21 @@
 :if ([:len [find where list=$AddressList and address=64.217.100.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.100.0/22 }
 :if ([:len [find where list=$AddressList and address=64.217.104.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.104.0/21 }
 :if ([:len [find where list=$AddressList and address=64.217.112.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.112.0/20 }
-:if ([:len [find where list=$AddressList and address=64.217.128.0/17]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.128.0/17 }
+:if ([:len [find where list=$AddressList and address=64.217.128.0/20]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.128.0/20 }
+:if ([:len [find where list=$AddressList and address=64.217.144.0/21]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.144.0/21 }
+:if ([:len [find where list=$AddressList and address=64.217.152.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.152.0/22 }
+:if ([:len [find where list=$AddressList and address=64.217.156.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.156.0/23 }
+:if ([:len [find where list=$AddressList and address=64.217.158.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.158.0/24 }
+:if ([:len [find where list=$AddressList and address=64.217.159.0/27]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.159.0/27 }
+:if ([:len [find where list=$AddressList and address=64.217.159.128/25]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.159.128/25 }
+:if ([:len [find where list=$AddressList and address=64.217.159.32/29]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.159.32/29 }
+:if ([:len [find where list=$AddressList and address=64.217.159.40/31]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.159.40/31 }
+:if ([:len [find where list=$AddressList and address=64.217.159.43/32]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.159.43/32 }
+:if ([:len [find where list=$AddressList and address=64.217.159.44/30]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.159.44/30 }
+:if ([:len [find where list=$AddressList and address=64.217.159.48/28]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.159.48/28 }
+:if ([:len [find where list=$AddressList and address=64.217.159.64/26]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.159.64/26 }
+:if ([:len [find where list=$AddressList and address=64.217.160.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.160.0/19 }
+:if ([:len [find where list=$AddressList and address=64.217.192.0/18]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.192.0/18 }
 :if ([:len [find where list=$AddressList and address=64.217.64.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.64.0/19 }
 :if ([:len [find where list=$AddressList and address=64.217.96.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.96.0/23 }
 :if ([:len [find where list=$AddressList and address=64.217.99.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=64.217.99.0/24 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=65.71.160.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=65.71.160.0/19 }
 :if ([:len [find where list=$AddressList and address=65.71.192.0/18]] = 0) do={ add list=$AddressList comment=AS7018 address=65.71.192.0/18 }
 :if ([:len [find where list=$AddressList and address=65.71.24.0/22]] = 0) do={ add list=$AddressList comment=AS7018 address=65.71.24.0/22 }
-:if ([:len [find where list=$AddressList and address=65.71.28.0/23]] = 0) do={ add list=$AddressList comment=AS7018 address=65.71.28.0/23 }
-:if ([:len [find where list=$AddressList and address=65.71.31.0/24]] = 0) do={ add list=$AddressList comment=AS7018 address=65.71.31.0/24 }
-:if ([:len [find where list=$AddressList and address=65.71.32.0/19]] = 0) do={ add list=$AddressList comment=AS7018 address=65.71.32.0/19 }
-:if ([:len [find where list=$AddressList and address=65.71.64.0/18]] = 0) do={ add list=$AddressList comment=AS7018 address=65.71.64.0/18 }

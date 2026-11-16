@@ -2,6 +2,11 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=142.250.74.187 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.74.187 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=142.250.74.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.74.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=142.250.74.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.250.74.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=142.251.1.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.1.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=142.251.110.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.110.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=142.251.127.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.127.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=142.251.13.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.13.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=142.251.14.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.14.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
@@ -32,6 +37,7 @@
 :if ([:len [/ip/route/find dst-address=142.251.209.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.209.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=142.251.209.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.209.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=142.251.27.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.27.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
+:if ([:len [/ip/route/find dst-address=142.251.31.207 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.31.207 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=142.251.36.187 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.36.187 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=142.251.36.219 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.36.219 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=142.251.36.251 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=142.251.36.251 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=162.159.136.234 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.159.136.234 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=162.159.137.232 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.159.137.232 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
 :if ([:len [/ip/route/find dst-address=162.159.137.233 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.159.137.233 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=162.159.137.234 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.159.137.234 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=162.159.138.232 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.159.138.232 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=162.159.138.233 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.159.138.233 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=162.159.138.234 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.159.138.234 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=162.210.195.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.210.195.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }
-:if ([:len [/ip/route/find dst-address=162.210.195.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=162.210.195.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=discord.com }

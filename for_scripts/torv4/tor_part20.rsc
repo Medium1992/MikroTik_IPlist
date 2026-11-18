@@ -1,13 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.22/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.23/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.25/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.3/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.30/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.33/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.34/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.35/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.4/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.40/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.0.44/32 } on-error={}
@@ -250,3 +242,11 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.117/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.118/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.119/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.12/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.120/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.121/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.122/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.123/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.124/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.125/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=64.65.2.126/32 } on-error={}

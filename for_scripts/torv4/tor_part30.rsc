@@ -1,10 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:do { add dynamic=yes list=$AddressList comment=tor address=96.9.98.98/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=96.9.98.99/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=97.107.139.108/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=97.115.93.32/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=97.205.234.11/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=97.228.7.188/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=97.98.27.66/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=98.115.87.163/32 } on-error={}

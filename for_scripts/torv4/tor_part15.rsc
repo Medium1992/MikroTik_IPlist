@@ -1,5 +1,13 @@
 :global AddressList
 /ip firewall address-list
+:do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.204/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.205/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.206/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.207/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.208/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.209/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.210/32 } on-error={}
+:do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.211/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.212/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.213/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=23.129.64.214/32 } on-error={}
@@ -242,11 +250,3 @@
 :do { add dynamic=yes list=$AddressList comment=tor address=23.95.79.7/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=24.111.106.81/32 } on-error={}
 :do { add dynamic=yes list=$AddressList comment=tor address=24.127.70.107/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=24.151.1.51/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=24.154.11.40/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=24.191.62.109/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=24.217.229.36/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=24.31.164.114/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=24.91.181.59/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=3.109.114.194/32 } on-error={}
-:do { add dynamic=yes list=$AddressList comment=tor address=3.148.106.150/32 } on-error={}

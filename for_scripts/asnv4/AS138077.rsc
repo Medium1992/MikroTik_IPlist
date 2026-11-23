@@ -3,6 +3,7 @@
 :if ([:len [find where list=$AddressList and address=101.1.4.0/24]] = 0) do={ add list=$AddressList comment=AS138077 address=101.1.4.0/24 }
 :if ([:len [find where list=$AddressList and address=103.10.136.0/22]] = 0) do={ add list=$AddressList comment=AS138077 address=103.10.136.0/22 }
 :if ([:len [find where list=$AddressList and address=103.130.198.0/23]] = 0) do={ add list=$AddressList comment=AS138077 address=103.130.198.0/23 }
+:if ([:len [find where list=$AddressList and address=103.137.38.0/23]] = 0) do={ add list=$AddressList comment=AS138077 address=103.137.38.0/23 }
 :if ([:len [find where list=$AddressList and address=103.150.179.0/24]] = 0) do={ add list=$AddressList comment=AS138077 address=103.150.179.0/24 }
 :if ([:len [find where list=$AddressList and address=103.16.136.0/22]] = 0) do={ add list=$AddressList comment=AS138077 address=103.16.136.0/22 }
 :if ([:len [find where list=$AddressList and address=103.160.154.0/23]] = 0) do={ add list=$AddressList comment=AS138077 address=103.160.154.0/23 }
@@ -34,6 +35,7 @@
 :if ([:len [find where list=$AddressList and address=202.58.223.0/24]] = 0) do={ add list=$AddressList comment=AS138077 address=202.58.223.0/24 }
 :if ([:len [find where list=$AddressList and address=203.84.138.0/24]] = 0) do={ add list=$AddressList comment=AS138077 address=203.84.138.0/24 }
 :if ([:len [find where list=$AddressList and address=203.84.140.0/24]] = 0) do={ add list=$AddressList comment=AS138077 address=203.84.140.0/24 }
+:if ([:len [find where list=$AddressList and address=31.58.33.0/24]] = 0) do={ add list=$AddressList comment=AS138077 address=31.58.33.0/24 }
 :if ([:len [find where list=$AddressList and address=36.50.46.0/23]] = 0) do={ add list=$AddressList comment=AS138077 address=36.50.46.0/23 }
 :if ([:len [find where list=$AddressList and address=72.57.155.0/24]] = 0) do={ add list=$AddressList comment=AS138077 address=72.57.155.0/24 }
 :if ([:len [find where list=$AddressList and address=72.57.156.0/22]] = 0) do={ add list=$AddressList comment=AS138077 address=72.57.156.0/22 }

@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=66.167.201.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=66.167.201.0/24 }
+:if ([:len [find where list=$AddressList and address=66.167.204.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=66.167.204.0/24 }
+:if ([:len [find where list=$AddressList and address=66.253.17.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=66.253.17.0/24 }
+:if ([:len [find where list=$AddressList and address=66.253.18.0/23]] = 0) do={ add list=$AddressList comment=AS21859 address=66.253.18.0/23 }
+:if ([:len [find where list=$AddressList and address=66.253.20.0/22]] = 0) do={ add list=$AddressList comment=AS21859 address=66.253.20.0/22 }
+:if ([:len [find where list=$AddressList and address=66.253.25.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=66.253.25.0/24 }
+:if ([:len [find where list=$AddressList and address=66.253.26.0/23]] = 0) do={ add list=$AddressList comment=AS21859 address=66.253.26.0/23 }
+:if ([:len [find where list=$AddressList and address=66.253.28.0/22]] = 0) do={ add list=$AddressList comment=AS21859 address=66.253.28.0/22 }
+:if ([:len [find where list=$AddressList and address=66.78.36.0/23]] = 0) do={ add list=$AddressList comment=AS21859 address=66.78.36.0/23 }
+:if ([:len [find where list=$AddressList and address=66.92.165.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=66.92.165.0/24 }
+:if ([:len [find where list=$AddressList and address=66.92.246.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=66.92.246.0/24 }
 :if ([:len [find where list=$AddressList and address=66.92.255.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=66.92.255.0/24 }
 :if ([:len [find where list=$AddressList and address=66.93.56.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=66.93.56.0/24 }
 :if ([:len [find where list=$AddressList and address=67.227.68.0/24]] = 0) do={ add list=$AddressList comment=AS21859 address=67.227.68.0/24 }

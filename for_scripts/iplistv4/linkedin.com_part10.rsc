@@ -1,5 +1,21 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=95.100.171.24]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.171.24 }
+:if ([:len [find where list=$AddressList and address=95.100.171.28]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.171.28 }
+:if ([:len [find where list=$AddressList and address=95.100.171.42]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.171.42 }
+:if ([:len [find where list=$AddressList and address=95.100.171.6]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.171.6 }
+:if ([:len [find where list=$AddressList and address=95.100.181.11]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.11 }
+:if ([:len [find where list=$AddressList and address=95.100.181.13]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.13 }
+:if ([:len [find where list=$AddressList and address=95.100.181.132]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.132 }
+:if ([:len [find where list=$AddressList and address=95.100.181.133]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.133 }
+:if ([:len [find where list=$AddressList and address=95.100.181.134]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.134 }
+:if ([:len [find where list=$AddressList and address=95.100.181.135]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.135 }
+:if ([:len [find where list=$AddressList and address=95.100.181.136]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.136 }
+:if ([:len [find where list=$AddressList and address=95.100.181.138]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.138 }
+:if ([:len [find where list=$AddressList and address=95.100.181.139]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.139 }
+:if ([:len [find where list=$AddressList and address=95.100.181.141]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.141 }
+:if ([:len [find where list=$AddressList and address=95.100.181.143]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.143 }
+:if ([:len [find where list=$AddressList and address=95.100.181.26]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.26 }
 :if ([:len [find where list=$AddressList and address=95.100.181.29]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.29 }
 :if ([:len [find where list=$AddressList and address=95.100.181.5]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.181.5 }
 :if ([:len [find where list=$AddressList and address=95.100.202.106]] = 0) do={ add list=$AddressList comment=linkedin.com address=95.100.202.106 }

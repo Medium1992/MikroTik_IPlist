@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=13.226.175.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
+:if ([:len [/ip/route/find dst-address=13.226.175.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
+:if ([:len [/ip/route/find dst-address=13.226.175.31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
+:if ([:len [/ip/route/find dst-address=13.226.175.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
+:if ([:len [/ip/route/find dst-address=13.226.175.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
+:if ([:len [/ip/route/find dst-address=13.226.175.44 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.44 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
 :if ([:len [/ip/route/find dst-address=13.226.175.46 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.46 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
 :if ([:len [/ip/route/find dst-address=13.226.175.48 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.48 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
 :if ([:len [/ip/route/find dst-address=13.226.175.49 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.226.175.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=13.227.146.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.146.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
 :if ([:len [/ip/route/find dst-address=13.227.146.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.146.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
 :if ([:len [/ip/route/find dst-address=13.227.146.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.146.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
-:if ([:len [/ip/route/find dst-address=13.227.146.27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.146.27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
-:if ([:len [/ip/route/find dst-address=13.227.146.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.146.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
-:if ([:len [/ip/route/find dst-address=13.227.146.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.146.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
-:if ([:len [/ip/route/find dst-address=13.227.146.3 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.146.3 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
-:if ([:len [/ip/route/find dst-address=13.227.146.31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.146.31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }
-:if ([:len [/ip/route/find dst-address=13.227.146.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=13.227.146.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=jetbrains.com }

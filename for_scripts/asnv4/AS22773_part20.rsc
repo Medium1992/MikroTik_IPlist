@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=68.9.93.160/27]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.93.160/27 }
+:if ([:len [find where list=$AddressList and address=68.9.93.192/26]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.93.192/26 }
+:if ([:len [find where list=$AddressList and address=68.9.94.0/23]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.94.0/23 }
+:if ([:len [find where list=$AddressList and address=68.9.96.0/19]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.96.0/19 }
 :if ([:len [find where list=$AddressList and address=68.96.0.0/22]] = 0) do={ add list=$AddressList comment=AS22773 address=68.96.0.0/22 }
 :if ([:len [find where list=$AddressList and address=68.96.12.0/26]] = 0) do={ add list=$AddressList comment=AS22773 address=68.96.12.0/26 }
 :if ([:len [find where list=$AddressList and address=68.96.12.100/30]] = 0) do={ add list=$AddressList comment=AS22773 address=68.96.12.100/30 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=68.99.184.0/21]] = 0) do={ add list=$AddressList comment=AS22773 address=68.99.184.0/21 }
 :if ([:len [find where list=$AddressList and address=68.99.192.0/18]] = 0) do={ add list=$AddressList comment=AS22773 address=68.99.192.0/18 }
 :if ([:len [find where list=$AddressList and address=69.3.0.0/17]] = 0) do={ add list=$AddressList comment=AS22773 address=69.3.0.0/17 }
-:if ([:len [find where list=$AddressList and address=69.63.100.0/24]] = 0) do={ add list=$AddressList comment=AS22773 address=69.63.100.0/24 }
-:if ([:len [find where list=$AddressList and address=69.63.102.0/23]] = 0) do={ add list=$AddressList comment=AS22773 address=69.63.102.0/23 }
-:if ([:len [find where list=$AddressList and address=69.63.104.0/21]] = 0) do={ add list=$AddressList comment=AS22773 address=69.63.104.0/21 }
-:if ([:len [find where list=$AddressList and address=69.63.112.0/20]] = 0) do={ add list=$AddressList comment=AS22773 address=69.63.112.0/20 }

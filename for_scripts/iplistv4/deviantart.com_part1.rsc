@@ -1,5 +1,7 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=104.18.14.140]] = 0) do={ add list=$AddressList comment=deviantart.com address=104.18.14.140 }
+:if ([:len [find where list=$AddressList and address=104.18.15.140]] = 0) do={ add list=$AddressList comment=deviantart.com address=104.18.15.140 }
 :if ([:len [find where list=$AddressList and address=108.138.192.101]] = 0) do={ add list=$AddressList comment=deviantart.com address=108.138.192.101 }
 :if ([:len [find where list=$AddressList and address=108.138.192.102]] = 0) do={ add list=$AddressList comment=deviantart.com address=108.138.192.102 }
 :if ([:len [find where list=$AddressList and address=108.138.192.120]] = 0) do={ add list=$AddressList comment=deviantart.com address=108.138.192.120 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=13.32.121.79]] = 0) do={ add list=$AddressList comment=deviantart.com address=13.32.121.79 }
 :if ([:len [find where list=$AddressList and address=13.32.220.109]] = 0) do={ add list=$AddressList comment=deviantart.com address=13.32.220.109 }
 :if ([:len [find where list=$AddressList and address=13.32.220.11]] = 0) do={ add list=$AddressList comment=deviantart.com address=13.32.220.11 }
-:if ([:len [find where list=$AddressList and address=13.32.220.27]] = 0) do={ add list=$AddressList comment=deviantart.com address=13.32.220.27 }
-:if ([:len [find where list=$AddressList and address=13.32.220.34]] = 0) do={ add list=$AddressList comment=deviantart.com address=13.32.220.34 }

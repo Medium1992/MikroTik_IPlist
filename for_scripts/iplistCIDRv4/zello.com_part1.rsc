@@ -48,7 +48,9 @@
 :if ([:len [find where list=$AddressList and address=18.214.196.164/32]] = 0) do={ add list=$AddressList comment=zello.com address=18.214.196.164/32 }
 :if ([:len [find where list=$AddressList and address=18.214.211.205/32]] = 0) do={ add list=$AddressList comment=zello.com address=18.214.211.205/32 }
 :if ([:len [find where list=$AddressList and address=18.215.46.240/32]] = 0) do={ add list=$AddressList comment=zello.com address=18.215.46.240/32 }
+:if ([:len [find where list=$AddressList and address=18.232.183.106/32]] = 0) do={ add list=$AddressList comment=zello.com address=18.232.183.106/32 }
 :if ([:len [find where list=$AddressList and address=18.232.43.224/32]] = 0) do={ add list=$AddressList comment=zello.com address=18.232.43.224/32 }
+:if ([:len [find where list=$AddressList and address=18.233.20.38/32]] = 0) do={ add list=$AddressList comment=zello.com address=18.233.20.38/32 }
 :if ([:len [find where list=$AddressList and address=18.235.116.112/32]] = 0) do={ add list=$AddressList comment=zello.com address=18.235.116.112/32 }
 :if ([:len [find where list=$AddressList and address=18.235.4.171/32]] = 0) do={ add list=$AddressList comment=zello.com address=18.235.4.171/32 }
 :if ([:len [find where list=$AddressList and address=18.239.0.0/16]] = 0) do={ add list=$AddressList comment=zello.com address=18.239.0.0/16 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=34.96.83.50/32]] = 0) do={ add list=$AddressList comment=zello.com address=34.96.83.50/32 }
 :if ([:len [find where list=$AddressList and address=35.153.50.235/32]] = 0) do={ add list=$AddressList comment=zello.com address=35.153.50.235/32 }
 :if ([:len [find where list=$AddressList and address=35.160.0.0/12]] = 0) do={ add list=$AddressList comment=zello.com address=35.160.0.0/12 }
-:if ([:len [find where list=$AddressList and address=35.184.0.0/13]] = 0) do={ add list=$AddressList comment=zello.com address=35.184.0.0/13 }
-:if ([:len [find where list=$AddressList and address=35.192.0.0/12]] = 0) do={ add list=$AddressList comment=zello.com address=35.192.0.0/12 }

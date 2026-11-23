@@ -1,16 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=67.11.148.214/31]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.148.214/31 }
-:if ([:len [find where list=$AddressList and address=67.11.148.216/29]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.148.216/29 }
-:if ([:len [find where list=$AddressList and address=67.11.148.224/27]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.148.224/27 }
-:if ([:len [find where list=$AddressList and address=67.11.149.0/24]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.149.0/24 }
-:if ([:len [find where list=$AddressList and address=67.11.150.0/23]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.150.0/23 }
-:if ([:len [find where list=$AddressList and address=67.11.152.0/21]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.152.0/21 }
-:if ([:len [find where list=$AddressList and address=67.11.160.0/19]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.160.0/19 }
-:if ([:len [find where list=$AddressList and address=67.11.192.0/18]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.192.0/18 }
-:if ([:len [find where list=$AddressList and address=67.11.64.0/21]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.64.0/21 }
-:if ([:len [find where list=$AddressList and address=67.11.72.0/23]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.72.0/23 }
-:if ([:len [find where list=$AddressList and address=67.11.74.0/24]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.74.0/24 }
 :if ([:len [find where list=$AddressList and address=67.11.75.0/25]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.75.0/25 }
 :if ([:len [find where list=$AddressList and address=67.11.75.128/27]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.75.128/27 }
 :if ([:len [find where list=$AddressList and address=67.11.75.160/28]] = 0) do={ add list=$AddressList comment=AS11427 address=67.11.75.160/28 }
@@ -180,3 +169,14 @@
 :if ([:len [find where list=$AddressList and address=68.201.217.0/24]] = 0) do={ add list=$AddressList comment=AS11427 address=68.201.217.0/24 }
 :if ([:len [find where list=$AddressList and address=68.201.218.0/23]] = 0) do={ add list=$AddressList comment=AS11427 address=68.201.218.0/23 }
 :if ([:len [find where list=$AddressList and address=68.201.220.0/22]] = 0) do={ add list=$AddressList comment=AS11427 address=68.201.220.0/22 }
+:if ([:len [find where list=$AddressList and address=68.201.224.0/19]] = 0) do={ add list=$AddressList comment=AS11427 address=68.201.224.0/19 }
+:if ([:len [find where list=$AddressList and address=68.201.3.0/24]] = 0) do={ add list=$AddressList comment=AS11427 address=68.201.3.0/24 }
+:if ([:len [find where list=$AddressList and address=68.201.32.0/19]] = 0) do={ add list=$AddressList comment=AS11427 address=68.201.32.0/19 }
+:if ([:len [find where list=$AddressList and address=68.201.4.0/22]] = 0) do={ add list=$AddressList comment=AS11427 address=68.201.4.0/22 }
+:if ([:len [find where list=$AddressList and address=68.201.64.0/19]] = 0) do={ add list=$AddressList comment=AS11427 address=68.201.64.0/19 }
+:if ([:len [find where list=$AddressList and address=68.201.8.0/22]] = 0) do={ add list=$AddressList comment=AS11427 address=68.201.8.0/22 }
+:if ([:len [find where list=$AddressList and address=68.201.96.0/20]] = 0) do={ add list=$AddressList comment=AS11427 address=68.201.96.0/20 }
+:if ([:len [find where list=$AddressList and address=68.203.0.0/20]] = 0) do={ add list=$AddressList comment=AS11427 address=68.203.0.0/20 }
+:if ([:len [find where list=$AddressList and address=68.203.100.0/22]] = 0) do={ add list=$AddressList comment=AS11427 address=68.203.100.0/22 }
+:if ([:len [find where list=$AddressList and address=68.203.104.0/21]] = 0) do={ add list=$AddressList comment=AS11427 address=68.203.104.0/21 }
+:if ([:len [find where list=$AddressList and address=68.203.112.0/24]] = 0) do={ add list=$AddressList comment=AS11427 address=68.203.112.0/24 }

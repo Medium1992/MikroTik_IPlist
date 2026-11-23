@@ -12,6 +12,7 @@
 :if ([:len [find where list=$AddressList and address=142.111.183.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=142.111.183.0/24 }
 :if ([:len [find where list=$AddressList and address=142.249.78.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=142.249.78.0/24 }
 :if ([:len [find where list=$AddressList and address=143.246.43.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=143.246.43.0/24 }
+:if ([:len [find where list=$AddressList and address=144.225.242.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=144.225.242.0/24 }
 :if ([:len [find where list=$AddressList and address=144.225.53.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=144.225.53.0/24 }
 :if ([:len [find where list=$AddressList and address=144.225.54.0/23]] = 0) do={ add list=$AddressList comment=AS209604 address=144.225.54.0/23 }
 :if ([:len [find where list=$AddressList and address=158.51.78.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=158.51.78.0/24 }
@@ -34,6 +35,7 @@
 :if ([:len [find where list=$AddressList and address=23.230.139.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=23.230.139.0/24 }
 :if ([:len [find where list=$AddressList and address=23.26.200.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=23.26.200.0/24 }
 :if ([:len [find where list=$AddressList and address=23.26.203.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=23.26.203.0/24 }
+:if ([:len [find where list=$AddressList and address=31.77.167.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=31.77.167.0/24 }
 :if ([:len [find where list=$AddressList and address=45.155.125.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=45.155.125.0/24 }
 :if ([:len [find where list=$AddressList and address=45.38.149.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=45.38.149.0/24 }
 :if ([:len [find where list=$AddressList and address=45.38.190.0/24]] = 0) do={ add list=$AddressList comment=AS209604 address=45.38.190.0/24 }

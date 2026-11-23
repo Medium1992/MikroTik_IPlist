@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=18.172.112.89 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.172.112.89 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deviantart.com }
+:if ([:len [/ip/route/find dst-address=18.172.153.104 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.172.153.104 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deviantart.com }
 :if ([:len [/ip/route/find dst-address=18.172.153.22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.172.153.22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deviantart.com }
 :if ([:len [/ip/route/find dst-address=18.172.153.40 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.172.153.40 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deviantart.com }
 :if ([:len [/ip/route/find dst-address=18.172.153.71 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.172.153.71 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deviantart.com }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=18.245.199.62 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.245.199.62 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deviantart.com }
 :if ([:len [/ip/route/find dst-address=18.245.199.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.245.199.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deviantart.com }
 :if ([:len [/ip/route/find dst-address=18.245.31.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.245.31.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deviantart.com }
-:if ([:len [/ip/route/find dst-address=18.245.31.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.245.31.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deviantart.com }
-:if ([:len [/ip/route/find dst-address=18.245.31.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.245.31.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=deviantart.com }

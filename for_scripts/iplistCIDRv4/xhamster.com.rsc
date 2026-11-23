@@ -31,6 +31,7 @@
 :if ([:len [find where list=$AddressList and address=37.19.203.26/31]] = 0) do={ add list=$AddressList comment=xhamster.com address=37.19.203.26/31 }
 :if ([:len [find where list=$AddressList and address=37.19.218.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=37.19.218.0/24 }
 :if ([:len [find where list=$AddressList and address=45.133.44.0/22]] = 0) do={ add list=$AddressList comment=xhamster.com address=45.133.44.0/22 }
+:if ([:len [find where list=$AddressList and address=45.143.248.0/22]] = 0) do={ add list=$AddressList comment=xhamster.com address=45.143.248.0/22 }
 :if ([:len [find where list=$AddressList and address=46.151.194.0/24]] = 0) do={ add list=$AddressList comment=xhamster.com address=46.151.194.0/24 }
 :if ([:len [find where list=$AddressList and address=64.210.128.0/19]] = 0) do={ add list=$AddressList comment=xhamster.com address=64.210.128.0/19 }
 :if ([:len [find where list=$AddressList and address=64.88.240.0/20]] = 0) do={ add list=$AddressList comment=xhamster.com address=64.88.240.0/20 }

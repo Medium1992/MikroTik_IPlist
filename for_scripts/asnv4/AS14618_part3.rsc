@@ -50,7 +50,9 @@
 :if ([:len [find where list=$AddressList and address=174.34.245.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=174.34.245.0/24 }
 :if ([:len [find where list=$AddressList and address=176.221.81.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=176.221.81.0/24 }
 :if ([:len [find where list=$AddressList and address=176.52.187.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=176.52.187.0/24 }
+:if ([:len [find where list=$AddressList and address=177.122.73.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=177.122.73.0/24 }
 :if ([:len [find where list=$AddressList and address=177.28.8.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=177.28.8.0/24 }
+:if ([:len [find where list=$AddressList and address=177.29.200.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=177.29.200.0/24 }
 :if ([:len [find where list=$AddressList and address=177.86.141.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=177.86.141.0/24 }
 :if ([:len [find where list=$AddressList and address=178.92.111.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=178.92.111.0/24 }
 :if ([:len [find where list=$AddressList and address=178.95.43.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=178.95.43.0/24 }
@@ -178,5 +180,3 @@
 :if ([:len [find where list=$AddressList and address=198.204.196.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=198.204.196.0/24 }
 :if ([:len [find where list=$AddressList and address=198.204.198.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=198.204.198.0/24 }
 :if ([:len [find where list=$AddressList and address=198.204.203.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=198.204.203.0/24 }
-:if ([:len [find where list=$AddressList and address=198.204.9.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=198.204.9.0/24 }
-:if ([:len [find where list=$AddressList and address=198.207.169.0/24]] = 0) do={ add list=$AddressList comment=AS14618 address=198.207.169.0/24 }

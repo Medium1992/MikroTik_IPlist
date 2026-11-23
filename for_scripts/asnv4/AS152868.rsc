@@ -17,8 +17,6 @@
 :if ([:len [find where list=$AddressList and address=151.241.206.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=151.241.206.0/24 }
 :if ([:len [find where list=$AddressList and address=151.243.22.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=151.243.22.0/24 }
 :if ([:len [find where list=$AddressList and address=151.245.177.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=151.245.177.0/24 }
-:if ([:len [find where list=$AddressList and address=151.247.106.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=151.247.106.0/24 }
-:if ([:len [find where list=$AddressList and address=151.247.97.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=151.247.97.0/24 }
 :if ([:len [find where list=$AddressList and address=160.187.28.0/23]] = 0) do={ add list=$AddressList comment=AS152868 address=160.187.28.0/23 }
 :if ([:len [find where list=$AddressList and address=164.37.231.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=164.37.231.0/24 }
 :if ([:len [find where list=$AddressList and address=172.82.189.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=172.82.189.0/24 }
@@ -30,4 +28,6 @@
 :if ([:len [find where list=$AddressList and address=40.27.112.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=40.27.112.0/24 }
 :if ([:len [find where list=$AddressList and address=40.27.124.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=40.27.124.0/24 }
 :if ([:len [find where list=$AddressList and address=40.27.126.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=40.27.126.0/24 }
+:if ([:len [find where list=$AddressList and address=51.146.151.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=51.146.151.0/24 }
 :if ([:len [find where list=$AddressList and address=79.176.244.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=79.176.244.0/24 }
+:if ([:len [find where list=$AddressList and address=89.106.28.0/24]] = 0) do={ add list=$AddressList comment=AS152868 address=89.106.28.0/24 }

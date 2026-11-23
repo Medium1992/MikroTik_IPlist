@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=18.245.86.9 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.245.86.9 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
+:if ([:len [/ip/route/find dst-address=18.64.103.119 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.64.103.119 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=18.64.103.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.64.103.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=18.64.103.2 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.64.103.2 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=18.64.103.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.64.103.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
@@ -100,5 +102,3 @@
 :if ([:len [/ip/route/find dst-address=18.66.192.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.192.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=18.66.192.68 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.192.68 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
 :if ([:len [/ip/route/find dst-address=18.66.192.77 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.192.77 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=18.66.196.107 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.196.107 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }
-:if ([:len [/ip/route/find dst-address=18.66.196.118 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=18.66.196.118 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=claude.ai }

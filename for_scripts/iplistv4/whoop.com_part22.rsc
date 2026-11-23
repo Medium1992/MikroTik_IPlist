@@ -1,5 +1,10 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.209.99.25]] = 0) do={ add list=$AddressList comment=whoop.com address=3.209.99.25 }
+:if ([:len [find where list=$AddressList and address=3.210.108.201]] = 0) do={ add list=$AddressList comment=whoop.com address=3.210.108.201 }
+:if ([:len [find where list=$AddressList and address=3.210.114.187]] = 0) do={ add list=$AddressList comment=whoop.com address=3.210.114.187 }
+:if ([:len [find where list=$AddressList and address=3.210.115.172]] = 0) do={ add list=$AddressList comment=whoop.com address=3.210.115.172 }
+:if ([:len [find where list=$AddressList and address=3.210.12.112]] = 0) do={ add list=$AddressList comment=whoop.com address=3.210.12.112 }
 :if ([:len [find where list=$AddressList and address=3.210.124.120]] = 0) do={ add list=$AddressList comment=whoop.com address=3.210.124.120 }
 :if ([:len [find where list=$AddressList and address=3.210.136.249]] = 0) do={ add list=$AddressList comment=whoop.com address=3.210.136.249 }
 :if ([:len [find where list=$AddressList and address=3.210.14.253]] = 0) do={ add list=$AddressList comment=whoop.com address=3.210.14.253 }
@@ -175,8 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.220.118.104]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.118.104 }
 :if ([:len [find where list=$AddressList and address=3.220.156.109]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.156.109 }
 :if ([:len [find where list=$AddressList and address=3.220.159.247]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.159.247 }
-:if ([:len [find where list=$AddressList and address=3.220.165.48]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.165.48 }
-:if ([:len [find where list=$AddressList and address=3.220.195.104]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.195.104 }
-:if ([:len [find where list=$AddressList and address=3.220.55.68]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.55.68 }
-:if ([:len [find where list=$AddressList and address=3.220.76.66]] = 0) do={ add list=$AddressList comment=whoop.com address=3.220.76.66 }
-:if ([:len [find where list=$AddressList and address=3.221.115.94]] = 0) do={ add list=$AddressList comment=whoop.com address=3.221.115.94 }

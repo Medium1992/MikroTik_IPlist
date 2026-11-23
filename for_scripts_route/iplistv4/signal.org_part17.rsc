@@ -2,6 +2,12 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=54.205.92.116 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.205.92.116 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
+:if ([:len [/ip/route/find dst-address=54.208.101.11 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.208.101.11 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
+:if ([:len [/ip/route/find dst-address=54.208.117.220 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.208.117.220 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
+:if ([:len [/ip/route/find dst-address=54.208.177.173 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.208.177.173 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
+:if ([:len [/ip/route/find dst-address=54.208.177.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.208.177.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
+:if ([:len [/ip/route/find dst-address=54.208.188.156 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.208.188.156 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
 :if ([:len [/ip/route/find dst-address=54.208.8.73 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.208.8.73 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
 :if ([:len [/ip/route/find dst-address=54.209.173.123 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.209.173.123 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
 :if ([:len [/ip/route/find dst-address=54.209.199.58 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=54.209.199.58 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
@@ -96,9 +102,3 @@
 :if ([:len [/ip/route/find dst-address=65.9.175.99 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.175.99 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
 :if ([:len [/ip/route/find dst-address=65.9.187.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.187.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
 :if ([:len [/ip/route/find dst-address=65.9.187.16 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.187.16 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=65.9.187.23 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.187.23 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=65.9.187.34 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.187.34 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=65.9.187.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.187.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=65.9.187.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.187.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=65.9.187.74 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.187.74 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }
-:if ([:len [/ip/route/find dst-address=65.9.187.92 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=65.9.187.92 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=signal.org }

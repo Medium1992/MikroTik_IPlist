@@ -2,12 +2,6 @@
 :global RouteTab
 :global GateWay
 /ip route
-:if ([:len [/ip/route/find dst-address=74.96.158.0/26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.158.0/26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
-:if ([:len [/ip/route/find dst-address=74.96.158.128/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.158.128/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
-:if ([:len [/ip/route/find dst-address=74.96.158.64/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.158.64/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
-:if ([:len [/ip/route/find dst-address=74.96.158.80/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.158.80/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
-:if ([:len [/ip/route/find dst-address=74.96.158.82/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.158.82/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
-:if ([:len [/ip/route/find dst-address=74.96.158.84/30 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.158.84/30 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
 :if ([:len [/ip/route/find dst-address=74.96.158.88/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.158.88/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
 :if ([:len [/ip/route/find dst-address=74.96.158.96/27 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.158.96/27 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
 :if ([:len [/ip/route/find dst-address=74.96.159.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.159.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
@@ -102,3 +96,9 @@
 :if ([:len [/ip/route/find dst-address=74.96.8.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.8.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
 :if ([:len [/ip/route/find dst-address=74.96.80.0/21 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.80.0/21 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
 :if ([:len [/ip/route/find dst-address=74.96.88.0/22 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.88.0/22 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
+:if ([:len [/ip/route/find dst-address=74.96.92.0/24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.92.0/24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
+:if ([:len [/ip/route/find dst-address=74.96.93.0/28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.93.0/28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
+:if ([:len [/ip/route/find dst-address=74.96.93.128/25 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.93.128/25 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
+:if ([:len [/ip/route/find dst-address=74.96.93.16/29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.93.16/29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
+:if ([:len [/ip/route/find dst-address=74.96.93.24/31 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.93.24/31 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }
+:if ([:len [/ip/route/find dst-address=74.96.93.27/32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=74.96.93.27/32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=AS701 }

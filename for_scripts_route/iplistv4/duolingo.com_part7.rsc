@@ -2,6 +2,15 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=107.20.143.142 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.143.142 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=107.20.148.42 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.148.42 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=107.20.153.161 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.153.161 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=107.20.157.49 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.157.49 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=107.20.162.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.162.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=107.20.167.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.167.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=107.20.168.60 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.168.60 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=107.20.176.94 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.176.94 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=107.20.180.255 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.180.255 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.20.188.218 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.188.218 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.20.188.63 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.188.63 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.20.200.105 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.200.105 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
@@ -19,6 +28,7 @@
 :if ([:len [/ip/route/find dst-address=107.20.228.47 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.228.47 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.20.236.13 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.236.13 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.20.236.83 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.236.83 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=107.20.239.165 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.239.165 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.20.239.96 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.239.96 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.20.243.12 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.243.12 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.20.243.34 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.20.243.34 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
@@ -82,6 +92,7 @@
 :if ([:len [/ip/route/find dst-address=107.23.131.122 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.131.122 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.23.135.94 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.135.94 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.23.149.133 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.149.133 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
+:if ([:len [/ip/route/find dst-address=107.23.172.217 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.172.217 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.23.184.175 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.184.175 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.23.187.120 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.187.120 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.23.188.132 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.188.132 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
@@ -91,14 +102,3 @@
 :if ([:len [/ip/route/find dst-address=107.23.24.26 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.24.26 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.23.26.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.26.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
 :if ([:len [/ip/route/find dst-address=107.23.28.136 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.28.136 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=107.23.49.46 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.49.46 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=107.23.54.137 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.54.137 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=107.23.57.201 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.57.201 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=107.23.69.242 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.69.242 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=107.23.70.18 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.70.18 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=107.23.77.101 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.77.101 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=107.23.86.112 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.86.112 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=107.23.95.169 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.95.169 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=107.23.99.199 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=107.23.99.199 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=108.138.128.107 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.138.128.107 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }
-:if ([:len [/ip/route/find dst-address=108.138.128.125 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=108.138.128.125 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=duolingo.com }

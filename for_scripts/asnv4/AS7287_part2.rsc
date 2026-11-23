@@ -32,6 +32,7 @@
 :if ([:len [find where list=$AddressList and address=216.100.136.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.100.136.0/22 }
 :if ([:len [find where list=$AddressList and address=216.100.180.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.100.180.0/22 }
 :if ([:len [find where list=$AddressList and address=216.100.36.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.100.36.0/22 }
+:if ([:len [find where list=$AddressList and address=216.100.68.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.100.68.0/22 }
 :if ([:len [find where list=$AddressList and address=216.100.72.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.100.72.0/22 }
 :if ([:len [find where list=$AddressList and address=216.100.80.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.100.80.0/22 }
 :if ([:len [find where list=$AddressList and address=216.101.104.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.101.104.0/22 }
@@ -42,6 +43,7 @@
 :if ([:len [find where list=$AddressList and address=216.102.124.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.102.124.0/22 }
 :if ([:len [find where list=$AddressList and address=216.103.204.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.103.204.0/22 }
 :if ([:len [find where list=$AddressList and address=216.103.228.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.103.228.0/22 }
+:if ([:len [find where list=$AddressList and address=216.103.240.0/23]] = 0) do={ add list=$AddressList comment=AS7287 address=216.103.240.0/23 }
 :if ([:len [find where list=$AddressList and address=216.103.243.0/24]] = 0) do={ add list=$AddressList comment=AS7287 address=216.103.243.0/24 }
 :if ([:len [find where list=$AddressList and address=216.61.116.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.61.116.0/22 }
 :if ([:len [find where list=$AddressList and address=216.61.164.0/22]] = 0) do={ add list=$AddressList comment=AS7287 address=216.61.164.0/22 }

@@ -1,5 +1,16 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=2.19.126.140]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.140 }
+:if ([:len [find where list=$AddressList and address=2.19.126.143]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.143 }
+:if ([:len [find where list=$AddressList and address=2.19.126.148]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.148 }
+:if ([:len [find where list=$AddressList and address=2.19.126.151]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.151 }
+:if ([:len [find where list=$AddressList and address=2.19.126.198]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.198 }
+:if ([:len [find where list=$AddressList and address=2.19.126.199]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.199 }
+:if ([:len [find where list=$AddressList and address=2.19.126.202]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.202 }
+:if ([:len [find where list=$AddressList and address=2.19.126.203]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.203 }
+:if ([:len [find where list=$AddressList and address=2.19.126.206]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.206 }
+:if ([:len [find where list=$AddressList and address=2.19.126.209]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.209 }
+:if ([:len [find where list=$AddressList and address=2.19.126.212]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.212 }
 :if ([:len [find where list=$AddressList and address=2.19.126.214]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.214 }
 :if ([:len [find where list=$AddressList and address=2.19.126.218]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.218 }
 :if ([:len [find where list=$AddressList and address=2.19.126.219]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.126.219 }
@@ -169,14 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.19.205.83]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.205.83 }
 :if ([:len [find where list=$AddressList and address=2.19.205.88]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.205.88 }
 :if ([:len [find where list=$AddressList and address=2.19.205.89]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.205.89 }
-:if ([:len [find where list=$AddressList and address=2.19.205.9]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.205.9 }
-:if ([:len [find where list=$AddressList and address=2.19.205.91]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.205.91 }
-:if ([:len [find where list=$AddressList and address=2.19.205.97]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.205.97 }
-:if ([:len [find where list=$AddressList and address=2.19.205.98]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.205.98 }
-:if ([:len [find where list=$AddressList and address=2.19.205.99]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.205.99 }
-:if ([:len [find where list=$AddressList and address=2.19.250.162]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.250.162 }
-:if ([:len [find where list=$AddressList and address=2.19.250.163]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.250.163 }
-:if ([:len [find where list=$AddressList and address=2.19.250.168]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.250.168 }
-:if ([:len [find where list=$AddressList and address=2.19.250.170]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.250.170 }
-:if ([:len [find where list=$AddressList and address=2.19.250.172]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.250.172 }
-:if ([:len [find where list=$AddressList and address=2.19.251.56]] = 0) do={ add list=$AddressList comment=spotify.com address=2.19.251.56 }

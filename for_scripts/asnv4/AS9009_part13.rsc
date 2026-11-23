@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=79.121.188.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=79.121.188.0/23 }
+:if ([:len [find where list=$AddressList and address=79.121.194.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=79.121.194.0/23 }
+:if ([:len [find where list=$AddressList and address=79.121.208.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=79.121.208.0/23 }
+:if ([:len [find where list=$AddressList and address=79.121.222.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=79.121.222.0/23 }
+:if ([:len [find where list=$AddressList and address=79.121.226.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=79.121.226.0/23 }
+:if ([:len [find where list=$AddressList and address=79.121.238.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=79.121.238.0/23 }
+:if ([:len [find where list=$AddressList and address=79.182.130.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=79.182.130.0/24 }
 :if ([:len [find where list=$AddressList and address=80.174.116.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=80.174.116.0/24 }
 :if ([:len [find where list=$AddressList and address=80.71.225.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=80.71.225.0/24 }
 :if ([:len [find where list=$AddressList and address=80.76.52.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=80.76.52.0/22 }
@@ -46,6 +53,7 @@
 :if ([:len [find where list=$AddressList and address=82.21.138.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=82.21.138.0/24 }
 :if ([:len [find where list=$AddressList and address=82.21.217.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=82.21.217.0/24 }
 :if ([:len [find where list=$AddressList and address=82.21.240.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=82.21.240.0/24 }
+:if ([:len [find where list=$AddressList and address=82.21.93.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=82.21.93.0/24 }
 :if ([:len [find where list=$AddressList and address=82.22.14.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=82.22.14.0/24 }
 :if ([:len [find where list=$AddressList and address=82.22.242.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=82.22.242.0/24 }
 :if ([:len [find where list=$AddressList and address=82.23.12.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=82.23.12.0/24 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=84.39.116.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=84.39.116.0/24 }
 :if ([:len [find where list=$AddressList and address=84.39.118.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=84.39.118.0/23 }
 :if ([:len [find where list=$AddressList and address=84.46.170.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=84.46.170.0/24 }
-:if ([:len [find where list=$AddressList and address=84.46.234.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=84.46.234.0/23 }
-:if ([:len [find where list=$AddressList and address=85.120.184.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=85.120.184.0/24 }
-:if ([:len [find where list=$AddressList and address=85.120.226.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=85.120.226.0/23 }
-:if ([:len [find where list=$AddressList and address=85.120.228.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=85.120.228.0/23 }
-:if ([:len [find where list=$AddressList and address=85.120.44.0/24]] = 0) do={ add list=$AddressList comment=AS9009 address=85.120.44.0/24 }
-:if ([:len [find where list=$AddressList and address=85.120.84.0/23]] = 0) do={ add list=$AddressList comment=AS9009 address=85.120.84.0/23 }
-:if ([:len [find where list=$AddressList and address=85.121.120.0/21]] = 0) do={ add list=$AddressList comment=AS9009 address=85.121.120.0/21 }
-:if ([:len [find where list=$AddressList and address=85.121.168.0/22]] = 0) do={ add list=$AddressList comment=AS9009 address=85.121.168.0/22 }

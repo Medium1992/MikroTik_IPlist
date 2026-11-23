@@ -1,9 +1,5 @@
 :global AddressList
 /ip firewall address-list
-:if ([:len [find where list=$AddressList and address=47.226.196.0/22]] = 0) do={ add list=$AddressList comment=AS20115 address=47.226.196.0/22 }
-:if ([:len [find where list=$AddressList and address=47.226.200.0/21]] = 0) do={ add list=$AddressList comment=AS20115 address=47.226.200.0/21 }
-:if ([:len [find where list=$AddressList and address=47.226.208.0/20]] = 0) do={ add list=$AddressList comment=AS20115 address=47.226.208.0/20 }
-:if ([:len [find where list=$AddressList and address=47.226.224.0/19]] = 0) do={ add list=$AddressList comment=AS20115 address=47.226.224.0/19 }
 :if ([:len [find where list=$AddressList and address=47.226.32.0/20]] = 0) do={ add list=$AddressList comment=AS20115 address=47.226.32.0/20 }
 :if ([:len [find where list=$AddressList and address=47.226.48.0/23]] = 0) do={ add list=$AddressList comment=AS20115 address=47.226.48.0/23 }
 :if ([:len [find where list=$AddressList and address=47.226.50.0/25]] = 0) do={ add list=$AddressList comment=AS20115 address=47.226.50.0/25 }
@@ -180,3 +176,7 @@
 :if ([:len [find where list=$AddressList and address=47.232.130.70/31]] = 0) do={ add list=$AddressList comment=AS20115 address=47.232.130.70/31 }
 :if ([:len [find where list=$AddressList and address=47.232.130.72/29]] = 0) do={ add list=$AddressList comment=AS20115 address=47.232.130.72/29 }
 :if ([:len [find where list=$AddressList and address=47.232.130.80/28]] = 0) do={ add list=$AddressList comment=AS20115 address=47.232.130.80/28 }
+:if ([:len [find where list=$AddressList and address=47.232.130.96/27]] = 0) do={ add list=$AddressList comment=AS20115 address=47.232.130.96/27 }
+:if ([:len [find where list=$AddressList and address=47.232.131.0/24]] = 0) do={ add list=$AddressList comment=AS20115 address=47.232.131.0/24 }
+:if ([:len [find where list=$AddressList and address=47.232.132.0/22]] = 0) do={ add list=$AddressList comment=AS20115 address=47.232.132.0/22 }
+:if ([:len [find where list=$AddressList and address=47.232.136.0/21]] = 0) do={ add list=$AddressList comment=AS20115 address=47.232.136.0/21 }

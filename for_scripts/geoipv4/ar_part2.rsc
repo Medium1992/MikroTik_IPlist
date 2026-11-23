@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=104.29.192.244/31]] = 0) do={ add list=$AddressList comment=ar address=104.29.192.244/31 }
+:if ([:len [find where list=$AddressList and address=104.29.195.12/30]] = 0) do={ add list=$AddressList comment=ar address=104.29.195.12/30 }
+:if ([:len [find where list=$AddressList and address=104.29.195.189/32]] = 0) do={ add list=$AddressList comment=ar address=104.29.195.189/32 }
+:if ([:len [find where list=$AddressList and address=104.29.195.190/31]] = 0) do={ add list=$AddressList comment=ar address=104.29.195.190/31 }
 :if ([:len [find where list=$AddressList and address=104.29.195.192/32]] = 0) do={ add list=$AddressList comment=ar address=104.29.195.192/32 }
 :if ([:len [find where list=$AddressList and address=104.29.195.218/31]] = 0) do={ add list=$AddressList comment=ar address=104.29.195.218/31 }
 :if ([:len [find where list=$AddressList and address=104.29.195.220/31]] = 0) do={ add list=$AddressList comment=ar address=104.29.195.220/31 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=131.255.180.0/22]] = 0) do={ add list=$AddressList comment=ar address=131.255.180.0/22 }
 :if ([:len [find where list=$AddressList and address=131.255.240.0/23]] = 0) do={ add list=$AddressList comment=ar address=131.255.240.0/23 }
 :if ([:len [find where list=$AddressList and address=131.255.248.0/22]] = 0) do={ add list=$AddressList comment=ar address=131.255.248.0/22 }
-:if ([:len [find where list=$AddressList and address=131.255.5.0/24]] = 0) do={ add list=$AddressList comment=ar address=131.255.5.0/24 }
-:if ([:len [find where list=$AddressList and address=131.255.6.0/23]] = 0) do={ add list=$AddressList comment=ar address=131.255.6.0/23 }
-:if ([:len [find where list=$AddressList and address=131.255.60.0/22]] = 0) do={ add list=$AddressList comment=ar address=131.255.60.0/22 }
-:if ([:len [find where list=$AddressList and address=131.72.0.0/22]] = 0) do={ add list=$AddressList comment=ar address=131.72.0.0/22 }

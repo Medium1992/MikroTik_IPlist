@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.155.129.128]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.129.128 }
+:if ([:len [find where list=$AddressList and address=18.155.129.29]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.129.29 }
+:if ([:len [find where list=$AddressList and address=18.155.129.30]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.129.30 }
+:if ([:len [find where list=$AddressList and address=18.155.129.5]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.129.5 }
 :if ([:len [find where list=$AddressList and address=18.155.129.80]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.129.80 }
 :if ([:len [find where list=$AddressList and address=18.155.129.83]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.129.83 }
 :if ([:len [find where list=$AddressList and address=18.155.129.9]] = 0) do={ add list=$AddressList comment=naukri.com address=18.155.129.9 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.165.183.44]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.183.44 }
 :if ([:len [find where list=$AddressList and address=18.165.183.46]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.183.46 }
 :if ([:len [find where list=$AddressList and address=18.165.183.6]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.183.6 }
-:if ([:len [find where list=$AddressList and address=18.165.183.61]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.183.61 }
-:if ([:len [find where list=$AddressList and address=18.165.183.69]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.183.69 }
-:if ([:len [find where list=$AddressList and address=18.165.183.70]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.183.70 }
-:if ([:len [find where list=$AddressList and address=18.165.183.77]] = 0) do={ add list=$AddressList comment=naukri.com address=18.165.183.77 }

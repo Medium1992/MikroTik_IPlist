@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.160.150.106]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.106 }
+:if ([:len [find where list=$AddressList and address=3.160.150.117]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.117 }
+:if ([:len [find where list=$AddressList and address=3.160.150.119]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.119 }
+:if ([:len [find where list=$AddressList and address=3.160.150.126]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.126 }
 :if ([:len [find where list=$AddressList and address=3.160.150.27]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.27 }
 :if ([:len [find where list=$AddressList and address=3.160.150.46]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.46 }
 :if ([:len [find where list=$AddressList and address=3.160.150.55]] = 0) do={ add list=$AddressList comment=zapier.com address=3.160.150.55 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.164.68.89]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.68.89 }
 :if ([:len [find where list=$AddressList and address=3.164.85.48]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.48 }
 :if ([:len [find where list=$AddressList and address=3.164.85.53]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.53 }
-:if ([:len [find where list=$AddressList and address=3.164.85.64]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.64 }
-:if ([:len [find where list=$AddressList and address=3.164.85.73]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.73 }
-:if ([:len [find where list=$AddressList and address=3.164.85.79]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.79 }
-:if ([:len [find where list=$AddressList and address=3.164.85.81]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.81 }

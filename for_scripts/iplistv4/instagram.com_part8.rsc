@@ -1,5 +1,6 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=57.144.84.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.84.5 }
 :if ([:len [find where list=$AddressList and address=57.144.86.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.86.5 }
 :if ([:len [find where list=$AddressList and address=57.144.88.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.88.5 }
 :if ([:len [find where list=$AddressList and address=57.144.90.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.144.90.5 }
@@ -17,6 +18,7 @@
 :if ([:len [find where list=$AddressList and address=57.145.20.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.145.20.5 }
 :if ([:len [find where list=$AddressList and address=57.145.24.192]] = 0) do={ add list=$AddressList comment=instagram.com address=57.145.24.192 }
 :if ([:len [find where list=$AddressList and address=57.145.24.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.145.24.5 }
+:if ([:len [find where list=$AddressList and address=57.145.28.5]] = 0) do={ add list=$AddressList comment=instagram.com address=57.145.28.5 }
 :if ([:len [find where list=$AddressList and address=57.145.4.128]] = 0) do={ add list=$AddressList comment=instagram.com address=57.145.4.128 }
 :if ([:len [find where list=$AddressList and address=57.145.4.141]] = 0) do={ add list=$AddressList comment=instagram.com address=57.145.4.141 }
 :if ([:len [find where list=$AddressList and address=57.145.4.144]] = 0) do={ add list=$AddressList comment=instagram.com address=57.145.4.144 }

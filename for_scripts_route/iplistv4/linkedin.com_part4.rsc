@@ -2,6 +2,7 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=2.16.106.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.106.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.16.106.29 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.106.29 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.16.106.6 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.106.6 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.16.106.8 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.106.8 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
@@ -77,6 +78,8 @@
 :if ([:len [/ip/route/find dst-address=2.16.183.238 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.183.238 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.16.2.186 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.2.186 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.16.2.192 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.2.192 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
+:if ([:len [/ip/route/find dst-address=2.16.2.195 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.2.195 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
+:if ([:len [/ip/route/find dst-address=2.16.2.208 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.2.208 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.16.202.10 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.202.10 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.16.202.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.202.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.16.202.84 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.202.84 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=2.16.53.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.53.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.16.53.32 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.53.32 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
 :if ([:len [/ip/route/find dst-address=2.16.53.41 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.53.41 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=2.16.53.43 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.53.43 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=2.16.53.57 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.53.57 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }
-:if ([:len [/ip/route/find dst-address=2.16.53.59 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=2.16.53.59 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=linkedin.com }

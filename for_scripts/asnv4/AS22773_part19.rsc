@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=68.7.52.128/26]] = 0) do={ add list=$AddressList comment=AS22773 address=68.7.52.128/26 }
+:if ([:len [find where list=$AddressList and address=68.7.52.192/27]] = 0) do={ add list=$AddressList comment=AS22773 address=68.7.52.192/27 }
+:if ([:len [find where list=$AddressList and address=68.7.52.224/29]] = 0) do={ add list=$AddressList comment=AS22773 address=68.7.52.224/29 }
+:if ([:len [find where list=$AddressList and address=68.7.52.232/31]] = 0) do={ add list=$AddressList comment=AS22773 address=68.7.52.232/31 }
 :if ([:len [find where list=$AddressList and address=68.7.52.235/32]] = 0) do={ add list=$AddressList comment=AS22773 address=68.7.52.235/32 }
 :if ([:len [find where list=$AddressList and address=68.7.52.236/30]] = 0) do={ add list=$AddressList comment=AS22773 address=68.7.52.236/30 }
 :if ([:len [find where list=$AddressList and address=68.7.52.240/28]] = 0) do={ add list=$AddressList comment=AS22773 address=68.7.52.240/28 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=68.9.93.140/31]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.93.140/31 }
 :if ([:len [find where list=$AddressList and address=68.9.93.142/32]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.93.142/32 }
 :if ([:len [find where list=$AddressList and address=68.9.93.144/28]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.93.144/28 }
-:if ([:len [find where list=$AddressList and address=68.9.93.160/27]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.93.160/27 }
-:if ([:len [find where list=$AddressList and address=68.9.93.192/26]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.93.192/26 }
-:if ([:len [find where list=$AddressList and address=68.9.94.0/23]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.94.0/23 }
-:if ([:len [find where list=$AddressList and address=68.9.96.0/19]] = 0) do={ add list=$AddressList comment=AS22773 address=68.9.96.0/19 }

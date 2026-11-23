@@ -3,7 +3,6 @@
 :if ([:len [find where list=$AddressList and address=102.135.18.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=102.135.18.0/24 }
 :if ([:len [find where list=$AddressList and address=102.135.8.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=102.135.8.0/24 }
 :if ([:len [find where list=$AddressList and address=104.234.82.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=104.234.82.0/24 }
-:if ([:len [find where list=$AddressList and address=104.234.88.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=104.234.88.0/24 }
 :if ([:len [find where list=$AddressList and address=104.234.9.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=104.234.9.0/24 }
 :if ([:len [find where list=$AddressList and address=109.72.121.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=109.72.121.0/24 }
 :if ([:len [find where list=$AddressList and address=110.172.188.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=110.172.188.0/24 }
@@ -54,7 +53,6 @@
 :if ([:len [find where list=$AddressList and address=89.187.27.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=89.187.27.0/24 }
 :if ([:len [find where list=$AddressList and address=89.187.31.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=89.187.31.0/24 }
 :if ([:len [find where list=$AddressList and address=89.187.9.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=89.187.9.0/24 }
-:if ([:len [find where list=$AddressList and address=89.34.228.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=89.34.228.0/24 }
 :if ([:len [find where list=$AddressList and address=89.34.231.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=89.34.231.0/24 }
 :if ([:len [find where list=$AddressList and address=89.35.93.0/24]] = 0) do={ add list=$AddressList comment=AS402236 address=89.35.93.0/24 }
 :if ([:len [find where list=$AddressList and address=89.35.94.0/23]] = 0) do={ add list=$AddressList comment=AS402236 address=89.35.94.0/23 }

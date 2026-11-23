@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.245.86.118]] = 0) do={ add list=$AddressList comment=naukri.com address=18.245.86.118 }
+:if ([:len [find where list=$AddressList and address=18.245.86.43]] = 0) do={ add list=$AddressList comment=naukri.com address=18.245.86.43 }
+:if ([:len [find where list=$AddressList and address=18.245.86.46]] = 0) do={ add list=$AddressList comment=naukri.com address=18.245.86.46 }
+:if ([:len [find where list=$AddressList and address=18.245.86.8]] = 0) do={ add list=$AddressList comment=naukri.com address=18.245.86.8 }
 :if ([:len [find where list=$AddressList and address=18.64.103.21]] = 0) do={ add list=$AddressList comment=naukri.com address=18.64.103.21 }
 :if ([:len [find where list=$AddressList and address=18.64.103.40]] = 0) do={ add list=$AddressList comment=naukri.com address=18.64.103.40 }
 :if ([:len [find where list=$AddressList and address=18.64.103.6]] = 0) do={ add list=$AddressList comment=naukri.com address=18.64.103.6 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=18.66.26.19]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.19 }
 :if ([:len [find where list=$AddressList and address=18.66.26.4]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.4 }
 :if ([:len [find where list=$AddressList and address=18.66.26.44]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.44 }
-:if ([:len [find where list=$AddressList and address=18.66.26.45]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.45 }
-:if ([:len [find where list=$AddressList and address=18.66.26.46]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.46 }
-:if ([:len [find where list=$AddressList and address=18.66.26.49]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.49 }
-:if ([:len [find where list=$AddressList and address=18.66.26.5]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.5 }

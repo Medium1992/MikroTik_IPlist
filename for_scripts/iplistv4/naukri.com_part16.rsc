@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.66.26.45]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.45 }
+:if ([:len [find where list=$AddressList and address=18.66.26.46]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.46 }
+:if ([:len [find where list=$AddressList and address=18.66.26.49]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.49 }
+:if ([:len [find where list=$AddressList and address=18.66.26.5]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.5 }
 :if ([:len [find where list=$AddressList and address=18.66.26.50]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.50 }
 :if ([:len [find where list=$AddressList and address=18.66.26.55]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.55 }
 :if ([:len [find where list=$AddressList and address=18.66.26.79]] = 0) do={ add list=$AddressList comment=naukri.com address=18.66.26.79 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=184.51.252.147]] = 0) do={ add list=$AddressList comment=naukri.com address=184.51.252.147 }
 :if ([:len [find where list=$AddressList and address=184.51.252.163]] = 0) do={ add list=$AddressList comment=naukri.com address=184.51.252.163 }
 :if ([:len [find where list=$AddressList and address=184.51.252.164]] = 0) do={ add list=$AddressList comment=naukri.com address=184.51.252.164 }
-:if ([:len [find where list=$AddressList and address=184.51.252.184]] = 0) do={ add list=$AddressList comment=naukri.com address=184.51.252.184 }
-:if ([:len [find where list=$AddressList and address=184.51.252.196]] = 0) do={ add list=$AddressList comment=naukri.com address=184.51.252.196 }
-:if ([:len [find where list=$AddressList and address=184.51.252.207]] = 0) do={ add list=$AddressList comment=naukri.com address=184.51.252.207 }
-:if ([:len [find where list=$AddressList and address=184.51.88.21]] = 0) do={ add list=$AddressList comment=naukri.com address=184.51.88.21 }

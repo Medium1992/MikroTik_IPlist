@@ -1,5 +1,12 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=34.242.174.145]] = 0) do={ add list=$AddressList comment=miro.com address=34.242.174.145 }
+:if ([:len [find where list=$AddressList and address=34.242.19.116]] = 0) do={ add list=$AddressList comment=miro.com address=34.242.19.116 }
+:if ([:len [find where list=$AddressList and address=34.242.197.84]] = 0) do={ add list=$AddressList comment=miro.com address=34.242.197.84 }
+:if ([:len [find where list=$AddressList and address=34.242.202.20]] = 0) do={ add list=$AddressList comment=miro.com address=34.242.202.20 }
+:if ([:len [find where list=$AddressList and address=34.242.23.176]] = 0) do={ add list=$AddressList comment=miro.com address=34.242.23.176 }
+:if ([:len [find where list=$AddressList and address=34.242.29.135]] = 0) do={ add list=$AddressList comment=miro.com address=34.242.29.135 }
+:if ([:len [find where list=$AddressList and address=34.242.40.120]] = 0) do={ add list=$AddressList comment=miro.com address=34.242.40.120 }
 :if ([:len [find where list=$AddressList and address=34.242.55.82]] = 0) do={ add list=$AddressList comment=miro.com address=34.242.55.82 }
 :if ([:len [find where list=$AddressList and address=34.242.60.2]] = 0) do={ add list=$AddressList comment=miro.com address=34.242.60.2 }
 :if ([:len [find where list=$AddressList and address=34.242.79.163]] = 0) do={ add list=$AddressList comment=miro.com address=34.242.79.163 }
@@ -116,6 +123,7 @@
 :if ([:len [find where list=$AddressList and address=34.248.8.124]] = 0) do={ add list=$AddressList comment=miro.com address=34.248.8.124 }
 :if ([:len [find where list=$AddressList and address=34.248.85.222]] = 0) do={ add list=$AddressList comment=miro.com address=34.248.85.222 }
 :if ([:len [find where list=$AddressList and address=34.248.85.26]] = 0) do={ add list=$AddressList comment=miro.com address=34.248.85.26 }
+:if ([:len [find where list=$AddressList and address=34.248.90.129]] = 0) do={ add list=$AddressList comment=miro.com address=34.248.90.129 }
 :if ([:len [find where list=$AddressList and address=34.249.102.88]] = 0) do={ add list=$AddressList comment=miro.com address=34.249.102.88 }
 :if ([:len [find where list=$AddressList and address=34.249.105.129]] = 0) do={ add list=$AddressList comment=miro.com address=34.249.105.129 }
 :if ([:len [find where list=$AddressList and address=34.249.11.103]] = 0) do={ add list=$AddressList comment=miro.com address=34.249.11.103 }
@@ -172,11 +180,3 @@
 :if ([:len [find where list=$AddressList and address=34.250.170.187]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.170.187 }
 :if ([:len [find where list=$AddressList and address=34.250.176.34]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.176.34 }
 :if ([:len [find where list=$AddressList and address=34.250.178.203]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.178.203 }
-:if ([:len [find where list=$AddressList and address=34.250.179.239]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.179.239 }
-:if ([:len [find where list=$AddressList and address=34.250.191.93]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.191.93 }
-:if ([:len [find where list=$AddressList and address=34.250.193.53]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.193.53 }
-:if ([:len [find where list=$AddressList and address=34.250.209.131]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.209.131 }
-:if ([:len [find where list=$AddressList and address=34.250.219.140]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.219.140 }
-:if ([:len [find where list=$AddressList and address=34.250.22.154]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.22.154 }
-:if ([:len [find where list=$AddressList and address=34.250.236.176]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.236.176 }
-:if ([:len [find where list=$AddressList and address=34.250.237.133]] = 0) do={ add list=$AddressList comment=miro.com address=34.250.237.133 }

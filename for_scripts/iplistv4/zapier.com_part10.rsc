@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.174.18.14]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.14 }
+:if ([:len [find where list=$AddressList and address=3.174.18.15]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.15 }
+:if ([:len [find where list=$AddressList and address=3.174.18.19]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.19 }
+:if ([:len [find where list=$AddressList and address=3.174.18.26]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.26 }
 :if ([:len [find where list=$AddressList and address=3.174.18.28]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.28 }
 :if ([:len [find where list=$AddressList and address=3.174.18.31]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.31 }
 :if ([:len [find where list=$AddressList and address=3.174.18.45]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.45 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=52.85.185.15]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.185.15 }
 :if ([:len [find where list=$AddressList and address=52.85.185.28]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.185.28 }
 :if ([:len [find where list=$AddressList and address=52.85.185.29]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.185.29 }
-:if ([:len [find where list=$AddressList and address=52.85.185.38]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.185.38 }
-:if ([:len [find where list=$AddressList and address=52.85.185.59]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.185.59 }
-:if ([:len [find where list=$AddressList and address=52.85.185.67]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.185.67 }
-:if ([:len [find where list=$AddressList and address=52.85.185.68]] = 0) do={ add list=$AddressList comment=zapier.com address=52.85.185.68 }

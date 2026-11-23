@@ -1,5 +1,11 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=2.16.10.173]] = 0) do={ add list=$AddressList comment=facebook.com address=2.16.10.173 }
+:if ([:len [find where list=$AddressList and address=2.16.10.174]] = 0) do={ add list=$AddressList comment=facebook.com address=2.16.10.174 }
+:if ([:len [find where list=$AddressList and address=2.16.10.178]] = 0) do={ add list=$AddressList comment=facebook.com address=2.16.10.178 }
+:if ([:len [find where list=$AddressList and address=2.16.10.183]] = 0) do={ add list=$AddressList comment=facebook.com address=2.16.10.183 }
+:if ([:len [find where list=$AddressList and address=2.16.103.115]] = 0) do={ add list=$AddressList comment=facebook.com address=2.16.103.115 }
+:if ([:len [find where list=$AddressList and address=2.16.103.18]] = 0) do={ add list=$AddressList comment=facebook.com address=2.16.103.18 }
 :if ([:len [find where list=$AddressList and address=2.16.103.19]] = 0) do={ add list=$AddressList comment=facebook.com address=2.16.103.19 }
 :if ([:len [find where list=$AddressList and address=2.16.103.32]] = 0) do={ add list=$AddressList comment=facebook.com address=2.16.103.32 }
 :if ([:len [find where list=$AddressList and address=2.16.103.40]] = 0) do={ add list=$AddressList comment=facebook.com address=2.16.103.40 }
@@ -88,6 +94,7 @@
 :if ([:len [find where list=$AddressList and address=2.17.251.14]] = 0) do={ add list=$AddressList comment=facebook.com address=2.17.251.14 }
 :if ([:len [find where list=$AddressList and address=2.17.251.15]] = 0) do={ add list=$AddressList comment=facebook.com address=2.17.251.15 }
 :if ([:len [find where list=$AddressList and address=2.17.251.18]] = 0) do={ add list=$AddressList comment=facebook.com address=2.17.251.18 }
+:if ([:len [find where list=$AddressList and address=2.17.251.183]] = 0) do={ add list=$AddressList comment=facebook.com address=2.17.251.183 }
 :if ([:len [find where list=$AddressList and address=2.17.251.19]] = 0) do={ add list=$AddressList comment=facebook.com address=2.17.251.19 }
 :if ([:len [find where list=$AddressList and address=2.17.251.23]] = 0) do={ add list=$AddressList comment=facebook.com address=2.17.251.23 }
 :if ([:len [find where list=$AddressList and address=2.17.251.25]] = 0) do={ add list=$AddressList comment=facebook.com address=2.17.251.25 }
@@ -164,19 +171,12 @@
 :if ([:len [find where list=$AddressList and address=2.19.126.157]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.126.157 }
 :if ([:len [find where list=$AddressList and address=2.19.126.204]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.126.204 }
 :if ([:len [find where list=$AddressList and address=2.19.126.211]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.126.211 }
+:if ([:len [find where list=$AddressList and address=2.19.183.164]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.183.164 }
+:if ([:len [find where list=$AddressList and address=2.19.183.177]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.183.177 }
+:if ([:len [find where list=$AddressList and address=2.19.183.180]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.183.180 }
 :if ([:len [find where list=$AddressList and address=2.19.192.104]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.192.104 }
 :if ([:len [find where list=$AddressList and address=2.19.192.33]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.192.33 }
 :if ([:len [find where list=$AddressList and address=2.19.197.10]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.197.10 }
 :if ([:len [find where list=$AddressList and address=2.19.197.25]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.197.25 }
 :if ([:len [find where list=$AddressList and address=2.19.198.11]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.198.11 }
 :if ([:len [find where list=$AddressList and address=2.19.198.112]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.198.112 }
-:if ([:len [find where list=$AddressList and address=2.19.198.122]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.198.122 }
-:if ([:len [find where list=$AddressList and address=2.19.198.169]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.198.169 }
-:if ([:len [find where list=$AddressList and address=2.19.198.219]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.198.219 }
-:if ([:len [find where list=$AddressList and address=2.19.198.27]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.198.27 }
-:if ([:len [find where list=$AddressList and address=2.19.204.123]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.204.123 }
-:if ([:len [find where list=$AddressList and address=2.19.204.138]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.204.138 }
-:if ([:len [find where list=$AddressList and address=2.19.204.146]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.204.146 }
-:if ([:len [find where list=$AddressList and address=2.19.204.163]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.204.163 }
-:if ([:len [find where list=$AddressList and address=2.19.204.168]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.204.168 }
-:if ([:len [find where list=$AddressList and address=2.19.204.203]] = 0) do={ add list=$AddressList comment=facebook.com address=2.19.204.203 }

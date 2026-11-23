@@ -40,7 +40,6 @@
 :if ([:len [find where list=$AddressList and address=103.125.78.0/23]] = 0) do={ add list=$AddressList comment=AS212238 address=103.125.78.0/23 }
 :if ([:len [find where list=$AddressList and address=103.130.179.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=103.130.179.0/24 }
 :if ([:len [find where list=$AddressList and address=103.171.123.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=103.171.123.0/24 }
-:if ([:len [find where list=$AddressList and address=103.174.96.0/23]] = 0) do={ add list=$AddressList comment=AS212238 address=103.174.96.0/23 }
 :if ([:len [find where list=$AddressList and address=103.210.13.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=103.210.13.0/24 }
 :if ([:len [find where list=$AddressList and address=103.210.198.0/23]] = 0) do={ add list=$AddressList comment=AS212238 address=103.210.198.0/23 }
 :if ([:len [find where list=$AddressList and address=103.213.212.0/22]] = 0) do={ add list=$AddressList comment=AS212238 address=103.213.212.0/22 }
@@ -126,6 +125,7 @@
 :if ([:len [find where list=$AddressList and address=104.233.31.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=104.233.31.0/24 }
 :if ([:len [find where list=$AddressList and address=104.233.32.0/20]] = 0) do={ add list=$AddressList comment=AS212238 address=104.233.32.0/20 }
 :if ([:len [find where list=$AddressList and address=104.233.57.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=104.233.57.0/24 }
+:if ([:len [find where list=$AddressList and address=104.233.6.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=104.233.6.0/24 }
 :if ([:len [find where list=$AddressList and address=104.233.60.0/23]] = 0) do={ add list=$AddressList comment=AS212238 address=104.233.60.0/23 }
 :if ([:len [find where list=$AddressList and address=104.233.62.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=104.233.62.0/24 }
 :if ([:len [find where list=$AddressList and address=104.234.120.0/24]] = 0) do={ add list=$AddressList comment=AS212238 address=104.234.120.0/24 }

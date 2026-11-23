@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=3.164.85.64]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.64 }
+:if ([:len [find where list=$AddressList and address=3.164.85.73]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.73 }
+:if ([:len [find where list=$AddressList and address=3.164.85.79]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.79 }
+:if ([:len [find where list=$AddressList and address=3.164.85.81]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.81 }
 :if ([:len [find where list=$AddressList and address=3.164.85.82]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.82 }
 :if ([:len [find where list=$AddressList and address=3.164.85.83]] = 0) do={ add list=$AddressList comment=zapier.com address=3.164.85.83 }
 :if ([:len [find where list=$AddressList and address=3.165.113.101]] = 0) do={ add list=$AddressList comment=zapier.com address=3.165.113.101 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=3.174.18.100]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.100 }
 :if ([:len [find where list=$AddressList and address=3.174.18.127]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.127 }
 :if ([:len [find where list=$AddressList and address=3.174.18.129]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.129 }
-:if ([:len [find where list=$AddressList and address=3.174.18.14]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.14 }
-:if ([:len [find where list=$AddressList and address=3.174.18.15]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.15 }
-:if ([:len [find where list=$AddressList and address=3.174.18.19]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.19 }
-:if ([:len [find where list=$AddressList and address=3.174.18.26]] = 0) do={ add list=$AddressList comment=zapier.com address=3.174.18.26 }

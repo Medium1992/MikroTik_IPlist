@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=18.65.159.29]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.65.159.29 }
+:if ([:len [find where list=$AddressList and address=18.65.159.5]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.65.159.5 }
+:if ([:len [find where list=$AddressList and address=18.65.194.111]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.65.194.111 }
+:if ([:len [find where list=$AddressList and address=18.65.194.112]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.65.194.112 }
 :if ([:len [find where list=$AddressList and address=18.65.194.78]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.65.194.78 }
 :if ([:len [find where list=$AddressList and address=18.65.194.84]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.65.194.84 }
 :if ([:len [find where list=$AddressList and address=18.65.25.27]] = 0) do={ add list=$AddressList comment=currenttime.tv address=18.65.25.27 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=2.16.1.136]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.136 }
 :if ([:len [find where list=$AddressList and address=2.16.1.137]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.137 }
 :if ([:len [find where list=$AddressList and address=2.16.1.161]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.161 }
-:if ([:len [find where list=$AddressList and address=2.16.1.171]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.171 }
-:if ([:len [find where list=$AddressList and address=2.16.1.193]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.193 }
-:if ([:len [find where list=$AddressList and address=2.16.1.217]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.217 }
-:if ([:len [find where list=$AddressList and address=2.16.1.234]] = 0) do={ add list=$AddressList comment=currenttime.tv address=2.16.1.234 }

@@ -3,6 +3,7 @@
 :if ([:len [find where list=$AddressList and address=109.248.10.0/23]] = 0) do={ add list=$AddressList comment=AS204490 address=109.248.10.0/23 }
 :if ([:len [find where list=$AddressList and address=109.248.200.0/22]] = 0) do={ add list=$AddressList comment=AS204490 address=109.248.200.0/22 }
 :if ([:len [find where list=$AddressList and address=109.248.226.0/24]] = 0) do={ add list=$AddressList comment=AS204490 address=109.248.226.0/24 }
+:if ([:len [find where list=$AddressList and address=109.248.239.0/24]] = 0) do={ add list=$AddressList comment=AS204490 address=109.248.239.0/24 }
 :if ([:len [find where list=$AddressList and address=153.79.180.0/23]] = 0) do={ add list=$AddressList comment=AS204490 address=153.79.180.0/23 }
 :if ([:len [find where list=$AddressList and address=161.104.88.0/22]] = 0) do={ add list=$AddressList comment=AS204490 address=161.104.88.0/22 }
 :if ([:len [find where list=$AddressList and address=185.127.24.0/22]] = 0) do={ add list=$AddressList comment=AS204490 address=185.127.24.0/22 }
@@ -15,6 +16,7 @@
 :if ([:len [find where list=$AddressList and address=185.36.23.0/24]] = 0) do={ add list=$AddressList comment=AS204490 address=185.36.23.0/24 }
 :if ([:len [find where list=$AddressList and address=188.130.132.0/22]] = 0) do={ add list=$AddressList comment=AS204490 address=188.130.132.0/22 }
 :if ([:len [find where list=$AddressList and address=188.130.138.0/23]] = 0) do={ add list=$AddressList comment=AS204490 address=188.130.138.0/23 }
+:if ([:len [find where list=$AddressList and address=188.130.233.0/24]] = 0) do={ add list=$AddressList comment=AS204490 address=188.130.233.0/24 }
 :if ([:len [find where list=$AddressList and address=46.8.18.0/23]] = 0) do={ add list=$AddressList comment=AS204490 address=46.8.18.0/23 }
 :if ([:len [find where list=$AddressList and address=46.8.208.0/22]] = 0) do={ add list=$AddressList comment=AS204490 address=46.8.208.0/22 }
 :if ([:len [find where list=$AddressList and address=46.8.220.0/23]] = 0) do={ add list=$AddressList comment=AS204490 address=46.8.220.0/23 }

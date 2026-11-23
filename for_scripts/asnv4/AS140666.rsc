@@ -13,7 +13,6 @@
 :if ([:len [find where list=$AddressList and address=154.95.72.0/22]] = 0) do={ add list=$AddressList comment=AS140666 address=154.95.72.0/22 }
 :if ([:len [find where list=$AddressList and address=154.95.96.0/20]] = 0) do={ add list=$AddressList comment=AS140666 address=154.95.96.0/20 }
 :if ([:len [find where list=$AddressList and address=160.187.134.0/23]] = 0) do={ add list=$AddressList comment=AS140666 address=160.187.134.0/23 }
-:if ([:len [find where list=$AddressList and address=187.55.161.0/24]] = 0) do={ add list=$AddressList comment=AS140666 address=187.55.161.0/24 }
 :if ([:len [find where list=$AddressList and address=204.3.128.0/20]] = 0) do={ add list=$AddressList comment=AS140666 address=204.3.128.0/20 }
 :if ([:len [find where list=$AddressList and address=204.3.144.0/24]] = 0) do={ add list=$AddressList comment=AS140666 address=204.3.144.0/24 }
 :if ([:len [find where list=$AddressList and address=204.3.147.0/24]] = 0) do={ add list=$AddressList comment=AS140666 address=204.3.147.0/24 }
@@ -43,6 +42,7 @@
 :if ([:len [find where list=$AddressList and address=212.212.88.0/21]] = 0) do={ add list=$AddressList comment=AS140666 address=212.212.88.0/21 }
 :if ([:len [find where list=$AddressList and address=212.212.96.0/20]] = 0) do={ add list=$AddressList comment=AS140666 address=212.212.96.0/20 }
 :if ([:len [find where list=$AddressList and address=217.114.112.0/22]] = 0) do={ add list=$AddressList comment=AS140666 address=217.114.112.0/22 }
+:if ([:len [find where list=$AddressList and address=217.114.117.0/24]] = 0) do={ add list=$AddressList comment=AS140666 address=217.114.117.0/24 }
 :if ([:len [find where list=$AddressList and address=217.114.120.0/24]] = 0) do={ add list=$AddressList comment=AS140666 address=217.114.120.0/24 }
 :if ([:len [find where list=$AddressList and address=217.114.122.0/23]] = 0) do={ add list=$AddressList comment=AS140666 address=217.114.122.0/23 }
 :if ([:len [find where list=$AddressList and address=217.114.124.0/22]] = 0) do={ add list=$AddressList comment=AS140666 address=217.114.124.0/22 }

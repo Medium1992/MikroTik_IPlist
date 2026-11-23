@@ -1,5 +1,9 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=68.4.186.0/23]] = 0) do={ add list=$AddressList comment=AS22773 address=68.4.186.0/23 }
+:if ([:len [find where list=$AddressList and address=68.4.188.0/22]] = 0) do={ add list=$AddressList comment=AS22773 address=68.4.188.0/22 }
+:if ([:len [find where list=$AddressList and address=68.4.192.0/19]] = 0) do={ add list=$AddressList comment=AS22773 address=68.4.192.0/19 }
+:if ([:len [find where list=$AddressList and address=68.4.224.0/24]] = 0) do={ add list=$AddressList comment=AS22773 address=68.4.224.0/24 }
 :if ([:len [find where list=$AddressList and address=68.4.225.0/25]] = 0) do={ add list=$AddressList comment=AS22773 address=68.4.225.0/25 }
 :if ([:len [find where list=$AddressList and address=68.4.225.128/27]] = 0) do={ add list=$AddressList comment=AS22773 address=68.4.225.128/27 }
 :if ([:len [find where list=$AddressList and address=68.4.225.160/28]] = 0) do={ add list=$AddressList comment=AS22773 address=68.4.225.160/28 }
@@ -176,7 +180,3 @@
 :if ([:len [find where list=$AddressList and address=68.5.8.0/25]] = 0) do={ add list=$AddressList comment=AS22773 address=68.5.8.0/25 }
 :if ([:len [find where list=$AddressList and address=68.5.8.128/28]] = 0) do={ add list=$AddressList comment=AS22773 address=68.5.8.128/28 }
 :if ([:len [find where list=$AddressList and address=68.5.8.144/31]] = 0) do={ add list=$AddressList comment=AS22773 address=68.5.8.144/31 }
-:if ([:len [find where list=$AddressList and address=68.5.8.147/32]] = 0) do={ add list=$AddressList comment=AS22773 address=68.5.8.147/32 }
-:if ([:len [find where list=$AddressList and address=68.5.8.148/30]] = 0) do={ add list=$AddressList comment=AS22773 address=68.5.8.148/30 }
-:if ([:len [find where list=$AddressList and address=68.5.8.152/29]] = 0) do={ add list=$AddressList comment=AS22773 address=68.5.8.152/29 }
-:if ([:len [find where list=$AddressList and address=68.5.8.160/27]] = 0) do={ add list=$AddressList comment=AS22773 address=68.5.8.160/27 }

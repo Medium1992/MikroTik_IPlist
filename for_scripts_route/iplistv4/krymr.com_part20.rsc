@@ -2,6 +2,9 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=23.53.1.148 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.148 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=23.53.1.163 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.163 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
+:if ([:len [/ip/route/find dst-address=23.53.1.24 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.24 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=23.53.1.28 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.1.28 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=23.53.11.135 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.11.135 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=23.53.11.136 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.53.11.136 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=23.62.20.36 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.62.20.36 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=23.62.212.202 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.62.212.202 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
 :if ([:len [/ip/route/find dst-address=23.62.212.205 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.62.212.205 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=23.62.226.114 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.62.226.114 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=23.62.226.117 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.62.226.117 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }
-:if ([:len [/ip/route/find dst-address=23.63.115.79 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=23.63.115.79 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=krymr.com }

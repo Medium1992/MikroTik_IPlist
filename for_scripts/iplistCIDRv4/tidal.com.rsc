@@ -50,6 +50,7 @@
 :if ([:len [find where list=$AddressList and address=3.209.237.69/32]] = 0) do={ add list=$AddressList comment=tidal.com address=3.209.237.69/32 }
 :if ([:len [find where list=$AddressList and address=3.210.107.77/32]] = 0) do={ add list=$AddressList comment=tidal.com address=3.210.107.77/32 }
 :if ([:len [find where list=$AddressList and address=3.210.28.26/32]] = 0) do={ add list=$AddressList comment=tidal.com address=3.210.28.26/32 }
+:if ([:len [find where list=$AddressList and address=3.211.218.23/32]] = 0) do={ add list=$AddressList comment=tidal.com address=3.211.218.23/32 }
 :if ([:len [find where list=$AddressList and address=3.212.45.84/32]] = 0) do={ add list=$AddressList comment=tidal.com address=3.212.45.84/32 }
 :if ([:len [find where list=$AddressList and address=3.213.101.215/32]] = 0) do={ add list=$AddressList comment=tidal.com address=3.213.101.215/32 }
 :if ([:len [find where list=$AddressList and address=3.213.38.2/32]] = 0) do={ add list=$AddressList comment=tidal.com address=3.213.38.2/32 }
@@ -127,6 +128,7 @@
 :if ([:len [find where list=$AddressList and address=54.158.46.139/32]] = 0) do={ add list=$AddressList comment=tidal.com address=54.158.46.139/32 }
 :if ([:len [find where list=$AddressList and address=54.160.0.0/11]] = 0) do={ add list=$AddressList comment=tidal.com address=54.160.0.0/11 }
 :if ([:len [find where list=$AddressList and address=54.192.0.0/16]] = 0) do={ add list=$AddressList comment=tidal.com address=54.192.0.0/16 }
+:if ([:len [find where list=$AddressList and address=54.197.151.27/32]] = 0) do={ add list=$AddressList comment=tidal.com address=54.197.151.27/32 }
 :if ([:len [find where list=$AddressList and address=54.197.163.173/32]] = 0) do={ add list=$AddressList comment=tidal.com address=54.197.163.173/32 }
 :if ([:len [find where list=$AddressList and address=54.198.239.254/32]] = 0) do={ add list=$AddressList comment=tidal.com address=54.198.239.254/32 }
 :if ([:len [find where list=$AddressList and address=54.208.0.0/13]] = 0) do={ add list=$AddressList comment=tidal.com address=54.208.0.0/13 }

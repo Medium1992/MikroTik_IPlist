@@ -1,5 +1,8 @@
 :global AddressList
 /ip firewall address-list
+:if ([:len [find where list=$AddressList and address=34.249.115.57]] = 0) do={ add list=$AddressList comment=bbc.com address=34.249.115.57 }
+:if ([:len [find where list=$AddressList and address=34.249.116.164]] = 0) do={ add list=$AddressList comment=bbc.com address=34.249.116.164 }
+:if ([:len [find where list=$AddressList and address=34.249.117.82]] = 0) do={ add list=$AddressList comment=bbc.com address=34.249.117.82 }
 :if ([:len [find where list=$AddressList and address=34.249.121.54]] = 0) do={ add list=$AddressList comment=bbc.com address=34.249.121.54 }
 :if ([:len [find where list=$AddressList and address=34.249.125.213]] = 0) do={ add list=$AddressList comment=bbc.com address=34.249.125.213 }
 :if ([:len [find where list=$AddressList and address=34.249.133.243]] = 0) do={ add list=$AddressList comment=bbc.com address=34.249.133.243 }
@@ -41,6 +44,7 @@
 :if ([:len [find where list=$AddressList and address=34.250.115.109]] = 0) do={ add list=$AddressList comment=bbc.com address=34.250.115.109 }
 :if ([:len [find where list=$AddressList and address=34.250.127.194]] = 0) do={ add list=$AddressList comment=bbc.com address=34.250.127.194 }
 :if ([:len [find where list=$AddressList and address=34.250.131.219]] = 0) do={ add list=$AddressList comment=bbc.com address=34.250.131.219 }
+:if ([:len [find where list=$AddressList and address=34.250.16.251]] = 0) do={ add list=$AddressList comment=bbc.com address=34.250.16.251 }
 :if ([:len [find where list=$AddressList and address=34.250.160.114]] = 0) do={ add list=$AddressList comment=bbc.com address=34.250.160.114 }
 :if ([:len [find where list=$AddressList and address=34.250.174.178]] = 0) do={ add list=$AddressList comment=bbc.com address=34.250.174.178 }
 :if ([:len [find where list=$AddressList and address=34.250.178.131]] = 0) do={ add list=$AddressList comment=bbc.com address=34.250.178.131 }
@@ -94,6 +98,7 @@
 :if ([:len [find where list=$AddressList and address=34.251.221.116]] = 0) do={ add list=$AddressList comment=bbc.com address=34.251.221.116 }
 :if ([:len [find where list=$AddressList and address=34.251.221.140]] = 0) do={ add list=$AddressList comment=bbc.com address=34.251.221.140 }
 :if ([:len [find where list=$AddressList and address=34.251.222.237]] = 0) do={ add list=$AddressList comment=bbc.com address=34.251.222.237 }
+:if ([:len [find where list=$AddressList and address=34.251.231.48]] = 0) do={ add list=$AddressList comment=bbc.com address=34.251.231.48 }
 :if ([:len [find where list=$AddressList and address=34.251.242.150]] = 0) do={ add list=$AddressList comment=bbc.com address=34.251.242.150 }
 :if ([:len [find where list=$AddressList and address=34.251.243.55]] = 0) do={ add list=$AddressList comment=bbc.com address=34.251.243.55 }
 :if ([:len [find where list=$AddressList and address=34.251.246.78]] = 0) do={ add list=$AddressList comment=bbc.com address=34.251.246.78 }
@@ -175,8 +180,3 @@
 :if ([:len [find where list=$AddressList and address=34.254.128.243]] = 0) do={ add list=$AddressList comment=bbc.com address=34.254.128.243 }
 :if ([:len [find where list=$AddressList and address=34.254.132.31]] = 0) do={ add list=$AddressList comment=bbc.com address=34.254.132.31 }
 :if ([:len [find where list=$AddressList and address=34.254.135.130]] = 0) do={ add list=$AddressList comment=bbc.com address=34.254.135.130 }
-:if ([:len [find where list=$AddressList and address=34.254.15.82]] = 0) do={ add list=$AddressList comment=bbc.com address=34.254.15.82 }
-:if ([:len [find where list=$AddressList and address=34.254.169.139]] = 0) do={ add list=$AddressList comment=bbc.com address=34.254.169.139 }
-:if ([:len [find where list=$AddressList and address=34.254.18.217]] = 0) do={ add list=$AddressList comment=bbc.com address=34.254.18.217 }
-:if ([:len [find where list=$AddressList and address=34.254.210.198]] = 0) do={ add list=$AddressList comment=bbc.com address=34.254.210.198 }
-:if ([:len [find where list=$AddressList and address=34.254.220.155]] = 0) do={ add list=$AddressList comment=bbc.com address=34.254.220.155 }

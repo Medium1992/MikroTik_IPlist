@@ -2,6 +2,8 @@
 :global RouteTab
 :global GateWay
 /ip route
+:if ([:len [/ip/route/find dst-address=34.241.15.106 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.241.15.106 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=34.241.151.182 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.241.151.182 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=34.241.163.252 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.241.163.252 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=34.241.174.187 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.241.174.187 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=34.241.18.115 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.241.18.115 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
@@ -79,6 +81,7 @@
 :if ([:len [/ip/route/find dst-address=34.247.109.165 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.109.165 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=34.247.112.33 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.112.33 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=34.247.116.249 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.116.249 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
+:if ([:len [/ip/route/find dst-address=34.247.133.82 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.133.82 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=34.247.14.100 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.14.100 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=34.247.145.132 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.145.132 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=34.247.148.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.148.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
@@ -99,6 +102,3 @@
 :if ([:len [/ip/route/find dst-address=34.247.42.145 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.42.145 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=34.247.44.52 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.44.52 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
 :if ([:len [/ip/route/find dst-address=34.247.45.77 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.45.77 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=34.247.72.90 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.247.72.90 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=34.248.103.34 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.248.103.34 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
-:if ([:len [/ip/route/find dst-address=34.248.103.38 and gateway=$GateWay and routing-table=$RouteTab]] = 0) do={ add dst-address=34.248.103.38 gateway=$GateWay routing-table=$RouteTab distance=$Distance comment=bbc.com }
